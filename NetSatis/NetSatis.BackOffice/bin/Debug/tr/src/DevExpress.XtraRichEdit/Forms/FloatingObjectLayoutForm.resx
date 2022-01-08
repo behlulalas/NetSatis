@@ -1,0 +1,1813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <metadata name="tabPagePosition.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblVerticalAbsolutePosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 173</value>
+  </data>
+  <data name="lblVerticalAbsolutePosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="lblVerticalAbsolutePosition.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="lblVerticalAbsolutePosition.Text" xml:space="preserve">
+    <value>belo&amp;w</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalAbsolutePosition.Name" xml:space="preserve">
+    <value>lblVerticalAbsolutePosition</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalAbsolutePosition.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalAbsolutePosition.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalAbsolutePosition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHorizontalAbsolutePosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 72</value>
+  </data>
+  <data name="lblHorizontalAbsolutePosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblHorizontalAbsolutePosition.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="lblHorizontalAbsolutePosition.Text" xml:space="preserve">
+    <value>&amp;to the right of</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalAbsolutePosition.Name" xml:space="preserve">
+    <value>lblHorizontalAbsolutePosition</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalAbsolutePosition.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalAbsolutePosition.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalAbsolutePosition.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblVerticalPositionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 144</value>
+  </data>
+  <data name="lblVerticalPositionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblVerticalPositionType.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="lblVerticalPositionType.Text" xml:space="preserve">
+    <value>r&amp;elative to</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalPositionType.Name" xml:space="preserve">
+    <value>lblVerticalPositionType</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalPositionType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalPositionType.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;lblVerticalPositionType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblHorizontalPositionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 43</value>
+  </data>
+  <data name="lblHorizontalPositionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblHorizontalPositionType.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lblHorizontalPositionType.Text" xml:space="preserve">
+    <value>&amp;relative to</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalPositionType.Name" xml:space="preserve">
+    <value>lblHorizontalPositionType</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalPositionType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalPositionType.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontalPositionType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="spnVerticalAbsolutePosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 170</value>
+  </data>
+  <data name="spnVerticalAbsolutePosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="spnVerticalAbsolutePosition.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;spnVerticalAbsolutePosition.Name" xml:space="preserve">
+    <value>spnVerticalAbsolutePosition</value>
+  </data>
+  <data name="&gt;&gt;spnVerticalAbsolutePosition.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnVerticalAbsolutePosition.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;spnVerticalAbsolutePosition.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="spnHorizontalAbsolutePosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 69</value>
+  </data>
+  <data name="spnHorizontalAbsolutePosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="spnHorizontalAbsolutePosition.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;spnHorizontalAbsolutePosition.Name" xml:space="preserve">
+    <value>spnHorizontalAbsolutePosition</value>
+  </data>
+  <data name="&gt;&gt;spnHorizontalAbsolutePosition.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnHorizontalAbsolutePosition.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;spnHorizontalAbsolutePosition.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkLock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 247</value>
+  </data>
+  <data name="chkLock.Properties.Caption" xml:space="preserve">
+    <value>&amp;Lock anchor</value>
+  </data>
+  <data name="chkLock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 19</value>
+  </data>
+  <data name="chkLock.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;chkLock.Name" xml:space="preserve">
+    <value>chkLock</value>
+  </data>
+  <data name="&gt;&gt;chkLock.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkLock.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;chkLock.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbVerticalAbsolutePositionBelow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 170</value>
+  </data>
+  <data name="cbVerticalAbsolutePositionBelow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="cbVerticalAbsolutePositionBelow.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAbsolutePositionBelow.Name" xml:space="preserve">
+    <value>cbVerticalAbsolutePositionBelow</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAbsolutePositionBelow.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAbsolutePositionBelow.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAbsolutePositionBelow.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbVerticalPositionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 141</value>
+  </data>
+  <data name="cbVerticalPositionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="cbVerticalPositionType.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalPositionType.Name" xml:space="preserve">
+    <value>cbVerticalPositionType</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalPositionType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalPositionType.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalPositionType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbVerticalAlignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 141</value>
+  </data>
+  <data name="cbVerticalAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="cbVerticalAlignment.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAlignment.Name" xml:space="preserve">
+    <value>cbVerticalAlignment</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAlignment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAlignment.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;cbVerticalAlignment.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cbHorizontalAbsolutePositionRightOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 69</value>
+  </data>
+  <data name="cbHorizontalAbsolutePositionRightOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="cbHorizontalAbsolutePositionRightOf.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAbsolutePositionRightOf.Name" xml:space="preserve">
+    <value>cbHorizontalAbsolutePositionRightOf</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAbsolutePositionRightOf.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAbsolutePositionRightOf.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAbsolutePositionRightOf.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbHorizontalPositionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 40</value>
+  </data>
+  <data name="cbHorizontalPositionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="cbHorizontalPositionType.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalPositionType.Name" xml:space="preserve">
+    <value>cbHorizontalPositionType</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalPositionType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalPositionType.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalPositionType.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cbHorizontalAlignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 40</value>
+  </data>
+  <data name="cbHorizontalAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="cbHorizontalAlignment.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAlignment.Name" xml:space="preserve">
+    <value>cbHorizontalAlignment</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAlignment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAlignment.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;cbHorizontalAlignment.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="rgVertical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 133</value>
+  </data>
+  <data name="rgVertical.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="rgVertical.Properties.Items" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgVertical.Properties.Items1" xml:space="preserve">
+    <value>Ali&amp;gnment</value>
+  </data>
+  <data name="rgVertical.Properties.Items2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgVertical.Properties.Items3" xml:space="preserve">
+    <value>Absolute po&amp;sition</value>
+  </data>
+  <data name="rgVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 66</value>
+  </data>
+  <data name="rgVertical.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;rgVertical.Name" xml:space="preserve">
+    <value>rgVertical</value>
+  </data>
+  <data name="&gt;&gt;rgVertical.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;rgVertical.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;rgVertical.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rgHorizontal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 31</value>
+  </data>
+  <data name="rgHorizontal.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="rgHorizontal.Properties.Items" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgHorizontal.Properties.Items1" xml:space="preserve">
+    <value>&amp;Alignment</value>
+  </data>
+  <data name="rgHorizontal.Properties.Items2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgHorizontal.Properties.Items3" xml:space="preserve">
+    <value>Absolute &amp;position</value>
+  </data>
+  <data name="rgHorizontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 66</value>
+  </data>
+  <data name="rgHorizontal.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;rgHorizontal.Name" xml:space="preserve">
+    <value>rgHorizontal</value>
+  </data>
+  <data name="&gt;&gt;rgHorizontal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;rgHorizontal.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;rgHorizontal.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 219</value>
+  </data>
+  <data name="lblOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lblOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.Name" xml:space="preserve">
+    <value>lblOptions</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblVertical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 114</value>
+  </data>
+  <data name="lblVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblVertical.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblVertical.Text" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;lblVertical.Name" xml:space="preserve">
+    <value>lblVertical</value>
+  </data>
+  <data name="&gt;&gt;lblVertical.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblVertical.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;lblVertical.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblHorizontal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="lblHorizontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblHorizontal.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lblHorizontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontal.Name" xml:space="preserve">
+    <value>lblHorizontal</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontal.Parent" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;lblHorizontal.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tabPagePosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>573, 322</value>
+  </data>
+  <data name="tabPagePosition.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="&gt;&gt;tabPagePosition.Name" xml:space="preserve">
+    <value>tabPagePosition</value>
+  </data>
+  <data name="&gt;&gt;tabPagePosition.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;tabPagePosition.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPagePosition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>579, 350</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="spnRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 282</value>
+  </data>
+  <data name="spnRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="spnRight.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;spnRight.Name" xml:space="preserve">
+    <value>spnRight</value>
+  </data>
+  <data name="&gt;&gt;spnRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnRight.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;spnRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spnLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 256</value>
+  </data>
+  <data name="spnLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="spnLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;spnLeft.Name" xml:space="preserve">
+    <value>spnLeft</value>
+  </data>
+  <data name="&gt;&gt;spnLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnLeft.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;spnLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 282</value>
+  </data>
+  <data name="spnBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="spnBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;spnBottom.Name" xml:space="preserve">
+    <value>spnBottom</value>
+  </data>
+  <data name="&gt;&gt;spnBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnBottom.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;spnBottom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="spnTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 256</value>
+  </data>
+  <data name="spnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="spnTop.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;spnTop.Name" xml:space="preserve">
+    <value>spnTop</value>
+  </data>
+  <data name="&gt;&gt;spnTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnTop.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;spnTop.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 285</value>
+  </data>
+  <data name="lblRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lblRight.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="lblRight.Text" xml:space="preserve">
+    <value>Ri&amp;ght</value>
+  </data>
+  <data name="&gt;&gt;lblRight.Name" xml:space="preserve">
+    <value>lblRight</value>
+  </data>
+  <data name="&gt;&gt;lblRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblRight.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;lblRight.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 259</value>
+  </data>
+  <data name="lblLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="lblLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblLeft.Text" xml:space="preserve">
+    <value>L&amp;eft</value>
+  </data>
+  <data name="&gt;&gt;lblLeft.Name" xml:space="preserve">
+    <value>lblLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblLeft.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;lblLeft.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 285</value>
+  </data>
+  <data name="lblBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lblBottom.Text" xml:space="preserve">
+    <value>Botto&amp;m</value>
+  </data>
+  <data name="&gt;&gt;lblBottom.Name" xml:space="preserve">
+    <value>lblBottom</value>
+  </data>
+  <data name="&gt;&gt;lblBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblBottom.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;lblBottom.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 259</value>
+  </data>
+  <data name="lblTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 13</value>
+  </data>
+  <data name="lblTop.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lblTop.Text" xml:space="preserve">
+    <value>To&amp;p</value>
+  </data>
+  <data name="&gt;&gt;lblTop.Name" xml:space="preserve">
+    <value>lblTop</value>
+  </data>
+  <data name="&gt;&gt;lblTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblTop.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;lblTop.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rgTextWrapSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 201</value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items1" xml:space="preserve">
+    <value>Both &amp;sides</value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items3" xml:space="preserve">
+    <value>&amp;Left only</value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items5" xml:space="preserve">
+    <value>&amp;Right only</value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value></value>
+  </data>
+  <data name="rgTextWrapSide.Properties.Items7" xml:space="preserve">
+    <value>L&amp;argest only</value>
+  </data>
+  <data name="rgTextWrapSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 28</value>
+  </data>
+  <data name="rgTextWrapSide.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;rgTextWrapSide.Name" xml:space="preserve">
+    <value>rgTextWrapSide</value>
+  </data>
+  <data name="&gt;&gt;rgTextWrapSide.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;rgTextWrapSide.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;rgTextWrapSide.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 235</value>
+  </data>
+  <data name="lblDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="lblDistance.Text" xml:space="preserve">
+    <value>Distance from text</value>
+  </data>
+  <data name="&gt;&gt;lblDistance.Name" xml:space="preserve">
+    <value>lblDistance</value>
+  </data>
+  <data name="&gt;&gt;lblDistance.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblDistance.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;lblDistance.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="WrapText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 182</value>
+  </data>
+  <data name="WrapText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="WrapText.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="WrapText.Text" xml:space="preserve">
+    <value>Wrap text</value>
+  </data>
+  <data name="&gt;&gt;WrapText.Name" xml:space="preserve">
+    <value>WrapText</value>
+  </data>
+  <data name="&gt;&gt;WrapText.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;WrapText.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;WrapText.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="columnsPresetControlBehind.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlBehind.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="columnsPresetControlBehind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 103</value>
+  </data>
+  <data name="columnsPresetControlBehind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 73</value>
+  </data>
+  <data name="columnsPresetControlBehind.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="columnsPresetControlBehind.Text" xml:space="preserve">
+    <value>&amp;Behind text</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlBehind.Name" xml:space="preserve">
+    <value>columnsPresetControlBehind</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlBehind.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlBehind.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlBehind.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="columnsPresetControlInFrontOf.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlInFrontOf.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAB5hJREFUWEe1
+        l1lQlfcZxkmzmESzaJu0V52mExVUZFG0asEYFzQaQ8c2N4kTL7rEpCZSrCOE5YCAEEQEQVFwS2JUFMPY
+        bKgElWxuuchNM2M0EZF957AdIG+f5/1//8M5Zmx70X4zP97viMP7PP93+b4TgOsucDe4B9x7G/f9F4z5
+        D9x/G/w3/u2fAOYOuHvvscvVB8q/Ej9OmLjfRnL8ihw4buI+YOJl2XfssuwtuyyliKVllwxHDSVHLske
+        y+GLshvsfOeLs44IFXAvE/w/rx8Iflh2HbogyMvT4CkE3Ee3vEbw25ERgP80jB/Dw4BR70cQR2QI/0Y8
+        +KwMmTiI6IdnWAY8IzIwOCz9PjAHToACHrACxhwov6ICvMmQSPEmNYwmhQCfZJ6hYScpEmpiQz8+M2kf
+        kw8gAgoofEsFPAjYewFj9vsIGAK7UU+yBzXcreAzYrH9jHoWe7loOHxJdqG+Xt5FrZULSu/AkMIcBQc/
+        o4CxVsD9bCgV4Dht7+wHfdLWYWj1iaTFG3uVZtI+ShNpY3QjuqWx1S1uHwH5+z/1F1AKt7xsbb2ugLph
+        tPd0hajuDl+QIrgrwn0RGstSeOhLKXzHsMPB3T8EPJojb28NBYyzAh7guPDShgI/duzjFJ+NU7ePWzo1
+        sdGHBjhvaOkBbunp80h335CecG7pOX8BnFEVgKYZREN5awc3kctWS/SqtbLqpU0Sn/Xuj5ztePsLLwnZ
+        RyTmxTiJWrpagmculnw0W/7Bz5VuFcATGJGte85SwENWwINcDrzs6FjHZFNqnoRHxUj4b2MkbN5zsjbW
+        Jddqm0adwuX1ulZZvylDgmcvleBZS2Xi1Hny8rp4dV7f3KN093qkyz2oJ/xm8Sf+ArgYeOn4YGQK36az
+        L6UArlx57yH5cxI6byV4VkLnrpAFy9fI1pJq2Q5nefvPy+KYPyNxtEyLiJag8KflicBZsjH9EH73mWzb
+        96nS5aYAj45rVpEKeNgKGMvFwMsuC9bXdjJdro1NRWIkn7NCCZmzXBI356nD5IwCdR0csUSm4tifnDpX
+        nn/xZbkF10pTt9SBTrgnFJBZeNoK4PMnYCwXgwrQZTFk6nbgc+MQMT6rTJ2HIvH03zwDlmmMS31LpuPY
+        p800ya2AdYklklN6XnJKauTNkvOgRjp6BhWWOL1ABTxiBYzjYuDFTcVZtbUl7OTK6otw/YyEMPnsZU6t
+        l+DIAZJOmYHk4YskKHQBjn+2lJ88Izcbux26pLahS9q7B6StZ0BPOC2/kgIe9QrgYuADg8uC85qLmuXu
+        JTVKZlGlREa/oImn4bhtYjqeMmOREhS2UH6N5KEQmZRTIVm7z0lW8TnZopyVti4IABSQuu0jPwEP5e2r
+        MQIwpz1YFg2tZna1izHH5Ot/3pCIqJWaXI+biek6fKEmDwpbIFPC5suFr76RG3BM1zfqR2lF8taufn0u
+        pOR+SAHjvQJyUSc+JnsggLPKmrF22XtQP5ANN6vWJDiJzXHzqANDn0ZigKMPDH1KJodESfTv1krGzmrJ
+        QKcbqiUdsaVzAPRriZNyPvAT8DAXAwVwVinAdu9oF/fIwuUvmKMGE4MjJSgkUq58/a1ERD6ryQND5ssk
+        CAiJWCjf13c6dCnf4d5XQEL2+xQwwSsgu7haBXQ5y4I127LrrGQiZu6qVuiexx0Y8pQ8MTlCVjy/XtIL
+        P5Hfr0mSydOjZBKYOG2e/PLJMEnJ+1jSdlRJWkGVpBacUZqRvLmjX3ts05Z/WAF8Kwp4JGtnFQT8gDn1
+        6Kxybm8688tOrgVRi/+AI56PRpslUYti5JvrjfI96nz1RpssXblaJk6ZK7+aNFPC5yxWx9dvARvrOqWx
+        vU/hM2Fj5kkK+KlXQGbRGUeAmVXWbDPc0WF6YZXe/2VjsXb4TGzEuLQjcEV3VeKCu7jNZTJj7krs/yXy
+        p7id4so/LSnbfTllBLT1aYk3ZFT4CXg0fccpfVPpwJy2g1qdXTi3nYxo62lqauqqTi10aoHja7fRgOSE
+        Zf5bmgr4mVdA2vZKFdCGZdHePeitW2q+waWcFtf2M6Ou8k4pyXCXvA3wHiThXsmtVBIdGlp7pR7wlGPT
+        TlDAY1bAeBeahi+jFMBlYTuXnWycGtd+dXW4RhyX3zLeRARXGWs75KoDk9e39mmJ17vK/QRMSMn9SF+V
+        uCiIunIcqSvLNri5g8PE3I/lja2VADGH94YE3JM6CKhr6dWV/FrycQp43CsgEYuBAjinFh0bvBdydPgW
+        1AQa2/sdUE8L6lqPp2Y9Ixzy/haS3UIyg1sTk5vNbmnHCa9LOmYF8JtVwIT4bCNAkznz2kTYuXpvRohd
+        zISGXpOcR0sBTOoHEzvJm5kc4J4r+dXEMj8B47kYKGD0fd68F3Bv8wnJRzQ3WK++WAKMEudZVzeXl4N9
+        5ttHLyeKTW17i8lbUOJXEo769cC4WFdZ9d8zToqhQjZsBukVmO8KjMx7SmzqCWV9arm8jiZSUshxeS3l
+        mKxLBjha8ldAl5ZX3jiqSZX4I/LHDQf53dD7PsBj4BsqVyNnk8p84VHdiZ//G35xB/g3mZzfkvWrGX/w
+        3YzHcTv2K/j/GjpH3oC7/gW2oI6LVVq7JQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="columnsPresetControlInFrontOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 103</value>
+  </data>
+  <data name="columnsPresetControlInFrontOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 73</value>
+  </data>
+  <data name="columnsPresetControlInFrontOf.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="columnsPresetControlInFrontOf.Text" xml:space="preserve">
+    <value>In &amp;front of text</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlInFrontOf.Name" xml:space="preserve">
+    <value>columnsPresetControlInFrontOf</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlInFrontOf.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlInFrontOf.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlInFrontOf.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="columnsPresetControlThought.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlThought.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="columnsPresetControlThought.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 28</value>
+  </data>
+  <data name="columnsPresetControlThought.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 73</value>
+  </data>
+  <data name="columnsPresetControlThought.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="columnsPresetControlThought.Text" xml:space="preserve">
+    <value>T&amp;hrough</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThought.Name" xml:space="preserve">
+    <value>columnsPresetControlThought</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThought.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThought.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThought.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="columnsPresetControlTopAndBottom.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlTopAndBottom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="columnsPresetControlTopAndBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 103</value>
+  </data>
+  <data name="columnsPresetControlTopAndBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 73</value>
+  </data>
+  <data name="columnsPresetControlTopAndBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="columnsPresetControlTopAndBottom.Text" xml:space="preserve">
+    <value>T&amp;op and bottom</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTopAndBottom.Name" xml:space="preserve">
+    <value>columnsPresetControlTopAndBottom</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTopAndBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTopAndBottom.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTopAndBottom.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="columnsPresetControlTight.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlTight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        ox7+QrV+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="columnsPresetControlTight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 28</value>
+  </data>
+  <data name="columnsPresetControlTight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 73</value>
+  </data>
+  <data name="columnsPresetControlTight.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="columnsPresetControlTight.Text" xml:space="preserve">
+    <value>&amp;Tight</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTight.Name" xml:space="preserve">
+    <value>columnsPresetControlTight</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTight.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTight.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTight.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="columnsPresetControlSquare.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlSquare.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="columnsPresetControlSquare.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="columnsPresetControlSquare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 28</value>
+  </data>
+  <data name="columnsPresetControlSquare.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 73</value>
+  </data>
+  <data name="columnsPresetControlSquare.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="columnsPresetControlSquare.Text" xml:space="preserve">
+    <value>S&amp;quare</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlSquare.Name" xml:space="preserve">
+    <value>columnsPresetControlSquare</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlSquare.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Forms.Design.ColumnsPresetControl, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlSquare.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlSquare.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblWrappingStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="lblWrappingStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblWrappingStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="lblWrappingStyle.Text" xml:space="preserve">
+    <value>Wrapping style</value>
+  </data>
+  <data name="&gt;&gt;lblWrappingStyle.Name" xml:space="preserve">
+    <value>lblWrappingStyle</value>
+  </data>
+  <data name="&gt;&gt;lblWrappingStyle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblWrappingStyle.Parent" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;lblWrappingStyle.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tabPageTextWrapping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>573, 322</value>
+  </data>
+  <data name="tabPageTextWrapping.Text" xml:space="preserve">
+    <value>Text Wrapping</value>
+  </data>
+  <data name="&gt;&gt;tabPageTextWrapping.Name" xml:space="preserve">
+    <value>tabPageTextWrapping</value>
+  </data>
+  <data name="&gt;&gt;tabPageTextWrapping.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;tabPageTextWrapping.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageTextWrapping.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnReset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 284</value>
+  </data>
+  <data name="btnReset.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOriginalSizeWidthValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 284</value>
+  </data>
+  <data name="lblOriginalSizeWidthValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblOriginalSizeWidthValue.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lblOriginalSizeWidthValue.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidthValue.Name" xml:space="preserve">
+    <value>lblOriginalSizeWidthValue</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidthValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidthValue.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidthValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOriginalSizeHeightValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 284</value>
+  </data>
+  <data name="lblOriginalSizeHeightValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblOriginalSizeHeightValue.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="lblOriginalSizeHeightValue.Text" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeightValue.Name" xml:space="preserve">
+    <value>lblOriginalSizeHeightValue</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeightValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeightValue.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeightValue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblWidthAbsolute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 96</value>
+  </data>
+  <data name="lblWidthAbsolute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblWidthAbsolute.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="lblWidthAbsolute.Text" xml:space="preserve">
+    <value>Absolute:</value>
+  </data>
+  <data name="&gt;&gt;lblWidthAbsolute.Name" xml:space="preserve">
+    <value>lblWidthAbsolute</value>
+  </data>
+  <data name="&gt;&gt;lblWidthAbsolute.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblWidthAbsolute.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblWidthAbsolute.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblHeightAbsolute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 36</value>
+  </data>
+  <data name="lblHeightAbsolute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblHeightAbsolute.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="lblHeightAbsolute.Text" xml:space="preserve">
+    <value>Absolute:</value>
+  </data>
+  <data name="&gt;&gt;lblHeightAbsolute.Name" xml:space="preserve">
+    <value>lblHeightAbsolute</value>
+  </data>
+  <data name="&gt;&gt;lblHeightAbsolute.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblHeightAbsolute.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblHeightAbsolute.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblOriginalSizeWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 284</value>
+  </data>
+  <data name="lblOriginalSizeWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblOriginalSizeWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="lblOriginalSizeWidth.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidth.Name" xml:space="preserve">
+    <value>lblOriginalSizeWidth</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidth.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidth.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeWidth.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblOriginalSizeHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 284</value>
+  </data>
+  <data name="lblOriginalSizeHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblOriginalSizeHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="lblOriginalSizeHeight.Text" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeight.Name" xml:space="preserve">
+    <value>lblOriginalSizeHeight</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeight.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSizeHeight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblOriginalSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 265</value>
+  </data>
+  <data name="lblOriginalSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblOriginalSize.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="lblOriginalSize.Text" xml:space="preserve">
+    <value>Original size</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSize.Name" xml:space="preserve">
+    <value>lblOriginalSize</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSize.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblOriginalSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="spnWidthAbs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 93</value>
+  </data>
+  <data name="spnWidthAbs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="spnWidthAbs.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;spnWidthAbs.Name" xml:space="preserve">
+    <value>spnWidthAbs</value>
+  </data>
+  <data name="&gt;&gt;spnWidthAbs.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnWidthAbs.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;spnWidthAbs.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 70</value>
+  </data>
+  <data name="lblWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lblWidth.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;lblWidth.Name" xml:space="preserve">
+    <value>lblWidth</value>
+  </data>
+  <data name="&gt;&gt;lblWidth.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblWidth.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblWidth.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="spnHeightAbs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 33</value>
+  </data>
+  <data name="spnHeightAbs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="spnHeightAbs.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;spnHeightAbs.Name" xml:space="preserve">
+    <value>spnHeightAbs</value>
+  </data>
+  <data name="&gt;&gt;spnHeightAbs.Type" xml:space="preserve">
+    <value>DevExpress.XtraRichEdit.Design.RichTextIndentEdit, DevExpress.XtraRichEdit.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnHeightAbs.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;spnHeightAbs.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 10</value>
+  </data>
+  <data name="lblHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="lblHeight.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="&gt;&gt;lblHeight.Name" xml:space="preserve">
+    <value>lblHeight</value>
+  </data>
+  <data name="&gt;&gt;lblHeight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblHeight.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblHeight.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblRotation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 158</value>
+  </data>
+  <data name="lblRotation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblRotation.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lblRotation.Text" xml:space="preserve">
+    <value>Ro&amp;tation:</value>
+  </data>
+  <data name="&gt;&gt;lblRotation.Name" xml:space="preserve">
+    <value>lblRotation</value>
+  </data>
+  <data name="&gt;&gt;lblRotation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblRotation.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblRotation.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblRotate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 132</value>
+  </data>
+  <data name="lblRotate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblRotate.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="lblRotate.Text" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="&gt;&gt;lblRotate.Name" xml:space="preserve">
+    <value>lblRotate</value>
+  </data>
+  <data name="&gt;&gt;lblRotate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblRotate.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblRotate.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="spnRotation.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="spnRotation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 155</value>
+  </data>
+  <data name="spnRotation.Properties.Mask.EditMask" xml:space="preserve">
+    <value>######0°</value>
+  </data>
+  <data name="spnRotation.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="spnRotation.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="spnRotation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="spnRotation.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;spnRotation.Name" xml:space="preserve">
+    <value>spnRotation</value>
+  </data>
+  <data name="&gt;&gt;spnRotation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;spnRotation.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;spnRotation.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chkLockAspectRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 216</value>
+  </data>
+  <data name="chkLockAspectRatio.Properties.Caption" xml:space="preserve">
+    <value>Lock &amp;aspect ratio</value>
+  </data>
+  <data name="chkLockAspectRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 19</value>
+  </data>
+  <data name="chkLockAspectRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;chkLockAspectRatio.Name" xml:space="preserve">
+    <value>chkLockAspectRatio</value>
+  </data>
+  <data name="&gt;&gt;chkLockAspectRatio.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkLockAspectRatio.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;chkLockAspectRatio.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 197</value>
+  </data>
+  <data name="lblScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 13</value>
+  </data>
+  <data name="lblScale.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="lblScale.Text" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="&gt;&gt;lblScale.Name" xml:space="preserve">
+    <value>lblScale</value>
+  </data>
+  <data name="&gt;&gt;lblScale.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblScale.Parent" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;lblScale.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tabPageSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>573, 322</value>
+  </data>
+  <data name="tabPageSize.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="&gt;&gt;tabPageSize.Name" xml:space="preserve">
+    <value>tabPageSize</value>
+  </data>
+  <data name="&gt;&gt;tabPageSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;tabPageSize.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 363</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 363</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>590, 396</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FloatingObjectLayoutForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
+</root>

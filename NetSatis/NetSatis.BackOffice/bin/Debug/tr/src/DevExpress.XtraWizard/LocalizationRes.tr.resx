@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WizardStringId.CancelText" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="WizardStringId.WizardTitle" xml:space="preserve">
+    <value>Sihirbaz Başlığı</value>
+  </data>
+  <data name="WizardStringId.CaptionError" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="WizardStringId.CompletionPageProceedText" xml:space="preserve">
+    <value>Sihirbazı kapatmak için Bitir'i tıklayınız</value>
+  </data>
+  <data name="WizardStringId.HelpText" xml:space="preserve">
+    <value>&amp;Yardım</value>
+  </data>
+  <data name="WizardStringId.WelcomePageIntroductionText" xml:space="preserve">
+    <value>Bu sihirbaz kullanıcının karmaşık işlem kümesini basit adımlara indirgeyerek tamamlamasına yardım eder.</value>
+  </data>
+  <data name="WizardStringId.PageDescriptionText" xml:space="preserve">
+    <value>Sihirbaz sayfa alt başlığı: kullanıcıya alt görevleri tamamlamak için yardımcı olur</value>
+  </data>
+  <data name="WizardStringId.CompletionPageFinishText" xml:space="preserve">
+    <value>Sihirbazı başarı ile tamamladınız</value>
+  </data>
+  <data name="WizardStringId.CompletionPageTitleText" xml:space="preserve">
+    <value>Sihirbaz tamamlanıyor</value>
+  </data>
+  <data name="WizardStringId.InteriorPageTitleText" xml:space="preserve">
+    <value>Sihirbaz Sayfa Başlığı</value>
+  </data>
+  <data name="WizardStringId.PreviousText" xml:space="preserve">
+    <value>&lt; Geri</value>
+  </data>
+  <data name="WizardStringId.NextText" xml:space="preserve">
+    <value>İleri &gt;</value>
+  </data>
+  <data name="WizardStringId.FinishText" xml:space="preserve">
+    <value>&amp;Bitir</value>
+  </data>
+  <data name="WizardStringId.WelcomePageTitleText" xml:space="preserve">
+    <value>Sihirbaz'a hoşgeldiniz</value>
+  </data>
+  <data name="WizardStringId.WelcomePageProceedText" xml:space="preserve">
+    <value>Devam etmek için İleri'yi tıklayın</value>
+  </data>
+</root>

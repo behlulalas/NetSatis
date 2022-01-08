@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionProvider_AtLeastOneColumnExpected" xml:space="preserve">
+    <value>En az 1 sütun gerekli</value>
+  </data>
+  <data name="ConnectionProvider_TableNameTooLong" xml:space="preserve">
+    <value>Veritabanında '{0}' tablosu oluşturulamadı. Tablo adı çok uzun(64 karakterden fazla)</value>
+  </data>
+  <data name="ConnectionProvider_UnableToCreateDBObject" xml:space="preserve">
+    <value>'{0}''{1}' yaratılamadı. Üst: '{2}' Hata:{3}</value>
+  </data>
+  <data name="ConnectionProvider_Locking" xml:space="preserve">
+    <value>Nesne kaydedilemedi. Bşka bir uygulama tarafından silinmiş vey değiştirilmiş olabilir.</value>
+  </data>
+  <data name="ConnectionProvider_SqlExecutionError" xml:space="preserve">
+    <value>'{1}' değişkenleri ile '{0}' sql metni çalıştırılırken oluşan hata '{2}'</value>
+  </data>
+  <data name="ConnectionProvider_ColumnNameTooLong" xml:space="preserve">
+    <value>'{0}' tablosunda '{1}' sütunu oluşturulamadı. Sütun adı çok uzun(64 karakterden fazla)</value>
+  </data>
+  <data name="ConnectionProvider_UnableToFillRefType" xml:space="preserve">
+    <value>'{0}' tipinin '{1}' için olan veritabanı şeması olduğu kesinleştirilemedi.
+Hata: {2}</value>
+  </data>
+  <data name="ConnectionProvider_SchemaCorrectionNeeded" xml:space="preserve">
+    <value>Şemanın güncellenmesi gerek. Sistem yöneticinizle irtibata geçin. Sql metni: '{0}'</value>
+  </data>
+  <data name="ConnectionProvider_TypeMappingMissing" xml:space="preserve">
+    <value>Kullanılan veritabanında tanımlı tiplerde bulunmadığı için veritabanı sağlayıcısı '{0}' tipini işleyemedi.  Lütfen başka bir tip kullanın.</value>
+  </data>
+  <data name="ConnectionProvider_KeysAutogenerationNonSupportedTypeException" xml:space="preserve">
+    <value>Anahtar oto-üretimi sadece Int32 ve Guid veri tipleri için geçerli. Sınıf Tipi: '{0}'</value>
+  </data>
+  <data name="ConnectionProvider_UnableToOpenDatabase" xml:space="preserve">
+    <value>Veritabanı açılamadı. Bağlantı dizisi: '{0}'; Hata: '{1}'</value>
+  </data>
+</root>

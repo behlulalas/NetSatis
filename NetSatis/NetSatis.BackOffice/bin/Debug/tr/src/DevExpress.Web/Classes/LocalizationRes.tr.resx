@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxperienceStringId.FileManager_Cancel" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_CancelButton" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltExpand" xml:space="preserve">
+    <value>Genişlet</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbMove" xml:space="preserve">
+    <value>Taşı (F6)</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_First" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Last" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSize" xml:space="preserve">
+    <value>Sayfa Boyutu:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeLarge" xml:space="preserve">
+    <value>Büyük ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeMedium" xml:space="preserve">
+    <value>Orta ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeSmall" xml:space="preserve">
+    <value>Küçük ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Ok" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Path" xml:space="preserve">
+    <value>Yol:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCreate" xml:space="preserve">
+    <value>Oluştur (F7)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDelete" xml:space="preserve">
+    <value>Sil (Del)</value>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_BackToTop" xml:space="preserve">
+    <value>Başa dön</value>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_Page" xml:space="preserve">
+    <value>Sayfa:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_InformationUnitSymbol" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFolderNotFound" xml:space="preserve">
+    <value>Klasör bulunamadı</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorRootFolderNotSpecified" xml:space="preserve">
+    <value>Kök klasörü belirtilmemiş veya yok</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUsedByAnotherProcess" xml:space="preserve">
+    <value>dosya/klasör başka bir işlem tarafından kullanıldığından işlem tamamlanamıyor</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_FileName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Size" xml:space="preserve">
+    <value>Boyutu</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateMonth" xml:space="preserve">
+    <value>son 30 gün</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateWeek" xml:space="preserve">
+    <value>son 7 günde</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateYear" xml:space="preserve">
+    <value>son 365 gün</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeEmpty" xml:space="preserve">
+    <value>({0}) boş</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeGigantic" xml:space="preserve">
+    <value>Devasa ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Prev" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSizeAllItem" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryAllPagesFormat" xml:space="preserve">
+    <value>Sayfalar: {0} - {1} ({2} öğe)</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryFormat" xml:space="preserve">
+    <value>Sayfa {0} / {1} ({2} öğe)</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_CloseButton" xml:space="preserve">
+    <value>[Kapat]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_CollapseButton" xml:space="preserve">
+    <value>[Daralt/Genişlet]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_MaximizeButton" xml:space="preserve">
+    <value>[En üst düzeye çıkarmak ve Restore]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_PinButton" xml:space="preserve">
+    <value>[Pin/Unpin]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_RefreshButton" xml:space="preserve">
+    <value>[Yenile]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_SizeGrip" xml:space="preserve">
+    <value>[Yeniden boyutlandır]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_BackToTop" xml:space="preserve">
+    <value>[Geri dön]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterCaption" xml:space="preserve">
+    <value>Filtre: &amp; nbsp; &amp; nbsp; &amp; nbsp;</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterHint" xml:space="preserve">
+    <value>&lt; b &gt; &lt; /b &gt; = herhangi bir tek karakter
+&lt; b &gt; * &lt; /b &gt; = herhangi bir karakter</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_NoData" xml:space="preserve">
+    <value>Bu süzgeç ölçütü için hiçbir veri</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltCollapse" xml:space="preserve">
+    <value>Daralt</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltLoading" xml:space="preserve">
+    <value>Yükleniyor</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AccessDeniedError" xml:space="preserve">
+    <value>erişim sunucusu yolu "{0}" için reddedildi. Neden bu dosyaları yazmak (veya üst) klasör izinleri eksikliği nedeniyle olabilir.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AddButton" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_ClearFileSelectionButtonToolTip" xml:space="preserve">
+    <value>Seçimi temizle</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_EnctypeError" xml:space="preserve">
+    <value>Formun enctype özniteliği ' multipart/form-veri için ' ayarlanmadığından başarısız dosya yükleme</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_FileDoesNotExistError" xml:space="preserve">
+    <value>Yükleme dosyası yok</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_GeneralError" xml:space="preserve">
+    <value>Dosya yüklemek harici bir hata nedeniyle başarısız oldu</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsPath" xml:space="preserve">
+    <value>Dosya yolu "{0}" geçerli bir Windows yolu değil</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MaxSize" xml:space="preserve">
+    <value>Dosya boyutu {0} bayt olan izin verilen boyut sınırını aşıyor</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MultiSelection" xml:space="preserve">
+    <value>Dikkat! 
+
+Çünkü onlar ({1}) izin verilen dosya boyutunu aşan veya uzantıları verilmeyen aşağıdaki {0} dosyaları geçersiz. Değil tarih olacak bu yüzden bu dosyaları seçimden çıkarıldı. 
+
+{2}</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedContentTypes" xml:space="preserve">
+    <value>Bu içerik türüne izin verilmez</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedFileExtension" xml:space="preserve">
+    <value>Girdiğiniz, izin verilmeyen bir dosya uzantısı</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_PlatformErrorText" xml:space="preserve">
+    <value>Lütfen bir tarayıcı HTML5 desteği ile; kullanır veya &lt; bir href = "{0}" &gt; Microsoft Silverlight v3 veya &lt; bu içeriği görüntülemek ve dosya yüklemek için bir yetenek var daha sonra /a &gt;.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_RemoveButton" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_SelectedSeveralFiles" xml:space="preserve">
+    <value>{0} dosya yüklemek için seçili</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_TooManyFilesError" xml:space="preserve">
+    <value>Çok sayıda dosya seçili. Seçilen dosya sayısını azaltın ve yeniden deneyin.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UnspecifiedError" xml:space="preserve">
+    <value>Sunucu isteği yerine getirmesini engelledi belirtilmeyen bir iç hata ile karşılaştı.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadButton" xml:space="preserve">
+    <value>Karşıya yükleme</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadModeNotSupported" xml:space="preserve">
+    <value>Tarayıcı bu dosya karşıya yükleme modunu desteklemiyor.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadWasCanceledError" xml:space="preserve">
+    <value>Dosyasını karşıya yükleme iptal edildi.</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerPageSize" xml:space="preserve">
+    <value>Sayfa Boyutu:</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerRowPerPage" xml:space="preserve">
+    <value>Satır / sayfa:</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryAllPages" xml:space="preserve">
+    <value>Tüm Sayfalar</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryFormat" xml:space="preserve">
+    <value>Sayfa {0} {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_ShowMoreItemsText" xml:space="preserve">
+    <value>Daha çok öğe göster</value>
+  </data>
+  <data name="ASPxperienceStringId.DataViewBase_EmptyDataText" xml:space="preserve">
+    <value>Görüntülenecek hiçbir veri yok</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_DeleteConfirm" xml:space="preserve">
+    <value>'{0}' Silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAccessProhibited" xml:space="preserve">
+    <value>Erişim yasaktır. İşlem tamamlanamıyor</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAlreadyExists" xml:space="preserve">
+    <value>Belirtilen dosya/klasör zaten var</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFileNotFound" xml:space="preserve">
+    <value>Dosya bulunamadı</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeHuge" xml:space="preserve">
+    <value>Büyük ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Filter" xml:space="preserve">
+    <value>Filtre Uygula:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Folder" xml:space="preserve">
+    <value>Klasör</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FolderLocked" xml:space="preserve">
+    <value>upload için kilitli</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorWrongExtension" xml:space="preserve">
+    <value>. İşlem tamamlanamıyor</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorThumbnail" xml:space="preserve">
+    <value>küçük resim klasör erişimi olmayan</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUploadSeveralFiles" xml:space="preserve">
+    <value>Yükleme için {0} {1} dosya başarısız oldu</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNameCannotBeEmpty" xml:space="preserve">
+    <value>Dosya/klasör adı boş olamaz</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorOther" xml:space="preserve">
+    <value>Belirtilmeyen hata</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_All" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRefresh" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRename" xml:space="preserve">
+    <value>(F2) yeniden adlandırmak</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDownload" xml:space="preserve">
+    <value>İndir</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeTiny" xml:space="preserve">
+    <value>Küçük ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_LastWriteTime" xml:space="preserve">
+    <value>Değişiklik tarihi</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_NewFolderName" xml:space="preserve">
+    <value>Yeni Klasör</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FolderBrowserPopupHeader" xml:space="preserve">
+    <value>Hedef klasörü seçin</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorInvalidSymbols" xml:space="preserve">
+    <value>Bu ad geçersiz karakterler içeriyor. İşlem tamamlanamadı.</value>
+  </data>
+  <data name="ASPxperienceStringId.Loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCopy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="ASPxperienceStringId.Ribbon_FileTabText" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNoAccess" xml:space="preserve">
+    <value>Erişim engellendi. İşlem tamamlanamadı.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_BrowseButton" xml:space="preserve">
+    <value>Gözat...</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorIO" xml:space="preserve">
+    <value>belirtilmeyen GÇ hatası. İşlem</value>
+  </data>
+  <data name="ASPxperienceStringId.RoundPanel_CollapseButton" xml:space="preserve">
+    <value>[Daralt/Genişlet]</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryEmptyText" xml:space="preserve">
+    <value>Sayfalanacak veri yok</value>
+  </data>
+  <data name="ASPxperienceStringId.ImageZoom_HintText" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsFileName" xml:space="preserve">
+    <value>Dosya adı geçersiz karakterler içeriyor.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorPathToLong" xml:space="preserve">
+    <value>Belirtilen yol, dosya adı veya her ikisi de çok uzun</value>
+  </data>
+  <data name="ASPxperienceStringId.InsertTableControl_InsertTable" xml:space="preserve">
+    <value>Tablo Ekle</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_AscendingSortOrder" xml:space="preserve">
+    <value>Artan sıralı</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CalendarDescription" xml:space="preserve">
+    <value>Takvim. Gezinmek için ok tuşlarını kullanın.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarMultiSelect" xml:space="preserve">
+    <value>Seçili tarihler:</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_EmptyItem" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_NoneSortOrder" xml:space="preserve">
+    <value>Sıralanmamış</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerNextPage" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerPreviousPage" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TableItemFormat" xml:space="preserve">
+    <value>{0} sütun {1} değeri,</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCollapse" xml:space="preserve">
+    <value>Daralt</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListNodeExpandedState" xml:space="preserve">
+    <value>Genişletilmiş.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListSelectAllCheckBox" xml:space="preserve">
+    <value>Tümü'nü seçin.</value>
+  </data>
+  <data name="ASPxperienceStringId.AccessibilityIFrameTitle" xml:space="preserve">
+    <value>Kullanıcı içeriği yok</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListExpand" xml:space="preserve">
+    <value>Genişlet</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListHeaderLinkFormat" xml:space="preserve">
+    <value>Üstbilgi hücresi. {0} sütun, {1}. Sıralama</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListNodeCollapsedState" xml:space="preserve">
+    <value>Daraltılmış.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerSummaryFormat" xml:space="preserve">
+    <value>Sayfa {0} / {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerNavigationFormat" xml:space="preserve">
+    <value>{0} sayfa</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ItemPositionFormat" xml:space="preserve">
+    <value>; {0} {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CheckBoxListItemFormat" xml:space="preserve">
+    <value>{2}; {0} {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AccessibilityTitleForFakeInput" xml:space="preserve">
+    <value>Bu giriş seçili dosya adlarını görüntüler</value>
+  </data>
+  <data name="ASPxperienceStringId.GridViewFilterRow_InputTitle" xml:space="preserve">
+    <value>{0} sütun için filtre</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DescendingSortOrder" xml:space="preserve">
+    <value>Azalan Sıralı</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewHeaderLinkFormat" xml:space="preserve">
+    <value>{0} üstbilgi sütunu.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BlankEditor" xml:space="preserve">
+    <value>boş</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_IFrameTitle" xml:space="preserve">
+    <value>Kullanıcı içeriği yok</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCollapseExpandButtonFormat" xml:space="preserve">
+    <value>{0} düğmesi. Satır {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TitleForFakeInput" xml:space="preserve">
+    <value>Bu giriş seçili dosya adlarını görüntüler</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ComboBoxCurrentTextFormat" xml:space="preserve">
+    <value>Geçerli metin {2}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListDeselectAllCheckBox" xml:space="preserve">
+    <value>Tüm seçimleri kaldır</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarRangeFormat" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuHorizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuVertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ButtonEditEllipsisButton" xml:space="preserve">
+    <value>Üç nokta</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DateEditCollapsedState" xml:space="preserve">
+    <value>Açılan takvim kapandı.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DateEditDescription" xml:space="preserve">
+    <value>Tarihi Editör.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewDataTableCaption" xml:space="preserve">
+    <value>Veri tablosu başlıkları ile ilgili</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DropDownEditDropDownButton" xml:space="preserve">
+    <value>Açık veya açılır penceresini kapatın</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ComboBoxFilteringResultFormat" xml:space="preserve">
+    <value>Bulunan madde sayısı {0} olan. Seçili öğeyi {1} metindir.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ButtonEditClearButton" xml:space="preserve">
+    <value>Net değer</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchChanged" xml:space="preserve">
+    <value>değiştirildi</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchEditableCellFormat" xml:space="preserve">
+    <value>{0} düzenlenebilir hücre</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ColorEditCollapsedState" xml:space="preserve">
+    <value>Açılır renk tablosu kapandı.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ColorNestedControlDescription" xml:space="preserve">
+    <value>Ok tuşları ile bir renk seç</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ColorNestedControlColumnPositionFormat" xml:space="preserve">
+    <value>{1} {0} sütunu</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchDeletedRow" xml:space="preserve">
+    <value>silinen satır</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListLevelFormat" xml:space="preserve">
+    <value>Seviye {0}.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ListBoxDescription" xml:space="preserve">
+    <value>ListBox. Gezinmek için ok tuşlarını kullanın.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuShowSubMenu" xml:space="preserve">
+    <value>Alt menüyü göster</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridHeaderFilterButtonActive" xml:space="preserve">
+    <value>Filtre uygulanmış</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PopupControlClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridStatusBarDescription" xml:space="preserve">
+    <value>Bir tablo durum çubuğu</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DefaultCallback" xml:space="preserve">
+    <value>Geri arama işleminde.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridHeaderFilterPopupDescription" xml:space="preserve">
+    <value>Filtre seçenekleri. Hemen uygulamak veya iptal etmek için Escape için Enter tuşunu kullan</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ShowGridFilterBuilderDialog" xml:space="preserve">
+    <value>Show filter builder dialog</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridHeaderFilterButtonInactive" xml:space="preserve">
+    <value>Filtrelenmemiş</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridFilterBarDescription" xml:space="preserve">
+    <value>Kılavuz verileri süzmek için kullanılan bir bar</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridHeaderFilterButtonFormat" xml:space="preserve">
+    <value>Açık filtre seçenekleri. {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_VerticalGridHeaderFilterButtonFormat" xml:space="preserve">
+    <value>Open filter options for {0} record. {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_SelectAll" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_SessionHasExpiredError" xml:space="preserve">
+    <value>Oturumunuzun süresi doldu. Lütfen devam etmek için sayfayı yenileyin.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_CallbackResultIncorrectError" xml:space="preserve">
+    <value>Web sunucu beklenmeyen bir yanıt döndürdü.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Location" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+</root>

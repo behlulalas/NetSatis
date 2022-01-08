@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_TextAlignment" xml:space="preserve">
+    <value>Metin hizalama</value>
+  </data>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_AutoModule" xml:space="preserve">
+    <value>Oto-Modül</value>
+  </data>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_Module" xml:space="preserve">
+    <value>Modül</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_Appearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_Group" xml:space="preserve">
+    <value>Grup araçları</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_GroupDesign" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_SNList" xml:space="preserve">
+    <value>Liste araçları</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_SNListDesign" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_SNMergeFieldDesign" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="SnapExtensionsStringId.FieldListDockPanel_Text" xml:space="preserve">
+    <value>Alan listesi</value>
+  </data>
+  <data name="SnapExtensionsStringId.Msg_Error" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="SnapExtensionsStringId.ThemesBar_Text" xml:space="preserve">
+    <value>Temalar</value>
+  </data>
+  <data name="SnapExtensionsStringId.ThemesRibbonPageGroup_Text" xml:space="preserve">
+    <value>Temalar</value>
+  </data>
+  <data name="SnapExtensionsStringId.ViewBar_Text" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="SnapExtensionsStringId.ViewRibbonPageGroup_Text" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_Orientation" xml:space="preserve">
+    <value>Oryantasyon</value>
+  </data>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_ShowData" xml:space="preserve">
+    <value>Verileri göster</value>
+  </data>
+  <data name="SnapExtensionsStringId.BarCodeSmartTagItem_Symbology" xml:space="preserve">
+    <value>Semboloji</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_Data" xml:space="preserve">
+    <value>Veri Araçları</value>
+  </data>
+  <data name="SnapExtensionsStringId.Caption_SNMergeField" xml:space="preserve">
+    <value>Alanı araçları</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeRibbonPageGroup_Text" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="SnapExtensionsStringId.ReportExplorerDockPanel_Text" xml:space="preserve">
+    <value>Rapor Gezgini</value>
+  </data>
+  <data name="SnapExtensionsStringId.SnapBarToolbarsListItem_Caption" xml:space="preserve">
+    <value>&amp;Pencereler</value>
+  </data>
+  <data name="SnapExtensionsStringId.SNTextFieldTagItem_TextFormat" xml:space="preserve">
+    <value>Metin Biçimi</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_LineWidth" xml:space="preserve">
+    <value>Çizgi Genişliği</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_MaxPointColor" xml:space="preserve">
+    <value>Max Nokta Rengi</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="SnapExtensionsStringId.ViewFieldsRibbonPageGroup_Text" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_Checked" xml:space="preserve">
+    <value>İşaretli</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_ScreenTip" xml:space="preserve">
+    <value>Ekran İpucu</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_Summary" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_TargetFrame" xml:space="preserve">
+    <value>Hedef Çerçeve</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="SnapExtensionsStringId.GalleryGroupCaption_Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="SnapExtensionsStringId.ImageSmartTagItem_Sizing" xml:space="preserve">
+    <value>Boyutlandırma</value>
+  </data>
+  <data name="SnapExtensionsStringId.ImageSmartTagItem_UpdateMode" xml:space="preserve">
+    <value>Güncelleştirme Modu</value>
+  </data>
+  <data name="SnapExtensionsStringId.IndexSmartTagItem_GroupIndexMode" xml:space="preserve">
+    <value>Grup Modu</value>
+  </data>
+  <data name="SnapExtensionsStringId.RemoveThemeBarItem_Caption" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="SnapExtensionsStringId.RestoreDefaultsBarItem_Caption" xml:space="preserve">
+    <value>Varsayılanları Geri Yükle</value>
+  </data>
+  <data name="SnapExtensionsStringId.SNTextFieldTagItem_KeepLastParagraph" xml:space="preserve">
+    <value>Son Paragrafa Devam Et</value>
+  </data>
+  <data name="SnapExtensionsStringId.SortingCollectionEditor_SortBy" xml:space="preserve">
+    <value>Sırala</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_AreaOpacity" xml:space="preserve">
+    <value>Alan Opaklık</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_BarDistance" xml:space="preserve">
+    <value>Çubuk Mesafesi</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_EndPointColor" xml:space="preserve">
+    <value>Son Nokta Rengi</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_HighlightNegativePoints" xml:space="preserve">
+    <value>Negatif Noktaları Vurgula</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_MinPointColor" xml:space="preserve">
+    <value>Min Nokta Rengi</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_NegativePointColor" xml:space="preserve">
+    <value>Negatif Nokta Rengi</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_StartPointColor" xml:space="preserve">
+    <value>Başlangıç Noktası Rengi</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_Binding" xml:space="preserve">
+    <value>Bağlama</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_ContentType" xml:space="preserve">
+    <value>İçerik türü</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_FormatString" xml:space="preserve">
+    <value>Biçim Dizesi</value>
+  </data>
+  <data name="SnapExtensionsStringId.EditDataSource" xml:space="preserve">
+    <value>Veri kaynağını Düzenle</value>
+  </data>
+  <data name="SnapExtensionsStringId.GalleryGroupCaption_Regular" xml:space="preserve">
+    <value>Düzenli</value>
+  </data>
+  <data name="SnapExtensionsStringId.Msg_ContainsIllegalSymbols" xml:space="preserve">
+    <value>Giriş biçimi dize içeren yasadışı simgelerini.</value>
+  </data>
+  <data name="SnapExtensionsStringId.RestoreDefaultDocumentStylesBarItem_Caption" xml:space="preserve">
+    <value>Varsayılan Belge Stilleri Geri Yükle</value>
+  </data>
+  <data name="SnapExtensionsStringId.SaveThemeBarItem_Caption" xml:space="preserve">
+    <value>Geçerli temanın bir dosyaya kaydet</value>
+  </data>
+  <data name="SnapExtensionsStringId.SnapBarToolbarsListItem_Hint" xml:space="preserve">
+    <value>Göstermek ya da saklamak veri Gezgini ve rapor Explorer pencerelerini.</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_EndPointMarkerSize" xml:space="preserve">
+    <value>Bitiş noktasını işaret boyutu</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_HighlightEndPoint" xml:space="preserve">
+    <value>Bitiş noktasını vurgulayın</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_MarkerSize" xml:space="preserve">
+    <value>İşaretçi boyutu</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_ShowMarkers" xml:space="preserve">
+    <value>İşaretleyicileri Göster</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_ViewType" xml:space="preserve">
+    <value>Görünüm türü</value>
+  </data>
+  <data name="SnapExtensionsStringId.UpdateToMatchDocumentStylesBarItem_Caption" xml:space="preserve">
+    <value>Belge stillerini eşleşmesi için Güncelleştir</value>
+  </data>
+  <data name="SnapExtensionsStringId.RemoveDataSource" xml:space="preserve">
+    <value>Veri kaynağı kaldırma</value>
+  </data>
+  <data name="SnapExtensionsStringId.AddDataSource" xml:space="preserve">
+    <value>Veri kaynağı ekleme</value>
+  </data>
+  <data name="SnapExtensionsStringId.EditFilterDataSource" xml:space="preserve">
+    <value>Veri kaynağı filtre... düzenlemek</value>
+  </data>
+  <data name="SnapExtensionsStringId.LoadThemeBarItem_Caption" xml:space="preserve">
+    <value>Yük bir dosyadan bir tema</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeDataSource" xml:space="preserve">
+    <value>Adres mektup birleştirme için kullanmak</value>
+  </data>
+  <data name="SnapExtensionsStringId.ParametersErrorDialogCaption" xml:space="preserve">
+    <value>Hatalı parametre adı</value>
+  </data>
+  <data name="SnapExtensionsStringId.ParametersErrorDialogTextIdenticalNames" xml:space="preserve">
+    <value>Parametreleri ile aynı adları oluşturulamıyor:</value>
+  </data>
+  <data name="SnapExtensionsStringId.ParametersErrorDialogTextInvalidCharacters" xml:space="preserve">
+    <value>Parametreleri ile geçersiz adları oluşturulamıyor:</value>
+  </data>
+  <data name="SnapExtensionsStringId.ParametersErrorDialogTextNoName" xml:space="preserve">
+    <value>Bir parametre adı belirtmeden oluşturulamıyor.</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_HighlightMaxPoint" xml:space="preserve">
+    <value>Vurgu Max noktası</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_HighlightMinPoint" xml:space="preserve">
+    <value>Vurgu Min noktası</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_HighlightStartPoint" xml:space="preserve">
+    <value>Vurgu başlangıç noktası</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_MarkerColor" xml:space="preserve">
+    <value>İşaret rengi</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_MaxPointMarkerSize" xml:space="preserve">
+    <value>Maksimum noktaya işaret boyutu</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_MinPointMarkerSize" xml:space="preserve">
+    <value>Min noktaya işaret boyutu</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_NegativePointMarkerSize" xml:space="preserve">
+    <value>Noktaya işaret boyutu negatif</value>
+  </data>
+  <data name="SnapExtensionsStringId.SparklineSmartTagItem_StartPointMarkerSize" xml:space="preserve">
+    <value>Başlangıç noktasını işaret boyutu</value>
+  </data>
+  <data name="SnapExtensionsStringId.UpdateDataSource" xml:space="preserve">
+    <value>Veri kaynağını güncelleştirin</value>
+  </data>
+  <data name="SnapExtensionsStringId.DataRibbonPageGroup_DefaultText" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="SnapExtensionsStringId.FinishAndMergePageGroup_DefaultText" xml:space="preserve">
+    <value>Yayımlama</value>
+  </data>
+  <data name="SnapExtensionsStringId.ListEditorRowLimitRibbonPageGroup_DefaultText" xml:space="preserve">
+    <value>Editör satır sınırı</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordRibbonPageGroup_DefaultText" xml:space="preserve">
+    <value>Geçerli kayıt</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeRibbonPage_DefaultText" xml:space="preserve">
+    <value>Geçerli kayıt</value>
+  </data>
+  <data name="SnapExtensionsStringId.SNMergeFieldPropertiesRibbonPageGroup_DefaultText" xml:space="preserve">
+    <value>Öğe</value>
+  </data>
+  <data name="SnapExtensionsStringId.TableCellStylesRibbonPageGroup_DefaultText" xml:space="preserve">
+    <value>Hücre stilleri</value>
+  </data>
+  <data name="SnapExtensionsStringId.ToolboxPageGroup_DefaultText" xml:space="preserve">
+    <value>Araç kutusu</value>
+  </data>
+  <data name="SnapExtensionsStringId.DataShapingPageGroup_DefaultText" xml:space="preserve">
+    <value>Veri şekillendirme</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_EmptyFieldDataAlias" xml:space="preserve">
+    <value>Boş alan veri takma</value>
+  </data>
+  <data name="SnapExtensionsStringId.ActionList_EnableEmptyFieldDataAlias" xml:space="preserve">
+    <value>Boş alan veri takma etkinleştir</value>
+  </data>
+  <data name="SnapExtensionsStringId.ListCommandsRibbonPageGroup_DefaultText" xml:space="preserve">
+    <value>Komutları</value>
+  </data>
+  <data name="SnapExtensionsStringId.GroupingRibbonPageGroup_Text" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="SnapExtensionsStringId.ListHeaderAndFooterRibbonPageGroup_Text" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_FirstButtonTooltip" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_LastButtonTooltip" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_NextButtonTooltip" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="SnapExtensionsStringId.MailMergeCurrentRecordEdit_PreviousButtonTooltip" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="SnapExtensionsStringId.EditFilters" xml:space="preserve">
+    <value>Filtreleri Düzenle</value>
+  </data>
+</root>

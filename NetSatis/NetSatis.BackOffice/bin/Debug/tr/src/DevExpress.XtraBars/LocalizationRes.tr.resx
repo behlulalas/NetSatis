@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BarString.NewToolbarName" xml:space="preserve">
+    <value>Araçlar:</value>
+  </data>
+  <data name="BarString.RibbonGalleryFilter" xml:space="preserve">
+    <value>Tüm Gruplar</value>
+  </data>
+  <data name="BarString.NewStatusBarName" xml:space="preserve">
+    <value>Durum Çubuğu</value>
+  </data>
+  <data name="BarString.MenuAnimationUnfold" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="BarString.AddOrRemove" xml:space="preserve">
+    <value>&amp;Düğmeleri ekle ya da Kaldır</value>
+  </data>
+  <data name="BarString.RibbonToolbarAbove" xml:space="preserve">
+    <value>&amp;Şerit üstündeki Çabuk Giriş Araç Çubuğunu Göster</value>
+  </data>
+  <data name="BarString.MenuAnimationFade" xml:space="preserve">
+    <value>Solma</value>
+  </data>
+  <data name="BarString.ResetButton" xml:space="preserve">
+    <value>&amp;Araç Çubuğunu Sıfırla</value>
+  </data>
+  <data name="BarString.BarUnassignedItems" xml:space="preserve">
+    <value>(atanmamış Öğeler)</value>
+  </data>
+  <data name="BarString.ResetBar" xml:space="preserve">
+    <value>'{0}' Araç çubuğuna yapılmış değişiklikleri sıfırlamayı istediğinize emin misiniz?</value>
+  </data>
+  <data name="BarString.RibbonGalleryFilterNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="BarString.CustomizeWindowCaption" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="BarString.NewMenuName" xml:space="preserve">
+    <value>Ana Menü</value>
+  </data>
+  <data name="BarString.ToolbarNameCaption" xml:space="preserve">
+    <value>&amp;Araç Çubuğu İsmi:</value>
+  </data>
+  <data name="BarString.RenameToolbarCaption" xml:space="preserve">
+    <value>Araç Çubuğunu Yeniden İsimlendir</value>
+  </data>
+  <data name="BarString.NewToolbarCustomNameFormat" xml:space="preserve">
+    <value>Kişiselleştir{0}</value>
+  </data>
+  <data name="BarString.RibbonToolbarBelow" xml:space="preserve">
+    <value>&amp;Şerit altındaki Çabuk Giriş Araç Çubuğunu Göster</value>
+  </data>
+  <data name="BarString.RibbonAllPages" xml:space="preserve">
+    <value>Tüm Sayfalar</value>
+  </data>
+  <data name="BarString.PopupMenuEditor" xml:space="preserve">
+    <value>Açılan Menü Düzenleyicisi</value>
+  </data>
+  <data name="BarString.CustomizeButton" xml:space="preserve">
+    <value>&amp;Uyarla</value>
+  </data>
+  <data name="BarString.RibbonUnassignedPages" xml:space="preserve">
+    <value>(Atanmamış Sayfalar)</value>
+  </data>
+  <data name="BarString.RibbonToolbarMinimizeRibbon" xml:space="preserve">
+    <value>Şeridi Küçült</value>
+  </data>
+  <data name="BarString.MenuAnimationRandom" xml:space="preserve">
+    <value>Rastgele</value>
+  </data>
+  <data name="BarString.MenuAnimationNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="BarString.RibbonToolbarRemove" xml:space="preserve">
+    <value>&amp;Çabuk Giriş Araç Çubuğundan Taşı</value>
+  </data>
+  <data name="BarString.RibbonToolbarAdd" xml:space="preserve">
+    <value>&amp;Çabuk Giriş Araç Çubuğuna Ekle</value>
+  </data>
+  <data name="BarString.BarAllItems" xml:space="preserve">
+    <value>(Tüm Öğeler)</value>
+  </data>
+  <data name="BarString.MenuAnimationSystem" xml:space="preserve">
+    <value>Sistem Varsayımı</value>
+  </data>
+  <data name="BarString.ResetBarCaption" xml:space="preserve">
+    <value>Özelleştir</value>
+  </data>
+  <data name="BarString.MenuAnimationSlide" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="BarString.NewToolbarCaption" xml:space="preserve">
+    <value>Yeni Araç Çubuğu</value>
+  </data>
+  <data name="BarString.ToolBarMenu" xml:space="preserve">
+    <value>&amp;Sıfırla$&amp;Sil$!&amp;İsim$!&amp;Varsayılan Stil$&amp;Sadece Metin (Her zaman)$ (Menüde) Sa&amp;dece Metin$ Resim &amp;ve Metin$!Bir Grup &amp;Başlat$G&amp;örünen$&amp;En son kullanılanlar</value>
+  </data>
+  <data name="BarString.CloseButton" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="BarString.CancelButton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="BarString.CustomizeToolbarSuperTipText" xml:space="preserve">
+    <value>Hızlı erişim araç çubuğunu özelleştirme</value>
+  </data>
+  <data name="BarString.CustomizeToolbarText" xml:space="preserve">
+    <value>Araç çubuğunu özelleştirme</value>
+  </data>
+  <data name="BarString.RestoreButton" xml:space="preserve">
+    <value>Aşağı geri</value>
+  </data>
+  <data name="BarString.RibbonCaptionTextNone" xml:space="preserve">
+    <value>Adı yok</value>
+  </data>
+  <data name="BarString.RibbonCustomizationDownText" xml:space="preserve">
+    <value>Aşağı taşı</value>
+  </data>
+  <data name="BarString.RibbonCustomizationImportSettingsCommand" xml:space="preserve">
+    <value>Özelleştirme dosyası al</value>
+  </data>
+  <data name="BarString.RibbonCustomizationNewGroupCommand" xml:space="preserve">
+    <value>Yeni Grup</value>
+  </data>
+  <data name="BarString.RibbonCustomizationNewGroupDefaultAlias" xml:space="preserve">
+    <value>Yeni Grup</value>
+  </data>
+  <data name="BarString.RibbonCustomizationNewPageCommand" xml:space="preserve">
+    <value>Yeni sekme</value>
+  </data>
+  <data name="BarString.RibbonCustomizationNewTabDefaultAlias" xml:space="preserve">
+    <value>Yeni sekme</value>
+  </data>
+  <data name="BarString.RibbonCustomizationOptionAllCommands" xml:space="preserve">
+    <value>Tüm komutlar</value>
+  </data>
+  <data name="BarString.RibbonCustomizationResetSelectedTabSettingsCommand" xml:space="preserve">
+    <value>Yalnızca seçili şerit sekmesini Sıfırla</value>
+  </data>
+  <data name="BarString.RibbonCustomizationResetSettingsCommand" xml:space="preserve">
+    <value>Tüm özelleştirmeleri sıfırla</value>
+  </data>
+  <data name="BarString.SkinsCustom" xml:space="preserve">
+    <value>Özel Arayüzler</value>
+  </data>
+  <data name="BarString.MoreCommands" xml:space="preserve">
+    <value>&amp;Daha Fazla Komut...</value>
+  </data>
+  <data name="BarString.CollapseRibbonSuperTipText" xml:space="preserve">
+    <value>Sadece Şerit sekme adları göster</value>
+  </data>
+  <data name="BarString.HelpButton" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="BarString.RibbonCustomizationNewCategoryCommand" xml:space="preserve">
+    <value>Yeni Kategori</value>
+  </data>
+  <data name="BarString.RibbonCustomizationNewCategoryDefaultAlias" xml:space="preserve">
+    <value>Yeni Kategori</value>
+  </data>
+  <data name="BarString.RibbonCustomizationAddText" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="BarString.RibbonCustomizationRemoveText" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="BarString.RibbonCustomizationStandardCustomItemSuffix" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="BarString.RibbonCustomizationUpText" xml:space="preserve">
+    <value>Yukarı Taşı</value>
+  </data>
+  <data name="BarString.ShowShortcutKeysOnScreenTipsName" xml:space="preserve">
+    <value>Ekran İpuçları'nda kısayol tuşlarını göster</value>
+  </data>
+  <data name="BarString.SkinCaptions" xml:space="preserve">
+    <value>|DevExpress Style|Caramel|Para Twins|DevExpress karanlık Style|iMaginary|Lilian|Black|Blue|Office 2010 Blue|Office 2010 Black|Office 2010 Silver|Office 2007 Blue|Office 2007 Black|Office 2007 Silver|Office 2007 Green|Office 2007 Pink|Seven|Yedi Classic|Darkroom|McSkin|Sharp|Keskin Plus|Foggy|Karanlık Side|Xmas (mavi) |Springtime|Summer|Pumpkin|Valentine|Stardust|Coffee|Cam Oceans|Yüksek Contrast|Sıvı Sky|Londra sıvı Sky|Asfalt World|Blueprint|Whiteprint|VS2010|Metropolis|Metropolis Dark|Office 2013 White|Office 2013 karanlık Gray|Office 2013 ışık Gray|</value>
+  </data>
+  <data name="BarString.RibbonCustomizationRenameText" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="BarString.ShowScreenTipsOnToolbarsName" xml:space="preserve">
+    <value>Araç çubuklarında Ekran ipuçlarını göster</value>
+  </data>
+  <data name="BarString.RibbonCustomizationExportSettingsCommand" xml:space="preserve">
+    <value>Tüm özelleştirmeleri ver</value>
+  </data>
+  <data name="BarString.RibbonCustomizationOptionAllTabs" xml:space="preserve">
+    <value>Tüm sekmeleri</value>
+  </data>
+  <data name="BarString.MaximizeButton" xml:space="preserve">
+    <value>En üst düzeye çıkarın</value>
+  </data>
+  <data name="BarString.MinimizeButton" xml:space="preserve">
+    <value>Simge durumuna küçültme</value>
+  </data>
+  <data name="BarString.ExpandRibbonSuperTipHeader" xml:space="preserve">
+    <value>Genişlet (Ctrl + F1) şerit</value>
+  </data>
+  <data name="BarString.CustomizeQuickAccessToolbar" xml:space="preserve">
+    <value>&amp; hızlı erişim araç çubuğunu özelleştirme</value>
+  </data>
+  <data name="BarString.ColorAuto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="BarString.CollapseRibbonSuperTipHeader" xml:space="preserve">
+    <value>(Ctrl + F1) şerit i simge durumuna küçültme</value>
+  </data>
+  <data name="BarString.SkinsBonus" xml:space="preserve">
+    <value>Bonus Skins</value>
+  </data>
+  <data name="BarString.CustomizeRibbon" xml:space="preserve">
+    <value>Özelleştirme &amp; Şerit...</value>
+  </data>
+  <data name="BarString.SkinsMain" xml:space="preserve">
+    <value>Standart Skins</value>
+  </data>
+  <data name="BarString.SkinsOffice" xml:space="preserve">
+    <value>Office Skins</value>
+  </data>
+  <data name="BarString.ExpandRibbonSuperTipText" xml:space="preserve">
+    <value>Şerit göstermek, böylece her zaman bile bir komut tıklatıldıktan sonra genişletilir</value>
+  </data>
+  <data name="BarString.SkinsTheme" xml:space="preserve">
+    <value>Tema Skins</value>
+  </data>
+  <data name="BarString.RibbonTouchMouseModeTouchItemText" xml:space="preserve">
+    <value>Dokunma</value>
+  </data>
+  <data name="BarString.RibbonTouchMouseModeCommandText" xml:space="preserve">
+    <value>Touch/fare modu</value>
+  </data>
+  <data name="BarString.RibbonTouchMouseModeMouseItemDescription" xml:space="preserve">
+    <value>Standart şerit ve komutları. Bir fare ile kullanım için optimize edilmiştir.</value>
+  </data>
+  <data name="BarString.RibbonTouchMouseModeMouseItemText" xml:space="preserve">
+    <value>Fare</value>
+  </data>
+  <data name="BarString.FullScreenButton" xml:space="preserve">
+    <value>Şeriti Otomatik Gizle</value>
+  </data>
+  <data name="BarString.RibbonTouchMouseModeGalleryGroupText" xml:space="preserve">
+    <value>Komutları arasındaki boşluğu optimize.</value>
+  </data>
+  <data name="BarString.RibbonTouchMouseModeTouchItemDescription" xml:space="preserve">
+    <value>Arasında daha fazla boşluk emrediyor. Dokunma ile kullanım için optimize edilmiştir.</value>
+  </data>
+  <data name="BarString.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="BarString.AccordionControlSearchBoxPromptText" xml:space="preserve">
+    <value>Anahtar sözcükleri buraya yazın</value>
+  </data>
+  <data name="BarString.ColorPickHueAxisName" xml:space="preserve">
+    <value>Renk tonu</value>
+  </data>
+  <data name="BarString.ColorPickSaturationAxisName" xml:space="preserve">
+    <value>Doygunluk</value>
+  </data>
+  <data name="BarString.ColorPickBrightnessAxisName" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="BarString.ColorPickLuminanceAxisName" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="BarString.RibbonMinimizedItemCaption" xml:space="preserve">
+    <value>Sekmeleri göster</value>
+  </data>
+  <data name="BarString.RibbonMinimizedItemDescription" xml:space="preserve">
+    <value>Şeridi göster sekmeler yalnızca. Komutları göstermek için bir sekmeyi tıklatın.</value>
+  </data>
+  <data name="BarString.RibbonExpandedItemDescription" xml:space="preserve">
+    <value>Şeridi göster sekmeler ve komutlar her zaman.</value>
+  </data>
+  <data name="BarString.RibbonFullScreenItemCaption" xml:space="preserve">
+    <value>Otomatik Gizle şerit</value>
+  </data>
+  <data name="BarString.RibbonFullScreenItemDescription" xml:space="preserve">
+    <value>Gizle şerit. ' I tıklatın Uygulama onu göstermek için üst kısmında</value>
+  </data>
+  <data name="BarString.ColorPickPopupMoreColorsItemCaption" xml:space="preserve">
+    <value>Daha fazla renk...</value>
+  </data>
+  <data name="BarString.ColorPickPopupRecentColorsGroupCaption" xml:space="preserve">
+    <value>Son renkler</value>
+  </data>
+  <data name="BarString.ColorPickPopupStandardColorsGroupCaption" xml:space="preserve">
+    <value>Standart renkler</value>
+  </data>
+  <data name="BarString.ColorPickPopupThemeColorsGroupCaption" xml:space="preserve">
+    <value>Tema renkleri</value>
+  </data>
+</root>

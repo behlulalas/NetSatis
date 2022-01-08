@@ -1,0 +1,1062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxRichEditStringId.General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ASPxRichEditStringId.Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupText" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ASPxRichEditStringId.CancelButton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooterToolsDesignClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooterToolsDesignOptions" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxRichEditStringId.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxRichEditStringId.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxRichEditStringId.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ASPxRichEditStringId.OkButton" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxRichEditStringId.Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupPageBackground" xml:space="preserve">
+    <value>Arkaplan</value>
+  </data>
+  <data name="ASPxRichEditStringId.Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutAlignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupZoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageFile" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutTable" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageTable" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="ASPxRichEditStringId.ErrorTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ASPxRichEditStringId.Italic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="ASPxRichEditStringId.Landscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ASPxRichEditStringId.Portrait" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ASPxRichEditStringId.Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxRichEditStringId.Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxRichEditStringId.Paper" xml:space="preserve">
+    <value>Kağıt</value>
+  </data>
+  <data name="ASPxRichEditStringId.ColumnsTitle" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageHome" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="ASPxRichEditStringId.MarginsWide" xml:space="preserve">
+    <value>Geniş</value>
+  </data>
+  <data name="ASPxRichEditStringId.Orientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ASPxRichEditStringId.OpenButton" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ASPxRichEditStringId.OpenFileTitle" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ASPxRichEditStringId.SaveAsButton" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ASPxRichEditStringId.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="ASPxRichEditStringId.FontTitle" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFont" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupPageSetup" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageSetupTitle" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="ASPxRichEditStringId.ApplyTo" xml:space="preserve">
+    <value>Apply to</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupParagraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="ASPxRichEditStringId.ParagraphTitle" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="ASPxRichEditStringId.SelectButton" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupStyles" xml:space="preserve">
+    <value>Stiller</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupUndo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="ASPxRichEditStringId.ChangeButton" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertButton" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageInsert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupClipboard" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupLinks" xml:space="preserve">
+    <value>Linkler</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutMerge" xml:space="preserve">
+    <value>Birleştirme</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTables" xml:space="preserve">
+    <value>Tablolar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooterToolsDesignNavigation" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="ASPxRichEditStringId.Continuous" xml:space="preserve">
+    <value>Sürekli</value>
+  </data>
+  <data name="ASPxRichEditStringId.Double" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupCommon" xml:space="preserve">
+    <value>Ortak</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentComment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentLanguage" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupEditing" xml:space="preserve">
+    <value>Düzenleme</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFloatingPictureToolsArrange" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupIllustrations" xml:space="preserve">
+    <value>Çizimler</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupPages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupShow" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="ASPxRichEditStringId.Level" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
+  <data name="ASPxRichEditStringId.MarginsNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ASPxRichEditStringId.Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ASPxRichEditStringId.none" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="ASPxRichEditStringId.SaveAsFileTitle" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="ASPxRichEditStringId.SaveToServer" xml:space="preserve">
+    <value>Dosyayı Sunucuya kaydet</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ASPxRichEditStringId.OtherLabels_All" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="ASPxRichEditStringId.Columns_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_ClearAll" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_Subject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="ASPxRichEditStringId.HyperlinkTitle" xml:space="preserve">
+    <value>Köprü</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Level" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
+  <data name="ASPxRichEditStringId.Columns_EqualWidth" xml:space="preserve">
+    <value>Eşit sütun genişliği</value>
+  </data>
+  <data name="ASPxRichEditStringId.CantSaveDocumentError" xml:space="preserve">
+    <value>Bir sunucu hatası oluştuğundan belge kaydedilemedi.</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerCenterTabTitle" xml:space="preserve">
+    <value>Orta sekme</value>
+  </data>
+  <data name="ASPxRichEditStringId.CustomizeOutlineNumberedTitle" xml:space="preserve">
+    <value>Anahat listesini Özelleştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.CharacterStyles" xml:space="preserve">
+    <value>Karakter stilleri</value>
+  </data>
+  <data name="ASPxRichEditStringId.CantOpenDocumentError" xml:space="preserve">
+    <value>Bir sunucu hatası oluştuğundan belge açılamadı.</value>
+  </data>
+  <data name="ASPxRichEditStringId.Columns_NumberOfColumns" xml:space="preserve">
+    <value>Sütun sayısı</value>
+  </data>
+  <data name="ASPxRichEditStringId.ContinueNumbering" xml:space="preserve">
+    <value>Numaralandırmaya devam et</value>
+  </data>
+  <data name="ASPxRichEditStringId.OtherLabels_None" xml:space="preserve">
+    <value>hiçbiri</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_BulletCharacter" xml:space="preserve">
+    <value>Madde işareti karakteri</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_BulletPosition" xml:space="preserve">
+    <value>Madde işareti konumu</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Character" xml:space="preserve">
+    <value>Karakter...</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_TabCharacter" xml:space="preserve">
+    <value>Sekme karakteri</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_TextPosition" xml:space="preserve">
+    <value>Metin konumu</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Nothing" xml:space="preserve">
+    <value>Hiçbir şey</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_NumberFormat" xml:space="preserve">
+    <value>Sayı biçimi</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_NumberPosition" xml:space="preserve">
+    <value>Sayı konumu</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_EmailAddress" xml:space="preserve">
+    <value>E-posta adresi</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_InvalidEmail" xml:space="preserve">
+    <value>Geçersiz e-posta</value>
+  </data>
+  <data name="ASPxRichEditStringId.Invalid_FileName" xml:space="preserve">
+    <value>Geçersiz dosya adı</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_UpdateAllFieldsDescription" xml:space="preserve">
+    <value>En son kaynak verileri alarak belgedeki tüm dinamik öğeleri yenileyin.</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerRightTabTitle" xml:space="preserve">
+    <value>Sağ Sekme</value>
+  </data>
+  <data name="ASPxRichEditStringId.ParagraphStyles" xml:space="preserve">
+    <value>Paragraf stilleri</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_DefaultTabStops" xml:space="preserve">
+    <value>Varsayılan sekme durakları</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Leader" xml:space="preserve">
+    <value>Lider</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Set" xml:space="preserve">
+    <value>Ayarla</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_TabStopPosition" xml:space="preserve">
+    <value>Sekme durağı konumu</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_TabStopsToBeCleared" xml:space="preserve">
+    <value>Temizlenecek sekme durakları</value>
+  </data>
+  <data name="ASPxRichEditStringId.TabsTitle" xml:space="preserve">
+    <value>Sekmeler</value>
+  </data>
+  <data name="ASPxRichEditStringId.SymbolsTitle" xml:space="preserve">
+    <value>Semboller</value>
+  </data>
+  <data name="ASPxRichEditStringId.RestartNumbering" xml:space="preserve">
+    <value>Numaralandırmayı yeniden başlat</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_ToolTip" xml:space="preserve">
+    <value>Araç ipucu</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_EmailTo" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_NumberStyle" xml:space="preserve">
+    <value>Sayı stili</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_IndentAt" xml:space="preserve">
+    <value>Girinti</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_StartAt" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="ASPxRichEditStringId.RemoveHyperlink" xml:space="preserve">
+    <value>Köprüyü kaldır</value>
+  </data>
+  <data name="ASPxRichEditStringId.CustomizeNumberedListTitle" xml:space="preserve">
+    <value>Numaralandırılmış listeyi Özelleştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.Columns_Presets" xml:space="preserve">
+    <value>Hazır ayarlar</value>
+  </data>
+  <data name="ASPxRichEditStringId.Columns_Col" xml:space="preserve">
+    <value>Col #:</value>
+  </data>
+  <data name="ASPxRichEditStringId.BulletedAndNumberingTitle" xml:space="preserve">
+    <value>Madde işaretli ve numaralandırma</value>
+  </data>
+  <data name="ASPxRichEditStringId.EditHyperlink" xml:space="preserve">
+    <value>Köprü Düzenle</value>
+  </data>
+  <data name="ASPxRichEditStringId.AuthExceptionsError" xml:space="preserve">
+    <value>Erişim belgeye sınırlıdır ve Editöre yeniden yüklenmesi gerekiyor. Son yapılan değişiklikler kaybolabilir.</value>
+  </data>
+  <data name="ASPxRichEditStringId.Columns_Spacing" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="ASPxRichEditStringId.CustomizeBulletedListTitle" xml:space="preserve">
+    <value>Madde işaretli listeyi Özelleştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_AlignedAt" xml:space="preserve">
+    <value>Uyumlu</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_FollowNumberWith" xml:space="preserve">
+    <value>Numarasıyla takip</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Space" xml:space="preserve">
+    <value>Boşluk</value>
+  </data>
+  <data name="ASPxRichEditStringId.OpenHyperlink" xml:space="preserve">
+    <value>Köprü aç</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_DisplayProperties" xml:space="preserve">
+    <value>DisplayProperties</value>
+  </data>
+  <data name="ASPxRichEditStringId.InnerExceptionsError" xml:space="preserve">
+    <value>Belirlenemeyen bir hata oluştu ve Editöre yeniden yüklenmesi gerekiyor. Son yapılan değişiklikler kaybolabilir.</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerLeftTabTitle" xml:space="preserve">
+    <value>Sol Sekme</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_MakeTextSentenceCase" xml:space="preserve">
+    <value>Cümle durumu.</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_MakeTextSentenceCaseDescription" xml:space="preserve">
+    <value>Cümle durumu.</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupSymbols" xml:space="preserve">
+    <value>Semboller</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bookmarks_Add" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageTableLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ASPxRichEditStringId.CloseButton" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ASPxRichEditStringId.Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bookmarks_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Customize" xml:space="preserve">
+    <value>Özelleştir...</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_BordersGrid" xml:space="preserve">
+    <value>Kılavuz</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_BordersCustom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="ASPxRichEditStringId.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_BordersNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ASPxRichEditStringId.StrikeoutType_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bookmarks_Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertTableTitle" xml:space="preserve">
+    <value>Tablo Ekle</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_BordersAll" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_Column" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_Fill" xml:space="preserve">
+    <value>Doldurun</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Underline" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_Shading" xml:space="preserve">
+    <value>Gölgelendirme</value>
+  </data>
+  <data name="ASPxRichEditStringId.Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertMergeField_Fields" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bookmarks_Location" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_BordersBox" xml:space="preserve">
+    <value>Kutu</value>
+  </data>
+  <data name="ASPxRichEditStringId.BorderShading_Borders" xml:space="preserve">
+    <value>Kenarlıklar</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_Options" xml:space="preserve">
+    <value>Seçenekler...</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_Cell" xml:space="preserve">
+    <value>Hücre</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_Table" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="ASPxRichEditStringId.Style" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertTableCellsTitle" xml:space="preserve">
+    <value>Hücre Ekle</value>
+  </data>
+  <data name="ASPxRichEditStringId.FinishMerge_Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="ASPxRichEditStringId.FinishMerge_Range" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="ASPxRichEditStringId.TablePropertiesTitle" xml:space="preserve">
+    <value>Tablo Özellikleri</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_VerticalAlignment" xml:space="preserve">
+    <value>Dikey Hizalama</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_Row" xml:space="preserve">
+    <value>Satır</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageTableDesign" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="ASPxRichEditStringId.CharacterFormattingScript_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ASPxRichEditStringId.StrikeoutType_Double" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_Double" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Decimal" xml:space="preserve">
+    <value>Ondalık</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spelling_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_Replace" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_Find" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_Previous" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplaceTitle" xml:space="preserve">
+    <value>Bul ve Değiştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spelling_NotInDictionary" xml:space="preserve">
+    <value>Sözlük içinde değil:</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupMailMergeView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spelling_Change" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFinish" xml:space="preserve">
+    <value>Bitir</value>
+  </data>
+  <data name="ASPxRichEditStringId.InformationTitle" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spelling_AddToDictionary" xml:space="preserve">
+    <value>Sözlüğe Ekle</value>
+  </data>
+  <data name="ASPxRichEditStringId.Footer" xml:space="preserve">
+    <value>Altbilgi</value>
+  </data>
+  <data name="ASPxRichEditStringId.Header" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooterToolsDesignPosition" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Hyphens" xml:space="preserve">
+    <value>Tire</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_DashDotted" xml:space="preserve">
+    <value>Çizgi noktalı</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_Dashed" xml:space="preserve">
+    <value>Kesik çizgili</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_Dotted" xml:space="preserve">
+    <value>Noktalı</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_HeavyWave" xml:space="preserve">
+    <value>Ağır dalga</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_ThickSingle" xml:space="preserve">
+    <value>Kalın tek</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_Wave" xml:space="preserve">
+    <value>Dalga</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableOptions_DefaultCellSpacing" xml:space="preserve">
+    <value>Varsayılan hücre aralığı</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_NextColumn" xml:space="preserve">
+    <value>Sonraki sütun</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_NextRow" xml:space="preserve">
+    <value>Sonraki satır</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_PreferredWidth" xml:space="preserve">
+    <value>Tercih edilen genişlik</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_PreviousColumn" xml:space="preserve">
+    <value>Önceki sütun</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_PreviousRow" xml:space="preserve">
+    <value>Önceki satır</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_RowHeight" xml:space="preserve">
+    <value>Satır yüksekliği</value>
+  </data>
+  <data name="ASPxRichEditStringId.Tabs_Dots" xml:space="preserve">
+    <value>Noktalar</value>
+  </data>
+  <data name="ASPxRichEditStringId.SplitTableCellsTitle" xml:space="preserve">
+    <value>Hücreleri Böl</value>
+  </data>
+  <data name="ASPxRichEditStringId.StrikeoutType_Single" xml:space="preserve">
+    <value>Tek</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_WebPage" xml:space="preserve">
+    <value>Web sayfası</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hyperlink_Bookmark" xml:space="preserve">
+    <value>Yer işareti</value>
+  </data>
+  <data name="ASPxRichEditStringId.DeleteCells_ShiftCellsLeft" xml:space="preserve">
+    <value>Hücreleri sola kaydır</value>
+  </data>
+  <data name="ASPxRichEditStringId.DeleteCells_ShiftCellsUp" xml:space="preserve">
+    <value>Hücreleri yukarı kaydır</value>
+  </data>
+  <data name="ASPxRichEditStringId.DeleteTableCellsTitle" xml:space="preserve">
+    <value>Hücreleri Sil</value>
+  </data>
+  <data name="ASPxRichEditStringId.FinishMerge_AllRecords" xml:space="preserve">
+    <value>Tüm kayıtlar</value>
+  </data>
+  <data name="ASPxRichEditStringId.FinishMerge_CurrentRecord" xml:space="preserve">
+    <value>Geçerli kayıt</value>
+  </data>
+  <data name="ASPxRichEditStringId.FinishMerge_MergeMode" xml:space="preserve">
+    <value>Birleştirme modu</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Numbered" xml:space="preserve">
+    <value>Sayılı</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_OutlineNumbered" xml:space="preserve">
+    <value>Numaralandırılmış Anahat</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertMergeFieldTitle" xml:space="preserve">
+    <value>Birleştirme alanı ekle</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertTable_NumberOfColumns" xml:space="preserve">
+    <value>Sütun sayısı</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertTable_NumberOfRows" xml:space="preserve">
+    <value>Satır sayısı</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_ShowCellOptionsForm" xml:space="preserve">
+    <value>Hücre kenar boşlukları</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Font" xml:space="preserve">
+    <value>Yazı tipi...</value>
+  </data>
+  <data name="ASPxRichEditStringId.Numbering_Bulleted" xml:space="preserve">
+    <value>Madde işaretli</value>
+  </data>
+  <data name="ASPxRichEditStringId.CellOptions_CellMargins" xml:space="preserve">
+    <value>Hücre kenar boşlukları</value>
+  </data>
+  <data name="ASPxRichEditStringId.CellOptions_SameAsTable" xml:space="preserve">
+    <value>Tüm tabloda olduğu gibi</value>
+  </data>
+  <data name="ASPxRichEditStringId.CharacterFormattingScript_Subscript" xml:space="preserve">
+    <value>Alt simge</value>
+  </data>
+  <data name="ASPxRichEditStringId.CharacterFormattingScript_Superscript" xml:space="preserve">
+    <value>Üst simge</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bookmarks_BookmarkName" xml:space="preserve">
+    <value>Yer işareti adı</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bookmarks_GoTo" xml:space="preserve">
+    <value>Git</value>
+  </data>
+  <data name="ASPxRichEditStringId.BookmarkTitle" xml:space="preserve">
+    <value>Yer işareti</value>
+  </data>
+  <data name="ASPxRichEditStringId.WarningTitle" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bookmarks_SortBy" xml:space="preserve">
+    <value>Sıralama ölçütü</value>
+  </data>
+  <data name="ASPxRichEditStringId.CellOptions_WrapText" xml:space="preserve">
+    <value>Metni kaydırma</value>
+  </data>
+  <data name="ASPxRichEditStringId.InvalidDocumentFormatError" xml:space="preserve">
+    <value>Dosya bozuk ve açılamıyor.</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertCells_ShiftCellsDown" xml:space="preserve">
+    <value>Hücreleri aşağı kaydır</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertCells_ShiftCellsRight" xml:space="preserve">
+    <value>Hücreleri sağa kaydır</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_FooterOffset" xml:space="preserve">
+    <value>Alttan altbilgi:</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_MeasureIn" xml:space="preserve">
+    <value>Ölçüde</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableProperties_SpecifyHeight" xml:space="preserve">
+    <value>Yükseklik belirt</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableOptions_AllowSpacing" xml:space="preserve">
+    <value>Hücreler arasında aralığa izin ver</value>
+  </data>
+  <data name="ASPxRichEditStringId.TableOptions_DefaultCellMargins" xml:space="preserve">
+    <value>Varsayılan hücre kenar boşlukları</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_DashDotDotted" xml:space="preserve">
+    <value>Noktalı çizgi nokta</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_DoubleWave" xml:space="preserve">
+    <value>Çift dalga</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_LongDashed" xml:space="preserve">
+    <value>Uzun çizgili</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_Single" xml:space="preserve">
+    <value>Tek</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_ThickDashDotted" xml:space="preserve">
+    <value>Kalın çizgi noktalı</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_ThickDashed" xml:space="preserve">
+    <value>Kalın çizgili</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_ThickDotted" xml:space="preserve">
+    <value>Kalın noktalı</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineType_ThickLongDashed" xml:space="preserve">
+    <value>Kalın uzun çizgili</value>
+  </data>
+  <data name="ASPxRichEditStringId.Single" xml:space="preserve">
+    <value>Tek</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_FooterOffsetDescription" xml:space="preserve">
+    <value>Sayfanın altından altbilgi altına kadar olan mesafeyi belirleyin.</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spelling_IgnoreAll" xml:space="preserve">
+    <value>Tümünü Yoksay</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spelling_IgnoreOnce" xml:space="preserve">
+    <value>Bir kez Yoksay</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_Results" xml:space="preserve">
+    <value>Sonuçlar</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_Items" xml:space="preserve">
+    <value>Öğeler</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_NoResult" xml:space="preserve">
+    <value>Aradığını bulamadı şey için</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_Of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_TooLongResult" xml:space="preserve">
+    <value>Çok uzun bir sonucudur. Metin sonuçları görmek için sayfa göz atın.</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_ReplaceAllNotify" xml:space="preserve">
+    <value>{0} girişleri yerini almış</value>
+  </data>
+  <data name="ASPxRichEditStringId.FileManager_OpenedFileDeleteErrorText" xml:space="preserve">
+    <value>Dosya silinemez. Başka bir kullanıcının önceden açtığı.</value>
+  </data>
+  <data name="ASPxRichEditStringId.ClipboardAccessDeniedErrorTouch" xml:space="preserve">
+    <value>, Tarayıcınızın güvenlik ilkesi nedeniyle Pano erişim engellendi. Bunun yerine, dokunarak ve seçili içeriği holding tarafından çağrılan yerel menüyü kullanın.</value>
+  </data>
+  <data name="ASPxRichEditStringId.CantSaveToEmptyPathError" xml:space="preserve">
+    <value>Değil bir dosya açtığınız bir belgeyi kaydedemiyor. Tasarruf başa özel tasarruf işlemek için olay</value>
+  </data>
+  <data name="ASPxRichEditStringId.SpellingCheckCompletedInformation" xml:space="preserve">
+    <value>Yazım denetimi tamamlandıktan.</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spelling_NoSpellingSuggestions" xml:space="preserve">
+    <value>(yazım önerisi yok)</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hidden" xml:space="preserve">
+    <value>Gizli</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreateDateFieldDescription" xml:space="preserve">
+    <value>Geçerli tarih ve saati ekler.</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreateEmptyDocVariableField" xml:space="preserve">
+    <value>DOCVARIABLE</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LeftOnly" xml:space="preserve">
+    <value>Sadece sol</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Reset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageFloatingObjects" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_HorizontalBookLayoutOf" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Rotate" xml:space="preserve">
+    <value>Döndürme</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_HorizontalPositionAlignmentOutside" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_HorizontalPositionAlignmentInside" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="ASPxRichEditStringId.Special" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Scale" xml:space="preserve">
+    <value>Ölçek</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_WrapText" xml:space="preserve">
+    <value>Metni kaydırma</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFloatingObjectsArrange" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.FindReplace_MatchCase" xml:space="preserve">
+    <value>Harf eşleştir</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Absolute" xml:space="preserve">
+    <value>Mutlak</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreatePageFieldDescription" xml:space="preserve">
+    <value>Alanın bulunduğu sayfa numarasını ekler.</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreateTimeField" xml:space="preserve">
+    <value>Zaman</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreateTimeFieldDescription" xml:space="preserve">
+    <value>Geçerli saati ekler.</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreateEmptyMergeField" xml:space="preserve">
+    <value>Birleştirme alanı</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreatePageCountField" xml:space="preserve">
+    <value>NUMPAGES</value>
+  </data>
+  <data name="ASPxRichEditStringId.CreatePageCountFieldDescription" xml:space="preserve">
+    <value>Toplam sayfa sayısını ekler.</value>
+  </data>
+  <data name="ASPxRichEditStringId.FileManager_OpenedFileMoveErrorText" xml:space="preserve">
+    <value>Dosya taşınamaz. Başka bir kullanıcının önceden açtığı.</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFloatingObjectsShapeStyles" xml:space="preserve">
+    <value>Şekil stilleri</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_AbsolutePosition" xml:space="preserve">
+    <value>Mutlak konum</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Below" xml:space="preserve">
+    <value>aşağıda</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_DistanceFromText" xml:space="preserve">
+    <value>Metinden Uzaklık</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Inline" xml:space="preserve">
+    <value>Metinle aynı hizaya</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LargestOnly" xml:space="preserve">
+    <value>Yalnızca büyükten</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LockAnchor" xml:space="preserve">
+    <value>Tutturucuyu kilitle</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_LockAspectRatio" xml:space="preserve">
+    <value>En boy oranını kilitle</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_OriginalSize" xml:space="preserve">
+    <value>Orijinal boyutu</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_Relative" xml:space="preserve">
+    <value>Göreli</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_RelativePosition" xml:space="preserve">
+    <value>Göreli konumu</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_RelativeTo" xml:space="preserve">
+    <value>göreli olarak</value>
+  </data>
+  <data name="ASPxRichEditStringId.LayoutOptions_RightOnly" xml:space="preserve">
+    <value>Sadece sağ</value>
+  </data>
+</root>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxEditorsStringId.Calendar_Cancel">
+    <value>İptal et</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_PopupHeaderText">
+    <value>Filtre Oluşturucu</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Cancel">
+    <value>İptal et</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddValueHint">
+    <value>Listeye yeni bir öğe ekler</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClauseType">
+    <value>eşittir,eşit değildir,daha büyük,büyük veya eşit,az,küçük veya eşit,arasında,arasında değil,içerir,içermez,ile başlar,ile biter,gibi,gibi değil,boş,boş değil,herhangi bir şey,yok,,,Is beyond this year,Is later this year,Is later this month,Is next week,Is later this week,Is tomorrow,Is today,Is yesterday,Is earlier this week,Is last week,Is earlier this month,Is earlier this year,Is prior this year</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Not">
+    <value>Değil</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_OK">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Remove">
+    <value>Kaldır</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_RemoveConditionHint">
+    <value>Bu koşulu kaldırır</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Decrement">
+    <value>Azaltma</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultImageAlternateText">
+    <value>Captcha Resim</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultTextBoxLabelText">
+    <value>Gösterilen kodu yazın:</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_RefreshText">
+    <value>Başka bir kodu göster</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Undefined">
+    <value>?</value>
+  </data>
+  <data name="ASPxEditorsStringId.DefaultErrorText">
+    <value>Geçersiz değer</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_OK">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Today">
+    <value>Bugün</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddCondition">
+    <value>Koşul Ekle</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddConditionHint">
+    <value>Bu grup için yeni bir koşul ekler</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Clear">
+    <value>Temizle</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Drag">
+    <value>Sürükleme</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Increment">
+    <value>Artış</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ShowFilterControl">
+    <value>Filtre oluşturma</value>
+  </data>
+  <data name="ASPxEditorsStringId.RegExValidationErrorText">
+    <value>Normal ifade doğrulama başarısız oldu</value>
+  </data>
+  <data name="ASPxEditorsStringId.RequiredFieldErrorText">
+    <value>*</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClearFilter">
+    <value>Açık</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_GroupType">
+    <value>Ve, veya, değil ve, değil veya</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddGroup">
+    <value>Grup ekleme</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_BetweenAnd">
+    <value>Ve</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_Empty">
+    <value>&amp; lt; Boş &amp; gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_EmptyEnter">
+    <value>&amp; lt; değer &amp; gt; girin</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Checked">
+    <value>İşaretli</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Unchecked">
+    <value>İşaretsiz</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultErrorText">
+    <value>Gönderilen kod yanlıştır</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_Cancel">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_CustomColor">
+    <value>Özel renk...</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_OK">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxEditorsStringId.TokenBox_TokenRemoveButtonToolTip" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Empty" xml:space="preserve">
+    <value>Resim yok</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Uploading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Empty" xml:space="preserve">
+    <value>&amp;lt;boş&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_EmptyEnter" xml:space="preserve">
+    <value>&amp; lt; değer &amp; gt; girin</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_DateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>Tarih ve saat operatörleri</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_TextFilterTabCaption" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_VisualFilterTabCaption" xml:space="preserve">
+    <value>Görsel</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_AutomaticColor" xml:space="preserve">
+    <value>Otomatik Renk</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_InvalidData" xml:space="preserve">
+    <value>Geçersiz görüntü verisi</value>
+  </data>
+  <data name="ASPxEditorsStringId.ListBoxSelectAllText" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+</root>

@@ -1,0 +1,1531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XtraSpreadsheetFunctionNameStringId.BetaDistCompatibility">
+    <value>BETADAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Abs">
+    <value>MUTLAK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Accrint">
+    <value>GERÇEKFAİZ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Accrintm">
+    <value>GERÇEKFAİZV</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ACos">
+    <value>ACOS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ACosH">
+    <value>ACOSH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ACot">
+    <value>ACOT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ACotH">
+    <value>ACOTH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Address">
+    <value>ADRES</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Aggregate">
+    <value>TOPLAMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Amordegrc">
+    <value>AMORDEGRC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Amorlinc">
+    <value>AMORLINC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.And">
+    <value>VE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Arabic">
+    <value>ARAP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Areas">
+    <value>ALANSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Asc">
+    <value>ASC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ASin">
+    <value>ASİN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ASinH">
+    <value>ASİNH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ATan">
+    <value>ATAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ATan2">
+    <value>ATAN2</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ATanH">
+    <value>ATANH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Avedev">
+    <value>ORTSAP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Average">
+    <value>ORTALAMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.AverageA">
+    <value>ORTALAMAA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.AverageIf">
+    <value>EĞERORTALAMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.AverageIfs">
+    <value>ÇOKEĞERORTALAMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BahtText">
+    <value>BAHTMETİN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Base">
+    <value>TABAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BesselI">
+    <value>BESSELI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BesselJ">
+    <value>BESSELJ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BesselK">
+    <value>BESSELK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BesselY">
+    <value>BESSELY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BetaDist">
+    <value>BETA.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BetaDotInv">
+    <value>BETA.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BetaInv">
+    <value>BETATERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Bin2Dec">
+    <value>BIN2DEC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Bin2Hex">
+    <value>BIN2HEX</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Bin2Oct">
+    <value>BIN2OCT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BinomDist">
+    <value>BİNOMDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BinomDistRange">
+    <value>BİNOM.DAĞ.ARALIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BinomDotDist">
+    <value>BİNOM.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BinomDotInv">
+    <value>BİNOM.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BitAnd">
+    <value>BİTVE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BitLShift">
+    <value>BİTSOLAKAYDIR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BitOr">
+    <value>BİTVEYA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BitRShift">
+    <value>BİTSAĞAKAYDIR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.BitXor">
+    <value>BİTÖZELVEYA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Ceiling">
+    <value>TAVANAYUVARLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CeilingDotPrecise">
+    <value>TAVANAYUVARLA.DUYARLI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CeilingMath">
+    <value>TAVANAYUVARLA.MATEMATİK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Cell">
+    <value>HÜCRE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Char">
+    <value>DAMGA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChiDist">
+    <value>KİKAREDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChiInv">
+    <value>KİKARETERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChisqDotDist">
+    <value>KİKARE.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChisqDotDistDotRt">
+    <value>KİKARE.DAĞ.SAĞK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChisqDotInv">
+    <value>KİKARE.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChisqDotInvDotRt">
+    <value>KİKARE.TERS.SAĞK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChisqDotTest">
+    <value>KİKARE.TEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ChiTest">
+    <value>KİKARETEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Choose">
+    <value>ELEMAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Clean">
+    <value>TEMİZ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Code">
+    <value>KOD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Column">
+    <value>SÜTUN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Columns">
+    <value>SÜTUNSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Combin">
+    <value>KOMBİNASYON</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CombinA">
+    <value>KOMBİNASYONA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Complex">
+    <value>KARMAŞIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Concatenate">
+    <value>BİRLEŞTİR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Confidence">
+    <value>GÜVENİRLİK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ConfidenceDotT">
+    <value>GÜVENİLİRLİK.T</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ConfidenceNorm">
+    <value>GÜVENİLİRLİK.NORM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Convert">
+    <value>ÇEVİR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Correl">
+    <value>KORELASYON</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Cos">
+    <value>COS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CosH">
+    <value>COSH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Cot">
+    <value>COT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CotH">
+    <value>COTH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Count">
+    <value>BAĞ_DEĞ_SAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CountA">
+    <value>BAĞ_DEĞ_DOLU_SAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CountBlank">
+    <value>BOŞLUKSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CountIf">
+    <value>EĞERSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CountIfs">
+    <value>ÇOKEĞERSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CoupDaybs">
+    <value>KUPONGÜNBD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CoupDays">
+    <value>KUPONGÜN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CoupDaysnc">
+    <value>KUPONGÜNDSK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Coupncd">
+    <value>KUPONGÜNSKT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CoupNum">
+    <value>KUPONSAYI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Couppcd">
+    <value>KUPONGÜNÖKT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Covar">
+    <value>KOVARYANS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CovarianceP">
+    <value>KOVARYANS.P</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CovarianceS">
+    <value>KOVARYANS.S</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CritBinom">
+    <value>KRİTİKBİNOM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Csc">
+    <value>CSC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CscH">
+    <value>CSCH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CubeKpiMember">
+    <value>KÜPKPIÜYESİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CubeMember">
+    <value>KÜPÜYESİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CubeMemberProperty">
+    <value>KÜPÜYEÖZELLİĞİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CubeRankedMember">
+    <value>DERECELİKÜPÜYESİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CubeSet">
+    <value>KÜPKÜMESİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CubeSetCount">
+    <value>KÜPKÜMESAYISI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CubeValue">
+    <value>KÜPDEĞERİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CumIpmt">
+    <value>TOPÖDENENFAİZ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.CumPrinc">
+    <value>TOPANAPARA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Date">
+    <value>TARİH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DateDif">
+    <value>ETARİHLİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DateValue">
+    <value>TARİHSAYISI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DAverage">
+    <value>VSEÇORT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Day">
+    <value>GÜN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Days">
+    <value>GÜNSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Days360">
+    <value>GÜN360</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Db">
+    <value>AZALANBAKİYE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DCount">
+    <value>VSEÇSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DCountA">
+    <value>VSEÇSAYDOLU</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Ddb">
+    <value>ÇİFTAZALANBAKİYE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Dec2Bin">
+    <value>DEC2BIN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Dec2Hex">
+    <value>DEC2HEX</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Dec2Oct">
+    <value>DEC2OCT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Decimal">
+    <value>ONDALIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Degrees">
+    <value>DERECE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Delta">
+    <value>DELTA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DevSq">
+    <value>SAPKARE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DGet">
+    <value>VAL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Disc">
+    <value>İNDİRİM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DMax">
+    <value>VSEÇMAK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DMin">
+    <value>VSEÇMİN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Dollar">
+    <value>LİRA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DollarDe">
+    <value>LİRAON</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DollarFr">
+    <value>LİRAKES</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DProduct">
+    <value>VSEÇÇARP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DStDev">
+    <value>VSEÇSTDSAPMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DStDevP">
+    <value>VSEÇSTDSAPMAS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DSum">
+    <value>VSEÇTOPLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Duration">
+    <value>SÜRE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DVar">
+    <value>VSEÇVAR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DVarP">
+    <value>VSEÇVARS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.EDate">
+    <value>SERİTARİH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Effect">
+    <value>ETKİN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.EncodeURL">
+    <value>URLKODLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.EOMonth">
+    <value>SERİAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Erf">
+    <value>HATAİŞLEV</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Erfc">
+    <value>TÜMHATAİŞLEV</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ErfcPrecise">
+    <value>TÜMHATAİŞLEV.DUYARLI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ErfPrecise">
+    <value>HATAİŞLEV.DUYARLI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ErrorType">
+    <value>HATA.TİPİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Even">
+    <value>ÇİFT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Exact">
+    <value>ÖZDEŞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Exp">
+    <value>ÜS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ExponDist">
+    <value>ÜSTELDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ExponDotDist">
+    <value>ÜSTEL.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Fact">
+    <value>ÇARPINIM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FactDouble">
+    <value>ÇİFTFAKTÖR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.False">
+    <value>YANLIŞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FDist">
+    <value>FDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FDotDist">
+    <value>F.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FDotDistDotRt">
+    <value>F.DAĞ.SAĞK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FDotInv">
+    <value>F.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FDotinvDotRt">
+    <value>F.TERS.SAĞK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FDotTest">
+    <value>F.TEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Find">
+    <value>BUL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FindB">
+    <value>BULB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FInv">
+    <value>FTERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Fisher">
+    <value>FISHER</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FisherInv">
+    <value>FISHERTERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Fixed">
+    <value>SAYIDÜZENLE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Floor">
+    <value>TABANAYUVARLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FloorDotPrecise">
+    <value>TABANAYUVARLA.DUYARLI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FloorMath">
+    <value>TABANAYUVARLA.MATEMATİK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Forecast">
+    <value>TAHMİN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FormulaText">
+    <value>FORMÜLMETNİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Frequency">
+    <value>SIKLIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FTest">
+    <value>FTEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FunctionFilterXML">
+    <value>XMLFİLTRELE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FunctionWebService">
+    <value>WEBHİZMETİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Fv">
+    <value>GD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FvSchedule">
+    <value>GDPROGRAM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Gamma">
+    <value>GAMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.GammaDist">
+    <value>GAMADAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.GammaDotDist">
+    <value>GAMA.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.GammaDotInv">
+    <value>GAMA.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.GammaInv">
+    <value>GAMATERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.GammaLn">
+    <value>GAMALN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.GammaLnPrecise">
+    <value>GAMALN.DUYARLI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Gcd">
+    <value>OBEB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Geomean">
+    <value>GEOORT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Gestep">
+    <value>BESINIR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.GetPivotData">
+    <value>ÖZETVERİAL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Growth">
+    <value>BÜYÜME</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.HarMean">
+    <value>HARORT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Hex2Bin">
+    <value>HEX2BIN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Hex2Dec">
+    <value>HEX2DEC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Hex2Oct">
+    <value>HEX2OCT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.HLookup">
+    <value>YATAYARA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Hour">
+    <value>SAAT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Hyperlink">
+    <value>KÖPRÜ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.HypGeomDist">
+    <value>HİPERGEOMDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.HypgeomDotDist">
+    <value>HİPERGEOM.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.If">
+    <value>EĞER</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IfError">
+    <value>EĞERHATA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IfNA">
+    <value>EĞERYOKSA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImAbs">
+    <value>SANMUTLAK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Imaginary">
+    <value>SANAL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImArgument">
+    <value>SANBAĞ_DEĞİŞKEN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImConjugate">
+    <value>SANEŞLENEK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImCos">
+    <value>SANCOS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImCosH">
+    <value>SANCOSH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImCot">
+    <value>SANCOT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImCsc">
+    <value>SANCSC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImCscH">
+    <value>SANCSCH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImDiv">
+    <value>SANBÖL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImExp">
+    <value>SANÜS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImLn">
+    <value>SANLN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImLog10">
+    <value>SANLOG10</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImLog2">
+    <value>SANLOG2</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImPower">
+    <value>SANKUVVET</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImProduct">
+    <value>SANÇARP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImReal">
+    <value>SANGERÇEK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImSec">
+    <value>SANSEC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImSecH">
+    <value>SANSECH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImSin">
+    <value>SANSIN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImSinH">
+    <value>SANSINH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImSqrt">
+    <value>SANKAREKÖK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImSub">
+    <value>SANTOPLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImSum">
+    <value>SANÇIKAR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ImTan">
+    <value>SANTAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Index">
+    <value>İNDİS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Indirect">
+    <value>DOLAYLI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Info">
+    <value>BİLGİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Int">
+    <value>TAMSAYI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Intercept">
+    <value>KESMENOKTASI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Intrate">
+    <value>FAİZORANI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Ipmt">
+    <value>FAİZTUTARI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Irr">
+    <value>İÇ_VERİM_ORANI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsBlank">
+    <value>EBOŞSA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsErr">
+    <value>EHATA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsError">
+    <value>EHATALIYSA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsEven">
+    <value>ÇİFTMİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsFormula">
+    <value>EFORMÜLSE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsLogical">
+    <value>EMANTIKSALSA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsNA">
+    <value>EYOKSA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsNonText">
+    <value>EMETİNDEĞİLSE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsNumber">
+    <value>ESAYIYSA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsoCeiling">
+    <value>ISO.TAVAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsOdd">
+    <value>TEKMİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ISOWeekNum">
+    <value>ISOHAFTASAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsPmt">
+    <value>ISPMT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsRef">
+    <value>EREFSE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.IsText">
+    <value>EMETİNSE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Kurt">
+    <value>BASIKLIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Large">
+    <value>BÜYÜK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Lcm">
+    <value>OKEK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Left">
+    <value>SOLDAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.LeftB">
+    <value>SOLB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Len">
+    <value>UZUNLUK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.LenB">
+    <value>UZUNLUKB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Linest">
+    <value>DOT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Ln">
+    <value>LN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Log">
+    <value>LOG</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Log10">
+    <value>LOG10</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Logest">
+    <value>LOT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.LogInvCompatibility">
+    <value>LOGTERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.LogNormDist">
+    <value>LOGNORM.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.LogNormDistCompatibility">
+    <value>LOGNORMDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.LogNormInv">
+    <value>LOGNORM.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Lookup">
+    <value>ARA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Lower">
+    <value>KÜÇÜKHARF</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Match">
+    <value>KAÇINCI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Max">
+    <value>MAK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MaxA">
+    <value>MAKA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MDeterm">
+    <value>DETERMİNANT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MDuration">
+    <value>MSÜRE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Median">
+    <value>ORTANCA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Mid">
+    <value>PARÇAAL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MidB">
+    <value>ORTAB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Min">
+    <value>MİN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MinA">
+    <value>MİNA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Minute">
+    <value>DAKİKA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MInverse">
+    <value>DİZEY_TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Mirr">
+    <value>D_İÇ_VERİM_ORANI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MMult">
+    <value>DÇARP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Mod">
+    <value>MOD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Mode">
+    <value>ENÇOK_OLAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ModeMult">
+    <value>ENÇOK_OLAN.ÇOK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ModeSngl">
+    <value>ENÇOK_OLAN.TEK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Month">
+    <value>AY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MRound">
+    <value>KYUVARLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Multinomial">
+    <value>ÇOKTERİMLİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MUnit">
+    <value>BİRİMMATRİS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.N">
+    <value>S</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NA">
+    <value>YOKSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NegBinomDist">
+    <value>NEGBİNOMDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NegbinomDotDist">
+    <value>NEGBİNOM.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NetworkDays">
+    <value>TAMİŞGÜNÜ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NetworkDaysIntl">
+    <value>TAMİŞGÜNÜ.ULUSL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Nominal">
+    <value>NOMİNAL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormDist">
+    <value>NORM.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormDistCompatibility">
+    <value>NORMDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormInv">
+    <value>NORM.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormInvCompatibility">
+    <value>NORMTERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormSDist">
+    <value>NORM.S.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormSDistCompatibility">
+    <value>NORMSDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormSInv">
+    <value>NORM.S.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NormSInvCompatibility">
+    <value>NORMSTERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Not">
+    <value>DEĞİL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Now">
+    <value>ŞİMDİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NPer">
+    <value>TAKSİT_SAYISI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Npv">
+    <value>NBD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NumberValue">
+    <value>SAYIDEĞERİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Oct2Bin">
+    <value>OCT2BIN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Oct2Dec">
+    <value>OCT2DEC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Oct2Hex">
+    <value>OCT2HEX</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Odd">
+    <value>TEK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.OddFPrice">
+    <value>TEKYDEĞER</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.OddFYield">
+    <value>TEKYÖDEME</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.OddLPrice">
+    <value>TEKSDEĞER</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.OddLYield">
+    <value>TEKSÖDEME</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Offset">
+    <value>KAYDIR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Or">
+    <value>YADA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PDuration">
+    <value>PSÜRE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Pearson">
+    <value>PEARSON</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Percentile">
+    <value>YÜZDEBİRLİK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PercentileExc">
+    <value>YÜZDEBİRLİK.HRC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PercentileInc">
+    <value>YÜZDEBİRLİK.DHL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PercentRank">
+    <value>YÜZDERANK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PercentRankExc">
+    <value>YÜZDERANK.HRC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PercentRankInc">
+    <value>YÜZDERANK.DHL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Permut">
+    <value>PERMÜTASYON</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Permutationa">
+    <value>PERMÜTASYONA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Phi">
+    <value>PHI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Phonetic">
+    <value>SES</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Pi">
+    <value>Pİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Pmt">
+    <value>DEVRESEL_ÖDEME</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Poisson">
+    <value>POISSON</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PoissonDotDist">
+    <value>POISSON.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Power">
+    <value>KUVVET</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Ppmt">
+    <value>ANA_PARA_ÖDEMESİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Price">
+    <value>DEĞER</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PriceDisc">
+    <value>DEĞERİND</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PriceMat">
+    <value>DEĞERVADE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Prob">
+    <value>OLASILIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Product">
+    <value>ÇARPIM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Proper">
+    <value>YAZIM.DÜZENİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Pv">
+    <value>BD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Quartile">
+    <value>DÖRTTEBİRLİK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.QuartileExc">
+    <value>DÖRTTEBİRLİK.HRC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.QuartileInc">
+    <value>DÖRTTEBİRLİK.DHL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Quotient">
+    <value>BÖLÜM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Radians">
+    <value>RADYAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Rand">
+    <value>S_SAYI_ÜRET</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RandBetween">
+    <value>RASTGELEARADA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Rank">
+    <value>RANK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RankDotAvg">
+    <value>RANK.ORT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RankDotEq">
+    <value>RANK.EŞİT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Rate">
+    <value>FAİZ_ORANI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Received">
+    <value>GETİRİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Replace">
+    <value>DEĞİŞTİR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ReplaceB">
+    <value>DEĞİŞTİRB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Rept">
+    <value>YİNELE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Right">
+    <value>SAĞDAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RightB">
+    <value>SAĞB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Roman">
+    <value>ROMEN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Round">
+    <value>YUVARLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RoundDown">
+    <value>AŞAĞIYUVARLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RoundUp">
+    <value>YUKARIYUVARLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Row">
+    <value>SATIR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Rows">
+    <value>SATIRSAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RRI">
+    <value>GERÇEKLEŞENYATIRIMGETİRİSİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Rsq">
+    <value>RKARE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Rtd">
+    <value>GZV</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Search">
+    <value>MBUL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SearchB">
+    <value>ARAB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sec">
+    <value>SEC</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SecH">
+    <value>SECH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Second">
+    <value>SANİYE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Seriessum">
+    <value>SERİTOPLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sheet">
+    <value>SAYFA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sheets">
+    <value>SAYFALAR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sign">
+    <value>İŞARET</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sin">
+    <value>SİN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SinH">
+    <value>SİNH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Skew">
+    <value>ÇARPIKLIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SkewP">
+    <value>ÇARPIKLIK.P</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sln">
+    <value>DA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Slope">
+    <value>EĞİM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Small">
+    <value>KÜÇÜK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sqrt">
+    <value>KAREKÖK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SqrtPi">
+    <value>KAREKÖKPİ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Standardize">
+    <value>STANDARTLAŞTIRMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.StDev">
+    <value>STDSAPMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.StDevA">
+    <value>STDSAPMAA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.StDevDotP">
+    <value>STDSAPMA.P</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.StDevDotS">
+    <value>STDSAPMA.S</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.StDevP">
+    <value>STDSAPMAS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.StDevPA">
+    <value>STDSAPMASA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.StEYX">
+    <value>STHYX</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Substitute">
+    <value>YERİNEKOY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Subtotal">
+    <value>ALTTOPLAM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Sum">
+    <value>TOPLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SumIf">
+    <value>ETOPLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SumIfs">
+    <value>ÇOKETOPLA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SumProduct">
+    <value>TOPLA.ÇARPIM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SumSq">
+    <value>TOPKARE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SumX2MY2">
+    <value>TOPX2EY2</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SumX2PY2">
+    <value>TOPX2AY2</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SumXMY2">
+    <value>TOPXEY2</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Syd">
+    <value>YAT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.T">
+    <value>M</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Tan">
+    <value>TAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TanH">
+    <value>TANH</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TbillEq">
+    <value>HTAHEŞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TbillPrice">
+    <value>HTAHDEĞER</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TbillYield">
+    <value>HTAHÖDEME</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TDist">
+    <value>TDAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TDotDist">
+    <value>T.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TDotDistDot2t">
+    <value>T.DAĞ.2K</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TDotDistDotTt">
+    <value>T.DAĞ.SAĞK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TDotInv">
+    <value>T.TERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TDotInvDot2t">
+    <value>T.TERS.2K</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TDotTest">
+    <value>T.TEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Text">
+    <value>METNEÇEVİR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Time">
+    <value>ZAMAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TimeValue">
+    <value>ZAMANSAYISI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Tinv">
+    <value>TTERS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Today">
+    <value>BUGÜN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Transpose">
+    <value>DEVRİK_DÖNÜŞÜM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Trend">
+    <value>EĞİLİM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Trim">
+    <value>KIRP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Trimmean">
+    <value>KIRPORTALAMA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.True">
+    <value>DOĞRU</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Trunc">
+    <value>NSAT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TTest">
+    <value>TTEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Type">
+    <value>TÜR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Unicode">
+    <value>UNICODE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Upper">
+    <value>BÜYÜKHARF</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Value">
+    <value>SAYIYAÇEVİR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Var">
+    <value>VAR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.VarA">
+    <value>VARA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.VarDotP">
+    <value>VAR.P</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.VarDotS">
+    <value>VAR.S</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.VarP">
+    <value>VARS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.VarPA">
+    <value>VARSA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Vdb">
+    <value>DAB</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.VLookup">
+    <value>DÜŞEYARA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.WeekDay">
+    <value>HAFTANINGÜNÜ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.WeekNum">
+    <value>HAFTASAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Weibull">
+    <value>WEIBULL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.WeibullDotDist">
+    <value>WEIBULL.DAĞ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.WorkDay">
+    <value>İŞGÜNÜ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.WorkDayIntl">
+    <value>İŞGÜNÜ.ULUSL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Xirr">
+    <value>AİÇVERİMORANI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Xnpv">
+    <value>ANBD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.XOr">
+    <value>ÖZELVEYA</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Year">
+    <value>YIL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.YearFrac">
+    <value>YILORAN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Yield">
+    <value>ÖDEME</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.YieldDisc">
+    <value>ÖDEMEİND</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.YieldMat">
+    <value>ÖDEMEVADE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ZDotTest">
+    <value>Z.TEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ZTest">
+    <value>ZTEST</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Call">
+    <value>CALL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RegisterId">
+    <value>REGISTER.ID</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.AddressInfo">
+    <value>ADRES</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ColumnInfo">
+    <value>SÜTUN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ColorInfo">
+    <value>RENK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ContentsInfo">
+    <value>IÇERIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FilenameInfo">
+    <value>DOSYAADI</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FormatInfo">
+    <value>BIÇIM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ParenthesesInfo">
+    <value>PARANTEZ</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.PrefixInfo">
+    <value>ÖNEK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ProtectInfo">
+    <value>KILIT</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RowInfo">
+    <value>SATIR</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TypeInfo">
+    <value>TIP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.WidthInfo">
+    <value>GENIŞLIK</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.DirectoryInfo">
+    <value>DIZIN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.NumFileInfo">
+    <value>SAYFASAY</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.OriginInfo">
+    <value>ORJIN</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.OsVersionInfo">
+    <value>ISVERSIYONU</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.RecalcInfo">
+    <value>YENIDENHESAP</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ReleaseInfo">
+    <value>SÜRÜM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.SystemInfo">
+    <value>SISTEM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MemAvailInfo">
+    <value>MEMAVAIL</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.MemUsedInfo">
+    <value>MEMUSED</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.TotMemInfo">
+    <value>TOTMEM</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.AutoCalcMode">
+    <value>Otomatik</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.ManualCalcMode">
+    <value>El ile</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Field">
+    <value>FIELD</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.FieldPicture">
+    <value>FIELDPICTURE</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Gauss">
+    <value>GAUSS</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Parameter">
+    <value>PARAMETER</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionNameStringId.Range">
+    <value>RANGE</value>
+  </data>
+</root>

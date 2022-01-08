@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationIsNotStarted" xml:space="preserve">
+    <value>Uygulama Başlatılmadı</value>
+  </data>
+  <data name="ActionMethodShouldBeNonGeneric" xml:space="preserve">
+    <value>Sınıfı {1} yöntemi {0} eylemi oluşturulamadı. Eylem yöntem-meli var olmak genel olmayan</value>
+  </data>
+  <data name="ActionMethodShouldBeParameterless" xml:space="preserve">
+    <value>sınıfı {1} yöntemi {0} eylemi oluşturulamadı. Eylem yöntem-meli var olmak parametresiz</value>
+  </data>
+  <data name="AlreadyUsedObjectSpace" xml:space="preserve">
+    <value>ObjectSpace zaten başka bir kök görünümüne atanan: '{0}'. Zaten başka bir kök görünüme kök görünümü tarafından kullanılan bir ObjectSpace atama çalıştığınızda bu hata oluşur. Örneğin, bir ViewController XafApplication.CreateDetailView/CreateListView yöntemlerle ve View.IsRoot özelliği true.\r\nTo iken View.ObjectSpace nesne bu yöntemlere parametre olarak geçirerek bu yöntemleri XafApplication.CreateObjectSpace yöntemi ile oluşturulan ObjectSpace ü geçmek için yeterli olan bu hatayı önlemek bu hata alırsınız, veya bu yaramaz bu methods.\r\nIf karşılık gelen bir parametre ileterek kök olmayan görünümler oluşturma, http://www.devexpress.com/Support/Center/ de destek ekibimize ulaşın</value>
+  </data>
+  <data name="AnErrorHasOccurredWhileLoadingTheModel" xml:space="preserve">
+    <value>bir hata oluştu. Kaynak: '{0}'</value>
+  </data>
+  <data name="AnErrorHasOccurredWhileProcessingAShortcut" xml:space="preserve">
+    <value>kısayol işlenirken bir hata oluşur: {0}</value>
+  </data>
+  <data name="AnErrorHasOccurredWithContext" xml:space="preserve">
+    <value>bir hata oluştu, bağlam: {0}</value>
+  </data>
+  <data name="AnUnsavedObjectCannotBeShown" xml:space="preserve">
+    <value>kaydedilmemiş bir nesne gösterilemeyen</value>
+  </data>
+  <data name="ApplicationUpdaterAssemblyDoesNotExist" xml:space="preserve">
+    <value>Assembly '{1}' '{0}' klasörü var olmadığı için uygulama güncelleştirilemez.</value>
+  </data>
+  <data name="ApplicationUpdaterDatabaseVersionIsNewer" xml:space="preserve">
+    <value>uygulama çalıştırılamıyor. Veritabanı sürümü uygulama sürümünden daha yeni, ancak yeni uygulama sürümü ile sunucu bulunamadı. Yapılandırma dosyasını yeni uygulama sürümü için doğru yolu içeren kontrol etmek için yöneticinize sorun.</value>
+  </data>
+  <data name="AttributeModifyingFailed" xml:space="preserve">
+    <value>başarısız özniteliği değiştirerek</value>
+  </data>
+  <data name="AttributeShouldStartWithSymbol" xml:space="preserve">
+    <value>özniteliği '{0}' ile başlamalı ' @' sembolü: '{1}'</value>
+  </data>
+  <data name="AutoCreateOptionIs" xml:space="preserve">
+    <value>updatingReadOnlyDataStore.AutoCreateOption {0} olan</value>
+  </data>
+  <data name="CannotAccessCollectionCollectionSourceIsBeingIntialized" xml:space="preserve">
+    <value>toplama kaynak şimdi başlatılır çünkü koleksiyon özelliğine erişemiyor. OnActivated yöntemi bir ViewController koleksiyonu özelliğinde erişmeye çalıştığınızda bu hata, oluşabilir. Bu hatanın oluşmaması için ne zaman toplama kaynak zaten başlatılmış olan daha sonraki bir zamanda koleksiyon özelliğine erişmek gereklidir. CollectionChanged olayını işlemek için bunu yapmak için en iyi yoldur. Bu sınıflar ve yöntemler hakkında daha fazla bilgi için ürün belgelerine bakın. Bu yardımcı olmazsa, lütfen http://www.devexpress.com/Support/Center/ de destek ekibimize ulaşın</value>
+  </data>
+  <data name="CannotAddCollectionProperty" xml:space="preserve">
+    <value>' {0}' Koleksiyon ekleyemezsiniz</value>
+  </data>
+  <data name="CannotAddDuplicateProperty" xml:space="preserve">
+    <value>Yinelenen özellik düzenleyici ekleyemezsiniz: '{0}'</value>
+  </data>
+  <data name="CannotAddToEmptySingleton" xml:space="preserve">
+    <value>Boş singleton ekleyemezsiniz. Koleksiyon yeni bir örneğini oluşturmak</value>
+  </data>
+  <data name="CannotCreateAppropriateDetailItem" xml:space="preserve">
+    <value>Uygun detay için ' {0}' öğesi oluşturulamıyor</value>
+  </data>
+  <data name="CannotCreateAppropriatePropertyEditorForTheProperty" xml:space="preserve">
+    <value>Düzenleyicisi için uygun özellik oluşturamadı ' {0}.{1}' özelliği</value>
+  </data>
+  <data name="CannotCreateSchemaForAttribute" xml:space="preserve">
+    <value>şema öznitelik değiştiremezsiniz</value>
+  </data>
+  <data name="CannotCreateTemplateByName" xml:space="preserve">
+    <value>şablon adı oluşturamıyor: '{0}'</value>
+  </data>
+  <data name="CannotFindDescendantOfXafApplicationClass" xml:space="preserve">
+    <value>, uygulamanızın ayarlarını aşağıdaki klasörleri içinde algılamak için XafApplication sınıfının soyundan bulamıyorum:
+{0}
+Bir Windows Forms uygulaması için bu klasörleri uygulama yürütülebilir dosyasını içermelidir.
+Bir ASP.NET uygulaması için bu klasörleri WebApplication alt montaj continaing içermelidir.</value>
+  </data>
+  <data name="CannotFindListViewWithId" xml:space="preserve">
+    <value>ListView kimliği bulunamadı = '{0}'</value>
+  </data>
+  <data name="CannotFindThePropertyWithinTheClass" xml:space="preserve">
+    <value>' {1}' Sınıfındaki ' {0}' özelliği bulunamıyor</value>
+  </data>
+  <data name="CannotGenerateContent" xml:space="preserve">
+    <value>İçeriği oluşturulamıyor: 'ClassName' özniteliği boş</value>
+  </data>
+  <data name="CannotObtainTheEditingObject" xml:space="preserve">
+    <value>Düzenleme nesnesi alınamıyor</value>
+  </data>
+  <data name="CannotProcessTheRequestedUrl" xml:space="preserve">
+    <value>İstenen url işleyemiyor</value>
+  </data>
+  <data name="CannotProcessTheRequestedUrlActionItemWasNotFound" xml:space="preserve">
+    <value>İstenen url işleyemiyor eylem öğesi '{0}' bulunamadı</value>
+  </data>
+  <data name="CannotReadDictionaryFromResource" xml:space="preserve">
+    <value>Kaynak ' {0}' ' {1}' derleme sözlüğü okunamıyor</value>
+  </data>
+  <data name="CannotSetEditValueAvailableValues" xml:space="preserve">
+    <value>EditValue ' {0}' metin, kullanılabilir değerler: \r\n ' {1} tarafından ayarlanamaz</value>
+  </data>
+  <data name="CannotSetEditValueListIsEmpty" xml:space="preserve">
+    <value>EditValue ayarlayamazsınız '{0}' tarafından metin, liste boş</value>
+  </data>
+  <data name="CannotShowViewUnknownContext" xml:space="preserve">
+    <value>Görünüm, bilinmeyen bağlam göstermek değil: '{0}'</value>
+  </data>
+  <data name="CannotShowViewUnknownTarget" xml:space="preserve">
+    <value>Görünüm, bilinmeyen hedef göstermek değil: '{0}'</value>
+  </data>
+  <data name="ClassDoesntImplementInterface" xml:space="preserve">
+    <value>Sınıfın ' {0}' arabirimi ' {1}' uygulaması değil</value>
+  </data>
+  <data name="CompatibilityApplicationIsOldError" xml:space="preserve">
+    <value>veritabanı sürümü uygulama sürümünden büyük. Uygulama güncellenmesi gerekir. Lütfen sistem yöneticinize başvurun veya yeni bir version.\r\nAdditional bilgi download: modülü '{1}' yerel sürüm {0} veritabanı sürümü (2) daha küçük.</value>
+  </data>
+  <data name="CompatibilityDatabaseIsOldError" xml:space="preserve">
+    <value>Veritabanı uygulama daha eski bir sürümü var. Veritabanı güncelleştirilmesi gerekiyor.</value>
+  </data>
+  <data name="ConfigFileDoesNotExists" xml:space="preserve">
+    <value>' {0}' dosyası değil Config bulunmaktadır</value>
+  </data>
+  <data name="ConfigFileHasNoModuleNames" xml:space="preserve">
+    <value>' Add\[@key="Modules"]' düğümü modül listesi içermesi gerektiğini, config dosyası '{0}'</value>
+  </data>
+  <data name="CurrentObjectIsNotSet" xml:space="preserve">
+    <value>'{0}' Özelliği ayarlanamıyor. Geçerli nesnenin ayarlı değil</value>
+  </data>
+  <data name="DataLayerAlreadyExists" xml:space="preserve">
+    <value>bir dataLayer zaten var: '{0}'</value>
+  </data>
+  <data name="DictionaryPathItemParsingFailed" xml:space="preserve">
+    <value>Sözlük yolu öğe ayrıştırma başarısız oldu. '{0}' İfadesinde sözdizimi hatası var</value>
+  </data>
+  <data name="DictionaryPathParsingFailed" xml:space="preserve">
+    <value>Sözlük yolu ayrıştırma başarısız oldu. '{0}' İfadesinde sözdizimi hatası olduğunu</value>
+  </data>
+  <data name="DuplicateComponentIdentifier" xml:space="preserve">
+    <value>Bileşeni tanımlayıcısı ' {0}' yinelenen</value>
+  </data>
+  <data name="ErrorOccursWhileAddingTheCustomProperty" xml:space="preserve">
+    <value>'{1}' Türü için '{2}' özel özellik (özellik türü '{0}') eklerken hata: '{3}'</value>
+  </data>
+  <data name="ExceptionDialogLabel" xml:space="preserve">
+    <value>Aşağıdaki hata oluştu:</value>
+  </data>
+  <data name="GridColumnExists" xml:space="preserve">
+    <value>Tasarım kılavuzunda sütun ' {0}' zaten var</value>
+  </data>
+  <data name="GridControlIsAlreadyCreated" xml:space="preserve">
+    <value>, EditMode özelliği ayarlanamaz. GridControl oluşturulan zaten</value>
+  </data>
+  <data name="IncompatibleParametersCombinationOnViewChanged" xml:space="preserve">
+    <value>Uyumsuz parametreleri birleşimi. PopupWindow ana görünüm olarak aynı ObjectSpace sahiptir.  Ancak, açılan pencerenin DialogController SaveOnAccept özellik küme için true. Yeni bir ObjectSpace için çağrılan açılan penceresini kullanın veya DialogController ayarlayın. SaveOnAccept özellik false.</value>
+  </data>
+  <data name="IncorrectConfigFile" xml:space="preserve">
+    <value>geçirilen config dosya '{0}' ' &lt; anahtarı eklemek "Modules" =' düğümü</value>
+  </data>
+  <data name="InfiniteRecursionDetected" xml:space="preserve">
+    <value>sonsuz özyinelemeye algıladı: '{0}' ayrıntı görünümü oluşturulan {1} kez yapıldı.</value>
+  </data>
+  <data name="InvalidApplicationVersion" xml:space="preserve">
+    <value>'{0}' geçersiz uygulama sürümü</value>
+  </data>
+  <data name="InvalidParametrizedActionValueType" xml:space="preserve">
+    <value>geçersiz değer türü '{0}' parametreli eylem atanmış. Tamsayı, dize veya DateTime türü ayarlayın.</value>
+  </data>
+  <data name="InvalidValueOfEnumProperty" xml:space="preserve">
+    <value>{0} Nesnesinin {1} özelliği {2} hatalı bir değer vardır. Doğru {3} numaralandırma değeri {4} iş sınıfının AfterConstruction yöntemi özellik başlatmak.</value>
+  </data>
+  <data name="IsNotValidNamespacePrefixDescription" xml:space="preserve">
+    <value>' {0}' Geçersiz ad alanı öneki açıklama olduğunu</value>
+  </data>
+  <data name="ItsImpossibleToFindPathForNode" xml:space="preserve">
+    <value>Yolunu bulmak için Imposible düğüm '{1}' ' {0}' =</value>
+  </data>
+  <data name="ItsImpossibleToFindSourceNode" xml:space="preserve">
+    <value>SourceNode bulmak için Imposible ='{0} \\ {1}'</value>
+  </data>
+  <data name="LayoutControlInvalidCount" xml:space="preserve">
+    <value>Yanlış sayımı: '{0}'</value>
+  </data>
+  <data name="ListEditorShouldImplement" xml:space="preserve">
+    <value>ListEditor IDXPopupMenuHolder arabirimini uygulamalıdır</value>
+  </data>
+  <data name="MethodShouldBeUsed" xml:space="preserve">
+    <value>' {0}' Yöntemi kullanılmalıdır</value>
+  </data>
+  <data name="ModulesHasAlreadyBeenLoaded" xml:space="preserve">
+    <value>Modül zaten yüklenmiş</value>
+  </data>
+  <data name="NameAndValueCollectionsShouldHaveEqualLengths" xml:space="preserve">
+    <value>Adları ve değerleri koleksiyonlarını eşit uzunlukta olması</value>
+  </data>
+  <data name="NodeContainsDuplicatedChildNodes" xml:space="preserve">
+    <value>İki alt düğümleri Düğüm1 anahtar özniteliği. \r\n değer '{1}' '{0}' düğüm içeriyor: '{2}' \r\n Düğüm2: '{3}'</value>
+  </data>
+  <data name="NodeWasNotFound" xml:space="preserve">
+    <value>' {0}' Düğümü bulunamadı</value>
+  </data>
+  <data name="NotRegisteredReadOnlyParameterException" xml:space="preserve">
+    <value>Parametresi '{0}' salt okunur ParametersFactory kayıtlı değil.</value>
+  </data>
+  <data name="ObjectFormatterFormatStringIsInvalid" xml:space="preserve">
+    <value>Nesne belirtilen biçim dizesi geçersiz olduğu için biçimlendirilmiş olamaz: '{0}'</value>
+  </data>
+  <data name="PageCanOnlyContainOneInstanceOfControl" xml:space="preserve">
+    <value>Sayfa yalnızca ' {0}' denetiminin bir örneğini içerebilir</value>
+  </data>
+  <data name="PermissionIsDenied" xml:space="preserve">
+    <value>izin verilmedi</value>
+  </data>
+  <data name="ProcessWasAborted" xml:space="preserve">
+    <value>işlemi iptal edildi</value>
+  </data>
+  <data name="UnableToFindType" xml:space="preserve">
+    <value>türü ' {0}' bulmak için</value>
+  </data>
+  <data name="UnknownValue" xml:space="preserve">
+    <value>bilinmeyen değer: '{0}'</value>
+  </data>
+  <data name="ResourceItemWithNameIsNotFound" xml:space="preserve">
+    <value>Kaynak ' {0} ' adlı öğe bulunamadı</value>
+  </data>
+  <data name="TheValueWasLocked" xml:space="preserve">
+    <value>Değer kilitlendi</value>
+  </data>
+  <data name="GridColumnDoesNotExist" xml:space="preserve">
+    <value>' {0}' sütunu gridde mevcut değil</value>
+  </data>
+  <data name="TypeDoesNotContainTheMember" xml:space="preserve">
+    <value>' {0}' Türü ' {1}' üye içermiyor</value>
+  </data>
+  <data name="TypeIsNotAEnum" xml:space="preserve">
+    <value>' {0}' Türü bir enum türü değil</value>
+  </data>
+  <data name="CustomizePopupWindowParamsEventArgsViewIsNull" xml:space="preserve">
+    <value>Bu hatayı önlemek için CustomizePopupWindowParams olay ele alırken CustomizePopupWindowParamsEventArgs.View özellik atamak gereklidir. Bunun için XafApplication.CreateDetailView/CreateListView yöntemleri kullanarak bir görünüm oluşturun. Bu sınıflar ve yöntemler hakkında daha fazla bilgi için ürün belgelerine bakın. Bu yardımcı olmazsa, lütfen http://www.devexpress.com/Support/Center/ de destek ekibimize ulaşın</value>
+  </data>
+  <data name="ParameterConflictsWithPropertyException" xml:space="preserve">
+    <value>, '{0}' Özelliği '{1}' sınıf ile çatışmaları '{0}' salt okunur parametresi için ölçüt içerir. Salt okunur parametresi için başvurmak için kullanın ' @@ {0}' sözdizimi. Özelliğe başvurmak için kullanın ' @this.{0}' sözdizimi.</value>
+  </data>
+  <data name="RequiresCurrentObjectException" xml:space="preserve">
+    <value>güncelleştiremiyor CriteriaWrapper kriteri dinamik parametreler kullanır çünkü, ancak geçerli nesne belirtilen değil. CriteriaWrapper güncelleştirmek için UpdateParametersValues (Object currentObject) yöntemini çağırın ve geçerli nesne parametre olarak geçirin.</value>
+  </data>
+  <data name="RuleSetClearingIsDenied" xml:space="preserve">
+    <value>Takas RuleSet engellendi</value>
+  </data>
+  <data name="SourceAttributeExpressionShouldStartWith" xml:space="preserve">
+    <value>Kaynak özniteliği ifade başlamalı '{0}' ile: '{1}'</value>
+  </data>
+  <data name="SourceAttributePathShouldConsistOf" xml:space="preserve">
+    <value>Kaynak öznitelik yol oluşur bir veya daha fazla düğüm adı ve soyadı özniteliği, hangi tarafından sınırlandırılır ' \\' sembolü: '{0}'</value>
+  </data>
+  <data name="TemplateTypeInfoMissed" xml:space="preserve">
+    <value>Türü için '{0}' tür bulamıyorum. Şablonunuzu XAF modülünde koymak veya XafTypesInfo.Instance.FindTypeInfo(typeof({0})) yöntemini kullanarak el ile kaydetmeniz gerekir.</value>
+  </data>
+  <data name="TheAspectIsNotPresentInAspectsCollection" xml:space="preserve">
+    <value>Boy ' {0}' yönleri koleksiyonda mevcut değil</value>
+  </data>
+  <data name="TheAssemblyDoesntReferAssembly" xml:space="preserve">
+    <value>' {0}' Derlemesi derleme {1} ({2}) göstermez</value>
+  </data>
+  <data name="TheClassIsNotFoundInBOModel" xml:space="preserve">
+    <value>' {0}' Sınıf BOModel içinde bulunamadı</value>
+  </data>
+  <data name="TheClassNameAttributeIsEmpty" xml:space="preserve">
+    <value>ClassName özniteliğini başvurulan görünümü düğüm boş:</value>
+  </data>
+  <data name="TheClassNameAttributeRefersToADifferentType" xml:space="preserve">
+    <value>ClassName özniteliğini başvurulan görünümü düğümü başvuran bir farklı tipi. \r\nShortcut nesne türü için: \r\nView düğüm nesne türü {0}: {1}</value>
+  </data>
+  <data name="TheCreateApplicationModulesManagerReturnsNull" xml:space="preserve">
+    <value>CreateApplicationModulesManager yöntemi null döndürür</value>
+  </data>
+  <data name="TheExpressionShouldConsistOf" xml:space="preserve">
+    <value>İfade hangi tarafından sınırlandırılır ';' simge arama ifade ve kaynak öznitelik adını oluşmalıdır: '{0}'</value>
+  </data>
+  <data name="TheExpressionStringContainsANumberOfExpressions" xml:space="preserve">
+    <value>'ExpressionString' dize {0} ifadeleri içerir.</value>
+  </data>
+  <data name="ThePassedFileIsNotADllOrConfig" xml:space="preserve">
+    <value>Geçirilen ' {0}' dosyası değil bir *.dll veya *.config dosyadır.</value>
+  </data>
+  <data name="ThereIsAlreadyRegisteredCreatorForFormat" xml:space="preserve">
+    <value>Zaten bir yaratıcı biçimi ' {0}' kayıtlı değil</value>
+  </data>
+  <data name="TheTypeAttributeCannotBeEmpty" xml:space="preserve">
+    <value>'Type' özniteliği boş olamaz</value>
+  </data>
+  <data name="TheTypeIsNotDescendantOf" xml:space="preserve">
+    <value>' {0}' türü ' {1}' soyundan</value>
+  </data>
+  <data name="UnableToAssignDisabledActionItem" xml:space="preserve">
+    <value>Engelli öğesi atamak için yapamaz. Eylem: {0}. madde: {1}. devre dışı nedenler: (2)</value>
+  </data>
+  <data name="UnableToAssignInvisibleActionItem" xml:space="preserve">
+    <value>görünmez bir öğeyi atamak için yapamaz. Eylem: {0}. madde: {1}. görünmez nedenler: (2)</value>
+  </data>
+  <data name="UnableToCast" xml:space="preserve">
+    <value>türü ' {1}' türü için ' {0}' nesne artığını açılamıyor</value>
+  </data>
+  <data name="UnableToChangeChildrenOfNodeDueItIsLocked" xml:space="preserve">
+    <value>nedeniyle bu düğüm kilitli '{0}' alt değiştirme kurulamıyor.</value>
+  </data>
+  <data name="UnableToChangeConnectionString" xml:space="preserve">
+    <value>Bağlantı dizesini değiştirin yapamaz. Zaten bağlı</value>
+  </data>
+  <data name="UnableToChangeValueOfAttributeDueItIsLocked" xml:space="preserve">
+    <value>değeri ' {0}' özniteliği bu nedeniyle Kilitli değiştirmek için</value>
+  </data>
+  <data name="UnableToCreateObjectSpace" xml:space="preserve">
+    <value>ObjectSpace oluşturulamıyor. Bir dataLayer null veya boş connectionString</value>
+  </data>
+  <data name="UnableToCreateUpdateSessionAutoCreateOption" xml:space="preserve">
+    <value>UpdatingSession oluşturulamıyor. {0} DataLayer.AutoCreateOption değil</value>
+  </data>
+  <data name="UnableToCreateUpdateSessionDataLayerIsNull" xml:space="preserve">
+    <value>UpdatingSession oluşturulamıyor. Bir dataLayer null veya boş connectionString</value>
+  </data>
+  <data name="UnableToCreateUpdatingReadonlySessionAutoCreateOption" xml:space="preserve">
+    <value>UpdatingReadOnlySession oluşturulamıyor. {0} DataLayer.AutoCreateOption değil</value>
+  </data>
+  <data name="UnableToExecuteDisabledOrInactiveAction" xml:space="preserve">
+    <value>Engelli veya etkin eyleminin yürütülemiyor {2}. Nedenlerle devre dışı bırakın: {0}, etkin olmayan nedenler: {1}</value>
+  </data>
+  <data name="UnableToFindADetailViewForType" xml:space="preserve">
+    <value>' {0}' nesne türü için bir ayrıntı görünümü bulmak için</value>
+  </data>
+  <data name="UnableToFindAListViewForType" xml:space="preserve">
+    <value>' {0}' nesne türü için bir liste görünümü bulmak için</value>
+  </data>
+  <data name="UnableToFindPropertyInType" xml:space="preserve">
+    <value>yapamaz bulmak özelliği ' {0}' türündeki ' {1}'</value>
+  </data>
+  <data name="UnableToInitializeFileDataProperty" xml:space="preserve">
+    <value>yapamaz, ya da oluşturmak için izinleriniz yok</value>
+  </data>
+  <data name="UnableToSetReadOnlyProperty" xml:space="preserve">
+    <value>readonly özelliği ' {0}' ayarlanamıyor</value>
+  </data>
+  <data name="UnknownException" xml:space="preserve">
+    <value>bilinmeyen özel durum oluşur. Özel durum ayrıntıları alınamıyor</value>
+  </data>
+  <data name="UnknownViewNodeName" xml:space="preserve">
+    <value>bilinmeyen görünümü düğüm adı: '{0}' \r\nAllowed adı: '{1}', '{2}'</value>
+  </data>
+  <data name="ValidationCannotFindThePropertyWithinTheClass" xml:space="preserve">
+    <value>' {0}' Geçerlilik kuralı özelliği ' {1}' hedef ' {2}' sınıfında bu özellik varolmadığı için kullandığı denetleyemiyor</value>
+  </data>
+  <data name="ValidationMessageTemplateHasInvalidFormat" xml:space="preserve">
+    <value>Doğrulama iletisi şablonu geçersiz biçime sahip: '{0}'</value>
+  </data>
+  <data name="ValueCannotBeStoredIntoTheProperty" xml:space="preserve">
+    <value>' {0}' Değeri ' {1}' özelliği saklanamaz</value>
+  </data>
+  <data name="WindowWasNotFound" xml:space="preserve">
+    <value>Pencere tarafından kimliği '{0}' bulunamadı. Kayıtlı windows: '{1}'</value>
+  </data>
+  <data name="XPDictionaryIsNull" xml:space="preserve">
+    <value>XPDictionary null</value>
+  </data>
+  <data name="YouCannotChangeCurrentAspect" xml:space="preserve">
+    <value>geçerli yönünü değiştiremez. Geçerli iş parçacığı kültür üzerinde bağlıdır</value>
+  </data>
+  <data name="SourceNodeExpressionShouldStartWith" xml:space="preserve">
+    <value>SourceNode ifade başlamalı '{0}' ile: '{1}'</value>
+  </data>
+  <data name="DuplicatedVisibleInDashboardsClassCaption" xml:space="preserve">
+    <value>Türü '{0}' ve türü '{1}' hem '{2}' aynı başlık var ve bu yüzden panolar modülünde kullanılamaz. VisibleInDashboards özniteliği ile dekore edilmiş tüm türleri benzersiz başlıklar olmalıdır.</value>
+  </data>
+</root>

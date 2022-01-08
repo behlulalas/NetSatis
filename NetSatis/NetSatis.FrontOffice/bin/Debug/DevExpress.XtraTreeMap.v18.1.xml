@@ -1,0 +1,2952 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.XtraTreeMap.v18.1</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.XtraTreeMap.InsideRectangularBorder">
+
+            <summary>
+                <para>Contains the inside border settings of rectangular elements within a TreeMap control.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.InsideRectangularBorder.Equals(System.Object)">
+            <summary>
+                <para>Determines whether the specified object is equal to the current object.
+</para>
+            </summary>
+            <param name="obj">
+		The object to compare with the current object.
+
+            </param>
+            <returns><b>true</b> if the specified object is equal to the current object; otherwise <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.InsideRectangularBorder.GetHashCode">
+            <summary>
+                <para>Gets the hash code (a number) that corresponds to the value of the current InsideRectangularBorder object.
+</para>
+            </summary>
+            <returns>An integer value representing the hash code for the current object.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.RectangularBorder">
+
+            <summary>
+                <para>Contains border settings of rectangular elements within a TreeMap control.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.RectangularBorder.Equals(System.Object)">
+            <summary>
+                <para>Determines whether the specified object is equal to the current object.
+</para>
+            </summary>
+            <param name="obj">
+		The object to compare with the current object.
+
+            </param>
+            <returns><b>true</b> if the specified object is equal to the current object; otherwise <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.RectangularBorder.GetHashCode">
+            <summary>
+                <para>Gets the hash code (a number) that corresponds to the value of the current RectangularBorder object.
+</para>
+            </summary>
+            <returns>An integer value representing the hash code for the current object.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapLayoutAlgorithmBase">
+
+            <summary>
+                <para>A base class for all TreeMap layout algorithms.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapLayoutAlgorithmBase.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapLayoutAlgorithmBase object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapLayoutAlgorithmBase object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapLayoutAlgorithmBase.Direction">
+            <summary>
+                <para>Gets or sets the layout fill direction used by the algorithm.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.Xpf.Charts.LayoutDirection"/> enumeration value.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapLayoutAlgorithmBase.Equals(System.Object)">
+            <summary>
+                <para>Determines whether the specified object is equal to the current TreeMapLayoutAlgorithmBase instance.
+</para>
+            </summary>
+            <param name="obj">
+		The object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the specified object is equal to the current TreeMapLayoutAlgorithmBase instance; otherwise <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapLayoutAlgorithmBase.GetHashCode">
+            <summary>
+                <para>Gets the hash code (a number) that corresponds to the value of the current TreeMapLayoutAlgorithmBase object.
+</para>
+            </summary>
+            <returns>An integer value representing the hash code for the current object.
+</returns>
+
+
+        </member>
+        <member name="E:DevExpress.XtraTreeMap.TreeMapLayoutAlgorithmBase.LayoutAlgorithmChanged">
+            <summary>
+                <para>Occurs after a layout algorithm's property changes.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapLayoutAlgorithmBase.TypeNameSerializable">
+            <summary>
+                <para>Gets the string value used to support serialization of the layout algorithm type.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapElement">
+
+            <summary>
+                <para>A base class for all tree map elements.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapElement.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapElement object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapElement object whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapElement.Clone">
+            <summary>
+                <para>Creates a copy of the current TreeMapElement object.
+</para>
+            </summary>
+            <returns>A TreeMapElement object which is a copy of the current object.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapElement.Dispose">
+            <summary>
+                <para>Disposes an TreeMapElement object.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapElement.ToString">
+            <summary>
+                <para>Returns the textual representation of the axis.
+</para>
+            </summary>
+            <returns>A <see cref="T:System.String"/> value which is the textual representation of the axis.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapItemGroupInfo">
+
+            <summary>
+                <para>This class stores information about a tree map item group.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemGroupInfo.#ctor(System.Int32,System.Int32,System.Int32,System.Double,System.Double)">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItemGroupInfo structure with the specified settings.
+</para>
+            </summary>
+            <param name="groupLevel">
+		A <see cref="T:System.Int32"/> value specifying the nested level of a tree map item.
+
+            </param>
+            <param name="groupIndex">
+		A <see cref="T:System.Int32"/> value specifying the index of the item's group in group's parent.
+
+            </param>
+            <param name="itemIndex">
+		A <see cref="T:System.Int32"/> value specifying the index of the item's group.
+
+            </param>
+            <param name="minValue">
+		A <see cref="T:System.Double"/> value specifying the minimum item value in the item group.
+
+            </param>
+            <param name="maxValue">
+		A <see cref="T:System.Double"/> value specifying the maximum item value in the item group.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupInfo.GroupIndex">
+            <summary>
+                <para>Returns the index of the group in the descending sorted item collection of the group's parent. 
+</para>
+            </summary>
+            <value>A <see cref="T:System.Int32"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupInfo.GroupLevel">
+            <summary>
+                <para>Returns an item's nesting level.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Int32"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupInfo.ItemIndex">
+            <summary>
+                <para>Returns the index of an item in the source collection of the group.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Int32"/> value specifying the index of an item.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupInfo.MaxValue">
+            <summary>
+                <para>Returns the maximum value of the items in this group.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Double"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupInfo.MinValue">
+            <summary>
+                <para>Returns the minimum value of the items in this group.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Double"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapSquarifiedLayoutAlgorithm">
+
+            <summary>
+                <para>A class representing the <b>Squarified</b> layout algorithm.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapSquarifiedLayoutAlgorithm.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapSquarifiedLayoutAlgorithm class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutAlgorithm">
+
+            <summary>
+                <para>A class representing the <b>Slice and Dice</b> layout algorithm.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutAlgorithm.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapSliceAndDiceLayoutAlgorithm class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutAlgorithm.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapSliceAndDiceLayoutAlgorithm object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapSliceAndDiceLayoutAlgorithm object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutAlgorithm.Equals(System.Object)">
+            <summary>
+                <para>Determines whether the specified object is equal to the current TreeMapSliceAndDiceLayoutAlgorithm instance.
+</para>
+            </summary>
+            <param name="obj">
+		The object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b>, if the specified object is equal to the current TreeMapSliceAndDiceLayoutAlgorithm instance; otherwise <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutAlgorithm.GetHashCode">
+            <summary>
+                <para>Gets the hash code (a number) that corresponds to the value of the current TreeMapSliceAndDiceLayoutAlgorithm object.
+</para>
+            </summary>
+            <returns>An integer value representing the hash code for the current object.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutAlgorithm.LayoutMode">
+            <summary>
+                <para>Gets or sets the layout mode used to arrange items using this algorithm.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutMode"/> enumeration value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping">
+
+            <summary>
+                <para>Information about data object mapping to a tree map item.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapHierarchicalDataMapping class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping.ChildrenDataMember">
+            <summary>
+                <para>Gets or sets the name of the data field whose values are used to specify child items of current level tree map items.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping.LabelDataMember">
+            <summary>
+                <para>Gets or sets the name of the data field whose values are used to specify values of tree map items.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping.ToString">
+            <summary>
+                <para>Returns the textual representation of the axis.
+</para>
+            </summary>
+            <returns>A <see cref="T:System.String"/> value which is the textual representation of the axis.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping.Type">
+            <summary>
+                <para>Gets or sets the data object type on the current nested level.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Type"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping.ValueDataMember">
+            <summary>
+                <para>Gets or sets the name of the data field whose values are used to specify labels of tree map items.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapHierarchicalDataAdapter">
+
+            <summary>
+                <para>A data adapter that allows you to provide hierarchical data to the Tree Map.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapHierarchicalDataAdapter.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapHierarchicalDataAdapter class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapHierarchicalDataAdapter.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapHierarchicalDataAdapter object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapHierarchicalDataAdapter object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHierarchicalDataAdapter.DataSource">
+            <summary>
+                <para>Gets or sets the object that is the data source of the data adapter.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Object"/> that is the data source.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHierarchicalDataAdapter.Mappings">
+            <summary>
+                <para>Returns the collection of data object mappings to tree map items.
+</para>
+            </summary>
+            <value>A list of <see cref="T:DevExpress.XtraTreeMap.TreeMapHierarchicalDataMapping"/> objects.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapGradientColorizer">
+
+            <summary>
+                <para>The colorizer that colors tree map items from the <see cref="P:DevExpress.XtraTreeMap.TreeMapGradientColorizer.StartColor"/> to the <see cref="P:DevExpress.XtraTreeMap.TreeMapGradientColorizer.EndColor"/> using a gradient.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapGradientColorizer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapGradientColorizer class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapGradientColorizer.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapGradientColorizer object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapGradientColorizer object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapGradientColorizer.EndColor">
+            <summary>
+                <para>Gets or sets the end color of the gradient used to color tree map items.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapGradientColorizer.StartColor">
+            <summary>
+                <para>Gets or sets the start color of the gradient used to color tree map items.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter">
+
+            <summary>
+                <para>The data adapter that provides flat data to a tree map.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapFlatDataAdapter class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapFlatDataAdapter object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapFlatDataAdapter object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.DataMember">
+            <summary>
+                <para>Specifies the name of an object in a data source providing data for a data adapter.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.DataSource">
+            <summary>
+                <para>Gets or sets the object that is the data source of the data adapter.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Object"/> that is the data source.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.GroupDataMembers">
+            <summary>
+                <para>Gets or sets the names of data members of the data source used to group tree map items generated from the data source.
+</para>
+            </summary>
+            <value>A collection of <see cref="T:System.String"/> values, specifying the names of data members.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.GroupDataMembersSerializable">
+            <summary>
+                <para>Gets the string value used to support serialization of the group data members.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.LabelDataMember">
+            <summary>
+                <para>Gets or sets the name of the data field whose values are used to automatically generate <see cref="P:DevExpress.TreeMap.ITreeMapItem.Label"/> values.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapFlatDataAdapter.ValueDataMember">
+            <summary>
+                <para>Gets or sets the name of the data field whose values are used to automatically generate <see cref="P:DevExpress.TreeMap.ITreeMapItem.Value"/> values.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.ITreeMapLayoutAlgorithm">
+
+            <summary>
+                <para>The interface that should be implemented by a layout algorithm class.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.ITreeMapLayoutAlgorithm.Calculate(System.Collections.Generic.IEnumerable`1,System.Double,System.Double,System.Int32)">
+            <summary>
+                <para>Arranges the specified list of tree map items.
+</para>
+            </summary>
+            <param name="items">
+		A list of objects whose classes implement the <see cref="T:DevExpress.Xpf.TreeMap.ITreeMapLayoutItem"/> interface and that should be arranged.
+
+            </param>
+            <param name="width">
+		The width of the parent layout in which items should be arranged.
+
+            </param>
+            <param name="height">
+		The height of the parent layout in which items should be arranged.
+
+            </param>
+            <param name="groupLevel">
+		The nested level of the parent layout.
+
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.XtraTreeMap.ITreeMapLayoutAlgorithm.LayoutAlgorithmChanged">
+            <summary>
+                <para>Occurs after a layout algorithm's property changes.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.ITreeMapDataAdapter">
+
+            <summary>
+                <para>The interface that should be implemented by a data provider class.
+</para>
+            </summary>
+
+        </member>
+        <member name="E:DevExpress.XtraTreeMap.ITreeMapDataAdapter.DataAdapterChanged">
+            <summary>
+                <para>Occurs after a data adapter's property changes.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.ITreeMapDataAdapter.Items">
+            <summary>
+                <para>Returns the collection of tree map items provided by this adapter.
+</para>
+            </summary>
+            <value>An enumerable, containing <see cref="T:DevExpress.TreeMap.ITreeMapItem"/> objects.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.ITreeMapColorizer">
+
+            <summary>
+                <para>The interface that should be implemented by a colorizer class.
+</para>
+            </summary>
+
+        </member>
+        <member name="E:DevExpress.XtraTreeMap.ITreeMapColorizer.ColorizerChanged">
+            <summary>
+                <para>Occurs after a colorizer's property changes.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.ITreeMapColorizer.GetItemColor(DevExpress.TreeMap.ITreeMapItem,DevExpress.XtraTreeMap.TreeMapItemGroupInfo)">
+            <summary>
+                <para>Returns the color for the specified item with the specified tree location.
+</para>
+            </summary>
+            <param name="item">
+		An object of a class implementing the <see cref="T:DevExpress.TreeMap.ITreeMapItem"/> interface. It is the object for which the color is obtained.
+
+            </param>
+            <param name="group">
+		A <see cref="T:DevExpress.Xpf.TreeMap.TreeMapItemGroupInfo"/> value specifying information about the item position in a group.
+
+            </param>
+            <returns>A <see cref="T:System.Drawing.Color"/> value that is the color of the specified item.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapRangeColorizer">
+
+            <summary>
+                <para>A colorizer that allows you to provide colors based on which range the <see cref="P:DevExpress.TreeMap.ITreeMapItem.Value"/> belongs to.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapRangeColorizer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapRangeColorizer class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapRangeColorizer.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapRangeColorizer object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapRangeColorizer object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapRangeColorizer.GroupColor">
+            <summary>
+                <para>Gets or sets the color used to color groups.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Windows.Media.Color"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapRangeColorizer.RangeStops">
+            <summary>
+                <para>Gets range stops for the range colorizer.
+</para>
+            </summary>
+            <value>A collection of <see cref="T:System.Double"/> values specifying range stops.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapRangeColorizer.RangeStopsSerializable">
+            <summary>
+                <para>Gets the string value used to support serialization of the range stops.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapPaletteColorizerBase">
+
+            <summary>
+                <para>A base class for all colorizers supporting a palette.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapPaletteColorizerBase.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapPaletteColorizerBase class with the default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapPaletteColorizerBase.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapPaletteColorizerBase object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapPaletteColorizerBase object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapPaletteColorizerBase.Palette">
+            <summary>
+                <para>Gets or sets the palette used to color tree map items by the colorizer.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapPaletteColorizer">
+
+            <summary>
+                <para>The colorizer that colors tree map items using a palette.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapPaletteColorizer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapPaletteColorizer class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapPaletteColorizer.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapPaletteColorizer object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapPaletteColorizer object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapPaletteColorizer.ColorizeGroups">
+            <summary>
+                <para>Gets or sets a value indicating whether or not tree map items should be colorized by groups.
+
+</para>
+            </summary>
+            <value><b>true</b> if items in one group should be colorized using one color; otherwise <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapItemStyle">
+
+            <summary>
+                <para>A base class for style classes of different tree map item types.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemStyle.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItemStyle class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemStyle.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Font,System.Windows.Forms.Padding,System.Drawing.Color)">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItemStyle with the specified parameters.
+</para>
+            </summary>
+            <param name="fill">
+		The background color of a styled item.
+
+            </param>
+            <param name="textColor">
+		The text color of a styled item.
+
+            </param>
+            <param name="font">
+		The font of a styled item.
+
+            </param>
+            <param name="padding">
+		The padding of a styled item.
+
+            </param>
+            <param name="borderColor">
+		The border color of a styled item.
+
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemStyle.BorderColor">
+            <summary>
+                <para>Gets or sets the border color of the styled tree map item.
+</para>
+            </summary>
+            <value>The border color.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemStyle.Fill">
+            <summary>
+                <para>Gets or sets the color that is used to fill a tree map item. 
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> that specifies the color used to fill a tree map item. 
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemStyle.Font">
+            <summary>
+                <para>Gets or sets the font used by the tree map item.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Font"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemStyle.LabelAlignment">
+            <summary>
+                <para>Gets or sets the label alignment.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.StringAlignment"/> enumeration value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemStyle.Padding">
+            <summary>
+                <para>Specifies the internal space between the tree map item content and its edge, in pixels.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Windows.Forms.Padding"/> object, specifying the padding in pixels.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemStyle.TextColor">
+            <summary>
+                <para>Gets or sets the text color of a tree map item.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapItemStorage">
+
+            <summary>
+                <para>Stores a collection of tree map items and provides them to a tree map control.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemStorage.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItemStorage class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemStorage.Items">
+            <summary>
+                <para>Returns the collection of tree map items contained in this storage.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.TreeMapItemCollection"/> object containing <see cref="T:DevExpress.XtraTreeMap.TreeMapItem"/> objects.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapItemLeafStyle">
+
+            <summary>
+                <para>The style of a tree map leaf.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemLeafStyle.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItemLeafStyle class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemLeafStyle.Assign(DevExpress.XtraTreeMap.TreeMapItemLeafStyle)">
+            <summary>
+                <para>Copies all settings from the TreeMapItemLeafStyle object passed as the parameter.
+</para>
+            </summary>
+            <param name="style">
+		An TreeMapItemLeafStyle object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemLeafStyle.TextGlowColor">
+            <summary>
+                <para>Gets or sets the glow color of a text for tree map leaf items.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> object that is the glow color of a text.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapItemGroupStyle">
+
+            <summary>
+                <para>The style of a tree map group.
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItemGroupStyle class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.Assign(DevExpress.XtraTreeMap.TreeMapItemGroupStyle)">
+            <summary>
+                <para>Copies all settings from the TreeMapItemGroupStyle object passed as the parameter.
+</para>
+            </summary>
+            <param name="style">
+		An TreeMapItemGroupStyle object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.HeaderPadding">
+            <summary>
+                <para>Gets or sets the padding of the tree map group's header
+</para>
+            </summary>
+            <value>A <see cref="T:System.Windows.Forms.Padding"/> object, specifying the padding in pixels.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.SubGroupBorderColor">
+            <summary>
+                <para>Gets or sets the border color of sub groups of the styled group.
+</para>
+            </summary>
+            <value>The border color of sub groups.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.SubGroupFill">
+            <summary>
+                <para>Gets or sets the subgroup fill color.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.SubGroupFont">
+            <summary>
+                <para>Gets or sets the header font of sub groups of the styled group.
+</para>
+            </summary>
+            <value>The font of sub group headers.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.SubGroupHeaderPadding">
+            <summary>
+                <para>Gets or sets the header padding of sub groups of the styled group.
+</para>
+            </summary>
+            <value>The header padding of sub groups.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItemGroupStyle.SubGroupTextColor">
+            <summary>
+                <para>Gets or sets the subgroup text color.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapItem">
+
+            <summary>
+                <para>An item of a tree map.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItem.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItem class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItem.#ctor(System.Double,System.String)">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItem class with the specified label and value.
+</para>
+            </summary>
+            <param name="value">
+		A <see cref="T:System.Double"/> value, representing the value of the tree map item.
+
+
+            </param>
+            <param name="label">
+		A <see cref="T:System.String"/> value, representing the label of the tree map item.
+
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItem.Children">
+            <summary>
+                <para>Returns the collection of child tree map items of the current item.
+</para>
+            </summary>
+            <value>A collection of <see cref="T:DevExpress.XtraTreeMap.TreeMapItem"/> objects.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItem.IsGroup">
+            <summary>
+                <para>Returns a value indicating the item is a group.
+</para>
+            </summary>
+            <value><b>true</b> if the item is a group; otherwise <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItem.Label">
+            <summary>
+                <para>Gets or sets the tree map item label.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value, which is the label of a tree map item.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItem.Tag">
+            <summary>
+                <para>Gets or sets the object containing data related to a tree map item.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Object"/> that contains data about the chart element.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItem.TypeNameSerializable">
+            <summary>
+                <para>Gets the string value used to support serialization of the treemap item type.
+</para>
+            </summary>
+            <value> 
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapItem.Value">
+            <summary>
+                <para>Gets or sets the tree map item value.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Double"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapHitInfo">
+
+            <summary>
+                <para>Contains information about what is located at a specific point within the Tree Map.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHitInfo.InTreeMapItem">
+            <summary>
+                <para>Returns a value indicating whether or not the cursor is over the tree map item.
+
+</para>
+            </summary>
+            <value><b>true</b> if the cursor over an item; otherwise <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapHitInfo.TreeMapItem">
+            <summary>
+                <para>Returns the tree map item over which is the cursor.
+
+</para>
+            </summary>
+            <value>An object of a class implementing the <see cref="T:DevExpress.TreeMap.ITreeMapItem"/> interface.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapGroupGradientColorizer">
+
+            <summary>
+                <para>The colorizer that colors the tree map items in colors blended from group colors and gradient colors in a proportion based on the tree map item value.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapGroupGradientColorizer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapGroupGradientColorizer class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapGroupGradientColorizer.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapGroupGradientColorizer object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapGroupGradientColorizer object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapGroupGradientColorizer.GradientColor">
+            <summary>
+                <para>Gets or sets the color mixed with the group color for a tree map item.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapGroupGradientColorizer.Max">
+            <summary>
+                <para>Gets or sets the value indicating the maximum portion of the group color in the color mixed for a tree map item.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Double"/> value between <b>0</b> and <b>1</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapGroupGradientColorizer.Min">
+            <summary>
+                <para>Gets or sets the value indicating the minimum portion of the group color in the color mixed for a tree map item.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Double"/> value between <b>0</b> and <b>1</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapDataAdapterBase">
+
+            <summary>
+                <para>A base class for all tree map data adapters.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapDataAdapterBase.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapDataAdapterBase class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapDataAdapterBase.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapDataAdapterBase object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapDataAdapterBase object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.XtraTreeMap.TreeMapDataAdapterBase.DataAdapterChanged">
+            <summary>
+                <para>Occurs after a data adapter's property changes.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapDataAdapterBase.TypeNameSerializable">
+            <summary>
+                <para>Gets the string value used to support serialization of the data adapter type.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapCustomItem">
+
+            <summary>
+                <para>A styleable tree map item.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapCustomItem.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapCustomItem class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapCustomItem.GroupStyle">
+            <summary>
+                <para>Returns the style that will be applied to the item if it is a group.
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.TreeMapItemGroupStyle"/> object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapCustomItem.LeafStyle">
+            <summary>
+                <para>Returns the style that will be applied to the item if it is a leaf.
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.TreeMapItemLeafStyle"/> object.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapControl">
+
+            <summary>
+                <para>Displays flat and hierarchical data by using nested rectangles. See TreeMap Control.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapControl class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.About">
+            <summary>
+                <para>Activates the TreeMapControl's <b>About</b> dialog box.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.BackColor">
+            <summary>
+                <para>Gets or sets the TreeMap control background color.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> value which specifies the control background color.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.BeginInit">
+            <summary>
+                <para>Starts the map control's initialization. Initialization occurs at runtime.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.BorderOptions">
+            <summary>
+                <para>Gets the TreeMap control border style.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.InsideRectangularBorder"/> object which specifies the border style.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.CalcHitInfo(System.Drawing.Point)">
+            <summary>
+                <para>Returns information about tree map items located at the specified point.
+</para>
+            </summary>
+            <param name="hitPoint">
+		A <see cref="T:System.Drawing.Point"/> structure which specifies the hit point coordinates relative to the TreeMap's top-left corner.
+
+            </param>
+            <returns>A <see cref="T:DevExpress.XtraTreeMap.TreeMapHitInfo"/> object, which contains information about the tree map elements located at the hit point.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.Colorizer">
+            <summary>
+                <para>Gets or sets the colorizer used to colorize TreeMap items.
+</para>
+            </summary>
+            <value>An object of a class implementing the <see cref="T:DevExpress.XtraTreeMap.ITreeMapColorizer"/> interface.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.DataAdapter">
+            <summary>
+                <para>Gets or sets the data adapter for a TreeMap control.
+</para>
+            </summary>
+            <value>An object of a class implementing the <see cref="T:DevExpress.XtraTreeMap.ITreeMapDataAdapter"/> interface.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.EnableHighlighting">
+            <summary>
+                <para>Gets or sets the value indicating whether or not tree map item highlighting enabled.
+
+</para>
+            </summary>
+            <value><b>true</b> if highlighting is enabled; otherwise <b>false</b>.
+
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.EndInit">
+            <summary>
+                <para>Ends the TreeMapControl's initialization.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToImage(System.IO.Stream,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+                <para>Exports a treemap to the specified stream in the PDF format using the specified image format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant class object to which the created image file should be sent.
+
+            </param>
+            <param name="format">
+		The image format.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToImage(System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+                <para>Exports a treemap to the specified image file with the specified format.
+</para>
+            </summary>
+            <param name="filePath">
+		The full path (including the file name and extension) where the image file will be created.
+
+            </param>
+            <param name="format">
+		The image format.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToMht(System.String)">
+            <summary>
+                <para>Exports a treemap to the specified file in the MHT format.
+</para>
+            </summary>
+            <param name="filePath">
+		The full path (including the file name and extension) where the MHT file will be created.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToMht(System.IO.Stream)">
+            <summary>
+                <para>Exports a treemap to the specified stream in the MHT format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant class object to which the created MHT file should be sent.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToPdf(System.IO.Stream,DevExpress.XtraPrinting.PdfExportOptions)">
+            <summary>
+                <para>Exports a treemap to the specified stream in the PDF format using the specified export options.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant class object to which the created PDF file should be sent.
+
+            </param>
+            <param name="options">
+		The object that stores options for export to the PDF format.
+
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToPdf(System.IO.Stream)">
+            <summary>
+                <para>Exports a treemap to the specified stream in the PDF format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant class object to which the created PDF file should be sent.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToPdf(System.String,DevExpress.XtraPrinting.PdfExportOptions)">
+            <summary>
+                <para>Exports a treemap to the specified file in the PDF format using the specified exporting options.
+</para>
+            </summary>
+            <param name="filePath">
+		The full path (including the file name and extension) where the RTF file will be created.
+
+            </param>
+            <param name="options">
+		The object that stores options for export to the PDF format.
+
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToPdf(System.String)">
+            <summary>
+                <para>Exports a treemap to the specified file in the PDF format.
+</para>
+            </summary>
+            <param name="filePath">
+		The full path (including the file name and extension) where the RTF file will be created.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToRtf(System.IO.Stream)">
+            <summary>
+                <para>Exports a treemap to the specified stream in the RTF format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant class object to which the created RTF file should be sent.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToRtf(System.String)">
+            <summary>
+                <para>Exports a treemap to the specified file in the RTF format.
+</para>
+            </summary>
+            <param name="filePath">
+		The full path (including the file name and extension) where the RTF file will be created.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToXls(System.String)">
+            <summary>
+                <para>Exports a treemap to the specified file in the XLS format.
+</para>
+            </summary>
+            <param name="filePath">
+		The full path (including the file name and extension) where the XLS file will be created.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToXls(System.IO.Stream)">
+            <summary>
+                <para>Exports a treemap to the specified stream in the XLS format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant class object to which the created XLS file should be sent.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToXlsx(System.String)">
+            <summary>
+                <para>Exports a treemap to the specified file in the XLSX format.
+</para>
+            </summary>
+            <param name="filePath">
+		The full path (including the file name and extension) where the XLSX file will be created.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ExportToXlsx(System.IO.Stream)">
+            <summary>
+                <para>Exports a treemap to the specified stream in the XLSX format.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant class object to which the created XLSX file should be sent.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.GroupBorderVisible">
+            <summary>
+                <para>Gets or sets the value indicating whether a group item's border is visible.
+</para>
+            </summary>
+            <value><b>Default</b> - the current theme specifies whether the border is visible;
+<b>True</b> - the border is visible;
+<b>False</b> - the border is hidden.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.GroupHeaderTextPattern">
+            <summary>
+                <para>Gets or sets the text pattern used to form the text for tree map groups.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value, specifying the pattern.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.Groups">
+            <summary>
+                <para>Returns the collection of groups that a TreeMap control generates.
+</para>
+            </summary>
+            <value>The collection of <see cref="T:DevExpress.XtraTreeMap.GroupInfo"/> objects that provide information about groups which the TreeMap control generates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.GroupStyle">
+            <summary>
+                <para>Returns the style of tree map group items.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.TreeMapItemGroupStyle"/> object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.LayoutAlgorithm">
+            <summary>
+                <para>Gets or sets a layout algorithm for arranging TreeMap items.
+</para>
+            </summary>
+            <value>An object of a class implementing the <see cref="T:DevExpress.XtraTreeMap.ITreeMapLayoutAlgorithm"/> interface.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.LeafBorderVisible">
+            <summary>
+                <para>Gets or sets the value indicating whether a leaf item's border is visible.
+</para>
+            </summary>
+            <value><b>Default</b> - the current theme specifies whether the border is visible;
+<b>True</b> - the border is visible;
+<b>False</b> - the border is hidden.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.LeafStyle">
+            <summary>
+                <para>Returns the style of leaf tree map items.
+
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.TreeMapItemLeafStyle"/> object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.LeafTextPattern">
+            <summary>
+                <para>Gets or sets the text pattern used to form the text for tree map leafs.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value, specifying the pattern.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.LoadFromFile(System.String)">
+            <summary>
+                <para>Restores the TreeMap layout from the specified file.
+</para>
+            </summary>
+            <param name="path">
+		A <see cref="T:System.String"/> value which specifies the path to the file that contains the layout to be loaded. If the string is <b>null</b> (<b>Nothing</b> in Visual Basic) or empty, an exception is raised.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.LoadFromStream(System.IO.Stream)">
+            <summary>
+                <para>Restores the TreeMap's layout from the specified stream.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant from which settings should be read.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.LookAndFeel">
+            <summary>
+                <para>Provides access to the settings that specify the look and feel of the TreeMap control.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.LookAndFeel.UserLookAndFeel"/> object whose properties specify the TreeMap control look and feel.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.Print">
+            <summary>
+                <para>Immediately prints the chart on the <b>default</b> printer. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.SaveToFile(System.String)">
+            <summary>
+                <para>Saves the TreeMap's layout to the specified file.
+</para>
+            </summary>
+            <param name="path">
+		A <see cref="T:System.String"/> value, which specifies the path to the file where the layout should be stored. If the string is <b>null</b> (<b>Nothing</b> in Visual Basic) or empty, an exception is raised.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.SaveToStream(System.IO.Stream)">
+            <summary>
+                <para>Saves the TreeMap's layout to the specified stream.
+</para>
+            </summary>
+            <param name="stream">
+		A <see cref="T:System.IO.Stream"/> descendant to which the chart's layout should be written.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.SelectedGroups">
+            <summary>
+                <para>Returns information about groups that are currently selected within a TreeMap.
+</para>
+            </summary>
+            <value>The collection of paths of selected groups.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.SelectedItems">
+            <summary>
+                <para>Gets or sets the list of selected items of a TreeMap Control.
+</para>
+            </summary>
+            <value>A list of selected items.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraTreeMap.TreeMapControl.SelectionChanged">
+            <summary>
+                <para>Occurs when tree map items are added to or removed from the <see cref="P:DevExpress.XtraTreeMap.TreeMapControl.SelectedItems"/> collection.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.SelectionMode">
+            <summary>
+                <para>Gets or sets the selection mode of the TreeMap control.
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.ElementSelectionMode"/> enumeration value.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ShowPrintDialog">
+            <summary>
+                <para>Invokes the system <b>Print</b> dialog and prints the current chart.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ShowPrintPreview">
+            <summary>
+                <para>Creates a print document from a treemap and displays the document using the Print Preview window.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapControl.ShowRibbonPrintPreview">
+            <summary>
+                <para>Creates a print document from a treemap and displays the document using the Print Preview window with the Ribbon bar.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.ShowToolTips">
+            <summary>
+                <para>Gets or sets the value indicating whether or not tooltips will be shown for tree map items.
+</para>
+            </summary>
+            <value><b>true</b> to show tooltips; otherwise <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.Text">
+            <summary>
+                <para>Overrides the <see cref="P:System.Windows.Forms.Control.Text"/> property.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value. Always returns <see cref="F:System.String.Empty"/>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.ToolTipController">
+            <summary>
+                <para>Specifies the tooltip controller component that controls the appearance, position and other settings of tooltips displayed for the TreeMap control. 
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.Utils.ToolTipController"/> object. 
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.ToolTipGroupPattern">
+            <summary>
+                <para>Gets or sets the text pattern used to form the tooltip text for tree map  groups.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value, specifying the pattern.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapControl.ToolTipLeafPattern">
+            <summary>
+                <para>Gets or sets the text pattern used to form the tooltip text for tree map leafs.
+
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value, specifying the pattern.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapColorizerBase">
+
+            <summary>
+                <para>A base class for all tree map colorizers.
+</para>
+            </summary>
+
+        </member>
+        <member name="E:DevExpress.XtraTreeMap.TreeMapColorizerBase.ColorizerChanged">
+            <summary>
+                <para>Occurs after a colorizer's property changes.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapColorizerBase.TypeNameSerializable">
+            <summary>
+                <para>Gets the string value used to support serialization of the colorizer type.
+</para>
+            </summary>
+            <value>A <see cref="T:System.String"/> value.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.Palette">
+
+            <summary>
+                <para>Represents a palette (collection of colors) used to draw a TreeMap.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.Palette.#ctor(System.Drawing.Color[])">
+            <summary>
+                <para>Initializes a new instance of the Palette class with the specified array of palette colors.
+</para>
+            </summary>
+            <param name="colors">
+		An array of <see cref="T:System.Drawing.Color"/> objects specifying palette colors. An individual color can be accessed using the <see cref="P:DevExpress.XtraTreeMap.Palette.Item"/> property. 
+
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.Palette.#ctor">
+            <summary>
+                <para>Initializes a new instance of the Palette class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.Palette.Add(System.Drawing.Color)">
+            <summary>
+                <para>Adds a color to the palette.
+</para>
+            </summary>
+            <param name="color">
+		A <see cref="T:System.Drawing.Color"/> value.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.Palette.AddRange(System.Drawing.Color[])">
+            <summary>
+                <para>Adds several colors to the palette.
+</para>
+            </summary>
+            <param name="colors">
+		An array of <see cref="T:System.Drawing.Color"/> values.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.BlueGreenPalette">
+            <summary>
+                <para><para>Gets the <b>BlueGreenPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>BlueGreenPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.BlueIIPalette">
+            <summary>
+                <para><para>Gets the <b>BlueIIPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>BlueIIPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.BluePalette">
+            <summary>
+                <para><para>Gets the <b>BluePalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>BluePalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.BlueWarmPalette">
+            <summary>
+                <para><para>Gets the <b>BlueWarmPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>BlueWarmPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.ChameleonPalette">
+            <summary>
+                <para><para>Gets the <b>ChameleonPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>ChameleonPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.Palette.CreatePalette(System.Drawing.Color[])">
+            <summary>
+                <para>Creates a palette from the specified colors.
+</para>
+            </summary>
+            <param name="colors">
+		An array of <see cref="T:System.Drawing.Color"/> values initializing the palette.
+
+            </param>
+            <returns>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the newly created palette.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.DXTreeMapPalette">
+            <summary>
+                <para><para>Gets the <b>DXTreeMapPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>DXTreeMapPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.GreenPalette">
+            <summary>
+                <para><para>Gets the <b>GreenPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>GreenPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.GreenYellowPalette">
+            <summary>
+                <para><para>Gets the <b>GreenYellowPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>GreenYellowPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.InAFogPalette">
+            <summary>
+                <para><para>Gets the <b>InAFogPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>InAFogPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.IsPredefined">
+            <summary>
+                <para>Returns the value indicating whether or not the palette is predefined.
+</para>
+            </summary>
+            <value><b>true</b> if a palette is predefined; otherwise <b>false</b>
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.Item(System.Int32)">
+            <summary>
+                <para>Provides indexed access to individual items in the palette.
+</para>
+            </summary>
+            <param name="index">
+		A <see cref="T:System.Int32"/> value specifying the zero-based index of the item to be accessed.
+
+            </param>
+            <value>A <see cref="T:System.Drawing.Color"/> object which represents the color in the chart palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.MarqueePalette">
+            <summary>
+                <para><para>Gets the <b>MarqueePalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>MarqueePalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.NatureColorsPalette">
+            <summary>
+                <para><para>Gets the <b>NatureColorsPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>NatureColorsPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.NorthernLightsPalette">
+            <summary>
+                <para><para>Gets the <b>NorthernLightsPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>NorthernLightsPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.Office2013Palette">
+            <summary>
+                <para><para>Gets the <b>Office2013Palette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>Office2013Palette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.Office2016Palette">
+            <summary>
+                <para><para>Gets the <b>Office2016Palette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>Office2016Palette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.OfficePalette">
+            <summary>
+                <para><para>Gets the <b>OfficePalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>OfficePalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.OrangePalette">
+            <summary>
+                <para><para>Gets the <b>OrangePalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>OrangePalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.OrangeRedPalette">
+            <summary>
+                <para><para>Gets the <b>OrangeRedPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>OrangeRedPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.PastelKitPalette">
+            <summary>
+                <para><para>Gets the <b>PastelKitPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>PastelKitPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.RedOrangePalette">
+            <summary>
+                <para><para>Gets the <b>RedOrangePalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>RedOrangePalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.RedPalette">
+            <summary>
+                <para><para>Gets the <b>RedPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>RedPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.RedVioletPalette">
+            <summary>
+                <para><para>Gets the <b>RedVioletPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>RedVioletPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.SlipstreamPalette">
+            <summary>
+                <para><para>Gets the <b>SlipstreamPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>SlipstreamPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.TerracottaPiePalette">
+            <summary>
+                <para><para>Gets the <b>TerracottaPiePalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>TerracottaPiePalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.TheTreesPalette">
+            <summary>
+                <para><para>Gets the <b>TheTreesPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>TheTreesPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.Palette.ToString">
+            <summary>
+                <para>Returns the textual representation of the axis.
+</para>
+            </summary>
+            <returns>A <see cref="T:System.String"/> value which is the textual representation of the axis.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.VioletIIPalette">
+            <summary>
+                <para><para>Gets the <b>VioletIIPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>VioletIIPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.VioletPalette">
+            <summary>
+                <para><para>Gets the <b>VioletPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>VioletPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.YellowOrangePalette">
+            <summary>
+                <para><para>Gets the <b>YellowOrangePalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>YellowOrangePalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.Palette.YellowPalette">
+            <summary>
+                <para><para>Gets the <b>YellowPalette</b> palette of colors.</para>
+</para>
+            </summary>
+            <value>A <see cref="T:DevExpress.XtraTreeMap.Palette"/> object that is the <b>YellowPalette</b> palette.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutMode">
+
+            <summary>
+                <para>Lists the modes of the <see cref="T:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutAlgorithm"/>.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutMode.Auto">
+            <summary>
+                <para>The layout direction is selected depending on the layout's width/height ratio.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutMode.Horizontal">
+            <summary>
+                <para>All tree map items are arranged horizontally.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.TreeMapSliceAndDiceLayoutMode.Vertical">
+            <summary>
+                <para>All tree map items are arranged vertically.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapLayoutDirection">
+
+            <summary>
+                <para>Lists the possible tree map fill layout directions.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.TreeMapLayoutDirection.BottomLeftToTopRight">
+            <summary>
+                <para>Items are arranged from the bottom-left angle to the top-right corner.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.TreeMapLayoutDirection.BottomRightToTopLeft">
+            <summary>
+                <para>Items are arranged from the bottom-right angle to the top-left corner.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.TreeMapLayoutDirection.TopLeftToBottomRight">
+            <summary>
+                <para>Items are arranged from the top-left angle to the bottom-right corner.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.TreeMapLayoutDirection.TopRightToBottomLeft">
+            <summary>
+                <para>Items are arranged from the top-right angle to the bottom-left corner.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.ElementSelectionMode">
+
+            <summary>
+                <para>Lists selection modes available for the end-user. 
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.ElementSelectionMode.Extended">
+            <summary>
+                <para>Extended single selection mode, allowing you to select several items with the <b>SHIFT</b> key held down. 
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.ElementSelectionMode.Multiple">
+            <summary>
+                <para>Several tree map items can be selected at the same time.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.ElementSelectionMode.None">
+            <summary>
+                <para>Selection is disabled.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraTreeMap.ElementSelectionMode.Single">
+            <summary>
+                <para>One tree map item can be selected at a time.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapItemCollection">
+
+            <summary>
+                <para>A collection of <see cref="T:DevExpress.XtraTreeMap.TreeMapItem"/> objects.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemCollection.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapItemCollection class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapItemCollection.AddRange(DevExpress.XtraTreeMap.TreeMapItem[])">
+            <summary>
+                <para>Adds several tree map items to the collection.
+</para>
+            </summary>
+            <param name="items">
+		An array of <see cref="T:DevExpress.XtraTreeMap.TreeMapItem"/> objects.
+
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.BorderBase">
+
+            <summary>
+                <para>Represents the base class for all border objects.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.BorderBase.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the BorderBase object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An BorderBase object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.BorderBase.Color">
+            <summary>
+                <para>Gets or sets the border color.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Color"/> structure which specifies the border color.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.BorderBase.Equals(System.Object)">
+            <summary>
+                <para>Determines whether the specified object is equal to the current BorderBase instance.
+</para>
+            </summary>
+            <param name="obj">
+		The object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the specified object is equal to the current BorderBase instance; otherwise <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.BorderBase.GetHashCode">
+            <summary>
+                <para>Gets the hash code (a number) that corresponds to the value of the current BorderBase object.
+</para>
+            </summary>
+            <returns>An integer value representing the hash code for the current object.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.BorderBase.Thickness">
+            <summary>
+                <para>Gets or sets the border's thickness.
+</para>
+            </summary>
+            <value>An integer value which specifies the border's thickness, in pixels.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.BorderBase.ToString">
+            <summary>
+                <para>Returns the textual representation of the axis.
+</para>
+            </summary>
+            <returns>A <see cref="T:System.String"/> value which is the textual representation of the axis.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.BorderBase.Visible">
+            <summary>
+                <para>Specifies whether the border is visible.
+</para>
+            </summary>
+            <value><b>true</b>, if the border is visible; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapStripedLayoutAlgorithm">
+
+            <summary>
+                <para>A class representing the <b>Strip</b> layout algorithm.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapStripedLayoutAlgorithm.#ctor">
+            <summary>
+                <para>Initializes a new instance of the TreeMapStripedLayoutAlgorithm class with default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapStripedLayoutAlgorithm.Assign(DevExpress.XtraTreeMap.TreeMapElement)">
+            <summary>
+                <para>Copies all settings from the TreeMapStripedLayoutAlgorithm object passed as the parameter.
+</para>
+            </summary>
+            <param name="obj">
+		An TreeMapStripedLayoutAlgorithm object (which is the <see cref="T:DevExpress.XtraTreeMap.TreeMapElement"/> descendant) whose settings are assigned to the current object. If <b>null</b> (<b>Nothing</b> in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapStripedLayoutAlgorithm.Equals(System.Object)">
+            <summary>
+                <para>Determines whether the specified object is equal to the current TreeMapStripedLayoutAlgorithm instance.
+</para>
+            </summary>
+            <param name="obj">
+		The object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b>, if the specified object is equal to the current TreeMapStripedLayoutAlgorithm instance; otherwise <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapStripedLayoutAlgorithm.GetHashCode">
+            <summary>
+                <para>Gets the hash code (a number) that corresponds to the value of the current TreeMapStripedLayoutAlgorithm object.
+</para>
+            </summary>
+            <returns>An integer value representing the hash code for the current object.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.TreeMapStripedLayoutAlgorithm.LastStripeMinThickness">
+            <summary>
+                <para>Gets or sets the minimum thickness of the last strip.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Double"/> value in percents.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.TreeMapElementStyleBase">
+
+            <summary>
+                <para>The base class for all tree map element style classes.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapElementStyleBase.MergeStyles(DevExpress.XtraTreeMap.TreeMapElementStyleBase,DevExpress.XtraTreeMap.TreeMapElementStyleBase)">
+            <summary>
+                <para>Merges the specified styles and returns it in the destination style.
+</para>
+            </summary>
+            <param name="destinationStyle">
+		The destination style that returns the merged style.
+
+            </param>
+            <param name="style">
+		The style whose parameters this method merges into the destination style.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.TreeMapElementStyleBase.ToString">
+            <summary>
+                <para>Returns the textual representation of the TreeMapElementStyleBase.
+</para>
+            </summary>
+            <returns>A <see cref="T:System.String"/> value, which is the textual representation of the TreeMapElementStyleBase.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.GroupDataMemberCollection">
+
+            <summary>
+                <para>The collection of names of data members that are used to group values.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.GroupDataMemberCollection.#ctor">
+            <summary>
+                <para>Initializes a new instance of the GroupDataMemberCollection class with the default settings.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.SelectedGroupCollection">
+
+            <summary>
+                <para>The selected group path collection.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Add(System.Object[])">
+            <summary>
+                <para>Adds a group that is under the specified path (group values from the root to the required group).
+</para>
+            </summary>
+            <param name="groupPath">
+		A path to a group (group values from the root to the group).
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Add(System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para>Adds a group that is under the specified path (group values from the root to the required group).
+</para>
+            </summary>
+            <param name="groupPath">
+		An object implementing the <see cref="T:System.Collections.Generic.IEnumerable`1"/> interface that is a path to a group (group values from the root to the group).
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Clear">
+            <summary>
+                <para>Removes all items from the collection. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Contains(System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para>Determines whether the collection contains a group under the specified path (group values from the root to the group).
+</para>
+            </summary>
+            <param name="groupPath">
+		The path (group values from the root to the group) to the group.
+
+            </param>
+            <returns><b>true</b>, if the collection contains a group otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Contains(System.Object[])">
+            <summary>
+                <para>Determines whether the collection contains a group under the specified path (group values from the root to the group).
+</para>
+            </summary>
+            <param name="groupPath">
+		The path (group values from the root to the group) to the group.
+
+            </param>
+            <returns><b>true</b>, if the collection contains a group otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.CopyTo(System.Collections.Generic.IEnumerable`1[],System.Int32)">
+            <summary>
+                <para>Copies all elements of the current collection to the specified one-dimensional array.
+</para>
+            </summary>
+            <param name="array">
+		The one-dimensional array that is the destination of elements copied from the current collection.
+
+            </param>
+            <param name="arrayIndex">
+		The index in the collection at which copying begins.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.SelectedGroupCollection.Count">
+            <summary>
+                <para>Gets the number of selected groups which a collection stores.
+
+</para>
+            </summary>
+            <value>A number of items in the collection.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.IndexOf(System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para>Returns an index under the which the collection contains a group under the specified path (group values from the root to the group).
+</para>
+            </summary>
+            <param name="groupPath">
+		The path (group values from the root to the group) to the group.
+
+            </param>
+            <returns>The zero-based index of the first occurrence of the group; otherwise, -1.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.IndexOf(System.Object[])">
+            <summary>
+                <para>Returns an index under the which the collection contains a group under the specified path (group values from the root to the group).
+</para>
+            </summary>
+            <param name="groupPath">
+		The path (group values from the root to the group) to the group.
+
+            </param>
+            <returns>The zero-based index of the first occurrence of the group; otherwise, -1.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Insert(System.Int32,System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para>Inserts a group under the specified path (group values from the root to the group) to the collection at the specified index.
+</para>
+            </summary>
+            <param name="index">
+		The zero-based index at which a group should be inserted.
+
+            </param>
+            <param name="groupPath">
+		The group path (group values from the root to the group).
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Insert(System.Int32,System.Object[])">
+            <summary>
+                <para>Inserts a group under the specified path (group values from the root to the group) to the collection at the specified index.
+</para>
+            </summary>
+            <param name="index">
+		The zero-based index at which a group should be inserted.
+
+            </param>
+            <param name="groupPath">
+		The group path (group values from the root to the group).
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.SelectedGroupCollection.IsReadOnly">
+            <summary>
+                <para>Gets a value indicating whether the collection is read-only.
+</para>
+            </summary>
+            <value>Always <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.SelectedGroupCollection.Item(System.Int32)">
+            <summary>
+                <para>Gets or sets a series point by its zero-based index.
+</para>
+            </summary>
+            <param name="index">
+		The zero-based index.
+
+            </param>
+            <value>The path (group values from the root to the requested group) to a group.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Remove(System.Object[])">
+            <summary>
+                <para>Removes a group under the specified path (group values from the root to the group) from the selected groups.
+
+</para>
+            </summary>
+            <param name="groupPath">
+		A path to a group (group values from the root to the group).
+
+            </param>
+            <returns><b>true</b> if the item is successfully removed; otherwise, <b>false</b>. This method also returns <b>false</b> if an item was not found in the collection.
+
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.Remove(System.Collections.Generic.IEnumerable`1)">
+            <summary>
+                <para>Removes a group under the specified path (group values from the root to the group) from the selected groups.
+
+</para>
+            </summary>
+            <param name="groupPath">
+		An object implementing the <see cref="T:System.Collections.Generic.IEnumerable`1"/> interface that is a path to a group (group values from the root to the group).
+
+            </param>
+            <returns><b>true</b> if the item is successfully removed; otherwise, <b>false</b>. This method also returns <b>false</b> if an item was not found in the collection.
+
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraTreeMap.SelectedGroupCollection.RemoveAt(System.Int32)">
+            <summary>
+                <para>Removes a group under the specified index from a collection of selected groups.
+</para>
+            </summary>
+            <param name="index">
+		The index of a group to remove.
+
+
+            </param>
+
+
+        </member>
+        <member name="T:DevExpress.XtraTreeMap.GroupInfo">
+
+            <summary>
+                <para>The tree map group information storage.
+</para>
+            </summary>
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.GroupInfo.ChildGroups">
+            <summary>
+                <para>Returns the collection of child groups.
+</para>
+            </summary>
+            <value>The collection of child groups.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.GroupInfo.GroupValue">
+            <summary>
+                <para>Returns the value by which <see cref="P:DevExpress.XtraTreeMap.GroupInfo.SourceItems"/> and <see cref="P:DevExpress.XtraTreeMap.GroupInfo.ChildGroups"/> are grouped.
+</para>
+            </summary>
+            <value>The value by which <see cref="P:DevExpress.XtraTreeMap.GroupInfo.SourceItems"/> and <see cref="P:DevExpress.XtraTreeMap.GroupInfo.ChildGroups"/> are grouped.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraTreeMap.GroupInfo.SourceItems">
+            <summary>
+                <para>Returns a list of items from a data source that the group contains directly.
+</para>
+            </summary>
+            <value>The list of items from a data source.
+</value>
+
+
+        </member>
+    </members>
+</doc>

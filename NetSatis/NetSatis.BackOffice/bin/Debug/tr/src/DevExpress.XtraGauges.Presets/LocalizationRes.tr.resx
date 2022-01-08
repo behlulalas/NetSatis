@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GaugesPresetsStringId.ThemeFlatDark" xml:space="preserve">
+    <value>Düz koyu</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemePureDark" xml:space="preserve">
+    <value>Saf karanlık</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeFull" xml:space="preserve">
+    <value>Tam</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeHalf" xml:space="preserve">
+    <value>Yarım</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeHorizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeVertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeWide" xml:space="preserve">
+    <value>Geniş</value>
+  </data>
+  <data name="GaugesPresetsStringId.StyleChooserFilterShape" xml:space="preserve">
+    <value>Şekil</value>
+  </data>
+  <data name="GaugesPresetsStringId.StyleChooserFilterTheme" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeAfricaSunset" xml:space="preserve">
+    <value>Afrika günbatımı</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeClassic" xml:space="preserve">
+    <value>Klasik</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeCleanWhite" xml:space="preserve">
+    <value>Temiz beyaz</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeClever" xml:space="preserve">
+    <value>Zeki</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeCosmic" xml:space="preserve">
+    <value>Kozmik</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeDarkNight" xml:space="preserve">
+    <value>Karanlık gece</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeDeepFire" xml:space="preserve">
+    <value>Derin yangın</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeDefault" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeDisco" xml:space="preserve">
+    <value>Disko</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeEco" xml:space="preserve">
+    <value>Eko</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeGothicMat" xml:space="preserve">
+    <value>Gotik Mat</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeIceColdZone" xml:space="preserve">
+    <value>Buz gibi soğuk bölge</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeiStyle" xml:space="preserve">
+    <value>iStyle</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeMechanical" xml:space="preserve">
+    <value>Mekanik</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeMilitary" xml:space="preserve">
+    <value>Askeri</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeProgressive" xml:space="preserve">
+    <value>Progresif</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeRed" xml:space="preserve">
+    <value>Kırmızı</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeRetro" xml:space="preserve">
+    <value>Retro</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeSmart" xml:space="preserve">
+    <value>Akıllı</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeSportCar" xml:space="preserve">
+    <value>Spor araba</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeWhite" xml:space="preserve">
+    <value>Beyaz</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeQuarterLeft" xml:space="preserve">
+    <value>Sol Çeyrek</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeQuarterRight" xml:space="preserve">
+    <value>Sağ Çeyrek</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeFlatLight" xml:space="preserve">
+    <value>Düz ışık</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeFuture" xml:space="preserve">
+    <value>Gelecek</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeMagicLight" xml:space="preserve">
+    <value>Büyülü ışık</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeYellowSubmarine" xml:space="preserve">
+    <value>Sarı Denizaltı</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeSilverBlur" xml:space="preserve">
+    <value>Gümüş bulanıklık</value>
+  </data>
+  <data name="GaugesPresetsStringId.ThemeShiningDark" xml:space="preserve">
+    <value>Karanlıkta Parlayan</value>
+  </data>
+  <data name="GaugesPresetsStringId.ShapeThreeFourth" xml:space="preserve">
+    <value>Üçüncü Çeyrek</value>
+  </data>
+</root>

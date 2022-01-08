@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SpreadsheetControlStringId.Caption_DataValidationErrorMessageStyle" xml:space="preserve">
+    <value>Stili:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderStyle" xml:space="preserve">
+    <value>Stili:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderBorder" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormTabBorder" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormGeneralPage" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DefinedNameFormName" xml:space="preserve">
+    <value>Adı:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormPropertyName" xml:space="preserve">
+    <value>Adı:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFontColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_NameManagerFormCloseButton" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentIndent" xml:space="preserve">
+    <value>girinti:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFontFamily" xml:space="preserve">
+    <value>Yazı tipi:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormPropertyValue" xml:space="preserve">
+    <value>Değer:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormCustomPage" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectedRangeManagerFormColumnTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PatternStyleNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormTabMargins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormTabAlignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormColumnName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_NameManagerFormColumnName" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingBetweenRuleFormWith" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingBetweenRuleFormAnd" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormTabFill" xml:space="preserve">
+    <value>Doldurun</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormTabFont" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormFileSize" xml:space="preserve">
+    <value>Boyut:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormTabNumber" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormPropertyType" xml:space="preserve">
+    <value>Tipi:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormNumberType" xml:space="preserve">
+    <value>Tipi:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormNo" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormYes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_UnprotectRangeFormPassword" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_UnprotectSheetFormPassword" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_UnprotectWorkbookFormPassword" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_GenericFilterFormOperationAnd" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_GenericFilterFormOperationOr" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormColumnValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFontPreview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormPageLandscapeOrienation" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormPagePortraitOrienation" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormTabPage" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormColumnType" xml:space="preserve">
+    <value>Türü</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormTitle" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OutlineGroupFormColumns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectWorkbookFormWindows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PatternStyleSolid" xml:space="preserve">
+    <value>Katı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFillNoColor" xml:space="preserve">
+    <value>Renk yok</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DataValidationFormClearAllBtn" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderLine" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_NameManagerFormColumnComment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormSubject" xml:space="preserve">
+    <value>Konu:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_HyperlinkFormSubject" xml:space="preserve">
+    <value>Konu:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_InsertSymbolFromSelectionFormTitle" xml:space="preserve">
+    <value>Sembol</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormFileLocation" xml:space="preserve">
+    <value>Yeri:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormSummaryPage" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFillSample" xml:space="preserve">
+    <value>Örnek</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormNumberSample" xml:space="preserve">
+    <value>Örnek</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormPageOrienation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentTextAlignment" xml:space="preserve">
+    <value>Metin hizalama</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_HyperlinkFormLinkTo" xml:space="preserve">
+    <value>Link:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormTitle" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormSheetPrint" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PasteSpecialFormTitle" xml:space="preserve">
+    <value>Özel Yapıştır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormKeywords" xml:space="preserve">
+    <value>Anahtar Kelimeler:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DataValidationInputMessageTitle" xml:space="preserve">
+    <value>Başlık:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormDocumentTitle" xml:space="preserve">
+    <value>Başlık:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectedRangeFormName" xml:space="preserve">
+    <value>Başlık:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_UnhideSheetFormTitle" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OutlineGroupFormRows" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_Top10FilterFormShow" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormMarginBottom" xml:space="preserve">
+    <value>Alt:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormMarginLeft" xml:space="preserve">
+    <value>Sol:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormMarginRight" xml:space="preserve">
+    <value>Sağ:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormMarginTop" xml:space="preserve">
+    <value>Üst:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OutlineSettingFormDirection" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormFileName" xml:space="preserve">
+    <value>Dosya adı:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_HeaderFooterInsertFileName" xml:space="preserve">
+    <value>Dosya adı Ekle</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureReset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureSizeTab" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ReplaceButton" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureHeight" xml:space="preserve">
+    <value>Yükseklik:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureScaledHeight" xml:space="preserve">
+    <value>Yükseklik:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureScaledWidth" xml:space="preserve">
+    <value>Genişliği:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureWidth" xml:space="preserve">
+    <value>Genişliği:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FindReplaceFormTitle" xml:space="preserve">
+    <value>Bul ve Değiştir</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureScale" xml:space="preserve">
+    <value>Ölçek</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureCropBottom" xml:space="preserve">
+    <value>Alt:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureCropLeft" xml:space="preserve">
+    <value>Sol:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureCropRight" xml:space="preserve">
+    <value>Sağ:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureCropTop" xml:space="preserve">
+    <value>Üst:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentMergeCells" xml:space="preserve">
+    <value>Hücreleri birleştir</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentWrapText" xml:space="preserve">
+    <value>Metni kaydırma</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_RenameSheetFormTitle" xml:space="preserve">
+    <value>Sayfayı yeniden adlandır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_RowHeightFormTitle" xml:space="preserve">
+    <value>Satır yüksekliği</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_RowHeightFormValue" xml:space="preserve">
+    <value>Satır yüksekliği:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DataValidationFormTitle" xml:space="preserve">
+    <value>Veri doğrulama</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormPagePrint" xml:space="preserve">
+    <value>Yazdır...</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_HyperlinkFormTitle" xml:space="preserve">
+    <value>Köprü ekleme</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DataValidationApplyToAllCells" xml:space="preserve">
+    <value>Bu değişiklikleri aynı ayarlara sahip diğer hücrelerin tümüne uygula</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentHorizontal" xml:space="preserve">
+    <value>Yatay:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DataValidationIgnoreBlank" xml:space="preserve">
+    <value>Boşluğu Yoksay</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlValue" xml:space="preserve">
+    <value>Değer:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlFillColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlMinimum" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_NewEditConditionalFormattingRuleFormPreview" xml:space="preserve">
+    <value>Önizleme:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormProtectionHidden" xml:space="preserve">
+    <value>Gizli</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlFill" xml:space="preserve">
+    <value>Doldurun</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PageSetupFormSheetGridlines" xml:space="preserve">
+    <value>Kılavuz çizgileri</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingIconSetsType" xml:space="preserve">
+    <value>Türü</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingIconSetsCustom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConfirmPasswordFormTitle" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlBorderColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_CreateDefinedNamesFromSelectionFormLeftColumn" xml:space="preserve">
+    <value>Sol sütun</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingFormatCellsClear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormTitle" xml:space="preserve">
+    <value>Hücreleri Biçimlendir</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlValue" xml:space="preserve">
+    <value>Değer:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DefinedNameFormComment" xml:space="preserve">
+    <value>Yorum:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_CreateDefinedNamesFromSelectionFormBottomRow" xml:space="preserve">
+    <value>Alt satır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsThatContainControlAnd" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlType" xml:space="preserve">
+    <value>Tipi:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ColumnWidthFormValue" xml:space="preserve">
+    <value>Sütun genişliği:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingIconSetsValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormFileAttributeHidden" xml:space="preserve">
+    <value>Gizli</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlPreview" xml:space="preserve">
+    <value>Önizleme:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_UnprotectWorkbookFormTitle" xml:space="preserve">
+    <value>Çalışma Kitabı Korumasını Kaldır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMinimum" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlBorder" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_CreateDefinedNamesFromSelectionFormRightColumn" xml:space="preserve">
+    <value>Sağ sütun</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ChartSelectDataFormTitle" xml:space="preserve">
+    <value>Veri Kaynağı Seç</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlMaximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormulaBarCancelButtonTooltip" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlType" xml:space="preserve">
+    <value>Tipi:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingColorScaleControlPreview" xml:space="preserve">
+    <value>Önizleme:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormComments" xml:space="preserve">
+    <value>Yorumlar:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingRulesManagerFormDown" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingRulesManagerFormGridFormat" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormFontStrikethrough" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingRulesManagerFormUp" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FindReplaceFormMatchCase" xml:space="preserve">
+    <value>Harf eşleştir</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PivotTableCalculatedItemSolveOrderCloseButton" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableAltTextDescription" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormDelete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableTabData" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableAltTextTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_BorderStyleNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FieldSettingsPivotTableLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableLayoutAndFormatLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsHorizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlHorizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsVertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatBorderControlVertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ViewZoomFormTitle" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DocumentPropertiesFormAdd" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PivotTableLabelDateValueFilterFormAnd" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ColumnHeaderItem" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableLayoutAndFormatFormat" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ConditionalFormattingDataBarControlMaximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentPreview" xml:space="preserve">
+    <value>Önizleme:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_EncryptDocumentPassword" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PasswordRequestPassword" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PivotTableCalculatedFieldItemName" xml:space="preserve">
+    <value>Adı:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableDisplayFieldList" xml:space="preserve">
+    <value>Alan Listesi</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_BorderStyleMedium" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PivotTableGroupFieldAuto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormBorderInside" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentPreviewText" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ViewZoomPercent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PasteSpecialLocalFormPaste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableTotalsAndFiltersFilters" xml:space="preserve">
+    <value>Filtreler</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FieldSettingsPivotTablePrint" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTablePrintingPrint" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PasswordRequestTitle" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_InsertMovePivotTableLocation" xml:space="preserve">
+    <value>Yeri:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PivotTableSortOptionsSummary" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FieldSettingsPivotTableFilter" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PivotTableFieldsButtonUpdate" xml:space="preserve">
+    <value>Güncelleştirme</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FillEffectsFormatCellsSample" xml:space="preserve">
+    <value>Örnek</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarThumb" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatCellsFormAlignmentOrientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_InsertSheetFormTitle" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SortButton" xml:space="preserve">
+    <value>Sıralama</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_PivotTableTop10FilterFormShow" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_RowHeaderItem" xml:space="preserve">
+    <value>Satır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_BorderStyleDouble" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetSpinEditMore" xml:space="preserve">
+    <value>Daha fazla</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveOrCopySheetFormTitle" xml:space="preserve">
+    <value>Taşı veya Kopyala</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OptionsPivotTableLayoutAndFormatAutofitColumnWidths" xml:space="preserve">
+    <value>_Autofit sütun genişliklerini güncelleştirmede</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabSelector" xml:space="preserve">
+    <value>Sayfa gezinti çubuğu</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_InsertSymbolFormFindButton" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormNewSheetAutomationName" xml:space="preserve">
+    <value>Yeni sayfa adı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_MoveChartFormObjectInAutomationName" xml:space="preserve">
+    <value>Çalışma kitabındaki sayfa sayısı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseBrightnessButtonDescription" xml:space="preserve">
+    <value>Parlaklık 5 oranında azaltmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseBrightnessEdgeButtonDescription" xml:space="preserve">
+    <value>Parlaklığı 1 oranında azaltmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseButton" xml:space="preserve">
+    <value>5 oranında azaltmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseContrastButtonDescription" xml:space="preserve">
+    <value>Buna karşılık yüzde 5 azaltmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseContrastEdgeButtonDescription" xml:space="preserve">
+    <value>Buna karşılık yüzde 1 azaltmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlDecreaseEdgeButton" xml:space="preserve">
+    <value>1 oranında azaltmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseButton" xml:space="preserve">
+    <value>5 oranında artırmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseContrastButtonDescription" xml:space="preserve">
+    <value>Buna karşılık yüzde 5 artış</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseContrastEdgeButtonDescription" xml:space="preserve">
+    <value>Kontrast 1 oranında artırmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabDescription" xml:space="preserve">
+    <value>Sayfa sekmesi kitaptaki tek bir sayfaya temsil eder.</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectChartsheetFormTitle" xml:space="preserve">
+    <value>Sayfayı koru</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToFirstDescription" xml:space="preserve">
+    <value>İlk sayfanın görünür şekilde sayfa sekmesi listesini Kaydır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToLastDescription" xml:space="preserve">
+    <value>Son sayfa görünür şekilde sayfa sekmesi listesini Kaydır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToNextDescription" xml:space="preserve">
+    <value>Sayfa sekmesi listesini ileriye doğru bir sayfa kaydır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToPreviousDescription" xml:space="preserve">
+    <value>Sayfa sekmesi listesini geriye doğru bir sayfa kaydır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabSelectorDescription" xml:space="preserve">
+    <value>Sayfa gezinti çubuğu kitaptaki sayfaları görüntülemek ve bunlar arasında geçiş yapmak için denetimler içerir</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_DataValidationSettingsPage" xml:space="preserve">
+    <value>Ayarları</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_OutlineSettingFormTitle" xml:space="preserve">
+    <value>Ayarları</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FormatPictureControlIncreaseEdgeButton" xml:space="preserve">
+    <value>1 oranında artırmak</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_ProtectChartsheetFormPassword" xml:space="preserve">
+    <value>Parola (isteğe bağlı):</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetActivationFormActivate" xml:space="preserve">
+    <value>Harekete geçirmek:</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabNewWorksheet" xml:space="preserve">
+    <value>Yeni çalışma sayfası</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToFirst" xml:space="preserve">
+    <value>İlk çalışma sayfasına kaydır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToNext" xml:space="preserve">
+    <value>Sonraki çalışma sayfasına Kaydır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SheetTabScrollToPrevious" xml:space="preserve">
+    <value>Önceki çalışma sayfasına Kaydır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetSpinEditLess" xml:space="preserve">
+    <value>Daha az</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarDownButton" xml:space="preserve">
+    <value>Sayfa aşağı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarDownEdgeButton" xml:space="preserve">
+    <value>Satır aşağı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarLeftButtonDescription" xml:space="preserve">
+    <value>Yatay konumu birkaç sütun yaptı taşır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarThumbHorizontalDescription" xml:space="preserve">
+    <value>Geçerli yatay konumu gösterir ve doğrudan değiştirmek için sürüklenebilir</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarUpButton" xml:space="preserve">
+    <value>Sayfa yukarı</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarUpEdgeButton" xml:space="preserve">
+    <value>Sıraya girin</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_SpreadsheetViewScrollBarUpEdgeButtonDescription" xml:space="preserve">
+    <value>Dikey konumu bir satır yukarı taşır</value>
+  </data>
+  <data name="SpreadsheetControlStringId.Caption_FindReplaceFormCloseButton" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+</root>

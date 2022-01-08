@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChartStringId.AnnotationDefaultContent" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="ChartStringId.ArgumentPatternDescription" xml:space="preserve">
+    <value>Argument</value>
+  </data>
+  <data name="ChartStringId.Chart3DControlAutomationPeerHelpText" xml:space="preserve">
+    <value>A chart 3D control.</value>
+  </data>
+  <data name="ChartStringId.Chart3DControlLocalizedControlType" xml:space="preserve">
+    <value>chart 3D</value>
+  </data>
+  <data name="ChartStringId.ChartControlAutomationPeerHelpText" xml:space="preserve">
+    <value>A chart control.</value>
+  </data>
+  <data name="ChartStringId.ChartControlLocalizedControlType" xml:space="preserve">
+    <value>chart</value>
+  </data>
+  <data name="ChartStringId.CloseValuePatternDescription" xml:space="preserve">
+    <value>Close Value</value>
+  </data>
+  <data name="ChartStringId.CustomLegendItemDefaultText" xml:space="preserve">
+    <value>Custom Legend Item</value>
+  </data>
+  <data name="ChartStringId.EmptyLegendText" xml:space="preserve">
+    <value>Specify DisplayName</value>
+  </data>
+  <data name="ChartStringId.ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ChartStringId.HighValuePatternDescription" xml:space="preserve">
+    <value>High Value</value>
+  </data>
+  <data name="ChartStringId.LegendTitleDefaultContent" xml:space="preserve">
+    <value>Legend Title</value>
+  </data>
+  <data name="ChartStringId.LowValuePatternDescription" xml:space="preserve">
+    <value>Low Value</value>
+  </data>
+  <data name="ChartStringId.MsgCantImportHolidays" xml:space="preserve">
+    <value>Failed to import holidays from the '{0}' file.</value>
+  </data>
+  <data name="ChartStringId.MsgDiagramToPointIncorrectValue" xml:space="preserve">
+    <value>The specified {0} parameter type doesn't match the appropriate scale type, which is {1} for this axis.</value>
+  </data>
+  <data name="ChartStringId.MsgFileNotFound" xml:space="preserve">
+    <value>File '{0}' isn't found.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDoubleValue" xml:space="preserve">
+    <value>The value can't be equal to Double.NaN, Double.PositiveInfinity, or Double.NegativeInfinity.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLabelAngle" xml:space="preserve">
+    <value>The angle of the label should be greater than or equal to -360 and less than or equal to 360.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMaxCrosshairContentHeight" xml:space="preserve">
+    <value>The legend's MaxCrosshairContentHeight property value must be greater than 0, less than 1000, or equal to Double.NaN.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMaxCrosshairContentWidth" xml:space="preserve">
+    <value>The legend's MaxCrosshairContentWidth property value must be greater than 0 and less than 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPointsCreation" xml:space="preserve">
+    <value>The series point collection should be populated either from a data source, or manually, but not both at a time.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPropertyUsage" xml:space="preserve">
+    <value>The '{0}' property isn't supported for the '{1}' class.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesRemoving" xml:space="preserve">
+    <value>It's impossible to remove auto-created series.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesReordering" xml:space="preserve">
+    <value>When reordering series within the collection, automatically created series cannot replace the manually created ones, and vice versa.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesReplacement" xml:space="preserve">
+    <value>The auto-created series cannot be assigned.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidLogarithmicBase" xml:space="preserve">
+    <value>The logarithmic base should be greater than 1.</value>
+  </data>
+  <data name="ChartStringId.MsgSeriesPointIncorrectValue" xml:space="preserve">
+    <value>The point value cannot be equal to infinity.</value>
+  </data>
+  <data name="ChartStringId.MsgUsingSeriesTemplateAndItemTemplate" xml:space="preserve">
+    <value>The SeriesTemplate and SeriesItemTemplate properties can not be specified simultaneously.</value>
+  </data>
+  <data name="ChartStringId.OpenValuePatternDescription" xml:space="preserve">
+    <value>Open Value</value>
+  </data>
+  <data name="ChartStringId.OthersArgument" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="ChartStringId.PatternEditorPreviewCaption" xml:space="preserve">
+    <value>Select a placeholder to see the preview</value>
+  </data>
+  <data name="ChartStringId.PercentValuePatternDescription" xml:space="preserve">
+    <value>Percent Value</value>
+  </data>
+  <data name="ChartStringId.PointHintPatternDescription" xml:space="preserve">
+    <value>Point Hint</value>
+  </data>
+  <data name="ChartStringId.SeriesNamePatternDescription" xml:space="preserve">
+    <value>Series Name</value>
+  </data>
+  <data name="ChartStringId.StackedGroupPatternDescription" xml:space="preserve">
+    <value>Series Group</value>
+  </data>
+  <data name="ChartStringId.TitleDefaultContent" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ChartStringId.TotalLabelHeader" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ChartStringId.TotalValuePatternDescription" xml:space="preserve">
+    <value>Total Value</value>
+  </data>
+  <data name="ChartStringId.Value1PatternDescription" xml:space="preserve">
+    <value>Value1</value>
+  </data>
+  <data name="ChartStringId.Value2PatternDescription" xml:space="preserve">
+    <value>Value2</value>
+  </data>
+  <data name="ChartStringId.ValueDurationDaysPatternDescription" xml:space="preserve">
+    <value>Value Duration (Days)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationHoursPatternDescription" xml:space="preserve">
+    <value>Value Duration (Hours)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationMillisecondsPatternDescription" xml:space="preserve">
+    <value>Value Duration (mSecs)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationMinutesPatternDescription" xml:space="preserve">
+    <value>Value Duration (Mins)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationPatternDescription" xml:space="preserve">
+    <value>Value Duration</value>
+  </data>
+  <data name="ChartStringId.ValueDurationSecondsPatternDescription" xml:space="preserve">
+    <value>Value Duration (Secs)</value>
+  </data>
+  <data name="ChartStringId.ValuePatternDescription" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ChartStringId.WeightPatternDescription" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+</root>

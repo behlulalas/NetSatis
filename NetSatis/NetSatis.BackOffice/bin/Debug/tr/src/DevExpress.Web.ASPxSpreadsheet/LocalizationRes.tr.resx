@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxSpreadsheetStringId.InsertLink_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonOK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonOpen" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink_Subject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonChange" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonInsert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink_DisplayProperties" xml:space="preserve">
+    <value>Görüntü özellikleri</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertImage" xml:space="preserve">
+    <value>Resim Ekle</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertImage_EnterUrl" xml:space="preserve">
+    <value>ENTER resmi web adresi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertImage_FromLocal" xml:space="preserve">
+    <value>Bilgisayarınızdan</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertImage_FromWeb" xml:space="preserve">
+    <value>Web'den (URL)</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertImage_ImagePreview" xml:space="preserve">
+    <value>Resim önizleme</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink" xml:space="preserve">
+    <value>Köprü ekleme</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink_Email" xml:space="preserve">
+    <value>E-posta adresi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink_EmailTo" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink_ToolTip" xml:space="preserve">
+    <value>Araç ipucu</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink_URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.RenameSheet_SheetName" xml:space="preserve">
+    <value>Sayfa adı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.RequiredFieldError" xml:space="preserve">
+    <value>Bu alan gereklidir</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_FileAlreadyExists" xml:space="preserve">
+    <value>zaten mevcut. Bunu değiştirmek istiyor musunuz?</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_FileName" xml:space="preserve">
+    <value>Dosya adı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_FileType" xml:space="preserve">
+    <value>Dosya türü</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_FolderManager_Header" xml:space="preserve">
+    <value>Hedef klasör veya varolan bir dosya seçin</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_FolderPath" xml:space="preserve">
+    <value>Klasör yolu</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonSaveAs" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonSelect" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ChangeLink" xml:space="preserve">
+    <value>Köprü değişiklik</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ExternalRibbonControl_NotFound" xml:space="preserve">
+    <value>Dış Şerit denetimi '{0}' bulunamadı.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.OpenFile_FromComputer" xml:space="preserve">
+    <value>Bilgisayarınızdan</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.OpenFile_FileManager_Header" xml:space="preserve">
+    <value>Elektronik tablo dosyasını seçin</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.RenameSheet" xml:space="preserve">
+    <value>Sayfayı yeniden adlandır</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_SaveFileToServer" xml:space="preserve">
+    <value>Dosyayı sunucuya kaydet </value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ButtonDownload" xml:space="preserve">
+    <value>İndir</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.OpenFile_FromServer" xml:space="preserve">
+    <value>Sunucu bağlantısı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_DownloadInstruction" xml:space="preserve">
+    <value>İndirilecek dosya türünü seçin</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile_DownloadCopy" xml:space="preserve">
+    <value>Bir kopyasını indir</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_Double" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_Thick" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_Thin" xml:space="preserve">
+    <value>İnce</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_Medium" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_MediumDashed" xml:space="preserve">
+    <value>Orta çizgili</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_MediumDotted" xml:space="preserve">
+    <value>Orta noktalı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.OpenFile" xml:space="preserve">
+    <value>Açık elektronik tablo dosyası</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.OpenFile_ChooseInstruction" xml:space="preserve">
+    <value>Elektronik tablo dosya sunucusu</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.OpenFile_UploadInstruction" xml:space="preserve">
+    <value>Bilgisayarınıza yüklemek elektronik tablo dosyası için Gözat</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SaveFile" xml:space="preserve">
+    <value>Elektronik tablo dosyasını farklı kaydet</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertImage_UploadInstructions" xml:space="preserve">
+    <value>Bilgisayarınıza yüklemek görüntü dosyası için Gözat</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_Dashed" xml:space="preserve">
+    <value>Kesik çizgili</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.BorderLineStyle_Dotted" xml:space="preserve">
+    <value>Noktalı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace_LookIn_Values" xml:space="preserve">
+    <value>Değerleri</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace_FindTab_Caption" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace_SearchResults_ValueHeader" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace_Search" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace_SearchResults_CellHeader" xml:space="preserve">
+    <value>Hücre</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.UnhideSheet" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ViewGroup_Title" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.Invalid_URL" xml:space="preserve">
+    <value>Geçersiz bağlantı adresi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormulaBar_CancelButtonTooltip" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_Caption" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.CustomFilter_OperatorAnd" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.CustomFilter_OperatorOr" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_OrientationLandscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_OrientationPortrait" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_Caption" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.Caption_MediumTableStyleCategory" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.Caption_MediumTableStyleNamePart" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_PrintGroup" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_HeaderFooterTab_Footer" xml:space="preserve">
+    <value>Altbilgi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_Footer" xml:space="preserve">
+    <value>Altbilgi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_HeaderFooterTab_Header" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_Header" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FilterTop10_Show" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_NoButton" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_YesButton" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_OrientationGroup" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_HeaderFooterTab_Caption" xml:space="preserve">
+    <value>Üstbilgi/Altbilgi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_HeaderFooterTab_DifferentOddEven" xml:space="preserve">
+    <value>Farklı tek ve çift sayfalar</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_CenterHorizontally" xml:space="preserve">
+    <value>Yatay olarak</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_MarginsTab_CenterVertically" xml:space="preserve">
+    <value>Dikey olarak</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_FirstPageNumber" xml:space="preserve">
+    <value>İlk sayfa numarası:</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_PaperSize" xml:space="preserve">
+    <value>Kağıt boyutu:</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_PrintQuality" xml:space="preserve">
+    <value>Yazdırma kalitesi:</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_Scale" xml:space="preserve">
+    <value>% normal boyutu</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_PageTab_ScalingGroup" xml:space="preserve">
+    <value>Ölçekleme</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_Print" xml:space="preserve">
+    <value>Yazdır...</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_CellErrorAs" xml:space="preserve">
+    <value>Hücre hata olarak</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_Comments" xml:space="preserve">
+    <value>Yorumlar</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_Draft" xml:space="preserve">
+    <value>Taslak kalitesi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_Gridlines" xml:space="preserve">
+    <value>Kılavuz çizgileri</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_PageOrderGroup" xml:space="preserve">
+    <value>Sayfa sırası</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_PrintArea" xml:space="preserve">
+    <value>Yazdırma alanı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_PrintAreaErrorText" xml:space="preserve">
+    <value>Yazdığınız formülde bir hata var. Aralık başvurusu veya tanımlı ad yok.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_SheetTab_PrintHeadings" xml:space="preserve">
+    <value>Satır ve sütun başlıkları</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InsertLink_WebPage" xml:space="preserve">
+    <value>Web sayfası</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormulaBar_EnterButtonTooltip" xml:space="preserve">
+    <value>Girin</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataFilterSimple" xml:space="preserve">
+    <value>Otomatik Filtre</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.ModifyTableStyle" xml:space="preserve">
+    <value>Tablo stilleri</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.MoveOrCopySheet_CreateCopy" xml:space="preserve">
+    <value>Kopya oluştur</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.PageSetup_HeaderFooterTab_CustomHeaderFooter" xml:space="preserve">
+    <value>Özel Üstbilgi/Altbilgi..</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.CustomHeaderFooter_LeftFooter" xml:space="preserve">
+    <value>Sol Altbilgi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.MessageBox_QuestionTitle" xml:space="preserve">
+    <value>Soru</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.SelectTableStyle" xml:space="preserve">
+    <value>Tablo stili seçin</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells" xml:space="preserve">
+    <value>Hücreleri Biçimlendir</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_CustomFormatDescription" xml:space="preserve">
+    <value>Önceden tanımlanmış değerlerden biri biçiminden seçin</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_DecimalPlaces" xml:space="preserve">
+    <value>Ondalık basamak</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_DecimalPlacesErrorText" xml:space="preserve">
+    <value>Giriş kullanılamaz. Bir tamsayı veya ondalık sayı-ebilmek var olmak gerekli.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_Locate" xml:space="preserve">
+    <value>Yerleştirme (konum)</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.CustomAutoFilter" xml:space="preserve">
+    <value>Özel Otomatik Süz</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.InvalidFontSize" xml:space="preserve">
+    <value>Yazı tipi boyutu 1 ile 409 nokta arasında olmalıdır</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.MessageBox_SessionExpired" xml:space="preserve">
+    <value>Oturumunuzun süresi doldu.
+Lütfen devam etmek için sayfayı yenileyin.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.OpeningAndOverstoreImpossibleError" xml:space="preserve">
+    <value>Açık ve belge işlemi yapılamaz &lt; br / &gt; beri çalışma dizini için düzenleyici belirtilmemiş.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Failed_Caption" xml:space="preserve">
+    <value>Veri doğrulama başarısız oldu</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormulaValidation_Failed_Caption" xml:space="preserve">
+    <value>Formül doğrulama başarısız oldu</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_CurrencySymbol" xml:space="preserve">
+    <value>Sembol</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.MessageBox_WarningTitle" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.MessageBox_ErrorTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.MessageBox_InformationTitle" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_Caption" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_Type" xml:space="preserve">
+    <value>Türü</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FormatCells_NumberTab_Sample" xml:space="preserve">
+    <value>Örnek</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FileManager_OpenedFileMoveErrorText" xml:space="preserve">
+    <value>Dosya taşınamaz. Başka bir kullanıcının önceden açtığı.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FileManager_OpenedFileRenameErrorText" xml:space="preserve">
+    <value>Dosya adı değiştirilemez. Başka bir kullanıcının önceden açtığı.</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ErrorMessageTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_InputMessageTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_ClearAll" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_Style" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.FindAndReplace_MatchCase" xml:space="preserve">
+    <value>Harf eşleştir</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_Caption" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_GroupCaption" xml:space="preserve">
+    <value>Doğrulama ölçütlerini</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_Caption" xml:space="preserve">
+    <value>İleti giriş</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ShowAlert" xml:space="preserve">
+    <value>Geçersiz veri girildikten sonra hata uyarısını göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Alert_ShowDescription" xml:space="preserve">
+    <value>Kullanıcı geçersiz veri girdiğinde bu hata uyarısını göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_InputMessage" xml:space="preserve">
+    <value>İleti giriş</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_ShowDescription" xml:space="preserve">
+    <value>Hücre seçildikten sonra bu girdi iletisini göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Message_ShowMessage" xml:space="preserve">
+    <value>Hücre seçildikten sonra girdi iletisini göster</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_InCellDropDown" xml:space="preserve">
+    <value>Hücre içi aşağı açılma</value>
+  </data>
+  <data name="ASPxSpreadsheetStringId.DataValidation_Settings_ApplyChanges" xml:space="preserve">
+    <value>Bu değişiklikleri aynı ayarlara sahip diğer hücrelerin Tümüne Uygula</value>
+  </data>
+</root>

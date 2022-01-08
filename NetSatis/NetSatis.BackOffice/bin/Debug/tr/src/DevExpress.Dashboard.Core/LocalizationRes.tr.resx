@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardStringId.CloseCaption" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DashboardStringId.HighCaption" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="DashboardStringId.LowCaption" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="DashboardStringId.ActionClearMasterFilter" xml:space="preserve">
+    <value>Ana filtreyi temizle</value>
+  </data>
+  <data name="DashboardStringId.ActionDrillUp" xml:space="preserve">
+    <value>Yukarı ayrıntıya</value>
+  </data>
+  <data name="DashboardStringId.ActionExportTo" xml:space="preserve">
+    <value>İhracat</value>
+  </data>
+  <data name="DashboardStringId.ActionExportToPdf" xml:space="preserve">
+    <value>PDF'ye dışa aktarma</value>
+  </data>
+  <data name="DashboardStringId.ActionOtherValues" xml:space="preserve">
+    <value>Değerleri</value>
+  </data>
+  <data name="DashboardStringId.ActualValueCaption" xml:space="preserve">
+    <value>Gerçek</value>
+  </data>
+  <data name="DashboardStringId.AxisYNameValues" xml:space="preserve">
+    <value>Değerleri</value>
+  </data>
+  <data name="DashboardStringId.DataEngineGrandTotal" xml:space="preserve">
+    <value>Genel toplam</value>
+  </data>
+  <data name="DashboardStringId.DataItemsHeader" xml:space="preserve">
+    <value>Veri öğeleri</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalDateHour" xml:space="preserve">
+    <value>Tarih-Saat</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalDateHourMinute" xml:space="preserve">
+    <value>Tarih, saat, dakika</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalDateHourMinuteSecond" xml:space="preserve">
+    <value>Tarih-saat-dakika-saniye</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalDayMonthYear" xml:space="preserve">
+    <value>Gün-ay-yıl</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalHour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalMinute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalMonth" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalMonthYear" xml:space="preserve">
+    <value>Ay-yıl</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalQuarterYear" xml:space="preserve">
+    <value>Çeyrek yıl</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalSecond" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalYear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="DashboardStringId.DateTimeQuarterFormat" xml:space="preserve">
+    <value>Q{0}</value>
+  </data>
+  <data name="DashboardStringId.DateTimeQuarterFormatSpecifier" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameCardItem" xml:space="preserve">
+    <value>Kartlar</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameChartItem" xml:space="preserve">
+    <value>Grafik</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameGaugeItem" xml:space="preserve">
+    <value>Ölçü aygıtları</value>
+  </data>
+  <data name="DashboardStringId.DefaultNamePivotItem" xml:space="preserve">
+    <value>Pivot</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameRangeFilterItem" xml:space="preserve">
+    <value>Aralık filtresi</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameTextBoxItem" xml:space="preserve">
+    <value>Metin kutusu</value>
+  </data>
+  <data name="DashboardStringId.DescriptionColumns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="DashboardStringId.DescriptionDimensions" xml:space="preserve">
+    <value>Boyutlar</value>
+  </data>
+  <data name="DashboardStringId.DescriptionGauges" xml:space="preserve">
+    <value>Ölçü aygıtları</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemColumn" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemDimension" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemMeasure" xml:space="preserve">
+    <value>Ölçü birimi</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemRow" xml:space="preserve">
+    <value>Satır</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardStringId.ElementNameGauges" xml:space="preserve">
+    <value>Ölçü aygıtları</value>
+  </data>
+  <data name="DashboardStringId.EmptyColumnAliasPattern" xml:space="preserve">
+    <value>{0} Sütunu</value>
+  </data>
+  <data name="DashboardStringId.ErrorValueDisplayText" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="DashboardStringId.FormatStringDashboardItemCaption" xml:space="preserve">
+    <value>- {0}</value>
+  </data>
+  <data name="DashboardStringId.FormatStringDataItemName" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="DashboardStringId.FormatStringSeriesName" xml:space="preserve">
+    <value>- {0}</value>
+  </data>
+  <data name="DashboardStringId.MessageDashboardInternalError" xml:space="preserve">
+    <value>Pano iç hata. Uygulama satıcısı veya sistem yöneticinize başvurun.</value>
+  </data>
+  <data name="DashboardStringId.MessageDuplicatedDataItem" xml:space="preserve">
+    <value>Bu örnek veri öğesi '{0}' zaten '{1}' için eklendi. Benzer bir veri öğesi '{1}' eklemek için bu veri öğesini yeni bir örneğini oluşturun.</value>
+  </data>
+  <data name="DashboardStringId.MessageIncorrectDataAssign" xml:space="preserve">
+    <value>Bir veri sağlayıcısı kullanılırsa veri atanamaz.</value>
+  </data>
+  <data name="DashboardStringId.MessageIncorrectNumericPrecision" xml:space="preserve">
+    <value>Hassas sayısal değer negatif olamaz.</value>
+  </data>
+  <data name="DashboardStringId.MessageInternalError" xml:space="preserve">
+    <value>İç hata. Lütfen uygulama satıcısı veya sistem yöneticinize başvurun ve aşağıdaki bilgileri sağlayın.
+
+{0}</value>
+  </data>
+  <data name="DashboardStringId.MessageInvalidCultureName" xml:space="preserve">
+    <value>Belirli bir kültür şu adla bulunamıyor: {0}</value>
+  </data>
+  <data name="DashboardStringId.MessageInvalidFilterExpression" xml:space="preserve">
+    <value>Yanlış sütun tanımlayıcısı: {0}. geçerli sütun tanımlayıcı sütun adı öncesinde tablo adı (veya diğer ad belirttiyseniz,) oluşmalıdır. Bu adları noktayla ayrılmış olmalıdır.</value>
+  </data>
+  <data name="DashboardStringId.MessageInvalidStream" xml:space="preserve">
+    <value>'Akış' parametresi null olamaz</value>
+  </data>
+  <data name="DashboardStringId.MessageLoading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="DashboardStringId.NumericFormatUnitSymbolBillions" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="DashboardStringId.NumericFormatUnitSymbolMillions" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="DashboardStringId.NumericFormatUnitSymbolThousands" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="DashboardStringId.NumericGroupIntervalContinuous" xml:space="preserve">
+    <value>Sürekli</value>
+  </data>
+  <data name="DashboardStringId.OpenCaption" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="DashboardStringId.PivotGridGrandTotal" xml:space="preserve">
+    <value>Genel Toplam</value>
+  </data>
+  <data name="DashboardStringId.PivotGridTotal" xml:space="preserve">
+    <value>{0} Toplam</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeArea" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeBubble" xml:space="preserve">
+    <value>Kabarcık</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeFullStackedArea" xml:space="preserve">
+    <value>Tam yığılmış alan</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeFullStackedBar" xml:space="preserve">
+    <value>Tam yığılmış çubuk</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeFullStackedLine" xml:space="preserve">
+    <value>Tam yığılmış çizgi</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeFullStackedSplineArea" xml:space="preserve">
+    <value>Tam yığılmış eğri alanı</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeGroupArea" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeGroupBubble" xml:space="preserve">
+    <value>Kabarcık</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeGroupFinancial" xml:space="preserve">
+    <value>Finansal</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeGroupRangeFilter" xml:space="preserve">
+    <value>Aralık filtresi</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeHighLowClose" xml:space="preserve">
+    <value>En yüksek-en düşük-kapanış</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeLine" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeSideBySideFullStackedBar" xml:space="preserve">
+    <value>Tam yığılmış çubuk yan yana</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeSideBySideRangeBar" xml:space="preserve">
+    <value>Aralık çubuğu yan yana</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeSideBySideStackedBar" xml:space="preserve">
+    <value>Bar yan yana dizilir</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeSpline" xml:space="preserve">
+    <value>Eğri</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeStackedArea" xml:space="preserve">
+    <value>Yığılmış alan</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeStackedBar" xml:space="preserve">
+    <value>Yığılmış çubuk</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeStackedLine" xml:space="preserve">
+    <value>Yığılmış çizgi</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeStackedSplineArea" xml:space="preserve">
+    <value>Yığılmış alan eğri</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeStepLine" xml:space="preserve">
+    <value>Adım satırı</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeAverage" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeStdDev" xml:space="preserve">
+    <value>STDSAPMA</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeStdDevp" xml:space="preserve">
+    <value>STDSAPMAS</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeSum" xml:space="preserve">
+    <value>Toplamı</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeVar" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeVarp" xml:space="preserve">
+    <value>VARS</value>
+  </data>
+  <data name="DashboardStringId.TargetValueCaption" xml:space="preserve">
+    <value>Hedef</value>
+  </data>
+  <data name="DashboardStringId.TextGroupIntervalAlphabetical" xml:space="preserve">
+    <value>Alfabetik</value>
+  </data>
+  <data name="DashboardStringId.TopNOthersValue" xml:space="preserve">
+    <value>Diğerleri</value>
+  </data>
+  <data name="DashboardStringId.ValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardStringId.WeightCaption" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypePoint" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeRangeArea" xml:space="preserve">
+    <value>Aralık Alanı</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeSplineArea" xml:space="preserve">
+    <value>Eğri alanı</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeStepArea" xml:space="preserve">
+    <value>Adım alan</value>
+  </data>
+  <data name="DashboardStringId.RangeFilterEmptySeries" xml:space="preserve">
+    <value>Lütfen Aralık filtresi değerleri belirtin</value>
+  </data>
+  <data name="DashboardStringId.RangeFilterIncompatibleArgument" xml:space="preserve">
+    <value>lütfen belirtin aralığı filtre bağımsız değişkeniAralık filtresi değerleri belirtin lütfenaralığı filtrenin bağımsız değişken alan sayısal, Tarih, saat, olması gereken veya TimeSpan yazın</value>
+  </data>
+  <data name="DashboardStringId.RangeFilterIncompatibleArgumentSorting" xml:space="preserve">
+    <value>aralığı filtrenin bağımsız değişken azalan düzende veya başka bir veri öğesi tarafından sıralanmış değil</value>
+  </data>
+  <data name="DashboardStringId.RangeFilterIncompatibleDateTimeGroupInterval" xml:space="preserve">
+    <value>Tarih-Saat bağımsız değişkeni değerleri gruplandırma yerine gerçek takvim Tarih veya zaman açıklıklı tanımlamak (yani, bir yıl bölümünü içermelidir). Buna göre grup aralığı değiştirmek</value>
+  </data>
+  <data name="DashboardStringId.RangeFilterIncompatibleNumericScale" xml:space="preserve">
+    <value>Aralık filtresi kullanıcının sayısal bağımsız değişken değerleri sürekli bir eksen üretmek gerekir. Sayısal ölçek ayarlamak için sürekli</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeBar" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeCandleStick" xml:space="preserve">
+    <value>Mum çubuk</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeGroupBar" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeGroupRange" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="DashboardStringId.NumericGroupIntervalDiscrete" xml:space="preserve">
+    <value>Ayrık</value>
+  </data>
+  <data name="DashboardStringId.LoadingDataError" xml:space="preserve">
+    <value>Pano veri yüklerken bir sorun ile karşılaştı. Bir veya daha fazla Pano öğeleri boş görünebilir.
+Lütfen uygulama satıcısı veya sistem yöneticinize başvurun ve aşağıdaki bilgileri sağlayın.
+
+Web uygulama sunucusu aşağıdaki veri bağlantısı kurulamadı:
+{0}</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalDayOfWeek" xml:space="preserve">
+    <value>Haftanın günü</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalDayOfYear" xml:space="preserve">
+    <value>Yılın günü</value>
+  </data>
+  <data name="DashboardStringId.FormatStringKpiElementCaption" xml:space="preserve">
+    <value>{0} vs {1}</value>
+  </data>
+  <data name="DashboardStringId.AxisXNameArguments" xml:space="preserve">
+    <value>Bağımsız değişkenler</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeCount" xml:space="preserve">
+    <value>adet</value>
+  </data>
+  <data name="DashboardStringId.ActionAllowMultiselection" xml:space="preserve">
+    <value>Çoklu Seçim</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalQuarter" xml:space="preserve">
+    <value>Çeyrek</value>
+  </data>
+  <data name="DashboardStringId.DefaultDashboardTitleText" xml:space="preserve">
+    <value>Kontrol paneli</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameGridItem" xml:space="preserve">
+    <value>Kılavuz</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameImageItem" xml:space="preserve">
+    <value>Görüntü</value>
+  </data>
+  <data name="DashboardStringId.DefaultNamePieItem" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="DashboardStringId.DescriptionCards" xml:space="preserve">
+    <value>Kartlar</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemSeries" xml:space="preserve">
+    <value>Seri</value>
+  </data>
+  <data name="DashboardStringId.DescriptionMeasures" xml:space="preserve">
+    <value>Önlemler</value>
+  </data>
+  <data name="DashboardStringId.DescriptionRows" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DashboardStringId.DescriptionSeries" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="DashboardStringId.DescriptionValues" xml:space="preserve">
+    <value>Değerler</value>
+  </data>
+  <data name="DashboardStringId.ElementNameCards" xml:space="preserve">
+    <value>Kartlar</value>
+  </data>
+  <data name="DashboardStringId.ElementNamePies" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="DashboardStringId.AutoArrangeContent" xml:space="preserve">
+    <value>İçeriği Otomatik Düzenle</value>
+  </data>
+  <data name="DashboardStringId.AxisYNameCount" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DashboardStringId.ButtonCancel" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="DashboardStringId.ButtonExport" xml:space="preserve">
+    <value>Dışa aktarma</value>
+  </data>
+  <data name="DashboardStringId.ButtonOK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="DashboardStringId.ButtonReset" xml:space="preserve">
+    <value>Sıfırlama</value>
+  </data>
+  <data name="DashboardStringId.ButtonSubmit" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="DashboardStringId.CalculatedFieldsTreeItemName" xml:space="preserve">
+    <value>Hesaplanmış alanlar</value>
+  </data>
+  <data name="DashboardStringId.CalculatedFieldTypeDateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="DashboardStringId.Value1Caption" xml:space="preserve">
+    <value>1. Değer</value>
+  </data>
+  <data name="DashboardStringId.Value2Caption" xml:space="preserve">
+    <value>2. Değer</value>
+  </data>
+  <data name="DashboardStringId.PaperKind" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DashboardStringId.FilterStatePresentationNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardStringId.ScaleModeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardStringId.SizeModeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardStringId.Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="DashboardStringId.SizeModeStretch" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DashboardStringId.SizeModeZoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DashboardStringId.PageLayoutAuto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DashboardStringId.DashboardNullValue" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="DashboardStringId.PageLayoutLandscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DashboardStringId.PageLayoutPortrait" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DashboardStringId.CalculatedFieldTypeString" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemArgument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardStringId.DescriptionSparklineArgument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardStringId.CalculatedFieldTypeDecimal" xml:space="preserve">
+    <value>Ondalık</value>
+  </data>
+  <data name="DashboardStringId.AutoFitPageCount" xml:space="preserve">
+    <value>Sayfa sayısı otomatik sığdır</value>
+  </data>
+  <data name="DashboardStringId.CalculatedFieldTypeInteger" xml:space="preserve">
+    <value>Tamsayı</value>
+  </data>
+  <data name="DashboardStringId.CalculatedFieldTypeObject" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameChartPane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameMapItem" xml:space="preserve">
+    <value>Harita</value>
+  </data>
+  <data name="DashboardStringId.Delta" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="DashboardStringId.DescriptionMaps" xml:space="preserve">
+    <value>Haritalar</value>
+  </data>
+  <data name="DashboardStringId.DescriptionMapValue" xml:space="preserve">
+    <value>Harita / değer</value>
+  </data>
+  <data name="DashboardStringId.DescriptionMapValues" xml:space="preserve">
+    <value>Harita / değerler</value>
+  </data>
+  <data name="DashboardStringId.MapAttributeDimension" xml:space="preserve">
+    <value>Öznitelik</value>
+  </data>
+  <data name="DashboardStringId.PageLayout" xml:space="preserve">
+    <value>Sayfa düzeni</value>
+  </data>
+  <data name="DashboardStringId.ParametersFormCaption" xml:space="preserve">
+    <value>Panel parametreleri</value>
+  </data>
+  <data name="DashboardStringId.PrintHeadersOnEveryPage" xml:space="preserve">
+    <value>Başlıkları her sayfada yazdır</value>
+  </data>
+  <data name="DashboardStringId.Resolution" xml:space="preserve">
+    <value>Çözünürlük (DPI)</value>
+  </data>
+  <data name="DashboardStringId.ScaleFactor" xml:space="preserve">
+    <value>Ölçek faktörü</value>
+  </data>
+  <data name="DashboardStringId.ScaleMode" xml:space="preserve">
+    <value>Ölçek modu</value>
+  </data>
+  <data name="DashboardStringId.ImageFormat" xml:space="preserve">
+    <value>Resim biçimi</value>
+  </data>
+  <data name="DashboardStringId.Longitude" xml:space="preserve">
+    <value>Boylam</value>
+  </data>
+  <data name="DashboardStringId.ActionExportToImage" xml:space="preserve">
+    <value>Resim olarak Ver</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalWeekOfYear" xml:space="preserve">
+    <value>Yılın hafta numarası</value>
+  </data>
+  <data name="DashboardStringId.DescriptionArguments" xml:space="preserve">
+    <value>Bağımsız değişkenler</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemAuto" xml:space="preserve">
+    <value>Yeni sütun</value>
+  </data>
+  <data name="DashboardStringId.DescriptionSparkline" xml:space="preserve">
+    <value>Mini grafik</value>
+  </data>
+  <data name="DashboardStringId.FileName" xml:space="preserve">
+    <value>Dosya adı</value>
+  </data>
+  <data name="DashboardStringId.FilterStatePresentation" xml:space="preserve">
+    <value>Filtre durumu</value>
+  </data>
+  <data name="DashboardStringId.FilterStatePresentationAfter" xml:space="preserve">
+    <value>Aşağıda</value>
+  </data>
+  <data name="DashboardStringId.MessageIncorrectLayoutItemWeight" xml:space="preserve">
+    <value>Düzen madde ağırlığı, sıfıra eşit veya negatif olamaz</value>
+  </data>
+  <data name="DashboardStringId.PaperKindA5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DashboardStringId.ParametersSelectorText" xml:space="preserve">
+    <value>Seçin...</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DashboardStringId.DescriptionArgument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemWeight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DashboardStringId.FilterStatePresentationAfterAndSplitPage" xml:space="preserve">
+    <value>Ayrı sayfa</value>
+  </data>
+  <data name="DashboardStringId.FitToPageWidth" xml:space="preserve">
+    <value>Sayfa genişliği için uygun</value>
+  </data>
+  <data name="DashboardStringId.FormatMasterFilterDisplayText" xml:space="preserve">
+    <value>, {0}</value>
+  </data>
+  <data name="DashboardStringId.FormatRangeFilterDisplayText" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="DashboardStringId.MessageGridHasNoData" xml:space="preserve">
+    <value>Kılavuz veri yok.</value>
+  </data>
+  <data name="DashboardStringId.MessageGridLoadingData" xml:space="preserve">
+    <value>Kılavuza veri yükleniyor...</value>
+  </data>
+  <data name="DashboardStringId.NewCalculatedFieldNamePrefix" xml:space="preserve">
+    <value>Hesaplanan alan</value>
+  </data>
+  <data name="DashboardStringId.PaperKindA3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DashboardStringId.PaperKindA4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DashboardStringId.PaperKindExecutive" xml:space="preserve">
+    <value>Executive</value>
+  </data>
+  <data name="DashboardStringId.PaperKindLegal" xml:space="preserve">
+    <value>Yasal</value>
+  </data>
+  <data name="DashboardStringId.PaperKindLetter" xml:space="preserve">
+    <value>Mektup</value>
+  </data>
+  <data name="DashboardStringId.ScaleModeAutoFitToPageWidth" xml:space="preserve">
+    <value>Sayfa genişliği için otomatik sığdır</value>
+  </data>
+  <data name="DashboardStringId.ShowTitle" xml:space="preserve">
+    <value>Başlığı göster</value>
+  </data>
+  <data name="DashboardStringId.SparklineTooltipMaxValue" xml:space="preserve">
+    <value>Max:</value>
+  </data>
+  <data name="DashboardStringId.SparklineTooltipMinValue" xml:space="preserve">
+    <value>Min:</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeStock" xml:space="preserve">
+    <value>Hisse senedi</value>
+  </data>
+  <data name="DashboardStringId.SparklineTooltipEndValue" xml:space="preserve">
+    <value>Son:</value>
+  </data>
+  <data name="DashboardStringId.TooltipDataItemsHeader" xml:space="preserve">
+    <value>Araç ipucu veri öğeleri</value>
+  </data>
+  <data name="DashboardStringId.SeriesTypeGroupPointLine" xml:space="preserve">
+    <value>Nokta / Çizgi</value>
+  </data>
+  <data name="DashboardStringId.MessageMasterFilterIncorrectNumberOfValues" xml:space="preserve">
+    <value>Öğe için sağlanan değer yanlış sayıda nedeniyle ana filtre ayarlamak tanımlayamıyor.</value>
+  </data>
+  <data name="DashboardStringId.Latitude" xml:space="preserve">
+    <value>Enlem</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalWeekOfMonth" xml:space="preserve">
+    <value>Ayın Haftası</value>
+  </data>
+  <data name="DashboardStringId.GroupIntervalNone" xml:space="preserve">
+    <value>Gruplama Yok</value>
+  </data>
+  <data name="DashboardStringId.HiddenDataItemsHeader" xml:space="preserve">
+    <value>Gizli Veri Öğeleri</value>
+  </data>
+  <data name="DashboardStringId.CalculatedFieldTypeBoolean" xml:space="preserve">
+    <value>Evet/Hayır</value>
+  </data>
+  <data name="DashboardStringId.MessageLayoutDuplicatedDashboardItem" xml:space="preserve">
+    <value>Bir düzen öğesi için belirtilen Pano öğesi zaten düzen ağacına eklendi</value>
+  </data>
+  <data name="DashboardStringId.RangeFilterIncompatibleSeriesType" xml:space="preserve">
+    <value>Aralık Filtresi yalnızca çizgi ve alan serisi içerebilir</value>
+  </data>
+  <data name="DashboardStringId.SizeMode" xml:space="preserve">
+    <value>Boyutu modu</value>
+  </data>
+  <data name="DashboardStringId.SparklineTooltipStartValue" xml:space="preserve">
+    <value>Başlamak:</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeCountDistinct" xml:space="preserve">
+    <value>Farklı say</value>
+  </data>
+  <data name="DashboardStringId.InitialExtent" xml:space="preserve">
+    <value>İlk ölçüde</value>
+  </data>
+  <data name="DashboardStringId.ColoringModeDefault" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DashboardStringId.ColorAutoAssigned" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DashboardStringId.ColoringModeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardStringId.FilterElementShowAllItem" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameItemGroup" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="DashboardStringId.ColorAutoAssignedNotApplied" xml:space="preserve">
+    <value>Otomatik (Uygulanmamış)</value>
+  </data>
+  <data name="DashboardStringId.ColoringModeHue" xml:space="preserve">
+    <value>Renk tonu</value>
+  </data>
+  <data name="DashboardStringId.ColorPaletteIndex" xml:space="preserve">
+    <value>Palet Endeksi:</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameComboBoxItem" xml:space="preserve">
+    <value>Açılan kutu</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameListBoxItem" xml:space="preserve">
+    <value>Liste kutusu</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameTreeViewItem" xml:space="preserve">
+    <value>Ağaç görünümü</value>
+  </data>
+  <data name="DashboardStringId.DescriptionDashboardItemComponentName" xml:space="preserve">
+    <value>Pano öğesi bileşen adı</value>
+  </data>
+  <data name="DashboardStringId.DescriptionDashboardItemName" xml:space="preserve">
+    <value>Pano öğesi adı</value>
+  </data>
+  <data name="DashboardStringId.ActionClearSelection" xml:space="preserve">
+    <value>Seçimi Temizle</value>
+  </data>
+  <data name="DashboardStringId.DateTimeGroupIntervalExactDate" xml:space="preserve">
+    <value>Tam Tarih</value>
+  </data>
+  <data name="DashboardStringId.DashboardErrorValue" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="DashboardStringId.GridClearSorting" xml:space="preserve">
+    <value>Sıralamayı Temizle</value>
+  </data>
+  <data name="DashboardStringId.GridSortDescending" xml:space="preserve">
+    <value>Sıralamayı Temizle</value>
+  </data>
+  <data name="DashboardStringId.GridSortAscending" xml:space="preserve">
+    <value>Artan sıralama</value>
+  </data>
+  <data name="DashboardStringId.DefaultDataSourceName" xml:space="preserve">
+    <value>Veri Kaynağı</value>
+  </data>
+  <data name="DashboardStringId.MessageInvalidLayoutClientHeight" xml:space="preserve">
+    <value>Düzen yüksekliği sıfırdan büyük olmalıdır.</value>
+  </data>
+  <data name="DashboardStringId.MessageInvalidLayoutClientWidth" xml:space="preserve">
+    <value>Düzen genişliği sıfırdan büyük olmalıdır.</value>
+  </data>
+  <data name="DashboardStringId.GridTotalTypeCount" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DashboardStringId.CsvValueSeparator" xml:space="preserve">
+    <value>Ayırıcı</value>
+  </data>
+  <data name="DashboardStringId.GridTotalTypeMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="DashboardStringId.GridTotalTypeMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="DashboardStringId.GridTotalTypeSum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemMeasureWeight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DashboardStringId.GridTotalAutoTemplate" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="DashboardStringId.GridTotalValueTemplate" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="DashboardStringId.ParametersFormValueColumnCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardStringId.NewParameterNamePrefix" xml:space="preserve">
+    <value>Parametre</value>
+  </data>
+  <data name="DashboardStringId.ExcelFormat" xml:space="preserve">
+    <value>Excel biçimi</value>
+  </data>
+  <data name="DashboardStringId.GridTotalTemplate" xml:space="preserve">
+    <value>{0} = {1}</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemAxisXMeasure" xml:space="preserve">
+    <value>X ekseni</value>
+  </data>
+  <data name="DashboardStringId.DescriptionItemAxisYMeasure" xml:space="preserve">
+    <value>Y ekseni</value>
+  </data>
+  <data name="DashboardStringId.ActionExportTemplate" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="DashboardStringId.PeriodLastMonth" xml:space="preserve">
+    <value>Geçen ay</value>
+  </data>
+  <data name="DashboardStringId.PeriodNextMonth" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="DashboardStringId.FilterElementCheckedComboBoxNoDataCaption" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="DashboardStringId.CategoryNameGeneral" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="DashboardStringId.ParametersFormNameColumnCaption" xml:space="preserve">
+    <value>Parametre</value>
+  </data>
+  <data name="DashboardStringId.CustomExpressionCalculationMeasureCaption" xml:space="preserve">
+    <value>Hesaplama</value>
+  </data>
+  <data name="DashboardStringId.RangeFilterSelectRange" xml:space="preserve">
+    <value>Aralık Seç</value>
+  </data>
+  <data name="DashboardStringId.FilterElementRadioComboBoxNoDataCaption" xml:space="preserve">
+    <value>Seçin...</value>
+  </data>
+  <data name="DashboardStringId.FilterElementNoDataToDisplay" xml:space="preserve">
+    <value>Görüntülenecek veri yok</value>
+  </data>
+  <data name="DashboardStringId.DefaultObjectDataSourceName" xml:space="preserve">
+    <value>Nesne veri kaynağı</value>
+  </data>
+  <data name="DashboardStringId.DefaultOlapDataSourceName" xml:space="preserve">
+    <value>OLAP veri kaynağı</value>
+  </data>
+  <data name="DashboardStringId.DefaultSqlDataSourceName" xml:space="preserve">
+    <value>SQL veri kaynağı</value>
+  </data>
+  <data name="DashboardStringId.DescriptionBoundImageAttribute" xml:space="preserve">
+    <value>Öznitelik</value>
+  </data>
+  <data name="DashboardStringId.DefaultEFDataSourceName" xml:space="preserve">
+    <value>EF veri kaynağı</value>
+  </data>
+  <data name="DashboardStringId.DefaultExcelDataSourceName" xml:space="preserve">
+    <value>Excel veri kaynağı</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameScatterChartItem" xml:space="preserve">
+    <value>Dağılım grafiği</value>
+  </data>
+  <data name="DashboardStringId.DescriptionTooltipDimensions" xml:space="preserve">
+    <value>Araç ipucu boyutları</value>
+  </data>
+  <data name="DashboardStringId.DifferenceCalculationMeasureCaptionFormatString" xml:space="preserve">
+    <value>{0} fark</value>
+  </data>
+  <data name="DashboardStringId.ErrorHandlingEFServerModeError" xml:space="preserve">
+    <value>Sunucu modu bu veri üyesi için desteklenmiyor</value>
+  </data>
+  <data name="DashboardStringId.ErrorToBooleanDateTimeOperand" xml:space="preserve">
+    <value>Bir tarih saat değeri boolean türüne dönüştüremezsiniz.</value>
+  </data>
+  <data name="DashboardStringId.ExpressionFieldsTreeItemName" xml:space="preserve">
+    <value>İfadeler</value>
+  </data>
+  <data name="DashboardStringId.ExtractSourceDataSourceNamePostfix" xml:space="preserve">
+    <value>(Yerel kopya)</value>
+  </data>
+  <data name="DashboardStringId.OlapRaggedHierarchyNoneItemCaption" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="DashboardStringId.PercentOfTotalCalculationMeasureCaptionFormatString" xml:space="preserve">
+    <value>{0} toplamının yüzdesi</value>
+  </data>
+  <data name="DashboardStringId.ExtractPreprocessorColumnError" xml:space="preserve">
+    <value>Aşağıdaki sütunlar işlenemiyor:
+{0}</value>
+  </data>
+  <data name="DashboardStringId.ErrorHandlingNoSuchDataMembers" xml:space="preserve">
+    <value>Aşağıdaki veri öğeleri mevcut değil</value>
+  </data>
+  <data name="DashboardStringId.ErrorHandlingDataBindingError" xml:space="preserve">
+    <value>Veri bağlama sırasında aşağıdaki hatalar oluştu:</value>
+  </data>
+  <data name="DashboardStringId.DescriptionTooltipMeasures" xml:space="preserve">
+    <value>Araç ipucu ölçüleri</value>
+  </data>
+  <data name="DashboardStringId.SummaryTypeMedian" xml:space="preserve">
+    <value>Medyan</value>
+  </data>
+  <data name="DashboardStringId.TreemapLabelArgumentTemplate" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="DashboardStringId.TreemapLabelValueTemplate" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="DashboardStringId.ExtractColumnUnsupportedTypeTooltip" xml:space="preserve">
+    <value>Sütun türü desteklenmiyor</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameBoundImageItem" xml:space="preserve">
+    <value>Bağlı Resim</value>
+  </data>
+  <data name="DashboardStringId.PeriodLastQuarter" xml:space="preserve">
+    <value>Son Çeyrek</value>
+  </data>
+  <data name="DashboardStringId.ParametersFormCalendarTodayButton" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="DashboardStringId.PeriodThisMonth" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="DashboardStringId.ParameterNullExportValue" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="DashboardStringId.DefaultNameTreemapItem" xml:space="preserve">
+    <value>Ağaç Harita</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypePercent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardStringId.ExportParameters" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DashboardStringId.SearchNullValuePrompt" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="DashboardStringId.ExportFilters" xml:space="preserve">
+    <value>Filtreler</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeArgument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardStringId.DashboardStatePosition" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeSeriesName" xml:space="preserve">
+    <value>Seri adı</value>
+  </data>
+  <data name="DashboardStringId.ChartTotalValue" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DashboardStringId.GeoPointMapTooltipPointCount" xml:space="preserve">
+    <value>{0} puan</value>
+  </data>
+  <data name="DashboardStringId.PointLabelContentTypeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardStringId.AggregateExFunctionDescriptionMode" xml:space="preserve">
+    <value>Mode(value)
+Değerleri modu. Bir mod daha başka bir daha sık tekrarlanan değerdir.</value>
+  </data>
+  <data name="DashboardStringId.AggrInMasterFilterDimensionError" xml:space="preserve">
+    <value>Filtreleme Master Aggr işlevini içeren ifade kullanılarak oluşturulan boyut değerleri tarafından uygulanamaz.</value>
+  </data>
+  <data name="DashboardStringId.DefaultPeriodName" xml:space="preserve">
+    <value>Dönem</value>
+  </data>
+</root>

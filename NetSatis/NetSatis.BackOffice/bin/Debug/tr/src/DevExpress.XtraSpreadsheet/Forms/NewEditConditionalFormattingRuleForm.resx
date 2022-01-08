@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblSelectRuleType.AccessibleName" xml:space="preserve">
+    <value>Select a Rule Type</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="lblSelectRuleType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="lblSelectRuleType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="lblSelectRuleType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSelectRuleType.Text" xml:space="preserve">
+    <value>&amp;Select a Rule Type:</value>
+  </data>
+  <data name="&gt;&gt;lblSelectRuleType.Name" xml:space="preserve">
+    <value>lblSelectRuleType</value>
+  </data>
+  <data name="&gt;&gt;lblSelectRuleType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSelectRuleType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelectRuleType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbRuleType.AccessibleName" xml:space="preserve">
+    <value>Rule Type</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="lbRuleType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lbRuleType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 33</value>
+  </data>
+  <data name="lbRuleType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 95</value>
+  </data>
+  <data name="lbRuleType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbRuleType.Name" xml:space="preserve">
+    <value>lbRuleType</value>
+  </data>
+  <data name="&gt;&gt;lbRuleType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lbRuleType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbRuleType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 446</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOk.AccessibleName" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 446</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpEditRuleDescription.AccessibleName" xml:space="preserve">
+    <value>Edit the Rule Description</value>
+  </data>
+  <data name="grpEditRuleDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="grpEditRuleDescription.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="conditionalFormattingIconSets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingIconSets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>533, 256</value>
+  </data>
+  <data name="conditionalFormattingIconSets.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingIconSets.Name" xml:space="preserve">
+    <value>conditionalFormattingIconSets</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingIconSets.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingIconSetsControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingIconSets.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingIconSets.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="conditionalFormattingDataBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingDataBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 260</value>
+  </data>
+  <data name="conditionalFormattingDataBar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="conditionalFormattingDataBar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingDataBar.Name" xml:space="preserve">
+    <value>conditionalFormattingDataBar</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingDataBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingDataBarControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingDataBar.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingDataBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="conditionalFormattingColorScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingColorScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 178</value>
+  </data>
+  <data name="conditionalFormattingColorScale.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingColorScale.Name" xml:space="preserve">
+    <value>conditionalFormattingColorScale</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingColorScale.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingColorScaleControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingColorScale.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingColorScale.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="conditionalFormattingFormatCellsThatContain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingFormatCellsThatContain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 45</value>
+  </data>
+  <data name="conditionalFormattingFormatCellsThatContain.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatCellsThatContain.Name" xml:space="preserve">
+    <value>conditionalFormattingFormatCellsThatContain</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatCellsThatContain.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatCellsThatContainControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatCellsThatContain.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatCellsThatContain.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="conditionalFormattingFormulaDetermineWhichCellsFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingFormulaDetermineWhichCellsFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 45</value>
+  </data>
+  <data name="conditionalFormattingFormulaDetermineWhichCellsFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormulaDetermineWhichCellsFormat.Name" xml:space="preserve">
+    <value>conditionalFormattingFormulaDetermineWhichCellsFormat</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormulaDetermineWhichCellsFormat.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormulaDetermineWhichCellsFormatControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormulaDetermineWhichCellsFormat.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormulaDetermineWhichCellsFormat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="conditionalFormattingFormatUniqueDuplicateValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingFormatUniqueDuplicateValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 45</value>
+  </data>
+  <data name="conditionalFormattingFormatUniqueDuplicateValues.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatUniqueDuplicateValues.Name" xml:space="preserve">
+    <value>conditionalFormattingFormatUniqueDuplicateValues</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatUniqueDuplicateValues.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatUniqueDuplicateValuesControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatUniqueDuplicateValues.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatUniqueDuplicateValues.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="conditionalFormattingFormatValuesAboveBelowAverage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingFormatValuesAboveBelowAverage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 45</value>
+  </data>
+  <data name="conditionalFormattingFormatValuesAboveBelowAverage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatValuesAboveBelowAverage.Name" xml:space="preserve">
+    <value>conditionalFormattingFormatValuesAboveBelowAverage</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatValuesAboveBelowAverage.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatValuesAboveBelowAverageControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatValuesAboveBelowAverage.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatValuesAboveBelowAverage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="conditionalFormattingFormatTopBottomRankedValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="conditionalFormattingFormatTopBottomRankedValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 45</value>
+  </data>
+  <data name="conditionalFormattingFormatTopBottomRankedValues.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatTopBottomRankedValues.Name" xml:space="preserve">
+    <value>conditionalFormattingFormatTopBottomRankedValues</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatTopBottomRankedValues.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingFormatTopBottomRankedValuesControl, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatTopBottomRankedValues.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingFormatTopBottomRankedValues.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblSeparator.AccessibleName" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSeparator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 70</value>
+  </data>
+  <data name="lblSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 10</value>
+  </data>
+  <data name="lblSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Name" xml:space="preserve">
+    <value>lblSeparator</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnFormat.AccessibleName" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="btnFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 95</value>
+  </data>
+  <data name="btnFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="btnFormat.Text" xml:space="preserve">
+    <value>&amp;Format...</value>
+  </data>
+  <data name="&gt;&gt;btnFormat.Name" xml:space="preserve">
+    <value>btnFormat</value>
+  </data>
+  <data name="&gt;&gt;btnFormat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnFormat.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;btnFormat.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="conditionalFormattingPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 84</value>
+  </data>
+  <data name="conditionalFormattingPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="conditionalFormattingPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingPreview.Name" xml:space="preserve">
+    <value>conditionalFormattingPreview</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.ConditionalFormattingPreview, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingPreview.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;conditionalFormattingPreview.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblPreview.AccessibleName" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="lblPreview.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 100</value>
+  </data>
+  <data name="lblPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lblPreview.Text" xml:space="preserve">
+    <value>Preview:</value>
+  </data>
+  <data name="&gt;&gt;lblPreview.Name" xml:space="preserve">
+    <value>lblPreview</value>
+  </data>
+  <data name="&gt;&gt;lblPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblPreview.Parent" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;lblPreview.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="grpEditRuleDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 147</value>
+  </data>
+  <data name="grpEditRuleDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 290</value>
+  </data>
+  <data name="grpEditRuleDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpEditRuleDescription.Text" xml:space="preserve">
+    <value>&amp;Edit the Rule Description:</value>
+  </data>
+  <data name="&gt;&gt;grpEditRuleDescription.Name" xml:space="preserve">
+    <value>grpEditRuleDescription</value>
+  </data>
+  <data name="&gt;&gt;grpEditRuleDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;grpEditRuleDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpEditRuleDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>574, 481</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>NewEditConditionalFormattingRuleForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraSpreadsheet.Forms.ReferenceEditForm, DevExpress.XtraSpreadsheet.v18.1, Culture=neutral</value>
+  </data>
+</root>

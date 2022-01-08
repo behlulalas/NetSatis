@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxReportsStringId.SearchDialog_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PreviousPage" xml:space="preserve">
+    <value>Önceki Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintPage" xml:space="preserve">
+    <value>Geçerli sayfayı yazdır</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FirstPage" xml:space="preserve">
+    <value>İlk Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_LastPage" xml:space="preserve">
+    <value>Son Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_NextPage" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PageLabel" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Reset" xml:space="preserve">
+    <value>Sıfırlama</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Submit" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_True" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case" xml:space="preserve">
+    <value>Harf eşleştir</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindNext" xml:space="preserve">
+    <value>Sonrakini bul</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Finished" xml:space="preserve">
+    <value>Belge aramasını tamamlandı.</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Header" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord" xml:space="preserve">
+    <value>Sadece tam sözcükleri eşleştir</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintReport" xml:space="preserve">
+    <value>Raporu yazdırma</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_csv" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_mht" xml:space="preserve">
+    <value>MHT</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_pdf" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_rtf" xml:space="preserve">
+    <value>RTF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_txt" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xls" xml:space="preserve">
+    <value>XLS</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xlsx" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_png" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_False" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorCredential_Error" xml:space="preserve">
+    <value>Kullanıcı kimlik bilgileri boş olamaz.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorLogin_Error" xml:space="preserve">
+    <value>Belirtilen kullanıcı kimlik bilgileriyle oturum başarısız oldu.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemotePageByPage_Error" xml:space="preserve">
+    <value>Uzak bir rapor görüntülemek için SettingsReportViewer PageByPage özelliğini etkinleştirin.</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Search" xml:space="preserve">
+    <value>Arama penceresini görüntüleme</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonHomeTabText" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPrintGroupText" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FirstPage" xml:space="preserve">
+    <value>İlk Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_NextPage" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PreviousPage" xml:space="preserve">
+    <value>Önceki Sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonExportGroupText" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonNavigationGroupText" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_LastPage" xml:space="preserve">
+    <value>Son sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageText" xml:space="preserve">
+    <value>Geçerli sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPageCountText" xml:space="preserve">
+    <value>Sayfa sayısı:</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FindText" xml:space="preserve">
+    <value>Metin bulma</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintPage" xml:space="preserve">
+    <value>Sayfayı Yazdır</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToFile" xml:space="preserve">
+    <value>Dosyaya Kaydet</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceConnection_Error" xml:space="preserve">
+    <value>Belirtilen rapor hizmet bulunamadı.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToWindow" xml:space="preserve">
+    <value>Pencereyi Kaydet</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_ParametersPanel" xml:space="preserve">
+    <value>Erişim ve rapor parametre değerlerini değiştirme.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PreviousPage" xml:space="preserve">
+    <value>Önceki belge sayfasını görüntüleme.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_SaveToFile" xml:space="preserve">
+    <value>Belgeyi belirtilen biçimde bir dosyaya kaydedin.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintReport" xml:space="preserve">
+    <value>Raporu Yazdır</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageToolTip" xml:space="preserve">
+    <value>Belirtilen sayfayı görüntüler.</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_EnterText" xml:space="preserve">
+    <value>Belge içinde bulmak için metin girin.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_NextPage" xml:space="preserve">
+    <value>Sonraki belge sayfasını görüntüleme.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_DocumentMap" xml:space="preserve">
+    <value>Doküman Haritası</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonReportGroupText" xml:space="preserve">
+    <value>Rapor</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FindText" xml:space="preserve">
+    <value>Belge içinde metin bul.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_ExternalRibbonNotFound_Error" xml:space="preserve">
+    <value>Belirtilen adı taşıyan bir araç çubuğu denetimi bulunamıyor: '{0}'.</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat" xml:space="preserve">
+    <value>Bul&amp;nbsp;ne</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_DocumentMap" xml:space="preserve">
+    <value>Yer imleri rapor hiyerarşisi aracılığıyla gezin.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FirstPage" xml:space="preserve">
+    <value>İlk belge sayfasını görüntülemek.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_LastPage" xml:space="preserve">
+    <value>Son belge sayfasını görüntüleme.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintPage" xml:space="preserve">
+    <value>Yazdırma ayarlarını belirtin ve geçerli sayfayı yazdırmak.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_ParametersPanel" xml:space="preserve">
+    <value>Parametreler paneli</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_NoRemoteDocumentInformation_Error" xml:space="preserve">
+    <value>İçin bir belge değil henüz oluşturulan bu komut yürütülemiyor.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintReport" xml:space="preserve">
+    <value>Belgeyi yazdırma ayarlarını belirtin ve.</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToDisk" xml:space="preserve">
+    <value>Rapor dışa aktar ve diske kaydet</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToWindow" xml:space="preserve">
+    <value>Rapor dışa aktar ve yeni bir pencerede göster</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TooltipButtons_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Tables" xml:space="preserve">
+    <value>Tablolar</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete" xml:space="preserve">
+    <value>Rapor tamamlandı</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Caption" xml:space="preserve">
+    <value>Resim yazısı</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Bold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Landscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Portrait" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Previous" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Average" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Finish" xml:space="preserve">
+    <value>Bitir</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Header" xml:space="preserve">
+    <value>Rapor Sihirbazı</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Corporate" xml:space="preserve">
+    <value>Kurumsal</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Formal" xml:space="preserve">
+    <value>Resmi</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseColumns_Description" xml:space="preserve">
+    <value>Raporda görüntülemek istediğiniz sütunları seçin.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseColumns_Title" xml:space="preserve">
+    <value>Raporda görüntülenecek sütunları seçin</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSource_Description" xml:space="preserve">
+    <value>Raporunuzda kullanmak için bir veri kaynağı seçin.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Outline1" xml:space="preserve">
+    <value>Anahat 1</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Outline2" xml:space="preserve">
+    <value>Anahat 2</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Tabular" xml:space="preserve">
+    <value>Sekmeli</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete_Title" xml:space="preserve">
+    <value>Rapor tamamlandı</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchError" xml:space="preserve">
+    <value>Arama sırasında bir hata oluştu</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchResultText" xml:space="preserve">
+    <value>Arama sonucu</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_0Pages" xml:space="preserve">
+    <value>0 sayfa</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentCreationError" xml:space="preserve">
+    <value>Geçerli rapor için bir belge oluşturulamıyor</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_InitializationError" xml:space="preserve">
+    <value>Rapor önizleme başlatma başarısız oldu</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_GenericRegexValidationError" xml:space="preserve">
+    <value>Değeri geçerli değil.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SelectAll" xml:space="preserve">
+    <value>(Tümünü Seç)</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Width" xml:space="preserve">
+    <value>Genişliği:</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_OfLabel" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_DataSourceHeader" xml:space="preserve">
+    <value>Veri kaynağı Sihirbazı</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Height" xml:space="preserve">
+    <value>Yükseklik:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_PopupMenu_Reset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GaugeViewType_Linear" xml:space="preserve">
+    <value>Doğrusal</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SearchBox_EmptyText" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Actions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_TableProperties" xml:space="preserve">
+    <value>Tablo Özellikleri</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Document" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Parameter" xml:space="preserve">
+    <value>Parametre</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Point" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportToText" xml:space="preserve">
+    <value>İhracat</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_docx" xml:space="preserve">
+    <value>DOCX</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_AddParameter" xml:space="preserve">
+    <value>Parametre Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Groups" xml:space="preserve">
+    <value>Gruplar</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_RunWizard" xml:space="preserve">
+    <value>Sihirbazı Çalıştır</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_StylesEditor_CreateNew" xml:space="preserve">
+    <value>Yeni Stil Oluştur</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteColumn" xml:space="preserve">
+    <value>Sütun Sil</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteRow" xml:space="preserve">
+    <value>Satır Sil</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertCell" xml:space="preserve">
+    <value>Hücre Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToLeft" xml:space="preserve">
+    <value>Sola Sütun Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToRight" xml:space="preserve">
+    <value>Sağa Sütun Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertRowBelow" xml:space="preserve">
+    <value>Aşağıya Satır Ekle</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Collapse" xml:space="preserve">
+    <value>Daralt</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ASPxReportsStringId.List_More" xml:space="preserve">
+    <value>Daha fazla</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptEditor_Toolbar_SelectEvent" xml:space="preserve">
+    <value>Olay seç...</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_AdvancedMode" xml:space="preserve">
+    <value>Gelişmiş mod</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_TreeCreationError" xml:space="preserve">
+    <value>Bu ifade için bir ağaç oluşturulamıyor</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GuidIsRequired_Error" xml:space="preserve">
+    <value>GUID gereklidir ve geçerli bir biçim olmalıdır.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataFields" xml:space="preserve">
+    <value>Veri alanları seçin</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SelectFieldsAndSummaries" xml:space="preserve">
+    <value>Alanları seçin ve onlara özet işlevleri atama</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SummaryFunctions" xml:space="preserve">
+    <value>Özet işlevleri</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_UseExisting_DataSource" xml:space="preserve">
+    <value>Varolan bir veri kaynağını kullanmak istiyor musunuz?</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_CustomDocumentOperationsDenied_Error" xml:space="preserve">
+    <value>İstenen belge işlemi gerçekleştirilemez.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_TopMargin" xml:space="preserve">
+    <value>Üst Kenar Boşluğu:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_PageConfigureMasterDetailRelations" xml:space="preserve">
+    <value>Ana-ayrıntı ilişkileri yapılandırma.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_RightOperand" xml:space="preserve">
+    <value>Sağ işlenen.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DrillThroughError" xml:space="preserve">
+    <value>Ayrıntıya aracılığıyla işlemi başarısız oldu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSourceFromList" xml:space="preserve">
+    <value>Evet, listeden varolan bir veri kaynağını seçmeme izin ver</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateNewDataSource" xml:space="preserve">
+    <value>Hayır, yeni bir SQL veri kaynağı oluşturmak istiyorum</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameUniqueError" xml:space="preserve">
+    <value>Adı benzersiz değil</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_AutoValueString" xml:space="preserve">
+    <value>(Otomatik)</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ToolBarItemText_ValidateBindings" xml:space="preserve">
+    <value>Bağlamalarını doğrulamak</value>
+  </data>
+</root>

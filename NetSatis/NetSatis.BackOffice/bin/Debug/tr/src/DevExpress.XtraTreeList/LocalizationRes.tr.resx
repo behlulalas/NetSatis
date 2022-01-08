@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TreeListStringId.PrintDesignerDescription" xml:space="preserve">
+    <value> Aktif ağaç liste için geçerli yazıcı seçenek ayarları</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterMaxFormat" xml:space="preserve">
+    <value>En Fazla={0}</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterMinFormat" xml:space="preserve">
+    <value>En Az={0}</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnSortDescending" xml:space="preserve">
+    <value>Azalana Göre Sırala</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="TreeListStringId.PrintDesignerHeader" xml:space="preserve">
+    <value>Yazıcı Ayarları</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterSum" xml:space="preserve">
+    <value>Topla</value>
+  </data>
+  <data name="TreeListStringId.InvalidNodeExceptionText" xml:space="preserve">
+    <value>Değeri düzeltmek ister misiniz?</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnBestFit" xml:space="preserve">
+    <value>En Uygun Ayar</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterMax" xml:space="preserve">
+    <value>En Fazla</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterMin" xml:space="preserve">
+    <value>En Az</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnSortAscending" xml:space="preserve">
+    <value>Artana Göre Sırala</value>
+  </data>
+  <data name="TreeListStringId.ColumnCustomizationText" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterAverage" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="TreeListStringId.ColumnNamePrefix" xml:space="preserve">
+    <value>Kol</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnBestFitAllColumns" xml:space="preserve">
+    <value>En Uygun Ayar (Tüm Kolonlar için)</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnColumnCustomization" xml:space="preserve">
+    <value>Kolon Seçici</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterAllNodes" xml:space="preserve">
+    <value>AllNodes</value>
+  </data>
+  <data name="TreeListStringId.MultiSelectMethodNotSupported" xml:space="preserve">
+    <value>Davranış Seçeneklerinde Çoklu Seçim Açık Değilse seçili metod çalışmayacaktır.</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterSumFormat" xml:space="preserve">
+    <value>Toplam={0:#.##}</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterAverageFormat" xml:space="preserve">
+    <value>Ort={0:#.##}</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterCount" xml:space="preserve">
+    <value>Say</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnAutoFilterRowShow" xml:space="preserve">
+    <value>Otomatik Filtre satırını göster</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnClearFilter" xml:space="preserve">
+    <value>Filtreyi temizle</value>
+  </data>
+  <data name="TreeListStringId.FindControlFindButton" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnFilterEditor" xml:space="preserve">
+    <value>Filtre Düzenleyicisi...</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnFindFilterHide" xml:space="preserve">
+    <value>Bul panelini gizle</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnFindFilterShow" xml:space="preserve">
+    <value>Bul panelini göster</value>
+  </data>
+  <data name="TreeListStringId.PopupFilterAll" xml:space="preserve">
+    <value>(Bütün)</value>
+  </data>
+  <data name="TreeListStringId.PopupFilterBlanks" xml:space="preserve">
+    <value>(Boş olanlar)</value>
+  </data>
+  <data name="TreeListStringId.WindowErrorCaption" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="TreeListStringId.CustomizationFormColumnHint" xml:space="preserve">
+    <value>Sürükle ve bırak buraya sütun düzenini özelleştirmek için</value>
+  </data>
+  <data name="TreeListStringId.FilterEditorCaption" xml:space="preserve">
+    <value>Filtre Düzenleyicisi</value>
+  </data>
+  <data name="TreeListStringId.FindControlClearButton" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="TreeListStringId.MenuFooterCountFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnAutoFilterRowHide" xml:space="preserve">
+    <value>Otomatik Filtre Satırını Gizle</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnClearSorting" xml:space="preserve">
+    <value>Sıralamayı Temizle</value>
+  </data>
+  <data name="TreeListStringId.FilterEditorApplyButton" xml:space="preserve">
+    <value>&amp; Uygula</value>
+  </data>
+  <data name="TreeListStringId.FilterEditorCancelButton" xml:space="preserve">
+    <value>&amp; iptal</value>
+  </data>
+  <data name="TreeListStringId.FilterEditorOkButton" xml:space="preserve">
+    <value>&amp; OK</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnExpressionEditor" xml:space="preserve">
+    <value>İfade Düzenleyicisi...</value>
+  </data>
+  <data name="TreeListStringId.FilterPanelCustomizeButton" xml:space="preserve">
+    <value>Filtre Düzenle</value>
+  </data>
+  <data name="TreeListStringId.FindNullPrompt" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="TreeListStringId.PopupFilterNonBlanks" xml:space="preserve">
+    <value>(Sigara boşlukları)</value>
+  </data>
+  <data name="TreeListStringId.CustomizationColumns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="TreeListStringId.CustomizationBands" xml:space="preserve">
+    <value>Bantlar</value>
+  </data>
+  <data name="TreeListStringId.SearchForBand" xml:space="preserve">
+    <value>Bir grup için arama...</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnFooterShow" xml:space="preserve">
+    <value>Altbilgiyi göster</value>
+  </data>
+  <data name="TreeListStringId.PreviewColumnLocationName" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="TreeListStringId.MenuColumnFooterHide" xml:space="preserve">
+    <value>Altbilgi gizle</value>
+  </data>
+  <data name="TreeListStringId.PreviewColumnDepartmentName" xml:space="preserve">
+    <value>Departman</value>
+  </data>
+</root>

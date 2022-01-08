@@ -1,0 +1,1263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Delete\Value" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Delete\Value" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccessModifier\None\Value" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRoleBase\OwnMembers\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters\OwnMembers\Password\Caption" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ResetPasswordParameters\OwnMembers\Password\Caption" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\Category\Caption" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="ActionDesign\Actions\Deny_TypePermissionMatrixItem\ChoiceActionItems\Read\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="ActionDesign\Actions\Deny_TypePermissionMatrixItem\ShortCaption" xml:space="preserve">
+    <value>Engelle</value>
+  </data>
+  <data name="ActionDesign\Actions\Deny_TypePermissionMatrixItem\ToolTip" xml:space="preserve">
+    <value>Engelle</value>
+  </data>
+  <data name="ActionDesign\Actions\Grant_TypePermissionMatrixItem\ChoiceActionItems\Read\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="ActionDesign\Actions\ResetPassword\ToolTip" xml:space="preserve">
+    <value>Seçili kullanıcı için yeni bir parola oluştur</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Deny_TypePermissionMatrixItem\Caption" xml:space="preserve">
+    <value>Engelle</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\AllowCreate\Caption" xml:space="preserve">
+    <value>Oluşturma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\Id\Caption" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\Members\Caption" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRoleBase\Caption" xml:space="preserve">
+    <value>Temel Rol</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Caption" xml:space="preserve">
+    <value>Parola Değiştir</value>
+  </data>
+  <data name="Views\PermissionPolicyRole_DetailView\Layout\Main\Tabs1\Users\Caption" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Items\Members\Caption" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\Members\Caption" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\Members\Caption" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\Members\Caption" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\Members\Caption" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="ActionDesign\Actions\Deny_TypePermissionMatrixItem\ChoiceActionItems\Delete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ActionDesign\Actions\Grant_TypePermissionMatrixItem\ChoiceActionItems\Delete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\AllowDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\EffectiveDelete\Caption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ChildRoles_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Items\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemRole_LookupListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ParentRoles_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_DetailView\Items\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_LookupListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\SecuritySystemUser_Roles_ListView\Columns\Name\Caption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\Items\Password\Caption" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_ListView\Columns\Password\Caption" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_DetailView\Items\Password\Caption" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_ListView\Columns\Password\Caption" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_LookupListView\Columns\Password\Caption" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\Category\Caption" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\Category\Caption" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\Category\Caption" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\Category\Caption" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\Object\Caption" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Read\Value" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Read\Value" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Items\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\EffectiveRead\Caption" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="ActionDesign\Actions\Deny_TypePermissionMatrixItem\ChoiceActionItems\Write\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="ActionDesign\Actions\Grant_TypePermissionMatrixItem\ChoiceActionItems\Write\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Write\Value" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\Write\Value" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Items\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\EffectiveWrite\Caption" xml:space="preserve">
+    <value>Yazma</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ModelAccessModifier\Deny\Value" xml:space="preserve">
+    <value>Engelle</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccessModifier\Deny\Value" xml:space="preserve">
+    <value>Engelle</value>
+  </data>
+  <data name="NavigationItems\Items\Default\Items\SecuritySystemRole_ListView\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ChildRoles_ListView\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ListView\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Views\SecuritySystemRole_LookupListView\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Views\SecuritySystemRole_ParentRoles_ListView\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Views\SecuritySystemUser_Roles_ListView\Caption" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole\OwnMembers\Users\Caption" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Items\Users\Caption" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Layout\Main\Tabs1\Users\Caption" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="ActionDesign\Actions\Grant_TypePermissionMatrixItem\ChoiceActionItems\Create\Caption" xml:space="preserve">
+    <value>Oluştur</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters\OwnMembers\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_LookupListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_LookupListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_LookupListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Yeni parola</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_DetailView\Caption" xml:space="preserve">
+    <value>Parola Sıfırla</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\Items\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_ListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Items\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_ListView\Columns\ConfirmPassword\Caption" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="NavigationItems\Items\Default\Items\SecuritySystemUser_ListView\Caption" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser\Caption" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Views\SecuritySystemRole_Users_ListView\Caption" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Caption" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Views\SecuritySystemUser_ListView\Caption" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Views\SecuritySystemUser_LookupListView\Caption" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_ListView\Caption" xml:space="preserve">
+    <value>Güvenlik sistemi kullanıcı tabanı</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_ListView\Columns\ChangePasswordOnFirstLogon\Caption" xml:space="preserve">
+    <value>İlk oturum açma parolasını değiştir</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_ListView\Columns\IsActive\Caption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_DetailView\Caption" xml:space="preserve">
+    <value>Güvenlik sistemi kullanıcı tabanı</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_DetailView\Items\IsActive\Caption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Caption" xml:space="preserve">
+    <value>Tür izni matris öğesi</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Items\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Layout\Main\Tabs\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_DetailView\Layout\Main\Tabs\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Caption" xml:space="preserve">
+    <value>Tür izni matris öğesi</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Caption" xml:space="preserve">
+    <value>Tür izni matris öğesi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Layout\Main\Tabs\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Caption" xml:space="preserve">
+    <value>Türü işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_ListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Caption" xml:space="preserve">
+    <value>Türü işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_LookupListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Caption" xml:space="preserve">
+    <value>Temel tür işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Items\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Layout\Main\SimpleEditors\SecuritySystemTypePermissionsObjectBase\Caption" xml:space="preserve">
+    <value>Güvenlik sistemi türü izinleri Bankası nesne</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Layout\Main\Tabs\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_DetailView\Layout\Main\Tabs\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Caption" xml:space="preserve">
+    <value>Temel tür işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\AllowCreate\Caption" xml:space="preserve">
+    <value>Oluşturmak</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Caption" xml:space="preserve">
+    <value>Temel tür işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_LookupListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma izin ver</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma izin</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Caption" xml:space="preserve">
+    <value>Nesne işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_DetailView\Caption" xml:space="preserve">
+    <value>Türü işlem izinleri sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_DetailView\Items\TypePermissionMatrix\Caption" xml:space="preserve">
+    <value>Veri erişim izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_DetailView\Items\TypePermissions\Caption" xml:space="preserve">
+    <value>Türü izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_DetailView\Layout\Main\TypePermissions_Group\Caption" xml:space="preserve">
+    <value>Türü izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_ListView\Caption" xml:space="preserve">
+    <value>Türü işlem izinleri sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_LookupListView\Caption" xml:space="preserve">
+    <value>Türü işlem izinleri sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Caption" xml:space="preserve">
+    <value>Tür izni matris öğesi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectOwner_TypePermissions_ListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Items\IsActive\Caption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Caption" xml:space="preserve">
+    <value>Üye işlemi izinleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\AllowRead\Caption" xml:space="preserve">
+    <value>Okuma izin ver</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\AllowWrite\Caption" xml:space="preserve">
+    <value>Yazma izin</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_MemberPermissions_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Caption" xml:space="preserve">
+    <value>Nesne işlem izinleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="Views\SecuritySystemUser_ListView\Columns\IsActive\Caption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\Id\DisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Değiştir parola parametreleri</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_DetailView\Caption" xml:space="preserve">
+    <value>Rolü temel</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_DetailView\Items\TypePermissionMatrix\Caption" xml:space="preserve">
+    <value>Veri erişim izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_ListView\Caption" xml:space="preserve">
+    <value>Rolü temel</value>
+  </data>
+  <data name="Views\SecuritySystemRoleBase_LookupListView\Caption" xml:space="preserve">
+    <value>Rolü temel</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Items\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionObject_DetailView\Layout\Main\Tabs\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Items\NewPassword\Caption" xml:space="preserve">
+    <value>Yeni parola</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_DetailView\Items\OldPassword\Caption" xml:space="preserve">
+    <value>Eski parola</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_ListView\Caption" xml:space="preserve">
+    <value>Değiştir parola parametreleri</value>
+  </data>
+  <data name="Views\ChangePasswordParameters_ListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Yeni parola</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Kimlik doğrulama standart oturum açma parametrelerini</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_ListView\Caption" xml:space="preserve">
+    <value>Kimlik doğrulama standart oturum açma parametrelerini</value>
+  </data>
+  <data name="Views\EditModelPermission_DetailView\Caption" xml:space="preserve">
+    <value>Modeli izni Düzenle</value>
+  </data>
+  <data name="Views\EditModelPermission_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\EditModelPermission_DetailView\Items\Modifier\Caption" xml:space="preserve">
+    <value>Değiştirici</value>
+  </data>
+  <data name="Views\EditModelPermission_ListView\Caption" xml:space="preserve">
+    <value>Modeli izni Düzenle</value>
+  </data>
+  <data name="Views\EditModelPermission_ListView\Columns\Modifier\Caption" xml:space="preserve">
+    <value>Değiştirici</value>
+  </data>
+  <data name="Views\EditModelPermission_LookupListView\Caption" xml:space="preserve">
+    <value>Modeli izni Düzenle</value>
+  </data>
+  <data name="Views\EditModelPermission_LookupListView\Columns\Modifier\Caption" xml:space="preserve">
+    <value>Değiştirici</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_DetailView\Caption" xml:space="preserve">
+    <value>Nesne erişim izni</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_DetailView\Items\ObjectType\Caption" xml:space="preserve">
+    <value>Nesne türü</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_DetailView\Items\ReadAccess\Caption" xml:space="preserve">
+    <value>Okuma erişimi</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_DetailView\Items\WriteAccess\Caption" xml:space="preserve">
+    <value>Yazma erişimi</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_DetailView\Layout\Main\SimpleEditors\ObjectAccessPermission\Caption" xml:space="preserve">
+    <value>Nesne erişim izni</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_ListView\Caption" xml:space="preserve">
+    <value>Nesne erişim izni</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_ListView\Columns\ObjectType\Caption" xml:space="preserve">
+    <value>Nesne türü</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_ListView\Columns\ReadAccess\Caption" xml:space="preserve">
+    <value>Okuma erişimi</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_ListView\Columns\WriteAccess\Caption" xml:space="preserve">
+    <value>Yazma erişimi</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_LookupListView\Caption" xml:space="preserve">
+    <value>Nesne erişim izni</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_LookupListView\Columns\ObjectType\Caption" xml:space="preserve">
+    <value>Nesne türü</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_LookupListView\Columns\ReadAccess\Caption" xml:space="preserve">
+    <value>Okuma erişimi</value>
+  </data>
+  <data name="Views\ObjectAccessPermission_LookupListView\Columns\WriteAccess\Caption" xml:space="preserve">
+    <value>Yazma erişimi</value>
+  </data>
+  <data name="Views\PermissionPolicyRole_DetailView\Layout\Main\Tabs1\NavigationPermissions\Caption" xml:space="preserve">
+    <value>Gezinti izinleri</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ResetPasswordParameters_ListView\Caption" xml:space="preserve">
+    <value>Parola parametreleri sıfırlamak</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Caption" xml:space="preserve">
+    <value>Üye işlemi izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Items\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Caption" xml:space="preserve">
+    <value>Üye işlemi izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Caption" xml:space="preserve">
+    <value>Üye işlemi izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Caption" xml:space="preserve">
+    <value>Nesne işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Caption" xml:space="preserve">
+    <value>Nesne işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Caption" xml:space="preserve">
+    <value>Nesne işlem izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Items\ParentRoles\Caption" xml:space="preserve">
+    <value>Ana rol</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Items\TypePermissionMatrix\Caption" xml:space="preserve">
+    <value>Veri erişim izinleri</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Layout\Main\Tabs1\ChildRoles\Caption" xml:space="preserve">
+    <value>Çocuk rolleri</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\Layout\Main\Tabs1\ParentRoles\Caption" xml:space="preserve">
+    <value>Ana rol</value>
+  </data>
+  <data name="Views\SecuritySystemRole_DetailView\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="Views\SecuritySystemRole_Users_ListView\Columns\IsActive\Caption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\Caption" xml:space="preserve">
+    <value>Üye işlemi izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\Caption" xml:space="preserve">
+    <value>Nesne işlem izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\InheritedFrom\Caption" xml:space="preserve">
+    <value>Devralınan</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject\OwnMembers\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole\OwnMembers\ParentRoles\Caption" xml:space="preserve">
+    <value>Ana rol</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionObject\OwnMembers\Owner\Caption" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\Caption" xml:space="preserve">
+    <value>Temel tür işlem izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\ObjectType\Caption" xml:space="preserve">
+    <value>Nesne türü</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ResetPasswordParameters\Caption" xml:space="preserve">
+    <value>Parola parametreleri sıfırlamak</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\Caption" xml:space="preserve">
+    <value>Tür izni matris öğesi</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\MemberPermissions\Caption" xml:space="preserve">
+    <value>Üye izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\ObjectPermissions\Caption" xml:space="preserve">
+    <value>Nesne izinleri</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ModelAccessModifier\Allow\Value" xml:space="preserve">
+    <value>İzin ver</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ModelAccessModifier\Value" xml:space="preserve">
+    <value>Modeli erişim değiştiricisi</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\AllAccess\Value" xml:space="preserve">
+    <value>AllAccess</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\ChangeAccess\Value" xml:space="preserve">
+    <value>ChangeAccess</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\NoAccess\Value" xml:space="preserve">
+    <value>NoAccess</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccess\Value" xml:space="preserve">
+    <value>Nesne erişimi</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccessModifier\Allow\Value" xml:space="preserve">
+    <value>İzin ver</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Security.ObjectAccessModifier\Value" xml:space="preserve">
+    <value>Nesne erişim değiştiricisi</value>
+  </data>
+  <data name="Non-calculated\Localization\Exceptions\CanNotDeleteObject\Value" xml:space="preserve">
+    <value>'{0}' nesne Güvenlik sınırlamalarından dolayı silemezsiniz.</value>
+  </data>
+  <data name="Non-calculated\Localization\Exceptions\CanNotSaveObject\Value" xml:space="preserve">
+    <value>'{0}' nesne Güvenlik sınırlamalarından dolayı kaydedemezsiniz.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\IsInheritedFrom\Value" xml:space="preserve">
+    <value>' {0}' sınıf miras</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\AllBusinessClasses\Value" xml:space="preserve">
+    <value>Tüm iş sınıfları</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\AllPersistentBusinessClasses\Value" xml:space="preserve">
+    <value>Tüm kalıcı iş sınıfları</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectOwner\OwnMembers\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectOwner\OwnMembers\TypePermissionMatrix\Caption" xml:space="preserve">
+    <value>Veri erişim izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase\Caption" xml:space="preserve">
+    <value>Güvenlik sistemi kullanıcı tabanı</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase\OwnMembers\IsActive\Caption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase\OwnMembers\Oid\Caption" xml:space="preserve">
+    <value>OID</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordParameters\Caption" xml:space="preserve">
+    <value>Değiştir parola parametreleri</value>
+  </data>
+  <data name="Non-calculated\Views\ChangePasswordOnLogonParameters_DetailView\Items\ChangePasswordText\Text" xml:space="preserve">
+    <value>Güvenlik nedeniyle, şimdi senin kendi parola ayarlamanız gerekir. Lütfen aşağıdaki iki metin alanlarında yeni parolanızı girin ve daha önce kullanılan bir parola yeniden değil emin olun.</value>
+  </data>
+  <data name="Non-calculated\Views\ChangePasswordParameters_DetailView\Items\ChangePasswordText\Text" xml:space="preserve">
+    <value>Parolanızı değiştirmek için lütfen, eski ve yeni parolaları metin alanlarına girin.</value>
+  </data>
+  <data name="Non-calculated\Views\ResetPasswordParameters_DetailView\Items\ResetPasswordText\Text" xml:space="preserve">
+    <value>Kullanıcının parolasını ayarlama otomatik olarak kullanıcı için yeni bir parola oluşturmak ve aynı zamanda eski parolayla kullanıcının oturum açma devre dışı. O uygulamasıyla birlikte çalışmaya devam edebilir bu yüzden daha sonra kullanıcıya, yeni şifre geçmesi gerekir. Bunu yapmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\Caption" xml:space="preserve">
+    <value>Oturum açma</value>
+  </data>
+  <data name="Views\AuthenticationStandardLogonParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\Caption" xml:space="preserve">
+    <value>İlk oturum açma parolasını değiştir</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\CaptionColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_DetailView\Items\NewPassword\Caption" xml:space="preserve">
+    <value>Yeni parola</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_ListView\Caption" xml:space="preserve">
+    <value>Oturum açma Parametrelerdeki Parola Değiştir</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_ListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Yeni parola</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_LookupListView\Caption" xml:space="preserve">
+    <value>Oturum açma Parametrelerdeki Parola Değiştir</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemRoleBase\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:Name}</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\Id\EditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase\ObjectCaptionFormat" xml:space="preserve">
+    <value>{0:UserName}</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject\OwnMembers\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_DetailView\Items\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemMemberPermissionsObject_LookupListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_DetailView\Items\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemObjectPermissionsObject_LookupListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_ObjectPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_ObjectPermissions_ListView\Columns\Criteria\Caption" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters\OwnMembers\NewPassword\Caption" xml:space="preserve">
+    <value>Yeni parola</value>
+  </data>
+  <data name="Views\ChangePasswordOnLogonParameters_LookupListView\Columns\NewPassword\Caption" xml:space="preserve">
+    <value>Yeni parola</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.EditModelPermission\Caption" xml:space="preserve">
+    <value>Modeli izni Düzenle</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.EditModelPermission\OwnMembers\Modifier\Caption" xml:space="preserve">
+    <value>Değiştirici</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\Caption" xml:space="preserve">
+    <value>Nesne erişim izni</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\ReadAccess\Caption" xml:space="preserve">
+    <value>Okuma erişimi</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.ObjectAccessPermission\OwnMembers\WriteAccess\Caption" xml:space="preserve">
+    <value>Yazma erişimi</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem\OwnMembers\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase\OwnMembers\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\TypePermissionMatrixItem_LookupListView\Columns\TargetType\Caption" xml:space="preserve">
+    <value>Hedef türü</value>
+  </data>
+  <data name="Views\SecuritySystemTypePermissionsObjectBase_MemberPermissions_ListView\Caption" xml:space="preserve">
+    <value>Üye işlemi izinleri</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectOwner\Caption" xml:space="preserve">
+    <value>Türü işlem izinleri sahibi</value>
+  </data>
+  <data name="Views\SecuritySystemUserBase_LookupListView\Caption" xml:space="preserve">
+    <value>Güvenlik sistemi kullanıcı tabanı</value>
+  </data>
+  <data name="Non-calculated\BOModel\DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser\OwnMembers\Roles\Caption" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Items\Roles\Caption" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Views\SecuritySystemUser_DetailView\Layout\Main\Roles_Group1\Caption" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+</root>

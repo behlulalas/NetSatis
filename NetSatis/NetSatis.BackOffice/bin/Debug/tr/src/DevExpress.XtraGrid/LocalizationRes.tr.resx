@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GridStringId.LayoutViewGroupView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelViewMode" xml:space="preserve">
+    <value>Görünüm Modu:</value>
+  </data>
+  <data name="GridStringId.FileIsNotFoundError" xml:space="preserve">
+    <value>{0} dosyası bulunamadı</value>
+  </data>
+  <data name="GridStringId.FilterBuilderCancelButton" xml:space="preserve">
+    <value>&amp;İptal</value>
+  </data>
+  <data name="GridStringId.MenuColumnSortDescending" xml:space="preserve">
+    <value>Azalan Yönde Sırala</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupCaptions" xml:space="preserve">
+    <value>Başlıklar</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelTextAlignment" xml:space="preserve">
+    <value>Alan başlığı metni hizalaması</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowFieldBorder" xml:space="preserve">
+    <value>Kenarları Göster</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogFormCaption" xml:space="preserve">
+    <value>Özel Otomatik Filtre</value>
+  </data>
+  <data name="GridStringId.LayoutViewCloseZoomBtnHintZoom" xml:space="preserve">
+    <value>Detayı Büyüt</value>
+  </data>
+  <data name="GridStringId.LayoutViewRowModeBtnHint" xml:space="preserve">
+    <value>Tek Satır</value>
+  </data>
+  <data name="GridStringId.LayoutViewColumnModeBtnHint" xml:space="preserve">
+    <value>Tek Sütun</value>
+  </data>
+  <data name="GridStringId.LayoutViewPanBtnHint" xml:space="preserve">
+    <value>Kaydırma</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterEditor" xml:space="preserve">
+    <value>Filtre Editörü</value>
+  </data>
+  <data name="GridStringId.CardViewNewCard" xml:space="preserve">
+    <value>Yeni Kart</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupHiddenItems" xml:space="preserve">
+    <value>Gizli Öğeler</value>
+  </data>
+  <data name="GridStringId.LayoutViewMultiColumnModeBtnHint" xml:space="preserve">
+    <value>Çoklu Sütunlar</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupLayout" xml:space="preserve">
+    <value>Yerleşim</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowLines" xml:space="preserve">
+    <value>Çizgileri Göster:</value>
+  </data>
+  <data name="GridStringId.CardViewQuickCustomizationButton" xml:space="preserve">
+    <value>Özelleştir</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilter" xml:space="preserve">
+    <value>Filtrelenebilir mi?</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelFullExpand" xml:space="preserve">
+    <value>Hepsini Aç (Genişlet)</value>
+  </data>
+  <data name="GridStringId.LayoutViewCloseZoomBtnHintClose" xml:space="preserve">
+    <value>Görünümü Yeniden Yükle</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogClearFilter" xml:space="preserve">
+    <value>&amp;Filtreyi Temizle</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogOkButton" xml:space="preserve">
+    <value>&amp;Tamam</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonCustomizeHide" xml:space="preserve">
+    <value>Özelleştirmeyi &amp;Gizle</value>
+  </data>
+  <data name="GridStringId.LayoutViewMultiRowModeBtnHint" xml:space="preserve">
+    <value>Çoklu Satırlar</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonCustomizeShow" xml:space="preserve">
+    <value>Özelleştirmeyi Gös&amp;ter</value>
+  </data>
+  <data name="GridStringId.PopupFilterAll" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
+  <data name="GridStringId.PopupFilterCustom" xml:space="preserve">
+    <value>(Özel)</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonPreview" xml:space="preserve">
+    <value>Daha Fazla Kart Göster</value>
+  </data>
+  <data name="GridStringId.MenuColumnBestFitAllColumns" xml:space="preserve">
+    <value>En Uygun (Tüm Sütunlar)</value>
+  </data>
+  <data name="GridStringId.CustomizationColumns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="GridStringId.MenuColumnUnGroup" xml:space="preserve">
+    <value>Gruplamayı Kaldır</value>
+  </data>
+  <data name="GridStringId.CustomizationFormBandHint" xml:space="preserve">
+    <value>Yerleşimi özelleştirmek için bantları sürükleyin ve buraya bırakın</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowCardBorder" xml:space="preserve">
+    <value>Kenarları Göster</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonApply" xml:space="preserve">
+    <value>&amp;Uygula</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogCaption" xml:space="preserve">
+    <value>Satırları şurada göster:</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogRadioAnd" xml:space="preserve">
+    <value>V&amp;e</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupTreeStructure" xml:space="preserve">
+    <value>Yerleşim Ağacı</value>
+  </data>
+  <data name="GridStringId.MenuColumnBestFit" xml:space="preserve">
+    <value>En Uygun</value>
+  </data>
+  <data name="GridStringId.MenuFooterNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="GridStringId.CardViewQuickCustomizationButtonSort" xml:space="preserve">
+    <value>Sırala:</value>
+  </data>
+  <data name="GridStringId.FilterBuilderOkButton" xml:space="preserve">
+    <value>&amp;Tamam</value>
+  </data>
+  <data name="GridStringId.FilterPanelCustomizeButton" xml:space="preserve">
+    <value>Filtreyi Düzenle</value>
+  </data>
+  <data name="GridStringId.MenuFooterMin" xml:space="preserve">
+    <value>En Küçük</value>
+  </data>
+  <data name="GridStringId.CustomizationFormColumnHint" xml:space="preserve">
+    <value>Yerleşimi özelleştirmek için sütunları sürükleyin ve buraya bırakın</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupIndents" xml:space="preserve">
+    <value>Girintiler</value>
+  </data>
+  <data name="GridStringId.CustomizationBands" xml:space="preserve">
+    <value>Bantlar</value>
+  </data>
+  <data name="GridStringId.PrintDesignerDescription" xml:space="preserve">
+    <value>Geçerli görünüm için çeşitli yazdırma seçeneklerini hazırla</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowHeaderPanel" xml:space="preserve">
+    <value>Başlık Panelini Göster:</value>
+  </data>
+  <data name="GridStringId.FilterBuilderCaption" xml:space="preserve">
+    <value>Filtre Yapılandırıcı</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupCustomization" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="GridStringId.LayoutViewPageTemplateCard" xml:space="preserve">
+    <value>Şablon Kartı</value>
+  </data>
+  <data name="GridStringId.MenuColumnClearSorting" xml:space="preserve">
+    <value>Sıralamayı Temizle</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelHorizontal" xml:space="preserve">
+    <value>Yatay zaman aralığı</value>
+  </data>
+  <data name="GridStringId.LayoutViewCarouselModeBtnHint" xml:space="preserve">
+    <value>Atlı Karınca Modu</value>
+  </data>
+  <data name="GridStringId.FilterBuilderApplyButton" xml:space="preserve">
+    <value>&amp;Uygula</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelCardArrangeRule" xml:space="preserve">
+    <value>Kural Düzenleme:</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonReset" xml:space="preserve">
+    <value>Şablon Kartı Sıfırla</value>
+  </data>
+  <data name="GridStringId.GridGroupPanelText" xml:space="preserve">
+    <value>Gruplamak için bir sütun başlığını buraya sürükleyin</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowFieldHint" xml:space="preserve">
+    <value>İpucu Göster</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupIntervals" xml:space="preserve">
+    <value>Zaman Aralıkları</value>
+  </data>
+  <data name="GridStringId.GridNewRowText" xml:space="preserve">
+    <value>Yeni bir satır eklemek için buraya tıklayın</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupFields" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="GridStringId.MenuColumnClearFilter" xml:space="preserve">
+    <value>Filtreyi Temizle</value>
+  </data>
+  <data name="GridStringId.ColumnViewExceptionMessage" xml:space="preserve">
+    <value>Değeri doğrulamak istiyor musunuz?</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonShrinkToMinimum" xml:space="preserve">
+    <value>Şablon Kartı &amp;Sıkıştır</value>
+  </data>
+  <data name="GridStringId.MenuFooterAverage" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="GridStringId.MenuFooterMax" xml:space="preserve">
+    <value>En Büyük</value>
+  </data>
+  <data name="GridStringId.LayoutViewCustomizeBtnHint" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="GridStringId.PrintDesignerCardView" xml:space="preserve">
+    <value>Yazdırma Ayarları (Card View)</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowCardExpandButton" xml:space="preserve">
+    <value>Genişletme Düğmesini Göster</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupBox" xml:space="preserve">
+    <value>Birçok sütuna göre grupla</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupCards" xml:space="preserve">
+    <value>Kartlar</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelVertical" xml:space="preserve">
+    <value>Dikey Zaman Aralığı</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogCancelButton" xml:space="preserve">
+    <value>&amp;İptal</value>
+  </data>
+  <data name="GridStringId.LayoutViewCustomizationFormCaption" xml:space="preserve">
+    <value>LayoutView Özelleştirmesi</value>
+  </data>
+  <data name="GridStringId.MenuColumnSortAscending" xml:space="preserve">
+    <value>Artan Yönde Sırala</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelCardEdgeAlignment" xml:space="preserve">
+    <value>Kart Kenar Hizalama:</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupPropertyGrid" xml:space="preserve">
+    <value>Özellik Tablosu</value>
+  </data>
+  <data name="GridStringId.MenuColumnColumnCustomization" xml:space="preserve">
+    <value>Sütun Seçimi</value>
+  </data>
+  <data name="GridStringId.CardViewQuickCustomizationButtonFilter" xml:space="preserve">
+    <value>Filtrele</value>
+  </data>
+  <data name="GridStringId.MenuFooterCount" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelSpacing" xml:space="preserve">
+    <value>Boşluk</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelClearGrouping" xml:space="preserve">
+    <value>Gruplamayı Kaldır</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelFullCollapse" xml:space="preserve">
+    <value>Hepsini Kapat (Daralt)</value>
+  </data>
+  <data name="GridStringId.PopupFilterBlanks" xml:space="preserve">
+    <value>(Boş Olanlar)</value>
+  </data>
+  <data name="GridStringId.CustomizationCaption" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="GridStringId.LayoutViewPageViewLayout" xml:space="preserve">
+    <value>Yerleşim Görünümü</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelCaptionLocation" xml:space="preserve">
+    <value>Alan Başlık Yerleşimi</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroup" xml:space="preserve">
+    <value>Bu sütuna göre grupla</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogRadioOr" xml:space="preserve">
+    <value>Ve&amp;ya</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialog2FieldCheck" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="GridStringId.PrintDesignerBandedView" xml:space="preserve">
+    <value>Yazdırma Ayarları (Banded View)</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowCardCaption" xml:space="preserve">
+    <value>Başlığı Göster</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonLoadLayout" xml:space="preserve">
+    <value>&amp;Yerleşim Düzeni Aç</value>
+  </data>
+  <data name="GridStringId.LayoutViewSingleModeBtnHint" xml:space="preserve">
+    <value>Tek Kart</value>
+  </data>
+  <data name="GridStringId.GridOutlookIntervals" xml:space="preserve">
+    <value>Daha Eski;Son Ay;Bu Aydan Önce;Üç Hafta Önce;İki Hafta Önce;Son Hafta;;;;;;;;Dün;Bugün;Yarın;;;;;;;;Sonraki Hafta;İki Hafta Sonra;Üç Hafta Sonra;Bu Aydan Sonra;Sonraki Ay;Bu Aydan Sonraki Ay;</value>
+  </data>
+  <data name="GridStringId.MenuFooterSum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonSaveLayout" xml:space="preserve">
+    <value>Yerleşim Düzenini &amp;Kaydet</value>
+  </data>
+  <data name="GridStringId.PrintDesignerGridView" xml:space="preserve">
+    <value>Yazdırma Ayarları (Grid View)</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelTextIndent" xml:space="preserve">
+    <value>Metin girintileri</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowFilterPanel" xml:space="preserve">
+    <value>Filtreleme Panelini Göster:</value>
+  </data>
+  <data name="GridStringId.PrintDesignerBandHeader" xml:space="preserve">
+    <value>Bant Başlığı</value>
+  </data>
+  <data name="GridStringId.PopupFilterNonBlanks" xml:space="preserve">
+    <value>(Boş Olmayanlar)</value>
+  </data>
+  <data name="GridStringId.PrintDesignerLayoutView" xml:space="preserve">
+    <value>Yazdırma Ayarları (Layout View)</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelScrollVisibility" xml:space="preserve">
+    <value>Sürükleme Çubuğu Görünürlüğü:</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelGroupCaptionLocation" xml:space="preserve">
+    <value>Grup Başlık Yerleşimi</value>
+  </data>
+  <data name="GridStringId.LayoutViewCustomizationFormDescription" xml:space="preserve">
+    <value>Kart düzenini ve özelleştirme menüsünü taşıyıp bırakarak özelleştir. Veriyi Görünüm Düzeni sayfasında önizle.</value>
+  </data>
+  <data name="GridStringId.LayoutModifiedWarning" xml:space="preserve">
+    <value>Düzen değişti. Değişiklikleri kaydetmek ister misin?</value>
+  </data>
+  <data name="GridStringId.MenuFooterMaxFormat" xml:space="preserve">
+    <value>MAKS={0}</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonOk" xml:space="preserve">
+    <value>&amp;Tamam</value>
+  </data>
+  <data name="GridStringId.MenuFooterCountGroupFormat" xml:space="preserve">
+    <value>Adet={0}</value>
+  </data>
+  <data name="GridStringId.MenuFooterAverageFormat" xml:space="preserve">
+    <value>ORT={0}</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonCancel" xml:space="preserve">
+    <value>&amp;İptal</value>
+  </data>
+  <data name="GridStringId.MenuFooterCustomFormat" xml:space="preserve">
+    <value>Özel={0}</value>
+  </data>
+  <data name="GridStringId.MenuFooterSumFormat" xml:space="preserve">
+    <value>TOPLAM={0}</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalSmart" xml:space="preserve">
+    <value>Akıllı</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormOrderTabCaption" xml:space="preserve">
+    <value>Sıralama</value>
+  </data>
+  <data name="GridStringId.MenuColumnShowColumn" xml:space="preserve">
+    <value>Sütunu Göster</value>
+  </data>
+  <data name="GridStringId.LayoutViewCardCaptionFormat" xml:space="preserve">
+    <value>Kayıt [{0} / {1}]</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormCancelButton" xml:space="preserve">
+    <value>Vazgeç</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalMenu" xml:space="preserve">
+    <value>Grup Aralığı</value>
+  </data>
+  <data name="GridStringId.WindowErrorCaption" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelShow" xml:space="preserve">
+    <value>Gruplama Kutusunu Göster</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalMonth" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogEmptyValue" xml:space="preserve">
+    <value>(Değer Giriniz)</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormOkButton" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalYear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogEmptyOperator" xml:space="preserve">
+    <value>(Operatör Seçiniz)</value>
+  </data>
+  <data name="GridStringId.MenuColumnRemoveColumn" xml:space="preserve">
+    <value>Sütunu Gizle</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelHide" xml:space="preserve">
+    <value>Gruplama Kutusunu Gizle</value>
+  </data>
+  <data name="GridStringId.MenuColumnExpressionEditor" xml:space="preserve">
+    <value>İfade Editorü...</value>
+  </data>
+  <data name="GridStringId.MenuColumnAutoFilterRowShow" xml:space="preserve">
+    <value>Otomatik Filtreleme Satırını Göster</value>
+  </data>
+  <data name="GridStringId.MenuColumnAutoFilterRowHide" xml:space="preserve">
+    <value>Otomatik Filtreleme Satırını Gizle</value>
+  </data>
+  <data name="GridStringId.FindControlFindButton" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="GridStringId.SearchLookUpMissingRows" xml:space="preserve">
+    <value>Tüm satırların görünmesi için Enter yada Araya tıklayınız.
+Arama yapmak için arama metnini girerek Enter yada Araya tıklayınız.</value>
+  </data>
+  <data name="GridStringId.MenuColumnFindFilterHide" xml:space="preserve">
+    <value>Arama Kutusunu Gizle</value>
+  </data>
+  <data name="GridStringId.FindControlClearButton" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="GridStringId.MenuColumnFindFilterShow" xml:space="preserve">
+    <value>Arama Kutusunu Göster</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormCaption" xml:space="preserve">
+    <value>Grup Özeti Düzenleyicisi</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryAverage" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryCount" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterModeValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="GridStringId.CardViewCaptionFormat" xml:space="preserve">
+    <value>Kayıt {0}</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="GridStringId.LayoutViewFieldCaptionFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridStringId.ServerRequestError" xml:space="preserve">
+    <value>sunucu isteği ({0}...) işleme sırasında hata oluştu</value>
+  </data>
+  <data name="GridStringId.MenuColumnCustomSummaryTypeDescription" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterMode" xml:space="preserve">
+    <value>Filtre modu</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterModeDisplayText" xml:space="preserve">
+    <value>Görüntü metni</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupSummaryEditor" xml:space="preserve">
+    <value>Grup Özeti editörü...</value>
+  </data>
+  <data name="GridStringId.MenuColumnMaxSummaryTypeDescription" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="GridStringId.MenuColumnMinSummaryTypeDescription" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelPadding" xml:space="preserve">
+    <value>Doldurma</value>
+  </data>
+  <data name="GridStringId.MenuColumnAverageSummaryTypeDescription" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="GridStringId.MenuFooterCountFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="GridStringId.MenuHideSplitItem" xml:space="preserve">
+    <value>Bölmeyi Kaldır</value>
+  </data>
+  <data name="GridStringId.MenuShowSplitItem" xml:space="preserve">
+    <value>bölme</value>
+  </data>
+  <data name="GridStringId.SearchLookUpAddNewButton" xml:space="preserve">
+    <value>Yeni Ekle</value>
+  </data>
+  <data name="GridStringId.MenuFooterAddSummaryItem" xml:space="preserve">
+    <value>Yeni Özet Ekle</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummarySum" xml:space="preserve">
+    <value>Toplamı</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormItemsTabCaption" xml:space="preserve">
+    <value>Öğeleri</value>
+  </data>
+  <data name="GridStringId.MenuColumnBandCustomization" xml:space="preserve">
+    <value>Sütun/Grup Seçici</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupSummarySortFormat" xml:space="preserve">
+    <value>{1} tarafından ' {0}' - {2}</value>
+  </data>
+  <data name="GridStringId.MenuFooterMinFormat" xml:space="preserve">
+    <value>MIN = {0}</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogHint" xml:space="preserve">
+    <value>_ Herhangi bir dizi karakterleri temsil etmek için herhangi bir tek karakter #Use % göstermek için kullanın.</value>
+  </data>
+  <data name="GridStringId.MenuColumnSumSummaryTypeDescription" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="GridStringId.MenuFooterClearSummaryItems" xml:space="preserve">
+    <value>Özet Öğelerini Temizle</value>
+  </data>
+  <data name="GridStringId.MenuColumnCountSummaryTypeDescription" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="GridStringId.LayoutViewFormLoadLayoutCaption" xml:space="preserve">
+    <value>Yük düzeni</value>
+  </data>
+  <data name="GridStringId.LayoutViewFormSaveLayoutCaption" xml:space="preserve">
+    <value>Düzeni Kaydet</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelAllowFieldHotTracking" xml:space="preserve">
+    <value>Sıcak izleme izin ver</value>
+  </data>
+  <data name="GridStringId.MenuColumnSortGroupBySummaryMenu" xml:space="preserve">
+    <value>Sort tarafından Özeti</value>
+  </data>
+  <data name="GridStringId.WindowWarningCaption" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="GridStringId.EditFormCancelMessage" xml:space="preserve">
+    <value>Düzenlemeyi iptal etmek istiyor musunuz?</value>
+  </data>
+  <data name="GridStringId.EditFormCancelButton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="GridStringId.EditFormSaveMessage" xml:space="preserve">
+    <value>Verileriniz değiştirildi. Değişiklikleri kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="GridStringId.EditFormUpdateButton" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="GridStringId.MenuColumnResetGroupSummarySort" xml:space="preserve">
+    <value>Özet sıralamasını temizle</value>
+  </data>
+  <data name="GridStringId.CheckboxSelectorColumnCaption" xml:space="preserve">
+    <value>Seçim</value>
+  </data>
+  <data name="GridStringId.MenuColumnClearAllSorting" xml:space="preserve">
+    <value>Bütün sıralamayı temizle</value>
+  </data>
+  <data name="GridStringId.FindNullPrompt" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+</root>

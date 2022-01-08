@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SchedulerExtensionsStringId.Msg_PatternOccurrencesConflictsWithOtherAppointments" xml:space="preserve">
+    <value>Senin randevu listesinde bu tekrarlanan randevu başka randevularla {0} defa çekişir. </value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AllOccurrencesInThePast" xml:space="preserve">
+    <value>Bu tekrarlanan randevunun bütün örnekleri geçmişte oluyor.</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_Some" xml:space="preserve">
+    <value>Bazı</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_RecurringAppointment" xml:space="preserve">
+    <value>Tekrarlanan Randevu</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AppointmentOccursInThePast" xml:space="preserve">
+    <value>Bu randevu geçmiş zamanda gerçekleşir</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_Appointment" xml:space="preserve">
+    <value>Randevu</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AppointmentConflictsWithAnother" xml:space="preserve">
+    <value>Randevu listesinde başka bir randevuyla çekişir.</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AppointmentOccurs" xml:space="preserve">
+    <value>{0} oluyor.</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.CaptionViewNavigator_Today" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_ViewNavigator" xml:space="preserve">
+    <value>Rotacıya bak</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_Event" xml:space="preserve">
+    <value>Etkinlik</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_ViewSelector" xml:space="preserve">
+    <value>Seçici göster</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_RecurringEvent" xml:space="preserve">
+    <value>Tekrarlanan Etkinlik</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupOptions" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_Reminder" xml:space="preserve">
+    <value>Hatırlatma:</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupPrint" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupTimeScale" xml:space="preserve">
+    <value>Zaman ölçeği</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageCategoryCalendarTools" xml:space="preserve">
+    <value>Takvim araçları</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageFile" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageHome" xml:space="preserve">
+    <value>Ana sayfa</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupActions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupActiveView" xml:space="preserve">
+    <value>Etkin görünüm</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupArrange" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupCommon" xml:space="preserve">
+    <value>Ortak</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupGroupBy" xml:space="preserve">
+    <value>Göre Gruplandır</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupNavigator" xml:space="preserve">
+    <value>Gidin</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupAppointment" xml:space="preserve">
+    <value>Randevu</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageAppointment" xml:space="preserve">
+    <value>Randevu</value>
+  </data>
+</root>

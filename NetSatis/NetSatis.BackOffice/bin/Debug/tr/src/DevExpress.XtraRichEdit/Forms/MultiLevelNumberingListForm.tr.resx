@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="edtNumberFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 51</value>
+  </data>
+  <data name="lblTextPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="edtAligned.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lBoxLevel.Name" xml:space="preserve">
+    <value>lBoxLevel</value>
+  </data>
+  <data name="edtNumberingAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="&gt;&gt;edtStart.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lBoxLevel.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="edtStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="lBoxLevel.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="edtStart.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="edtStart.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="edtStart.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblFollowNumberWith.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNumberPosition.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;edtFollowNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="edtNumberFormat.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblTextPosition.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="edtFollowNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblStartAt.Text" xml:space="preserve">
+    <value>&amp;Başlangıç:</value>
+  </data>
+  <data name="&gt;&gt;btnFont.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtDisplayFormat.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbLevel.Name" xml:space="preserve">
+    <value>lbLevel</value>
+  </data>
+  <data name="lblFollowNumberWith.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lBoxLevel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblTextPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 252</value>
+  </data>
+  <data name="&gt;&gt;edtAligned.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFollowNumberWith.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblTextPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblIndentAt.Text" xml:space="preserve">
+    <value>&amp;Girinti:</value>
+  </data>
+  <data name="edtFollowNumber.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lBoxLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 51</value>
+  </data>
+  <data name="edtAligned.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lBoxLevel.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;edtAligned.Name" xml:space="preserve">
+    <value>edtAligned</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="lblNumberStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnFont.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;edtNumberingAlignment.Name" xml:space="preserve">
+    <value>edtNumberingAlignment</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MultiLevelNumberingListForm</value>
+  </data>
+  <data name="lblDisplayFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblIndentAt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="&gt;&gt;lblNumberPosition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtIndent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 271</value>
+  </data>
+  <data name="edtFollowNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="&gt;&gt;lblStartAt.Name" xml:space="preserve">
+    <value>lblStartAt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Numaralandırılmış Listeyi Özelleştir</value>
+  </data>
+  <data name="lblNumberPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 13</value>
+  </data>
+  <data name="edtNumberFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="edtNumberingAlignment.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblDisplayFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 32</value>
+  </data>
+  <data name="&gt;&gt;lblAlignedAt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFollowNumberWith.Name" xml:space="preserve">
+    <value>lblFollowNumberWith</value>
+  </data>
+  <data name="&gt;&gt;edtStart.Name" xml:space="preserve">
+    <value>edtStart</value>
+  </data>
+  <data name="edtIndent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="lBoxLevel.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFollowNumberWith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="edtFollowNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 311</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 350</value>
+  </data>
+  <data name="lblNumberStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 99</value>
+  </data>
+  <data name="&gt;&gt;lblIndentAt.Name" xml:space="preserve">
+    <value>lblIndentAt</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtDisplayFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 118</value>
+  </data>
+  <data name="&gt;&gt;edtAligned.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblDisplayFormat.Name" xml:space="preserve">
+    <value>lblDisplayFormat</value>
+  </data>
+  <data name="edtStart.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;lblNumberFormat.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 32</value>
+  </data>
+  <data name="lblNumberPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="edtNumberingAlignment.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;edtNumberFormat.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblFollowNumberWith.Text" xml:space="preserve">
+    <value>Sayısıyla Takip Et:</value>
+  </data>
+  <data name="edtFollowNumber.Properties.Items" xml:space="preserve">
+    <value>Tab karakteri</value>
+  </data>
+  <data name="edtStart.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="edtNumberingAlignment.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="edtFollowNumber.Properties.Items1" xml:space="preserve">
+    <value>Boşluk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="edtStart.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblDisplayFormat.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lBoxLevel.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="edtIndent.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblFollowNumberWith.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 314</value>
+  </data>
+  <data name="&gt;&gt;lblNumberFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 176</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;lblAlignedAt.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblAlignedAt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 227</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;edtDisplayFormat.Name" xml:space="preserve">
+    <value>edtDisplayFormat</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFont.Text" xml:space="preserve">
+    <value>&amp;Yazı Tipi...</value>
+  </data>
+  <data name="&gt;&gt;lblIndentAt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;edtIndent.Name" xml:space="preserve">
+    <value>edtIndent</value>
+  </data>
+  <data name="&gt;&gt;edtNumberingAlignment.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblIndentAt.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblAlignedAt.Text" xml:space="preserve">
+    <value>&amp;Hizala:</value>
+  </data>
+  <data name="edtStart.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="edtIndent.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartAt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 99</value>
+  </data>
+  <data name="lblNumberFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="edtFollowNumber.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lBoxLevel.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTextPosition.Text" xml:space="preserve">
+    <value>Metin konumu</value>
+  </data>
+  <data name="&gt;&gt;edtFollowNumber.Name" xml:space="preserve">
+    <value>edtFollowNumber</value>
+  </data>
+  <data name="lbLevel.Text" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
+  <data name="lblStartAt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNumberPosition.Name" xml:space="preserve">
+    <value>lblNumberPosition</value>
+  </data>
+  <data name="lblNumberFormat.Text" xml:space="preserve">
+    <value>Numara formatı</value>
+  </data>
+  <data name="&gt;&gt;lbLevel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lbLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="edtStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 118</value>
+  </data>
+  <data name="edtDisplayFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblNumberPosition.Text" xml:space="preserve">
+    <value>Numara pozisyonu</value>
+  </data>
+  <data name="edtFollowNumber.Properties.Items2" xml:space="preserve">
+    <value>Hiçbir şey</value>
+  </data>
+  <data name="lblStartAt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="&gt;&gt;btnFont.Name" xml:space="preserve">
+    <value>btnFont</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblIndentAt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 274</value>
+  </data>
+  <data name="lblAlignedAt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lBoxLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 148</value>
+  </data>
+  <data name="edtStart.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="edtStart.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lBoxLevel.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="edtDisplayFormat.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblNumberFormat.Name" xml:space="preserve">
+    <value>lblNumberFormat</value>
+  </data>
+  <data name="&gt;&gt;lblTextPosition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtNumberingAlignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 226</value>
+  </data>
+  <data name="&gt;&gt;edtNumberFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;edtDisplayFormat.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblNumberStyle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtAligned.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 224</value>
+  </data>
+  <data name="btnFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="lblAlignedAt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="edtAligned.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="lbLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;edtStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNumberFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 13</value>
+  </data>
+  <data name="lblNumberPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 205</value>
+  </data>
+  <data name="&gt;&gt;edtIndent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNumberFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;edtIndent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtDisplayFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 20</value>
+  </data>
+  <data name="&gt;&gt;lblNumberStyle.Name" xml:space="preserve">
+    <value>lblNumberStyle</value>
+  </data>
+  <data name="&gt;&gt;lBoxLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lBoxLevel.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblNumberStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="&gt;&gt;edtNumberFormat.Name" xml:space="preserve">
+    <value>edtNumberFormat</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>321, 384</value>
+  </data>
+  <data name="lblIndentAt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblStartAt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtAligned.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDisplayFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNumberStyle.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;edtNumberingAlignment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="edtNumberFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 25</value>
+  </data>
+  <data name="&gt;&gt;lblDisplayFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="lblNumberStyle.Text" xml:space="preserve">
+    <value>&amp;Numaralandırma Stili:</value>
+  </data>
+  <data name="lBoxLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblDisplayFormat.Text" xml:space="preserve">
+    <value>Numara Formatı:</value>
+  </data>
+  <data name="&gt;&gt;lblTextPosition.Name" xml:space="preserve">
+    <value>lblTextPosition</value>
+  </data>
+  <data name="lBoxLevel.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="edtStart.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblAlignedAt.Name" xml:space="preserve">
+    <value>lblAlignedAt</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="&gt;&gt;btnFont.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 350</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="edtIndent.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;edtDisplayFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;edtFollowNumber.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblStartAt.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+</root>

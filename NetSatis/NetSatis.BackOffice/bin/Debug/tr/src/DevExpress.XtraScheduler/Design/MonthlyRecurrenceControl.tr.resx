@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblMonthlyMonthCount1.Text" xml:space="preserve">
+    <value>ayda bir</value>
+  </data>
+  <data name="lblOfEveryWeekOfMonth.Text" xml:space="preserve">
+    <value>her</value>
+  </data>
+  <data name="lblMonthlyMonthCount1.AccessibleName" xml:space="preserve">
+    <value>ayda bir</value>
+  </data>
+  <data name="lblMonthlyOfEvery.Text" xml:space="preserve">
+    <value>her</value>
+  </data>
+  <data name="lblOfEveryWeekOfMonth.AccessibleName" xml:space="preserve">
+    <value>her</value>
+  </data>
+  <data name="lblMonthlyOfEvery.AccessibleName" xml:space="preserve">
+    <value>her</value>
+  </data>
+  <data name="lblMonthlyMonthCount.Text" xml:space="preserve">
+    <value>ayda bir</value>
+  </data>
+  <data name="lblMonthlyMonthCount.AccessibleName" xml:space="preserve">
+    <value>ayda bir</value>
+  </data>
+  <data name="chkDay.Properties.AccessibleName" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="chkDay.Properties.Caption" xml:space="preserve">
+    <value>Gün:</value>
+  </data>
+  <data name="chkWeekOfMonth.Properties.Caption" xml:space="preserve">
+    <value>İnci &amp; e</value>
+  </data>
+  <data name="cbMonthlyWeekDays.Properties.AccessibleName" xml:space="preserve">
+    <value>Her Editable Text ay of düzenlenebilir metni düzenlenebilir metin</value>
+  </data>
+  <data name="cbMonthlyWeekOfMonth.Properties.AccessibleName" xml:space="preserve">
+    <value>Her Editable Text ay of düzenlenebilir metni düzenlenebilir metin</value>
+  </data>
+  <data name="spinMonthlyDay.Properties.AccessibleName" xml:space="preserve">
+    <value>Her Editable Text ay gün düzenlenebilir metin</value>
+  </data>
+  <data name="spinMonthlyMonthCount.Properties.AccessibleName" xml:space="preserve">
+    <value>Her Editable Text ay gün düzenlenebilir metin</value>
+  </data>
+  <data name="spinMonthlyMonthCount1.Properties.AccessibleName" xml:space="preserve">
+    <value>Her Editable Text ay of düzenlenebilir metni düzenlenebilir metin</value>
+  </data>
+  <data name="chkWeekOfMonth.Properties.AccessibleName" xml:space="preserve">
+    <value>The</value>
+  </data>
+</root>

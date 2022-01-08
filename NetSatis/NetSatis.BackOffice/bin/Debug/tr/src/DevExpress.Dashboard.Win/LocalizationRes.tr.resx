@@ -1,0 +1,3101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardWinStringId.RibbonPageLayoutAndStyleCaption" xml:space="preserve">
+    <value>Düzen ve stil</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnHeadersCaption" xml:space="preserve">
+    <value>Sütun başlıkları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopCenterCaption" xml:space="preserve">
+    <value>Üst Ortaya Hizala</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopLeftCaption" xml:space="preserve">
+    <value>Sol üste hizala</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopRightCaption" xml:space="preserve">
+    <value>Sağ üste hizala</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageAlignmentCaption" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomCenterCaption" xml:space="preserve">
+    <value>Alt ortaya Hizala</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomLeftCaption" xml:space="preserve">
+    <value>Alt Sola Hizala</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomRightCaption" xml:space="preserve">
+    <value>Alt Sağa Hizala</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCaption" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterCenterCaption" xml:space="preserve">
+    <value>Ortaya Hizala</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartLayoutCaption" xml:space="preserve">
+    <value>Diyagram</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterCenterDescription" xml:space="preserve">
+    <value>Görüntüyü yatay ve dikey Pano öğesi içinde ortalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterLeftDescription" xml:space="preserve">
+    <value>Görüntüyü dikey olarak ortalayın ve Pano öğesinin soluna hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterRightCaption" xml:space="preserve">
+    <value>Orta Sağa Hizala</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterRightDescription" xml:space="preserve">
+    <value>Görüntüyü dikey olarak ortalayın ve Pano öğesinin sağına hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteDataSourceCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDashboardCaption" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="DashboardWinStringId.ChartInsideHorizontalGalleryGroupCaption" xml:space="preserve">
+    <value>Yatay içeri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartLegendPositionCaption" xml:space="preserve">
+    <value>Gösterge konumu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartXAxisSettingsCaption" xml:space="preserve">
+    <value>X ekseni ayarları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartYAxisSettingsCaption" xml:space="preserve">
+    <value>Y ekseni ayarları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentAutoArrangeCaption" xml:space="preserve">
+    <value>Otomatik Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardTitleCaption" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteItemCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteItemDescription" xml:space="preserve">
+    <value>Seçili Pano öğesini silmek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortAscending" xml:space="preserve">
+    <value>Artan sıralama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortDescending" xml:space="preserve">
+    <value>Azalan sıralama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceCaption" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleFullCircularCaption" xml:space="preserve">
+    <value>Tam dairesel</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearHorizontalCaption" xml:space="preserve">
+    <value>Doğrusal yatay</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridHorizontalLinesCaption" xml:space="preserve">
+    <value>Yatay çizgiler</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageRangeFilterStyleCaption" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageTextBoxFormatCaption" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DashboardWinStringId.UndoText" xml:space="preserve">
+    <value>Geri al</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupInsertCaption" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieStyleCaption" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPivotLayoutCaption" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupSkinsCaption" xml:space="preserve">
+    <value>Temalar</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryCardsToolsName" xml:space="preserve">
+    <value>Kart araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryChartToolsName" xml:space="preserve">
+    <value>Grafik araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryRangeFilterToolsName" xml:space="preserve">
+    <value>Aralık filtresi araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryTextBoxToolsName" xml:space="preserve">
+    <value>Metin kutusu araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageDataCaption" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageImageOptionsCaption" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeZoomDescription" xml:space="preserve">
+    <value>Böylece en iyi Pano öğesine takılmıştır orantılı olarak (kırpma olmadan), resmin boyutlandırılır.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertCardsDescription" xml:space="preserve">
+    <value>Kartı Pano öğesi oluşturun ve Pano yerleştirin. Bu öğenin bir dizi kartları her iki değer arasındaki farkı gösteren görüntüler. Bu fark mutlak ya da yüzde bir varyasyon ifade edilebilir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChartDescription" xml:space="preserve">
+    <value>Grafik Pano öğesi oluşturun ve Pano yerleştirin.
+
+Çok çeşitli diyagram türleri-basit çubuk veya çizgi grafikler için mali açılış-en yüksek-en düşük-kapanış grafikleri işlemek için izin veren bir XY diyagramı veri grafiği görüntüler.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGaugesDescription" xml:space="preserve">
+    <value>Ölçüm Pano öğesi oluşturun ve Pano yerleştirin.
+
+Bu öğe bir dizi göstergeleri görüntüler. Her bir ölçüm iki değer – bir iğne ve başka bir marker ölçekte ile iletişim kurabilir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGridDescription" xml:space="preserve">
+    <value>Izgara Pano öğesi oluşturun ve Pano yerleştirin.
+
+Kılavuz verileri tablo biçiminde karşı özel önlemler özetleme veya aralarındaki farkları hesaplamak izin verirken gösterir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertImageDescription" xml:space="preserve">
+    <value>Resim Pano öğesi oluşturun ve sokmak o belgili tanımlık dashboard.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPiesDescription" xml:space="preserve">
+    <value>Bir pasta Pano öğesi oluşturun ve Pano yerleştirin.
+
+Bu öğe, turta ya da her bir değerin katkısını bir toplam temsil donuts bir dizi görüntüler.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPivotCaption" xml:space="preserve">
+    <value>Pivot</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPivotDescription" xml:space="preserve">
+    <value>Bir pivot tablo Pano öğesi oluşturun ve Pano yerleştirin.
+
+Pivot tablo çapraz tablo raporunu görüntüler. Çok boyutlu veriler okunabilir bir şekilde göstermek için kullanın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertRangeFilterCaption" xml:space="preserve">
+    <value>Aralık filtresi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertRangeFilterDescription" xml:space="preserve">
+    <value>Aralığı filtresi Pano öğesi oluşturun ve Pano yerleştirin.
+
+Aralık filtresi diğer Pano öğeleri filtre uygulamanıza olanak sağlar. Değişken eksen boyunca görüntülenen değerleri filtrelemek izin ele seçimi başparmak içeren bir grafik görüntüler.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTextBoxCaption" xml:space="preserve">
+    <value>Metin kutusu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTextBoxDescription" xml:space="preserve">
+    <value>Metin kutusunun Pano öğesi oluşturun ve sokmak o belgili tanımlık dashboard.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDataSourceCaption" xml:space="preserve">
+    <value>Yeni veri kaynağı</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDataSourceDescription" xml:space="preserve">
+    <value>Yeni bir veri kaynağı oluştur.
+
+Veri kaynağı Oluştur Sihirbazı'nı kullanarak bağlantı ayarlarını yapılandırın ve sorgu tasarımcısında veri kaynağı oluştur.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsCaption" xml:space="preserve">
+    <value>Veri etiketleri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsDescription" xml:space="preserve">
+    <value>Hangi değerlerin veri etiketleri içinde görüntüleneceğini belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsNoneDescription" xml:space="preserve">
+    <value>Veri etiketlerini gösterme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsPercentCaption" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsPercentDescription" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueAndPercentCaption" xml:space="preserve">
+    <value>Değer ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueAndPercentDescription" xml:space="preserve">
+    <value>Değer ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueDescription" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionBottomCaption" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionBottomDescription" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionCaption" xml:space="preserve">
+    <value>Gösterge konumu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionDescription" xml:space="preserve">
+    <value>Göstergenin konumunu seçin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionLeftCaption" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionLeftDescription" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionNoneDescription" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionRightCaption" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionRightDescription" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsNoneDescription" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsPercentCaption" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsPercentDescription" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueAndPercentCaption" xml:space="preserve">
+    <value>Değer ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueAndPercentDescription" xml:space="preserve">
+    <value>Değer ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueDescription" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStylePieCaption" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotInitialStateCaption" xml:space="preserve">
+    <value>Başlangıç durumu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotInitialStateDescription" xml:space="preserve">
+    <value>Nasıl pivot tablosu öğesi varsayılan Pano Görüntüleyicisi'nde görünür belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPrintPreview" xml:space="preserve">
+    <value>Baskı önizleme...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeAreaCaption" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedAreaCaption" xml:space="preserve">
+    <value>Tam yığılmış alan</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedAreaDescription" xml:space="preserve">
+    <value>Tüm Seri Full-Stacked alan türünü ayarla.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedLineCaption" xml:space="preserve">
+    <value>Tam yığılmış çizgi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedLineDescription" xml:space="preserve">
+    <value>Küme Full-Stacked satır türü tüm seri.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeLineCaption" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedAreaCaption" xml:space="preserve">
+    <value>Yığılmış alan</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedAreaDescription" xml:space="preserve">
+    <value>Tüm seri yığılmış alan türünü ayarla.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedLineCaption" xml:space="preserve">
+    <value>Yığılmış çizgi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedLineDescription" xml:space="preserve">
+    <value>Tüm serilerini yığılmış çizgi türünü ayarlayın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRedoCaption" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRedoDescription" xml:space="preserve">
+    <value>' {0}' Yinele</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveAsDashboardCaption" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveDashboardCaption" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSetCurrencyCultureCaption" xml:space="preserve">
+    <value>Para birimi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandShowCaptionCaption" xml:space="preserve">
+    <value>Başlığı göster</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextCaption" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextDescription" xml:space="preserve">
+    <value>Metin kutusunun içeriğini düzenleyin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUndoCaption" xml:space="preserve">
+    <value>geri al</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUndoDescription" xml:space="preserve">
+    <value>' {0}' Geri al</value>
+  </data>
+  <data name="DashboardWinStringId.ConnectionErrorFormDetailPattern" xml:space="preserve">
+    <value>Bağlantı adı: {0}
+Hata iletisi: {1}</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerDataReducedMessage" xml:space="preserve">
+    <value>Bu pano öğesi büyük bir veri kümesine bağlı ve
+Şu anda performansı korumak için tüm verileri görüntüler.
+Pano Görüntüleyicisi'nde, tüm veri-ecek var olmak göstermek.</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerUnableCreateBarsMessage" xml:space="preserve">
+    <value>Barlar oluşturulamıyor. Pano Tasarımcısı'nı üst denetim atanmamış</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerUnableCreateRibbonMessage" xml:space="preserve">
+    <value>Bir şerit oluşturulamıyor. Pano Tasarımcısı'nı üst denetim atanmamış</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardLoadingError" xml:space="preserve">
+    <value>Aşağıdaki dosya kullanılabilir değil veya geçerli Pano dosyası olmadığından Pano yüklenemiyor.
+{0}
+Lütfen uygulama bu dosyaya erişebilir ve geçerli olduğundan emin olun veya farklı bir dosya belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardOpeningError" xml:space="preserve">
+    <value>Pano açılamıyor.
+{0}
+Lütfen uygulama bu dosyaya erişmek veya farklı bir dosya belirtin olun.</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardViewerEmptyDesignerMessage" xml:space="preserve">
+    <value>Bu Pano Görüntüleyicisi boştur. Akıllı etiketi yük kontrol paneli pano XML dosyasını açın veya DashboardUri mülkiyet üzerinden bu dosyanın yolunu belirtmek için kullanılır.</value>
+  </data>
+  <data name="DashboardWinStringId.DataItemCurrencyUseDashboardCurrency" xml:space="preserve">
+    <value>Kontrol paneli ayarları kullan</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatDefaultCaption" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatLongCaption" xml:space="preserve">
+    <value>Uzun</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatShortCaption" xml:space="preserve">
+    <value>Kısa</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatDefaultCaption" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatLongCaption" xml:space="preserve">
+    <value>Uzun</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatShortCaption" xml:space="preserve">
+    <value>Kısa</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatAbbreviatedCaption" xml:space="preserve">
+    <value>Kısaltılmış</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatDefaultCaption" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatFullCaption" xml:space="preserve">
+    <value>Tam</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatNumericCaption" xml:space="preserve">
+    <value>Sayısal</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatAbbreviatedCaption" xml:space="preserve">
+    <value>Kısaltılmış</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatDefaultCaption" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatFullCaption" xml:space="preserve">
+    <value>Tam</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatNumericCaption" xml:space="preserve">
+    <value>Sayısal</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatDefaultCaption" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatFullCaption" xml:space="preserve">
+    <value>Tam</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatNumericCaption" xml:space="preserve">
+    <value>Sayısal</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatAbbreviatedCaption" xml:space="preserve">
+    <value>Kısaltılmış</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatDefaultCaption" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatFullCaption" xml:space="preserve">
+    <value>Tam</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypeAbsolute" xml:space="preserve">
+    <value>Mutlak</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypePercent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeAbsoluteVariationCaption" xml:space="preserve">
+    <value>Mutlak varyasyon</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeActualValueCaption" xml:space="preserve">
+    <value>Gerçek değer</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentOfTargetCaption" xml:space="preserve">
+    <value>Hedef yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentVariationCaption" xml:space="preserve">
+    <value>Yüzde değişim</value>
+  </data>
+  <data name="DashboardWinStringId.FileFilterAll" xml:space="preserve">
+    <value>Tüm dosyalar</value>
+  </data>
+  <data name="DashboardWinStringId.FileFilterAllImages" xml:space="preserve">
+    <value>Tüm resim dosyaları</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartRotate" xml:space="preserve">
+    <value>{0} diyagramı rotasyon içinde ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartShowLegend" xml:space="preserve">
+    <value>{0} efsane görünürlük için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemCrossDataSourceFiltering" xml:space="preserve">
+    <value>{0} çapraz-veri-kaynağı ' {1}' filtre uygulama</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionGroupInterval" xml:space="preserve">
+    <value>' {0}' Grup aralığını ayarla</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionSortOrder" xml:space="preserve">
+    <value>' {0}' Toggle sıralama düzeni</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDrillDown" xml:space="preserve">
+    <value>{0} drill-down ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGaugeShowCaptions" xml:space="preserve">
+    <value>{0} için ' {1}' başlıkları görünürlük ölçmek</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridBandedRows" xml:space="preserve">
+    <value>{0} için ' {1}' satır bantları</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridColumnHeaders" xml:space="preserve">
+    <value>{0} sütun üstbilgileri görünürlük için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridColumnOptions" xml:space="preserve">
+    <value>' {0}' sütun seçeneklerini değiştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridHorizontalLines" xml:space="preserve">
+    <value>{0} yatay kılavuz çizgileri görünürlük için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridMergeCells" xml:space="preserve">
+    <value>{0} hücresi ' {1}' için birleştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridVerticalLines" xml:space="preserve">
+    <value>{0} dikey kılavuz çizgileri görünürlük için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemIgnoreMasterFilters" xml:space="preserve">
+    <value>' {1}' Master filtrelerinin {0} görmezden</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemImageAlignment" xml:space="preserve">
+    <value>' {0}' Hizalamasını değiştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemImageOpen" xml:space="preserve">
+    <value>Yükleme görüntüsü için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemImageSizeMode" xml:space="preserve">
+    <value>' {0}' İçin boyut modunu değiştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemLayoutChanged" xml:space="preserve">
+    <value>Düzen değişti</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMeasureSummaryType" xml:space="preserve">
+    <value>Özet türü için '{0}' ayarla</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemModifyBindings" xml:space="preserve">
+    <value>Değiştir bağlamaları için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemNewDataSource" xml:space="preserve">
+    <value>' {0}' Veri kaynağı oluştur</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieLabelContentType" xml:space="preserve">
+    <value>için ' {0}' değişiklik veri etiketleri içerik</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieLegendPosition" xml:space="preserve">
+    <value>' {0}' Değişiklik Gösterge konumu</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieShowCaptions" xml:space="preserve">
+    <value>{0} için ' {1}' pasta başlıklar görünürlük</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieStyle" xml:space="preserve">
+    <value>değişikliği pasta stili ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieTooltipContentType" xml:space="preserve">
+    <value>değişiklik tooltips içerik için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandColumnDisable" xml:space="preserve">
+    <value>' {0}' sütun gruplarını otomatik olarak genişlemesini devre dışı</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandColumnEnable" xml:space="preserve">
+    <value>' {0}' sütun gruplarını otomatik olarak genişlemesini etkinleştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandRowDisable" xml:space="preserve">
+    <value>satır grupları için ' {0}' otomatik olarak genişlemesini devre dışı</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandRowEnable" xml:space="preserve">
+    <value>satır grupları için ' {0}' otomatik olarak genişlemesini etkinleştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemRangeFilterSeriesType" xml:space="preserve">
+    <value>değişiklik serisi tüm seri içinde ' {0}' yazın</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemSetCurrencyCulture" xml:space="preserve">
+    <value>Pano'nın para birimi kültür değiştirmek</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemShowCaption" xml:space="preserve">
+    <value>' {0}' Başlığını göster/gizle</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemTextBoxEditText" xml:space="preserve">
+    <value>' {0}' Metni düzenleyin</value>
+  </data>
+  <data name="DashboardWinStringId.ImageCorruptedMessage" xml:space="preserve">
+    <value>İmaj dosyası bozulmuş.</value>
+  </data>
+  <data name="DashboardWinStringId.ImageFileCorruptedMessage" xml:space="preserve">
+    <value>Bir görüntü dosyası bozuk.
+URL: {0}</value>
+  </data>
+  <data name="DashboardWinStringId.ImageGeneralExceptionMessage" xml:space="preserve">
+    <value>görüntü dosyası aşağıdaki yolda açamıyor:
+{0}</value>
+  </data>
+  <data name="DashboardWinStringId.ImageNotFoundMessage" xml:space="preserve">
+    <value>Bir görüntü dosyası bulunamıyor. Bu dosya yeniden adlandırılmış, taşınmış veya silinmiş.
+URL: {0}</value>
+  </data>
+  <data name="DashboardWinStringId.ImageWrongFormatMessage" xml:space="preserve">
+    <value>Seçilen görüntü dosyası bozulmuş.</value>
+  </data>
+  <data name="DashboardWinStringId.MenuDateTimeFormatFormat" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DashboardWinStringId.MenuMore" xml:space="preserve">
+    <value>Daha fazla</value>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxErrorTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxWarningTitle" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="DashboardWinStringId.MessageFileNotFound" xml:space="preserve">
+    <value>Bu dosya bulunamadı.
+({0})</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeAutoCaption" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeCurrencyCaption" xml:space="preserve">
+    <value>Para birimi</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeGeneralCaption" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeNumberCaption" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypePercentCaption" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeScientificCaption" xml:space="preserve">
+    <value>Bilimsel</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitAutoCaption" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitBillionsCaption" xml:space="preserve">
+    <value>Milyarlarca</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitMillionsCaption" xml:space="preserve">
+    <value>Milyonlarca</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitThousandsCaption" xml:space="preserve">
+    <value>Binlerce</value>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemPinCommand" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="DashboardWinStringId.RecentDashboardsCaption" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="DashboardWinStringId.RecentItemsMenuEmptyText" xml:space="preserve">
+    <value>Bir Pano için göz atmak için Aç'ı tıklatın.</value>
+  </data>
+  <data name="DashboardWinStringId.RedoText" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartLegendPositionCaption" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDataSourceCaption" xml:space="preserve">
+    <value>Veri kaynağı</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFileCaption" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeStyleCaption" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupHistoryCaption" xml:space="preserve">
+    <value>Geçmiş</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartShowLegendCaption" xml:space="preserve">
+    <value>Gösterge Göster</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupContentArrangementCaption" xml:space="preserve">
+    <value>İçerik Düzenleme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopLeftDescription" xml:space="preserve">
+    <value>Hizala resmin üst sol köşe Pano öğesi.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopRightDescription" xml:space="preserve">
+    <value>Pano öğesini sağ üst köşesinde görüntüye Hizala.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeClipCaption" xml:space="preserve">
+    <value>Küçük resim</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeClipDescription" xml:space="preserve">
+    <value>Görüntü Pano öğesinin sol üst köşesine yerleştirilir ve gerektiğinde kırpılır.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeSqueezeDescription" xml:space="preserve">
+    <value>. Aksi takdirde, görüntü Gösterge madde boyutlarının sığacak şekilde yeniden boyutlandırılır.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeStretchDescription" xml:space="preserve">
+    <value>Görüntüyü Pano öğesi içinde uzatılabilir ya da Pano öğesinin boyutuna göre uygun şekilde küçültülebilir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopCenterDescription" xml:space="preserve">
+    <value>Görüntü yatay olarak ortalayın ve Pano öğesi üst hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomRightDescription" xml:space="preserve">
+    <value>Pano öğesi sağ alt köşede görüntüye Hizala.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomLeftDescription" xml:space="preserve">
+    <value>Pano öğesini sol alt köşesine görüntüye Hizala.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomCenterDescription" xml:space="preserve">
+    <value>Görüntü yatay olarak ortalayın ve Pano öğesi alt kısmına hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridVerticalLinesCaption" xml:space="preserve">
+    <value>Dikey çizgiler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandIgnoreMasterFiltersCaption" xml:space="preserve">
+    <value>Ana filtreler Yoksay</value>
+  </data>
+  <data name="DashboardWinStringId.CommandIgnoreMasterFiltersDescription" xml:space="preserve">
+    <value>Bu pano öğesi diğer ana filtreler tarafından etkilenmemiş olun.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandOpenDashboardCaption" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopCaption" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopDescription" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsDescription" xml:space="preserve">
+    <value>Hangi değerlerin tooltips içinde görüntüleneceğini belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieShowCaptionsDescription" xml:space="preserve">
+    <value>Bu pano öğesi içinde bireysel diyagramları için resim yazıları göster:.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandColumnCaption" xml:space="preserve">
+    <value>Sütun Gruplarını Genişlet</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandColumnDescription" xml:space="preserve">
+    <value>Sütun Gruplarını Genişlet</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandRowCaption" xml:space="preserve">
+    <value>Satır Gruplarını Genişlet</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandRowDescription" xml:space="preserve">
+    <value>Satır Gruplarını Genişlet</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSetCurrencyCultureDescription" xml:space="preserve">
+    <value>Pano tüm para birimi değerlerini görüntülemek için varsayılan olarak kullanılacak para birimini belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardCurrencyUseCurrentCurrency" xml:space="preserve">
+    <value>istemci sistem ayarlarını kullan</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerConfirmSaveMessage" xml:space="preserve">
+    <value>Değişiklikleri {0} öğesine kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatTimeOnlyCaption" xml:space="preserve">
+    <value>Yalnızca saat</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListCreateRibbonTransaction" xml:space="preserve">
+    <value>Şerit oluşturma</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodCreateRibbonItem" xml:space="preserve">
+    <value>Şerit oluşturma</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDeleteItem" xml:space="preserve">
+    <value>' {0}' Sil</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionSorting" xml:space="preserve">
+    <value>' {0}' İçin sıralama ayarla</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteDataSourceDescription" xml:space="preserve">
+    <value>Geçerli veri kaynağı kaldırır.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDuplicateItemCaption" xml:space="preserve">
+    <value>Çoğalt</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDuplicateItemDescription" xml:space="preserve">
+    <value>Seçili Pano öğesinin bir kopyasını oluşturun.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceDescription" xml:space="preserve">
+    <value>Tablo veya veri kaynağı dahil edilecek sütunları tek tek seçerek geçerli veri kaynağı sorgu tasarımcısında düzenleyin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditFilterDescription" xml:space="preserve">
+    <value>Pano öğesi içinde hangi verilerin görüntüleneceğini tanımlayan bir ölçüt belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditNamesDescription" xml:space="preserve">
+    <value>Pano öğesini ve içerdiği veri öğelerinin adlarını belirlemek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeShowCaptionsDescription" xml:space="preserve">
+    <value>Bu pano öğesi içinde tek tek ölçü aygıtları için resim yazıları göster:.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearVerticalCaption" xml:space="preserve">
+    <value>Doğrusal dikey</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridBandedRowsDescription" xml:space="preserve">
+    <value>Bile ve tek bir satır farklı ızgara daha kolay okunmasını sağlamak için arka plan boya.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartShowLegendDescription" xml:space="preserve">
+    <value>Grafik öğeleri tanımlamak son kullanıcılara yardımcı olan gösterge göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartXAxisSettingsDescription" xml:space="preserve">
+    <value>Görünürlük ve eksen başlığı gibi çeşitli x ekseni ayarları özelleştirin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartYAxisSettingsDescription" xml:space="preserve">
+    <value>Görünürlük, başlık gibi çeşitli y ekseni ayarları özelleştirmek ve aralığı görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearFilterDescription" xml:space="preserve">
+    <value>Filtre ölçütüyle sıfırlamak ve süzme işlemini kapatın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearMasterFilter" xml:space="preserve">
+    <value>Ana filtreyi temizle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInColumnsDescription" xml:space="preserve">
+    <value>Belirtilen sütun sayısı içindeki öğeleri düzenlemek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInRowsDescription" xml:space="preserve">
+    <value>Belirtilen satır sayısını öğeleri düzenlemek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentAutoArrangeDescription" xml:space="preserve">
+    <value>Sütun ve satır sayısını otomatik olarak tanımlanan.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandCrossDataSourceFilteringDescription" xml:space="preserve">
+    <value>Marka kontrol paneli bu ana filtre tarafından etkilenen diğer veri kaynaklarından görüntü veri öğelerinin. Veri öğeleri eşleştir takdirde bu durumda filtreleme yapılır.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardTitleDescription" xml:space="preserve">
+    <value>Girin veya metin düzenleme ve kontrol paneli başlık için bir resim seçin.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomCenterHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve diyagram altına hizalayın. Göstergeyi yatay olarak yönlendir.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomCenterHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve alt dışındaki diyagramı grafiğin hizalayın. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomCenterVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve diyagram altına hizalayın. Göstergeyi dikey yönlendir.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomLeftHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Hizala diyagramı sol alt köşesine efsaneye. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomLeftVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Hizala diyagramı sol alt köşesine efsaneye. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Diyagramı sağ alt köşede efsaneye Hizala. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>İçin sağ alt köşedeki dışındaki diyagramı grafiğin gösterge Hizala. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Diyagramı sağ alt köşede efsaneye Hizala. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightVerticalOutsideLegendPosition" xml:space="preserve">
+    <value>İçin sağ alt köşedeki dışındaki diyagramı grafiğin gösterge Hizala. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopCenterHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve diyagram üst hizalayın. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopCenterHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve dışındaki diyagramı grafiğin üst hizalayın. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopCenterVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve diyagram üst hizalayın. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Hizala tepeye efsaneye diyagramı sol köşesinde. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>Hizala üst gösterge grafik diyagramı dışında sol köşesinde. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Hizala tepeye efsaneye diyagramı sol köşesinde. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftVerticalOutsideLegendPosition" xml:space="preserve">
+    <value>Hizala üst gösterge grafik diyagramı dışında sol köşesinde. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Diyagramı sağ üst köşesinde efsaneye Hizala. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>Hizala Göstergeyi grafiğin dışında Diyagramı sağ üst köşesinde için. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Diyagramı sağ üst köşesinde efsaneye Hizala. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightVerticalOutsideLegendPosition" xml:space="preserve">
+    <value>Hizala Göstergeyi grafiğin dışında Diyagramı sağ üst köşesinde için. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartRotateCaption" xml:space="preserve">
+    <value>Döndürme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartRotateDescription" xml:space="preserve">
+    <value>Diyagramı 90 ° döndürün.</value>
+  </data>
+  <data name="DashboardWinStringId.UndoRedoActionsCount" xml:space="preserve">
+    <value>{0} {1} Eylemleri</value>
+  </data>
+  <data name="DashboardWinStringId.UndoRedoSingleAction" xml:space="preserve">
+    <value>{0} {1} eylemi</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDashboardCaption" xml:space="preserve">
+    <value>Kontrol paneli</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeLabelsCaption" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridCellsCaption" xml:space="preserve">
+    <value>Hücreler</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageOpenCaption" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageSizeModeCaption" xml:space="preserve">
+    <value>Boyut Modu</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieLabelsCaption" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryGridToolsName" xml:space="preserve">
+    <value>Tablo Araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryImageToolsName" xml:space="preserve">
+    <value>Resim Araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryPiesToolsName" xml:space="preserve">
+    <value>Pasta Araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryPivotToolsName" xml:space="preserve">
+    <value>Özet Araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageDashboardCaption" xml:space="preserve">
+    <value>Kontrol paneli</value>
+  </data>
+  <data name="DashboardWinStringId.MessageConfirmUnpinnedItemsRemove" xml:space="preserve">
+    <value>Tüm sabitlenmemiş öğeleri listeden kaldırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitOnesCaption" xml:space="preserve">
+    <value>Olanlar</value>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemOpenCommand" xml:space="preserve">
+    <value>&amp;Aç</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnHeadersDescription" xml:space="preserve">
+    <value>Sütun Başlıklarını Göster:.</value>
+  </data>
+  <data name="DashboardWinStringId.MenuDimensionSortBy" xml:space="preserve">
+    <value>Sıralama ölçütü</value>
+  </data>
+  <data name="DashboardWinStringId.TooltipSortAscending" xml:space="preserve">
+    <value>Sıralama alanı A'dan Z'ye</value>
+  </data>
+  <data name="DashboardWinStringId.TooltipSortDescending" xml:space="preserve">
+    <value>Sıralama alanlarını Z'den A'ya</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertImageCaption" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserRemoveCalculatedFieldMenuItem" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserRenameCalculatedFieldMenuItem" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupElements" xml:space="preserve">
+    <value>Öğeler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectOtherValues" xml:space="preserve">
+    <value>Değerleri</value>
+  </data>
+  <data name="DashboardWinStringId.MapGalleryHorizontalGroupCaption" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DashboardWinStringId.MapGalleryVerticalGroupCaption" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardParametersCaption" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDashboardParametersCaption" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DashboardWinStringId.BarHomeName" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeBar" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearDataSourceFilterCaption" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearFilterCaption" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapShapefileCaption" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeArea" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeLine" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextRibbonCaption" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeStretchCaption" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDesign" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="DashboardWinStringId.BarViewName" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentCaption" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentDescription" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentCaption" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentDescription" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapLegendPositionCaption" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChartCaption" xml:space="preserve">
+    <value>Grafik</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsSeriesCaption" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="DashboardWinStringId.BarDataSourceName" xml:space="preserve">
+    <value>Veri Kaynağı</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDataSource" xml:space="preserve">
+    <value>Veri Kaynağı</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeZoomCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DashboardWinStringId.BarDashboardCaption" xml:space="preserve">
+    <value>Kontrol paneli</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerDefaultDashboardName" xml:space="preserve">
+    <value>Kontrol paneli</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertCardsCaption" xml:space="preserve">
+    <value>Kartlar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGaugesCaption" xml:space="preserve">
+    <value>Ölçü aygıtları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceFilterCaption" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridParametersLookUpDynamicList" xml:space="preserve">
+    <value>Dinamik Liste</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridParametersLookUpStaticList" xml:space="preserve">
+    <value>Statik Liste</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartRemovePaneCaption" xml:space="preserve">
+    <value>Bölmesini Kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryMapToolsName" xml:space="preserve">
+    <value>Harita Araçları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapWorldCountriesCaption" xml:space="preserve">
+    <value>Dünya ülkeleri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridHorizontalLinesDescription" xml:space="preserve">
+    <value>Yatay kılavuz çizgilerini göster:.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridMergeCellsCaption" xml:space="preserve">
+    <value>Hücreleri birleştirme</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupInteractivitySettingsCaption" xml:space="preserve">
+    <value>Etkileşim ayarları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapCaption" xml:space="preserve">
+    <value>Harita</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeMode" xml:space="preserve">
+    <value>Boyut Modu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChoroplethMapCaption" xml:space="preserve">
+    <value>Choropleth Haritası</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGridCaption" xml:space="preserve">
+    <value>Kılavuz</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapCanadaCaption" xml:space="preserve">
+    <value>Kanada</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapDefaultShapefileCaption" xml:space="preserve">
+    <value>Varsayılan harita</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapDefaultShapefileDescription" xml:space="preserve">
+    <value>Varsayılan harita yükle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapEuropeCaption" xml:space="preserve">
+    <value>Avrupa</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapFullExtentCaption" xml:space="preserve">
+    <value>Tam ölçüde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapFullExtentDescription" xml:space="preserve">
+    <value>Tam ölçüde.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapSouthAmericaCaption" xml:space="preserve">
+    <value>Güney Amerika</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapUSACaption" xml:space="preserve">
+    <value>ABD</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionTopN" xml:space="preserve">
+    <value>İlk N...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDrillDownCaption" xml:space="preserve">
+    <value>Ayrıntıya inme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceFilterDescription" xml:space="preserve">
+    <value>Geçerli veri kaynağı Filtresini Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditFilterCaption" xml:space="preserve">
+    <value>... Filtresini Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearHorizontalDescription" xml:space="preserve">
+    <value>Ekran yatay doğrusal ölçerler.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearVerticalDescription" xml:space="preserve">
+    <value>Ekran dikey doğrusal ölçerler.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleRightQuarterCircularCaption" xml:space="preserve">
+    <value>Sağ-çeyrek daire</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleThreeFourthCircularCaption" xml:space="preserve">
+    <value>Üç-dört daire</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridBandedRowsCaption" xml:space="preserve">
+    <value>Satır bantları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopRightDescription" xml:space="preserve">
+    <value>Sağ Üst</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndPercentCaption" xml:space="preserve">
+    <value>Bağımsız değişken ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndPercentDescription" xml:space="preserve">
+    <value>Bağımsız değişken ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndValueCaption" xml:space="preserve">
+    <value>Bağımsız değişken ve değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndValueDescription" xml:space="preserve">
+    <value>Bağımsız değişken ve değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentValueAndPercentCaption" xml:space="preserve">
+    <value>Bağımsız değişken, değeri ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentValueAndPercentDescription" xml:space="preserve">
+    <value>Bağımsız değişken, değeri ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsCaption" xml:space="preserve">
+    <value>Araç ipuçları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieShowCaptionsCaption" xml:space="preserve">
+    <value>Pasta açıklamalı alt yazıları göster</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUnsupportedCaption" xml:space="preserve">
+    <value>Desteklenmeyen eylem</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerCaption" xml:space="preserve">
+    <value>Pano Tasarımcısı</value>
+  </data>
+  <data name="DashboardWinStringId.FileFilterDashboards" xml:space="preserve">
+    <value>Pano dosyaları</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDataItemDateTimeFormat" xml:space="preserve">
+    <value>' {0}' Tarih-saat biçimini belirleme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDataItemNumericFormat" xml:space="preserve">
+    <value>' {0}' Sayısal biçimini belirleme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDeleteDataSource" xml:space="preserve">
+    <value>' {0}' Veri kaynağı silme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDisabling" xml:space="preserve">
+    <value>Devre dışı bırakma</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDuplicateItem" xml:space="preserve">
+    <value>' {0}' bir kopyasını oluşturun</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemInsertItem" xml:space="preserve">
+    <value>' {0}' Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.MessageNullDashboard" xml:space="preserve">
+    <value>Pano özelliği ayarlanamaz NULL.</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDataSource" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="DashboardWinStringId.ChartPrimaryAxisTypeName" xml:space="preserve">
+    <value>Birincil eksen</value>
+  </data>
+  <data name="DashboardWinStringId.ChartSecondaryAxisTypeName" xml:space="preserve">
+    <value>İkincil eksen</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartAddPaneDescription" xml:space="preserve">
+    <value>Bu grafiği içinde yeni bir bölme oluşturmak.</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeWinLoss" xml:space="preserve">
+    <value>Kazanç/kayıp</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupRangeFilterSeriesTypeCaption" xml:space="preserve">
+    <value>Dizi türü</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryGaugesToolsName" xml:space="preserve">
+    <value>Ölçme araçları</value>
+  </data>
+  <data name="DashboardWinStringId.WeightedLegendGalleryGroupCaption" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DashboardWinStringId.PrintPreviewOptionsFormCaption" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRenameDataSourceCaption" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGridCaption" xml:space="preserve">
+    <value>Kılavuz</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNoneTypeCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToChartCaption" xml:space="preserve">
+    <value>Grafik</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToCardCaption" xml:space="preserve">
+    <value>Kartlar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGaugeCaption" xml:space="preserve">
+    <value>Ölçü aygıtları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPivotCaption" xml:space="preserve">
+    <value>Pivot</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToRangeFilterCaption" xml:space="preserve">
+    <value>Aralık filtresi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSingleMasterFilterCaption" xml:space="preserve">
+    <value>Tek yönetici filtresi</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsArgumentsCaption" xml:space="preserve">
+    <value>Bağımsız değişkenler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsArgumentsDescription" xml:space="preserve">
+    <value>Bağımsız değişkenler ana filtre uygulamak ve ayrıntıya inme gerçekleştirmek için kullanılır</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUnsupportedDescription" xml:space="preserve">
+    <value>Bu eylem Pano Tasarımcısı geçerli sürümü tarafından desteklenmiyor.
+
+Lütfen uygulama satıcınıza başvurun.</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserCalculatedFieldTypeMenuItem" xml:space="preserve">
+    <value>Alan türü</value>
+  </data>
+  <data name="DashboardWinStringId.DragAreaHasNotDashboardItemMessage" xml:space="preserve">
+    <value>Kullanılabilir veri öğeleri görmek için pano öğesini seçin</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemCalculatedFieldExpression" xml:space="preserve">
+    <value>İçin ' {0}' ifadesini Değiştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemCalculatedFieldName" xml:space="preserve">
+    <value>'{1}' ' {0}' Yeniden adlandırma</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemCalculatedFieldType" xml:space="preserve">
+    <value>İçin ' {0}' alanı türünü değiştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDataItemRename" xml:space="preserve">
+    <value>{0} veri öğesini yeniden adlandırma</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditDashboardParameters" xml:space="preserve">
+    <value>Pano parametrelerini Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.MessageInteractivityDashboardItemNotFound" xml:space="preserve">
+    <value>Sağlanan adda bir Pano öğesi bulunamıyor. Lütfen doğru adı belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.MessageInteractivityOperationNotAvailable" xml:space="preserve">
+    <value>Gerekli eylem bu pano öğesi için şu an hazır değil.</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupCommonCaption" xml:space="preserve">
+    <value>Ortak</value>
+  </data>
+  <data name="DashboardWinStringId.CommandAddCalculatedFieldCaption" xml:space="preserve">
+    <value>Hesaplanan alan ekleme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAfricaCaption" xml:space="preserve">
+    <value>Afrika</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAsiaCaption" xml:space="preserve">
+    <value>Asya</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapCanadaDescription" xml:space="preserve">
+    <value>Kanada Haritası yüklenemedi.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapEuropeDescription" xml:space="preserve">
+    <value>Avrupa Haritası yüklenemedi.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapImportDescription" xml:space="preserve">
+    <value>. Pano haritanın bir kopyasını depolar.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLegendPositionCaption" xml:space="preserve">
+    <value>Gösterge konumu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapNorthAmericaCaption" xml:space="preserve">
+    <value>Kuzey Amerika</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapNorthAmericaDescription" xml:space="preserve">
+    <value>Kuzey Amerika Haritası yüklenemedi.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapSouthAmericaDescription" xml:space="preserve">
+    <value>Güney Amerika Haritası yüklenemedi.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMultipleMasterFilterCaption" xml:space="preserve">
+    <value>Birden çok ana filtre</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMultipleMasterFilterDescription" xml:space="preserve">
+    <value>Birden çok ana filtre etkinleştirin.
+Pano öğesi içinde birden çok öğe seçtiğinizde, diğer Pano öğeleri yalnızca seçtiğiniz öğelere karşılık gelen verileri görüntüleyin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDataItemRename" xml:space="preserve">
+    <value>Yeniden adlandır...</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupHome" xml:space="preserve">
+    <value>Ana sayfa</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupInteractivityCaption" xml:space="preserve">
+    <value>Etkileşim</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupItemsCaption" xml:space="preserve">
+    <value>Madde</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTargetDimensions" xml:space="preserve">
+    <value>Hedef boyut</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageLoadRibbonCaption" xml:space="preserve">
+    <value>Resim Yükle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertBubbleMapCaption" xml:space="preserve">
+    <value>Kabarcık Haritası</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAfricaDescription" xml:space="preserve">
+    <value>Afrika Haritası yükle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAsiaDescription" xml:space="preserve">
+    <value>Asya Haritası yükle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLegendPositionDescription" xml:space="preserve">
+    <value>Haritası gösterge konumunu değiştirin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLoadCaption" xml:space="preserve">
+    <value>Harita Yükle...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLoadRibbonCaption" xml:space="preserve">
+    <value>Harita Yükle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapShowLegendCaption" xml:space="preserve">
+    <value>Renkli Gösterge Göster</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapUSADescription" xml:space="preserve">
+    <value>USA Haritası yükle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditFilterRibbonCaption" xml:space="preserve">
+    <value>Filtreyi Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandExportTo" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleHalfCircularCaption" xml:space="preserve">
+    <value>Yarım-daire</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGeoPointMapClusterizationCaption" xml:space="preserve">
+    <value>Kümeleme etkinleştir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChangeWeightedLegendTypeCaption" xml:space="preserve">
+    <value>Ağırlıklı gösterge göster</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChangeWeightedLegendTypeDescription" xml:space="preserve">
+    <value>Harita öğelerini belirlemek son kullanıcılara yardımcı olan ağırlıklı gösterge göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartAddPaneCaption" xml:space="preserve">
+    <value>Bölme Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartLegendPositionDescription" xml:space="preserve">
+    <value>İçinde grafik gösterge konumunu değiştirin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartSeriesTypeCaption" xml:space="preserve">
+    <value>Seri Türü</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartSeriesTypeDescription" xml:space="preserve">
+    <value>Serisi grafik türünü değiştirin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNumericFormat" xml:space="preserve">
+    <value>Format...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangementCountCaption" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangementCountDescription" xml:space="preserve">
+    <value>Sütun veya satır sayısı.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToBubbleMapCaption" xml:space="preserve">
+    <value>Kabarcık Haritası</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndPercentCaption" xml:space="preserve">
+    <value>Değişken ve Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndPercentDescription" xml:space="preserve">
+    <value>Değişken ve Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndValueCaption" xml:space="preserve">
+    <value>Değişken ve Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndValueDescription" xml:space="preserve">
+    <value>Değişken ve Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopRightCaption" xml:space="preserve">
+    <value>Sağ Üst</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapNavigationCaption" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartSeriesTypeCaption" xml:space="preserve">
+    <value>Dizi türü</value>
+  </data>
+  <data name="DashboardWinStringId.CommandExportToImage" xml:space="preserve">
+    <value>Resim olarak dışa aktar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeSqueezeCaption" xml:space="preserve">
+    <value>Sıkıştır</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapInitialExtentCaption" xml:space="preserve">
+    <value>İlk ölçüde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapInitialExtentDescription" xml:space="preserve">
+    <value>İlk ölçüde.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDashboardDescription" xml:space="preserve">
+    <value>Yeni bir Pano oluşturun.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentCaption" xml:space="preserve">
+    <value>Bağımsız değişken, değeri ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentDescription" xml:space="preserve">
+    <value>Bağımsız değişken, değeri ve yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieMapIsWeightedCaption" xml:space="preserve">
+    <value>Ağırlıklı pasta</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStyleDonutCaption" xml:space="preserve">
+    <value>Donut</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRemoveDataItemsCaption" xml:space="preserve">
+    <value>Veri öğelerini kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRemoveDataItemsDescription" xml:space="preserve">
+    <value>Pano öğesi için bağları kaldır.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectDashboardCaption" xml:space="preserve">
+    <value>Panoyu seçin</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectDashboardDescription" xml:space="preserve">
+    <value>Geçerli panoyu seçin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandServerModeCaption" xml:space="preserve">
+    <value>Sunucu modu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandServerModeDescription" xml:space="preserve">
+    <value>Sunucu modunu etkinleştir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridVerticalLinesDescription" xml:space="preserve">
+    <value>Dikey kılavuz çizgilerini göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandExportToPdf" xml:space="preserve">
+    <value>PDF Olarak Dışa Aktar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLeftQuarterCircularCaption" xml:space="preserve">
+    <value>Sol çeyrek daire</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDrillUp" xml:space="preserve">
+    <value>Yukarı ayrıntıya</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDashboardParametersDescription" xml:space="preserve">
+    <value>Geçerli Pano parametrelerini Düzenle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandCrossDataSourceFilteringCaption" xml:space="preserve">
+    <value>Çapraz veri kaynağı filtre uygulama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardParametersDescription" xml:space="preserve">
+    <value>Geçerli Pano parametrelerini Düzenle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendLinearTypeCaption" xml:space="preserve">
+    <value>Doğrusal</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNestedTypeCaption" xml:space="preserve">
+    <value>İç içe</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserCalculatedFieldExpressionEditorMenuItem" xml:space="preserve">
+    <value>İfade Düzenle...</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceEmptyNameMessage" xml:space="preserve">
+    <value>Veri kaynağı adı boş olamaz.</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeNoIndicationCaption" xml:space="preserve">
+    <value>Hiçbir belirti</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartRemovePane" xml:space="preserve">
+    <value>' {0}' Bölmesinde ' {1}' Kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemFilterDataSource" xml:space="preserve">
+    <value>Veri kaynağı '{0}' filtre</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGaugeRange" xml:space="preserve">
+    <value>' {0}' Ayarlarını değiştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGeoPointMapCusterization" xml:space="preserve">
+    <value>{0} ' {1}' için kümeleme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapAttribute" xml:space="preserve">
+    <value>Değişim içinde ' {0}' özniteliği bağlama</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapDelta" xml:space="preserve">
+    <value>İçinde ' {0}' delta seçeneklerini değiştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapShowLegend" xml:space="preserve">
+    <value>{0} renk göstergesi için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomCenterWeightedLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve haritanın alt kısmına hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopCenterWeightedLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve harita üstüne hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxConfirmationTitle" xml:space="preserve">
+    <value>Onay</value>
+  </data>
+  <data name="DashboardWinStringId.MessageCollectionTypesNotSupported" xml:space="preserve">
+    <value>Pano koleksiyon türleri desteklemez.</value>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemUnpinCommand" xml:space="preserve">
+    <value>Sabitlemesini Kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.CommandShowCaptionDescription" xml:space="preserve">
+    <value>Pano öğesinin başlığını göster:.</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFiltering" xml:space="preserve">
+    <value>Filtre uygulama</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFilteringCaption" xml:space="preserve">
+    <value>Filtre uygulama</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGeoPointMapClusterizationCaption" xml:space="preserve">
+    <value>Kümeleme</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieMapOptionsCaption" xml:space="preserve">
+    <value>Pasta seçenekleri</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupWeightedLegendPositionCaption" xml:space="preserve">
+    <value>Ağırlıklı Gösterge</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryBubbleMapToolsName" xml:space="preserve">
+    <value>Kabarcık Haritası Araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryPieMapToolsName" xml:space="preserve">
+    <value>Pasta harita araçları</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryChoroplethMapToolsName" xml:space="preserve">
+    <value>Choropleth Harita Araçları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendLinearTypeDescription" xml:space="preserve">
+    <value>Harita öğelerini belirlemek son kullanıcılara yardımcı olan doğrusal ağırlıklı gösterge göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNestedTypeDescription" xml:space="preserve">
+    <value>Harita öğelerini belirlemek son kullanıcılara yardımcı olan iç içe ağırlıklı gösterge göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CurrencyInvariantRegion" xml:space="preserve">
+    <value>Tanımsız</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfGreaterCaption" xml:space="preserve">
+    <value>Daha büyükse uyar</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfLessCaption" xml:space="preserve">
+    <value>Daha az ise uyar</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEnabling" xml:space="preserve">
+    <value>Etkinleştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemRemoveCalculatedField" xml:space="preserve">
+    <value>Hesaplanan alanı ' {0}' Kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemClearFilesCommand" xml:space="preserve">
+    <value>&amp; Açık sabitlenmemiş panolar</value>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemClearFoldersCommand" xml:space="preserve">
+    <value>&amp; Açık sabitlenmemiş klasörler</value>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemRemoveCommand" xml:space="preserve">
+    <value>&amp; listeden kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeDisplayText" xml:space="preserve">
+    <value>(Görüntü metni)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeID" xml:space="preserve">
+    <value>(ID)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeKey" xml:space="preserve">
+    <value>(Anahtar)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeValue" xml:space="preserve">
+    <value>(Değer)</value>
+  </data>
+  <data name="DashboardWinStringId.TooltipGroupByType" xml:space="preserve">
+    <value>Alanları Türe Göre Grupla</value>
+  </data>
+  <data name="DashboardWinStringId.CommandOpenDashboardDescription" xml:space="preserve">
+    <value>Pano dosyasını açın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRenameDataSourceDescription" xml:space="preserve">
+    <value>Geçerli veri kaynağı yeniden adlandırmak.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveDashboardDescription" xml:space="preserve">
+    <value>Panoyu kaydedin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTransposeItemCaption" xml:space="preserve">
+    <value>İşlemi tersine çevir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapShowLegendDescription" xml:space="preserve">
+    <value>Harita öğelerini belirlemek son kullanıcılara yardımcı olan renkli gösterge göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapWorldCountriesDescription" xml:space="preserve">
+    <value>Bir dünya haritası yükle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterLeftCaption" xml:space="preserve">
+    <value>Merkezi Sola Hizala</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleRightQuarterCircularDescription" xml:space="preserve">
+    <value>Sağ çeyrek dairesel ölçerleri görüntüle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearDataSourceFilterDescription" xml:space="preserve">
+    <value>Geçerli veri kaynağı filtresini temizleyin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInColumnsCaption" xml:space="preserve">
+    <value>Sütunları düzenlemek</value>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInRowsCaption" xml:space="preserve">
+    <value>Satırları düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertDashboardItemTypeCaption" xml:space="preserve">
+    <value>Dönüştürme</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryGeoPointMapToolsName" xml:space="preserve">
+    <value>Geo noktası araçları göster</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListCreateBarsTransaction" xml:space="preserve">
+    <value>Çubukları oluşturmak</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodCreateBarsItem" xml:space="preserve">
+    <value>Çubukları oluşturmak</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemAddCalculatedField" xml:space="preserve">
+    <value>Eklemek hesaplanan alan ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemBubbleMapOptions" xml:space="preserve">
+    <value>' {0}' için kabarcık harita seçeneklerini değiştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChangeMapViewport" xml:space="preserve">
+    <value>Değişim harita ölçüde içinde '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChangeWeightedLegendType" xml:space="preserve">
+    <value>Gösterge türü için ' {0}' değişiklik ağırlıklı</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartAddPane" xml:space="preserve">
+    <value>'{0}' Yeni bölmesi Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartLegendPosition" xml:space="preserve">
+    <value>İçin ' {0}' gösterge konumunu değiştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartSeriesType" xml:space="preserve">
+    <value>'{0}' Serisi seçeneklerini değiştirme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartXAxisSettings" xml:space="preserve">
+    <value>Değiştir x ekseni ayarları için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartYAxisSettings" xml:space="preserve">
+    <value>değişim Y ekseni ayarları için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemContentArrangement" xml:space="preserve">
+    <value>için ' {0}' düzenleme ayarlarını değiştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemConvertDashboardItemType" xml:space="preserve">
+    <value>' {0}' {1} dönüştürmek</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionSpecifyTopN" xml:space="preserve">
+    <value>Takım üst N için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDisableWeightedLegend" xml:space="preserve">
+    <value>Devre dışı bırakmak için ' {0}' ağırlıklı gösterge</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditDashboardTitle" xml:space="preserve">
+    <value>Pano Başlığı düzenlemek</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapOpen" xml:space="preserve">
+    <value>'{0}' Yük harita</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMultipleMasterFilter" xml:space="preserve">
+    <value>{0} Birden fazla ana filtre için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieMapIsWeighted" xml:space="preserve">
+    <value>' {0}' için ' {1}' pies ağırlıklı</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemRenameDataSource" xml:space="preserve">
+    <value>' {0}' veri kaynağı yeniden adlandırmak</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemRestoreMapViewport" xml:space="preserve">
+    <value>' {0}' ölçüde harita geri yükleme</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemServerMode" xml:space="preserve">
+    <value>{0} sunucu modu için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemSingleMasterFilter" xml:space="preserve">
+    <value>{0} tek yönetici Filtresi için ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemTargetDimensions" xml:space="preserve">
+    <value>' {0}' Değiştir etkileşim seçeneklerini</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomCenterHorizontalLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve haritanın alt kısmına hizalayın. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomCenterVerticalLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve haritanın alt kısmına hizalayın. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomLeftHorizontalLegendPosition" xml:space="preserve">
+    <value>Hizala haritanın sol alt köşesine efsaneye. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomLeftVerticalLegendPosition" xml:space="preserve">
+    <value>Hizala haritanın sol alt köşesine efsaneye. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomLeftWeightedLegendPosition" xml:space="preserve">
+    <value>Efsane için haritanın sol alt köşesine hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomRightHorizontalLegendPosition" xml:space="preserve">
+    <value>Hizala haritanın sağ alt köşede efsaneye. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomRightVerticalLegendPosition" xml:space="preserve">
+    <value>Hizala haritanın sağ alt köşede efsaneye. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomRightWeightedLegendPosition" xml:space="preserve">
+    <value>Haritanın sağ alt köşede efsaneye hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopCenterHorizontalLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve harita üstüne hizalayın. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopCenterVerticalLegendPosition" xml:space="preserve">
+    <value>Göstergeyi yatay olarak ortalayın ve harita üstüne hizalayın. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopLeftHorizontalLegendPosition" xml:space="preserve">
+    <value>Hizala efsane üst sol köşesinde. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopLeftVerticalLegendPosition" xml:space="preserve">
+    <value>Hizala efsane üst sol köşesinde. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopLeftWeightedLegendPosition" xml:space="preserve">
+    <value>Efsane için haritanın sol üst köşesine hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopRightHorizontalLegendPosition" xml:space="preserve">
+    <value>Hizala haritanın sağ üst köşesindeki efsaneye. Göstergeyi yatay olarak yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopRightVerticalLegendPosition" xml:space="preserve">
+    <value>Hizala haritanın sağ üst köşesindeki efsaneye. Göstergeyi dikey yönlendirmek.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopRightWeightedLegendPosition" xml:space="preserve">
+    <value>Haritanın sağ üst köşesindeki efsaneye hizalayın.</value>
+  </data>
+  <data name="DashboardWinStringId.MessageDataProcessingModeChanging" xml:space="preserve">
+    <value>Bu işlem saat önemli miktarda alabilir. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="DashboardWinStringId.MessageServerFailedCalculatedFields" xml:space="preserve">
+    <value>Aşağıdaki alanları sunucu modunda değerlendirilen hesaplanır:</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGaugeViewType" xml:space="preserve">
+    <value>Gösterge görünüm tipini değiştir '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCannotRenderData" xml:space="preserve">
+    <value>Belirtilen verileri bir grafikte işlenemiyor.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartInsideVerticalGalleryGroupCaption" xml:space="preserve">
+    <value>Dikey içinde</value>
+  </data>
+  <data name="DashboardWinStringId.ChartOutsideHorizontalGalleryGroupCaption" xml:space="preserve">
+    <value>Yatay Dışında</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageLoadCaption" xml:space="preserve">
+    <value>Yükleme görüntüsü...</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceNameExistsMessage" xml:space="preserve">
+    <value>Veri kaynağını belirtilen adı taşıyan varolan.</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerEmptyMessage" xml:space="preserve">
+    <value>Pano öğesi tablosuna eklemek için şerit i veya araç ilgili düğmeye basınız</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGeoPointMapCaption" xml:space="preserve">
+    <value>Eşleme Geo noktası</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGeoPointMapsCaption" xml:space="preserve">
+    <value>Geo noktası haritalar</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditFilter" xml:space="preserve">
+    <value>için ' {0}' Filtre Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListUpdateBarsTransaction" xml:space="preserve">
+    <value>Güncelleştirme barlar</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListUpdateRibbonTransaction" xml:space="preserve">
+    <value>Şerit Güncelleştir</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodUpdateBarsItem" xml:space="preserve">
+    <value>Güncelleştirme barlar</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodUpdateRibbonItem" xml:space="preserve">
+    <value>Şerit Güncelleştir</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapLockNavigation" xml:space="preserve">
+    <value>Kilit harita navigasyon için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.MessageWrongAxisName" xml:space="preserve">
+    <value>Belirtilen ada sahip bir veri ekseni bu pano öğesi yok. DevExpress.DashboardCommon.DashboardDataAxisNames statik sınıf için geçerli veri eksen adları bkz.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLockNavigationDescription" xml:space="preserve">
+    <value>Yakınlaştırma ve kaydırma kilit göster.</value>
+  </data>
+  <data name="DashboardWinStringId.MenuRemoveColor" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridLayoutCaption" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTreeViewLayoutCaption" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteGroupCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DashboardWinStringId.MenuResetColor" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapShapeLabelsAttributeCaption" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridWordWrapCaption" xml:space="preserve">
+    <value>Sözcük kaydır</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorSchemeValueAlreadyExistsCaption" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorTableAlreadyExistsCaption" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="DashboardWinStringId.CommandComboBoxCheckedTypeCaption" xml:space="preserve">
+    <value>İşaretli</value>
+  </data>
+  <data name="DashboardWinStringId.CommandListBoxCheckedTypeCaption" xml:space="preserve">
+    <value>İşaretli</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridStyleCaption" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridManualGridColumnWidthModeCaption" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDashboardItemGroup" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGroupCaption" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGroupsCaption" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatHour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMinute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMonth" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatQuarter" xml:space="preserve">
+    <value>Üç aylık dönem</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatSecond" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatYear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPieCaption" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPiesCaption" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStyleDonutDescription" xml:space="preserve">
+    <value>Donut görüntüle</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeAdd" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyleAppearance" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeDelete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBetween" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditEFDataSourceCaption" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditObjectDataSourceCaption" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceDataMember" xml:space="preserve">
+    <value>Veri Öğesi</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyTo" xml:space="preserve">
+    <value>Apply to</value>
+  </data>
+  <data name="DashboardWinStringId.GridClearSortingMenuItemCaption" xml:space="preserve">
+    <value>Sıralamayı Temizle</value>
+  </data>
+  <data name="DashboardWinStringId.GridClearSortingMenuItemDescription" xml:space="preserve">
+    <value>Sıralamayı Temizle</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortAscendingMenuItemCaption" xml:space="preserve">
+    <value>Artan sıralama</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortAscendingMenuItemDescription" xml:space="preserve">
+    <value>Artan sıralama</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortDescendingMenuItemCaption" xml:space="preserve">
+    <value>Azalan sıralama</value>
+  </data>
+  <data name="DashboardWinStringId.GridSortDescendingMenuItemDescription" xml:space="preserve">
+    <value>Azalan sıralama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveBelowAverage" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDataMember" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRange" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleExpression" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceCustom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontBold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontItalic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontUnderline" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceBlue" xml:space="preserve">
+    <value>Mavi</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGreen" xml:space="preserve">
+    <value>Yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceRed" xml:space="preserve">
+    <value>Kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceYellow" xml:space="preserve">
+    <value>Sarı</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionBetweenAndCaption" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageImportCaption" xml:space="preserve">
+    <value>Resim yükle</value>
+  </data>
+  <data name="DashboardWinStringId.MenuFormatRulesAdd" xml:space="preserve">
+    <value>Biçim Kuralı Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceQuery" xml:space="preserve">
+    <value>Sorgu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBetweenDescription" xml:space="preserve">
+    <value>Arasında olan {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBetweenOrEqualDescription" xml:space="preserve">
+    <value>Arasında büyük veya eşit olan {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBottomN" xml:space="preserve">
+    <value>Alt N</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleContainsDescription" xml:space="preserve">
+    <value>Metni içeren {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThan" xml:space="preserve">
+    <value>Daha büyük</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleEqualTo" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThanOrEqualTo" xml:space="preserve">
+    <value>Küçük veya eşit</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleTopN" xml:space="preserve">
+    <value>Üst N</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleNotBetween" xml:space="preserve">
+    <value>Arasında değil</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveAverage" xml:space="preserve">
+    <value>Ortalamanın üstünde</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBelowAverage" xml:space="preserve">
+    <value>Ortalamanın altında</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBelowAverageDescription" xml:space="preserve">
+    <value>Ortalamanın altında olan {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeSql" xml:space="preserve">
+    <value>Veritabanı</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyleIcons" xml:space="preserve">
+    <value>Simgeler</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleDataItemIsNotAvailable" xml:space="preserve">
+    <value>(N/A)</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleFormatStyle" xml:space="preserve">
+    <value>Biçim Stili</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleInvalidRuleChanging" xml:space="preserve">
+    <value>Geçersiz kural etkinleştirilemez.</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRulePercentOf" xml:space="preserve">
+    <value>tüm değerlerin %</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeSegmentNumber" xml:space="preserve">
+    <value>Aralık sayısı:</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleDataItemsAll" xml:space="preserve">
+    <value>[Tüm]</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeReverseStyles" xml:space="preserve">
+    <value>Ters çevir</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardFormatConditionPercentValue" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThan" xml:space="preserve">
+    <value>Daha az</value>
+  </data>
+  <data name="DashboardWinStringId.RemoveGridColumnTotalBarItemCaption" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteQueryCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRenameQueryCaption" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupScatterChartLabelsCaption" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalAutoBarItemCaption" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionNumberValueType" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionPercentValueType" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionMinMaxValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsPointsCaption" xml:space="preserve">
+    <value>Noktalar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBar" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAutomaticValueType" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditExcelDataSourceCaption" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditQueryCaption" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditQueryFilterCaption" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="DashboardWinStringId.UpdateDataCaption" xml:space="preserve">
+    <value>Güncelleştirme</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalCountBarItemCaption" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalAvgBarItemCaption" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalMaxBarItemCaption" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalMinBarItemCaption" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnTotalSumBarItemCaption" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DashboardWinStringId.CommandScatterChartLegendPositionCaption" xml:space="preserve">
+    <value>Gösterge konumu</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeCaption" xml:space="preserve">
+    <value>Kavşak modu</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleGray" xml:space="preserve">
+    <value>Soluk gri</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePalePurple" xml:space="preserve">
+    <value>Soluk mor</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleRed" xml:space="preserve">
+    <value>Soluk kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleYellow" xml:space="preserve">
+    <value>Soluk sarı</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientTransparent" xml:space="preserve">
+    <value>Saydam Gradyan</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientYellow" xml:space="preserve">
+    <value>Degrade sarı</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionMaximumCaption" xml:space="preserve">
+    <value>Max =</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionMinimumCaption" xml:space="preserve">
+    <value>Min =</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeExcel" xml:space="preserve">
+    <value>Microsoft Excel çalışma kitabı / CSV dosyası</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyle" xml:space="preserve">
+    <value>Stil ayarları</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleNegativeStyle" xml:space="preserve">
+    <value>Negatif stil ayarları</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeGenerateRanges" xml:space="preserve">
+    <value>Aralıkları oluşturmak</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowColumnTotalsCaption" xml:space="preserve">
+    <value>Sütun toplamlarını göster</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRenameQueryDescription" xml:space="preserve">
+    <value>Seçili sorguyu yeniden adlandırın.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandScatterChartShowLegendCaption" xml:space="preserve">
+    <value>Gösterge göster</value>
+  </data>
+  <data name="DashboardWinStringId.CommandScatterChartXAxisSettingsCaption" xml:space="preserve">
+    <value>X ekseni ayarları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandScatterChartYAxisSettingsCaption" xml:space="preserve">
+    <value>Y ekseni ayarları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertScatterChartCaption" xml:space="preserve">
+    <value>Dağılım grafiği</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardFormatConditionBetweenOrEqualTemplate" xml:space="preserve">
+    <value>{0} [{1}, {2}]</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardFormatConditionBetweenTemplate" xml:space="preserve">
+    <value>{0} ({1}, {2})</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardFormatConditionTemplate" xml:space="preserve">
+    <value>{0} ({1}{2})</value>
+  </data>
+  <data name="DashboardWinStringId.AddGridColumnTotalBarItemCaption" xml:space="preserve">
+    <value>Toplam Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandAddQueryCaption" xml:space="preserve">
+    <value>Sorgu Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToScatterChartCaption" xml:space="preserve">
+    <value>Dağılım grafiği</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditQueryDescription" xml:space="preserve">
+    <value>Seçili sorguyu düzenle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveOrEqualAverage" xml:space="preserve">
+    <value>Yukarıdaki veya eşit ortalama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBelowOrEqualAverage" xml:space="preserve">
+    <value>Aşağıda veya eşit ortalama</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Değerinden büyük veya eşit</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleManager" xml:space="preserve">
+    <value>Kuralları düzenleme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleEqualToDescription" xml:space="preserve">
+    <value>Bu eşit {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeColors" xml:space="preserve">
+    <value>Renk aralıklarını</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeGradient" xml:space="preserve">
+    <value>Degrade aralıkları</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeGradientDescription" xml:space="preserve">
+    <value>Biçimi {0} değerleri aralığı koşul kullanma</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientGreenYellowBlue" xml:space="preserve">
+    <value>, yeşil, mavi - sarı -</value>
+  </data>
+  <data name="DashboardWinStringId.ParameterFormCaption" xml:space="preserve">
+    <value>Pano parametresi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeEditorControlBetweenValidateMessage" xml:space="preserve">
+    <value>{0} ile {1} arasında bir değer belirtin</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupSqlDataSourceQuery" xml:space="preserve">
+    <value>Sorgu</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryScatterChartToolsName" xml:space="preserve">
+    <value>Dağılım grafik araçları</value>
+  </data>
+  <data name="DashboardWinStringId.MenuRemoveAllColors" xml:space="preserve">
+    <value>Tümünü Kaldır</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleNotBetweenOrEqual" xml:space="preserve">
+    <value>Arasında değil veya eşit</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeEFDescription" xml:space="preserve">
+    <value>Bir Entity Framework veri kaynağına bağlan.</value>
+  </data>
+  <data name="DashboardWinStringId.ResetGridColumnsWidthMenuItemCaption" xml:space="preserve">
+    <value>Sütun genişliklerini Sıfırla</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetIconStars" xml:space="preserve">
+    <value>3 Yıldız</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueGreen" xml:space="preserve">
+    <value>Mavi - yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueRed" xml:space="preserve">
+    <value>Mavi - kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueWhite" xml:space="preserve">
+    <value>Mavi - beyaz</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueWhiteGreen" xml:space="preserve">
+    <value>Mavi - beyaz - yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueWhiteRed" xml:space="preserve">
+    <value>Mavi - beyaz - kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueYellow" xml:space="preserve">
+    <value>Mavi - sarı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueYellowGreen" xml:space="preserve">
+    <value>Mavi - sarı - yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientBlueYellowRed" xml:space="preserve">
+    <value>Mavi - sarı - kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientGreenBlue" xml:space="preserve">
+    <value>yeşil - mavi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientGreenWhite" xml:space="preserve">
+    <value>Yeşil - Beyaz</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientGreenWhiteBlue" xml:space="preserve">
+    <value>yeşil - beyaz - mavi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientGreenWhiteRed" xml:space="preserve">
+    <value>Yeşil - beyaz - kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientGreenYellow" xml:space="preserve">
+    <value>Yeşil - Sarı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetIconBoxes" xml:space="preserve">
+    <value>5 Kutu</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeLast" xml:space="preserve">
+    <value>Son seviye</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetIconPositiveNegativeTriangles" xml:space="preserve">
+    <value>3 Üçgen</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetIconQuarters" xml:space="preserve">
+    <value>5 Çeyrek</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelColumnCaption" xml:space="preserve">
+    <value>Sütun boyutu</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeAuto" xml:space="preserve">
+    <value>(Otomatik)</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientGreenYellowRed" xml:space="preserve">
+    <value>Yeşil - sarı - kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientRedBlue" xml:space="preserve">
+    <value>kırmızı - mavi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientRedWhite" xml:space="preserve">
+    <value>kırmızı - beyaz</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientRedWhiteBlue" xml:space="preserve">
+    <value>kırmızı - beyaz - mavi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientRedWhiteGreen" xml:space="preserve">
+    <value>kırmızı - beyaz - yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientRedYellow" xml:space="preserve">
+    <value>Kırmızı - Sarı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientRedYellowBlue" xml:space="preserve">
+    <value>Kırmızı - Sarı - Mavi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientWhiteGreen" xml:space="preserve">
+    <value>Beyaz - yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientWhiteRed" xml:space="preserve">
+    <value>Beyaz - kırmızı</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientYellowGreen" xml:space="preserve">
+    <value>Sarı - yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsPaleRedGreen" xml:space="preserve">
+    <value>Kırmızı/yeşil (soluk)</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsPaleRedGreenBlue" xml:space="preserve">
+    <value>Kırmızı/yeşil/mavi (soluk)</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsPaleRedOrangeYellowGreenBlue" xml:space="preserve">
+    <value>Kırmızı/turuncu/sarı/yeşil/mavi (soluk)</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsPaleRedYellowGreenBlue" xml:space="preserve">
+    <value>Kırmızı/sarı/yeşil/mavi (soluk)</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsRedGreen" xml:space="preserve">
+    <value>Kırmızı/yeşil</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsRedGreenBlue" xml:space="preserve">
+    <value>Kırmızı/yeşil/mavi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsRedOrangeYellowGreenBlue" xml:space="preserve">
+    <value>Kırmızı/turuncu/sarı/yeşil/mavi</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetColorsRedYellowGreenBlue" xml:space="preserve">
+    <value>Kırmızı/sarı/yeşil/mavi</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelRowCaption" xml:space="preserve">
+    <value>Satır boyutu</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnWidthMenuItemCaption" xml:space="preserve">
+    <value>Sütun genişliği...</value>
+  </data>
+  <data name="DashboardWinStringId.GridColumnWidthMenuItemDescription" xml:space="preserve">
+    <value>Sütun genişliği...</value>
+  </data>
+  <data name="DashboardWinStringId.EditorAutomaticValue" xml:space="preserve">
+    <value>(Otomatik)</value>
+  </data>
+  <data name="DashboardWinStringId.EditorCustomValue" xml:space="preserve">
+    <value>(Özel)</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeEF" xml:space="preserve">
+    <value>Entity Framework</value>
+  </data>
+  <data name="DashboardWinStringId.ConfigureOlapParametersPageViewHeaderDescription" xml:space="preserve">
+    <value>Bağlantı özelliklerini belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeObject" xml:space="preserve">
+    <value>Nesne bağlama</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeOlap" xml:space="preserve">
+    <value>OLAP</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePurple" xml:space="preserve">
+    <value>Mor</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionCustomAppearanceCaption" xml:space="preserve">
+    <value>Özel görünüm</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionRangeSetNoStyleCaption" xml:space="preserve">
+    <value>Stil yok</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionTopBottomNCaption" xml:space="preserve">
+    <value>N =</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontBlue" xml:space="preserve">
+    <value>Mavi yazı tipi</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontGrayed" xml:space="preserve">
+    <value>Gri yazı tipi</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontGreen" xml:space="preserve">
+    <value>Yeşil yazı tipi</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontRed" xml:space="preserve">
+    <value>Kırmızı yazı tipi</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontYellow" xml:space="preserve">
+    <value>Sarı yazı tipi</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceOrange" xml:space="preserve">
+    <value>Turuncu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleNotEqualTo" xml:space="preserve">
+    <value>Eşit değildir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeSet" xml:space="preserve">
+    <value>Aralığı ayarla</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditObjectDataSourceDescription" xml:space="preserve">
+    <value>Gerekli sınıf tanımı ve veri üyesi seçerek geçerli veri kaynağı düzenleyin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditRelationsCaption" xml:space="preserve">
+    <value>İlişkileri Düzenle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditEFDataSourceDescription" xml:space="preserve">
+    <value>Varolan bir veri içeriği seçerek veya bir dış derleme kullanarak Entity Framework veri kaynağını düzenleyin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditRulesCaption" xml:space="preserve">
+    <value>Kuralları düzenleme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThanOrEqualToDescription" xml:space="preserve">
+    <value>Küçük veya eşit olan {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThanDescription" xml:space="preserve">
+    <value>Daha büyük olan {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThanOrEqualToDescription" xml:space="preserve">
+    <value>Sıfırdan büyük veya eşit olan {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThanDescription" xml:space="preserve">
+    <value>Format {0} değerlerini daha az</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleDateOccurringDescription" xml:space="preserve">
+    <value>Bu koşulları eşleşen biçimi {0} değerleri bir tarih içeren</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBottomNDescription" xml:space="preserve">
+    <value>O sırada alt {0} değerleri biçimlendirme</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveOrEqualAverageDescription" xml:space="preserve">
+    <value>Yukarıdaki veya eşit ortalama olan {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeSetDescription" xml:space="preserve">
+    <value>Biçimi {0} değerleri aralığı koşul kullanma</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemFormatRuleClear" xml:space="preserve">
+    <value>Açık biçim kuralları için ' {1}' ' {0}' hesaplanır</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemFormatRulePropertyEnabled" xml:space="preserve">
+    <value>Olanaklı kılmak/sakatlar biçimi kural için ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemFormatRulesMove" xml:space="preserve">
+    <value>İçin ' {0}' biçiminde kuralları sırasını değiştir</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleRangeUsePercent" xml:space="preserve">
+    <value>Kullanımı % aralıkları</value>
+  </data>
+  <data name="DashboardWinStringId.PeriodToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="DashboardWinStringId.TodayCheckEditCaption" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalAll" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetFirst" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetLast" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetNext" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="DashboardWinStringId.TomorrowCheckEditCaption" xml:space="preserve">
+    <value>Yarın</value>
+  </data>
+  <data name="DashboardWinStringId.YesterdayCheckEditCaption" xml:space="preserve">
+    <value>Dün</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeExpression" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongColumns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeString" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="DashboardWinStringId.RangeFilterCalculationAlongArgument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeCaption" xml:space="preserve">
+    <value>Dizi türü</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetPrevious" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUpdateDataExtractCaption" xml:space="preserve">
+    <value>Güncelleştirme</value>
+  </data>
+  <data name="DashboardWinStringId.GridCalculationAlongRows" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongRows" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DashboardWinStringId.PeriodLastMonth" xml:space="preserve">
+    <value>Geçen ay</value>
+  </data>
+  <data name="DashboardWinStringId.PeriodNextMonth" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTextBoxEditingCaption" xml:space="preserve">
+    <value>Düzenleme</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDouble" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDecimal" xml:space="preserve">
+    <value>Ondalık</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCalculationAlongSeries" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="DashboardWinStringId.PieCalculationAlongSeries" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="DashboardWinStringId.RangeFilterCalculationAlongSeries" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalHour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalMinute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalMonth" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalQuarter" xml:space="preserve">
+    <value>Üç aylık dönem</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalSecond" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalYear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCalculationAlongArguments" xml:space="preserve">
+    <value>Bağımsız değişkenler</value>
+  </data>
+  <data name="DashboardWinStringId.PieCalculationAlongArguments" xml:space="preserve">
+    <value>Bağımsız değişkenler</value>
+  </data>
+  <data name="DashboardWinStringId.CardCalculationAlongCards" xml:space="preserve">
+    <value>Kartlar</value>
+  </data>
+  <data name="DashboardWinStringId.GaugeCalculationAlongGauges" xml:space="preserve">
+    <value>Ölçü aygıtları</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="DashboardWinStringId.RankOrderAscending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DashboardWinStringId.RankOrderDescending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="DashboardWinStringId.CustomPeriod" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DashboardWinStringId.RangeGradientDescription" xml:space="preserve">
+    <value>Uygula biçimlendirme değerleri kullanma
+Belirtilen renk gradyan.
+Benzersiz renk değerleri gösterir
+Belirlenen aralığa karşılık gelen</value>
+  </data>
+  <data name="DashboardWinStringId.RangeEditorControlGreaterValidateMessage" xml:space="preserve">
+    <value>{0} büyük bir değer belirtin</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBarDescription" xml:space="preserve">
+    <value>Koşullar kullanarak {0} değerleri biçimlendirme</value>
+  </data>
+  <data name="DashboardWinStringId.AutomaticUpdatesCaption" xml:space="preserve">
+    <value>Otomatik Güncelleştirmeler</value>
+  </data>
+  <data name="DashboardWinStringId.CheckedDataFieldsBrowserSelectAll" xml:space="preserve">
+    <value>(Tümünü Seç)</value>
+  </data>
+  <data name="DashboardWinStringId.TextBoxEditorDataBindingFieldCaption" xml:space="preserve">
+    <value>Değer seçin</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMultiSelect" xml:space="preserve">
+    <value>Çoklu seçim</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridParametersValueSelectAllValues" xml:space="preserve">
+    <value>Tüm değerleri seç</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeExcelDescription" xml:space="preserve">
+    <value>Bir Microsoft Excel çalışma kitabına Bağlan / CSV dosya ve gerekli verileri seçin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxInsertFieldCaption" xml:space="preserve">
+    <value>Alan Ekle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowRowTotalsDescription" xml:space="preserve">
+    <value>Özet Pano öğesi satır toplamları göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowColumnGrandTotalsDescription" xml:space="preserve">
+    <value>Özet Pano öğesi içinde sütun genel toplamları göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowColumnTotalsDescription" xml:space="preserve">
+    <value>Özet Tablosu öğe içinde sütun toplamlarını göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowGrandTotalsDescription" xml:space="preserve">
+    <value>Genel toplamların Özet Pano öğesini göster:.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowRowGrandTotalsDescription" xml:space="preserve">
+    <value>Özet Pano öğesi satır toplamları göster.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowTotalsDescription" xml:space="preserve">
+    <value>Özet Pano öğesi toplamları göster:.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandNoneCalculation" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="DashboardWinStringId.DragItemTextTemplate" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceTypeOlapDescription" xml:space="preserve">
+    <value>Bağlan MS Analysis Services veritabanında OLAP küpü.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandAddQueryDescription" xml:space="preserve">
+    <value>Seçili veri kaynağı için yeni bir sorgu eklemek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToScatterChartDescription" xml:space="preserve">
+    <value>Seçili Pano öğesi bir dağılım grafik Pano öğesine dönüştürmek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteQueryDescription" xml:space="preserve">
+    <value>Seçili sorgu geçerli veri kaynağından silmek.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDifferenceCalculation" xml:space="preserve">
+    <value>Fark</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToFilterElementsBaseDescription" xml:space="preserve">
+    <value>Seçili Pano öğesine dönüştürmek için filter Ögesi.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleColorRangeBarDescription" xml:space="preserve">
+    <value>Renk aralığı bar koşullar kullanarak {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditQueryFilterDescription" xml:space="preserve">
+    <value>Geçerli sorgu filtresi Düzenle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertScatterChartDescription" xml:space="preserve">
+    <value>Bir dağılım grafik Pano öğesi oluşturmak ve sokmak o belgili tanımlık dashboard.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGradientRangeBarDescription" xml:space="preserve">
+    <value>Aralık çubuk koşullar kullanarak {0} değerleri Biçimlendir</value>
+  </data>
+  <data name="DashboardWinStringId.MenuCalculation" xml:space="preserve">
+    <value>Hesaplama</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupRangeFilterInteractivityCaption" xml:space="preserve">
+    <value>Etkileşim</value>
+  </data>
+  <data name="DashboardWinStringId.UpdateDataDescription" xml:space="preserve">
+    <value>Son değişiklikler göre gösterge tablosu güncelleştirin.</value>
+  </data>
+  <data name="DashboardWinStringId.RangeSetDescription" xml:space="preserve">
+    <value>Gizli değerlere Biçimlendirme Uygula
+aralıkları belirtilen sayıda içine</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertBoundImageCaption" xml:space="preserve">
+    <value>Bağlı Resim</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToBoundImageCaption" xml:space="preserve">
+    <value>Bağlı Resim</value>
+  </data>
+  <data name="DashboardWinStringId.DragItemCaptionTemplate" xml:space="preserve">
+    <value>&lt;b&gt;{0}:&lt;/b&gt;</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotShowRowTotalsCaption" xml:space="preserve">
+    <value>Satır Toplamlarını Göster</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsNoneDescription" xml:space="preserve">
+    <value>Veri etiketlerini görüntülenmez.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsNoneDescription" xml:space="preserve">
+    <value>Veri etiketlerini görüntülenmez.</value>
+  </data>
+  <data name="DashboardWinStringId.PeriodLastQuarter" xml:space="preserve">
+    <value>Son Çeyrek</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.PeriodThisMonth" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTreemapLayoutCaption" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="DashboardWinStringId.FromToDatePeriodCaption" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTextBoxCaption" xml:space="preserve">
+    <value>Metin kutusu</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsArgumentCaption" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeLong" xml:space="preserve">
+    <value>Tamsayı</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGeoPointMapBaseCaption" xml:space="preserve">
+    <value>Eşleme Geo noktası</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.NextNPeriodsCheckEditCaption" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="DashboardWinStringId.LastNPeriodsCheckEditCaption" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsCaption" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsValueCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGeoPointMapCaption" xml:space="preserve">
+    <value>Eşleme Geo noktası</value>
+  </data>
+  <data name="DashboardWinStringId.NextMonthCheckEditCaption" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeDifference" xml:space="preserve">
+    <value>Fark</value>
+  </data>
+  <data name="DashboardWinStringId.ThisMonthCheckEditCaption" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsArgumentCaption" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CommandComboBoxStandardTypeCaption" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsCaption" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsArgumentCaption" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CommandCustomizeCalculation" xml:space="preserve">
+    <value>Özel...</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeBoolean" xml:space="preserve">
+    <value>Boole</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.RankTypeUnique" xml:space="preserve">
+    <value>Benzersiz</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentCaption" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTreemapCaption" xml:space="preserve">
+    <value>Ağaç Harita</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTreemapCaption" xml:space="preserve">
+    <value>Ağaç Harita</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotColumnTotalsPositionFarCaption" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotColumnTotalsPositionNearCaption" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotRowTotalsPositionBottomCaption" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotRowTotalsPositionTopCaption" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DashboardWinStringId.CardRowDataElementTypeTitleCaption" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DashboardWinStringId.CardLayoutTemplateNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotLayoutTypeCaption" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="DashboardWinStringId.CardLayoutTemplateCustomCaption" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotValuesPositionColumnsCaption" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionOutsideCaption" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionInsideCaption" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="DashboardWinStringId.CardRowDataElementTypeDimensionValueCaption" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DashboardWinStringId.CardRowDataElementTypeSparklineCaption" xml:space="preserve">
+    <value>Mini grafik</value>
+  </data>
+  <data name="DashboardWinStringId.IncludeCurrentDayCheckEditCaption" xml:space="preserve">
+    <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.IncludeCurrentHourCheckEditCaption" xml:space="preserve">
+    <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.IncludeCurrentMinuteCheckEditCaption" xml:space="preserve">
+    <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.IncludeCurrentMonthCheckEditCaption" xml:space="preserve">
+    <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.IncludeCurrentQuarterCheckEditCaption" xml:space="preserve">
+    <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.IncludeCurrentSecondCheckEditCaption" xml:space="preserve">
+    <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.IncludeCurrentYearCheckEditCaption" xml:space="preserve">
+    <value>INCLUDE geçerli</value>
+  </data>
+  <data name="DashboardWinStringId.HoursLabelCaption" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotValuesPositionRowsCaption" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DashboardWinStringId.DaysLabelCaption" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotLayoutTypeTabularCaption" xml:space="preserve">
+    <value>Sekmeli</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToChoroplethMapCaption" xml:space="preserve">
+    <value>Choropleth Haritası</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGroupIgnoreMasterFiltersCaption" xml:space="preserve">
+    <value>Ana filtreler Yoksay</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertImagesDescription" xml:space="preserve">
+    <value>Resim Pano öğesi oluşturun ve sokmak o belgili tanımlık dashboard.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsArgumentAndValueCaption" xml:space="preserve">
+    <value>Bağımsız değişken ve değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsArgumentAndValueCaption" xml:space="preserve">
+    <value>Bağımsız değişken ve değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentAndValueCaption" xml:space="preserve">
+    <value>Bağımsız değişken ve değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsArgumentAndValueCaption" xml:space="preserve">
+    <value>Bağımsız değişken ve değer</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsArgumentAndValueDescription" xml:space="preserve">
+    <value>Bağımsız değişkenler ve değerleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsArgumentAndValueDescription" xml:space="preserve">
+    <value>Bağımsız değişkenler ve değerleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentAndValueDescription" xml:space="preserve">
+    <value>Bağımsız değişkenler ve değerleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsArgumentAndValueDescription" xml:space="preserve">
+    <value>Bağımsız değişkenler ve değerleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupLabelsArgumentDescription" xml:space="preserve">
+    <value>Bağımsız değişkenleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsArgumentDescription" xml:space="preserve">
+    <value>Bağımsız değişkenleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentDescription" xml:space="preserve">
+    <value>Bağımsız değişkenleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsArgumentDescription" xml:space="preserve">
+    <value>Bağımsız değişkenleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsNoneDescription" xml:space="preserve">
+    <value>Veri etiketlerini görüntülenmez.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsNoneDescription" xml:space="preserve">
+    <value>Veri etiketlerini görüntülenmez.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapGroupTooltipsValueDescription" xml:space="preserve">
+    <value>Değerleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsDescription" xml:space="preserve">
+    <value>Döşeme içinde hangi değerlerin görüntüleneceğini belirtin.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsValueDescription" xml:space="preserve">
+    <value>Değerleri veri etiketleri içinde görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotRowTotalsPositionTopDescription" xml:space="preserve">
+    <value>Satır toplamları grup/özet üst kısmında görüntülenir.</value>
+  </data>
+  <data name="DashboardWinStringId.ScatterCalculationAlongArguments" xml:space="preserve">
+    <value>Bağımsız değişkenler</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotRowTotalsPositionDisabledDescription" xml:space="preserve">
+    <value>Satır toplamları konumunu Pivot düzen kompakt için ayarlandığında değiştirilemez.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTreemapDescription" xml:space="preserve">
+    <value>Bir treemap öğesi seçili Pano öğesine dönüştürmek</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionGroupChildValues" xml:space="preserve">
+    <value>'{0}' için döşeme Grup ayarlarını değiştir</value>
+  </data>
+  <data name="DashboardWinStringId.TooltipChangeDataBinding" xml:space="preserve">
+    <value>Pano öğesi için veri kaynağını değiştirme</value>
+  </data>
+</root>

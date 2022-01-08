@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PdfCoreStringId.DefaultDocumentName" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="PdfCoreStringId.FileSize" xml:space="preserve">
+    <value>{0:0.00} {1} ({2} Bayt)</value>
+  </data>
+  <data name="PdfCoreStringId.FileSizeInBytes" xml:space="preserve">
+    <value>{0} bayt</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectCIEColorComponent" xml:space="preserve">
+    <value>CIE renk alanı bileşen değeri sıfırdan büyük veya sıfıra eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorSpaceComponentName" xml:space="preserve">
+    <value>Renk alanı bileşen adı boş olamaz.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorSpaceName" xml:space="preserve">
+    <value>Renk alanı adı boş olamaz.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashLength" xml:space="preserve">
+    <value>Çizgi uzunluğu sıfırdan büyük veya sıfıra eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashPattern" xml:space="preserve">
+    <value>Tire ve boşluk uzunlukları toplamı 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectFontSize" xml:space="preserve">
+    <value>Bu yazı tipi boyutu 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGamma" xml:space="preserve">
+    <value>Gama değerini 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGammaComponent" xml:space="preserve">
+    <value>Gamma bileşen değeri 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectLineWidth" xml:space="preserve">
+    <value>Çizgi genişliği sıfırdan büyük veya sıfıra eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMarkedContentTag" xml:space="preserve">
+    <value>İşaretli içerik etiketi boş olamaz.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMiterLimit" xml:space="preserve">
+    <value>Gönye sınırı 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPdfPassword" xml:space="preserve">
+    <value>Belge açma parolası boş veya yanlış.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSampleCount" xml:space="preserve">
+    <value>Örnek sayısı 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectShadingPatternName" xml:space="preserve">
+    <value>Gölgelendirme deseni adı boş olamaz.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectTextHorizontalScaling" xml:space="preserve">
+    <value>Metin yatay ölçekleme değeri 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectCalculatorCode" xml:space="preserve">
+    <value>Hesap makinesi işlev kodu boş olamaz.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDecodeArrayEntryValue" xml:space="preserve">
+    <value>Kod çözme dizi girdi değeri sıfırdan büyük veya sıfıra eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGapLength" xml:space="preserve">
+    <value>Boşluk uzunluğu sıfırdan büyük veya sıfıra eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectListSize" xml:space="preserve">
+    <value>Listeye en az bir değer içermelidir.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectText" xml:space="preserve">
+    <value>Metin değeri boş olamaz.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgInconsistentArrayLength" xml:space="preserve">
+    <value>C0 ve c1 listeleri uzunluğuna eşit olması gerekir.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgDuplicateColorSpaceComponentName" xml:space="preserve">
+    <value>Renk alanı bileşen adı dizi yinelenen adlar içeriyor.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectLargestEdgeLength" xml:space="preserve">
+    <value>En büyük kenar uzunluğu 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageNumber" xml:space="preserve">
+    <value>Sayfa sayısı 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectBitsPerSample" xml:space="preserve">
+    <value>Bit Sayısı 1, 2, 4, 8, 12, 24 Ve 32 olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashPatternArraySize" xml:space="preserve">
+    <value>Çizgi deseni dizisi boş olmamalı.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGlyphPosition" xml:space="preserve">
+    <value>Glif konum metin uzunluğundan daha eşit veya daha az olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGrayLevel" xml:space="preserve">
+    <value>Gri düzeyi sıfırdan büyük veya sıfıra eşit olmalı ve 1'e eşit veya daha küçük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectHalftoneFrequency" xml:space="preserve">
+    <value>Yarı tonlu frekansı 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectLuminositySoftMaskTransparencyGroupColorSpace" xml:space="preserve">
+    <value>Parlaklığı yumuşak maskesi için saydamlık grubu renk alanı tanımı gerektirir.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageCropBox" xml:space="preserve">
+    <value>Sayfa croppoing kutusunu ortam kutusu eşit veya daha az olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageRotate" xml:space="preserve">
+    <value>Sayfa döndürme açısını aşağıdaki değerlerden birini içerebilir: 0, 90, 180 veya 270 derece.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageTransparencyGroupColorSpace" xml:space="preserve">
+    <value>Sayfa şeffaflık grubu renk alanı tanımı gerektirir.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectRectangleHeight" xml:space="preserve">
+    <value>Dikdörtgenin üst koordinatı altındaki büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectRectangleWidth" xml:space="preserve">
+    <value>Sağ koordinatı dikdörtgenin sol olandan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSeparationColorSpaceDomainSize" xml:space="preserve">
+    <value>Dönüştürme işlevi etki alanı boyutu 1'e eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorantName" xml:space="preserve">
+    <value>Renklendirici adı bileşen adıyla aynı olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorComponentsCount" xml:space="preserve">
+    <value>Rengin 1, 3 ya da 4 bileşeni olması gerekir.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageArtBox" xml:space="preserve">
+    <value>Sayfa resmi kutusunu ortam kutusu eşit veya daha az olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageBleedBox" xml:space="preserve">
+    <value>Kutusu kanama sayfa medya kutusu eşit veya daha az olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageTrimBox" xml:space="preserve">
+    <value>Sayfa kırpma kutusunu ortam kutusu eşit veya daha az olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPdfData" xml:space="preserve">
+    <value>Giriş verileri geçerli pdf olarak tanınmayan.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectRangeListSize" xml:space="preserve">
+    <value>Aralık listesi boyutu-meli var olmak için bileşenlerin sayısı eşit.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSampleArraySize" xml:space="preserve">
+    <value>Örnekleri dizi boyutunu-meli var olmak tüm örnek sayısı değerlerinin toplamına eşit.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSampleCountListSize" xml:space="preserve">
+    <value>Örnek sayısını liste boyutu-meli var olmak etki alanı listesi boyutuna eşit.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSampleValue" xml:space="preserve">
+    <value>Örnekleri dizi öğesinin değeri sıfırdan büyük veya sıfıra eşit olmalı ve 15'e eşit veya daha küçük.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSpecialColorSpaceTintTransformRange" xml:space="preserve">
+    <value>Dönüştürme işlevi Aralık boyutu-meli var olmak için alternatif renk alanı boyutu eşit.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnavailableOperation" xml:space="preserve">
+    <value>Hiçbir belge yüklenirken bu işlem kullanılabilir değil.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgZeroColorComponentsCount" xml:space="preserve">
+    <value>Renk-meli-si olmak hiç olmazsa bir bileşen.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorComponentValue" xml:space="preserve">
+    <value>Renk bileşeni değeri 0 dan büyük ve küçük ya da eşit 1 olmalı.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorLookupTableSize" xml:space="preserve">
+    <value>Renk arama tablo boyutu renk bileşenlerinin miktarının katı olmalı ve 0'dan büyük ve küçük ya da eşit 256 olmalı.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDecodeListSize" xml:space="preserve">
+    <value>Şifre çözme listesi boyutu aralık listesi boyutuna eşit olmalı.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectEncodeListSize" xml:space="preserve">
+    <value>Kodlama listesi boyutu, etki alanı listesi boyutuna eşit olmalı.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectFlatnessTolerance" xml:space="preserve">
+    <value>Düzlemsellik toleransı büyük ya da eşit 0 ve küçük ya da eşit 100 olmalı.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorantComponentsCount" xml:space="preserve">
+    <value>Renklendirici bileşenler sayısı 1'e eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgInconsistentColorantsCount" xml:space="preserve">
+    <value>Renklendiriciler sayısı isim  sayısına eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgInconsistentColorComponentsCount" xml:space="preserve">
+    <value>Bileşen sayısı ve alternatif renk alanları eşit olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPrintableFilePath" xml:space="preserve">
+    <value>Belirtilen adı taşıyan bir baskı belge oluşturulamıyor: {0}.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectTextFormFieldValue" xml:space="preserve">
+    <value>Bağımsız değişken bir dize değeri olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.UnitExaBytes" xml:space="preserve">
+    <value>EB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitGigaBytes" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitKiloBytes" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitMegaBytes" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitPetaBytes" xml:space="preserve">
+    <value>PB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitTeraBytes" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitZettaBytes" xml:space="preserve">
+    <value>ZB</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintDescription" xml:space="preserve">
+    <value>Açıklama: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintFileName" xml:space="preserve">
+    <value>Adı: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintSize" xml:space="preserve">
+    <value>Boyutu: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDpi" xml:space="preserve">
+    <value>Çözünürlük (dpi) 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgMissingPageNumbers" xml:space="preserve">
+    <value>En az bir sayfa numarası belirtilmelidir.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgShouldEmbedFonts" xml:space="preserve">
+    <value>Tüm yazı tipleri PDF/A belgeye gömülü olmalıdır.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedBrushType" xml:space="preserve">
+    <value>Özel fırçalar desteklenmez.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintModificationDate" xml:space="preserve">
+    <value>Değiştirilme tarihi: {0:G}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectAcroFormExportValue" xml:space="preserve">
+    <value>Dışa aktarma değeri null veya boş bir dize olamaz.</value>
+  </data>
+  <data name="PdfCoreStringId.TextUnderlineDefaultSubject" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedAnnotationType" xml:space="preserve">
+    <value>Metin Vurgu ek açıklaması bir PDF/a-1 belgesinde desteklenmiyor.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectOpacity" xml:space="preserve">
+    <value>Opaklık değeri sıfırdan büyük veya eşit 0 olmalıdır ve 1 küçük veya eşit.</value>
+  </data>
+</root>

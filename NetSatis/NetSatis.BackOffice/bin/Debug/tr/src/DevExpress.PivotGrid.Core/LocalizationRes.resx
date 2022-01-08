@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PivotGridStringId.Alt_BottomPanelOnly1by4Layout" xml:space="preserve">
+    <value>[Bottom Panel Only 1 by 4 Layout]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_BottomPanelOnly2by2Layout" xml:space="preserve">
+    <value>[Bottom Panel Only 2 by 2 Layout]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Collapse" xml:space="preserve">
+    <value>[Collapse]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_ColumnAreaHeaders" xml:space="preserve">
+    <value>[Column Area Headers]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_DataAreaHeaders" xml:space="preserve">
+    <value>[Data Area Headers]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_DragHideField" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Expand" xml:space="preserve">
+    <value>[Expand]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FieldListHeaders" xml:space="preserve">
+    <value>[Hidden Field's Headers]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterAreaHeaders" xml:space="preserve">
+    <value>[Filter Area Headers]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButton" xml:space="preserve">
+    <value>[Filter]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButtonActive" xml:space="preserve">
+    <value>[Filtered]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterWindowSizeGrip" xml:space="preserve">
+    <value>[Resize]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_LayoutButton" xml:space="preserve">
+    <value>[Layout Button]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_RowAreaHeaders" xml:space="preserve">
+    <value>[Row Area Headers]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedAscending" xml:space="preserve">
+    <value>(Ascending)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedDescending" xml:space="preserve">
+    <value>(Descending)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_StackedDefaultLayout" xml:space="preserve">
+    <value>[Stacked Default Layout]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_StackedSideBySideLayout" xml:space="preserve">
+    <value>[Stacked Side By Side Layout]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_TopPanelOnlyLayout" xml:space="preserve">
+    <value>[Top Panel Only Layout]</value>
+  </data>
+  <data name="PivotGridStringId.CellError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="PivotGridStringId.ColumnArea" xml:space="preserve">
+    <value>Column Area</value>
+  </data>
+  <data name="PivotGridStringId.ColumnHeadersCustomization" xml:space="preserve">
+    <value>Drop Column Fields Here</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormAddTo" xml:space="preserve">
+    <value>Add To</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormAvailableFields" xml:space="preserve">
+    <value>Choose fields to add to report:</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly1by4" xml:space="preserve">
+    <value>Areas Section Only (1 by 4)</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly2by2" xml:space="preserve">
+    <value>Areas Section Only (2 by 2)</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormCaption" xml:space="preserve">
+    <value>PivotGrid Field List</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormDeferLayoutUpdate" xml:space="preserve">
+    <value>Defer Layout Update</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormHiddenFields" xml:space="preserve">
+    <value>Hidden Fields</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormHint" xml:space="preserve">
+    <value>Drag fields between areas below:</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormLayoutButtonTooltip" xml:space="preserve">
+    <value>Customization Form Layout</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormListBoxText" xml:space="preserve">
+    <value>Drag a field here to customize layout</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedDefault" xml:space="preserve">
+    <value>Fields Section and Areas Section Stacked</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedSideBySide" xml:space="preserve">
+    <value>Fields Section and Areas Section Side-By-Side</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormText" xml:space="preserve">
+    <value>Drag Items to the PivotGrid</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormTopPanelOnly" xml:space="preserve">
+    <value>Fields Section Only</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="PivotGridStringId.DataArea" xml:space="preserve">
+    <value>Data Area</value>
+  </data>
+  <data name="PivotGridStringId.DataFieldCaption" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PivotGridStringId.DataHeadersCustomization" xml:space="preserve">
+    <value>Drop Data Items Here</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeQuarterFormat" xml:space="preserve">
+    <value>Q{0}</value>
+  </data>
+  <data name="PivotGridStringId.DrillDownException" xml:space="preserve">
+    <value>Error retrieving drilldown dataset</value>
+  </data>
+  <data name="PivotGridStringId.EditFilter" xml:space="preserve">
+    <value>Edit Filter</value>
+  </data>
+  <data name="PivotGridStringId.EditPrefilter" xml:space="preserve">
+    <value>Edit Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionEditorFieldDescription" xml:space="preserve">
+    <value>Caption: {0}
+Type: {1}</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionEditorFieldsCategory" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationCircularDependency" xml:space="preserve">
+    <value>The following fields have circular dependency: {0}</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationInvalidProperty" xml:space="preserve">
+    <value>The {0} not found.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationNotSummaryExpressionExpected" xml:space="preserve">
+    <value>Criteria cannot contain aggregates.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationSummaryExpressionExpected" xml:space="preserve">
+    <value>A summary expression is expected.</value>
+  </data>
+  <data name="PivotGridStringId.FilterArea" xml:space="preserve">
+    <value>Filter Area</value>
+  </data>
+  <data name="PivotGridStringId.FilterBlank" xml:space="preserve">
+    <value>(Blank)</value>
+  </data>
+  <data name="PivotGridStringId.FilterCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PivotGridStringId.FilterFormCaption" xml:space="preserve">
+    <value>Filter Editor</value>
+  </data>
+  <data name="PivotGridStringId.FilterHeadersCustomization" xml:space="preserve">
+    <value>Drop Filter Fields Here</value>
+  </data>
+  <data name="PivotGridStringId.FilterInvert" xml:space="preserve">
+    <value>Invert Filter</value>
+  </data>
+  <data name="PivotGridStringId.FilterOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowAll" xml:space="preserve">
+    <value>(Show All)</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowBlanks" xml:space="preserve">
+    <value>(Show Blanks)</value>
+  </data>
+  <data name="PivotGridStringId.GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="PivotGridStringId.OLAPDrillDownFilterException" xml:space="preserve">
+    <value>Show Details command cannot be executed when multiple items are selected in a report filter field. Select a single item for each field in the report filter area before performing a drillthrough.</value>
+  </data>
+  <data name="PivotGridStringId.OLAPDrillDownTopNException" xml:space="preserve">
+    <value>Show Details command cannot be executed when Top N is applied to one of the row/column fields.</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPIsCaption" xml:space="preserve">
+    <value>KPIs</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeGoal" xml:space="preserve">
+    <value>Goal</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeTrend" xml:space="preserve">
+    <value>Trend</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeWeight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="PivotGridStringId.OLAPMeasuresCaption" xml:space="preserve">
+    <value>Measures</value>
+  </data>
+  <data name="PivotGridStringId.OLAPNoOleDbProvidersMessage" xml:space="preserve">
+    <value>In order to use the PivotGrid OLAP functionality, you should have a MS OLAP OleDb provider installed on your system.
+You can download it here:</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuBestFit" xml:space="preserve">
+    <value>Best Fit</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuClearSorting" xml:space="preserve">
+    <value>Clear Sorting</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapse" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpand" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFieldOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRules" xml:space="preserve">
+    <value>Format Rules</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesAnyField" xml:space="preserve">
+    <value>(Any)</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesClearAllRules" xml:space="preserve">
+    <value>Clear Rules from All Measures</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesClearIntersectionRules" xml:space="preserve">
+    <value>Clear Rules from This Intersection</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesClearMeasureRules" xml:space="preserve">
+    <value>Clear Rules from This Measure</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesColumn" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesGrandTotal" xml:space="preserve">
+    <value>(Grand Total)</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesIntersectionOnly" xml:space="preserve">
+    <value>Apply only to specific level</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesMeasure" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesRow" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideField" xml:space="preserve">
+    <value>Hide this Field</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideFieldList" xml:space="preserve">
+    <value>Hide Field List</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideFilter" xml:space="preserve">
+    <value>Hide Filter</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHidePrefilter" xml:space="preserve">
+    <value>Hide Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphic" xml:space="preserve">
+    <value>KPI Graphics</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicCylinder" xml:space="preserve">
+    <value>Cylinder</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicFaces" xml:space="preserve">
+    <value>Faces</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicGauge" xml:space="preserve">
+    <value>Gauge</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedCylinder" xml:space="preserve">
+    <value>Reversed Cylinder</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedGauge" xml:space="preserve">
+    <value>Reversed Gauge</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedStatusArrow" xml:space="preserve">
+    <value>Reversed Status Arrow</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedThermometer" xml:space="preserve">
+    <value>Reversed Thermometer</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicRoadSigns" xml:space="preserve">
+    <value>Road Signs</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicServerDefined" xml:space="preserve">
+    <value>Server Defined</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicShapes" xml:space="preserve">
+    <value>Shapes</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicStandardArrow" xml:space="preserve">
+    <value>Standard Arrow</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicStatusArrow" xml:space="preserve">
+    <value>Status Arrow</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicThermometer" xml:space="preserve">
+    <value>Thermometer</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicTrafficLights" xml:space="preserve">
+    <value>Traffic Lights</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicVarianceArrow" xml:space="preserve">
+    <value>Variance Arrow</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoBeginning" xml:space="preserve">
+    <value>Move to Beginning</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoEnd" xml:space="preserve">
+    <value>Move to End</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoLeft" xml:space="preserve">
+    <value>Move to Left</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoRight" xml:space="preserve">
+    <value>Move to Right</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRefreshData" xml:space="preserve">
+    <value>Reload Data</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRemoveAllSortByColumn" xml:space="preserve">
+    <value>Remove All Sorting</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowExpression" xml:space="preserve">
+    <value>Expression Editor...</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowFieldList" xml:space="preserve">
+    <value>Show Field List</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowFilter" xml:space="preserve">
+    <value>Show Filter</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowPrefilter" xml:space="preserve">
+    <value>Show Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortAscending" xml:space="preserve">
+    <value>Sort A-Z</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortBySummary" xml:space="preserve">
+    <value>Sort by Summary</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortDescending" xml:space="preserve">
+    <value>Sort Z-A</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByColumn" xml:space="preserve">
+    <value>Sort "{0}" by This Column</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByRow" xml:space="preserve">
+    <value>Sort "{0}" by This Row</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSummaryType" xml:space="preserve">
+    <value>Summary Type</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterFormCaption" xml:space="preserve">
+    <value>PivotGrid Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterInvalidCriteria" xml:space="preserve">
+    <value>An error occurs in the Prefilter criteria. Please detect invalid property captions inside the criteria operands and correct or remove them.</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterInvalidProperty" xml:space="preserve">
+    <value>(invalid property)</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesigner" xml:space="preserve">
+    <value>Print Designer</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryDefault" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryFieldValues" xml:space="preserve">
+    <value>Field Values</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryHeaders" xml:space="preserve">
+    <value>Headers</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryLines" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerColumnAreaOnEveryPage" xml:space="preserve">
+    <value>Column Area On Every Page</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerColumnHeaders" xml:space="preserve">
+    <value>Column Headers</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerDataHeaders" xml:space="preserve">
+    <value>Data Headers</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerFilterHeaders" xml:space="preserve">
+    <value>Filter Headers</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHeadersOnEveryPage" xml:space="preserve">
+    <value>Headers On Every Page</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHorizontalLines" xml:space="preserve">
+    <value>Horizontal Lines</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeColumnFieldValues" xml:space="preserve">
+    <value>Merge Column Field Values</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeRowFieldValues" xml:space="preserve">
+    <value>Merge Row Field Values</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageBehavior" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerRowAreaOnEveryPage" xml:space="preserve">
+    <value>Row Area On Every Page</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerRowHeaders" xml:space="preserve">
+    <value>Row Headers</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUnusedFilterFields" xml:space="preserve">
+    <value>Unused Filter Fields</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUsePrintAppearance" xml:space="preserve">
+    <value>Use Print Appearance</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerVerticalLines" xml:space="preserve">
+    <value>Vertical Lines</value>
+  </data>
+  <data name="PivotGridStringId.RowArea" xml:space="preserve">
+    <value>Row Area</value>
+  </data>
+  <data name="PivotGridStringId.RowHeadersCustomization" xml:space="preserve">
+    <value>Drop Row Fields Here</value>
+  </data>
+  <data name="PivotGridStringId.SearchBoxText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="PivotGridStringId.ServerRequestError" xml:space="preserve">
+    <value>Error occurred during processing server request ({0})</value>
+  </data>
+  <data name="PivotGridStringId.StatusBad" xml:space="preserve">
+    <value>Bad</value>
+  </data>
+  <data name="PivotGridStringId.StatusGood" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="PivotGridStringId.StatusNeutral" xml:space="preserve">
+    <value>Neutral</value>
+  </data>
+  <data name="PivotGridStringId.SummaryAverage" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterApplyToSpecificLevel" xml:space="preserve">
+    <value>Apply to specific level</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterClearButton" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterColumnField" xml:space="preserve">
+    <value>Column field:</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterLabelValues" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterLegendHidden" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterLegendVisible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterMaxValueCount" xml:space="preserve">
+    <value>Max Count</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterMaxVisibleCount" xml:space="preserve">
+    <value>Max Visible Count</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterRangeFrom" xml:space="preserve">
+    <value>Show values from</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterRangeTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterRowField" xml:space="preserve">
+    <value>Row field:</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDev" xml:space="preserve">
+    <value>StdDev</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDevp" xml:space="preserve">
+    <value>StdDevp</value>
+  </data>
+  <data name="PivotGridStringId.SummarySum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVar" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVarp" xml:space="preserve">
+    <value>Varp</value>
+  </data>
+  <data name="PivotGridStringId.TopValueOthersRow" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="PivotGridStringId.Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormat" xml:space="preserve">
+    <value>{0} Total</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatAverage" xml:space="preserve">
+    <value>{0} Average</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCount" xml:space="preserve">
+    <value>{0} Count</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCustom" xml:space="preserve">
+    <value>{0} Custom</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMax" xml:space="preserve">
+    <value>{0} Max</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMin" xml:space="preserve">
+    <value>{0} Min</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDev" xml:space="preserve">
+    <value>{0} StdDev</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDevp" xml:space="preserve">
+    <value>{0} StdDevp</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatSum" xml:space="preserve">
+    <value>{0} Sum</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVar" xml:space="preserve">
+    <value>{0} Var</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVarp" xml:space="preserve">
+    <value>{0} Varp</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingDown" xml:space="preserve">
+    <value>Going Down</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingUp" xml:space="preserve">
+    <value>Going Up</value>
+  </data>
+  <data name="PivotGridStringId.TrendNoChange" xml:space="preserve">
+    <value>No Change</value>
+  </data>
+  <data name="PivotGridStringId.ValueError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+</root>

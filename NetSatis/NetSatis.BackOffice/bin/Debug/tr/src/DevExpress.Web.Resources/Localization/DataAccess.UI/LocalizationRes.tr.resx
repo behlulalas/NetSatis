@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessUIStringId.JoinEditorEqualOperator" xml:space="preserve">
+    <value>Eşittir</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOperator" xml:space="preserve">
+    <value>Büyüktür</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOrEqualOperator" xml:space="preserve">
+    <value>Büyüktür veya eşittir</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOrEqualOperator" xml:space="preserve">
+    <value>Küçük veya eşit</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Alias" xml:space="preserve">
+    <value>Diğer ad</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Output" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_SortOrder" xml:space="preserve">
+    <value>Sıralama düzeni</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeNone" xml:space="preserve">
+    <value>Sıralanmamış</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_QueryBuilder" xml:space="preserve">
+    <value>&amp; Sorgu Oluşturucusu'nu çalıştırın</value>
+  </data>
+  <data name="DataAccessUIStringId.StoredProcControl_Caption" xml:space="preserve">
+    <value>Saklı yordamı seçin:</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryControl_SqlString" xml:space="preserve">
+    <value>SQL dizesi:</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderButtons_PreviewResults" xml:space="preserve">
+    <value>&amp; önizleme sonuçları...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder" xml:space="preserve">
+    <value>Sorgu Oluşturucusu'nu</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorForm_Title" xml:space="preserve">
+    <value>Ana ayrıntı ilişkisi Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorNotEqualOperator" xml:space="preserve">
+    <value>için eşit değil</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOperator" xml:space="preserve">
+    <value>Mi daha az</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorFillAllFieldsException" xml:space="preserve">
+    <value>Bazı alanları boş. Lütfen tüm boş alanları doldurun veya devam etmek için ilgili koşulları kaldırın.</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_Filter" xml:space="preserve">
+    <value>&amp; filtre</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_GroupFilter" xml:space="preserve">
+    <value>&amp; Grup filtresi</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditor" xml:space="preserve">
+    <value>Editör katılın</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery" xml:space="preserve">
+    <value>Bir sorgu oluşturmak veya bir saklı yordam seçin.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery_StoredProcedure" xml:space="preserve">
+    <value>Saklı yordam</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardTitleDatasource" xml:space="preserve">
+    <value>Veri kaynağı Sihirbazı</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageLessThanTwoQueries" xml:space="preserve">
+    <value>En az iki sorgu bir ana ayrıntı ilişkisi oluşturmak için gereklidir.</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeAscending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView" xml:space="preserve">
+    <value>Filtre Düzenleyicisi</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Cancel" xml:space="preserve">
+    <value>&amp;İptal</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Expression" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumn" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_GroupBy" xml:space="preserve">
+    <value>Göre Gruplandır</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeDescending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_OK" xml:space="preserve">
+    <value>&amp;Tamam</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Remove" xml:space="preserve">
+    <value>&amp;Kaldır</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery_Query" xml:space="preserve">
+    <value>Sorgu</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Aggregate" xml:space="preserve">
+    <value>Toplama</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Type" xml:space="preserve">
+    <value>Türü</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEmptyColumnText" xml:space="preserve">
+    <value>&lt; sütun seçin &gt;</value>
+  </data>
+</root>

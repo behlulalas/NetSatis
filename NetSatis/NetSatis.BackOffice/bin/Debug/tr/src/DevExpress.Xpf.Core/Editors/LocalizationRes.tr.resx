@@ -1,0 +1,1412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditorStringId.FilterClauseDoesNotContain" xml:space="preserve">
+    <value>İçermez</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBetween" xml:space="preserve">
+    <value>Arasındadır</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLessOrEqual" xml:space="preserve">
+    <value>Şundan küçük veya eşittir</value>
+  </data>
+  <data name="EditorStringId.FilterPanelDisableFilter" xml:space="preserve">
+    <value>Filtreyi Devre Dışı Bırak</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Functions_Text" xml:space="preserve">
+    <value>İşlevler</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNull" xml:space="preserve">
+    <value>Tamamen boş</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Operators_Text" xml:space="preserve">
+    <value>İşleçler</value>
+  </data>
+  <data name="EditorStringId.FilterGroupOr" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="EditorStringId.FilterDateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>Tarih Saat işleçleri</value>
+  </data>
+  <data name="EditorStringId.FilterEmptyValueText" xml:space="preserve">
+    <value>&lt;değer girin&gt;</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClearFilter" xml:space="preserve">
+    <value>Filtreyi Temizle</value>
+  </data>
+  <data name="EditorStringId.FilterClauseDoesNotEqual" xml:space="preserve">
+    <value>Eşit değildir</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeRemove" xml:space="preserve">
+    <value>Bu koşulu kaldırır</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionEndsWith" xml:space="preserve">
+    <value>Şununla biter</value>
+  </data>
+  <data name="EditorStringId.WaitIndicatorText" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionContains" xml:space="preserve">
+    <value>İçerir</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNullOrEmpty" xml:space="preserve">
+    <value>Boştur</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisYear" xml:space="preserve">
+    <value>Bu Yılın Öncesidir</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionStartsWith" xml:space="preserve">
+    <value>Şununla başlar</value>
+  </data>
+  <data name="EditorStringId.FilterGroupClearAll" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="EditorStringId.CalculatorInvalidInputError" xml:space="preserve">
+    <value>Geçersiz giriş</value>
+  </data>
+  <data name="EditorStringId.FilterGroupRemoveGroup" xml:space="preserve">
+    <value>Grubu Kaldır</value>
+  </data>
+  <data name="EditorStringId.EmptyItem" xml:space="preserve">
+    <value>(Hiçbiri)</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringGroupOperatorAnd" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisYear" xml:space="preserve">
+    <value>Bu Yılın Sonrasıdır</value>
+  </data>
+  <data name="EditorStringId.Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotNullOrEmpty" xml:space="preserve">
+    <value>Boş değil</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsTomorrow" xml:space="preserve">
+    <value>Yarındır</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeCurrency" xml:space="preserve">
+    <value>Para Birimi</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLastWeek" xml:space="preserve">
+    <value>Son Haftadır</value>
+  </data>
+  <data name="EditorStringId.CalculatorError" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="EditorStringId.LookUpAddNew" xml:space="preserve">
+    <value>Yeni Ekle</value>
+  </data>
+  <data name="EditorStringId.FilterPanelEditFilter" xml:space="preserve">
+    <value>Filtreyi Düzenle</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBetweenAnd" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNotLike" xml:space="preserve">
+    <value>Şuna benzemez</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLike" xml:space="preserve">
+    <value>Benzer</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringNotLike" xml:space="preserve">
+    <value>Benzemez</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisMonth" xml:space="preserve">
+    <value>Bu Ayın Öncesidir</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringIsNotNull" xml:space="preserve">
+    <value>Tamamen Boş Değil</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBetween" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="EditorStringId.CheckChecked" xml:space="preserve">
+    <value>Denetlendi</value>
+  </data>
+  <data name="EditorStringId.FilterClauseContains" xml:space="preserve">
+    <value>İçerir</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringGroupOperatorOr" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="EditorStringId.FilterClauseEndsWith" xml:space="preserve">
+    <value>Şununla biter</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionIsNullOrEmpty" xml:space="preserve">
+    <value>Tamamen boş veya boşluk</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAddCondition" xml:space="preserve">
+    <value>Koşul Ekle</value>
+  </data>
+  <data name="EditorStringId.Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="EditorStringId.Cut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLike" xml:space="preserve">
+    <value>Şuna benzer</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorNot" xml:space="preserve">
+    <value>Değil</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeNumber" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlSuffix" xml:space="preserve">
+    <value>Sonek:</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringIn" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="EditorStringId.LookUpSearch" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisWeek" xml:space="preserve">
+    <value>Bu Haftanın Sonrasıdır</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsBeyondThisYear" xml:space="preserve">
+    <value>Bu Yıldan Sonradır</value>
+  </data>
+  <data name="EditorStringId.FilterClauseGreater" xml:space="preserve">
+    <value>Şundan büyüktür</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Divide_Description" xml:space="preserve">
+    <value>Birinci işleneni ikincisine böler.</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNotBetween" xml:space="preserve">
+    <value>Şunların arasında değildir</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_DateTimeItems" xml:space="preserve">
+    <value>Tarih-saat</value>
+  </data>
+  <data name="EditorStringId.SelectAll" xml:space="preserve">
+    <value>(Tümünü Seç)</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNextWeek" xml:space="preserve">
+    <value>Gelecek Haftadır</value>
+  </data>
+  <data name="EditorStringId.FilterClauseGreaterOrEqual" xml:space="preserve">
+    <value>Şundan büyük veya eşittir</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAddGroup" xml:space="preserve">
+    <value>Grup Ekle</value>
+  </data>
+  <data name="EditorStringId.FilterEditorChecked" xml:space="preserve">
+    <value>Denetlendi</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatHelperWrongDisplayFormatValue" xml:space="preserve">
+    <value>Geçersiz görüntü biçimi metni</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsToday" xml:space="preserve">
+    <value>Bugündür</value>
+  </data>
+  <data name="EditorStringId.Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlExample" xml:space="preserve">
+    <value>Örnek: </value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlDisplayFormatText" xml:space="preserve">
+    <value>Görüntü biçimi metni:</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Constants_Text" xml:space="preserve">
+    <value>Sabitler</value>
+  </data>
+  <data name="EditorStringId.FilterPanelEnableFilter" xml:space="preserve">
+    <value>Filtreyi Etkinleştir</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatNullValue" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsPriorThisYear" xml:space="preserve">
+    <value>Bu Yıldan Öncedir</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_AllItems" xml:space="preserve">
+    <value>(Tümü)</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeDatetime" xml:space="preserve">
+    <value>Tarih saat</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisMonth" xml:space="preserve">
+    <value>Bu Ayın Sonrasıdır</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeDefault" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="EditorStringId.Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorIsNull" xml:space="preserve">
+    <value>Tamamen Boş</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeCustom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisWeek" xml:space="preserve">
+    <value>Bu Haftanın Öncesidir</value>
+  </data>
+  <data name="EditorStringId.Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="EditorStringId.SetNullValue" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="EditorStringId.LookUpClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="EditorStringId.FilterClauseEquals" xml:space="preserve">
+    <value>Eşittir</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNoneOf" xml:space="preserve">
+    <value>Şunların hiçbiridir</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlPrefix" xml:space="preserve">
+    <value>Önek:</value>
+  </data>
+  <data name="EditorStringId.CaptionError" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBeginsWith" xml:space="preserve">
+    <value>Şununla başlar</value>
+  </data>
+  <data name="EditorStringId.ConfirmationDialogCaption" xml:space="preserve">
+    <value>Onay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLess" xml:space="preserve">
+    <value>Şundan küçüktür</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAnd" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="EditorStringId.FilterClauseAnyOf" xml:space="preserve">
+    <value>Şunlardan biridir</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsYesterday" xml:space="preserve">
+    <value>Dündür</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotNull" xml:space="preserve">
+    <value>Tamamen boş değil</value>
+  </data>
+  <data name="EditorStringId.Cancel" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="EditorStringId.LookUpFind" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="EditorStringId.Today" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonNine" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonOne" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonPercent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSeven" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSign" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSix" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSqrt" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSub" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonThree" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonTwo" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonZero" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EditorStringId.DataTypeCharExample" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="EditorStringId.DataTypeStringExample" xml:space="preserve">
+    <value>ABCXYZ</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd" xml:space="preserve">
+    <value>&amp;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseOr" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseXor" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorDivide" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorModulo" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorMultiply" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorBitwiseNot" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipKeysAdd" xml:space="preserve">
+    <value>(INSERT veya Ekle tuşunu kullanın)</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipKeysRemove" xml:space="preserve">
+    <value>(Delete veya çıkarma tuşunu kullanın)</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonAdd" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonBack" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonClear" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonDiv" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonEight" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFive" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFour" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFract" xml:space="preserve">
+    <value>1/x</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMAdd" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMC" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMR" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMS" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMSub" xml:space="preserve">
+    <value>M-</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMul" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="EditorStringId.CalculatorDivisionByZeroError" xml:space="preserve">
+    <value>Sıfıra Bölme Yapılamaz</value>
+  </data>
+  <data name="EditorStringId.ConfirmationDialogMessage" xml:space="preserve">
+    <value>Yazı tipi "{0}" sisteminizdeki kullanılabilir değil. Yine de kullanmak istiyor musunuz?</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_LogicalItems" xml:space="preserve">
+    <value>Mantıksal</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GridFields_Description_Prefix" xml:space="preserve">
+    <value>Alanı bilgileri
+Başlık: {1}
+Bu alan türü: (2)</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaInvalidExpressionEx" xml:space="preserve">
+    <value>Belirtilen ifade geçersizdir.</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorGreater" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLess" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLessOrEqual" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipElementAdd" xml:space="preserve">
+    <value>Listeye yeni bir öğe ekler</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_OpenFileFilter_SL" xml:space="preserve">
+    <value>Resim Dosyaları(*.JPG; *.PNG) | *.JPG; *.PNG|Tüm dosyalar (*. *) | *. *</value>
+  </data>
+  <data name="EditorStringId.CheckUnchecked" xml:space="preserve">
+    <value>İşaretsiz</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_LightGreen" xml:space="preserve">
+    <value>Açık Yeşil</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDate_Description" xml:space="preserve">
+    <value>GetDate(DateTime)
+Bir tarih tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDay_Description" xml:space="preserve">
+    <value>GetDay(DateTime)
+Bir gün tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDayOfWeek_Description" xml:space="preserve">
+    <value>GetDayOfWeek(DateTime)
+Haftanın bir gününü tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Abs_Description" xml:space="preserve">
+    <value>Abs(Value)
+Belirtilen sayısal ifade mutlak, pozitif değeri verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddDays_Description" xml:space="preserve">
+    <value>AddDays (DateTime, DaysCount)
+Belirtilen sayıda gün belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddHours_Description" xml:space="preserve">
+    <value>AddHours (DateTime, HoursCount)
+Belirtilen saat belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMilliSeconds_Description" xml:space="preserve">
+    <value>AddMilliSeconds (DateTime, MilliSecondsCount)
+Belirtilen süreyi milisaniye olarak belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMinutes_Description" xml:space="preserve">
+    <value>AddMinutes (DateTime, MinutesCount)
+Belirtilen sayıda dakika belirtilen tarih saat uzaklıkta bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMonths_Description" xml:space="preserve">
+    <value>AddMonths (DateTime, MonthsCount)
+Belirtilen sayıda ay belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddSeconds_Description" xml:space="preserve">
+    <value>AddSeconds (DateTime, SecondsCount)
+Belirtilen DateTime uzak belirlenen sürenin bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddTicks_Description" xml:space="preserve">
+    <value>AddTicks (DateTime, TicksCount)
+Belirtilen DateTime uzak keneler belirtilen sayıda bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddTimeSpan_Description" xml:space="preserve">
+    <value>AddTimeSpan (DateTime, TimeSpan)
+Belirtilen DateTime için verilen TimeSpan uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddYears_Description" xml:space="preserve">
+    <value>AddYears (DateTime, YearsCount)
+Belirtilen sayıda yıl specieid DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_And_Description" xml:space="preserve">
+    <value>İki ifade üzerinde mantıksal birlikte gerçekleştirir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Ascii_Description" xml:space="preserve">
+    <value>Ascii(String)
+En soldaki karakteri ASCII kodu değerini bir karakter ifade döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Asin_Description" xml:space="preserve">
+    <value>Asin(Value)
+(Açı, radyan sinüsü belirtilen float ifade olduğunu) bir sayının arksinüsünü verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Atn_Description" xml:space="preserve">
+    <value>Atn(Value)
+(Açı, radyan tanjantı belirtilen float ifade) bir sayının arktanjantını verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Atn2_Description" xml:space="preserve">
+    <value>Atn2 (Değer1, değer2)
+Tanjantı iki belirtilen sayının radyan cinsinden açı verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AvgAggregate_Description" xml:space="preserve">
+    <value>Avg(Value)
+Koleksiyondaki değerlerini değerlendirir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Between_Description" xml:space="preserve">
+    <value>(,) Arasında
+Test etmek için bir aralık belirler. Değer sıfırdan büyük veya eşit ilk işlenen ise true döner ve ikinci işlenen küçük veya eşit.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BigMul_Description" xml:space="preserve">
+    <value>BigMul (Değer1, değer2)
+İki tam ürün içeren bir Int64 döndürür belirtilen 32 bitlik sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseAnd_Description" xml:space="preserve">
+    <value>İki tamsayı değerleri arasındaki bitwise bir mantıksal ve işlemini gerçekleştirir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseOr_Description" xml:space="preserve">
+    <value>, Birinci işlenenin, ikinci işlenenin karşılık gelen bit her bit karşılaştırır. Her iki bit 1 ise, karşılık gelen sonuç biti 1 olarak ayarlanır. Aksi durumda, karşılık gelen sonuç biti 0 olarak küme.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseXor_Description" xml:space="preserve">
+    <value>Mantıksal bir dışlama iki Boole ifadeleri veya iki sayısal ifade üzerinde bit tabanlı bir dışlama gerçekleştirir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Ceiling_Description" xml:space="preserve">
+    <value>Ceiling(Value)
+Büyük veya eşit belirtilen sayısal ifade en küçük tamsayıyı döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Char_Description" xml:space="preserve">
+    <value>Char(Number)
+Bir integerASCIICode bir karaktere dönüştürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CharIndex_Description" xml:space="preserve">
+    <value>CHARINDEX (dize1, dize2)
+Sıfır karakter konumu bir dize sonu başlayan Dize1 Dize2, içindeki başlangıç konumunu döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CharIndex3Param_Description" xml:space="preserve">
+    <value>CHARINDEX (dize1, dize2, StartLocation)
+StartLocation karakter konumu bir dize sonu başlayan Dize1 Dize2, içindeki başlangıç konumunu döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Concat_Description" xml:space="preserve">
+    <value>Concat (String1,..., StringN)
+Herhangi bir ek dizeler geçerli dize birleştirme içeren bir string değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Contains_Description" xml:space="preserve">
+    <value>İçerir (dize, dize)
+Alt dize dize içinde oluşur ise TRUE döndürür; Aksi takdirde, False döndürülür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Cos_Description" xml:space="preserve">
+    <value>Cos(Value)
+Radyan cinsinden tanımlanan açının kosinüsünü verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Cosh_Description" xml:space="preserve">
+    <value>Cosh(Value)
+Radyan cinsinden tanımlanan açının hiperbolik kosinüsünü verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CountAggregate_Description" xml:space="preserve">
+    <value>Count() işlevi
+Bir koleksiyon nesne sayısını döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffDay_Description" xml:space="preserve">
+    <value>DateDiffDay (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki gün sınırları sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffHour_Description" xml:space="preserve">
+    <value>DateDiffHour (startDate, bitiştarihi)
+Saat sınırları iki NULL olmayan tarih arasındaki sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMilliSecond_Description" xml:space="preserve">
+    <value>DateDiffMilliSecond (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki sınırların milisaniye sayısını döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMinute_Description" xml:space="preserve">
+    <value>DateDiffMinute (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki dakika sınırları sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMonth_Description" xml:space="preserve">
+    <value>DateDiffMonth (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki ay sınırları sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffSecond_Description" xml:space="preserve">
+    <value>DateDiffSecond (startDate, bitiştarihi)
+İkinci sınırları iki NULL olmayan tarih arasındaki sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffTick_Description" xml:space="preserve">
+    <value>DateDiffTick (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki sınırların kene sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffYear_Description" xml:space="preserve">
+    <value>DateDiffYear (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki yıl sınırları sayı.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Equal_Description" xml:space="preserve">
+    <value>Aynı değeri döndürür true her iki işlenenleri var; aksi halde false döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ExistsAggregate_Description" xml:space="preserve">
+    <value>Exists()
+Nesne koleksiyonda zaten var olup olmadığını belirler.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Exp_Description" xml:space="preserve">
+    <value>Exp(Value)
+Belirtilen float ifade üstel değerini verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_False_Description" xml:space="preserve">
+    <value>Boolean False değerini temsil eder.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Fields_Text" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Floor_Description" xml:space="preserve">
+    <value>Floor(Value)
+En büyük tamsayıyı döndürür belirtilen sayısal ifade küçük veya eşit.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_AggregateItems" xml:space="preserve">
+    <value>Toplama</value>
+  </data>
+  <data name="EditorStringId.Apply" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="EditorStringId.CheckIndeterminate" xml:space="preserve">
+    <value>Belirsiz</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_AutomaticButtonCaption" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_ColorChooserWindowTitle" xml:space="preserve">
+    <value>Renkler</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Black" xml:space="preserve">
+    <value>Siyah</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Blue" xml:space="preserve">
+    <value>Mavi</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Orange" xml:space="preserve">
+    <value>Turuncu</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Purple" xml:space="preserve">
+    <value>Mor</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Red" xml:space="preserve">
+    <value>Kırmızı</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_White" xml:space="preserve">
+    <value>Beyaz</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Yellow" xml:space="preserve">
+    <value>Sarı</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_MoreColorsButtonCaption" xml:space="preserve">
+    <value>Daha fazla renk...</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_NoColorButtonCaption" xml:space="preserve">
+    <value>Renk yok</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_RecentColorsCaption" xml:space="preserve">
+    <value>Son renkler</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_StandardColorsCaption" xml:space="preserve">
+    <value>Standart renkler</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_ThemeColorsCaption" xml:space="preserve">
+    <value>Tema renkleri</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonCancel" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypePercent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeSpecial" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_MathItems" xml:space="preserve">
+    <value>Matematik</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_StringItems" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Green" xml:space="preserve">
+    <value>Yeşil</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_LightBlue" xml:space="preserve">
+    <value>AçıkMavi</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_DarkBlue" xml:space="preserve">
+    <value>KoyuMavi</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_DarkRed" xml:space="preserve">
+    <value>KoyuKırmızı</value>
+  </data>
+  <data name="EditorStringId.MaskIncomplete" xml:space="preserve">
+    <value>Maske eksik</value>
+  </data>
+  <data name="EditorStringId.OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="EditorStringId.Page" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="EditorStringId.Paste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Title" xml:space="preserve">
+    <value>İfade Düzenleyicisi</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeAction" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeAdd" xml:space="preserve">
+    <value>Bu grup için yeni bir koşul ekler</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_InvalidFormatMessage" xml:space="preserve">
+    <value>Yanlış resim biçimi</value>
+  </data>
+  <data name="EditorStringId.No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="EditorStringId.CantModifySelectedDates" xml:space="preserve">
+    <value>Yalnızca SelectedDates koleksiyonu içinde birden çok seçim modunu değiştirebilirsiniz. Tek seçim modunda FocusedDate kullanın.</value>
+  </data>
+  <data name="EditorStringId.ColorPickerAlpha" xml:space="preserve">
+    <value>Alfa</value>
+  </data>
+  <data name="EditorStringId.ColorPickerBlue" xml:space="preserve">
+    <value>Mavi</value>
+  </data>
+  <data name="EditorStringId.ColorPickerBrightness" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="EditorStringId.ColorPickerGreen" xml:space="preserve">
+    <value>Yeşil</value>
+  </data>
+  <data name="EditorStringId.ColorPickerHue" xml:space="preserve">
+    <value>Renk tonu</value>
+  </data>
+  <data name="EditorStringId.ColorPickerKeyColor" xml:space="preserve">
+    <value>Anahtar renk</value>
+  </data>
+  <data name="EditorStringId.ColorPickerLightness" xml:space="preserve">
+    <value>Hafiflik</value>
+  </data>
+  <data name="EditorStringId.ColorPickerMagenta" xml:space="preserve">
+    <value>Eflatun</value>
+  </data>
+  <data name="EditorStringId.ColorPickerRed" xml:space="preserve">
+    <value>Kırmızı</value>
+  </data>
+  <data name="EditorStringId.ColorPickerSaturation" xml:space="preserve">
+    <value>Doygunluk</value>
+  </data>
+  <data name="EditorStringId.ColorPickerYellow" xml:space="preserve">
+    <value>Sarı</value>
+  </data>
+  <data name="EditorStringId.CMYK" xml:space="preserve">
+    <value>CMYK</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotOr" xml:space="preserve">
+    <value>veya Değil</value>
+  </data>
+  <data name="EditorStringId.SparklineViewBar" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="EditorStringId.SparklineViewArea" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="EditorStringId.SparklineViewLine" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Greater_Description" xml:space="preserve">
+    <value>Operatör daha büyük. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GreaterOrEqual_Description" xml:space="preserve">
+    <value>Değerinden büyük veya eşit işleç. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNull_Description" xml:space="preserve">
+    <value>IsNull(Value)
+Belirtilen değer NULL ise doğru döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Less_Description" xml:space="preserve">
+    <value>Operatör daha az. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LessOrEqual_Description" xml:space="preserve">
+    <value>İşleç eşit veya daha az. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Like_Description" xml:space="preserve">
+    <value>Karşı bir deseni dizesini karşılaştırır. Dize değerinin desenle eşleşen sonuç doğru olur. Dize deseni aynı değilse, sonuç yanlış. Dize ve desen boş dizeler varsa, sonuç doğru olur.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log10_Description" xml:space="preserve">
+    <value>Log10(Value)
+Belirtilen sayının logaritmasını döndürür temel 10.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log2Param_Description" xml:space="preserve">
+    <value>Günlük (değer, temel)
+Belirtilen taban belirtilen bir sayının logaritmasını.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Lower_Description" xml:space="preserve">
+    <value>Lower(String)
+Harflerle dizesini döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Max_Description" xml:space="preserve">
+    <value>Max (Değer1, değer2)
+En büyük değer belirtilen değerleri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_MaxAggregate_Description" xml:space="preserve">
+    <value>Max(Value)
+Maksimum ifade değeri bir koleksiyon döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Min_Description" xml:space="preserve">
+    <value>Min (Değer1, değer2)
+En düşük değer belirtilen değerleri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_MinAggregate_Description" xml:space="preserve">
+    <value>Min(Value)
+Minimum ifade değeri bir koleksiyon döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Minus_Description" xml:space="preserve">
+    <value>İki sayı arasındaki farkı bulur.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Modulo_Description" xml:space="preserve">
+    <value>Kalanı başka bir sayısal ifade bölünerek (modül) verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Multiply_Description" xml:space="preserve">
+    <value>İki ifadenin değeri çarpar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Power_Description" xml:space="preserve">
+    <value>Power (güç, değeri)
+Belirtilen üssü belirtilen bir sayı verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Remove_Description" xml:space="preserve">
+    <value>Kaldır (dize, StartPosition, uzunluk)
+Bu örnek, belirtilen konumda başlayan belirli sayıda karakter siler.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Replace_Description" xml:space="preserve">
+    <value>Değiştir (dize, SubString2, String3)
+Dize1 içinde SubString2 String3 ile yerini, bir kopyasını döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Reverse_Description" xml:space="preserve">
+    <value>Reverse(String)
+Bir dize içinde öğelerin sırası tersine çevirir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Rnd_Description" xml:space="preserve">
+    <value>Rnd()
+1'den, ama sıfırdan büyük veya sıfıra eşit olan rasgele bir sayı verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Round_Description" xml:space="preserve">
+    <value>Round(Value)
+Verilen değer en yakın tam sayıya yuvarlar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Round2Param_Description" xml:space="preserve">
+    <value>(Değeri, Precision) yuvarlak
+Verilen değere en yakın tamsayı veya belirtilen sayıda ondalık basamağa yuvarlar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sign_Description" xml:space="preserve">
+    <value>Sign(Value)
+Pozitif (+ 1), sıfır (0) veya negatif (-1) verilen ifade işareti döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sin_Description" xml:space="preserve">
+    <value>Sin(Value)
+Radyan cinsinden tanımlanan açının sinüsünü verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_SingleAggregate_Description" xml:space="preserve">
+    <value>Single()
+Tek bir nesne derlemeden döndürür.</value>
+  </data>
+  <data name="EditorStringId.ColorPickerCyan" xml:space="preserve">
+    <value>Deniz mavisi</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Acos_Description" xml:space="preserve">
+    <value>Acos(Value)
+(Açı, radyan kosinüsüdür belirtilen float ifade) bir sayının arkkosinüsünü verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNullOrEmpty_Description" xml:space="preserve">
+    <value>IsNullOrEmpty(String)
+Belirtilen dize nesne NULL veya boş bir dize ise, doğru verir; Aksi takdirde, False döndürülür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Len_Description" xml:space="preserve">
+    <value>Len(Value)
+Bir dize ya da nominal bir değişkeni depolamak için gereken bayt sayısını da içeren bir tamsayı karakter sayısını verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeDayAfterTomorrow_Description" xml:space="preserve">
+    <value>LocalDateTimeDayAfterTomorrow()
+Ertesi gün için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeLastWeek_Description" xml:space="preserve">
+    <value>LocalDateTimeLastWeek()
+Önceki haftanın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNextMonth_Description" xml:space="preserve">
+    <value>LocalDateTimeNextMonth()
+Bir sonraki ayın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNextWeek_Description" xml:space="preserve">
+    <value>LocalDateTimeNextWeek()
+Aşağıdaki haftanın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNextYear_Description" xml:space="preserve">
+    <value>LocalDateTimeNextYear()
+Ertesi yıl ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNow_Description" xml:space="preserve">
+    <value>LocalDateTimeNow()
+Zaman şimdiki an ilgili tarih ve saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeThisMonth_Description" xml:space="preserve">
+    <value>LocalDateTimeThisMonth()
+Geçerli ayın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeThisWeek_Description" xml:space="preserve">
+    <value>LocalDateTimeThisWeek()
+Geçerli haftanın ilk gününe ilgili tarih ve saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeThisYear_Description" xml:space="preserve">
+    <value>LocalDateTimeThisYear()
+Geçerli yılın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeToday_Description" xml:space="preserve">
+    <value>LocalDateTimeToday()
+Bugün için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeTomorrow_Description" xml:space="preserve">
+    <value>LocalDateTimeTomorrow()
+Yarın için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeTwoWeeksAway_Description" xml:space="preserve">
+    <value>LocalDateTimeTwoWeeksAway()
+Sonra gelecek hafta haftanın ilk günü ilgili tarih ve saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeYesterday_Description" xml:space="preserve">
+    <value>LocalDateTimeYesterday()
+Dün için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log_Description" xml:space="preserve">
+    <value>Log(Value)
+Belirtilen sayının doğal logaritmasını döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Now_Description" xml:space="preserve">
+    <value>Now()
+Geçerli sistem tarihi ve saati döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Null_Description" xml:space="preserve">
+    <value>Herhangi bir nesne için ifade etmez bir null başvuru temsil eder.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadLeft_Description" xml:space="preserve">
+    <value>PadLeft (dize, uzunluk)
+Sol tarafında bir belirtilen toplam uzunluğu kadar beyaz boşluk karakterleri ile doldurma tanımlanmış dizedeki karakter kümelerini sola hizalar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadLeft3Param_Description" xml:space="preserve">
+    <value>PadLeft (String, uzunluk, Char)
+Sol tarafında bir belirtilen toplam uzunluk belirtilen Char ile doldurma tanımlanmış dizedeki karakter kümelerini sola hizalar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadRight_Description" xml:space="preserve">
+    <value>PadRight (dize, uzunluk)
+Sol tarafında bir belirtilen toplam uzunluğu kadar beyaz boşluk karakterleri ile doldurma tanımlanmış dizedeki karakter kümelerini sağa hizalar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadRight3Param_Description" xml:space="preserve">
+    <value>PadRight (String, uzunluk, Char)
+Sol tarafında bir belirtilen toplam uzunluk belirtilen Char ile doldurma tanımlanmış dizedeki karakter kümelerini sağa hizalar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Plus_Description" xml:space="preserve">
+    <value>Başka bir sayısal ifade değerini ekler veya iki dizeyi birleştirir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sinh_Description" xml:space="preserve">
+    <value>Sinh(Value)
+Radyan cinsinden tanımlanan açının hiperbolik sinüsünü verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sqr_Description" xml:space="preserve">
+    <value>Sqr(Value)
+Verilen bir sayının kare kökünü verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Tan_Description" xml:space="preserve">
+    <value>Tan(Value)
+Radyan cinsinden tanımlanan açının tanjantını verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Tanh_Description" xml:space="preserve">
+    <value>Tanh(Value)
+Radyan cinsinden tanımlanan açının hiperbolik tanjantını verir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Today_Description" xml:space="preserve">
+    <value>Bugün()
+Geçerli tarihi verir. Gerçek zaman ne olursa olsun, bu işlev yarısından başlayarak geçerli tarih döndürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToDecimal_Description" xml:space="preserve">
+    <value>ToDecimal(Value)
+Eşdeğer bir ondalık sayıya dönüştürür değer.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToDouble_Description" xml:space="preserve">
+    <value>ToDouble(Value)
+Bir eşdeğer 64-bit çift duyarlıklı kayan nokta sayısı için değer dönüştürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToFloat_Description" xml:space="preserve">
+    <value>ToFloat(Value)
+Bir eşdeğer 32 bitlik tek duyarlıklı kayan nokta sayısı için değer dönüştürür.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToInt_Description" xml:space="preserve">
+    <value>ToInt(Value)
+Eşdeğer bir 32 bitlik imzalı tamsayı değeri dönüştürür.</value>
+  </data>
+  <data name="EditorStringId.FilterEditorUnchecked" xml:space="preserve">
+    <value>Denetlenmeyen</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipValueType" xml:space="preserve">
+    <value>Bir değerle karşılaştırmak / başka bir alanın değeri</value>
+  </data>
+  <data name="EditorStringId.HLS" xml:space="preserve">
+    <value>HLS</value>
+  </data>
+  <data name="EditorStringId.HSB" xml:space="preserve">
+    <value>HSB</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_SaveFileFilter" xml:space="preserve">
+    <value>PNG (*.png) | *. png|BMP (*.bmp) | *.BMP|JPG (*.jpg) | *. jpg|GIF (*.gif) | * .gif</value>
+  </data>
+  <data name="EditorStringId.RGB" xml:space="preserve">
+    <value>RGB</value>
+  </data>
+  <data name="EditorStringId.InvalidValueConversion" xml:space="preserve">
+    <value>Geçersiz değer dönüşümü</value>
+  </data>
+  <data name="EditorStringId.PasswordBoxEditToolTipHeader" xml:space="preserve">
+    <value>CAPS LOCK'un açık olduğundan</value>
+  </data>
+  <data name="EditorStringId.OutOfRange" xml:space="preserve">
+    <value>Değer aralık dışında</value>
+  </data>
+  <data name="EditorStringId.DatePickerHours" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="EditorStringId.DatePickerMilliseconds" xml:space="preserve">
+    <value>milisaniye</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_OpenFileFilter" xml:space="preserve">
+    <value>Resim Files(*.BMP; *.JPG; *.GIF; *.PNG) | *.BMP; *.JPG; *.GIF; *.PNG|Tüm dosyalar (*. *) | *. *</value>
+  </data>
+  <data name="EditorStringId.Caption_SpecialCharactersToggleButton" xml:space="preserve">
+    <value>Özel karakterler</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormFilter" xml:space="preserve">
+    <value>Filtre:</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormFontName" xml:space="preserve">
+    <value>Font adı:</value>
+  </data>
+  <data name="EditorStringId.Caption_CommonCharactersToggleButton" xml:space="preserve">
+    <value>Ortak karakter</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormCharacterSet" xml:space="preserve">
+    <value>Karakter kümesi:</value>
+  </data>
+  <data name="EditorStringId.SparklineViewWinLoss" xml:space="preserve">
+    <value>WinLoss</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormSearchByCode" xml:space="preserve">
+    <value>Kod ile arama:</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Not_Description" xml:space="preserve">
+    <value>Bir ifade üzerinde mantıksal olumsuzlama gerçekleştirir.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_True_Description" xml:space="preserve">
+    <value>Boole True değerini temsil eder.</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorNotEqual" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="EditorStringId.ListBoxSelectAllSelectionMode" xml:space="preserve">
+    <value>SelectionMode birden fazla olduğunda, yalnızca SelectAll çağırabilir veya genişletilmiş.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDayOfYear_Description" xml:space="preserve">
+    <value>GetDayOfYear(DateTime)
+Yılın bir günü tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetHour_Description" xml:space="preserve">
+    <value>GetHour(DateTime)
+Bir saat tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMilliSecond_Description" xml:space="preserve">
+    <value>GetMilliSecond(DateTime)
+Milisaniye tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMinute_Description" xml:space="preserve">
+    <value>GetMinute(DateTime)
+Dakika tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMonth_Description" xml:space="preserve">
+    <value>GetMonth(DateTime)
+Bir ay tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetSecond_Description" xml:space="preserve">
+    <value>GetSecond(DateTime)
+Saniye tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetTimeOfDay_Description" xml:space="preserve">
+    <value>GetTimeOfDay(DateTime)
+Günün zaman dilimleri tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetYear_Description" xml:space="preserve">
+    <value>GetYear(DateTime)
+Bir yıl tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToStr_Description" xml:space="preserve">
+    <value>ToStr(Value)
+Nesne bir dize gösterimini verir.</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotAnd" xml:space="preserve">
+    <value>Değil Ve</value>
+  </data>
+  <data name="EditorStringId.Of" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsThisMonth_Description" xml:space="preserve">
+    <value>Bu AY</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsThisWeek_Description" xml:space="preserve">
+    <value>Bu hafta</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsThisYear_Description" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaInvalidExpression" xml:space="preserve">
+    <value>Belirtilen ifade geçersiz semboller  içeriyor (satır {0}, {1} karakteri).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Iif_Description" xml:space="preserve">
+    <value>IIf (ifade, doğru bölüm, yanlış bölüm)
+Doğru bölüm ya da yanlış bölüm, Boolean deyim değerlendirmesine bağlı olarak döndürür.</value>
+  </data>
+  <data name="EditorStringId.DatePickerMinutes" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_UtcNow_Description" xml:space="preserve">
+    <value>UtcNow()
+Geçerli sistem tarihi ve saatini, Eşgüdümlü Evrensel Saat (UTC) olarak verir.</value>
+  </data>
+  <data name="EditorStringId.BrushEditRadial" xml:space="preserve">
+    <value>Radyal</value>
+  </data>
+  <data name="EditorStringId.BrushEditCenter" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="EditorStringId.BrushEditNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="EditorStringId.BrushEditSolid" xml:space="preserve">
+    <value>Katı</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeTomorrow" xml:space="preserve">
+    <value>Yarın</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeYesterday" xml:space="preserve">
+    <value>Dün</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Remove3Param_Description" xml:space="preserve">
+    <value>Kaldır (dize, StartPosition, uzunluk)
+Bu örnek, belirtilen konumda başlayan belirli sayıda karakter siler.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Remove2Param_Description" xml:space="preserve">
+    <value>Kaldır (dize, StartPosition)
+Bu örnek, belirtilen konumda başlayan tüm karakterleri siler.</value>
+  </data>
+  <data name="EditorStringId.CameraRefreshButtonCaption" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Parameters_Text" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="EditorStringId.CameraAgainButtonCaption" xml:space="preserve">
+    <value>Yeniden deneyin</value>
+  </data>
+  <data name="EditorStringId.CameraBrightnessCaption" xml:space="preserve">
+    <value>Parlaklık:</value>
+  </data>
+  <data name="EditorStringId.CameraCaptureButtonCaption" xml:space="preserve">
+    <value>Yakalama</value>
+  </data>
+  <data name="EditorStringId.CameraContrastCaption" xml:space="preserve">
+    <value>Kontrast:</value>
+  </data>
+  <data name="EditorStringId.CameraDesaturateCaption" xml:space="preserve">
+    <value>Desaturate:</value>
+  </data>
+  <data name="EditorStringId.CameraDeviceCaption" xml:space="preserve">
+    <value>Aygıt:</value>
+  </data>
+  <data name="EditorStringId.CameraErrorCaption" xml:space="preserve">
+    <value>Web kamerası mevcut değildir. Bunu kullanabilecek diğer uygulamaları kapatmayı deneyin</value>
+  </data>
+  <data name="EditorStringId.CameraNoDevicesErrorCaption" xml:space="preserve">
+    <value>Uygulama bir web kamerası bulamadım.</value>
+  </data>
+  <data name="EditorStringId.CameraResetButtonCaption" xml:space="preserve">
+    <value>Varsayılana Sıfırla</value>
+  </data>
+  <data name="EditorStringId.CameraResolutionCaption" xml:space="preserve">
+    <value>Çözünürlük:</value>
+  </data>
+  <data name="EditorStringId.CameraSettingsCaption" xml:space="preserve">
+    <value>Kamera ayarları</value>
+  </data>
+  <data name="EditorStringId.CameraTakePictureCaption" xml:space="preserve">
+    <value>Resim çekmek</value>
+  </data>
+  <data name="EditorStringId.CameraTakePictureToolTip" xml:space="preserve">
+    <value>Kameradan resim al</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Variables_Text" xml:space="preserve">
+    <value>Değişkenleri</value>
+  </data>
+  <data name="EditorStringId.LookUpNext" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="EditorStringId.LookUpPrevious" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryFormat" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Parameters_Description_Prefix" xml:space="preserve">
+    <value>Bu parametre, türüdür: {0}</value>
+  </data>
+  <data name="EditorStringId.BrushEditLinear" xml:space="preserve">
+    <value>Doğrusal</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeThisWeek" xml:space="preserve">
+    <value>Bu hafta</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeNextWeek" xml:space="preserve">
+    <value>Gelecek hafta</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeNextMonth" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeThisMonth" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeLastWeek" xml:space="preserve">
+    <value>Geçen hafta</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionsSearch_NullText" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeNow" xml:space="preserve">
+    <value>Şimdi</value>
+  </data>
+  <data name="EditorStringId.RefreshPage" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="EditorStringId.FirstPage" xml:space="preserve">
+    <value>İlk Sayfa</value>
+  </data>
+  <data name="EditorStringId.LastPage" xml:space="preserve">
+    <value>Son sayfa</value>
+  </data>
+  <data name="EditorStringId.NextPage" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="EditorStringId.PrevPage" xml:space="preserve">
+    <value>Önceki Sayfa</value>
+  </data>
+</root>

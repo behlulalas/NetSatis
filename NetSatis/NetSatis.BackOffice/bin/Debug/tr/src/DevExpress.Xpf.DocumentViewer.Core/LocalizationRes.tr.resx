@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocumentViewerStringId.CancelButtonCaption" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCloseFileCaption" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCopyCaption" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandNextPageCaption" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlNext" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="DocumentViewerStringId.FileRibbonGroupCaption" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom100Caption" xml:space="preserve">
+    <value>%100</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageSearchCaption" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageShowFindTextCaption" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageErrorCaption" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="DocumentViewerStringId.PropertiesCaption" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandOpenFileCaption" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPreviousPageCaption" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlPrevious" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPrintFileCaption" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSelectAllCaption" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="DocumentViewerStringId.NavigationRibbonGroupCaption" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandViewExactZoomListCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.ZoomRibbonGroupCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSaveAsCaption" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomInCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomOutCaption" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.DefaultDocumentName" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="DocumentViewerStringId.BarCaption" xml:space="preserve">
+    <value>PDF görüntüleyici</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCursorModeHandToolCaption" xml:space="preserve">
+    <value>El aracı</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandNextViewCaption" xml:space="preserve">
+    <value>Sonraki görünümü</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPreviousViewCaption" xml:space="preserve">
+    <value>Önceki görünüm</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetActualSizeZoomModeCaption" xml:space="preserve">
+    <value>Gerçek boyut</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetFitWidthZoomModeCaption" xml:space="preserve">
+    <value>Genişliğe Sığdır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandShowDocumentProperties" xml:space="preserve">
+    <value>Belge özellikleri...</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandViewCursorModeListGroupCaption" xml:space="preserve">
+    <value>İmleç modu</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom400Caption" xml:space="preserve">
+    <value>%400</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomOutShortcutCaption" xml:space="preserve">
+    <value>(Ctrl + eksi)</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlSearchCaption" xml:space="preserve">
+    <value>Arama:</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlWholeWordsOnly" xml:space="preserve">
+    <value>Yalnızca tam sözcükleri</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageDocumentIsProtected" xml:space="preserve">
+    <value>{0} korumalı</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageErrorCurrentPageNumberOutOfRange" xml:space="preserve">
+    <value>Geçerli sayfa numarası değeri 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageErrorZoomFactorOutOfRange" xml:space="preserve">
+    <value>Büyütme faktörü {0} değerine eşit veya daha büyük olmalıdır ve küçük veya eşit {1}.</value>
+  </data>
+  <data name="DocumentViewerStringId.PdfFileExtension" xml:space="preserve">
+    <value>.PDF</value>
+  </data>
+  <data name="DocumentViewerStringId.PdfFileFilter" xml:space="preserve">
+    <value>PDF dosyaları (.pdf) | * .pdf</value>
+  </data>
+  <data name="DocumentViewerStringId.RecentDocumentsCaption" xml:space="preserve">
+    <value>Son kullanılan belgeler</value>
+  </data>
+  <data name="DocumentViewerStringId.LoadingDocumentCaption" xml:space="preserve">
+    <value>Yükleme</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageCantLoadDocument" xml:space="preserve">
+    <value>Bir belge yüklenirken hata oluştu.</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageLoadingError" xml:space="preserve">
+    <value>PDF belgesini aşağıdaki dosya kullanılabilir değil veya geçerli bir PDF belgesi olmadığından yüklenemiyor.
+{0}
+Lütfen uygulama bu dosyaya erişebilir ve geçerli olduğundan emin olun veya farklı bir dosya belirtin.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandClockwiseRotateCaption" xml:space="preserve">
+    <value>Saat yönünde döndür</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCloseFileDescription" xml:space="preserve">
+    <value>Bir PDF dosyasını kapatın.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCounterclockwiseRotateCaption" xml:space="preserve">
+    <value>Counterclockwise döndürme</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCursorModeMarqueeZoomCaption" xml:space="preserve">
+    <value>Seçim Çerçevesi Yakınlaştırma</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCursorModeSelectToolCaption" xml:space="preserve">
+    <value>Aracı seçin</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandNextPageDescription" xml:space="preserve">
+    <value>Gösteri Sonraki sayfa.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandOpenFileDescription" xml:space="preserve">
+    <value>Bir PDF'yi açın.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPreviousPageDescription" xml:space="preserve">
+    <value>Gösteri önceki sayfa.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetFitVisibleZoomModeCaption" xml:space="preserve">
+    <value>Görünür uygun</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetPageLevelZoomModeCaption" xml:space="preserve">
+    <value>Sayfa düzeyinde yakınlaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandViewExactZoomListDescription" xml:space="preserve">
+    <value>PDF belge yakınlaştırma düzeyini değiştirin.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom10Caption" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom125Caption" xml:space="preserve">
+    <value>% 125</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom150Caption" xml:space="preserve">
+    <value>% 150</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom200Caption" xml:space="preserve">
+    <value>% 200</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom25Caption" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom500Caption" xml:space="preserve">
+    <value>% 500</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom50Caption" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom75Caption" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomInDescription" xml:space="preserve">
+    <value>PDF belgesinin yakından görmek için yakınlaştırır.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomInShortcutCaption" xml:space="preserve">
+    <value>(Ctrl + artı işareti)</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomOutDescription" xml:space="preserve">
+    <value>Daha fazla sayfa görmek için uzaklaştırabilirsiniz bir küçültür.</value>
+  </data>
+  <data name="DocumentViewerStringId.DesignerActionListCreateBarsTransaction" xml:space="preserve">
+    <value>Çubukları oluşturmak</value>
+  </data>
+  <data name="DocumentViewerStringId.DesignerActionListCreateRibbonTransaction" xml:space="preserve">
+    <value>Şerit oluşturma</value>
+  </data>
+  <data name="DocumentViewerStringId.DesignerActionMethodCreateBars" xml:space="preserve">
+    <value>Çubukları oluşturmak</value>
+  </data>
+  <data name="DocumentViewerStringId.DesignerActionMethodCreateRibbon" xml:space="preserve">
+    <value>Şerit oluşturma</value>
+  </data>
+  <data name="DocumentViewerStringId.DesignerActionMethodDockInParentContainer" xml:space="preserve">
+    <value>Dock üst kapsayıcı içinde</value>
+  </data>
+  <data name="DocumentViewerStringId.DesignerActionMethodLoadPdf" xml:space="preserve">
+    <value>PDF dosyası yükle...</value>
+  </data>
+  <data name="DocumentViewerStringId.DesignerActionMethodUndockInParentContainer" xml:space="preserve">
+    <value>Üst kapsayıcı içinde çıkar özelliği</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlCaseSensitive" xml:space="preserve">
+    <value>Harf duyarlı</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageEnterPasswordLabel" xml:space="preserve">
+    <value>Lütfen bir belge açma parolası girin</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageIncorrectPassword" xml:space="preserve">
+    <value>Parola doğru değil. Caps Lock etkin değil dikkat edin.</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageSearchFinished" xml:space="preserve">
+    <value>Tamamlandı ve belgeye aranıyor. Daha fazla eşleşme bulundu.</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageSearchFinishedNoMatchesFound" xml:space="preserve">
+    <value>Tamamlandı ve belgeye aranıyor. Hiçbir eşleşme bulundu.</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageSettingsCaption" xml:space="preserve">
+    <value>Ayarları</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageShowFindTextHintCaption" xml:space="preserve">
+    <value>Metin bulma</value>
+  </data>
+  <data name="DocumentViewerStringId.OpenDocumentCaption" xml:space="preserve">
+    <value>Aç...</value>
+  </data>
+  <data name="DocumentViewerStringId.PageSize" xml:space="preserve">
+    <value>{0:0.00} {1:0.00} x içinde</value>
+  </data>
+  <data name="DocumentViewerStringId.RotateRibbonGroupCaption" xml:space="preserve">
+    <value>Görünümü Döndürme</value>
+  </data>
+  <data name="DocumentViewerStringId.SavingDocumentCaption" xml:space="preserve">
+    <value>Kaydetme</value>
+  </data>
+  <data name="DocumentViewerStringId.PropertiesDescriptionCaption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="DocumentViewerStringId.PropertiesTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogPageRangeAll" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="DocumentViewerStringId.PropertiesFile" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogOrientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogLocation" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="DocumentViewerStringId.PropertiesLocation" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="DocumentViewerStringId.PropertiesSubject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogTitle" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogComment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="DocumentViewerStringId.SaveChangesCaption" xml:space="preserve">
+    <value>PDF görüntüleyici</value>
+  </data>
+  <data name="DocumentViewerStringId.SaveChangesMessage" xml:space="preserve">
+    <value>Kapatmadan önce belgedeki değişiklikleri kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogPrintOrientationAuto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogPrintOrientationLandscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogPrintOrientationPortrait" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogPrintButtonCaption" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="DocumentViewerStringId.PrintDialogPageSizingFit" xml:space="preserve">
+    <value>Uygun</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageIncorrectUrl" xml:space="preserve">
+    <value>{0} geçerli url adresi değil.</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageEnterUrlLabel" xml:space="preserve">
+    <value>Lütfen bir belge url adresini girin</value>
+  </data>
+  <data name="DocumentViewerStringId.SavingDocumentMessage" xml:space="preserve">
+    <value>Kaydediliyor... Lütfen bekleyin.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandOpenFileFromWebCaption" xml:space="preserve">
+    <value>Web üzerinden açık</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPrintFileDescription" xml:space="preserve">
+    <value>Belgeyi yazdır.</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageDocumentHasNoPages" xml:space="preserve">
+    <value>Belge sayfa içermiyor.</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandCloseCaption" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DocumentViewerStringId.RotateRibbonGroupCaption" xml:space="preserve">
+    <value>Döndürme</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.ZoomRibbonGroupCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandNextPageCaption" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlNext" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="DocumentViewerStringId.FileRibbonGroupCaption" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageShowFindTextCaption" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandOpenCaption" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="DocumentViewerStringId.OpenFileDialogTitle" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPreviousPageCaption" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlPrevious" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="DocumentViewerStringId.NavigationRibbonGroupCaption" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetFitWidthZoomModeCaption" xml:space="preserve">
+    <value>Genişliğe Sığdır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom100Caption" xml:space="preserve">
+    <value>%100</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomInCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomOutCaption" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+</root>

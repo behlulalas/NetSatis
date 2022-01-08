@@ -1,0 +1,19 @@
+<Tablo>
+	<Dosya>
+		<DosyaAdi>NetSatis.BackOffice.exe</DosyaAdi>
+		<YuklenecegiKonum>\NetSatis.BackOffice.exe</YuklenecegiKonum>
+	</Dosya>
+	<Dosya>
+		<DosyaAdi>NetSatis.FrontOffice.exe</DosyaAdi>
+		<YuklenecegiKonum>\NetSatis.FrontOffice.exe</YuklenecegiKonum>
+		
+	</Dosya>
+	<Dosya>
+		<DosyaAdi>NetSatis.Entities.dll</DosyaAdi>
+		<YuklenecegiKonum>\Raporlar\NetSatis.Entities.dll</YuklenecegiKonum>
+	</Dosya>
+	<Dosya>
+		<DosyaAdi>NetSatis.Admin.exe</DosyaAdi>
+		<YuklenecegiKonum>\NetSatis.Admin.exe</YuklenecegiKonum>
+	</Dosya>
+</Tablo>

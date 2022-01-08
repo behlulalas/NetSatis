@@ -1,0 +1,1252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.AbsoluteVariation" xml:space="preserve">
+    <value>Mutlak varyasyon</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfColumn" xml:space="preserve">
+    <value>Sütun yüzdesi</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfGrandTotal" xml:space="preserve">
+    <value>Genel Toplam Yüzdesi</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfRow" xml:space="preserve">
+    <value>Satır yüzdesi</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentVariation" xml:space="preserve">
+    <value>Yüzde değişim</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.StdDev" xml:space="preserve">
+    <value>Standart sapma</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearanceObject.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.AllowHideFieldsType.Always" xml:space="preserve">
+    <value>Her Zaman</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ChartDataVertical" xml:space="preserve">
+    <value>Grafik verileri dikey</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ShowColumnTotals" xml:space="preserve">
+    <value>Sütun toplamlarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PageSettings" xml:space="preserve">
+    <value>Sayfa ayarları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintColumnHeaders" xml:space="preserve">
+    <value>Sütun başlıkları yazdır</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.MaxSeriesCount" xml:space="preserve">
+    <value>Max seri sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.HeaderHeightOffset" xml:space="preserve">
+    <value>Başlık yüksekliği ofset</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.RowTotalsLocation" xml:space="preserve">
+    <value>Satır toplamları konumu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowColumnGrandTotals" xml:space="preserve">
+    <value>Sütun genel toplamları göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowColumnTotals" xml:space="preserve">
+    <value>Sütun toplamlarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowHorzLines" xml:space="preserve">
+    <value>Yatay çizgileri göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowVertLines" xml:space="preserve">
+    <value>Dikey çizgileri göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridPageSettings.Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridPageSettings.PaperHeight" xml:space="preserve">
+    <value>Kağıt yüksekliği</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridPageSettings.PaperKind" xml:space="preserve">
+    <value>Kağıt türü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridPageSettings.PaperWidth" xml:space="preserve">
+    <value>Kağıt genişliği</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.DataFieldNaming.FieldName" xml:space="preserve">
+    <value>Alan adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.SelectedCell" xml:space="preserve">
+    <value>Seçili hücre</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.SortByColumnIndicatorImage" xml:space="preserve">
+    <value>Sütun gösterge resmi göre sırala</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.CustomTotalCell" xml:space="preserve">
+    <value>Özel toplam hücresi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.FieldHeader" xml:space="preserve">
+    <value>Alan başlığı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.FieldValue" xml:space="preserve">
+    <value>Alan değeri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.FieldValueGrandTotal" xml:space="preserve">
+    <value>Alan değeri genel toplam</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.FieldValueTotal" xml:space="preserve">
+    <value>Alan değeri toplam</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.TotalCell" xml:space="preserve">
+    <value>Toplam hücresi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCells.ColumnCount" xml:space="preserve">
+    <value>Sütun sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCells.MultiSelection" xml:space="preserve">
+    <value>Çoklu seçim</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCells.RowCount" xml:space="preserve">
+    <value>Satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCustomTotalBase.CellFormat" xml:space="preserve">
+    <value>Hücre biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.ColumnValueLineCount" xml:space="preserve">
+    <value>Sütun değeri satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.FieldEdit" xml:space="preserve">
+    <value>Hücre editörü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.Options.ReadOnly" xml:space="preserve">
+    <value>Salt okunur</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.CellFormat" xml:space="preserve">
+    <value>Hücre biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.CustomTotals" xml:space="preserve">
+    <value>Özel toplamlar</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.DisplayFolder" xml:space="preserve">
+    <value>Görüntü klasörü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.ExpandedInFieldsGroup" xml:space="preserve">
+    <value>Genişletilmiş alan grubunda</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.FieldName" xml:space="preserve">
+    <value>Veri sütun adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.MinWidth" xml:space="preserve">
+    <value>Min genişlik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.RunningTotal" xml:space="preserve">
+    <value>Toplam çalışan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.SortMode" xml:space="preserve">
+    <value>Sıralama modu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.SortOrder" xml:space="preserve">
+    <value>Sıralama düzeni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.SummaryDisplayType" xml:space="preserve">
+    <value>Özeti görüntüleme türü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.TopValueCount" xml:space="preserve">
+    <value>Üst değer sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.TotalCellFormat" xml:space="preserve">
+    <value>Toplam hücre biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.TotalValueFormat" xml:space="preserve">
+    <value>Toplam değer biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.ValueFormat" xml:space="preserve">
+    <value>Değer biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.GroupFilterMode" xml:space="preserve">
+    <value>Grup filtre modu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowCustomTotals" xml:space="preserve">
+    <value>Özel toplamları göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowSummaryTypeName" xml:space="preserve">
+    <value>Özet türü adını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowTotals" xml:space="preserve">
+    <value>Toplamları göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowValues" xml:space="preserve">
+    <value>Değerleri göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortBySummaryInfo.Conditions" xml:space="preserve">
+    <value>Koşullar</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortBySummaryInfo.CustomTotalSummaryType" xml:space="preserve">
+    <value>Özel toplam Özet türü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortBySummaryInfo.Field" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortBySummaryInfo.FieldName" xml:space="preserve">
+    <value>Alan adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortCondition.Field" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortCondition.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldToolTips.ValueFormat" xml:space="preserve">
+    <value>Değer biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridGroup.FilterValues" xml:space="preserve">
+    <value>Filtre değerleri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsBehavior.HorizontalScrolling" xml:space="preserve">
+    <value>Yatay kaydırma</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsDataField.FieldNaming" xml:space="preserve">
+    <value>Alan adlandırma</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsMenu.EnableHeaderMenu" xml:space="preserve">
+    <value>Başlık menüsünü etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsOLAP.DefaultMemberFields" xml:space="preserve">
+    <value>Varsayılan üye davranışı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsSelection.CellSelection" xml:space="preserve">
+    <value>Hücre seçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsSelection.MaxHeight" xml:space="preserve">
+    <value>En fazla yükseklik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsSelection.MaxWidth" xml:space="preserve">
+    <value>En fazla genişlik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsSelection.MultiSelect" xml:space="preserve">
+    <value>Çoklu seçim</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsViewBase.RowTreeOffset" xml:space="preserve">
+    <value>Satır ağaç ofset</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsViewBase.RowTreeWidth" xml:space="preserve">
+    <value>Satır ağaç genişliği</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridStyleFormatCondition.Field" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupFilterMode.List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupFilterMode.Tree" xml:space="preserve">
+    <value>Ağaç</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Alphabetical" xml:space="preserve">
+    <value>Alfabetik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateDayOfWeek" xml:space="preserve">
+    <value>Haftanın günü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateDayOfYear" xml:space="preserve">
+    <value>Yılın günü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateMonth" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateQuarter" xml:space="preserve">
+    <value>Üç aylık dönem</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateYear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DayAge" xml:space="preserve">
+    <value>Gün yaş</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Hour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Minute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.MonthAge" xml:space="preserve">
+    <value>Ay yaş</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Numeric" xml:space="preserve">
+    <value>Sayısal</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Second" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.WeekAge" xml:space="preserve">
+    <value>Hafta yaş</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.YearAge" xml:space="preserve">
+    <value>Yıl yaş</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.Cylinder" xml:space="preserve">
+    <value>Silindir</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.ServerDefined" xml:space="preserve">
+    <value>Sunucu tanımlı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.Thermometer" xml:space="preserve">
+    <value>Termometre</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIType.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIType.Trend" xml:space="preserve">
+    <value>Trend</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIType.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIType.Weight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotOLAPFilterUsingWhereClause.Always" xml:space="preserve">
+    <value>Her zaman</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotOLAPFilterUsingWhereClause.Never" xml:space="preserve">
+    <value>Asla</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotRowTotalsLocation.Tree" xml:space="preserve">
+    <value>Ağaç gibi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotShowButtonModeEnum.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotShowButtonModeEnum.ShowAlways" xml:space="preserve">
+    <value>Her zaman göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortBySummaryOrder.Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortBySummaryOrder.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortBySummaryOrder.Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortMode.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortMode.ID" xml:space="preserve">
+    <value>OLAP kimliği</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortMode.Key" xml:space="preserve">
+    <value>OLAP anahtar</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortMode.None" xml:space="preserve">
+    <value>OLAP yok</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortMode.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortOrder.Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortOrder.Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTopValueType.Absolute" xml:space="preserve">
+    <value>Mutlak</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTopValueType.Percent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTotalsVisibility.AutomaticTotals" xml:space="preserve">
+    <value>Otomatik toplamlar</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTotalsVisibility.CustomTotals" xml:space="preserve">
+    <value>Özel toplamlar</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PrefilterBase.Enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ExportEmptyCells" xml:space="preserve">
+    <value>Boş hücreleri verme</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.OLAPDataProvider.Adomd" xml:space="preserve">
+    <value>ADOMD</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Average" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.Cell" xml:space="preserve">
+    <value>Hücre</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Var" xml:space="preserve">
+    <value>Varyasyon</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.AllowHideFieldsType.Never" xml:space="preserve">
+    <value>Asla</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.OLAPDataProvider.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.RowFieldValueSeparator" xml:space="preserve">
+    <value>Satır alanı değer ayırıcı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ShowRowCustomTotals" xml:space="preserve">
+    <value>Özel gösteri satır toplamları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ShowRowGrandTotals" xml:space="preserve">
+    <value>Göster satırındaki genel toplamları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ShowRowTotals" xml:space="preserve">
+    <value>Göster satırı toplamları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.ColumnFieldValueSeparator" xml:space="preserve">
+    <value>Sütun alanına değer ayırıcı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.FilterSeparatorBarPadding" xml:space="preserve">
+    <value>Filtre ayırıcı çubuğu dolgusu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.MergeColumnFieldValues" xml:space="preserve">
+    <value>Sütun alanı değerlerini birleştirme</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintDataHeaders" xml:space="preserve">
+    <value>Veri başlıklarını yazdırma</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintFilterHeaders" xml:space="preserve">
+    <value>Filtre başlıklarını yazdırma</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintHeadersOnEveryPage" xml:space="preserve">
+    <value>Başlıkları her sayfada yazdırma</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintHorzLines" xml:space="preserve">
+    <value>Yatay çizgiler yazdırmak</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintRowHeaders" xml:space="preserve">
+    <value>Yazdırma satır başlıkları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintUnusedFilterFields" xml:space="preserve">
+    <value>Yazdırma kullanılmamış filtre alanları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.PrintVertLines" xml:space="preserve">
+    <value>Dikey çizgiler yazdırmak</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ShowColumnCustomTotals" xml:space="preserve">
+    <value>Özel sütun toplamlarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.ShowColumnGrandTotals" xml:space="preserve">
+    <value>Sütun genel toplamları göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsChartDataSourceBase.MaxPointCountBySeries" xml:space="preserve">
+    <value>Max noktası sayısı tarafından serisi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.OLAPDataProvider.OleDb" xml:space="preserve">
+    <value>OleDb</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.OLAPDataProvider.Xmla" xml:space="preserve">
+    <value>XMLA</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearanceObject.ForeColor" xml:space="preserve">
+    <value>ForeColor</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.AllowHideFieldsType.WhenCustomizationFormVisible" xml:space="preserve">
+    <value>Form Özelleştirme zaman görünür</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Varp" xml:space="preserve">
+    <value>Tüm bir popülasyon için varyasyon</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfRowGrandTotal" xml:space="preserve">
+    <value>Grand Satır toplamı yüzdesi</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.CustomTotalCell" xml:space="preserve">
+    <value>CustomTotalCell</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.FieldHeader" xml:space="preserve">
+    <value>FieldHeader</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.FieldValue" xml:space="preserve">
+    <value>FieldValue</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.FieldValueGrandTotal" xml:space="preserve">
+    <value>FieldValueGrandTotal</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.FieldValueTotal" xml:space="preserve">
+    <value>FieldValueTotal</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.GrandTotalCell" xml:space="preserve">
+    <value>GrandTotalCell</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.Lines" xml:space="preserve">
+    <value>Satırları</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearance.TotalCell" xml:space="preserve">
+    <value>TotalCell</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearanceObject.BackColor" xml:space="preserve">
+    <value>BackColor</value>
+  </data>
+  <data name="DevExpress.PivotGrid.Printing.PrintAppearanceObject.BorderColor" xml:space="preserve">
+    <value>BorderColor</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.StdDevp" xml:space="preserve">
+    <value>Tüm bir popülasyon için standart sapma</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Sum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.RankInColumnLargestToSmallest" xml:space="preserve">
+    <value>En küçükten en büyük sütun sırası</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.RankInColumnSmallestToLargest" xml:space="preserve">
+    <value>Sütun için en büyük en küçük rütbe</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.RankInRowLargestToSmallest" xml:space="preserve">
+    <value>Satır için en küçük en büyük rütbe</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.RankInRowSmallestToLargest" xml:space="preserve">
+    <value>Satır için en büyük en küçük rütbe</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.PercentOfColumnGrandTotal" xml:space="preserve">
+    <value>Grand sütun toplamının yüzdesi olarak</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.Index" xml:space="preserve">
+    <value>Dizin</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.UsePrintAppearance" xml:space="preserve">
+    <value>Yazdırma görünümünü kullanma</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.VerticalContentSplitting" xml:space="preserve">
+    <value>Dikey içerik yarma</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowDataHeaders" xml:space="preserve">
+    <value>Veri başlıklarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridPageSettings.Landscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.DataFieldUnboundExpressionMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.OptionsLayoutPivotGrid.AddNewGroups" xml:space="preserve">
+    <value>Yeni Grup Ekle</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.OptionsLayoutPivotGrid.ResetOptions" xml:space="preserve">
+    <value>Ayarları Sıfırla</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotDataArea.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.Empty" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.Cell" xml:space="preserve">
+    <value>Hücre</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.GrandTotalCell" xml:space="preserve">
+    <value>Grand toplam hücresi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCustomTotal.Appearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCustomTotalBase.Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCustomTotalBase.Tag" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.Appearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.KPIGraphic" xml:space="preserve">
+    <value>KPI Grafik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Tag" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryType.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.Data.PivotGrid.PivotSummaryDisplayType.Default" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ColumnTotalsLocation" xml:space="preserve">
+    <value>Sütun toplamlarını konumu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowColumnGrandTotalHeader" xml:space="preserve">
+    <value>Sütun Grand toplam üstbilgisini göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowColumnHeaders" xml:space="preserve">
+    <value>Sütun üstbilgileri göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotArea.ColumnArea" xml:space="preserve">
+    <value>Sütun alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotDataArea.ColumnArea" xml:space="preserve">
+    <value>Sütun alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAllowedAreas.ColumnArea" xml:space="preserve">
+    <value>Sütun alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.ColumnHeaderArea" xml:space="preserve">
+    <value>Sütun üstbilgi alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortBySummaryInfo.SummaryType" xml:space="preserve">
+    <value>Özet Türü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldSortCondition.OLAPUniqueMemberName" xml:space="preserve">
+    <value>OLAP benzersiz bir üye adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridGroup.VisibleCount" xml:space="preserve">
+    <value>Görünür sayı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsData.FilterByVisibleFieldsOnly" xml:space="preserve">
+    <value>Yalnızca görünür alanları göre filtrele</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsDataFieldEx.ColumnValueLineCount" xml:space="preserve">
+    <value>Sütun değeri satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotSortMode.DisplayText" xml:space="preserve">
+    <value>Görüntü metni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowCustomizationForm" xml:space="preserve">
+    <value>Özelleştirme Form izin</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowGrandTotalsForSingleValues" xml:space="preserve">
+    <value>Tek Değerler İçin Genel Toplamları Göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.GrandTotalCellFormat" xml:space="preserve">
+    <value>Genel Toplam Hücre Biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.GrandTotalText" xml:space="preserve">
+    <value>Genel Toplam Metni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.HideEmptyVariationItems" xml:space="preserve">
+    <value>Boş varyasyon öğeleri gizle</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowGrandTotal" xml:space="preserve">
+    <value>Genel Toplamı Göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridStyleFormatCondition.ApplyToGrandTotalCell" xml:space="preserve">
+    <value>Genel Toplam Hücresine Uygula</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.DataFieldNaming.Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Area" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsDataField.Area" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridGroup.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTopValueType.Sum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.Lines" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotArea.DataArea" xml:space="preserve">
+    <value>Veri alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotArea.FilterArea" xml:space="preserve">
+    <value>Filtre alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotArea.RowArea" xml:space="preserve">
+    <value>Satır alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotDataArea.RowArea" xml:space="preserve">
+    <value>Satır alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAllowedAreas.DataArea" xml:space="preserve">
+    <value>Veri alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAllowedAreas.FilterArea" xml:space="preserve">
+    <value>Filtre alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAllowedAreas.RowArea" xml:space="preserve">
+    <value>Satır alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.HeaderArea" xml:space="preserve">
+    <value>Üstbilgi alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCells.Selection" xml:space="preserve">
+    <value>Seçim</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.Caption" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsData.AutoExpandGroups" xml:space="preserve">
+    <value>Otomatik grupları Genişlet</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsData.CaseSensitive" xml:space="preserve">
+    <value>Büyük Küçük Harf Duyarlı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsDataField.Caption" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsHint.ShowCellHints" xml:space="preserve">
+    <value>Hücre ipuçlarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsHint.ShowHeaderHints" xml:space="preserve">
+    <value>Üstbilgi ipuçlarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsHint.ShowValueHints" xml:space="preserve">
+    <value>Değer ipuçlarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsMenu.EnableFieldValueMenu" xml:space="preserve">
+    <value>Alan değeri menüsünü etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsMenu.EnableHeaderAreaMenu" xml:space="preserve">
+    <value>Üstbilgi alanı menüsünü etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.TrafficLights" xml:space="preserve">
+    <value>Trafik ışıkları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIType.Status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTotalsVisibility.None" xml:space="preserve">
+    <value>Toplam yok</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsChartDataSource.SelectionOnly" xml:space="preserve">
+    <value>Yalnızca Seçim</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowCustomTotalsForSingleValues" xml:space="preserve">
+    <value>Tek bir değer için özel toplamları göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowFilterHeaders" xml:space="preserve">
+    <value>Filtre üstbilgileri göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowFilterSeparatorBar" xml:space="preserve">
+    <value>Filtre ayırıcı çubuğunu göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotOLAPFilterUsingWhereClause.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.Shapes" xml:space="preserve">
+    <value>Şekiller</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsPrint.MergeRowFieldValues" xml:space="preserve">
+    <value>Birleştirme satırı alan değerleri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowTotalsForSingleValues" xml:space="preserve">
+    <value>Tek değerlerin toplamlarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.OptionsLayoutPivotGrid.StoreLayoutOptions" xml:space="preserve">
+    <value>Mağaza düzeni seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAllowedAreas.All" xml:space="preserve">
+    <value>Tüm alanlarda</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowRowHeaders" xml:space="preserve">
+    <value>Satır başlıklarını göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.HeaderFilterButtonActive" xml:space="preserve">
+    <value>Üstbilgi filtre düğmesi etkin</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.RowHeaderArea" xml:space="preserve">
+    <value>Satır üstbilgisi alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.Options.ShowUnboundExpressionMenu" xml:space="preserve">
+    <value>İlişkisiz ifade menüsünü göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.RowValueLineCount" xml:space="preserve">
+    <value>Satır değeri satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.ToolTips" xml:space="preserve">
+    <value>Araç ipuçları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.AreaIndex" xml:space="preserve">
+    <value>Alan dizini</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.GroupInterval" xml:space="preserve">
+    <value>Gruplandırma aralığı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.GroupIntervalNumericRange" xml:space="preserve">
+    <value>Grup aralığı sayısal aralığı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowSort" xml:space="preserve">
+    <value>Sıralamaya izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldToolTips.ValueText" xml:space="preserve">
+    <value>Değer metni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.UnboundExpression" xml:space="preserve">
+    <value>İlişkisiz ifade</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.UnboundFieldName" xml:space="preserve">
+    <value>İlişkisiz alan adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowDrag" xml:space="preserve">
+    <value>Sürüklemeye izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsDataFieldEx.RowValueLineCount" xml:space="preserve">
+    <value>Satır değeri satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridScrolling.Control" xml:space="preserve">
+    <value>Denetim</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridStyleFormatCondition.ApplyToCell" xml:space="preserve">
+    <value>Hücreye uygula</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowSort" xml:space="preserve">
+    <value>Sıralamaya izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsDataField.AreaIndex" xml:space="preserve">
+    <value>Alan dizini</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateQuarterYear" xml:space="preserve">
+    <value>Çeyrek yıl</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateWeekOfMonth" xml:space="preserve">
+    <value>Ayın haftası</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateWeekOfYear" xml:space="preserve">
+    <value>Yılın haftası</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowDrag" xml:space="preserve">
+    <value>Sürüklemeye izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateMonthYear" xml:space="preserve">
+    <value>Ay-yıl</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.Faces" xml:space="preserve">
+    <value>Yüzler</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.Gauge" xml:space="preserve">
+    <value>ölçer</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.ReversedCylinder" xml:space="preserve">
+    <value>Ters silindir</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.ReversedStatusArrow" xml:space="preserve">
+    <value>Ters durum oku</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.ReversedThermometer" xml:space="preserve">
+    <value>Ters termometre</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.RoadSigns" xml:space="preserve">
+    <value>Yol işaretleri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.StandardArrow" xml:space="preserve">
+    <value>Standart ok</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.StatusArrow" xml:space="preserve">
+    <value>Durum oku</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotShowButtonModeEnum.ShowOnlyInEditor" xml:space="preserve">
+    <value>Düzenleyici etkin olduğunda göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.VarianceArrow" xml:space="preserve">
+    <value>Varyans oku</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotOLAPFilterUsingWhereClause.SingleValuesOnly" xml:space="preserve">
+    <value>Yalnızca tek bir değer</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotRowTotalsLocation.Far" xml:space="preserve">
+    <value>Sonraki değerler</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotRowTotalsLocation.Near" xml:space="preserve">
+    <value>Önceki değerler</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotShowButtonModeEnum.ShowForFocusedCell" xml:space="preserve">
+    <value>Sadece odaklı cep için göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIType.Goal" xml:space="preserve">
+    <value>Hedefi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTotalsLocation.Far" xml:space="preserve">
+    <value>Sonraki değerler</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotTotalsLocation.Near" xml:space="preserve">
+    <value>Önceki değerler</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Prefilter.Criteria" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PrefilterBase.Criteria" xml:space="preserve">
+    <value>Ölçütleri</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PrefilterBase.CriteriaString" xml:space="preserve">
+    <value>Ölçüt dizesi olarak</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotKPIGraphic.ReversedGauge" xml:space="preserve">
+    <value>Ters ölçer</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowExpand" xml:space="preserve">
+    <value>İzin genişletmek</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsDataField.RowHeaderWidth" xml:space="preserve">
+    <value>Satır üstbilgi genişlik</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsData.AllowCrossGroupVariation" xml:space="preserve">
+    <value>Gruplar arası değişime izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsData.DataFieldUnboundExpressionMode" xml:space="preserve">
+    <value>İlişkisiz ifade modu veri alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsData.DrillDownMaxRowCount" xml:space="preserve">
+    <value>Maksimum satır sayısı matkap</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridStyleFormatCondition.ApplyToCustomTotalCell" xml:space="preserve">
+    <value>Özel toplam hücreye uygula</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateHour" xml:space="preserve">
+    <value>Tarih-Saat</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateHourMinute" xml:space="preserve">
+    <value>Tarih, saat, dakika</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGroupInterval.DateHourMinuteSecond" xml:space="preserve">
+    <value>Tarih-saat-dakika-saniye</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsView.FilterSeparatorBarPadding" xml:space="preserve">
+    <value>Filtre ayırıcı çubuğu dolgusu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsView.GroupFieldsInCustomizationWindow" xml:space="preserve">
+    <value>Grup alanları özelleştirme penceresinde</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsView.HeaderFilterButtonShowMode" xml:space="preserve">
+    <value>Üstbilgi filtre düğmesini göster modu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowExpand" xml:space="preserve">
+    <value>İzin genişletmek</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowFilter" xml:space="preserve">
+    <value>Filtrelemeye izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.UnboundType" xml:space="preserve">
+    <value>İlişkisiz türü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.UseNativeFormat" xml:space="preserve">
+    <value>Sayılar Excel'e verme</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridGroup.Caption" xml:space="preserve">
+    <value>Resim yazısı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsBehavior.ClipboardCopyCollapsedValuesMode" xml:space="preserve">
+    <value>Pano davranış alan değerlerini kopyalayın</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsBehaviorBase.UseAsyncMode" xml:space="preserve">
+    <value>Zaman Uyumsuz Modu Kullan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowInCustomizationForm" xml:space="preserve">
+    <value>Özelleştirme biçiminde göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldToolTips.HeaderText" xml:space="preserve">
+    <value>Başlık Metni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.SortBySummaryInfo" xml:space="preserve">
+    <value>Özet bilgi: sıralama</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.SummaryType" xml:space="preserve">
+    <value>Özet yazın</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.TotalsVisibility" xml:space="preserve">
+    <value>Toplamları görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.EmptyCellText" xml:space="preserve">
+    <value>Boş bir hücreye metin</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.EmptyValueText" xml:space="preserve">
+    <value>Boş değer metin</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.FilterSeparator" xml:space="preserve">
+    <value>Ayırıcı filtre</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearancesBase.HeaderGroupLine" xml:space="preserve">
+    <value>Grup üstbilgi satırı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCells.FocusedCell" xml:space="preserve">
+    <value>Hücre odaklı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridCustomTotalBase.SummaryType" xml:space="preserve">
+    <value>Özet yazın</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.ImageIndex" xml:space="preserve">
+    <value>Yansıma dizini</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.Options.AllowEdit" xml:space="preserve">
+    <value>Düzenleme izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridField.Options.ShowButtonMode" xml:space="preserve">
+    <value>Modu düğmesini göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.PrefilterPanel" xml:space="preserve">
+    <value>Ön filtre paneli</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowRowTotals" xml:space="preserve">
+    <value>Satır Toplamlarını Göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.DataHeaderArea" xml:space="preserve">
+    <value>Verileri üstbilgi alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.FocusedCell" xml:space="preserve">
+    <value>Hücre odaklı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.HeaderFilterButton" xml:space="preserve">
+    <value>Üstbilgi filtre düğmesi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.TotalsLocation" xml:space="preserve">
+    <value>Toplamları konumu</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.DataFieldUnboundExpressionMode.UseSummaryValues" xml:space="preserve">
+    <value>Özet Değerleri Kullan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.HeaderWidthOffset" xml:space="preserve">
+    <value>Üstbilgi genişlik ofset</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowRowGrandTotalHeader" xml:space="preserve">
+    <value>Göster satırındaki Grand toplam başlık</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.ShowRowGrandTotals" xml:space="preserve">
+    <value>Göster satırındaki genel toplamları</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsBehaviorBase.LoadingPanelDelay" xml:space="preserve">
+    <value>Panel gecikme yükleniyor</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsBehavior.CopyToClipboardWithFieldValues" xml:space="preserve">
+    <value>Alan değerlerini panoya kopyala</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowFilter" xml:space="preserve">
+    <value>Filtreye izin ver</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.TopValueType" xml:space="preserve">
+    <value>En üst değer tipi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.ExpandButton" xml:space="preserve">
+    <value>Düğmeyi genişlet</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridAppearances.FilterHeaderArea" xml:space="preserve">
+    <value>Üstbilgi filtre alanı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.Data.PivotGridOptionsViewBase.DrawFocusedCellRect" xml:space="preserve">
+    <value>Odağa Kare Çiz</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowDragInCustomizationForm" xml:space="preserve">
+    <value>Özelleştirme Formu İçine Sürükleme İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowFilterBySummary" xml:space="preserve">
+    <value>Özet Filtreleme İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowRunTimeSummaryChange" xml:space="preserve">
+    <value>Çalışma Zamanı Özet Değişim İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.TopValueShowOthers" xml:space="preserve">
+    <value>Diğer En İyi Değeri Göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.AllowedAreas" xml:space="preserve">
+    <value>İzin Verilmiş Bölgeler</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsBehavior.ApplyBestFitOnFieldDragging" xml:space="preserve">
+    <value>Alan Sürüklenirken En Uygun Genişlik Uygula</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsBehavior.ClipboardCopyMultiSelectionMode" xml:space="preserve">
+    <value>Çoklu Seçim Modunda Panoya Kopyala</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.AllowSortBySummary" xml:space="preserve">
+    <value>Özet Sıralama İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowInPrefilter" xml:space="preserve">
+    <value>ÖnFiltrede Göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.OLAPFilterByUniqueName" xml:space="preserve">
+    <value>OLAP Filtresi Benzersiz İsme Göre</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.OLAPFilterUsingWhereClause" xml:space="preserve">
+    <value>OLAP Filtresi Where Kullanarak</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.OLAPUseNonEmpty" xml:space="preserve">
+    <value>OLAP Kullanım NonEmpty</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowSortBySummary" xml:space="preserve">
+    <value>Özete Göre Sıralama İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomizationEx.AllowPrefilter" xml:space="preserve">
+    <value>Önfiltre İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowDragInCustomizationForm" xml:space="preserve">
+    <value>Özelleştirme Formunda Sürükleme İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowFilterBySummary" xml:space="preserve">
+    <value>Özete Göre Filtre İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.AllowHideFields" xml:space="preserve">
+    <value>Alan Gizleme İzni</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsChartDataSource.UpdateDelay" xml:space="preserve">
+    <value>Gecikmeli Güncelleştir</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsView.ShowButtonMode" xml:space="preserve">
+    <value>Buton Modu Göster</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsOLAP.FilterByUniqueName" xml:space="preserve">
+    <value>Filtre Benzersiz İsme Göre</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsOLAP.UseAggregateForSingleFilterValue" xml:space="preserve">
+    <value>Tek Filtre Değeri İçin Toplu Kullanım</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridScrolling.CellsArea" xml:space="preserve">
+    <value>HücreBölgesi</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridOptionsSelection.EnableAppearanceFocusedCell" xml:space="preserve">
+    <value>Odaklanmış Hücre Görünümü Etkin</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridStyleFormatCondition.ApplyToTotalCell" xml:space="preserve">
+    <value>Toplam Hücresine Uygula</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.OLAPDataProvider.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.TopValueMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.UnboundExpressionMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.UnboundExpressionMode.DataSource" xml:space="preserve">
+    <value>Veri Kaynağı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PrefilterBase.NonColumnCriteria" xml:space="preserve">
+    <value>Olmayan sütun ölçüt</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldBase.FilterColumnName" xml:space="preserve">
+    <value>Filtre sütun adı</value>
+  </data>
+  <data name="DevExpress.XtraPivotGrid.PivotGridFieldOptions.ShowFilter" xml:space="preserve">
+    <value>Filtrede göster</value>
+  </data>
+</root>

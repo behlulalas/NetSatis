@@ -1,0 +1,1092 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PrintingStringId.ClosePreview" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_OpenPasswordHeader" xml:space="preserve">
+    <value>Belge Açma Parolası</value>
+  </data>
+  <data name="PrintingStringId.PrintPreviewWindowCaption" xml:space="preserve">
+    <value>Baskı Önizleme</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageCaption" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="PrintingStringId.ToolBarCaption" xml:space="preserve">
+    <value>Baskı Önizleme</value>
+  </data>
+  <data name="PrintingStringId.WatermarkFontBold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="PrintingStringId.WatermarkImageHorizontalAlignment" xml:space="preserve">
+    <value>Yatay Hizalama:</value>
+  </data>
+  <data name="PrintingStringId.WatermarkImageVerticalAlignment" xml:space="preserve">
+    <value>Dikey Hizalama:</value>
+  </data>
+  <data name="PrintingStringId.Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="PrintingStringId.ExportCsv" xml:space="preserve">
+    <value>CSV dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportCsvToWindow" xml:space="preserve">
+    <value>CSV dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportHtm" xml:space="preserve">
+    <value>HTML dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportHtmToWindow" xml:space="preserve">
+    <value>HTML dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportImage" xml:space="preserve">
+    <value>Görüntü dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportImageToWindow" xml:space="preserve">
+    <value>Görüntü dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportPdf" xml:space="preserve">
+    <value>PDF dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportPdfToWindow" xml:space="preserve">
+    <value>PDF dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportTxt" xml:space="preserve">
+    <value>Metin dosyası</value>
+  </data>
+  <data name="PrintingStringId.ExportTxtToWindow" xml:space="preserve">
+    <value>Metin dosyası</value>
+  </data>
+  <data name="PrintingStringId.FirstPage" xml:space="preserve">
+    <value>İlk sayfa</value>
+  </data>
+  <data name="PrintingStringId.IncreaseZoom_Hint" xml:space="preserve">
+    <value>Belgeyi yakından görmek için yakınlaştırır.</value>
+  </data>
+  <data name="PrintingStringId.LastPage" xml:space="preserve">
+    <value>Son sayfa</value>
+  </data>
+  <data name="PrintingStringId.NextPage" xml:space="preserve">
+    <value>Sonraki sayfa</value>
+  </data>
+  <data name="PrintingStringId.PageSetupMarginsBottom" xml:space="preserve">
+    <value>Alt:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupMarginsLeft" xml:space="preserve">
+    <value>Sol:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupMarginsRight" xml:space="preserve">
+    <value>Sağ:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPaperCaption" xml:space="preserve">
+    <value>Kağıt</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A3ExtraTransverse" xml:space="preserve">
+    <value>A3 Ekstra Enine</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A3Rotated" xml:space="preserve">
+    <value>A3 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A3Transverse" xml:space="preserve">
+    <value>A3 Enine</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A4Plus" xml:space="preserve">
+    <value>A4 Artı</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A4Rotated" xml:space="preserve">
+    <value>A4 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A4Small" xml:space="preserve">
+    <value>A4 Küçük</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A4Transverse" xml:space="preserve">
+    <value>A4 Enine</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A5Rotated" xml:space="preserve">
+    <value>A5 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A5Transverse" xml:space="preserve">
+    <value>A5 Enine</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A6Rotated" xml:space="preserve">
+    <value>A6 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B4JisRotated" xml:space="preserve">
+    <value>JIS B4 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B5Envelope" xml:space="preserve">
+    <value>B5 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B5JisRotated" xml:space="preserve">
+    <value>JIS B5 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B5Transverse" xml:space="preserve">
+    <value>JIS B5 Enine</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_C5Envelope" xml:space="preserve">
+    <value>C5 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_C65Envelope" xml:space="preserve">
+    <value>C65 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_C6Envelope" xml:space="preserve">
+    <value>C6 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_DLEnvelope" xml:space="preserve">
+    <value>DL Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_DSheet" xml:space="preserve">
+    <value>D Sayfa</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_ESheet" xml:space="preserve">
+    <value>E Sayfa</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_ItalyEnvelope" xml:space="preserve">
+    <value>İtalya Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseDoublePostcard" xml:space="preserve">
+    <value>Japon Çift Kartpostal</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseDoublePostcardRotated" xml:space="preserve">
+    <value>Japon Çift Kartpostal Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapanesePostcard" xml:space="preserve">
+    <value>Japon Kartpostal</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Letter" xml:space="preserve">
+    <value>Mektup</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_LetterExtra" xml:space="preserve">
+    <value>Mektup Ekstra</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_LetterExtraTransverse" xml:space="preserve">
+    <value>Mektup Ekstra Enine</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_LetterRotated" xml:space="preserve">
+    <value>Mektup Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_LetterTransverse" xml:space="preserve">
+    <value>Mektup Enine</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_MonarchEnvelope" xml:space="preserve">
+    <value>Monarch Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Note" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="PrintingStringId.PreviousPage" xml:space="preserve">
+    <value>Önceki sayfa</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_Print" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_Watermark" xml:space="preserve">
+    <value>Filigran</value>
+  </data>
+  <data name="PrintingStringId.Scaling_Adjust_End_Label" xml:space="preserve">
+    <value>Normal boyut</value>
+  </data>
+  <data name="PrintingStringId.SendCsv" xml:space="preserve">
+    <value>CSV dosyası</value>
+  </data>
+  <data name="PrintingStringId.SendImage" xml:space="preserve">
+    <value>Görüntü dosyası</value>
+  </data>
+  <data name="PrintingStringId.SendPdf" xml:space="preserve">
+    <value>PDF dosyası</value>
+  </data>
+  <data name="PrintingStringId.SendTxt" xml:space="preserve">
+    <value>Metin dosyası</value>
+  </data>
+  <data name="PrintingStringId.Watermark" xml:space="preserve">
+    <value>Filigran</value>
+  </data>
+  <data name="PrintingStringId.WatermarkPageRange" xml:space="preserve">
+    <value>Sayfa aralığı</value>
+  </data>
+  <data name="PrintingStringId.WatermarkTitle" xml:space="preserve">
+    <value>Filigran</value>
+  </data>
+  <data name="PrintingStringId.ZoomToPageHeight" xml:space="preserve">
+    <value>Sayfa yüksekliği</value>
+  </data>
+  <data name="PrintingStringId.ZoomToPageWidth" xml:space="preserve">
+    <value>Sayfa genişliği</value>
+  </data>
+  <data name="PrintingStringId.ZoomToWholePage" xml:space="preserve">
+    <value>Tam sayfa</value>
+  </data>
+  <data name="PrintingStringId.DefaultPrintJobDescription" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="PrintingStringId.DocumentMap" xml:space="preserve">
+    <value>Belge Haritası</value>
+  </data>
+  <data name="PrintingStringId.Error" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="PrintingStringId.ExportMht" xml:space="preserve">
+    <value>MHT Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportMhtToWindow" xml:space="preserve">
+    <value>MHT Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportRtf" xml:space="preserve">
+    <value>RTF Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportRtfToWindow" xml:space="preserve">
+    <value>RTF Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportXls" xml:space="preserve">
+    <value>XLS Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportXlsToWindow" xml:space="preserve">
+    <value>XLS Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportXlsx" xml:space="preserve">
+    <value>XLSX Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportXlsxToWindow" xml:space="preserve">
+    <value>XLSX Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportXps" xml:space="preserve">
+    <value>XPS Dosya</value>
+  </data>
+  <data name="PrintingStringId.ExportXpsToWindow" xml:space="preserve">
+    <value>XPS Dosya</value>
+  </data>
+  <data name="PrintingStringId.FirstPage_Hint" xml:space="preserve">
+    <value>Belgenin ilk sayfasına gidin.</value>
+  </data>
+  <data name="PrintingStringId.GoToPage" xml:space="preserve">
+    <value>Sayfa:</value>
+  </data>
+  <data name="PrintingStringId.IncreaseZoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="PrintingStringId.Information" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="PrintingStringId.OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="PrintingStringId.Open_Hint" xml:space="preserve">
+    <value>Bir rapor belgesi açın.</value>
+  </data>
+  <data name="PrintingStringId.PageSetupInches" xml:space="preserve">
+    <value>İnç</value>
+  </data>
+  <data name="PrintingStringId.PageSetupMarginsCaptionFormat" xml:space="preserve">
+    <value>{0} İçindeki Kenar Boşlukları</value>
+  </data>
+  <data name="PrintingStringId.PageSetupMarginsTop" xml:space="preserve">
+    <value>Üst:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupMillimeters" xml:space="preserve">
+    <value>Milimetre</value>
+  </data>
+  <data name="PrintingStringId.PageSetupOrientationCaption" xml:space="preserve">
+    <value>Yön:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupOrientationLandscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="PrintingStringId.PageSetupOrientationPortrait" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPaperSize" xml:space="preserve">
+    <value>Kağıt Boyutu:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPrinter" xml:space="preserve">
+    <value>Yazıcı:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPrinterCaption" xml:space="preserve">
+    <value>Yazıcı</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPrinterComment" xml:space="preserve">
+    <value>Yorum:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPrinterPort" xml:space="preserve">
+    <value>Bağlantı Noktası:</value>
+  </data>
+  <data name="PrintingStringId.Parameters" xml:space="preserve">
+    <value>Parametreler</value>
+  </data>
+  <data name="PrintingStringId.ParametersSubmit" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_ChangingPermissions" xml:space="preserve">
+    <value>İzin değişiklikleri:</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_EnableScreenReaders" xml:space="preserve">
+    <value>Görme özürlüler için ekran okuma aygıtlarının metin erişimini etkinleştir</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_Permissions" xml:space="preserve">
+    <value>İzinler</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_PermissionsPassword" xml:space="preserve">
+    <value>Değişiklik izin şifresi:</value>
+  </data>
+  <data name="PrintingStringId.PdfSignatureEditorWindow_Certificate" xml:space="preserve">
+    <value>Sertifika:</value>
+  </data>
+  <data name="PrintingStringId.PdfSignatureEditorWindow_ContactInformation" xml:space="preserve">
+    <value>İletişim Bilgisi:</value>
+  </data>
+  <data name="PrintingStringId.PdfSignatureEditorWindow_Reason" xml:space="preserve">
+    <value>Sebep:</value>
+  </data>
+  <data name="PrintingStringId.PdfSignatureEditorWindow_Title" xml:space="preserve">
+    <value>İmza Seçenekleri</value>
+  </data>
+  <data name="PrintingStringId.PictureWatermarkTitle" xml:space="preserve">
+    <value>Resim Filigranı</value>
+  </data>
+  <data name="PrintingStringId.Print" xml:space="preserve">
+    <value>Yazdır...</value>
+  </data>
+  <data name="PrintingStringId.PrintDirect" xml:space="preserve">
+    <value>Hızlı Yazdır</value>
+  </data>
+  <data name="PrintingStringId.PrintPdf_Hint" xml:space="preserve">
+    <value>PDF üzerinden geçerli belgeyi yazdırır.</value>
+  </data>
+  <data name="PrintingStringId.RepeatPassword_PermissionsPassword" xml:space="preserve">
+    <value>İzin Şifresi:</value>
+  </data>
+  <data name="PrintingStringId.RepeatPassword_PermissionsPassword_Title" xml:space="preserve">
+    <value>İzin Şifresini Onayla</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_Document" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="PrintingStringId.Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="PrintingStringId.Save_Hint" xml:space="preserve">
+    <value>Rapor belgeyi kaydedin.</value>
+  </data>
+  <data name="PrintingStringId.Scaling" xml:space="preserve">
+    <value>Ölçek</value>
+  </data>
+  <data name="PrintingStringId.Scaling_Adjust_Start_Label" xml:space="preserve">
+    <value>Küçültme/Büyütme</value>
+  </data>
+  <data name="PrintingStringId.Scaling_ComboBoxEdit_Validation_Error" xml:space="preserve">
+    <value>Değer geçerli değil</value>
+  </data>
+  <data name="PrintingStringId.Scaling_Fit_Start_Label" xml:space="preserve">
+    <value>Sığdır</value>
+  </data>
+  <data name="PrintingStringId.Search" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="PrintingStringId.Search_EmptyResult" xml:space="preserve">
+    <value>Arama metni eşleşmedi.</value>
+  </data>
+  <data name="PrintingStringId.SendMht" xml:space="preserve">
+    <value>MHT Dosya</value>
+  </data>
+  <data name="PrintingStringId.SendRtf" xml:space="preserve">
+    <value>RTF Dosya</value>
+  </data>
+  <data name="PrintingStringId.SendXls" xml:space="preserve">
+    <value>XLS Dosya</value>
+  </data>
+  <data name="PrintingStringId.SendXlsx" xml:space="preserve">
+    <value>XLSX Dosya</value>
+  </data>
+  <data name="PrintingStringId.SendXps" xml:space="preserve">
+    <value>XPS Dosya</value>
+  </data>
+  <data name="PrintingStringId.StatusBarCaption" xml:space="preserve">
+    <value>Durum Çubuğu</value>
+  </data>
+  <data name="PrintingStringId.StopPageBuilding" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="PrintingStringId.TextWatermarkTitle" xml:space="preserve">
+    <value>Metin Filigranı</value>
+  </data>
+  <data name="PrintingStringId.WatermarkClearAll" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="PrintingStringId.WatermarkFontItalic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="PrintingStringId.WatermarkFontName" xml:space="preserve">
+    <value>Yazı Tipi:</value>
+  </data>
+  <data name="PrintingStringId.WatermarkImageLoadError" xml:space="preserve">
+    <value>Dosya bozuk</value>
+  </data>
+  <data name="PrintingStringId.WatermarkLoadImage" xml:space="preserve">
+    <value>Resim:</value>
+  </data>
+  <data name="PrintingStringId.WatermarkPageRangeAllPages" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="PrintingStringId.WatermarkPageRangeHint" xml:space="preserve">
+    <value>Örneğin: 1,3,5-12</value>
+  </data>
+  <data name="PrintingStringId.WatermarkPageRangePages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="PrintingStringId.WatermarkPosition" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="PrintingStringId.WatermarkPositionBehind" xml:space="preserve">
+    <value>Arkasında</value>
+  </data>
+  <data name="PrintingStringId.WatermarkPositionInFront" xml:space="preserve">
+    <value>Önünde</value>
+  </data>
+  <data name="PrintingStringId.WatermarkText" xml:space="preserve">
+    <value>Metin:</value>
+  </data>
+  <data name="PrintingStringId.WatermarkTextColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="PrintingStringId.WatermarkTextDirection" xml:space="preserve">
+    <value>Yön:</value>
+  </data>
+  <data name="PrintingStringId.WatermarkTransparency" xml:space="preserve">
+    <value>Saydamlık:</value>
+  </data>
+  <data name="PrintingStringId.ZoomToTwoPages" xml:space="preserve">
+    <value>İki Sayfa</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PersonalEnvelope" xml:space="preserve">
+    <value>Kişisel Zarf (6 3/4)</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Prc32KBig" xml:space="preserve">
+    <value>Prc 32K Büyük</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Prc32KBigRotated" xml:space="preserve">
+    <value>Prc 32K Büyük Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Prc32KRotated" xml:space="preserve">
+    <value>PRC 32K Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber1" xml:space="preserve">
+    <value>PRC Zarf Numara 1</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber10" xml:space="preserve">
+    <value>PRC Zarf Numara 10</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber10Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 10 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber1Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 1 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber2" xml:space="preserve">
+    <value>PRC Zarf Numara 2</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber2Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 2 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber3" xml:space="preserve">
+    <value>PRC Zarf Numara 3</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber3Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 3 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber4" xml:space="preserve">
+    <value>PRC Zarf Numara 4</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber4Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 4 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber5" xml:space="preserve">
+    <value>PRC Zarf Numara 5</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber5Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 5 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber6" xml:space="preserve">
+    <value>PRC Zarf Numara 6</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber6Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 6 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber7" xml:space="preserve">
+    <value>PRC Zarf Numara 7</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber7Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 7 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber8" xml:space="preserve">
+    <value>PRC Zarf Numara 8</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber8Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 8 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber9" xml:space="preserve">
+    <value>PRC Zarf Numara 9</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_PrcEnvelopeNumber9Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 9 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_TabloidExtra" xml:space="preserve">
+    <value>Tabloid Ekstra</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A5Extra" xml:space="preserve">
+    <value>A5 Ekstra</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A4Extra" xml:space="preserve">
+    <value>A4 Ekstra</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A2" xml:space="preserve">
+    <value>A2</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A3Extra" xml:space="preserve">
+    <value>A3 Ekstra</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeChouNumber3" xml:space="preserve">
+    <value>Japon Zarf Chou Numara 3</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeChouNumber3Rotated" xml:space="preserve">
+    <value>Japon Zarf Chou Numara 3 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeChouNumber4" xml:space="preserve">
+    <value>Japon Zarf Chou Numara 4</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeKakuNumber2" xml:space="preserve">
+    <value>Japon Zarf Kaku Numara 2</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeKakuNumber3" xml:space="preserve">
+    <value>Japon Zarf Kaku Numara 3</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeKakuNumber3Rotated" xml:space="preserve">
+    <value>Japon Zarf Kaku Numara 3 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeYouNumber4" xml:space="preserve">
+    <value>Japon Zarf You Numara 4</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeYouNumber4Rotated" xml:space="preserve">
+    <value>Japon Zarf You Numara 4 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapanesePostcardRotated" xml:space="preserve">
+    <value>Japon Kartpostal Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Ledger" xml:space="preserve">
+    <value>Genel Muhasebe</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Executive" xml:space="preserve">
+    <value>Executive</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Folio" xml:space="preserve">
+    <value>Folyo</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_IsoB4" xml:space="preserve">
+    <value>Iso B4</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_CSheet" xml:space="preserve">
+    <value>C Sayfa</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B6Envelope" xml:space="preserve">
+    <value>B6 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B6Jis" xml:space="preserve">
+    <value>JIS B6</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B6JisRotated" xml:space="preserve">
+    <value>JIS B6 Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_C3Envelope" xml:space="preserve">
+    <value>C3 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_C4Envelope" xml:space="preserve">
+    <value>C4 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B5Extra" xml:space="preserve">
+    <value>ISO B5 Ekstra</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_APlus" xml:space="preserve">
+    <value>SuperA/SuperA/A4</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_B4Envelope" xml:space="preserve">
+    <value>B4 Zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_A6" xml:space="preserve">
+    <value>A6</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_LetterSmall" xml:space="preserve">
+    <value>Mektup Küçük</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_LetterPlus" xml:space="preserve">
+    <value>Mektup Artı</value>
+  </data>
+  <data name="PrintingStringId.CurrentPageDisplayFormat" xml:space="preserve">
+    <value>Sayfa {0} {1}</value>
+  </data>
+  <data name="PrintingStringId.DecreaseZoom" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="PrintingStringId.DecreaseZoom_Hint" xml:space="preserve">
+    <value>Daha fazla sayfa küçültülmüş boyutta görmek için uzaklaştırabilirsiniz.</value>
+  </data>
+  <data name="PrintingStringId.DocumentMap_Hint" xml:space="preserve">
+    <value>Hangi belgenin yapısını yansıtır ve nerede raporun yer imleri gezinebilirsiniz Belge Haritası panel gösterir.</value>
+  </data>
+  <data name="PrintingStringId.WatermarkFontSize" xml:space="preserve">
+    <value>Boyutu:</value>
+  </data>
+  <data name="PrintingStringId.Search_Hint" xml:space="preserve">
+    <value>İçin ayrı bir belge boyunca belirli bir metin aramak için bul iletişim kutusunu gösterir.</value>
+  </data>
+  <data name="PrintingStringId.Scaling_ComboBoxEdit_Validation_OutOfRange_Error" xml:space="preserve">
+    <value>Değer aralık dışında</value>
+  </data>
+  <data name="PrintingStringId.Scaling_Fit_End_Label" xml:space="preserve">
+    <value>geniş sayfa (lar)</value>
+  </data>
+  <data name="PrintingStringId.Refresh" xml:space="preserve">
+    <value>yenileme</value>
+  </data>
+  <data name="PrintingStringId.RepeatPassword_OpenPassword" xml:space="preserve">
+    <value>Belge açma parolası:</value>
+  </data>
+  <data name="PrintingStringId.PdfSignatureEditorWindow_Location" xml:space="preserve">
+    <value>Yeri:</value>
+  </data>
+  <data name="PrintingStringId.PreparingPages" xml:space="preserve">
+    <value>Sayfalar... hazırlanıyor</value>
+  </data>
+  <data name="PrintingStringId.WatermarkImageSizeMode" xml:space="preserve">
+    <value>Boyut Modu:</value>
+  </data>
+  <data name="PrintingStringId.WatermarkImageTiling" xml:space="preserve">
+    <value>Fayans</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_PrintingPermissions" xml:space="preserve">
+    <value>İzin verilen yazdırma:</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_RestrictPermissions" xml:space="preserve">
+    <value>Düzenleme ve belge yazdırma sınırla</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_Title" xml:space="preserve">
+    <value>PDF parola güvenliği</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_OpenPassword" xml:space="preserve">
+    <value>Belge açma parolası:</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_EnableCopying" xml:space="preserve">
+    <value>Metin, görüntü ve diğer içeriğin kopyalanması özelliğini etkinleştir</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Prc16K" xml:space="preserve">
+    <value>PRC 16 K</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Prc16KRotated" xml:space="preserve">
+    <value>PRC 16 K Döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Prc32K" xml:space="preserve">
+    <value>PRC 32 K</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Quarto" xml:space="preserve">
+    <value>Quarto</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Standard10x11" xml:space="preserve">
+    <value>Standart 10 x 11</value>
+  </data>
+  <data name="PrintingStringId.Parameters_Hint" xml:space="preserve">
+    <value>Gösterir veya gizler parametreleri panel varsa, nereye sen-ebilmek gelenek rapor parametrelerinin değerlerini.</value>
+  </data>
+  <data name="PrintingStringId.ParametersReset" xml:space="preserve">
+    <value>Sıfırlama</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_BPlus" xml:space="preserve">
+    <value>Mükemmel/SuperB/A3</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeChouNumber4Rotated" xml:space="preserve">
+    <value>Japon Zarf Chou sayı 4 döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_JapaneseEnvelopeKakuNumber2Rotated" xml:space="preserve">
+    <value>Japon Zarf Kaku sayısı 2 döndürülmüş</value>
+  </data>
+  <data name="PrintingStringId.Exception_NoPrinterFound" xml:space="preserve">
+    <value>Hiçbir yazıcı makinede bulunamadı</value>
+  </data>
+  <data name="PrintingStringId.ExportFile" xml:space="preserve">
+    <value>Belge Oluştur</value>
+  </data>
+  <data name="PrintingStringId.ExportFile_Hint" xml:space="preserve">
+    <value>Kullanılabilir biçimlerden belgedeki dışa ve disk üzerindeki bir dosyaya kaydedin.</value>
+  </data>
+  <data name="PrintingStringId.ExportFileToWindow" xml:space="preserve">
+    <value>Belge penceresine... vermek</value>
+  </data>
+  <data name="PrintingStringId.ExportFileToWindow_Hint" xml:space="preserve">
+    <value>Geçerli belgeyi dışa aktarır ve sonuçta yeni bir tarayıcı penceresinde gösterir.</value>
+  </data>
+  <data name="PrintingStringId.LastPage_Hint" xml:space="preserve">
+    <value>Belgenin son sayfasına gidin.</value>
+  </data>
+  <data name="PrintingStringId.NextPage_Hint" xml:space="preserve">
+    <value>Belgenin bir sonraki sayfaya gidin.</value>
+  </data>
+  <data name="PrintingStringId.Zoom_Hint" xml:space="preserve">
+    <value>Belge Önizleme geçerli büyütme faktörü değiştirin.</value>
+  </data>
+  <data name="PrintingStringId.ZoomValueItemFormat" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="PrintingStringId.Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="PrintingStringId.PagesArePrepared" xml:space="preserve">
+    <value>Sayfalar hazır. Yazdırmaya devam edilsin mi?</value>
+  </data>
+  <data name="PrintingStringId.PageSetup" xml:space="preserve">
+    <value>Sayfa yapısı...</value>
+  </data>
+  <data name="PrintingStringId.PageSetup_Hint" xml:space="preserve">
+    <value>Belgenin sayfa ayarları yapın.</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Legal" xml:space="preserve">
+    <value>Yasal</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_LegalExtra" xml:space="preserve">
+    <value>Yasal ekstra</value>
+  </data>
+  <data name="PrintingStringId.PageSetupPrinterType" xml:space="preserve">
+    <value>Tipi:</value>
+  </data>
+  <data name="PrintingStringId.PageSetupWindowTitle" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Standard10x14" xml:space="preserve">
+    <value>Standart 10 x 14</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Standard11x17" xml:space="preserve">
+    <value>Standart 11 x 17</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Standard12x11" xml:space="preserve">
+    <value>Standart 12 x 11</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Standard15x11" xml:space="preserve">
+    <value>Standart 15 x 11</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Standard9x11" xml:space="preserve">
+    <value>Standart 9 x 11</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Tabloid" xml:space="preserve">
+    <value>Tabloid</value>
+  </data>
+  <data name="PrintingStringId.SendFile" xml:space="preserve">
+    <value>E-posta gönder</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_Navigation" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="PrintingStringId.RepeatPassword_OpenPassword_Note" xml:space="preserve">
+    <value>Belge açma parolası lütfen onaylayın. Parolayı Not etmeyi unutmayın. Belgeyi açmak için gerekli olacak.</value>
+  </data>
+  <data name="PrintingStringId.RepeatPassword_OpenPassword_Title" xml:space="preserve">
+    <value>Belge açma parolası Onayla</value>
+  </data>
+  <data name="PrintingStringId.PreviousPage_Hint" xml:space="preserve">
+    <value>Belgenin önceki sayfaya gidin.</value>
+  </data>
+  <data name="PrintingStringId.PdfPasswordSecurityOptions_RequireOpenPassword" xml:space="preserve">
+    <value>Belgeyi açmak için parola gerektirme</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Number10Envelope" xml:space="preserve">
+    <value>10 Numara zarfı</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Number11Envelope" xml:space="preserve">
+    <value>11 Numaralı zarfı</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Number9Envelope" xml:space="preserve">
+    <value>Sayı 9 zarf</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_GermanLegalFanfold" xml:space="preserve">
+    <value>Alman yasal Fanfold</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_GermanStandardFanfold" xml:space="preserve">
+    <value>Alman çift sürekli form</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_InviteEnvelope" xml:space="preserve">
+    <value>Zarf davet</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Statement" xml:space="preserve">
+    <value>Deyim</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_USStandardFanfold" xml:space="preserve">
+    <value>ABD standart sürekli form</value>
+  </data>
+  <data name="PrintingStringId.Msg_EmptyDocument" xml:space="preserve">
+    <value>Belgenin sayfalar içermiyor.</value>
+  </data>
+  <data name="PrintingStringId.MsgCaption" xml:space="preserve">
+    <value>Yazdırma</value>
+  </data>
+  <data name="PrintingStringId.Zoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="PrintingStringId.ZoomDisplayFormat" xml:space="preserve">
+    <value>Yakınlaştır: {0:0} %</value>
+  </data>
+  <data name="PrintingStringId.SendFile_Hint" xml:space="preserve">
+    <value>Kullanılabilir biçimlerden belgedeki dışa ve e-postaya ekle.</value>
+  </data>
+  <data name="PrintingStringId.Scaling_Hint" xml:space="preserve">
+    <value>Germek veya küçültme belgenin gerçek boyutunun bir yüzdesi için içerik.</value>
+  </data>
+  <data name="PrintingStringId.Print_Hint" xml:space="preserve">
+    <value>Belgeyi sayfa ayarlarını belirtme ve.</value>
+  </data>
+  <data name="PrintingStringId.PrintDirect_Hint" xml:space="preserve">
+    <value>Belge varsayılan sayfa ayarları ile sistemin varsayılan yazıcı kullanarak yazdırmak.</value>
+  </data>
+  <data name="PrintingStringId.PrintPdf" xml:space="preserve">
+    <value>Yazdırma yolu ile Pdf...</value>
+  </data>
+  <data name="PrintingStringId.RepeatPassword_ConfirmationPasswordDoesNotMatch" xml:space="preserve">
+    <value>Onay parolası eşleşmiyor. Lütfen parolayı yeniden girin ve yeniden başlamak.</value>
+  </data>
+  <data name="PrintingStringId.RepeatPassword_PermissionsPassword_Note" xml:space="preserve">
+    <value>Lütfen izinleri parolayı onaylayın. Parolayı Not etmeyi unutmayın. Gelecekte bu ayarları değiştirmek için ihtiyacınız.</value>
+  </data>
+  <data name="PrintingStringId.Watermark_Hint" xml:space="preserve">
+    <value>Hayalet metin ve/veya görüntü arkasında sayfa içeriği eklemek.</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Number12Envelope" xml:space="preserve">
+    <value>12 Numara zarfı</value>
+  </data>
+  <data name="PrintingStringId.PaperKind_Number14Envelope" xml:space="preserve">
+    <value>14 Numara zarfı</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_Export" xml:space="preserve">
+    <value>Dışa aktarma</value>
+  </data>
+  <data name="PrintingStringId.True" xml:space="preserve">
+    <value>Doğru</value>
+  </data>
+  <data name="PrintingStringId.Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="PrintingStringId.PrinterLocation" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="PrintingStringId.PrinterComment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="PrintingStringId.HandTool" xml:space="preserve">
+    <value>El Aracı</value>
+  </data>
+  <data name="PrintingStringId.ReportBehavior_MenuDelete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="PrintingStringId.ReportManagerServiceWizard_PaperSize" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="PrintingStringId.ReportBehavior_RenameDialogNameLabel" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="PrintingStringId.ReportManagerServiceWizard_Paper" xml:space="preserve">
+    <value>Kağıt</value>
+  </data>
+  <data name="PrintingStringId.ReportManagerServiceWizard_PageOrientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="PrintingStringId.ReportManagerServiceWizard_PageSetup" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="PrintingStringId.ReportManagerServiceWizard_WindowTitle" xml:space="preserve">
+    <value>Rapor Sihirbazı</value>
+  </data>
+  <data name="PrintingStringId.ReportBehavior_RibbonReportsCaption" xml:space="preserve">
+    <value>Raporlar</value>
+  </data>
+  <data name="PrintingStringId.ReportBehavior_MenuPrint" xml:space="preserve">
+    <value>Yazdır...</value>
+  </data>
+  <data name="PrintingStringId.ReportBehavior_MenuPrintPreview" xml:space="preserve">
+    <value>Baskı önizleme...</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_Tools" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="PrintingStringId.ReportBehavior_MenuRename" xml:space="preserve">
+    <value>Yeniden adlandır...</value>
+  </data>
+  <data name="PrintingStringId.ReportBehavior_MenuEdit" xml:space="preserve">
+    <value>Düzenle...</value>
+  </data>
+  <data name="PrintingStringId.CurrentPage" xml:space="preserve">
+    <value>Geçerli</value>
+  </data>
+  <data name="PrintingStringId.Thumbnails" xml:space="preserve">
+    <value>Küçük resimler</value>
+  </data>
+  <data name="PrintingStringId.MoreOptions" xml:space="preserve">
+    <value>Daha fazla seçenek</value>
+  </data>
+  <data name="PrintingStringId.RibbonPageGroup_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="PrintingStringId.False" xml:space="preserve">
+    <value>Yanlış</value>
+  </data>
+  <data name="PrintingStringId.DuplexMode_Simplex" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="PrintingStringId.PrintPreviewTitle" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="PrintingStringId.PageSetupWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="PrintingStringId.PageSetupSize" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="PrintingStringId.PrintPreviewSettings" xml:space="preserve">
+    <value>Ayarları</value>
+  </data>
+  <data name="PrintingStringId.PrinterStatus" xml:space="preserve">
+    <value>Durumu</value>
+  </data>
+</root>

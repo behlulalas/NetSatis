@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="grpPresets.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="columnsPresetControlRight.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 33</value>
+  </data>
+  <data name="columnsPresetControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 53</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="columnsPresetControlRight.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="columnsPresetControlRight.Text" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlRight.Name" xml:space="preserve">
+    <value>columnsPresetControlRight</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlRight.Parent" xml:space="preserve">
+    <value>grpPresets</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="columnsPresetControlLeft.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 33</value>
+  </data>
+  <data name="columnsPresetControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 53</value>
+  </data>
+  <data name="columnsPresetControlLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="columnsPresetControlLeft.Text" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlLeft.Name" xml:space="preserve">
+    <value>columnsPresetControlLeft</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlLeft.Parent" xml:space="preserve">
+    <value>grpPresets</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="columnsPresetControlThree.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 33</value>
+  </data>
+  <data name="columnsPresetControlThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 53</value>
+  </data>
+  <data name="columnsPresetControlThree.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="columnsPresetControlThree.Text" xml:space="preserve">
+    <value>Üç</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThree.Name" xml:space="preserve">
+    <value>columnsPresetControlThree</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThree.Parent" xml:space="preserve">
+    <value>grpPresets</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlThree.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="columnsPresetControlTwo.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 33</value>
+  </data>
+  <data name="columnsPresetControlTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 53</value>
+  </data>
+  <data name="columnsPresetControlTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="columnsPresetControlTwo.Text" xml:space="preserve">
+    <value>İki</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTwo.Name" xml:space="preserve">
+    <value>columnsPresetControlTwo</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTwo.Parent" xml:space="preserve">
+    <value>grpPresets</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlTwo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="columnsPresetControlOne.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="columnsPresetControlOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 33</value>
+  </data>
+  <data name="columnsPresetControlOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 53</value>
+  </data>
+  <data name="columnsPresetControlOne.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="columnsPresetControlOne.Text" xml:space="preserve">
+    <value>Bir</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlOne.Name" xml:space="preserve">
+    <value>columnsPresetControlOne</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlOne.Parent" xml:space="preserve">
+    <value>grpPresets</value>
+  </data>
+  <data name="&gt;&gt;columnsPresetControlOne.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpPresets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grpPresets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 100</value>
+  </data>
+  <data name="grpPresets.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpPresets.Text" xml:space="preserve">
+    <value>Hazırla</value>
+  </data>
+  <data name="&gt;&gt;grpPresets.Name" xml:space="preserve">
+    <value>grpPresets</value>
+  </data>
+  <data name="&gt;&gt;grpPresets.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpPresets.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="grpColumns.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="columnsEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="columnsEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 90</value>
+  </data>
+  <data name="columnsEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;columnsEdit.Name" xml:space="preserve">
+    <value>columnsEdit</value>
+  </data>
+  <data name="&gt;&gt;columnsEdit.Parent" xml:space="preserve">
+    <value>grpColumns</value>
+  </data>
+  <data name="&gt;&gt;columnsEdit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkEqualColumnWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 121</value>
+  </data>
+  <data name="chkEqualColumnWidth.Properties.Caption" xml:space="preserve">
+    <value>Sütun Genişliğine Eşit</value>
+  </data>
+  <data name="chkEqualColumnWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
+  </data>
+  <data name="chkEqualColumnWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkEqualColumnWidth.Name" xml:space="preserve">
+    <value>chkEqualColumnWidth</value>
+  </data>
+  <data name="&gt;&gt;chkEqualColumnWidth.Parent" xml:space="preserve">
+    <value>grpColumns</value>
+  </data>
+  <data name="&gt;&gt;chkEqualColumnWidth.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpColumns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 149</value>
+  </data>
+  <data name="grpColumns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 145</value>
+  </data>
+  <data name="grpColumns.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpColumns.Text" xml:space="preserve">
+    <value>Genişlik ve Boşluk</value>
+  </data>
+  <data name="&gt;&gt;grpColumns.Name" xml:space="preserve">
+    <value>grpColumns</value>
+  </data>
+  <data name="&gt;&gt;grpColumns.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpColumns.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblColumnCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 122</value>
+  </data>
+  <data name="lblColumnCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="lblColumnCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblColumnCount.Text" xml:space="preserve">
+    <value>&amp;Sütun sayısı:</value>
+  </data>
+  <data name="&gt;&gt;lblColumnCount.Name" xml:space="preserve">
+    <value>lblColumnCount</value>
+  </data>
+  <data name="&gt;&gt;lblColumnCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblColumnCount.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="edtColumnCount.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="edtColumnCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 119</value>
+  </data>
+  <data name="edtColumnCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="edtColumnCount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;edtColumnCount.Name" xml:space="preserve">
+    <value>edtColumnCount</value>
+  </data>
+  <data name="&gt;&gt;edtColumnCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;edtColumnCount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkLineBetween.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chkLineBetween.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkLineBetween.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 119</value>
+  </data>
+  <data name="chkLineBetween.Properties.Caption" xml:space="preserve">
+    <value>Satır Arasında</value>
+  </data>
+  <data name="chkLineBetween.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 19</value>
+  </data>
+  <data name="chkLineBetween.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkLineBetween.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkLineBetween.Name" xml:space="preserve">
+    <value>chkLineBetween</value>
+  </data>
+  <data name="&gt;&gt;chkLineBetween.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkLineBetween.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 300</value>
+  </data>
+  <data name="cbApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="cbApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbApplyTo.Name" xml:space="preserve">
+    <value>cbApplyTo</value>
+  </data>
+  <data name="&gt;&gt;cbApplyTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbApplyTo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 303</value>
+  </data>
+  <data name="lblApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblApplyTo.Text" xml:space="preserve">
+    <value>&amp;Uygula:</value>
+  </data>
+  <data name="&gt;&gt;lblApplyTo.Name" xml:space="preserve">
+    <value>lblApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblApplyTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblApplyTo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkStartNewColumn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chkStartNewColumn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkStartNewColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 300</value>
+  </data>
+  <data name="chkStartNewColumn.Properties.Caption" xml:space="preserve">
+    <value>Yeni Sütun Başlat</value>
+  </data>
+  <data name="chkStartNewColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
+  </data>
+  <data name="chkStartNewColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkStartNewColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkStartNewColumn.Name" xml:space="preserve">
+    <value>chkStartNewColumn</value>
+  </data>
+  <data name="&gt;&gt;chkStartNewColumn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkStartNewColumn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 331</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 331</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>425, 366</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ColumnsSetupForm</value>
+  </data>
+</root>

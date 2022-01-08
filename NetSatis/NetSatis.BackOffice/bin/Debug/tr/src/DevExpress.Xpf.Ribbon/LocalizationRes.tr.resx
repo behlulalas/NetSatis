@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CloseButtonContent" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AddNewGroupMenuItemCoreContent" xml:space="preserve">
+    <value>Yeni Grup Ekle</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AddNewPageMenuItemCoreContent" xml:space="preserve">
+    <value>Yeni Sayfa Ekle</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ApplyChangesButtonContent" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ChooseCommandsFrom" xml:space="preserve">
+    <value>Komutları Seçin:</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CustomizationsStringTextBlockText" xml:space="preserve">
+    <value>Özelleştirmeler:</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ExportAllCustomizationsString" xml:space="preserve">
+    <value>Tüm Özelleştirmeleri Ver</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ImportCustomizationFileString" xml:space="preserve">
+    <value>Özelleştirme Dosyası Al</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_IsCustomTextString" xml:space="preserve">
+    <value>(Özel)</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_IsUnnamedItemString" xml:space="preserve">
+    <value>Adsız Öğe</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_MainTabsComboBoxItemContent" xml:space="preserve">
+    <value>Ana Sekmeler</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_MoveDownMenuItemCoreContent" xml:space="preserve">
+    <value>Aşağı Taşı</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_NewPageCaption" xml:space="preserve">
+    <value>Yeni Sayfa</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_NewPageGroupCation" xml:space="preserve">
+    <value>Yeni Grup</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_RemoveMenuItemCoreContent" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_RenameMenuItemCoreContent" xml:space="preserve">
+    <value>Yeniden Adlandır</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetAllCustomizationsString" xml:space="preserve">
+    <value>Tüm özelleştirmeleri sıfırla</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetMenuItemCoreContent" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetOnlySelectedRibbonPageString" xml:space="preserve">
+    <value>Yalnızca seçili şerit sayfayı sıfırla</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_SeparatorString" xml:space="preserve">
+    <value>Ayırıcı</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ShowPageMenuItemCoreContent" xml:space="preserve">
+    <value>Sayfayı göster</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ToolbarCaptionEditorWindowCaption" xml:space="preserve">
+    <value>Öğe adı ayarla</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ToolbarCaptionEditorWindowCaptionForm" xml:space="preserve">
+    <value>Öğe adı:</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ToolTabsComboBoxItemContent" xml:space="preserve">
+    <value>Araç Sekmeleri</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AllItemsComboBoxItemContent" xml:space="preserve">
+    <value>Tüm Öğeler</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_DropDownNewCaption" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_AddToToolbar" xml:space="preserve">
+    <value>Hızlı Erişim Araç Çubuğu'na Ekle</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_RemoveFromToolbar" xml:space="preserve">
+    <value>Hızlı Erişim Araç Çubuğu'ndan Kaldır</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_MoveUpMenuItemCoreContent" xml:space="preserve">
+    <value>Yukarı Taşı</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_RemoveItemButtonContentString" xml:space="preserve">
+    <value>&lt;&lt; Kaldır</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_CustomizeRibbonMenuItem" xml:space="preserve">
+    <value>Şeridi Özelleştir</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_ShowQuickAccessToolbarBelowTheRibbon" xml:space="preserve">
+    <value>Hızlı erişim Araç Çubuğunu Şeridin altında göster</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AddItemButtonContentString" xml:space="preserve">
+    <value>Ekle &gt;&gt;</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AllTabsComboBoxItemContent" xml:space="preserve">
+    <value>Tüm sekmeleri</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_BarButtonGroupString" xml:space="preserve">
+    <value>Çubuk düğme grubu</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CustomizationFormCaption" xml:space="preserve">
+    <value>Şerit özelleştirme pencere</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CustomizeTheRibbon" xml:space="preserve">
+    <value>Şerit Özelleştirme:</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ImportExportString" xml:space="preserve">
+    <value>Al/Ver</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_MinimizeRibbon" xml:space="preserve">
+    <value>Şeridi Küçült</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_ShowQuickAccessToolbarAboveTheRibbon" xml:space="preserve">
+    <value>Hızlı Erişim Araç Çubuğu Şerit üzerindeki göster</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_MouseModeContent" xml:space="preserve">
+    <value>Fare</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_MouseModeDescription" xml:space="preserve">
+    <value>Standart şerit ve komutları. Fare ile kullanım için optimize edilmiştir.</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_TouchModeContent" xml:space="preserve">
+    <value>Dokunma</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_TouchModeDescription" xml:space="preserve">
+    <value>Arasında daha fazla boşluk emrediyor. Dokunma ile kullanım için optimize edilmiştir.</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetAllCustomizationsQuestion" xml:space="preserve">
+    <value>Bu programda tüm şerit ve hızlı erişim araç çubuğu özelleştirmelerini silin?</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonShowModeSelector_NormalMode" xml:space="preserve">
+    <value>Normal mod</value>
+  </data>
+</root>

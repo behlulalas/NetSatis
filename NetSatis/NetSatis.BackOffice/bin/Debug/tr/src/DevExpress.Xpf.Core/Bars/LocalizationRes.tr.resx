@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BarsStringId.LinkListItem_CustomizationItemCaption" xml:space="preserve">
+    <value>Özelleştir...</value>
+  </data>
+  <data name="BarsStringId.BarItemDisplayMode_Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_DeleteItemCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="BarsStringId.BarItemAlignment_Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_ResetItemCaption" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="BarsStringId.ToolbarListItem_CustomizationItemCaption" xml:space="preserve">
+    <value>Özelleştir...</value>
+  </data>
+  <data name="BarsStringId.CustomizationForm_Caption" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="BarsStringId.GlyphSize_Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_AddOrRemoveItemCaption" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="BarsStringId.Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="BarsStringId.GalleryControlFilterMenu_ShowAllItemCaption" xml:space="preserve">
+    <value>Tümünü göster</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_DisplayModeItemCaption" xml:space="preserve">
+    <value>Görüntü modu:</value>
+  </data>
+  <data name="BarsStringId.Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="BarsStringId.Ok" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_LinkItemCaption" xml:space="preserve">
+    <value>Başlık:</value>
+  </data>
+  <data name="BarsStringId.Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="BarsStringId.CommandsCustomizationControl_DescriptionCaption" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="BarsStringId.BarManagerCategory_AllItemsCategoryCaption" xml:space="preserve">
+    <value>Tüm Öğeler</value>
+  </data>
+  <data name="BarsStringId.BarManagerCategory_UnassignedCategoryCaption" xml:space="preserve">
+    <value>Atanmamış Öğeler</value>
+  </data>
+  <data name="BarsStringId.CommandsCustomizationControl_CategoriesListCaption" xml:space="preserve">
+    <value>Kategoriler:</value>
+  </data>
+  <data name="BarsStringId.CustomizationControl_OptionsTabCaption" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="BarsStringId.CustomizationControl_ToolbarsTabCaption" xml:space="preserve">
+    <value>Araç Çubukları</value>
+  </data>
+  <data name="BarsStringId.New" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_IconsGroupCaption" xml:space="preserve">
+    <value>Simgeler</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_ScreenTipsGroupCaption" xml:space="preserve">
+    <value>Ekran İpuçları</value>
+  </data>
+  <data name="BarsStringId.ToolbarsCustomizationControl_ToolbarsListCaption" xml:space="preserve">
+    <value>Araç Çubukları:</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_AlignmentItemCaption" xml:space="preserve">
+    <value>Hizalama:</value>
+  </data>
+  <data name="BarsStringId.BarItemAlignment_Near" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="BarsStringId.BarItemDisplayMode_Content" xml:space="preserve">
+    <value>İçerik</value>
+  </data>
+  <data name="BarsStringId.ToolbarCaptionEditor_Caption" xml:space="preserve">
+    <value>Araç çubuğu adı:</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_LargeIconsInMenuCaption" xml:space="preserve">
+    <value>Menüdeki büyük simgeler</value>
+  </data>
+  <data name="BarsStringId.CommandsCustomizationControl_CommandsListCaption" xml:space="preserve">
+    <value>Komutlar:</value>
+  </data>
+  <data name="BarsStringId.Dock_Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="BarsStringId.ToolbarsCustomizationControl_EditorWindowCaption" xml:space="preserve">
+    <value>Araç çubuğu başlığı düzenleyici</value>
+  </data>
+  <data name="BarsStringId.CustomizationControl_CommandsTabCaption" xml:space="preserve">
+    <value>Komutlar:</value>
+  </data>
+  <data name="BarsStringId.GlyphSize_Large" xml:space="preserve">
+    <value>Büyük</value>
+  </data>
+  <data name="BarsStringId.GlyphSize_Small" xml:space="preserve">
+    <value>Küçük</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_LargeIconsInToolbarsCaption" xml:space="preserve">
+    <value>Araç çubukları, büyük simgeler</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_ShowScreenTipsOnToolbarsCaption" xml:space="preserve">
+    <value>Araç çubuklarında Ekran ipuçlarını göster</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_ShowShortcutKeysOnScreenTipsCaption" xml:space="preserve">
+    <value>Kısayol tuşlarını Ekran İpuçları'nı göster</value>
+  </data>
+  <data name="BarsStringId.Rename" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_BeginGroupItemCaption" xml:space="preserve">
+    <value>Grup Başlat</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_GlyphAlignmentItemCaption" xml:space="preserve">
+    <value>Karakter hizalama:</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_GlyphSizeItemCaption" xml:space="preserve">
+    <value>Karakter boyutu:</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_VisibleItemCaption" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="BarsStringId.Dock_Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="BarsStringId.Dock_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="BarsStringId.Dock_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="BarsStringId.BarItemDisplayMode_ContentAndGlyph" xml:space="preserve">
+    <value>ContentAndGlyph</value>
+  </data>
+  <data name="BarsStringId.BarItemAlignment_Far" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+</root>

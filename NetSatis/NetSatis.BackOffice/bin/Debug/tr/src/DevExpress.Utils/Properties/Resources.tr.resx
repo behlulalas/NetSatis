@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CategoryNameCardOptions" xml:space="preserve">
+    <value>Kart Seçenekleri</value>
+  </data>
+  <data name="CategoryNameSorting" xml:space="preserve">
+    <value>Soralama</value>
+  </data>
+  <data name="CategoryNameEvents" xml:space="preserve">
+    <value>Olaylar</value>
+  </data>
+  <data name="CategoryNameToolTip" xml:space="preserve">
+    <value>İpucu</value>
+  </data>
+  <data name="CategoryNameFocus" xml:space="preserve">
+    <value>Odak</value>
+  </data>
+  <data name="CategoryNameSplit" xml:space="preserve">
+    <value>Ayır</value>
+  </data>
+  <data name="CategoryNameMouse" xml:space="preserve">
+    <value>Fare</value>
+  </data>
+  <data name="CategoryNameAccessibility" xml:space="preserve">
+    <value>Erişilebilirlik</value>
+  </data>
+  <data name="CategoryNameAction" xml:space="preserve">
+    <value>Eylem</value>
+  </data>
+  <data name="CategoryNameKey" xml:space="preserve">
+    <value>Anahtar</value>
+  </data>
+  <data name="CategoryNameMasterDetail" xml:space="preserve">
+    <value>Master/Detay</value>
+  </data>
+  <data name="CategoryNameLayout" xml:space="preserve">
+    <value>Yerleşim</value>
+  </data>
+  <data name="CategoryNameBehavior" xml:space="preserve">
+    <value>Davranış</value>
+  </data>
+  <data name="CategoryNameDragDrop" xml:space="preserve">
+    <value>TutSürükle</value>
+  </data>
+  <data name="CategoryNameData" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="CategoryNameMerging" xml:space="preserve">
+    <value>Birleştirme</value>
+  </data>
+  <data name="CategoryNameAppearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="CategoryNameFormat" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="CategoryNameOptions" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="CategoryNameCustomization" xml:space="preserve">
+    <value>Kişiselleştirme</value>
+  </data>
+  <data name="CategoryNameProperties" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="CategoryNameCustomDraw" xml:space="preserve">
+    <value>KişiselÇizim</value>
+  </data>
+  <data name="CategoryNamePrinting" xml:space="preserve">
+    <value>Yazdırma</value>
+  </data>
+  <data name="CategoryNamePropertyChanged" xml:space="preserve">
+    <value>Değişen Özellik</value>
+  </data>
+</root>

@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Variables.Text" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="Operators.Text" xml:space="preserve">
+    <value>Operatörler</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>İfade Düzenleyicisi</value>
+  </data>
+  <data name="Abs.Description" xml:space="preserve">
+    <value>Abs(Value)
+Belirtilen sayısal ifade mutlak, pozitif değeri verir.</value>
+  </data>
+  <data name="Acos.Description" xml:space="preserve">
+    <value>Acos(Value)
+(Açı, radyan kosinüsüdür belirtilen float ifade) bir sayının arkkosinüsünü verir.</value>
+  </data>
+  <data name="AddDays.Description" xml:space="preserve">
+    <value>AddDays (DateTime, DaysCount)
+Belirtilen sayıda gün belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddHours.Description" xml:space="preserve">
+    <value>AddHours (DateTime, HoursCount)
+Belirtilen saat belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddMilliSeconds.Description" xml:space="preserve">
+    <value>AddMilliSeconds (DateTime, MilliSecondsCount)
+Belirtilen süreyi milisaniye olarak belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddMinutes.Description" xml:space="preserve">
+    <value>AddMinutes (DateTime, MinutesCount)
+Belirtilen sayıda dakika belirtilen tarih saat uzaklıkta bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddMonths.Description" xml:space="preserve">
+    <value>AddMonths (DateTime, MonthsCount)
+Belirtilen sayıda ay belirtilen DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddSeconds.Description" xml:space="preserve">
+    <value>AddSeconds (DateTime, SecondsCount)
+Belirtilen DateTime uzak belirlenen sürenin bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddTicks.Description" xml:space="preserve">
+    <value>AddTicks (DateTime, TicksCount)
+Belirtilen DateTime uzak keneler belirtilen sayıda bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddTimeSpan.Description" xml:space="preserve">
+    <value>AddTimeSpan (DateTime, TimeSpan)
+Belirtilen DateTime için verilen TimeSpan uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="AddYears.Description" xml:space="preserve">
+    <value>AddYears (DateTime, YearsCount)
+Belirtilen sayıda yıl specieid DateTime uzak bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="And.Description" xml:space="preserve">
+    <value>İki ifade üzerinde mantıksal birlikte gerçekleştirir.</value>
+  </data>
+  <data name="Ascii.Description" xml:space="preserve">
+    <value>Ascii(String)
+En soldaki karakteri ASCII kodu değerini bir karakter ifade döndürür.</value>
+  </data>
+  <data name="Asin.Description" xml:space="preserve">
+    <value>Asin(Value)
+(Açı, radyan sinüsü belirtilen float ifade olduğunu) bir sayının arksinüsünü verir.</value>
+  </data>
+  <data name="Atn.Description" xml:space="preserve">
+    <value>Atn(Value)
+(Açı, radyan tanjantı belirtilen float ifade) bir sayının arktanjantını verir.</value>
+  </data>
+  <data name="Atn2.Description" xml:space="preserve">
+    <value>Atn2 (Değer1, değer2)
+Tanjantı iki belirtilen sayının radyan cinsinden açı verir.</value>
+  </data>
+  <data name="AvgAggregate.Description" xml:space="preserve">
+    <value>Avg(Value)
+Koleksiyondaki değerlerini değerlendirir.</value>
+  </data>
+  <data name="Between.Description" xml:space="preserve">
+    <value>(,) Arasında
+Test etmek için bir aralık belirler. Değer sıfırdan büyük veya eşit ilk işlenen ise true döner ve ikinci işlenen küçük veya eşit.</value>
+  </data>
+  <data name="BigMul.Description" xml:space="preserve">
+    <value>BigMul (Değer1, değer2)
+İki tam ürün içeren bir Int64 döndürür belirtilen 32 bitlik sayı.</value>
+  </data>
+  <data name="BitwiseAnd.Description" xml:space="preserve">
+    <value>İki tamsayı değerleri arasındaki bitwise bir mantıksal ve işlemini gerçekleştirir.</value>
+  </data>
+  <data name="BitwiseOr.Description" xml:space="preserve">
+    <value>, Birinci işlenenin, ikinci işlenenin karşılık gelen bit her bit karşılaştırır. Her iki bit 1 ise, karşılık gelen sonuç biti 1 olarak ayarlanır. Aksi durumda, karşılık gelen sonuç biti 0 olarak küme.</value>
+  </data>
+  <data name="BitwiseXor.Description" xml:space="preserve">
+    <value>Mantıksal bir dışlama iki Boole ifadeleri veya iki sayısal ifade üzerinde bit tabanlı bir dışlama gerçekleştirir.</value>
+  </data>
+  <data name="Ceiling.Description" xml:space="preserve">
+    <value>Ceiling(Value)
+Büyük veya eşit belirtilen sayısal ifade en küçük tamsayıyı döndürür.</value>
+  </data>
+  <data name="Char.Description" xml:space="preserve">
+    <value>Char(Number)
+Bir integerASCIICode bir karaktere dönüştürür.</value>
+  </data>
+  <data name="CharIndex.Description" xml:space="preserve">
+    <value>CHARINDEX (dize1, dize2)
+Sıfır karakter konumu bir dize sonu başlayan Dize1 Dize2, içindeki başlangıç konumunu döndürür.</value>
+  </data>
+  <data name="CharIndex3Param.Description" xml:space="preserve">
+    <value>CHARINDEX (dize1, dize2, StartLocation)
+StartLocation karakter konumu bir dize sonu başlayan Dize1 Dize2, içindeki başlangıç konumunu döndürür.</value>
+  </data>
+  <data name="Concat.Description" xml:space="preserve">
+    <value>Concat (String1,..., StringN)
+Herhangi bir ek dizeler geçerli dize birleştirme içeren bir string değeri döndürür.</value>
+  </data>
+  <data name="Contains.Description" xml:space="preserve">
+    <value>İçerir (dize, dize)
+Alt dize dize içinde oluşur ise TRUE döndürür; Aksi takdirde, False döndürülür.</value>
+  </data>
+  <data name="Cos.Description" xml:space="preserve">
+    <value>Cos(Value)
+Radyan cinsinden tanımlanan açının kosinüsünü verir.</value>
+  </data>
+  <data name="Cosh.Description" xml:space="preserve">
+    <value>Cosh(Value)
+Radyan cinsinden tanımlanan açının hiperbolik kosinüsünü verir.</value>
+  </data>
+  <data name="CountAggregate.Description" xml:space="preserve">
+    <value>Count() işlevi
+Bir koleksiyon nesne sayısını döndürür.</value>
+  </data>
+  <data name="CurrentRowIndex.Description" xml:space="preserve">
+    <value>Bir veri kaynağı geçerli veri satır indisini döndürür. Bu dizin sıfır tabanlı olduğuna dikkat edin.</value>
+  </data>
+  <data name="DateDiffDay.Description" xml:space="preserve">
+    <value>DateDiffDay (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki gün sınırları sayı.</value>
+  </data>
+  <data name="DateDiffHour.Description" xml:space="preserve">
+    <value>DateDiffHour (startDate, bitiştarihi)
+Saat sınırları iki NULL olmayan tarih arasındaki sayı.</value>
+  </data>
+  <data name="DateDiffMilliSecond.Description" xml:space="preserve">
+    <value>DateDiffMilliSecond (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki sınırların milisaniye sayısını döndürür.</value>
+  </data>
+  <data name="DateDiffMinute.Description" xml:space="preserve">
+    <value>DateDiffMinute (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki dakika sınırları sayı.</value>
+  </data>
+  <data name="DateDiffMonth.Description" xml:space="preserve">
+    <value>DateDiffMonth (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki ay sınırları sayı.</value>
+  </data>
+  <data name="DateDiffSecond.Description" xml:space="preserve">
+    <value>DateDiffSecond (startDate, bitiştarihi)
+İkinci sınırları iki NULL olmayan tarih arasındaki sayı.</value>
+  </data>
+  <data name="DateDiffTick.Description" xml:space="preserve">
+    <value>DateDiffTick (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki sınırların kene sayı.</value>
+  </data>
+  <data name="DateDiffYear.Description" xml:space="preserve">
+    <value>DateDiffYear (startDate, bitiştarihi)
+NULL olmayan iki tarih arasındaki yıl sınırları sayı.</value>
+  </data>
+  <data name="Divide.Description" xml:space="preserve">
+    <value>İlk işlenen her saniye ayırır.</value>
+  </data>
+  <data name="EndsWith.Description" xml:space="preserve">
+    <value>Ağzınınbozulmasıyla (dize, EndString)
+Doğru dize sonu EndString ile uyuşuyor mu verir; Aksi takdirde, False döndürülür.</value>
+  </data>
+  <data name="Equal.Description" xml:space="preserve">
+    <value>Aynı değeri döndürür true her iki işlenenleri var; aksi halde false döndürür.</value>
+  </data>
+  <data name="ExistsAggregate.Description" xml:space="preserve">
+    <value>Exists()
+Nesne koleksiyonda zaten var olup olmadığını belirler.</value>
+  </data>
+  <data name="Exp.Description" xml:space="preserve">
+    <value>Exp(Value)
+Belirtilen float ifade üstel değerini verir.</value>
+  </data>
+  <data name="Expression.Text" xml:space="preserve">
+    <value>İfade Düzenleyicisi</value>
+  </data>
+  <data name="False.Description" xml:space="preserve">
+    <value>Boolean False değerini temsil eder.</value>
+  </data>
+  <data name="Fields Description Prefix" xml:space="preserve">
+    <value>Bu alan türüdür:</value>
+  </data>
+  <data name="Floor.Description" xml:space="preserve">
+    <value>Floor(Value)
+En büyük tamsayıyı döndürür belirtilen sayısal ifade küçük veya eşit.</value>
+  </data>
+  <data name="functionsTypes.Properties.DateTimeItems" xml:space="preserve">
+    <value>Tarih-Saat</value>
+  </data>
+  <data name="functionsTypes.Properties.MathItems" xml:space="preserve">
+    <value>Matematik</value>
+  </data>
+  <data name="GetDate.Description" xml:space="preserve">
+    <value>GetDate(DateTime)
+Bir tarih tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetDay.Description" xml:space="preserve">
+    <value>GetDay(DateTime)
+Bir gün tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetDayOfWeek.Description" xml:space="preserve">
+    <value>GetDayOfWeek(DateTime)
+Haftanın bir gününü tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetDayOfYear.Description" xml:space="preserve">
+    <value>GetDayOfYear(DateTime)
+Yılın bir günü tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetHour.Description" xml:space="preserve">
+    <value>GetHour(DateTime)
+Bir saat tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetMilliSecond.Description" xml:space="preserve">
+    <value>GetMilliSecond(DateTime)
+Milisaniye tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetMinute.Description" xml:space="preserve">
+    <value>GetMinute(DateTime)
+Dakika tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetMonth.Description" xml:space="preserve">
+    <value>GetMonth(DateTime)
+Bir ay tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetSecond.Description" xml:space="preserve">
+    <value>GetSecond(DateTime)
+Saniye tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetTimeOfDay.Description" xml:space="preserve">
+    <value>GetTimeOfDay(DateTime)
+Günün zaman dilimleri tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="GetYear.Description" xml:space="preserve">
+    <value>GetYear(DateTime)
+Bir yıl tanımlanmış DateTime ayıklar.</value>
+  </data>
+  <data name="Greater.Description" xml:space="preserve">
+    <value>Operatör daha büyük. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="GreaterOrEqual.Description" xml:space="preserve">
+    <value>Değerinden büyük veya eşit işleç. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="GridFields Description Prefix" xml:space="preserve">
+    <value>Alanı bilgileri
+Başlık: {1}
+Bu alan türü: (2)</value>
+  </data>
+  <data name="Iif.Description" xml:space="preserve">
+    <value>IIf (ifade, doğru bölüm, yanlış bölüm)
+Doğru bölüm ya da yanlış bölüm, Boolean deyim değerlendirmesine bağlı olarak döndürür.</value>
+  </data>
+  <data name="In.Description" xml:space="preserve">
+    <value>In (,,,)
+Testleri bir nesne özelliğinde varlığı için.</value>
+  </data>
+  <data name="Insert.Description" xml:space="preserve">
+    <value>Ekle (dize1, StartPosition, dize2)
+StartPositon tarafından belirtilen konumdaki Dize1 Dize2 ekler</value>
+  </data>
+  <data name="IsNull.Description" xml:space="preserve">
+    <value>IsNull(Value)
+Belirtilen değer NULL ise doğru döndürür.</value>
+  </data>
+  <data name="IsNullOrEmpty.Description" xml:space="preserve">
+    <value>IsNullOrEmpty(String)
+Belirtilen dize nesne NULL veya boş bir dize ise, doğru verir; Aksi takdirde, False döndürülür.</value>
+  </data>
+  <data name="IsThisMonth.Description" xml:space="preserve">
+    <value>IsThisMonth(DateTime)
+Belirtilen tarihi geçerli ay içinde kalırsa doğru sonucunu verir.</value>
+  </data>
+  <data name="IsThisWeek.Description" xml:space="preserve">
+    <value>IsThisWeek(DateTime)
+Belirtilen tarihi geçerli bir hafta içinde kalırsa doğru döndürür.</value>
+  </data>
+  <data name="IsThisYear.Description" xml:space="preserve">
+    <value>IsThisYear(DateTime)
+Belirtilen tarihi geçerli yıl içinde kalırsa doğru döndürür.</value>
+  </data>
+  <data name="Len.Description" xml:space="preserve">
+    <value>Len(Value)
+Bir dize ya da nominal bir değişkeni depolamak için gereken bayt sayısını da içeren bir tamsayı karakter sayısını verir.</value>
+  </data>
+  <data name="Less.Description" xml:space="preserve">
+    <value>Operatör daha az. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="LessOrEqual.Description" xml:space="preserve">
+    <value>İşleç eşit veya daha az. İfadeler karşılaştırmak için kullanılan.</value>
+  </data>
+  <data name="Like.Description" xml:space="preserve">
+    <value>Karşı bir deseni dizesini karşılaştırır. Dize değerinin desenle eşleşen sonuç doğru olur. Dize deseni aynı değilse, sonuç yanlış. Dize ve desen boş dizeler varsa, sonuç doğru olur.</value>
+  </data>
+  <data name="LocalDateTimeDayAfterTomorrow.Description" xml:space="preserve">
+    <value>LocalDateTimeDayAfterTomorrow()
+Ertesi gün için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeLastWeek.Description" xml:space="preserve">
+    <value>LocalDateTimeLastWeek()
+Önceki haftanın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeNextMonth.Description" xml:space="preserve">
+    <value>LocalDateTimeNextMonth()
+Bir sonraki ayın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeNextWeek.Description" xml:space="preserve">
+    <value>LocalDateTimeNextWeek()
+Aşağıdaki haftanın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeNextYear.Description" xml:space="preserve">
+    <value>LocalDateTimeNextYear()
+Ertesi yıl ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeNow.Description" xml:space="preserve">
+    <value>LocalDateTimeNow()
+Zaman şimdiki an ilgili tarih ve saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeThisMonth.Description" xml:space="preserve">
+    <value>LocalDateTimeThisMonth()
+Geçerli ayın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeThisWeek.Description" xml:space="preserve">
+    <value>LocalDateTimeThisWeek()
+Geçerli haftanın ilk gününe ilgili tarih ve saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeThisYear.Description" xml:space="preserve">
+    <value>LocalDateTimeThisYear()
+Geçerli yılın ilk günü için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeToday.Description" xml:space="preserve">
+    <value>LocalDateTimeToday()
+Bugün için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeTomorrow.Description" xml:space="preserve">
+    <value>LocalDateTimeTomorrow()
+Yarın için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeTwoWeeksAway.Description" xml:space="preserve">
+    <value>LocalDateTimeTwoWeeksAway()
+Sonra gelecek hafta haftanın ilk günü ilgili tarih ve saat değeri döndürür.</value>
+  </data>
+  <data name="LocalDateTimeYesterday.Description" xml:space="preserve">
+    <value>LocalDateTimeYesterday()
+Dün için karşılık gelen bir tarih saat değeri döndürür.</value>
+  </data>
+  <data name="Log.Description" xml:space="preserve">
+    <value>Log(Value)
+Belirtilen sayının doğal logaritmasını döndürür.</value>
+  </data>
+  <data name="Log10.Description" xml:space="preserve">
+    <value>Log10(Value)
+Belirtilen sayının logaritmasını döndürür temel 10.</value>
+  </data>
+  <data name="Log2Param.Description" xml:space="preserve">
+    <value>Günlük (değer, temel)
+Belirtilen taban belirtilen bir sayının logaritmasını.</value>
+  </data>
+  <data name="Lower.Description" xml:space="preserve">
+    <value>Lower(String)
+Harflerle dizesini döndürür.</value>
+  </data>
+  <data name="Max.Description" xml:space="preserve">
+    <value>Max (Değer1, değer2)
+En büyük değer belirtilen değerleri döndürür.</value>
+  </data>
+  <data name="MaxAggregate.Description" xml:space="preserve">
+    <value>Max(Value)
+Maksimum ifade değeri bir koleksiyon döndürür.</value>
+  </data>
+  <data name="Min.Description" xml:space="preserve">
+    <value>Min (Değer1, değer2)
+En düşük değer belirtilen değerleri döndürür.</value>
+  </data>
+  <data name="MinAggregate.Description" xml:space="preserve">
+    <value>Min(Value)
+Minimum ifade değeri bir koleksiyon döndürür.</value>
+  </data>
+  <data name="Minus.Description" xml:space="preserve">
+    <value>İki sayı arasındaki farkı bulur.</value>
+  </data>
+  <data name="Modulo.Description" xml:space="preserve">
+    <value>Kalanı başka bir sayısal ifade bölünerek (modül) verir.</value>
+  </data>
+  <data name="Multiply.Description" xml:space="preserve">
+    <value>İki ifadenin değeri çarpar.</value>
+  </data>
+  <data name="Not.Description" xml:space="preserve">
+    <value>Bir ifade üzerinde mantıksal olumsuzlama gerçekleştirir.</value>
+  </data>
+  <data name="NotEqual.Description" xml:space="preserve">
+    <value>İse doğru döndürür işlenen değerin var mı; aksi halde false döndürür.</value>
+  </data>
+  <data name="Now.Description" xml:space="preserve">
+    <value>Now()
+Geçerli sistem tarihi ve saati döndürür.</value>
+  </data>
+  <data name="Null.Description" xml:space="preserve">
+    <value>Herhangi bir nesne için ifade etmez bir null başvuru temsil eder.</value>
+  </data>
+  <data name="Or.Description" xml:space="preserve">
+    <value>İki Boole ifadesi üzerinde mantıksal disjunction gerçekleştirir.</value>
+  </data>
+  <data name="PadLeft.Description" xml:space="preserve">
+    <value>PadLeft (dize, uzunluk)
+Sol tarafında bir belirtilen toplam uzunluğu kadar beyaz boşluk karakterleri ile doldurma tanımlanmış dizedeki karakter kümelerini sola hizalar.</value>
+  </data>
+  <data name="PadLeft3Param.Description" xml:space="preserve">
+    <value>PadLeft (String, uzunluk, Char)
+Sol tarafında bir belirtilen toplam uzunluk belirtilen Char ile doldurma tanımlanmış dizedeki karakter kümelerini sola hizalar.</value>
+  </data>
+  <data name="PadRight.Description" xml:space="preserve">
+    <value>PadRight (dize, uzunluk)
+Sol tarafında bir belirtilen toplam uzunluğu kadar beyaz boşluk karakterleri ile doldurma tanımlanmış dizedeki karakter kümelerini sağa hizalar.</value>
+  </data>
+  <data name="PadRight3Param.Description" xml:space="preserve">
+    <value>PadRight (String, uzunluk, Char)
+Sol tarafında bir belirtilen toplam uzunluk belirtilen Char ile doldurma tanımlanmış dizedeki karakter kümelerini sağa hizalar.</value>
+  </data>
+  <data name="Parameters Description Prefix" xml:space="preserve">
+    <value>Bu parametre, türüdür:</value>
+  </data>
+  <data name="Plus.Description" xml:space="preserve">
+    <value>Başka bir sayısal ifade değerini ekler veya iki dizeyi birleştirir.</value>
+  </data>
+  <data name="Power.Description" xml:space="preserve">
+    <value>Power (güç, değeri)
+Belirtilen üssü belirtilen bir sayı verir.</value>
+  </data>
+  <data name="Remove2Param.Description" xml:space="preserve">
+    <value>Kaldır (dize, StartPosition)
+Bu örnek, belirtilen konumda başlayan tüm karakterleri siler.</value>
+  </data>
+  <data name="Remove3Param.Description" xml:space="preserve">
+    <value>Kaldır (dize, StartPosition, uzunluk)
+Bu örnek, belirtilen konumda başlayan belirli sayıda karakter siler.</value>
+  </data>
+  <data name="Replace.Description" xml:space="preserve">
+    <value>Değiştir (dize, SubString2, String3)
+Dize1 içinde SubString2 String3 ile yerini, bir kopyasını döndürür.</value>
+  </data>
+  <data name="Reverse.Description" xml:space="preserve">
+    <value>Reverse(String)
+Bir dize içinde öğelerin sırası tersine çevirir.</value>
+  </data>
+  <data name="Rnd.Description" xml:space="preserve">
+    <value>Rnd()
+1'den, ama sıfırdan büyük veya sıfıra eşit olan rasgele bir sayı verir.</value>
+  </data>
+  <data name="Round.Description" xml:space="preserve">
+    <value>Round(Value)
+Verilen değer en yakın tam sayıya yuvarlar.</value>
+  </data>
+  <data name="Round2Param.Description" xml:space="preserve">
+    <value>(Değeri, Precision) yuvarlak
+Verilen değere en yakın tamsayı veya belirtilen sayıda ondalık basamağa yuvarlar.</value>
+  </data>
+  <data name="RowCount.Description" xml:space="preserve">
+    <value>Bir veri kaynağı veri satırlarını toplam miktarını döndürür.</value>
+  </data>
+  <data name="Sign.Description" xml:space="preserve">
+    <value>Sign(Value)
+Pozitif (+ 1), sıfır (0) veya negatif (-1) verilen ifade işareti döndürür.</value>
+  </data>
+  <data name="Sin.Description" xml:space="preserve">
+    <value>Sin(Value)
+Radyan cinsinden tanımlanan açının sinüsünü verir.</value>
+  </data>
+  <data name="SingleAggregate.Description" xml:space="preserve">
+    <value>Single()
+Tek bir nesne derlemeden döndürür.</value>
+  </data>
+  <data name="Sinh.Description" xml:space="preserve">
+    <value>Sinh(Value)
+Radyan cinsinden tanımlanan açının hiperbolik sinüsünü verir.</value>
+  </data>
+  <data name="Sqr.Description" xml:space="preserve">
+    <value>Sqr(Value)
+Verilen bir sayının kare kökünü verir.</value>
+  </data>
+  <data name="StartsWith.Description" xml:space="preserve">
+    <value>StartsWith (dize, StartString)
+Doğru dize başlangıcı StartString uyup uymadığını verir; Aksi takdirde, False döndürülür.</value>
+  </data>
+  <data name="Substring2param.Description" xml:space="preserve">
+    <value>Alt dize (dize, StartPosition)
+Bir alt dize dize alır. StartPosition alt dize başlar.</value>
+  </data>
+  <data name="Substring3param.Description" xml:space="preserve">
+    <value>Alt dize (dize, StartPosition, uzunluk)
+Bir alt dize dize alır. Alt dize StartPosition başlatır ve belirtilen uzunluğa sahiptir.</value>
+  </data>
+  <data name="SumAggregate.Description" xml:space="preserve">
+    <value>Sum(Value)
+Tüm ifade değerleri koleksiyonunda verir.</value>
+  </data>
+  <data name="Tan.Description" xml:space="preserve">
+    <value>Tan(Value)
+Radyan cinsinden tanımlanan açının tanjantını verir.</value>
+  </data>
+  <data name="Tanh.Description" xml:space="preserve">
+    <value>Tanh(Value)
+Radyan cinsinden tanımlanan açının hiperbolik tanjantını verir.</value>
+  </data>
+  <data name="Today.Description" xml:space="preserve">
+    <value>Bugün()
+Geçerli tarihi verir. Gerçek zaman ne olursa olsun, bu işlev yarısından başlayarak geçerli tarih döndürür.</value>
+  </data>
+  <data name="ToDecimal.Description" xml:space="preserve">
+    <value>ToDecimal(Value)
+Eşdeğer bir ondalık sayıya dönüştürür değer.</value>
+  </data>
+  <data name="ToDouble.Description" xml:space="preserve">
+    <value>ToDouble(Value)
+Bir eşdeğer 64-bit çift duyarlıklı kayan nokta sayısı için değer dönüştürür.</value>
+  </data>
+  <data name="ToFloat.Description" xml:space="preserve">
+    <value>ToFloat(Value)
+Bir eşdeğer 32 bitlik tek duyarlıklı kayan nokta sayısı için değer dönüştürür.</value>
+  </data>
+  <data name="ToInt.Description" xml:space="preserve">
+    <value>ToInt(Value)
+Eşdeğer bir 32 bitlik imzalı tamsayı değeri dönüştürür.</value>
+  </data>
+  <data name="ToLong.Description" xml:space="preserve">
+    <value>ToLong(Value)
+Eşdeğer bir 64 bitlik imzalı tamsayı değeri dönüştürür.</value>
+  </data>
+  <data name="ToStr.Description" xml:space="preserve">
+    <value>ToStr(Value)
+Nesne bir dize gösterimini verir.</value>
+  </data>
+  <data name="Trim.Description" xml:space="preserve">
+    <value>Trim(String)
+Tüm baştaki ve sondaki boşluk karakterleri dizesi kaldırır.</value>
+  </data>
+  <data name="True.Description" xml:space="preserve">
+    <value>Boole True değerini temsil eder.</value>
+  </data>
+  <data name="Upper.Description" xml:space="preserve">
+    <value>Upper(String)
+Büyük harf döndürür dize.</value>
+  </data>
+  <data name="UtcNow.Description" xml:space="preserve">
+    <value>UtcNow()
+Geçerli sistem tarihi ve saati, Eşgüdümlü Evrensel Saat (UTC) olarak ifade edilen verir.</value>
+  </data>
+  <data name="functionsTypes.Properties.AggregateItems" xml:space="preserve">
+    <value>Toplama</value>
+  </data>
+  <data name="Constants.Text" xml:space="preserve">
+    <value>Sabitler</value>
+  </data>
+  <data name="functionsTypes.Properties.LogicalItems" xml:space="preserve">
+    <value>Mantıksal</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Fields.Text" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="Functions.Text" xml:space="preserve">
+    <value>Fonksiyonlar</value>
+  </data>
+  <data name="functionsTypes.Properties.StringItems" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+</root>

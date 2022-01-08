@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XtraPdfViewerStringId.BarCaption" xml:space="preserve">
+    <value>PDF görüntüleyici</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandEditPageIndexCaption" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandEditPageIndexDescription" xml:space="preserve">
+    <value>Sayfa sayısı</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextPageCaption" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOpenFileDescription" xml:space="preserve">
+    <value>Bir PDF'yi açın.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousPageCaption" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandRotatePageClockwiseCaption" xml:space="preserve">
+    <value>Saat yönünde döndür</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandRotatePageCounterclockwiseCaption" xml:space="preserve">
+    <value>Saat yönünün tersine döndür</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetActualSizeZoomModeCaption" xml:space="preserve">
+    <value>Gerçek boyut</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetFitWidthZoomModeCaption" xml:space="preserve">
+    <value>Genişliğe Sığdır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetPageLevelZoomModeCaption" xml:space="preserve">
+    <value>Sayfa düzeyinde yakınlaştır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandShowDocumentProperties" xml:space="preserve">
+    <value>Belge özellikleri</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandShowPageCountCaption" xml:space="preserve">
+    <value>Sayfa sayısı: {0}</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandViewExactZoomListDescription" xml:space="preserve">
+    <value>PDF belge yakınlaştırma düzeyini değiştirin.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom10Caption" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom25Caption" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom400Caption" xml:space="preserve">
+    <value>%400</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom50Caption" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom75Caption" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomInCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FileRibbonGroupCaption" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageCurrentPageNumberOutOfRange" xml:space="preserve">
+    <value>Geçerli sayfa sayısı 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageDocumentIsProtected" xml:space="preserve">
+    <value>{0} korumalı</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageErrorCaption" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageIncorrectPassword" xml:space="preserve">
+    <value>Parola doğru değil. Caps Lock etkin değil dikkat edin.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.PageSize" xml:space="preserve">
+    <value>{0:0.00} {1:0.00} x içinde</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ZoomRibbonGroupCaption" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPrintFileCaption" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomInDescription" xml:space="preserve">
+    <value>PDF belgesinin yakından görmek için yakınlaştırır.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomOutCaption" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandViewExactZoomListCaption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodLoadPdf" xml:space="preserve">
+    <value>PDF Dosyası Yükle...</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NavigationRibbonGroupCaption" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="XtraPdfViewerStringId.PDFFileFilter" xml:space="preserve">
+    <value>PDF dosyaları (.pdf)|*.pdf</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom100Caption" xml:space="preserve">
+    <value>%100</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom125Caption" xml:space="preserve">
+    <value>%125</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom150Caption" xml:space="preserve">
+    <value>%150</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom200Caption" xml:space="preserve">
+    <value>%200</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom500Caption" xml:space="preserve">
+    <value>%500</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextPageDescription" xml:space="preserve">
+    <value>Sonraki sayfayı göster</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOpenFileCaption" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousPageDescription" xml:space="preserve">
+    <value>Önceki sayfayı göster</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPrintFileDescription" xml:space="preserve">
+    <value>Dosyayı yazdır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomOutShortcutCaption" xml:space="preserve">
+    <value>(Ctrl + eksi)</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateBarsTransaction" xml:space="preserve">
+    <value>Çubukları Oluştur</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateRibbonTransaction" xml:space="preserve">
+    <value>Şerit Oluştur</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateBars" xml:space="preserve">
+    <value>Çubukları Oluştur</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateRibbon" xml:space="preserve">
+    <value>Şerit Oluştur</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSearchCaption" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandFindTextCaption" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandFindTextDescription" xml:space="preserve">
+    <value>Metin Bul</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandShowPageCountDescription" xml:space="preserve">
+    <value>PDF belgesindeki sayfa sayısı</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FindControlCaseSensitive" xml:space="preserve">
+    <value>Büyük küçük harf duyarlı</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandCopyCaption" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSaveAsFileCaption" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SelectionRibbonGroupCaption" xml:space="preserve">
+    <value>Seçimi</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandHandToolCaption" xml:space="preserve">
+    <value>El aracı</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandHandToolDescription" xml:space="preserve">
+    <value>El aracı</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectAllCaption" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectAllDescription" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectToolCaption" xml:space="preserve">
+    <value>Aracı seçin</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectToolDescription" xml:space="preserve">
+    <value>Aracı Seçin</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousViewCaption" xml:space="preserve">
+    <value>Önceki Görünüm</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousViewDescription" xml:space="preserve">
+    <value>Önceki görünüm</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FindControlWholeWordsOnly" xml:space="preserve">
+    <value>Yalnızca tam sözcükleri</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetFitVisibleZoomModeCaption" xml:space="preserve">
+    <value>Görünür uygun</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandCopyDescription" xml:space="preserve">
+    <value>PDF içeriğini panoya kopyala</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextViewCaption" xml:space="preserve">
+    <value>Sonraki görünümü</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextViewDescription" xml:space="preserve">
+    <value>Sonraki görünümü</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomInShortcutCaption" xml:space="preserve">
+    <value>(Ctrl + artı işareti)</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSaveAsFileDescription" xml:space="preserve">
+    <value>Kaydetmek PDF dosyası.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomOutDescription" xml:space="preserve">
+    <value>Daha fazla sayfa görmek için uzaklaştırabilirsiniz bir küçültür.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageIncorrectMaxPrintingDpi" xml:space="preserve">
+    <value>Yazdırma DPI değeri sıfırdan büyük veya sıfıra eşit olmalıdır.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSaveAsError" xml:space="preserve">
+    <value>PDF aşağıdaki adla kaydedemiyor: {0}.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodUndockInParentContainer" xml:space="preserve">
+    <value>Üst kapsayıcı içinde çıkar özelliği</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodDockInParentContainer" xml:space="preserve">
+    <value>Dock üst kapsayıcı içinde</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageLoadingError" xml:space="preserve">
+    <value>PDF belgesini aşağıdaki dosya kullanılabilir değil veya geçerli bir PDF belgesi olmadığından yüklenemiyor.
+{0}
+Lütfen uygulama bu dosyaya erişebilir ve geçerli olduğundan emin olun veya farklı bir dosya belirtin.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageAddCommandConstructorError" xml:space="preserve">
+    <value>{0} sınıfında bir PDF Görüntüleyici tip parametresi ile bir kurucu bulamıyorum</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageIncorrectPageNumber" xml:space="preserve">
+    <value>Sayfa sayısı 0'dan büyük olmalıdır ve belgenin sayfa sayısına eşit veya daha küçük olmalıdır.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodUnloadPdf" xml:space="preserve">
+    <value>PDF Dosyası Kapat</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageClipboardError" xml:space="preserve">
+    <value>Veri panoya kopyalanamadı.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesTextSizeToMediumCaption" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandExportFormDataCaption" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesGotoCaption" xml:space="preserve">
+    <value>Yer işaretine git</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesExpandCurrentCaption" xml:space="preserve">
+    <value>Geçerli yer imini genişlet</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesExpandTopLevelCaption" xml:space="preserve">
+    <value>En üst düzey yer imlerini genişlet</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPrintPagesCaption" xml:space="preserve">
+    <value>Sayfa(lar) yazdır</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesCollapseTopLevelCaption" xml:space="preserve">
+    <value>Üst düzey yer imlerini daralt</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSaveAttachmentError" xml:space="preserve">
+    <value>Eki aşağıdaki dosya adıyla kaydedemezsiniz: {0}.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NavigationPaneAttachmentsPageCaption" xml:space="preserve">
+    <value>Ekler</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandMarqueeZoomCaption" xml:space="preserve">
+    <value>Seçim Çerçevesi Yakınlaştırma</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FindRibbonGroupCaption" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetPageNumberCaption" xml:space="preserve">
+    <value>Sayfa Numarası</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetPageNumberLabelFormat" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DeleteAnnotationCommandCaption" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextStrikethroughCommandCaption" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextUnderlineCommandCaption" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextCommentRibbonPageGroupCaption" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentBarCaption" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+</root>

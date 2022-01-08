@@ -1,0 +1,1506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Count" xml:space="preserve">
+    <value>Aralıktaki sayı içeren hücrelerin kaç tane olduğunu sayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.If" xml:space="preserve">
+    <value>Belirttiğiniz koşul DOĞRU olarak değerlendiriliyorsa bir değer, YANLIŞ olarak değerlendiriliyorsa başka bir değer verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsNA" xml:space="preserve">
+    <value>Değerin #YOK olup olmadığını denetler ve DOĞRU ya da YANLIŞ verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsError" xml:space="preserve">
+    <value>Değerin hata olup olmadığını denetler (#YOK, #DEĞER!, #BAŞV!, #SAYI/0!, #SAYI!, #AD?, veya #BOŞ!) DOĞRU veya YANLIŞ verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sum" xml:space="preserve">
+    <value>Tüm sayıları bir hücre aralığına ekler.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Average" xml:space="preserve">
+    <value>Bağımsız değişkenlerinin (aritmetik) ortalamasını verir, bunlar sayı ya da sayılar içeren ad, dizi veya başvurular olabilir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Min" xml:space="preserve">
+    <value>Bir değerler kümesindeki en küçük değeri verir. Mantıksal değerleri ve metni yoksayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Max" xml:space="preserve">
+    <value>Bir değerler kümesindeki en büyük değeri verir. Mantıksal değerleri ve metni yoksayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Row" xml:space="preserve">
+    <value>Bir başvurunun satır numarasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Column" xml:space="preserve">
+    <value>Başvurunun sütun sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NA" xml:space="preserve">
+    <value>#YOK hata değerini verir (kullanılabilir değer yok).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Npv" xml:space="preserve">
+    <value>İndirim oranını, gelecekte yapılacak bir dizi ödemeyi (negatif değerler) ve geliri (pozitif değerler) temel alarak yatırımın bugünkü net değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.StDev" xml:space="preserve">
+    <value>Bir örneğe dayanarak standart sapmayı tahmin eder (örnekteki mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Dollar" xml:space="preserve">
+    <value>Bir sayıyı para biçimi kullanarak metne dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Fixed" xml:space="preserve">
+    <value>Bir sayıyı belirtilen sayıda ondalıklara yuvarlar ve sonucu virgüllü ya da virgülsüz metin olarak verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sin" xml:space="preserve">
+    <value>Bir açının sinüsünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Cos" xml:space="preserve">
+    <value>Bir açının kosinüsünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Tan" xml:space="preserve">
+    <value>Bir sayının tanjantını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ATan" xml:space="preserve">
+    <value>Bir sayının radyan cinsinden -Pi/2 ile Pi/2 aralığındaki arktanjantını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Pi" xml:space="preserve">
+    <value>Pi değerini verir, 15 rakama kadar yuvarlanmış hali 3,14159265358979'dur.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sqrt" xml:space="preserve">
+    <value>Bir sayının karekökünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Exp" xml:space="preserve">
+    <value>Verilen bir sayının üssünün e sayısının üssü olarak kullanılması ile oluşan sonucu verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Ln" xml:space="preserve">
+    <value>Bir sayının doğal logaritmasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Log10" xml:space="preserve">
+    <value>Bir sayının 10 tabanında logaritmasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Abs" xml:space="preserve">
+    <value>Bir sayının mutlak değerini verir, işareti olmayan sayı.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Int" xml:space="preserve">
+    <value>Bir sayıyı, sıfırdan ıraksayarak en yakın tam sayıya yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sign" xml:space="preserve">
+    <value>Bir sayının işaretini verir: sayı pozitif ise 1, sıfır ise sıfır, negatif ise -1.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Round" xml:space="preserve">
+    <value>Sayıyı belirli sayıdaki rakama yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Lookup" xml:space="preserve">
+    <value>Tek-satırlı ya da tek-sütunlu bir aralıktan ya da bir diziden bir değer verir. Geriye dönük uyumluluk için sağlanmıştır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Index" xml:space="preserve">
+    <value>Bir tablo ya da aralıktan bir değer ya da değere yapılan başvuruyu verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Rept" xml:space="preserve">
+    <value>Bir metni verilen sayıda yineler. Hücreyi metin dizesindeki birçok örnekle doldurmak için YİNELE'yi kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Mid" xml:space="preserve">
+    <value>Belirttiğiniz konumdan başlamak üzere metinden belirli sayıda karakter verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Len" xml:space="preserve">
+    <value>Bir karakter dizesi içerisindeki karakter sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Value" xml:space="preserve">
+    <value>Bir sayıyı gösteren bir metin dizesini bir sayıya dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.True" xml:space="preserve">
+    <value>Mantıksal DOĞRU'yu verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.False" xml:space="preserve">
+    <value>YANLIŞ mantıksal değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.And" xml:space="preserve">
+    <value>Tüm bağımsız değişkenlerin DOĞRU olup olmadığını denetler, tümü DOĞRU ise DOĞRU döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Or" xml:space="preserve">
+    <value>Bağımsız değişkenlerin DOĞRU olup olmadığını denetler ve DOĞRU veya YANLIŞ döndürür. Yalnızca bağımsız değişkenlerin tümü YANLIŞ ise YANLIŞ döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Not" xml:space="preserve">
+    <value>Bağımsız değişkeninin mantığını tersine çevirir: DOĞRU bir bağımsız değişken için YANLIŞ, YANLIŞ bir bağımsız değişken için DOĞRU verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Mod" xml:space="preserve">
+    <value>Bir sayının bir bölen tarafından bölünmesinden sonra kalanı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DCount" xml:space="preserve">
+    <value>Veritabanındaki kayıt alanında (sütun) bulunan sayıları içeren ve belirttiğiniz koşullara uyan hücreleri sayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DSum" xml:space="preserve">
+    <value>Veritabanındaki kayıt alanında (sütun) bulunan ve belirttiğiniz koşullara uyan sayıları toplar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DAverage" xml:space="preserve">
+    <value>Bir liste ya da veritabanındaki bir sütunda yer alan ve belirttiğiniz koşullara uyan değerlerin ortalamasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DMin" xml:space="preserve">
+    <value>Veritabanındaki kayıt alanında (sütun) bulunan ve belirttiğiniz koşullara uyan en küçük sayıyı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DMax" xml:space="preserve">
+    <value>Veritabanındaki kayıt alanında (sütun) bulunan ve belirttiğiniz koşullara uyan en büyük sayıyı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DStDev" xml:space="preserve">
+    <value>Seçili veritabanı girdilerinden alınan bir örneğin standart sapmasını tahmin eder.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Var" xml:space="preserve">
+    <value>Bir örneğe dayanarak varyansı tahmin eder (örnekteki mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DVar" xml:space="preserve">
+    <value>Seçili veritabanı girdilerinden alınan örneğin varyansını tahmin eder.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Text" xml:space="preserve">
+    <value>Bir değeri belirli bir sayı biçimindeki metne dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Linest" xml:space="preserve">
+    <value>En küçük kareler yöntemiyle hesaplanmış olan verilerinize en iyi uyan doğruyu tanımlayan diziyi verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Trend" xml:space="preserve">
+    <value>Bilinen değerlere en küçük kareler yöntemini uygulayarak değerleri bir doğruya uydurur ve bir doğrusal eğilim boyunca verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Logest" xml:space="preserve">
+    <value>Verilerinize uyması için regresyon çözümlemesi yöntemiyle hesaplanmış olan üstel eğriyi tanımlayan değerler dizisini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Growth" xml:space="preserve">
+    <value>Bilinen veri noktalarıyla eşleşen üstel büyüme trendi içindeki sayıları döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Pv" xml:space="preserve">
+    <value>Bir yatırımın bugünkü değerini verir: gelecekte yapılacak bir dizi ödemenin bugünkü değeri.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Fv" xml:space="preserve">
+    <value>Bir yatırımın gelecek değerini, dönemsel sabit ödemeler ve sabit faiz oranı kullanarak hesaplar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NPer" xml:space="preserve">
+    <value>Dönemsel sabit ödemeli ve sabit faizli bir yatırımın dönem sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Pmt" xml:space="preserve">
+    <value>Sabit ödemeli ve sabit faizli bir borç için yapılacak ödemeyi hesaplar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Rate" xml:space="preserve">
+    <value>Bir yıllık borç ya da yatırım için dönem başına düşen faiz oranını verir. Örneğin, %6 yıllık faiz oranına karşılık üç aylık ödeme için %6/4 kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Mirr" xml:space="preserve">
+    <value>Yatırım maliyetini ve yatırımın bileşik getirisini dikkate alarak, dönemsel nakit akışları serisi için iç verim oranını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Irr" xml:space="preserve">
+    <value>Bir dizi nakit akışı için iç verim oranını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Rand" xml:space="preserve">
+    <value>0 ya da 0'dan büyük ve 1'den küçük bir sayıyı eşit dağılımla rasgele verir (yeniden hesaplama sonucunda değişir).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Match" xml:space="preserve">
+    <value>Belirli bir sırada belirtilen değerle eşleşen bir öğenin bir dizi içerisindeki göreceli konumunu verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Date" xml:space="preserve">
+    <value>Spreadsheet tarih-saat kodundaki tarihi gösteren sayıyı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Time" xml:space="preserve">
+    <value>Saat, dakika, saniye olarak girilen sayıları zaman biçimindeki Spreadsheet seri numarasına dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Day" xml:space="preserve">
+    <value>1 ile 31 arasındaki, ayın gününü döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Month" xml:space="preserve">
+    <value>1 (Ocak) ile 12 (Aralık) arasındaki bir sayı ile ifade edilen ayı döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Year" xml:space="preserve">
+    <value>1900 - 9999 aralığındaki bir tamsayı ile ifade edilen tarihin yılını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.WeekDay" xml:space="preserve">
+    <value>Verilen tarih gösteren sayıyı kullanarak haftanın gününü tanımlayan 1 ile 7 arasındaki sayı.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Hour" xml:space="preserve">
+    <value>Saati verir, bir seri numarasına karşılık gelen 0 (12:00)'dan 23 (11:00)'e kadar bir tamsayı.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Minute" xml:space="preserve">
+    <value>Bir seri numarasına karşılık gelen, 0-59 arasında bir tamsayı olan dakikayı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Second" xml:space="preserve">
+    <value>Saniyeyi seri numarasına karşılık gelen 0 ile 59 arasında bir tamsayı cinsinden verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Now" xml:space="preserve">
+    <value>Güncel tarihi ve saati, tarih ve saat biçiminde verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Areas" xml:space="preserve">
+    <value>Bir başvurudaki alanların sayısını verir. Alan bir bitişik hücreler aralığı ya da sadece bir hücre olabilir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Rows" xml:space="preserve">
+    <value>Bir başvuru ya da dizideki satır sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Columns" xml:space="preserve">
+    <value>Bir dizideki ya da başvurudaki sütun sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Offset" xml:space="preserve">
+    <value>Bir hücre ya da hücreler aralığında belirtilen satır ve sütun sayısına karşılık gelen bir aralığa yapılan başvuruyu verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Search" xml:space="preserve">
+    <value>Özel bir karakter ya da metin dizesinin ilk geçtiği yerin karakter numarasını verir, soldan sağa okuma sırasında (büyük küçük harf duyarlı değil).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Transpose" xml:space="preserve">
+    <value>Düşey bir hücreler aralığını yatay bir aralık olarak verir, ya da tam tersi.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Type" xml:space="preserve">
+    <value>Değerin veri türünü gösteren sayıyı verir: sayı = 1; metin = 2; mantıksal değer = 4; hata değeri = 16; dizi = 64.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Call" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ATan2" xml:space="preserve">
+    <value>Belirtilen x- ve y- koordinatlarının radyan cinsinden -Pi (-Pi hariç) ile Pi arasındaki arktanjantını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ASin" xml:space="preserve">
+    <value>Bir sayının radyan cinsinden -Pi/2 ile Pi/2 aralığındaki arksinüsünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ACos" xml:space="preserve">
+    <value>Bir sayının arkkosinüsünü verir, radyan cinsinde ve 0 - Pi aralığındadır. Arkkosinüs, kosinüsü Sayı olan açıdır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Choose" xml:space="preserve">
+    <value>Bir dizin numarasını temel alan bir değerler listesinden gerçekleştirmek üzere bir değer ya da eylem seçer.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.HLookup" xml:space="preserve">
+    <value>tablonun üst satırındaki değeri ya da değerler dizisini arar ve aynı sütunda belirtilen satırdan değeri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.VLookup" xml:space="preserve">
+    <value>Bir tablonun en sol sütunundaki bir değeri arar ve daha sonra aynı satırda belirttiğiniz sütundan bir değer verir. Varsayılan olarak tablo artan sırada sıralanmalıdır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsRef" xml:space="preserve">
+    <value>Bir değerin başvuru olup olmadığını denetler ve başvuruysa DOĞRU, değilse YANLIŞ döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Log" xml:space="preserve">
+    <value>Bir sayının belirttiğiniz tabandaki logaritmasını alır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Char" xml:space="preserve">
+    <value>Bilgisayarınızın karakter kümesindeki kod numarasıyla belirtilen karakteri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Lower" xml:space="preserve">
+    <value>Metin dizesindeki tüm büyük harfleri küçük harfe çevirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Upper" xml:space="preserve">
+    <value>Bir metni büyük harfe dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Proper" xml:space="preserve">
+    <value>Metin dizesindeki her sözcüğün ilk harfini büyük harfe, diğer tüm harfleri de küçük harfe dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Left" xml:space="preserve">
+    <value>Bir metin dizesinin ilk (en solundaki) belirtilen sayıdaki karakter ya da karakterlerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Right" xml:space="preserve">
+    <value>Bir metin dizesinin son (en sağdaki) belirtilen sayıdaki karakter ya da karakterlerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Exact" xml:space="preserve">
+    <value>İki metin dizesini karşılaştırır ve tamamen aynıysalar DOĞRU, başka durumlarda YANLIŞ verir (büyük küçük harf duyarlı).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Trim" xml:space="preserve">
+    <value>Bir metin dizesinden sözcükler arasındaki tek boşluklar dışındaki tüm boşlukları kaldırır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Replace" xml:space="preserve">
+    <value>Metin dizesinin bir kısmını başka bir metin dizesiyle değiştirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Substitute" xml:space="preserve">
+    <value>Metin dizesindeki eski bir metni yenisiyle değiştirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Code" xml:space="preserve">
+    <value>Bilgisayarınızın kullandığı karakter kümesinden, metin dizesindeki ilk karakter için sayısal bir kod verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Find" xml:space="preserve">
+    <value>Bir metin dizesini diğer bir metin dizesi içinde bulur ve bulunan dizenin başlama konumu numarasını verir (büyük küçük harf duyarlı).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Cell" xml:space="preserve">
+    <value>Bir başvurudaki, sayfanın okuma sırasına göre ilk hücrenin biçim, konum ve içeriği hakkında bilgi verir. .</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsErr" xml:space="preserve">
+    <value>Değerin ,#YOK dışında, hata olup olmadığını denetler (#DEĞER!, #BAŞV!, #SAYI/0!, #SAYI!, #AD?, veya #BOŞ!) ve DOĞRU veya YANLIŞ verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsText" xml:space="preserve">
+    <value>Bir değerin metin olup olmadığını denetler ve metinse DOĞRU, metin değilse YANLIŞ döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsNumber" xml:space="preserve">
+    <value>Bir değerin sayı olup olmadığını denetler ve sayıysa DOĞRU, değilse YANLIŞ döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsBlank" xml:space="preserve">
+    <value>Değer boş bir hücreye başvuruda bulunuyorsa DOĞRU verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.T" xml:space="preserve">
+    <value>Değer'in başvurduğu metni verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.N" xml:space="preserve">
+    <value>Bir sayıya dönüştürülmüş değeri verir. Sayılar sayılara, Tarihler seri numaralarına, DOĞRU 1'e, bunların dışındaki şeyler de 0 (sıfır)'a dönüştürülür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DateValue" xml:space="preserve">
+    <value>Metin formunda bulunan bir tarihi Spreadsheet'deki tarih-saat kodunu gösteren bir sayıya dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TimeValue" xml:space="preserve">
+    <value>Bir metin dizesiyle (saat_metni) gösterilen bir saati 0 (00:00:00) ile 0,999988426 (23:59:59) arasındaki Spreadsheet saat seri numarasına çevirir. Formülü girdikten sonra sayıyı saat biçiminde biçimlendirin.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sln" xml:space="preserve">
+    <value>Bir malın bir dönem için doğrusal yıpranmasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Syd" xml:space="preserve">
+    <value>Bir malın belirtilen bir dönem için yıpranmasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Ddb" xml:space="preserve">
+    <value>Çift azalan bakiye yöntemi veya belirttiğiniz diğer bir yöntemle, bir varlığın belirtilen dönem içindeki yıpranmasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Indirect" xml:space="preserve">
+    <value>Bir metin dizesiyle belirtilmiş başvuruyu verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Call" xml:space="preserve">
+    <value>Dinamik bağlantı kitaplığı veya kod kaynağı içinde bulunan bir yöntemi çağırır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Clean" xml:space="preserve">
+    <value>Metinden yazdırılamayan karakterleri kaldırır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MDeterm" xml:space="preserve">
+    <value>Bir dizinin determinantını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MInverse" xml:space="preserve">
+    <value>Bir dizide saklanan bir dizeyin tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MMult" xml:space="preserve">
+    <value>İki dizinin dizey çarpımını verir, sonuç, dizi1 ile aynı sayıda satıra ve dizi2 ile aynı sayıda sütuna sahip olan bir dizidir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Ipmt" xml:space="preserve">
+    <value>Verilen bir dönem için, dönemsel sabit ödemelere ve sabit bir faiz oranını kullanan yatırım faiz ödemesini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Ppmt" xml:space="preserve">
+    <value>Dönemsel sabit ödemeli ve sabit faizli bir yatırım için yapılacak anapara ödemesi tutarını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CountA" xml:space="preserve">
+    <value>Aralıktaki boş olmayan hücrelerin kaç tane olduğunu sayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Product" xml:space="preserve">
+    <value>Bağımsız değişken olarak verilen tüm sayıları çarpar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Fact" xml:space="preserve">
+    <value>Bir sayının 1*2*3*...*Sayı şeklinde çarpınımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DProduct" xml:space="preserve">
+    <value>Veritabanındaki kayıt alanında (sütun) bulunan ve belirttiğiniz koşullara uyan verileri çarpar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsNonText" xml:space="preserve">
+    <value>Bir değerin metin olup olmadığını denetler (boş hücreler metin değildir) ve metin değilse DOĞRU, metinse YANLIŞ döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.StDevP" xml:space="preserve">
+    <value>Bağımsız değişkenler olarak verilen tüm popülasyonu temel alarak standart sapmayı hesaplar (mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.VarP" xml:space="preserve">
+    <value>Tüm popülasyonun varyansını hesaplar (popülasyondaki mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DStDevP" xml:space="preserve">
+    <value>Seçili veritabanı girdilerinden oluşan tüm popülasyonun standart sapmasını hesaplar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DVarP" xml:space="preserve">
+    <value>Seçili veritabanı popülasyonunun varyansını hesaplar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Trunc" xml:space="preserve">
+    <value>Bir sayıyı ondalık ya da kesir kısmını kaldırarak bir tamsayıya yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsLogical" xml:space="preserve">
+    <value>Bir değerin mantıksal bir değer (DOĞRU veya YANLIŞ) olup olmadığını denetler ve DOĞRU veya YANLIŞ değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DCountA" xml:space="preserve">
+    <value>Veritabanındaki kayıt alanında (sütun) bulunan ve belirttiğiniz koşullara uyan boş olmayan hücreleri sayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FindB" xml:space="preserve">
+    <value>Özel bir karakter ya da metin dizesinin ilk geçtiği yerin karakter numarasını bulur, soldan sağa okuma sırasında (büyük küçük harf duyarlı). Çift bayt karakter kümeleri ile kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SearchB" xml:space="preserve">
+    <value>Özel bir karakter ya da metin dizesinin ilk geçtiği yerin karakter numarasını döndürür, soldan sağa okuma sırasında (büyük küçük harf duyarlı değil). Çift bayt karakter kümeleri ile kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ReplaceB" xml:space="preserve">
+    <value>Metin içindeki karakterleri değiştirir. Çift bayt karakter kümeleri ile birlikte kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.LeftB" xml:space="preserve">
+    <value>Bir metnin en solundaki karakterleri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RightB" xml:space="preserve">
+    <value>Bir metin değerinden en sağdaki karakterleri verir. Çift bayt karakter kümeleri ile birlikte kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MidB" xml:space="preserve">
+    <value>Belirttiğiniz konumdan başlamak üzere metinden belirli sayıda karakter verir. Çift bayt karakter kümeleri ile birlikte kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.LenB" xml:space="preserve">
+    <value>Bir karakter dizesi içerisindeki karakter sayısını verir. Çift bayt karakter kümeleri ile birlikte kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RoundUp" xml:space="preserve">
+    <value>Bir sayıyı sıfırdan ıraksayarak yukarı yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RoundDown" xml:space="preserve">
+    <value>Bir sayıyı sıfıra yakınsayarak yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Asc" xml:space="preserve">
+    <value>tam genişlikli (çift bayt) karakterleri yarı genişlikli (tek bayt) karakterlerle değiştirir. Çift bayt karakter kümeleri ile birlikte kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Rank" xml:space="preserve">
+    <value>Bir sayı listesindeki bir sayının derecesini verir: listedeki diğer değerlere göreli olarak büyüklüğü.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Address" xml:space="preserve">
+    <value>Bir hücre başvurusunu, belirtilen satır ve sütun numaraları verilmiş halde metin olarak oluşturur.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Days360" xml:space="preserve">
+    <value>İki tarih arasındaki gün sayısını 360 günlük yılı kullanarak hesaplar (oniki 30 günlük ay).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Today" xml:space="preserve">
+    <value>Bugünkü tarihi, tarih biçiminde verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Vdb" xml:space="preserve">
+    <value>Çift azalan bakiye yöntemini ya da belirttiğiniz başka bir yöntemi kullanarak, kısmi dönemleri de içeren belirli bir dönem için bir malın amortismanını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Median" xml:space="preserve">
+    <value>Verilen sayılar kümesinin ortancasını ya da bu kümenin ortasındaki sayıyı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SumProduct" xml:space="preserve">
+    <value>Verilen aralık ya da dizilerde birbirine karşılık gelen sayısal bileşenleri çarpar ve bu çarpımların toplamını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SinH" xml:space="preserve">
+    <value>Bir sayının hiperbolik sinüsünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CosH" xml:space="preserve">
+    <value>Bir sayının hiperbolik kosinüsünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TanH" xml:space="preserve">
+    <value>Bir sayının hiperbolik tanjantını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ASinH" xml:space="preserve">
+    <value>Bir sayının ters hiperbolik sinüsünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ACosH" xml:space="preserve">
+    <value>Bir sayının ters hiperbolik kosinüsünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ATanH" xml:space="preserve">
+    <value>Bir sayının ters hiperbolik tanjantını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DGet" xml:space="preserve">
+    <value>Belirttiğiniz koşullara uyan tek bir kaydı veritabanından çıkarır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Info" xml:space="preserve">
+    <value>Geçerli işletim ortamı hakkında bilgi verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Db" xml:space="preserve">
+    <value>Sabit azalan bakiye yöntemi kullanarak bir varlığın belirtilen dönem içindeki yıpranmasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Frequency" xml:space="preserve">
+    <value>Bir değerler aralığındaki verilerin hangi sıklıkta yer aldığını hesaplar ve Ara_dizisi'nden bir fazla elemana sahip olan bir düşey sayılar dizisi verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ErrorType" xml:space="preserve">
+    <value>Bir hata değerine karşılık gelen bir sayı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RegisterId" xml:space="preserve">
+    <value>Belirtilen dinamik bağlantı kitaplığı (DLL) kayıt numarasını veya önceden kaydedilen bir kod kaynağını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Avedev" xml:space="preserve">
+    <value>Veri noktalarının mutlak sapmalarının aritmetik ortalamasını bu noktaların ortalaması aracılığıyla verir. Bağımsız değişkenler sayı, ad, dizi veya sayı içeren başvurular olabilir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BetaDistCompatibility" xml:space="preserve">
+    <value>Kümülatif beta olasılık yoğunluk işlevini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.GammaLn" xml:space="preserve">
+    <value>Gama fonksiyonunun doğal logaritmasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BetaInv" xml:space="preserve">
+    <value>Kümülatif beta olasılık yoğunluk işlevinin (BETADAĞ) tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BinomDist" xml:space="preserve">
+    <value>Tek terimli binom dağılımı olasılığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChiDist" xml:space="preserve">
+    <value>Kikare dağılımının sağ kuyruklu olasılığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChiInv" xml:space="preserve">
+    <value>Kikare dağılımının sağ kuyruklu olasılığının tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Combin" xml:space="preserve">
+    <value>Verilen öğelerin sayısı için kombinasyon sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Confidence" xml:space="preserve">
+    <value>Popülasyon ortalaması için normal bir dağılım kullanarak güvenilirlik aralığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CritBinom" xml:space="preserve">
+    <value>Kümülatif binom dağılımının ölçüt değerinden küçük veya ona eşit olduğu en küçük değeri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Even" xml:space="preserve">
+    <value>Bir sayıyı, mutlak değerce kendinden büyük en yakın çift tamsayıya yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ExponDist" xml:space="preserve">
+    <value>Üstel dağılımı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FDist" xml:space="preserve">
+    <value>İki veri kümesi için (sağ kuyruklu) F olasılık dağılımını (basıklık derecesi) verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FInv" xml:space="preserve">
+    <value>(Sağ kuyruklu) F olasılık dağılımının tersini verir: p = FDAĞ(x,...) ise, FTERS(p,...) = x.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Fisher" xml:space="preserve">
+    <value>Fisher dönüşümünü verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FisherInv" xml:space="preserve">
+    <value>Fisher dönüşümünün tersini verir: y = FISHER(x) ise, FISHERTERS(y) = x.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Floor" xml:space="preserve">
+    <value>Bir sayıyı, anlamlı en yakın katına, aşağı doğru yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.GammaDist" xml:space="preserve">
+    <value>Gama dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.GammaInv" xml:space="preserve">
+    <value>Gama kümülatif dağılımının tersini verir: p = GAMADAĞ(x,...) ise, GAMATERS(p,...) = x.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Ceiling" xml:space="preserve">
+    <value>Bir sayıyı, yukarı doğru en yakın anlamlı sayı katına yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.HypGeomDist" xml:space="preserve">
+    <value>Hipergeometrik dağılımı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.LogNormDistCompatibility" xml:space="preserve">
+    <value>ln(x)'in normal olarak Ortalama ve Standart_sapma parametreleriyle dağıldığı durumlarda x'in kümülatif lognormal dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.LogInvCompatibility" xml:space="preserve">
+    <value>ln(x)'in Ortalama ve Standart_sapma parametreleriyle normal dağıldığı durumlarda x'in kümülatif lognormal dağılım işlevinin tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NegBinomDist" xml:space="preserve">
+    <value>Bir başarının negatif binom dağılımını, yani Başarı_sayısı kadar başarıdan önce Başarısızlık_s kadar başarısızlık olması olasılığını Başarı_olasılığı kadar olasılıkla verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormDistCompatibility" xml:space="preserve">
+    <value>Belirtilen ortalama ve standart sapma için normal kümülatif dağılımı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormSDistCompatibility" xml:space="preserve">
+    <value>Standart normal kümülatif dağılımı (ortalaması sıfır, standart sapması bir) verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormInvCompatibility" xml:space="preserve">
+    <value>Belirtilen ortalama ve standart sapma için normal kümülatif dağılımın tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormSInvCompatibility" xml:space="preserve">
+    <value>Standart normal kümülatif dağılımın (ortalaması sıfır, standart sapması bir) tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Standardize" xml:space="preserve">
+    <value>Bir ortalama ve standart sapma tarafından temsil edilen bir dağılımdan normalleştirilen değeri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Odd" xml:space="preserve">
+    <value>Bir sayıyı, mutlak değerce kendinden büyük en yakın tek tamsayıya yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Permut" xml:space="preserve">
+    <value>Tüm nesnelerden seçilebilecek olan verilen sayıda nesne için permütasyon sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Poisson" xml:space="preserve">
+    <value>Poisson dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TDist" xml:space="preserve">
+    <value>T-dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Weibull" xml:space="preserve">
+    <value>Weibull dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SumXMY2" xml:space="preserve">
+    <value>Birbirine karşılık gelen iki aralık ya da dizideki değerlerin farklarını hesaplar ve sonra da bu farkların kareleri toplamını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SumX2MY2" xml:space="preserve">
+    <value>Birbirine karşılık gelen iki aralık ya da dizideki sayıların kareleri arasındaki farkı hesaplar ve sonra da bu farkların toplamını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SumX2PY2" xml:space="preserve">
+    <value>Birbirine karşılık gelen iki aralık ya da dizideki sayıların karelerinin toplamlarını hesaplar ve sonra da bu toplamların toplamını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChiTest" xml:space="preserve">
+    <value>Bağımsızlık sınaması sonucunu verir: istatistik için kikare dağılımından alınan değer ve uygun serbestlik derecesi.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Correl" xml:space="preserve">
+    <value>İki veri kümesi arasındaki korelasyon katsayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Covar" xml:space="preserve">
+    <value>Kovaryansı verir; iki veri kümesindeki her veri noktası çifti için sapmaların çarpımlarının ortalaması.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Forecast" xml:space="preserve">
+    <value>Varolan değerleri kullanarak bir gelecek değeri doğrusal bir eğilim boyunca hesaplar ya da tahmin eder.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FTest" xml:space="preserve">
+    <value>Bir F-test sonucu verir; Dizi1 ve Dizi2'nin varyanslarının çok farklı olmadığı iki kuyruklu olasılıktır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Intercept" xml:space="preserve">
+    <value>Bilinen x ve y-değerleri üzerindeki en uygun regresyon doğrusunu kullanarak bir doğrunun y-eksenini kestiği noktaları hesaplar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Pearson" xml:space="preserve">
+    <value>Pearson çarpım moment korelasyon katsayısı olan r'yi verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Rsq" xml:space="preserve">
+    <value>Verilen veri noktaları boyunca Pearson çarpım moment korelasyon katsayısının karesini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.StEYX" xml:space="preserve">
+    <value>Bir regresyondaki her x değeri için tahmin edilen y değerinin standart hatasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Slope" xml:space="preserve">
+    <value>Verilen veri noktaları boyunca doğrusal regresyon çizgisinin eğimini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TTest" xml:space="preserve">
+    <value>Bir t-Test için olasılığı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Prob" xml:space="preserve">
+    <value>Bir aralıktaki değerlerin iki sınır arasında ya da alt sınıra eşit olması olasılığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DevSq" xml:space="preserve">
+    <value>Veri noktalarının kendi örneklerinin ortalamasından sapmaların kareleri toplamını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Geomean" xml:space="preserve">
+    <value>Bir dizi ya da pozitif sayısal veri aralığının geometrik ortalamasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.HarMean" xml:space="preserve">
+    <value>Pozitif sayılardan oluşan bir veri kümesinin harmonik ortalamasını verir: devrik değerlerin aritmetik ortalamasının devrik değeridir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SumSq" xml:space="preserve">
+    <value>Bağımsız değişkenlerin karelerinin toplamını verir. Bağımsız değişkenler sayı, ad, dizi, ya da sayı içeren hücre başvuruları olabilir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Kurt" xml:space="preserve">
+    <value>Bir veri kümesinin basıklığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Skew" xml:space="preserve">
+    <value>Dağılımın eğriliğini verir: bir dağılımın ortalaması etrafındaki asimetri derecesini belirtir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ZTest" xml:space="preserve">
+    <value>Bir z-test'in tek kuyruklu P-değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Large" xml:space="preserve">
+    <value>Bir veri kümesi içindeki en büyük k. değeri verir. Örneğin, beşinci en büyük sayı.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Small" xml:space="preserve">
+    <value>Bir veri kümesinde k. en küçük değeri verir. Örneğin, beşinci en küçük sayı.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Quartile" xml:space="preserve">
+    <value>Bir veri kümesinin dörttebirliğini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Percentile" xml:space="preserve">
+    <value>Bir aralık içerisindeki değerlerin k. yüzdebir toplamını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PercentRank" xml:space="preserve">
+    <value>Bir veri kümesindeki bir değerin sırasını, veri kümesinin yüzdesi olarak verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Mode" xml:space="preserve">
+    <value>Bir veri dizisi ya da aralığında en sık karşılaşılan ya da en çok yinelenen değeri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Trimmean" xml:space="preserve">
+    <value>Bir veri kümesinin iç kısmının ortalamasını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Tinv" xml:space="preserve">
+    <value>T-dağılımının iki kuyruklu tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Concatenate" xml:space="preserve">
+    <value>Birden fazla metin dizesini bir metin dizesi halinde birleştirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Power" xml:space="preserve">
+    <value>Üssü alınmış sayının sonucunu verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Radians" xml:space="preserve">
+    <value>Dereceyi radyana dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Degrees" xml:space="preserve">
+    <value>Radyanı dereceye çevirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Subtotal" xml:space="preserve">
+    <value>Bir liste veya veritabanından bir alt toplam verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SumIf" xml:space="preserve">
+    <value>Verilen bir koşul ya da ölçüt tarafından belirtilen hücreleri ekler.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CountIf" xml:space="preserve">
+    <value>Verilen koşula uyan aralık içindeki hücreleri sayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CountBlank" xml:space="preserve">
+    <value>Belirtilen hücre aralığındaki boş hücreleri sayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsPmt" xml:space="preserve">
+    <value>Borç ödeme faizini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DateDif" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Roman" xml:space="preserve">
+    <value>Arap rakamlarını metin biçimiyle romen rakamlarına dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.GetPivotData" xml:space="preserve">
+    <value>PivotTable'da depolanmış verileri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Hyperlink" xml:space="preserve">
+    <value>Sabit sürücü, sunucu ağı ya da Internet'te depolanmış olan bir belgeyi açmak için kısayol ya da atlama oluşturur.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Phonetic" xml:space="preserve">
+    <value>Ses dizesi al .</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.AverageA" xml:space="preserve">
+    <value>Bağımsız değişkenlerinin aritmetik ortalamasını verir, metni ve bağımsız değişkenlerdeki YANLIŞ değerini 0; DOĞRU değerini 1 olarak değerlendirir. Bağımsız değişkenler sayı, ad, dizi ya da başvuru olabilir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MaxA" xml:space="preserve">
+    <value>Bir değerler kümesindeki en büyük değeri verir. Mantıksal değerleri ve metni yoksaymaz.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MinA" xml:space="preserve">
+    <value>Bir değerler kümesindeki en küçük değeri verir. Mantıksal değerleri ve metni yoksaymaz.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.StDevPA" xml:space="preserve">
+    <value>Mantıksal değerler ve metin içeren tüm bir popülasyon için standart sapmayı hesaplar. Metin ve YANLIŞ mantıksal değer 0; DOĞRU mantıksal değer ise 1 değerini alır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.VarPA" xml:space="preserve">
+    <value>Mantıksal değerler ve metin içeren bir popülasyon için varyansı hesaplar. Metin ve YANLIŞ mantıksal değer 0; DOĞRU mantıksal değer ise 1 değerini alır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.StDevA" xml:space="preserve">
+    <value>Mantıksal değerler ve metin içeren bir örneğin standart sapmasını tahmin eder. Metin ve YANLIŞ mantıksal değer 0; DOĞRU mantıksal değer ise 1 değerini alır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.VarA" xml:space="preserve">
+    <value>Mantıksal değerler ve metin içeren bir örneğin varyansını tahmin eder. Metin ve YANLIŞ mantıksal değer 0; DOĞRU mantıksal değer ise 1 değerini alır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BahtText" xml:space="preserve">
+    <value>Sayıyı (baht) metne dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Rtd" xml:space="preserve">
+    <value>COM otomasyonunu destekleyen bir programdan gerçek zamanlı veri alır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CubeValue" xml:space="preserve">
+    <value>Küpten derlenmiş bir değer döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CubeMember" xml:space="preserve">
+    <value>Küpten bir üye döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CubeMemberProperty" xml:space="preserve">
+    <value>Küpten bir üye özelliğinin değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CubeRankedMember" xml:space="preserve">
+    <value>Bir kümedeki n'inci ve dereceli öğeyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Hex2Bin" xml:space="preserve">
+    <value>Onaltılık düzendeki bir sayıyı ikilik düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Hex2Dec" xml:space="preserve">
+    <value>Onaltılık düzendeki bir sayıyı onluk düzene çevirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Hex2Oct" xml:space="preserve">
+    <value>Onaltılık düzendeki bir sayıyı sekizlik düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Dec2Bin" xml:space="preserve">
+    <value>Onluk düzendeki bir sayıyı ikilik düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Dec2Hex" xml:space="preserve">
+    <value>Onluk düzendeki bir sayıyı onaltılık düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Dec2Oct" xml:space="preserve">
+    <value>Onluk düzendeki bir sayıyı sekizlik düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Oct2Bin" xml:space="preserve">
+    <value>Sekizlik düzendeki bir sayıyı ikilik düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Oct2Hex" xml:space="preserve">
+    <value>Sekizlik düzendeki bir sayıyı onaltılık düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Oct2Dec" xml:space="preserve">
+    <value>Sekizlik düzendeki bir sayıyı onluk düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Bin2Dec" xml:space="preserve">
+    <value>İkilik düzendeki bir sayıyı onluk düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Bin2Oct" xml:space="preserve">
+    <value>İkilik düzendeki bir sayıyı sekizlik düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Bin2Hex" xml:space="preserve">
+    <value>İkilik düzendeki bir sayıyı onaltılık düzene dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImSub" xml:space="preserve">
+    <value>İki karmaşık sayının farkını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImDiv" xml:space="preserve">
+    <value>İki karmaşık sayının bölümünü döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImPower" xml:space="preserve">
+    <value>Bir karmaşık sayının tamsayı bir kuvvetini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImAbs" xml:space="preserve">
+    <value>Bir karmaşık sayının mutlak değerini (modulus) döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImSqrt" xml:space="preserve">
+    <value>Bir karmaşık sayının kare kökünü döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImLn" xml:space="preserve">
+    <value>Bir karmaşık sayının doğal logaritmasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImLog2" xml:space="preserve">
+    <value>Bir karmaşık sayının 2 tabanında logaritmasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImLog10" xml:space="preserve">
+    <value>Bir karmaşık sayının 10 tabanında logaritmasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImSin" xml:space="preserve">
+    <value>Bir karmaşık sayının sinüs değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImCos" xml:space="preserve">
+    <value>Bir karmaşık sayının kosinüs değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImExp" xml:space="preserve">
+    <value>Bir karmaşık sayının üssel değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImArgument" xml:space="preserve">
+    <value>Bir karmaşık sayının radyan cinsinden argümanını (q) döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImConjugate" xml:space="preserve">
+    <value>Bir karmaşık sayının eşleneğini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Imaginary" xml:space="preserve">
+    <value>Bir karmaşık sayının sanal katsayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImReal" xml:space="preserve">
+    <value>Bir karmaşık sayının gerçel katsayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Complex" xml:space="preserve">
+    <value>Gerçel ve sanal katsayıları bir karmaşık sayıya dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImSum" xml:space="preserve">
+    <value>Karmaşık sayıların toplamını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImProduct" xml:space="preserve">
+    <value>En az 1 en çok 255 karmaşık sayının çarpımını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Seriessum" xml:space="preserve">
+    <value>Formüle dayalı olan kuvvet serisinin toplamını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FactDouble" xml:space="preserve">
+    <value>Verilen bir sayıdan bire kadar ikişer ikişer azalarak oluşan sayıların çarpımını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SqrtPi" xml:space="preserve">
+    <value>Sayının Pi sayısıyla çarpımının kare kökünü döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Quotient" xml:space="preserve">
+    <value>Bir bölmenin tamsayı kısmını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Delta" xml:space="preserve">
+    <value>İki sayının eşitliğini sınar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Gestep" xml:space="preserve">
+    <value>Bir sayının sınır bir değerden büyük olup olmadığını sınar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsEven" xml:space="preserve">
+    <value>Sayı bir çift sayı ise DOĞRU döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsOdd" xml:space="preserve">
+    <value>Sayı bir tek sayı ise DOĞRU döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MRound" xml:space="preserve">
+    <value>İstenen katsayıya yuvarlanmış bir sayı döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Erf" xml:space="preserve">
+    <value>Hata işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Erfc" xml:space="preserve">
+    <value>Tümleyici hata işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BesselJ" xml:space="preserve">
+    <value>Jn(x) Bessel işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BesselK" xml:space="preserve">
+    <value>Kn(x) değiştirilmiş Bessel işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BesselY" xml:space="preserve">
+    <value>Yn(x) Bessel işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BesselI" xml:space="preserve">
+    <value>In(x) değiştirilmiş Bessel işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Xirr" xml:space="preserve">
+    <value>Para akışı planı için iç dönüş oranını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Xnpv" xml:space="preserve">
+    <value>Para akışı planı için şu anki net değeri döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PriceMat" xml:space="preserve">
+    <value>Vadesinde faiz ödeyen bir tahvil için 100 TL başına yüz değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.YieldMat" xml:space="preserve">
+    <value>Dönemsel faiz ödeyen bir tahvil için yıllık getiriyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Intrate" xml:space="preserve">
+    <value>Tamamı yatırılan tahvil için faiz oranını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Received" xml:space="preserve">
+    <value>Tamamen yatırılan bir tahvilin vadesindeki getiri miktarını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Disc" xml:space="preserve">
+    <value>Tahvil için indirim oranını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PriceDisc" xml:space="preserve">
+    <value>İndirimli bir tahvil için 100 TL başına yüz değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.YieldDisc" xml:space="preserve">
+    <value>İndirimli bir tahvil için yıllık getiriyi döndürür, örneğin hazine tahvili.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TbillEq" xml:space="preserve">
+    <value>Hazine tahvili için bono eşdeğerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TbillPrice" xml:space="preserve">
+    <value>Hazine tahvili için 100 TL başına yüz değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TbillYield" xml:space="preserve">
+    <value>Hazine tahvili için getiriyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Price" xml:space="preserve">
+    <value>Dönemsel faiz ödeyen bir tahvil için 100 TL başına yüz değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Yield" xml:space="preserve">
+    <value>Dönemsel faiz ödeyen bir tahvil için getiriyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DollarDe" xml:space="preserve">
+    <value>Kesirli olarak gösterilen ücreti onluk düzene çevirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.DollarFr" xml:space="preserve">
+    <value>Onluk düzende gösterilen ücreti kesir şekline çevirir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Nominal" xml:space="preserve">
+    <value>Yıllık nominal faiz oranını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Effect" xml:space="preserve">
+    <value>Etkin bileşik faiz oranını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CumPrinc" xml:space="preserve">
+    <value>İki dönem arasında borca ödenen bileşik anaparayı döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CumIpmt" xml:space="preserve">
+    <value>İki dönem arasında ödenen bileşik faizi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.EDate" xml:space="preserve">
+    <value>Başlangıç tarihinden önceki veya sonraki ay sayısını belirten tarihin seri numarasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.EOMonth" xml:space="preserve">
+    <value>Belirtilen sayıda ay önce veya sonraki ayın son gününü belirten seri numarası döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.YearFrac" xml:space="preserve">
+    <value>Başlangıç ve bitiş tarihleri arasındaki tam gün sayısını gösteren yıl oranını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CoupDaybs" xml:space="preserve">
+    <value>Kupon döneminin başlangıcından düzenleme tarihine kadar olan gün sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CoupDays" xml:space="preserve">
+    <value>Düzenleme tarihini içeren kupon dönemindeki gün sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CoupDaysnc" xml:space="preserve">
+    <value>Düzenleme tarihinden bir sonraki kupon dönemine kadar olan gün sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Coupncd" xml:space="preserve">
+    <value>Düzenleme tarihinden sonraki kupon tarihini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CoupNum" xml:space="preserve">
+    <value>Düzenleme ve vade tarihleri arasında ödenebilir kupon sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Couppcd" xml:space="preserve">
+    <value>Düzenleme tarihinden önceki kupon tarihini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Duration" xml:space="preserve">
+    <value>Dönemsel faiz ödemeli bir tahvil için yıllık süreyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MDuration" xml:space="preserve">
+    <value>100 TL itibari kıymetli bir tahvil için Macauley farklılaştırılmış süresini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.OddLPrice" xml:space="preserve">
+    <value>Tek son dönemli bir tahvil için 100 TL başına yüz değeri ücretini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.OddLYield" xml:space="preserve">
+    <value>Tek son dönemli bir tahvil için getiriyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.OddFPrice" xml:space="preserve">
+    <value>Tek ilk dönemli bir tahvil için 100 TL başına yüz değeri ücretini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.OddFYield" xml:space="preserve">
+    <value>Tek ilk dönemli bir tahvil için getiriyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RandBetween" xml:space="preserve">
+    <value>Belirttiğiniz sayılar arasında rastgele bir sayı döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.WeekNum" xml:space="preserve">
+    <value>Yıl içinde haftanın numarasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Amordegrc" xml:space="preserve">
+    <value>Bir malın her hesap dönemi için doğrusal itiraz eşdağılımını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Amorlinc" xml:space="preserve">
+    <value>Bir malın her hesap dönemi için doğrusal itiraz eşdağılımını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Convert" xml:space="preserve">
+    <value>Sayıyı bir ölçü biriminden bir diğerine dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Accrint" xml:space="preserve">
+    <value>Düzenli faiz ödenen bir hisse senedinin birikmiş faizini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Accrintm" xml:space="preserve">
+    <value>Vadesinde faiz ödeyen bir tahvil için tahakkuk eden vergiyi döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.WorkDay" xml:space="preserve">
+    <value>Belirtilen sayıda işgünü önce veya sonraki bir tarihin seri numarasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NetworkDays" xml:space="preserve">
+    <value>İki tarih arasındaki tüm işgünlerinin sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Gcd" xml:space="preserve">
+    <value>En büyük ortak böleni döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Multinomial" xml:space="preserve">
+    <value>Bir sayı kümesinin çok terimli değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Lcm" xml:space="preserve">
+    <value>En küçük ortak çarpanı döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FvSchedule" xml:space="preserve">
+    <value>Anaparanın, bir seri bileşik faiz uygulandıktan sonra, gelecekteki değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CubeKpiMember" xml:space="preserve">
+    <value>Bir önemli performans göstergesi (KPI) özelliği döndürür ve KPI adını hücrede görüntüler.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CubeSet" xml:space="preserve">
+    <value>Sunucudaki küpe bir küme ifadesi göndererek bir üye veya bölüt kümesi tanımlar; sunucu kümeyi oluşturur ve sonra bu kümeyi Spreadsheet'e döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CubeSetCount" xml:space="preserve">
+    <value>Kümedeki öğelerin sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IfError" xml:space="preserve">
+    <value>İfade hatalı olursa eğer_hatalıysa_değer, hatalı olmazsa ifadenin kendi değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CountIfs" xml:space="preserve">
+    <value>Verili bir koşul veya ölçüt kümesi tarafından belirtilen hücreleri sayar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SumIfs" xml:space="preserve">
+    <value>Verili bir koşul veya ölçüt kümesi tarafından belirtilen hücreleri toplar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.AverageIf" xml:space="preserve">
+    <value>Verili bir koşul veya ölçüt tarafından belirtilen hücrelerin ortalamasını (aritmetik ortalama) bulur.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.AverageIfs" xml:space="preserve">
+    <value>Verili bir koşul veya ölçüt kümesi tarafından belirtilen hücrelerin ortalamasını (aritmetik ortalama) bulur.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Aggregate" xml:space="preserve">
+    <value>Bir liste veya veritabanından bir toplam verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BinomDotDist" xml:space="preserve">
+    <value>Tek terimli binom dağılımı olasılığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BinomDotInv" xml:space="preserve">
+    <value>Kümülatif binom dağılımının ölçüt değerinden küçük veya ona eşit olduğu en küçük değeri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ConfidenceNorm" xml:space="preserve">
+    <value>Popülasyon ortalaması için normal bir dağılım kullanarak güvenilirlik aralığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ConfidenceDotT" xml:space="preserve">
+    <value>Popülasyon ortalaması için bir T-dağılımı kullanarak güvenilirlik aralığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChisqDotTest" xml:space="preserve">
+    <value>Bağımsızlık sınaması sonucunu verir: istatistik için kikare dağılımından alınan değer ve uygun serbestlik derecesi.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FDotTest" xml:space="preserve">
+    <value>Bir F-test sonucu verir; Dizi1 ve Dizi2'nin varyanslarının çok farklı olmadığı iki kuyruklu olasılıktır.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CovarianceP" xml:space="preserve">
+    <value>Popülasyon kovaryansını verir; iki veri kümesindeki her veri noktası çifti için sapmaların çarpımlarının ortalaması.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CovarianceS" xml:space="preserve">
+    <value>Örnek kovaryansı verir; iki veri kümesindeki her veri noktası çifti için sapmaların çarpımlarının ortalaması.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ExponDotDist" xml:space="preserve">
+    <value>Üstel dağılımı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.GammaDotDist" xml:space="preserve">
+    <value>Gama dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.GammaDotInv" xml:space="preserve">
+    <value>Gama kümülatif dağılımının tersini verir: p = GAMA.DAĞ(x,...) ise, GAMA.TERS(p,...) = x.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ModeMult" xml:space="preserve">
+    <value>Bir veri dizisi veya aralığında en sık karşılaşılan veya en çok yinelenen değerleri içeren dikey bir dizi verir. Yatay bir dizi için, =DEVRİK_DÖNÜŞÜM(ENÇOK_OLAN.ÇOK(sayı1,sayı2,...)) kullanın.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ModeSngl" xml:space="preserve">
+    <value>Bir veri dizisi ya da aralığında en sık karşılaşılan ya da en çok yinelenen değeri verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormDist" xml:space="preserve">
+    <value>Belirtilen ortalama ve standart sapma için normal dağılımı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormInv" xml:space="preserve">
+    <value>Belirtilen ortalama ve standart sapma için normal kümülatif dağılımın tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PercentileExc" xml:space="preserve">
+    <value>Aralıktaki değerlerin k. yüzdebirliğini verir; k, 0..1 aralığındadır (bunlar hariç).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PercentileInc" xml:space="preserve">
+    <value>Aralıktaki değerlerin k. yüzdebirliğini verir; k, 0..1 aralığındadır (bunlar dahil).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PercentRankExc" xml:space="preserve">
+    <value>Bir veri kümesindeki değerin derecesini veri kümesinin yüzdesi (0..1, bunlar hariç) olarak verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PercentRankInc" xml:space="preserve">
+    <value>Bir veri kümesindeki değerin derecesini veri kümesinin yüzdesi (0..1, bunlar dahil) olarak verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PoissonDotDist" xml:space="preserve">
+    <value>Poisson dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.QuartileExc" xml:space="preserve">
+    <value>0..1 (bunlar hariç) aralığındaki yüzdebir değerlerini temel alarak veri kümesinin dörttebirliğini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.QuartileInc" xml:space="preserve">
+    <value>0..1 (bunlar dahil) aralığındaki yüzdebir değerlerini temel alarak veri kümesinin dörttebirliğini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RankDotAvg" xml:space="preserve">
+    <value>Bir sayı listesindeki bir sayının derecesini verir: listedeki diğer değerlere göreli olarak büyüklüğü; birden fazla değer aynı dereceye sahipse, ortalama derece döndürülür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RankDotEq" xml:space="preserve">
+    <value>Bir sayı listesindeki bir sayının derecesini verir: listedeki diğer değerlere göreli olarak büyüklüğü; birden fazla değer aynı dereceye sahipse, değer kümesindeki en yüksek derece döndürülür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.StDevDotS" xml:space="preserve">
+    <value>Bir örneğe dayanarak standart sapmayı tahmin eder (örnekteki mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.StDevDotP" xml:space="preserve">
+    <value>Bağımsız değişkenler olarak verilen tüm popülasyonu temel alarak standart sapmayı hesaplar (mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TDotDist" xml:space="preserve">
+    <value>Sol kuyruklu t-dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TDotDistDot2t" xml:space="preserve">
+    <value>İki kuyruklu t-dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TDotDistDotTt" xml:space="preserve">
+    <value>Sağ kuyruklu t-dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TDotInv" xml:space="preserve">
+    <value>T-dağılımının sol kuyruklu tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TDotInvDot2t" xml:space="preserve">
+    <value>T-dağılımının iki kuyruklu tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.VarDotS" xml:space="preserve">
+    <value>Bir örneğe dayanarak varyansı tahmin eder (örnekteki mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.VarDotP" xml:space="preserve">
+    <value>Tüm popülasyonun varyansını hesaplar (popülasyondaki mantıksal değerleri ve metni yoksayar).</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.WeibullDotDist" xml:space="preserve">
+    <value>Weibull dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NetworkDaysIntl" xml:space="preserve">
+    <value>İki tarih arasındaki tam işgünlerinin sayısını özel hafta sonu parametreleriyle verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.WorkDayIntl" xml:space="preserve">
+    <value>Belirtilen sayıda işgünü önce veya sonraki bir tarihin seri numarasını özel hafta sonu parametreleriyle verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsoCeiling" xml:space="preserve">
+    <value>Bir sayıyı, sıfırdan ıraksayarak, en yakın tamsayı veya anlamlı sayı katına yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BetaDist" xml:space="preserve">
+    <value>Beta olasılık dağılımı işlevini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BetaDotInv" xml:space="preserve">
+    <value>Kümülatif beta olasılık yoğunluk işlevinin (BETA.DAĞ) tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChisqDotDist" xml:space="preserve">
+    <value>Kikare dağılımının sol kuyruklu olasılığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChisqDotDistDotRt" xml:space="preserve">
+    <value>Kikare dağılımının sağ kuyruklu olasılığını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChisqDotInv" xml:space="preserve">
+    <value>Kikare dağılımının sol kuyruklu olasılığının tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ChisqDotInvDotRt" xml:space="preserve">
+    <value>Kikare dağılımının sağ kuyruklu olasılığının tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FDotDist" xml:space="preserve">
+    <value>İki veri kümesi için (sol kuyruklu) F olasılık dağılımını (basıklık derecesi) verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FDotDistDotRt" xml:space="preserve">
+    <value>İki veri kümesi için (sağ kuyruklu) F olasılık dağılımını (basıklık derecesi) verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FDotInv" xml:space="preserve">
+    <value>(Sol kuyruklu) F olasılık dağılımının tersini verir: p = F.DAĞ(x,...) ise, F.TERS(p,...) = x.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FDotinvDotRt" xml:space="preserve">
+    <value>(Sağ kuyruklu) F olasılık dağılımının tersini verir: p = F.DAĞ.SAĞK(x,...) ise, F.TERS.SAĞK(p,...) = x.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.HypgeomDotDist" xml:space="preserve">
+    <value>Hipergeometrik dağılımı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.LogNormDist" xml:space="preserve">
+    <value>ln(x)'in normal olarak Ortalama ve Standart_sapma parametreleriyle dağıldığı durumlarda x'in lognormal dağılımını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.LogNormInv" xml:space="preserve">
+    <value>ln(x)'in Ortalama ve Standart_sapma parametreleriyle normal dağıldığı durumlarda x'in kümülatif lognormal dağılım işlevinin tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NegbinomDotDist" xml:space="preserve">
+    <value>Bir başarının negatif binom dağılımını, yani Başarı_sayısı kadar başarıdan önce Başarısızlık_s kadar başarısızlık olması olasılığını Başarı_olasılığı kadar olasılıkla verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormSDist" xml:space="preserve">
+    <value>Standart normal dağılımı (ortalaması sıfır, standart sapması bir) verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NormSInv" xml:space="preserve">
+    <value>Standart normal kümülatif dağılımın (ortalaması sıfır, standart sapması bir) tersini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.TDotTest" xml:space="preserve">
+    <value>Bir t-Test için olasılığı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ZDotTest" xml:space="preserve">
+    <value>Bir z-test'in tek kuyruklu P-değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ErfPrecise" xml:space="preserve">
+    <value>Hata işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ErfcPrecise" xml:space="preserve">
+    <value>Tamamlayıcı hata işlevini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.GammaLnPrecise" xml:space="preserve">
+    <value>Gama işlevinin doğal logaritmasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CeilingDotPrecise" xml:space="preserve">
+    <value>Bir sayıyı, sıfırdan ıraksayarak, en yakın tamsayı veya anlamlı sayı katına yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FloorDotPrecise" xml:space="preserve">
+    <value>Bir sayıyı, en yakın tamsayıya veya anlamlı en yakın katına, aşağı doğru yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ACot" xml:space="preserve">
+    <value>Bir sayının arkkotanjantını 0 ile Pi aralığındaki radyanlar cinsinden verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ACotH" xml:space="preserve">
+    <value>Bir sayının ters hiperbolik kotanjant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Cot" xml:space="preserve">
+    <value>Bir açının kotanjant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CotH" xml:space="preserve">
+    <value>Bir sayının hiperbolik kotanjant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Csc" xml:space="preserve">
+    <value>Bir açının kosekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CscH" xml:space="preserve">
+    <value>Bir açının hiperbolik kosekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sec" xml:space="preserve">
+    <value>Bir açının sekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SecH" xml:space="preserve">
+    <value>Bir açının hiperbolik sekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImTan" xml:space="preserve">
+    <value>Bir karmaşık sayının tanjant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImCot" xml:space="preserve">
+    <value>Bir karmaşık sayının kotanjant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImCsc" xml:space="preserve">
+    <value>Bir karmaşık sayının kosekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImCscH" xml:space="preserve">
+    <value>Bir karmaşık sayının hiperbolik kosekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImSec" xml:space="preserve">
+    <value>Bir karmaşık sayının sekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImSecH" xml:space="preserve">
+    <value>Bir karmaşık sayının hiperbolik sekant değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BitAnd" xml:space="preserve">
+    <value>İki sayının bit tabanlı bir 'Ve' değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BitOr" xml:space="preserve">
+    <value>İki sayının bit tabanlı bir 'Veya' değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BitXor" xml:space="preserve">
+    <value>İki sayının bit tabanlı bir 'Özel Veya' değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BitLShift" xml:space="preserve">
+    <value>shift_amount bitleri tarafından sola kaydırılan bir sayıyı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BitRShift" xml:space="preserve">
+    <value>shift_amount bitleri tarafından sağa kaydırılan bir sayıyı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Permutationa" xml:space="preserve">
+    <value>Tüm nesnelerden seçilebilecek olan verilen sayıda (yinelemelerle) nesne için permütasyon sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CombinA" xml:space="preserve">
+    <value>Verilen sayıda öğe için yinelemelerle birleşimlerin sayısını verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.XOr" xml:space="preserve">
+    <value>Tüm bağımsız değişkenlerden mantıksal bir 'Özel Veya' değişkenini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.PDuration" xml:space="preserve">
+    <value>Yatırım tarafından belirtilen bir değere ulaşmak için gereken dönem sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Base" xml:space="preserve">
+    <value>Bir sayıyı verilen sayı tabanı (temel) ile bir metin gösterimine dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Decimal" xml:space="preserve">
+    <value>Verilen temeldeki bir sayının metin gösterimini ondalık bir sayıya dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Days" xml:space="preserve">
+    <value>İki tarih arasındaki gün sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.BinomDistRange" xml:space="preserve">
+    <value>Binom dağılımını kullanarak bir deneme sonucunun başarı olasılığını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Gamma" xml:space="preserve">
+    <value>Gama işlevi değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.SkewP" xml:space="preserve">
+    <value>Popülasyona bağlı olarak dağılımın eğriliğini verir: bir dağılımın ortalaması etrafındaki asimetri derecesini belirtir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Phi" xml:space="preserve">
+    <value>Standart normal dağılımın yoğunluk fonksiyonunun değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.RRI" xml:space="preserve">
+    <value>Yatırımın büyümesi için eşdeğer bir faiz oranı verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Unicode" xml:space="preserve">
+    <value>Metnin ilk karakterine karşılık gelen sayıyı (kod noktası) döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.MUnit" xml:space="preserve">
+    <value>Belirtilen boyut için birim matris döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Arabic" xml:space="preserve">
+    <value>Bir Roma rakamını Arap rakamına dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ISOWeekNum" xml:space="preserve">
+    <value>Verilen tarih için yılın ISO hafta numarası sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.NumberValue" xml:space="preserve">
+    <value>Metni yerel bağımsız durumdaki sayıya dönüştürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sheet" xml:space="preserve">
+    <value>Başvurulan sayfanın sayfa numarasını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.Sheets" xml:space="preserve">
+    <value>Bir başvurudaki sayfa sayısını döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FormulaText" xml:space="preserve">
+    <value>Formülü bir dize olarak verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IsFormula" xml:space="preserve">
+    <value>Başvurunun formül içeren bir hücreye yapılıp yapılmadığını denetler ve DOĞRU ya da YANLIŞ değerini döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.IfNA" xml:space="preserve">
+    <value>İfade #N/A olarak çözümlenirse belirttiğiniz değeri döndürür, aksi durumda ifadenin sonucunu döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.CeilingMath" xml:space="preserve">
+    <value>Bir sayıyı, yukarı doğru en yakın tamsayı veya anlamlı sayı katına yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FloorMath" xml:space="preserve">
+    <value>Bir sayıyı, aşağı doğru en yakın tamsayı veya anlamlı sayı katına yuvarlar.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImSinH" xml:space="preserve">
+    <value>Bir karmaşık sayının hiperbolik sinüs değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.ImCosH" xml:space="preserve">
+    <value>Bir karmaşık sayının hiperbolik kosinüs değerini verir.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FunctionFilterXML" xml:space="preserve">
+    <value>Belirtilen XPath öğesini kullanarak XML içeriğinden belirli verileri döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.FunctionWebService" xml:space="preserve">
+    <value>Bir web hizmetinden veri döndürür.</value>
+  </data>
+  <data name="XtraSpreadsheetFunctionDescriptionStringId.EncodeURL" xml:space="preserve">
+    <value>Bir URL kodlu dize döndürür.</value>
+  </data>
+</root>

@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblSourceName.AccessibleName" xml:space="preserve">
+    <value>Source Name</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="lblSourceName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lblSourceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="lblSourceName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSourceName.Text" xml:space="preserve">
+    <value>Source Name:</value>
+  </data>
+  <data name="&gt;&gt;lblSourceName.Name" xml:space="preserve">
+    <value>lblSourceName</value>
+  </data>
+  <data name="&gt;&gt;lblSourceName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSourceName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSourceName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblSourceNameValue.AccessibleName" xml:space="preserve">
+    <value>Source Name Value</value>
+  </data>
+  <data name="lblSourceNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lblSourceNameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblSourceNameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblSourceNameValue.Name" xml:space="preserve">
+    <value>lblSourceNameValue</value>
+  </data>
+  <data name="&gt;&gt;lblSourceNameValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSourceNameValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSourceNameValue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblCustomName.AccessibleName" xml:space="preserve">
+    <value>Custom Name</value>
+  </data>
+  <data name="lblCustomName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 35</value>
+  </data>
+  <data name="lblCustomName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblCustomName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblCustomName.Text" xml:space="preserve">
+    <value>Custom Na&amp;me:</value>
+  </data>
+  <data name="&gt;&gt;lblCustomName.Name" xml:space="preserve">
+    <value>lblCustomName</value>
+  </data>
+  <data name="&gt;&gt;lblCustomName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblCustomName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCustomName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="edtCustomName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="edtCustomName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 32</value>
+  </data>
+  <data name="edtCustomName.Properties.AccessibleName" xml:space="preserve">
+    <value>Custom Name</value>
+  </data>
+  <data name="edtCustomName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 20</value>
+  </data>
+  <data name="edtCustomName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;edtCustomName.Name" xml:space="preserve">
+    <value>edtCustomName</value>
+  </data>
+  <data name="&gt;&gt;edtCustomName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;edtCustomName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;edtCustomName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 59</value>
+  </data>
+  <data name="xtraTabSubtotalsAndFilters.AccessibleName" xml:space="preserve">
+    <value>Subtotals &amp; Filters</value>
+  </data>
+  <data name="chkCustomSubtotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 92</value>
+  </data>
+  <data name="chkCustomSubtotal.Properties.AccessibleName" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="chkCustomSubtotal.Properties.Caption" xml:space="preserve">
+    <value>&amp;Custom</value>
+  </data>
+  <data name="chkCustomSubtotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 19</value>
+  </data>
+  <data name="chkCustomSubtotal.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chkCustomSubtotal.Name" xml:space="preserve">
+    <value>chkCustomSubtotal</value>
+  </data>
+  <data name="&gt;&gt;chkCustomSubtotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkCustomSubtotal.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;chkCustomSubtotal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkNoneSubtotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 67</value>
+  </data>
+  <data name="chkNoneSubtotal.Properties.AccessibleName" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="chkNoneSubtotal.Properties.Caption" xml:space="preserve">
+    <value>Non&amp;e</value>
+  </data>
+  <data name="chkNoneSubtotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 19</value>
+  </data>
+  <data name="chkNoneSubtotal.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkNoneSubtotal.Name" xml:space="preserve">
+    <value>chkNoneSubtotal</value>
+  </data>
+  <data name="&gt;&gt;chkNoneSubtotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkNoneSubtotal.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;chkNoneSubtotal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkAutomaticSubtotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 42</value>
+  </data>
+  <data name="chkAutomaticSubtotal.Properties.AccessibleName" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="chkAutomaticSubtotal.Properties.Caption" xml:space="preserve">
+    <value>&amp;Automatic</value>
+  </data>
+  <data name="chkAutomaticSubtotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="chkAutomaticSubtotal.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chkAutomaticSubtotal.Name" xml:space="preserve">
+    <value>chkAutomaticSubtotal</value>
+  </data>
+  <data name="&gt;&gt;chkAutomaticSubtotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkAutomaticSubtotal.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;chkAutomaticSubtotal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkIncludeNewItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chkIncludeNewItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 267</value>
+  </data>
+  <data name="chkIncludeNewItems.Properties.Caption" xml:space="preserve">
+    <value>&amp;Include new items in manual filter</value>
+  </data>
+  <data name="chkIncludeNewItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="chkIncludeNewItems.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeNewItems.Name" xml:space="preserve">
+    <value>chkIncludeNewItems</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeNewItems.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeNewItems.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeNewItems.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSeperator2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lblSeperator2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 256</value>
+  </data>
+  <data name="lblSeperator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 5</value>
+  </data>
+  <data name="lblSeperator2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator2.Name" xml:space="preserve">
+    <value>lblSeperator2</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator2.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFilter.AccessibleName" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="lblFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblFilter.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 237</value>
+  </data>
+  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="lblFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
+    <value>lblFilter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbFunctions.AccessibleName" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="lbFunctions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="lbFunctions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 136</value>
+  </data>
+  <data name="lbFunctions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 95</value>
+  </data>
+  <data name="lbFunctions.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbFunctions.Name" xml:space="preserve">
+    <value>lbFunctions</value>
+  </data>
+  <data name="&gt;&gt;lbFunctions.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lbFunctions.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;lbFunctions.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblSelectFunctions.AccessibleName" xml:space="preserve">
+    <value>Select one or more function </value>
+  </data>
+  <data name="lblSelectFunctions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 117</value>
+  </data>
+  <data name="lblSelectFunctions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="lblSelectFunctions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblSelectFunctions.Text" xml:space="preserve">
+    <value>Select one or more functions:</value>
+  </data>
+  <data name="&gt;&gt;lblSelectFunctions.Name" xml:space="preserve">
+    <value>lblSelectFunctions</value>
+  </data>
+  <data name="&gt;&gt;lblSelectFunctions.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSelectFunctions.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;lblSelectFunctions.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblSeparator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 31</value>
+  </data>
+  <data name="lblSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 5</value>
+  </data>
+  <data name="lblSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Name" xml:space="preserve">
+    <value>lblSeparator</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblSubtotals.AccessibleName" xml:space="preserve">
+    <value>Subtotals</value>
+  </data>
+  <data name="lblSubtotals.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblSubtotals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lblSubtotals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblSubtotals.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSubtotals.Text" xml:space="preserve">
+    <value>Subtotals</value>
+  </data>
+  <data name="&gt;&gt;lblSubtotals.Name" xml:space="preserve">
+    <value>lblSubtotals</value>
+  </data>
+  <data name="&gt;&gt;lblSubtotals.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSubtotals.Parent" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;lblSubtotals.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="xtraTabSubtotalsAndFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 298</value>
+  </data>
+  <data name="xtraTabSubtotalsAndFilters.Text" xml:space="preserve">
+    <value>Subtotals &amp;&amp; Filters</value>
+  </data>
+  <data name="&gt;&gt;xtraTabSubtotalsAndFilters.Name" xml:space="preserve">
+    <value>xtraTabSubtotalsAndFilters</value>
+  </data>
+  <data name="&gt;&gt;xtraTabSubtotalsAndFilters.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;xtraTabSubtotalsAndFilters.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;xtraTabSubtotalsAndFilters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 326</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="xtraTabLayoutAndPrint.AccessibleName" xml:space="preserve">
+    <value>Layout &amp; Print</value>
+  </data>
+  <data name="chkInsertPageBreak.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="chkInsertPageBreak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 268</value>
+  </data>
+  <data name="chkInsertPageBreak.Properties.AccessibleName" xml:space="preserve">
+    <value>Insert page break after each item</value>
+  </data>
+  <data name="chkInsertPageBreak.Properties.Caption" xml:space="preserve">
+    <value>Insert &amp;page break after each item</value>
+  </data>
+  <data name="chkInsertPageBreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 19</value>
+  </data>
+  <data name="chkInsertPageBreak.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;chkInsertPageBreak.Name" xml:space="preserve">
+    <value>chkInsertPageBreak</value>
+  </data>
+  <data name="&gt;&gt;chkInsertPageBreak.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkInsertPageBreak.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkInsertPageBreak.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSeparator4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lblSeparator4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 256</value>
+  </data>
+  <data name="lblSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 5</value>
+  </data>
+  <data name="lblSeparator4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator4.Name" xml:space="preserve">
+    <value>lblSeparator4</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator4.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPrint.AccessibleName" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="lblPrint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblPrint.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 237</value>
+  </data>
+  <data name="lblPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;lblPrint.Name" xml:space="preserve">
+    <value>lblPrint</value>
+  </data>
+  <data name="&gt;&gt;lblPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblPrint.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;lblPrint.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkShowItemWithNoData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 198</value>
+  </data>
+  <data name="chkShowItemWithNoData.Properties.AccessibleName" xml:space="preserve">
+    <value>Show items with no data</value>
+  </data>
+  <data name="chkShowItemWithNoData.Properties.Caption" xml:space="preserve">
+    <value>Sho&amp;w items with no data</value>
+  </data>
+  <data name="chkShowItemWithNoData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 19</value>
+  </data>
+  <data name="chkShowItemWithNoData.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemWithNoData.Name" xml:space="preserve">
+    <value>chkShowItemWithNoData</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemWithNoData.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemWithNoData.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemWithNoData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkInsertBlankLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 173</value>
+  </data>
+  <data name="chkInsertBlankLine.Properties.AccessibleName" xml:space="preserve">
+    <value>Insert blank line after each item label</value>
+  </data>
+  <data name="chkInsertBlankLine.Properties.Caption" xml:space="preserve">
+    <value>Insert &amp;blank line after each item label</value>
+  </data>
+  <data name="chkInsertBlankLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 19</value>
+  </data>
+  <data name="chkInsertBlankLine.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chkInsertBlankLine.Name" xml:space="preserve">
+    <value>chkInsertBlankLine</value>
+  </data>
+  <data name="&gt;&gt;chkInsertBlankLine.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkInsertBlankLine.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkInsertBlankLine.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkRepeatItemLabels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 148</value>
+  </data>
+  <data name="chkRepeatItemLabels.Properties.AccessibleName" xml:space="preserve">
+    <value>Repeat item labels</value>
+  </data>
+  <data name="chkRepeatItemLabels.Properties.Caption" xml:space="preserve">
+    <value>&amp;Repeat item labels</value>
+  </data>
+  <data name="chkRepeatItemLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 19</value>
+  </data>
+  <data name="chkRepeatItemLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatItemLabels.Name" xml:space="preserve">
+    <value>chkRepeatItemLabels</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatItemLabels.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatItemLabels.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatItemLabels.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkShowItemLabelsTabularForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 117</value>
+  </data>
+  <data name="chkShowItemLabelsTabularForm.Properties.AccessibleName" xml:space="preserve">
+    <value>Show item labels in tabular form</value>
+  </data>
+  <data name="chkShowItemLabelsTabularForm.Properties.Caption" xml:space="preserve">
+    <value>Show &amp;item labels in tabular form</value>
+  </data>
+  <data name="chkShowItemLabelsTabularForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 19</value>
+  </data>
+  <data name="chkShowItemLabelsTabularForm.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsTabularForm.Name" xml:space="preserve">
+    <value>chkShowItemLabelsTabularForm</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsTabularForm.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsTabularForm.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsTabularForm.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkSubtotalTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 92</value>
+  </data>
+  <data name="chkSubtotalTop.Properties.AccessibleName" xml:space="preserve">
+    <value>Display subtotals at the top of each group</value>
+  </data>
+  <data name="chkSubtotalTop.Properties.Caption" xml:space="preserve">
+    <value>Display sub&amp;totals at the top of each group</value>
+  </data>
+  <data name="chkSubtotalTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 19</value>
+  </data>
+  <data name="chkSubtotalTop.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkSubtotalTop.Name" xml:space="preserve">
+    <value>chkSubtotalTop</value>
+  </data>
+  <data name="&gt;&gt;chkSubtotalTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkSubtotalTop.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkSubtotalTop.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkCompactForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 67</value>
+  </data>
+  <data name="chkCompactForm.Properties.AccessibleName" xml:space="preserve">
+    <value>Display labels from the next field in the same column (compact form)</value>
+  </data>
+  <data name="chkCompactForm.Properties.Caption" xml:space="preserve">
+    <value>&amp;Display labels from the next field in the same column (compact form)</value>
+  </data>
+  <data name="chkCompactForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 19</value>
+  </data>
+  <data name="chkCompactForm.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chkCompactForm.Name" xml:space="preserve">
+    <value>chkCompactForm</value>
+  </data>
+  <data name="&gt;&gt;chkCompactForm.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkCompactForm.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkCompactForm.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblSeparator3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblSeparator3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 31</value>
+  </data>
+  <data name="lblSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 5</value>
+  </data>
+  <data name="lblSeparator3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator3.Name" xml:space="preserve">
+    <value>lblSeparator3</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator3.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblLayout.AccessibleName" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="lblLayout.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lblLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblLayout.Text" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="&gt;&gt;lblLayout.Name" xml:space="preserve">
+    <value>lblLayout</value>
+  </data>
+  <data name="&gt;&gt;lblLayout.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;lblLayout.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;lblLayout.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chkShowItemLabelsOutlineForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 42</value>
+  </data>
+  <data name="chkShowItemLabelsOutlineForm.Properties.AccessibleName" xml:space="preserve">
+    <value>Show item labels in outline form</value>
+  </data>
+  <data name="chkShowItemLabelsOutlineForm.Properties.Caption" xml:space="preserve">
+    <value>&amp;Show item labels in outline form</value>
+  </data>
+  <data name="chkShowItemLabelsOutlineForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 19</value>
+  </data>
+  <data name="chkShowItemLabelsOutlineForm.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsOutlineForm.Name" xml:space="preserve">
+    <value>chkShowItemLabelsOutlineForm</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsOutlineForm.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsOutlineForm.Parent" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;chkShowItemLabelsOutlineForm.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="xtraTabLayoutAndPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 298</value>
+  </data>
+  <data name="xtraTabLayoutAndPrint.Text" xml:space="preserve">
+    <value>Layout &amp;&amp; Print</value>
+  </data>
+  <data name="&gt;&gt;xtraTabLayoutAndPrint.Name" xml:space="preserve">
+    <value>xtraTabLayoutAndPrint</value>
+  </data>
+  <data name="&gt;&gt;xtraTabLayoutAndPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;xtraTabLayoutAndPrint.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;xtraTabLayoutAndPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOk.AccessibleName" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 391</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 391</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnNumberFormat.AccessibleName" xml:space="preserve">
+    <value>Number Format</value>
+  </data>
+  <data name="btnNumberFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnNumberFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 391</value>
+  </data>
+  <data name="btnNumberFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="btnNumberFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnNumberFormat.Text" xml:space="preserve">
+    <value>&amp;Number Format</value>
+  </data>
+  <data name="&gt;&gt;btnNumberFormat.Name" xml:space="preserve">
+    <value>btnNumberFormat</value>
+  </data>
+  <data name="&gt;&gt;btnNumberFormat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.1, Culture=neutral</value>
+  </data>
+  <data name="&gt;&gt;btnNumberFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNumberFormat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>414, 426</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>430, 464</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Field Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FieldSettingsPivotTableForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.1, Culture=neutral</value>
+  </data>
+</root>

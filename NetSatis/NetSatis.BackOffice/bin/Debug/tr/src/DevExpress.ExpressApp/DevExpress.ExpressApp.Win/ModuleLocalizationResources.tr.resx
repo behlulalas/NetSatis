@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Non-calculated\ActionDesign\Actions\Close\Caption" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.XtraBars.Docking.DockVisibility\Visible\Value" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.XtraBars.Docking.DockVisibility\AutoHide\Value" xml:space="preserve">
+    <value>Otomatik Gizle</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Exit\Caption" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="Non-calculated\Localization\Ribbon\HomePage\Value" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Decimal\DefaultEditMask" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="Non-calculated\Localization\Ribbon\ActionsPageGroup\Value" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.XtraBars.Docking.DockVisibility\Hidden\Value" xml:space="preserve">
+    <value>Gizli</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Print\Caption" xml:space="preserve">
+    <value>Yazdır...</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\OpenObject\Caption" xml:space="preserve">
+    <value>Açık nesne</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\AllFiles\Value" xml:space="preserve">
+    <value>Tüm dosyalar</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\BmpFiles\Value" xml:space="preserve">
+    <value>BMP dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\CsvFiles\Value" xml:space="preserve">
+    <value>CSV dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\EmfFiles\Value" xml:space="preserve">
+    <value>EMF dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\GifFiles\Value" xml:space="preserve">
+    <value>GIF dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\HtmlFiles\Value" xml:space="preserve">
+    <value>HTML dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\JpegFiles\Value" xml:space="preserve">
+    <value>JPEG dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\MhtFiles\Value" xml:space="preserve">
+    <value>MHT dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\PdfFiles\Value" xml:space="preserve">
+    <value>PDF dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\PngFiles\Value" xml:space="preserve">
+    <value>PNG dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\RtfFiles\Value" xml:space="preserve">
+    <value>RTF dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\TextFiles\Value" xml:space="preserve">
+    <value>Metin dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\TiffFiles\Value" xml:space="preserve">
+    <value>TIFF dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\WmfFiles\Value" xml:space="preserve">
+    <value>WMF dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\XlsFiles\Value" xml:space="preserve">
+    <value>Xls dosyaları</value>
+  </data>
+  <data name="Non-calculated\Localization\OpenSaveDialogFilters\XlsxFiles\Value" xml:space="preserve">
+    <value>Xlsx dosyaları</value>
+  </data>
+  <data name="ActionDesign\Actions\Close\ShortCaption" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ActionDesign\Actions\Close\ToolTip" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ActionDesign\Actions\Exit\ShortCaption" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ActionDesign\Actions\Exit\ToolTip" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Blue\Caption" xml:space="preserve">
+    <value>Mavi</value>
+  </data>
+  <data name="ActionDesign\Actions\PageSetup\ToolTip" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="ActionDesign\Actions\PrintPreview\ToolTip" xml:space="preserve">
+    <value>Baskı Önizleme</value>
+  </data>
+  <data name="ActionDesign\Actions\Print\ShortCaption" xml:space="preserve">
+    <value>Yazdır...</value>
+  </data>
+  <data name="ActionDesign\Actions\OpenObject\ShortCaption" xml:space="preserve">
+    <value>Açık nesne</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Flat\Caption" xml:space="preserve">
+    <value>Düz</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Office2003\Caption" xml:space="preserve">
+    <value>Office2003</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Office 2013\Caption" xml:space="preserve">
+    <value>Office 2013</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\The Bezier\Caption" xml:space="preserve">
+    <value>Bezier</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\VS2010\Caption" xml:space="preserve">
+    <value>VS2010</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Windows Theme\Caption" xml:space="preserve">
+    <value>Windows Tema</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Black\Caption" xml:space="preserve">
+    <value>Siyah</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Caramel\Caption" xml:space="preserve">
+    <value>Karamel</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Coffee\Caption" xml:space="preserve">
+    <value>Kahve</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Foggy\Caption" xml:space="preserve">
+    <value>Sisli</value>
+  </data>
+  <data name="ActionDesign\Actions\CopyCellValue\ShortCaption" xml:space="preserve">
+    <value>Hücre değeri kopyalayın</value>
+  </data>
+  <data name="ActionDesign\Actions\EditModel\ShortCaption" xml:space="preserve">
+    <value>Model düzenle</value>
+  </data>
+  <data name="ActionDesign\Actions\EditModel\ToolTip" xml:space="preserve">
+    <value>Model düzenle</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ChooseSkin\Caption" xml:space="preserve">
+    <value>Dış görünüm</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\CopyCellValue\Caption" xml:space="preserve">
+    <value>Hücre değeri kopyalayın</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Diagnostic Info.EasyTest Control\Caption" xml:space="preserve">
+    <value>Tespit Info.EasyTest denetimi</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\UltraFlat\Caption" xml:space="preserve">
+    <value>UltraFlat</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ShortCaption" xml:space="preserve">
+    <value>Dış görünüm</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ToolTip" xml:space="preserve">
+    <value>Dış görünüm</value>
+  </data>
+  <data name="Non-calculated\Localization\Texts\Aggregates\Value" xml:space="preserve">
+    <value>Toplama işlemleri</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.DateTime\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.DateTime\DefaultEditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Decimal\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:C}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Double\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0: #, ###, ## 0. ###}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Double\DefaultEditMask" xml:space="preserve">
+    <value>#, ###, ## 0. ###</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int16\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int16\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int32\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int32\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int64\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int64\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Single\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0: #, ###, ## 0. ###}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Single\DefaultEditMask" xml:space="preserve">
+    <value>#, ###, ## 0. ###</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt16\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt16\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt32\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt32\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt64\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt64\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\Localization\Confirmations\ConfirmForcedCloseWindow\Value" xml:space="preserve">
+    <value>Bu pencereyi kapatmak bir hata neden olur. Pencere yine de kapatmak istiyor musunuz? \r\nWarning: "Evet"'i tıklatırsanız, tüm değişiklikler kaybolacak.</value>
+  </data>
+</root>

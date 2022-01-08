@@ -1,0 +1,1899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChartDesignerStringIDs.AreaFullStackedSeries2D" xml:space="preserve">
+    <value>Tam yığılmış serisi 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AreaFullStackedSeries3D" xml:space="preserve">
+    <value>Tam yığılmış alan 3D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AreaSeries2D" xml:space="preserve">
+    <value>Alan 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AreaSeries3D" xml:space="preserve">
+    <value>Alan 3D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AreaStackedSeries2D" xml:space="preserve">
+    <value>Serisi 2B yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AreaStackedSeries3D" xml:space="preserve">
+    <value>Alan 3B Yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AreaStepSeries2D" xml:space="preserve">
+    <value>Adım alan 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisCategoryTitle" xml:space="preserve">
+    <value>Eksen seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AppearanceGroup" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisAlignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_BottomCaption" xml:space="preserve">
+    <value>Altta göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_BottomDescription" xml:space="preserve">
+    <value>Alt diyagramın ekseni göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_CircularAxisYVisibleCaption" xml:space="preserve">
+    <value>Ekseni göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_CircularAxisYVisibleDescription" xml:space="preserve">
+    <value>Y ekseni göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_LeftCaption" xml:space="preserve">
+    <value>Sol tarafta göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_LeftDescription" xml:space="preserve">
+    <value>Diyagram eksenini sol tarafta göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_RightCaption" xml:space="preserve">
+    <value>Sağ tarafta göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_RightDescription" xml:space="preserve">
+    <value>Diyagram eksenini sağ tarafta göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_TopCaption" xml:space="preserve">
+    <value>Üstte göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKind_TopDescription" xml:space="preserve">
+    <value>Üst kısmında bir diyagram ekseni göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKindNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisKindNoneDescription" xml:space="preserve">
+    <value>Eksen görüntüleme.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisLabelNoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisLabelNoneDescription" xml:space="preserve">
+    <value>Eksen etiketlerini kapat.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_AxisReverse" xml:space="preserve">
+    <value>Ters çevir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_CircularXLabelOrientation_NormalCaption" xml:space="preserve">
+    <value>Etiketlerini göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_CircularXLabelOrientation_NormalDescription" xml:space="preserve">
+    <value>Eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_CircularYLabelOrientation_NormalCaption" xml:space="preserve">
+    <value>Etiketleri Göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_CircularYLabelOrientation_NormalDescription" xml:space="preserve">
+    <value>Eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_ElementsGroup" xml:space="preserve">
+    <value>Öğeler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_GeneralGroup" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_GridlinesStaticText" xml:space="preserve">
+    <value>Kılavuz çizgileri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_Interlaced" xml:space="preserve">
+    <value>Titreşimli</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_LabelsOrientation" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_MajorVisible" xml:space="preserve">
+    <value>Büyük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_MinorVisible" xml:space="preserve">
+    <value>Küçük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_TitleContent" xml:space="preserve">
+    <value>Metin:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_TitleGroup" xml:space="preserve">
+    <value>Eksen başlığı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_TitlePosition" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_TitlePosition_NoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_TitlePosition_NoneDescription" xml:space="preserve">
+    <value>Eksen başlığını kapat.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_TitleVisibility" xml:space="preserve">
+    <value>Başlık görünürlüğü</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_NormalCaption" xml:space="preserve">
+    <value>Etiketlerini göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_NormalDescription" xml:space="preserve">
+    <value>Eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_Rotated45Caption" xml:space="preserve">
+    <value>45 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_Rotated45Description" xml:space="preserve">
+    <value>45 Derece döndürülmüş eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_Rotated90Caption" xml:space="preserve">
+    <value>90 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_Rotated90Description" xml:space="preserve">
+    <value>90 Derece döndürülmüş eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_RotatedMinus45Caption" xml:space="preserve">
+    <value>-45 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_RotatedMinus45Description" xml:space="preserve">
+    <value>-45 Derece döndürülmüş eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_RotatedMinus90Caption" xml:space="preserve">
+    <value>90 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_RotatedMinus90Description" xml:space="preserve">
+    <value>90 Derece döndürülmüş eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_StaggeredCaption" xml:space="preserve">
+    <value>Sendeleyerek</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XLabelOrientation_StaggeredDescription" xml:space="preserve">
+    <value>Damalı sırayla eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XTitlePosition_BottomCaption" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XTitlePosition_BottomDescription" xml:space="preserve">
+    <value>Alt kısmında bir eksen başlığını göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XTitlePosition_CenterCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XTitlePosition_CenterDescription" xml:space="preserve">
+    <value>Merkezi bir eksen başlığını göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XTitlePosition_LeftCaption" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XTitlePosition_LeftDescription" xml:space="preserve">
+    <value>Sol eksen başlığını göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_XTitlePosition_RightCaption" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YLabelOrientation_DescriptionCaption" xml:space="preserve">
+    <value>Eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YLabelOrientation_NormalCaption" xml:space="preserve">
+    <value>Etiketleri Göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YLabelOrientation_Rotated90Caption" xml:space="preserve">
+    <value>90 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YLabelOrientation_Rotated90Description" xml:space="preserve">
+    <value>90 Derece döndürülmüş eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YLabelOrientation_RotatedMinus90Caption" xml:space="preserve">
+    <value>90 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YLabelOrientation_RotatedMinus90Description" xml:space="preserve">
+    <value>90 Derece döndürülmüş eksen etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YTitlePosition_CenterCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YTitlePosition_CenterDescription" xml:space="preserve">
+    <value>Merkezi bir eksen başlığını göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YTitlePosition_TopCaption" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_YTitlePosition_TopDescription" xml:space="preserve">
+    <value>Üst kısmında bir eksen başlığını göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisPageCategoryTitle" xml:space="preserve">
+    <value>Eksen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarFullStackedSeries2D" xml:space="preserve">
+    <value>Tam yığılmış çubuk 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarSideBySideFullStackedSeries2D" xml:space="preserve">
+    <value>Yan yana tam yığılmış çubuk 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarSideBySideSeries2D" xml:space="preserve">
+    <value>Yan yana Bar 2B</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarSideBySideSeries3D" xml:space="preserve">
+    <value>Yan yana Bar 3D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarSideBySideStackedSeries2D" xml:space="preserve">
+    <value>Yan yana 2B yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarStackedSeries2D" xml:space="preserve">
+    <value>Bar 2B yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BubbleSeries2D" xml:space="preserve">
+    <value>Kabarcık 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BubbleSeries3D" xml:space="preserve">
+    <value>Kabarcık 3D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CandleStickSeries2D" xml:space="preserve">
+    <value>Mum çubuk 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartDesignerWindowTitle" xml:space="preserve">
+    <value>Grafik Tasarımcısı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartStructureDockPanelTitle" xml:space="preserve">
+    <value>Grafik yapısı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartTitleOptions_General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartTitleOptions_Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartTitleOptions_SelectedTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartTitleOptions_Text" xml:space="preserve">
+    <value>Metin:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartTitleOptionsRibbonCategoryTitle" xml:space="preserve">
+    <value>Başlık seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_Area" xml:space="preserve">
+    <value>Alan serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_BarSeries" xml:space="preserve">
+    <value>Bar serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_Financial" xml:space="preserve">
+    <value>Finansal seri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_LineSeries" xml:space="preserve">
+    <value>Çizgi dizi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_Pie" xml:space="preserve">
+    <value>Pasta serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_PointBubble" xml:space="preserve">
+    <value>Noktası ve kabarcık serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_Polar" xml:space="preserve">
+    <value>Polar serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_Radar" xml:space="preserve">
+    <value>Radar serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartViewGallery_RangeSeries" xml:space="preserve">
+    <value>Aralık serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeConstantLineValueCaption" xml:space="preserve">
+    <value>Hatalı değer biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeConstantLineValueMessage" xml:space="preserve">
+    <value>Girilen değer yanlış tipe sahip. Tarih/Saat olmalıdır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeStripMaxLimitCaption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeStripMaxLimitMessage" xml:space="preserve">
+    <value>Girilen değer yanlış türüne sahip. Tarih/saat olmalıdır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeStripMinLimitCaption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeStripMinLimitMessage" xml:space="preserve">
+    <value>Girilen değer yanlış türüne sahip. Tarih/saat olmalıdır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalStripMaxLimitCaption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalStripMaxLimitMessage" xml:space="preserve">
+    <value>Girilen değer yanlış türe sahip. Sayısal olmalıdır.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalStripMinLimitCaption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalStripMinLimitMessage" xml:space="preserve">
+    <value>Girilen değer yanlış türe sahip. Sayısal olmalıdır.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericConstantLineValueCaption" xml:space="preserve">
+    <value>Hatalı değer biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericConstantLineValueMessage" xml:space="preserve">
+    <value>Girilen değeri yanlış tipe sahip. Sayısal olmalıdır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ComplexTitleContent" xml:space="preserve">
+    <value>Karmaşık içerik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_GeneralGroupTitle" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_LegendText" xml:space="preserve">
+    <value>Gösterge metni:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_LineColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_Thickness" xml:space="preserve">
+    <value>Kalınlık:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitleForeground" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitleGroupTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePosition" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_FarAboveHorizontal" xml:space="preserve">
+    <value>Sağ üst</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_FarAboveVertical" xml:space="preserve">
+    <value>Sağ üst</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_FarBelowHorizontal" xml:space="preserve">
+    <value>Hemen altında</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_FarBelowVertical" xml:space="preserve">
+    <value>Hemen altında</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_NearAboveHorizontal" xml:space="preserve">
+    <value>Sol yukarıdaki</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_NearAboveVertical" xml:space="preserve">
+    <value>Sol yukarıdaki</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_NearBelowHorizontal" xml:space="preserve">
+    <value>Sol aşağıda</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_NearBelowVertical" xml:space="preserve">
+    <value>Sol aşağıda</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionCaption_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositonDescription_FarAboveHorizontal" xml:space="preserve">
+    <value>Sağ tarafta çizgisinin üstündeki başlığı göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositonDescription_FarAboveVertical" xml:space="preserve">
+    <value>Sağ tarafta çizgisinin üstündeki başlığı göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositonDescription_NearAboveHorizontal" xml:space="preserve">
+    <value>Sol tarafta çizgisinin üstündeki başlığı göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositonDescription_NearAboveVertical" xml:space="preserve">
+    <value>Sol tarafta çizgisinin üstündeki başlığı göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositonDescription_None" xml:space="preserve">
+    <value>Başlık çevirmek.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitleText" xml:space="preserve">
+    <value>Metin:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_Value" xml:space="preserve">
+    <value>Değer:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLineCategoryTitle" xml:space="preserve">
+    <value>Sabit hat seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLinePageCategoryTitle" xml:space="preserve">
+    <value>Sabit hat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_ArgumentColumnHeader" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_CloseValueColumnHeader" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_HighValueColumnHeader" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_LowValueColumnHeader" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_OpenValueColumnHeader" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_Value2ColumnHeader" xml:space="preserve">
+    <value>2 Değeri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_ValueColumnHeader" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DataEditor_WeightValueColumnHeader" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddChartTitle" xml:space="preserve">
+    <value>Grafik başlığı ekleme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddConstantLine" xml:space="preserve">
+    <value>Sabit hat Ekle</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddConstantLineX" xml:space="preserve">
+    <value>X ekseni için sabit hat Ekle</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddConstantLineXDescription" xml:space="preserve">
+    <value>Sabit satır eklemek için birincil ekseni.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddConstantLineY" xml:space="preserve">
+    <value>Y ekseni sabit hat Ekle</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddConstntLineYDescription" xml:space="preserve">
+    <value>Sabit satır eklemek için birincil ekseni.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddPaneHorizontal" xml:space="preserve">
+    <value>Sağ Bölmesi ekleme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddPaneHorizontalDescription" xml:space="preserve">
+    <value>Yeni bir bölmesi geçerli bölmesini sağına eklemek ve onları yatay olarak yığın.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddSecondaryAxisX" xml:space="preserve">
+    <value>X eksen ekleme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddSecondaryAxisY" xml:space="preserve">
+    <value>Y eksen ekleme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddStripX" xml:space="preserve">
+    <value>X ekseni için şerit eklemek</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddStripXDescription" xml:space="preserve">
+    <value>Bir şerit eklemek için birincil ekseni.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddStripY" xml:space="preserve">
+    <value>Y ekseni için şerit eklemek</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AddStripYDescription" xml:space="preserve">
+    <value>Bir şerit eklemek için birincil ekseni.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AxesElementsGroupTitle" xml:space="preserve">
+    <value>Eksen öğeleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AxesGroupTitle" xml:space="preserve">
+    <value>Eksenler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_ChartAreaElementsGroupTitle" xml:space="preserve">
+    <value>Grafik alanı öğeleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_ElementsPageTitle" xml:space="preserve">
+    <value>Öğeler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_AddSeriesManualyGroupTitle" xml:space="preserve">
+    <value>Yeni seri ekle</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_ChangeChartTypeGroupTitle" xml:space="preserve">
+    <value>Grafik türünü değiştir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_Palette" xml:space="preserve">
+    <value>Palet</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_MainPageTitle" xml:space="preserve">
+    <value>Grafik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DefaultAxisTitleText" xml:space="preserve">
+    <value>Eksen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DefaultChartTitleContent" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DefaultConstantLineTitle" xml:space="preserve">
+    <value>Sabit hat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DefaultPane" xml:space="preserve">
+    <value>Varsayılan Bölmesi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DefaultSeriesNamePrefix" xml:space="preserve">
+    <value>Seri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DefaultStripLegendText" xml:space="preserve">
+    <value>Şerit</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Font_Bold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Font_Family" xml:space="preserve">
+    <value>Adı:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Font_Italic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Font_Size" xml:space="preserve">
+    <value>Boyut:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptions_Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptions_Orientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptions_Orientation_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptions_Orientation_HorizontalDescription" xml:space="preserve">
+    <value>Sipariş gösterge öğeleri soldan sağa doğru.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptions_Orientation_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptions_ReverseItems" xml:space="preserve">
+    <value>Öğeleri ters</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptions_SelectedLegend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendOptionsRibbonCategoryTitle" xml:space="preserve">
+    <value>Gösterge seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LegendPosition" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LineFullStackedSeries2D" xml:space="preserve">
+    <value>Tam yığılmış çizgi 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LineScatterSeries2D" xml:space="preserve">
+    <value>Çizgi 2D dağılım</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LineSeries2D" xml:space="preserve">
+    <value>Çizgi 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LineStackedSeries2D" xml:space="preserve">
+    <value>Çizgi 2B yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.LineStepSeries2D" xml:space="preserve">
+    <value>Adım çizgi 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PanePrefix" xml:space="preserve">
+    <value>Bölme #</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PieSeries2D" xml:space="preserve">
+    <value>Pasta 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PieSeries3D" xml:space="preserve">
+    <value>Pasta 3D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PointSeries2D" xml:space="preserve">
+    <value>Nokta 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PointSeries3D" xml:space="preserve">
+    <value>Nokta 3D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PolarAreaSeries2D" xml:space="preserve">
+    <value>Kutupsal alan 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PolarLineSeries2D" xml:space="preserve">
+    <value>2B Kutupsal Çizgi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PolarPointSeries2D" xml:space="preserve">
+    <value>Kutupsal nokta 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PrimaryAxisXName" xml:space="preserve">
+    <value>Birincil eksen X</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PrimaryAxisYName" xml:space="preserve">
+    <value>Birincil eksen Y</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PropertiesDockPanelTitle" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RadarAreaSeries2D" xml:space="preserve">
+    <value>Radar alanında 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RadarLineSeries2D" xml:space="preserve">
+    <value>Radar çizgi 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RadarPointSeries2D" xml:space="preserve">
+    <value>Radar nokta 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RangeAreaSeries2D" xml:space="preserve">
+    <value>Aralık alanında 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RangeBarOverlappedSeries2D" xml:space="preserve">
+    <value>Aralık çubuk 2D üst üste</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RangeBarSideBySideSeries2D" xml:space="preserve">
+    <value>Yan yana aralığı Bar 2B</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Redo" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SecondaryAxisXPrefix" xml:space="preserve">
+    <value>İkincil ekseni X #</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SecondaryAxisYPrefix" xml:space="preserve">
+    <value>İkincil eksen Y #</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesDataPanelTitle" xml:space="preserve">
+    <value>Veri dizisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_ArgumentAxis" xml:space="preserve">
+    <value>Bağımsız değişken eksen:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_ArgumentDataMember" xml:space="preserve">
+    <value>Bağımsız değişkeni:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_ChartDataSource" xml:space="preserve">
+    <value>Grafik veri kaynağı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_CloseValueDataMember" xml:space="preserve">
+    <value>Yakın değer:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_ConnectorThickness" xml:space="preserve">
+    <value>Bağlayıcı:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_DataMembersPageGroup" xml:space="preserve">
+    <value>Veri üyeleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_DataPage" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_DataSourceNone" xml:space="preserve">
+    <value>Veri kaynağı yok</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_DataSourcePageGroup" xml:space="preserve">
+    <value>Veri kaynağı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_HighValueDataMember" xml:space="preserve">
+    <value>Yüksek değer:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Indent" xml:space="preserve">
+    <value>Girinti:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_0DegreesCaption" xml:space="preserve">
+    <value>0 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_0DegreesDescription" xml:space="preserve">
+    <value>Döndürme olmadan veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_135DegreesCaption" xml:space="preserve">
+    <value>135 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_135DegreesDescription" xml:space="preserve">
+    <value>135 Derece döndürülebilir veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_180DegreesCaption" xml:space="preserve">
+    <value>180 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_180DegreesDescription" xml:space="preserve">
+    <value>180 Derece döndürülmüş veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_225DegreesCaption" xml:space="preserve">
+    <value>225 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_225DegreesDescription" xml:space="preserve">
+    <value>225 Derece döndürülebilir veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_270DegreesCaption" xml:space="preserve">
+    <value>270 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_270DegreesDescription" xml:space="preserve">
+    <value>270 Derece döndürülebilir veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_315DegreesCaption" xml:space="preserve">
+    <value>315 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_315DegreesDescription" xml:space="preserve">
+    <value>315 Derece döndürülebilir veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_3DTopCaption" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_3DTopDescription" xml:space="preserve">
+    <value>Üst noktası işaretleyicilerini veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_45DegreesCaption" xml:space="preserve">
+    <value>45 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_45DegreesDescription" xml:space="preserve">
+    <value>45 Derece döndürülmüş veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_90DegreesCaption" xml:space="preserve">
+    <value>90 Derece</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_90DegreesDescription" xml:space="preserve">
+    <value>90 Derece döndürülmüş veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Area3DEnabledCaption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Area3DEnabledDescription" xml:space="preserve">
+    <value>Veri etiketlerini aç.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Bar3DEnabledCaption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Bar3DEnabledDescription" xml:space="preserve">
+    <value>Veri etiketlerini aç.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Bubble2DCenterCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Bubble2DCenterDescription" xml:space="preserve">
+    <value>Veri etiketlerini kabarcıkların ortasında göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_CenteredInBarsCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_CenteredInBarsDescription" xml:space="preserve">
+    <value>Veri etiketlerini çubukların ortasında göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_EnabledCaption" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_EnabledDescription" xml:space="preserve">
+    <value>Veri etiketlerini aç.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_InsideSlicesCaption" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_InsideSlicesDescription" xml:space="preserve">
+    <value>Pasta dilimi içinde veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Marker3DCenterCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_Marker3DCenterDescription" xml:space="preserve">
+    <value>Veri etiketlerini işaretleyicilerin ortasında göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_NoneCaption" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_NoneDescription" xml:space="preserve">
+    <value>Veri etiketlerini kapat.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_OutsideCaption" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_OutsideDescription" xml:space="preserve">
+    <value>Gösteri verileri etiketleyen dış barlar.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_OutsideSlicesCaption" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_OutsideSlicesDescription" xml:space="preserve">
+    <value>Dış pasta dilimlerini veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_StackedBarCenteredInBarCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_StackedBarCenteredInBarDescription" xml:space="preserve">
+    <value>Veri etiketlerini çubukların ortasında göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_TwoColumnsCaption" xml:space="preserve">
+    <value>İki sütun</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_TwoColumnsDescription" xml:space="preserve">
+    <value>İki sütun veri etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_LabelsGroupTitle" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_LabelsVisibility" xml:space="preserve">
+    <value>Etiket görünürlüğü</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_LayoutGroup" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_LowValueDataMember" xml:space="preserve">
+    <value>Düşük değer:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Main" xml:space="preserve">
+    <value>Ana</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_MarkersCaption" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_NoModelString" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_OpenValueDataMember" xml:space="preserve">
+    <value>Açık değer:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DMaxValueLabelPositionDescription" xml:space="preserve">
+    <value>Yalnızca bir veri noktası değeri etiketi gösterin.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DMinValueLabelPositionDescription" xml:space="preserve">
+    <value>Yalnızca bir veri noktası en az değer etiketi gösterin.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DOneLabelPositionCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DOneLabelPositionDescription" xml:space="preserve">
+    <value>Minimum ve maksimum değerleri içeren aralığı alanının içinde bir etiketi gösterin.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DTwoLabelsPositionCaption" xml:space="preserve">
+    <value>Her iki</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DTwoLabelsPositionDescription" xml:space="preserve">
+    <value>Her iki minimum ve maksimum değerler bir veri noktası etiketlerini göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DValue1LabelPositionCaption" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DValue1LabelPositionDescription" xml:space="preserve">
+    <value>Yalnızca ilk değeri bir veri noktası etiketini göster:.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DValue2LabelPositionCaption" xml:space="preserve">
+    <value>Değer 2</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DValue2LabelPositionDescription" xml:space="preserve">
+    <value>Tek bir veri noktasını ikinci değer etiketi gösterin.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarMaxValueLabelPositionDescription" xml:space="preserve">
+    <value>Sadece azami menzili bar değer etiketi gösterin.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarMinValueLabelPositionDescription" xml:space="preserve">
+    <value>Sadece minimum aralığı çubuk değer etiketi gösterin.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarOneLabelPositionCaption" xml:space="preserve">
+    <value>Merkez</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarOneLabelPositionDescription" xml:space="preserve">
+    <value>Minimum ve maksimum değerleri içeren Aralık çubuğu ortasına bir etiketi gösterin.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarTwoLabelsLabelPositionCaption" xml:space="preserve">
+    <value>Her iki</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarTwoLabelsLabelPositionDescription" xml:space="preserve">
+    <value>Her iki etiketi ile minimum ve maksimum değerleri göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SelectedSeries" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SelectedSeries_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SeriesDataMember" xml:space="preserve">
+    <value>Serisi:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SeriesDataSource" xml:space="preserve">
+    <value>Seri veri kaynağı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SeriesLabelsPosition" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SeriesName" xml:space="preserve">
+    <value>Adı:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SeriesPane" xml:space="preserve">
+    <value>Bölme:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_SeriesVisibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Value2DataMember" xml:space="preserve">
+    <value>Değer 2:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_ValueAxis" xml:space="preserve">
+    <value>Değer ekseni:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_ValueDataMember" xml:space="preserve">
+    <value>Değer:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_WeightDataMember" xml:space="preserve">
+    <value>Ağırlık:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptionsRibbonCategoryTitle" xml:space="preserve">
+    <value>Seri seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesTemplate" xml:space="preserve">
+    <value>Şablon</value>
+  </data>
+  <data name="ChartDesignerStringIDs.StockSeries2D" xml:space="preserve">
+    <value>Hisse senedi 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_AxisLabelText" xml:space="preserve">
+    <value>Eksen metni:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_Brush" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_CategoryCaption" xml:space="preserve">
+    <value>Şerit seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_GeneralGroupCaption" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_LegendText" xml:space="preserve">
+    <value>Gösterge metni:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_MaxLimit" xml:space="preserve">
+    <value>Max sınırı:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_MinLimit" xml:space="preserve">
+    <value>Dk sınırı:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_PageCaption" xml:space="preserve">
+    <value>Şerit</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Strip_TextGroupCaption" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ThicknessNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeAdditionalPanelCollection" xml:space="preserve">
+    <value>Ek Bölmeler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeAxesSubnode" xml:space="preserve">
+    <value>Eksenler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeAxisCustomLabelCollection" xml:space="preserve">
+    <value>Özel etiket</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeChart" xml:space="preserve">
+    <value>Grafik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeConstantLineCollection" xml:space="preserve">
+    <value>Sabit Çizgiler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeDiagramPolarDiagram2D" xml:space="preserve">
+    <value>Kutup diyagramı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeDiagramRadarDiagram2D" xml:space="preserve">
+    <value>Radar diyagramı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeDiagramSimpleDiagram2D" xml:space="preserve">
+    <value>Basit diyagramı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeDiagramSimpleDiagram3D" xml:space="preserve">
+    <value>3D basit diyagramı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeDiagramXYDiagram2D" xml:space="preserve">
+    <value>Kartezyen diyagramı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeDiagramXYDiagram3D" xml:space="preserve">
+    <value>3B Kartezyen diyagramı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeIndicatorCollection" xml:space="preserve">
+    <value>Göstergeler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreePanesSubnode" xml:space="preserve">
+    <value>bölmeleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreePrimaryAxisX" xml:space="preserve">
+    <value>Birincil eksen X</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreePrimaryAxisY" xml:space="preserve">
+    <value>Birincil eksen Y</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeSecondaryAxesCollectionX" xml:space="preserve">
+    <value>İkincil eksenler X</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeSecondaryAxesCollectionY" xml:space="preserve">
+    <value>İkincil eksenleri Y</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeSeriesCollection" xml:space="preserve">
+    <value>Seri Koleksiyonu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeStripCollectionModel" xml:space="preserve">
+    <value>Şeritler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeStripModel" xml:space="preserve">
+    <value>Şerit</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeTitleCollection" xml:space="preserve">
+    <value>Başlık Koleksiyonu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Undo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CancelButtonCaption" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ErrorBarDirection_Both" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ValueLevel_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_FunnelLeftPointCaption" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_FunnelRightPointCaption" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_PaneOrientationHorizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_SimpleDiagramLayoutDirectionHorizontalCaption" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_PaneOrientationVertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_SimpleDiagramLayoutDirectionVerticalCaption" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Stock2DExpandAnimation" xml:space="preserve">
+    <value>Genişlet</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_ColorDataMember" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartAnnotationOptions_General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_GeneralGroupCaption" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ValueLevel_Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChartAnnotationOptions_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_SimpleDiagramLayoutDimensionWithoutColon" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Labels_FunnelCenterPointCaption" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DashStyle_Solid" xml:space="preserve">
+    <value>Katı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleOptionsAutomatic" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ValueLevel_Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_NestedDonutWeight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_RangeGroup" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleOptionsManual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DMaxValueLabelPositionCaption" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarMaxValueLabelPositionCaption" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeArea2DMinValueLabelPositionCaption" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_RangeBarMinValueLabelPositionCaption" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Marker2DModelCross" xml:space="preserve">
+    <value>Çapraz</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Marker2DModelTriangle" xml:space="preserve">
+    <value>Üçgen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CircularAreaZoomInAnimation" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CircularLineZoomInAnimation" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Pie2DZoomInAnimation" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ErrorBarDirection_Minus" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ValueLevel_High" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ErrorBarDirection_Plus" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ValueLeel_Low" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleOptionsContinuous" xml:space="preserve">
+    <value>Sürekli</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AnnotationFreePosition" xml:space="preserve">
+    <value>Boş pozisyon</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_Thickness" xml:space="preserve">
+    <value>Kalınlık:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DashStyle_Dot" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_AnnotationsGroup" xml:space="preserve">
+    <value>ek açıklamaları</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_CircularDiagramCircleShapeStyleCaption" xml:space="preserve">
+    <value>Daire</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Marker2DModelCircle" xml:space="preserve">
+    <value>Daire</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_CircularDiagramPolygonShapeStyleCaption" xml:space="preserve">
+    <value>Çokgen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Marker2DModelPolygon" xml:space="preserve">
+    <value>Çokgen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_EnableAxisXNavigationCheckCaption" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_EnableAxisYNavigationCheckCaption" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_ErrorBarsDirection" xml:space="preserve">
+    <value>Yön:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_Pane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Marker2DModelSquare" xml:space="preserve">
+    <value>Kare</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Marker2DModelStar" xml:space="preserve">
+    <value>Yıldız</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_FunnelOptionsGroup" xml:space="preserve">
+    <value>Huni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_NestedDonutGroup" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_DateTimeMeasureUnit" xml:space="preserve">
+    <value>Ölçü birimi:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Line2DSlideFromLeftAnimation" xml:space="preserve">
+    <value>Soldan Kaydır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_DateTimeFormat" xml:space="preserve">
+    <value>Biçim:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatComboBox_Currency" xml:space="preserve">
+    <value>Para birimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatComboBox_Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatComboBox_Percent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeLegend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AxisOptions_TickMarksStaticText" xml:space="preserve">
+    <value>Onay İşaretleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatComboBox_Number" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatComboBox_Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_OkButtonText" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="ChartDesignerStringIDs.SeriesOptions_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ValueLevel_Low" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatLabelText" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_CancelButtonText" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarSeries3D" xml:space="preserve">
+    <value>Bar 3D (Manhattan Bar)</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatComboBox_DateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.FibonacciFans" xml:space="preserve">
+    <value>Fibonacci hayranları</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAnnotation_Content" xml:space="preserve">
+    <value>İçerik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChartTitle_Content" xml:space="preserve">
+    <value>İçerik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsPieTotalLabel_Content" xml:space="preserve">
+    <value>İçerik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDockPanelTitle" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAnnotation_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChartTitle_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsConstantLine_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsLegend_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsScaleBreak_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsStrip_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Series" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_ConstantLine" xml:space="preserve">
+    <value>Sabit hat</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsConstantLine_Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsStrip_Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_Pane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Pane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_Strip" xml:space="preserve">
+    <value>Şerit</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleBreak_GeneralGroupCaption" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeAnnotationCollection" xml:space="preserve">
+    <value>ek açıklamaları</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Elements_IndicatorsGroup" xml:space="preserve">
+    <value>Göstergeler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsConstantLine_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsPieTotalLabel_Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_Percent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsConstantLine_Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChartTitle_Dock" xml:space="preserve">
+    <value>Dok</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxisRange_Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_Dimension" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_FormatComboBox_Special" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_Reverse" xml:space="preserve">
+    <value>Ters çevir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Argument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Weight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Weight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsLegend_Orientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AnnotationRelativePosition" xml:space="preserve">
+    <value>Göreli konumu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_Interlaced" xml:space="preserve">
+    <value>Titreşimli</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Bar2DModelGradient" xml:space="preserve">
+    <value>Gradyan</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeScaleBreakEdge1Caption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeScaleBreakEdge2Caption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalScaleBreakEdge1Caption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalScaleBreakEdge2Caption" xml:space="preserve">
+    <value>Hatalı Değer Biçimi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeScaleBreakEdge1Message" xml:space="preserve">
+    <value>Girilen değer yanlış türüne sahip. Tarih/saat olmalıdır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithDateTimeScaleBreakEdge2Message" xml:space="preserve">
+    <value>Girilen değer yanlış türüne sahip. Tarih/saat olmalıdır</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalScaleBreakEdge1Message" xml:space="preserve">
+    <value>Girilen değer yanlış türe sahip. Sayısal olmalıdır.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.CommandMessages_IncompatibleWithNumericalScaleBreakEdge2Message" xml:space="preserve">
+    <value>Girilen değer yanlış türe sahip. Sayısal olmalıdır.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_High" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Low" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_Value2" xml:space="preserve">
+    <value>2 Değeri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChart_Palette" xml:space="preserve">
+    <value>Palet</value>
+  </data>
+  <data name="ChartDesignerStringIDs.FibonacciArcs" xml:space="preserve">
+    <value>Fibonacci kemerler</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAnnotation_Angle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxisRange_MaxValue" xml:space="preserve">
+    <value>Max değeri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxisRange_MinValue" xml:space="preserve">
+    <value>En küçük değer</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsConstantLine_LegendText" xml:space="preserve">
+    <value>Gösterge metni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_LegendText" xml:space="preserve">
+    <value>Gösterge metni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsStrip_LegendText" xml:space="preserve">
+    <value>Gösterge metni</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_ShowInLegend" xml:space="preserve">
+    <value>Göstergede göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_ShowInLegend" xml:space="preserve">
+    <value>Göstergede göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsLegend_DockTarget" xml:space="preserve">
+    <value>Hedefe Bağla</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsPieTotalLabel_Padding" xml:space="preserve">
+    <value>Doldurma</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_ColorEach" xml:space="preserve">
+    <value>Her renk</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Group" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_InvertedStep" xml:space="preserve">
+    <value>Ters adım</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_LabelsVisibility" xml:space="preserve">
+    <value>Etiket görünürlüğü</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_MarkerSize" xml:space="preserve">
+    <value>İşaretçi boyutu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Transparency" xml:space="preserve">
+    <value>Şeffaflık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.AreaStepFullStackedSeries2D" xml:space="preserve">
+    <value>Tam yığılmış adım alan 2D</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Marker2DModelPlus" xml:space="preserve">
+    <value>Artı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreeStackedBarTotalLabelModel" xml:space="preserve">
+    <value>Toplam etiket yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_GridLinesMinorVisible" xml:space="preserve">
+    <value>Kılavuz çizgileri görünür küçük</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_GridLinesVisible" xml:space="preserve">
+    <value>Kılavuz çizgileri görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Closed" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_StackedGroup" xml:space="preserve">
+    <value>Grup yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.NewStackedBarTotalLabel" xml:space="preserve">
+    <value>Yeni toplam etiket yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_StackedBarTotalLabel" xml:space="preserve">
+    <value>Toplam etiket yığılmış</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChart_FontStyle" xml:space="preserve">
+    <value>Yazı tipi stili</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_Arg2ValLevel2Header" xml:space="preserve">
+    <value>Bitiş noktası</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChartTitle_SeriesTitleTextPattern" xml:space="preserve">
+    <value>Desen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.PatternEditor_PatternLabelText" xml:space="preserve">
+    <value>Desen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_DisplayName" xml:space="preserve">
+    <value>Görünen ad</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleBreak_CategoryCaption" xml:space="preserve">
+    <value>Ölçek sonu seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleBreak_Edge1" xml:space="preserve">
+    <value>Kenar 1:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleBreak_Edge2" xml:space="preserve">
+    <value>Kenar 2:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ScaleBreak_PageCaption" xml:space="preserve">
+    <value>Ölçek sonu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RangeControlClientAreaView" xml:space="preserve">
+    <value>Yeni alan görünüm</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RangeControlClientBarView" xml:space="preserve">
+    <value>Yeni çubuğu göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RangeControlClientLineView" xml:space="preserve">
+    <value>Yeni satır görünümü</value>
+  </data>
+  <data name="ChartDesignerStringIDs.RangeControlOptions" xml:space="preserve">
+    <value>Yeni Aralık denetimi seçenekleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.TreePieTotalLabelModel" xml:space="preserve">
+    <value>Pasta toplam etiket</value>
+  </data>
+  <data name="ChartDesignerStringIDs.NewLegend" xml:space="preserve">
+    <value>Yeni Gösterge</value>
+  </data>
+  <data name="ChartDesignerStringIDs.NewPieTotalLabel" xml:space="preserve">
+    <value>Yeni pasta toplam etiket</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Options_Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAnnotation_RuntimeMoving" xml:space="preserve">
+    <value>Çalışma zamanı taşıma</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAnnotation_RuntimeResizing" xml:space="preserve">
+    <value>Çalışma zamanı yeniden boyutlandırma</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAnnotation_RuntimeRotation" xml:space="preserve">
+    <value>Çalışma zamanı döndürme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_Logarithmic" xml:space="preserve">
+    <value>Logaritmik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_LogarithmicBase" xml:space="preserve">
+    <value>Logaritma tabanını</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_TickmarksMinorVisible" xml:space="preserve">
+    <value>Tickmarks küçük görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_TickmarksVisible" xml:space="preserve">
+    <value>Tickmarks görünür</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_VisualRange" xml:space="preserve">
+    <value>Görsel aralığı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsAxis_WholeRange" xml:space="preserve">
+    <value>Tüm aralığı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChart_AnimationMode" xml:space="preserve">
+    <value>Animasyon modunda</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChart_AutoLayout" xml:space="preserve">
+    <value>Otomatik Düzen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChart_FontFamily" xml:space="preserve">
+    <value>Yazı tipi ailesi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChart_FontWeight" xml:space="preserve">
+    <value>Yazı tipi genişliği</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChartTitle_HorizontalAlignment" xml:space="preserve">
+    <value>Yatay hizalama</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsChartTitle_VerticalAlignment" xml:space="preserve">
+    <value>Dikey hizalama</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsConstantLine_Brush" xml:space="preserve">
+    <value>Fırça</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_DependentAxesYRange" xml:space="preserve">
+    <value>Bağımlı eksenleri Y aralığı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_EnableAxisXNavigation" xml:space="preserve">
+    <value>Eksen X gezinti etkinleştir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_EnableAxisYNavigation" xml:space="preserve">
+    <value>Eksen Y gezinti etkinleştir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_LayoutDirection" xml:space="preserve">
+    <value>Düzen Yönü</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_Rotated" xml:space="preserve">
+    <value>döndürülmüş</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_RotationDirection" xml:space="preserve">
+    <value>Döndürme yönünü</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_RuntimeRotation" xml:space="preserve">
+    <value>Çalışma zamanı döndürme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_RuntimeScrolling" xml:space="preserve">
+    <value>Çalışma zamanı kaydırma</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_RuntimeZooming" xml:space="preserve">
+    <value>Çalışma zamanı yakınlaştırma</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_SeriesPadding" xml:space="preserve">
+    <value>Doldurma serisi</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_ShapeStyle" xml:space="preserve">
+    <value>Şekil stili</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsDiagram_StartAngle" xml:space="preserve">
+    <value>Açı başlatmak</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_Argument1" xml:space="preserve">
+    <value>Bağımsız değişken 1</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_Argument2" xml:space="preserve">
+    <value>Bağımsız değişken 2</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_ExtrapolateToInfinity" xml:space="preserve">
+    <value>Sonsuza kadar tahmin</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_NegativeError" xml:space="preserve">
+    <value>Negatif hata</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_PointsCount" xml:space="preserve">
+    <value>Puan sayısı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_PositiveError" xml:space="preserve">
+    <value>Pozitif hata</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_ShowAdditionalLevels" xml:space="preserve">
+    <value>Ek düzeyleri göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_ShowLevel0" xml:space="preserve">
+    <value>Düzey 0 göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_ShowLevel100" xml:space="preserve">
+    <value>Seviyesi 100 göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_SignalSmoothingPeriod" xml:space="preserve">
+    <value>Sinyal dönemi düzgünleştirme</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_StandardDeviationMultiplier" xml:space="preserve">
+    <value>Standart sapma çarpanı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsIndicators_SumPointsCount" xml:space="preserve">
+    <value>Toplam puan sayısı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsLegend_HorizontalAlignment" xml:space="preserve">
+    <value>Yatay hizalama</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsLegend_HorizontalPosition" xml:space="preserve">
+    <value>Yatay konumu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsLegend_ItemVisibilityMode" xml:space="preserve">
+    <value>Madde görünürlük modu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsLegend_VerticalPosition" xml:space="preserve">
+    <value>Dikey konumu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsPane_EnableAxisXNavigation" xml:space="preserve">
+    <value>Eksen X gezinti etkinleştir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsPane_EnableAxisYNavigation" xml:space="preserve">
+    <value>Eksen Y gezinti etkinleştir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_InnerIndent" xml:space="preserve">
+    <value>İç girinti</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_LevelLineLength" xml:space="preserve">
+    <value>Düzey satır uzunluğu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_LineTension" xml:space="preserve">
+    <value>Satır gerginlik</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Marker1Size" xml:space="preserve">
+    <value>İşaret 1 boyutu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_Marker2Size" xml:space="preserve">
+    <value>İşaret 2 boyutu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_MaxMarkerSize" xml:space="preserve">
+    <value>Max işaret boyutu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_MaxSize" xml:space="preserve">
+    <value>En büyük boyutu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsSeries_ShowOpenClose" xml:space="preserve">
+    <value>Yakın açık olanı göster</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsStrip_Brush" xml:space="preserve">
+    <value>Fırça</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsPieTotalLabel_Margin" xml:space="preserve">
+    <value>Kenar boşluğu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.OptionsPieTotalLabel_TextPattern" xml:space="preserve">
+    <value>Metin desen</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_Diagram3DPerspectiveAngle" xml:space="preserve">
+    <value>Perspektif Açısı:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_CircularDiagramRotationDirectionClockwise" xml:space="preserve">
+    <value>Saat yönünde</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_CircularDiagramRotationDirectionCounterclockwise" xml:space="preserve">
+    <value>Saat yönünün tersine</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionDescription_NearAboveVertical" xml:space="preserve">
+    <value>Sol tarafta çizgisinin üstündeki başlığı göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_SecondaryAxisX" xml:space="preserve">
+    <value>İkincil ekseni X</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_SecondaryAxisY" xml:space="preserve">
+    <value>İkincil eksen Y</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_Series" xml:space="preserve">
+    <value>Serisi...</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_SeriesElements" xml:space="preserve">
+    <value>Dizi öğeleri</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChangeChartType" xml:space="preserve">
+    <value>Grafik türünü değiştir</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ChooseDataSource" xml:space="preserve">
+    <value>Bir veri kaynağı seçin:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.BarItemMenu_ChartTitle" xml:space="preserve">
+    <value>Grafik başlığı</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionDescription_FarAboveHorizontal" xml:space="preserve">
+    <value>Sağ tarafta çizgisinin üstündeki başlığı göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.ConstantLine_TitlePositionDescription_FarAboveVertical" xml:space="preserve">
+    <value>Sağ tarafta çizgisinin üstündeki başlığı göster.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.DragDropDataMembers_ToolTipHint" xml:space="preserve">
+    <value>Araç ipucu ipucu</value>
+  </data>
+  <data name="ChartDesignerStringIDs.EmptyDiagramHintBar" xml:space="preserve">
+    <value>Grafik görselleştirmek için veri yok. Ekle menüsünü genişletin ve görselleştirmek için sağlamanız için yol seçmek için Ekle düğmesini tıklatın.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.EmptyDiagramHintRibbon" xml:space="preserve">
+    <value>Orada görselleştirmek için hiçbir veridir. Grafik görmek için geçiş yapmak için grafik Şerit sekmesi ve istenen seri türü eklemek yeni serisi galerisinden.</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_TrendLineExtrapolateToInfinity" xml:space="preserve">
+    <value>Sonsuza kadar tahmin</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_ValueLevel" xml:space="preserve">
+    <value>Değer düzeyi:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Indicator_ValueLevel1" xml:space="preserve">
+    <value>Değer düzeyi:</value>
+  </data>
+  <data name="ChartDesignerStringIDs.Default_Main_XYDiagramRotated" xml:space="preserve">
+    <value>döndürülmüş</value>
+  </data>
+</root>

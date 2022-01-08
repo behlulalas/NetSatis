@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSatis.Entities", "NetSatis.Entities\NetSatis.Entities.csproj", "{52C7128A-D722-4C12-973B-DE8DB57438DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSatis.BackOffice", "NetSatis.BackOffice\NetSatis.BackOffice.csproj", "{1DC6494A-B9DF-457F-B166-E20A8C06D594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSatis.FrontOffice", "NetSatis.FrontOffice\NetSatis.FrontOffice.csproj", "{D7E186F4-8E22-49D1-BBA9-D2B23E810EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSatis.Reports", "NetSatis.Reports\NetSatis.Reports.csproj", "{E54BA662-B893-4C7B-B7F9-72A0A890B9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSatis.Backup", "NetSatis.Backup\NetSatis.Backup.csproj", "{58949A54-6198-4849-9C18-7F5783516F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSatis.Update", "NetSatis.Update\NetSatis.Update.csproj", "{CEEECE3F-7CF3-4FB6-ABBF-90B47FBF68AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSatis.Admin", "NetSatis.Admin\NetSatis.Admin.csproj", "{131312AA-9549-43E1-ABED-4A62C22CBBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52C7128A-D722-4C12-973B-DE8DB57438DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C7128A-D722-4C12-973B-DE8DB57438DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C7128A-D722-4C12-973B-DE8DB57438DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C7128A-D722-4C12-973B-DE8DB57438DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC6494A-B9DF-457F-B166-E20A8C06D594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC6494A-B9DF-457F-B166-E20A8C06D594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC6494A-B9DF-457F-B166-E20A8C06D594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC6494A-B9DF-457F-B166-E20A8C06D594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E186F4-8E22-49D1-BBA9-D2B23E810EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E186F4-8E22-49D1-BBA9-D2B23E810EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E186F4-8E22-49D1-BBA9-D2B23E810EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E186F4-8E22-49D1-BBA9-D2B23E810EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54BA662-B893-4C7B-B7F9-72A0A890B9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54BA662-B893-4C7B-B7F9-72A0A890B9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54BA662-B893-4C7B-B7F9-72A0A890B9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54BA662-B893-4C7B-B7F9-72A0A890B9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58949A54-6198-4849-9C18-7F5783516F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58949A54-6198-4849-9C18-7F5783516F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58949A54-6198-4849-9C18-7F5783516F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58949A54-6198-4849-9C18-7F5783516F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEEECE3F-7CF3-4FB6-ABBF-90B47FBF68AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEEECE3F-7CF3-4FB6-ABBF-90B47FBF68AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEEECE3F-7CF3-4FB6-ABBF-90B47FBF68AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEEECE3F-7CF3-4FB6-ABBF-90B47FBF68AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131312AA-9549-43E1-ABED-4A62C22CBBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131312AA-9549-43E1-ABED-4A62C22CBBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131312AA-9549-43E1-ABED-4A62C22CBBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131312AA-9549-43E1-ABED-4A62C22CBBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70384E08-9F7E-41E4-BD68-523B349C95C4}
+	EndGlobalSection
+EndGlobal

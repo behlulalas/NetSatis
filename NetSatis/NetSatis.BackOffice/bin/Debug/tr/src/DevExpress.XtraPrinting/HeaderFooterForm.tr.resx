@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barButtonItem1.Hint" xml:space="preserve">
+    <value>Sayfa Numarası</value>
+  </data>
+  <data name="imageMenuItem.Hint" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="barButtonItem2.Hint" xml:space="preserve">
+    <value>#/# Sayfa</value>
+  </data>
+  <data name="barButtonItem5.Hint" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="barButtonItem3.Hint" xml:space="preserve">
+    <value>Yazdırma Tarihi</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="barButtonItem4.Hint" xml:space="preserve">
+    <value>Yazdırma Saati</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="checkItem2.Hint" xml:space="preserve">
+    <value>Ortaya Hizala</value>
+  </data>
+  <data name="checkItem1.Hint" xml:space="preserve">
+    <value>Yukarı Hizala</value>
+  </data>
+  <data name="bar1.Text" xml:space="preserve">
+    <value>Özel 1</value>
+  </data>
+  <data name="barStaticItem1.Caption" xml:space="preserve">
+    <value>Yazı Tipi</value>
+  </data>
+  <data name="checkItem3.Hint" xml:space="preserve">
+    <value>Aşağı Hizala</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Başlık ve Altlık</value>
+  </data>
+  <data name="headerCheckEdit.Properties.Caption" xml:space="preserve">
+    <value>Başlık:</value>
+  </data>
+  <data name="footerCheckEdit.Properties.Caption" xml:space="preserve">
+    <value>Altlık:</value>
+  </data>
+  <data name="barButtonItem6.Hint" xml:space="preserve">
+    <value>Sayfa #</value>
+  </data>
+</root>

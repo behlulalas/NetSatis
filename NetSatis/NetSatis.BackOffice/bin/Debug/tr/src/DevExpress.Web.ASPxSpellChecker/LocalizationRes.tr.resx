@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxSpellCheckerStringId.CloseButton" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.CancelButton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.AddToDictionaryButton" xml:space="preserve">
+    <value>Sözlüğe Ekle</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChangeAllButton" xml:space="preserve">
+    <value>Tümünü Değiştir</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChangeButton" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChangeTo" xml:space="preserve">
+    <value>Değiştirmek için:</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreMixedCase" xml:space="preserve">
+    <value>MiXeDcAsE sözcükleri yoksay</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreNumbers" xml:space="preserve">
+    <value>Sayı içeren sözcükleri yoksay</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreOnceButton" xml:space="preserve">
+    <value>Bir kez Yoksay</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreTags" xml:space="preserve">
+    <value>Ignore biçimlendirme etiketleri</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreUppercase" xml:space="preserve">
+    <value>Büyük harfli sözcükleri yoksay</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreUrls" xml:space="preserve">
+    <value>URL'leri Yoksay</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.InternationalDictionaries" xml:space="preserve">
+    <value>Uluslararası sözlükler</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.Language" xml:space="preserve">
+    <value>Dili:</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.NotInDictionary" xml:space="preserve">
+    <value>Sözlük içinde değil:</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.OkButton" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.OptionsButton" xml:space="preserve">
+    <value>Seçenekler...</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.OptionsFormCaption" xml:space="preserve">
+    <value>Yazım denetimi seçenekleri</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.SpellCheckFormCaption" xml:space="preserve">
+    <value>Yazım denetimi yapma</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.GeneralOptions" xml:space="preserve">
+    <value>Genel Seçenekler</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreAllButton" xml:space="preserve">
+    <value>Tümünü Yoksay</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreEmails" xml:space="preserve">
+    <value>Yoksay e-postalar</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.NoSuggestionsText" xml:space="preserve">
+    <value>(Öneri)</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChooseDictionary" xml:space="preserve">
+    <value>Yazım denetimi kullanmak için hangi belirleyin.</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.FinishSpellChecking" xml:space="preserve">
+    <value>Yazım denetimi tamamlandıktan.</value>
+  </data>
+</root>

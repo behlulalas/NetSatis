@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DiagramControlStringId.SoftwareIcons_Add_Name" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Remove_Name" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Appearance" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_TreeLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="DiagramControlStringId.Tools_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_NewFile" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowGrid" xml:space="preserve">
+    <value>Kılavuz</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_CanvasNoneAutoSize" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_PageSize" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Collapse_Name" xml:space="preserve">
+    <value>Daralt</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Expand_Name" xml:space="preserve">
+    <value>Genişlet</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Zoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="DiagramControlStringId.Font_Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontUnderline" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Tools" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Tools_Name" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontBold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontItalic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SaveFile" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Save_Name" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_HorizontalOrientation" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_VerticalOrientation" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DiagramControlStringId.PageSize_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="DiagramControlStringId.ShapeInfo_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="DiagramControlStringId.PageSize_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="DiagramControlStringId.ShapeInfo_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="DiagramControlStringId.Panel_Properties_Name" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Properties_Name" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Back_Name" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_Home" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Cut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Paste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Justify" xml:space="preserve">
+    <value>İki Yana Yasla</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_AlignLeft" xml:space="preserve">
+    <value>Sola Hizala</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_AlignRight" xml:space="preserve">
+    <value>Sağa Hizala</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Filter_Name" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_Orientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Sort_Name" xml:space="preserve">
+    <value>Sıralama</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Data_Name" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_PageSetup" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Paragraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Show" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="DiagramControlStringId.Font_FontSize" xml:space="preserve">
+    <value>Yazı Tipi Boyutu</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Redo" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Undo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Document_Name" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="DiagramControlStringId.DefaultDocumentName" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Document" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Document_Name" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Document_Name" xml:space="preserve">
+    <value>Belge</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Cross_Name" xml:space="preserve">
+    <value>Çapraz</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Ellipse_Name" xml:space="preserve">
+    <value>Elips</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Hexagon_Name" xml:space="preserve">
+    <value>Altıgen</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Rectangle_Name" xml:space="preserve">
+    <value>Dikdörtgen</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Triangle_Name" xml:space="preserve">
+    <value>Üçgen</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Move_Down" xml:space="preserve">
+    <value>Aşağı Taşı</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Move_Up" xml:space="preserve">
+    <value>Yukarı Taşı</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_BringToFront" xml:space="preserve">
+    <value>Öne Getir</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ZoomIn" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ZoomOut" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="DiagramControlStringId.PropertyGridOption_None" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="DiagramControlStringId.PropertyGridView_Alphabetical" xml:space="preserve">
+    <value>Alfabetik</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_Design" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Arrange" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Clipboard" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="DiagramControlStringId.ShapeInfo_Angle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Forward_Name" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Lines_Name" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DiagramControlStringId.Tool_Pointer" xml:space="preserve">
+    <value>İmleç</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Left" xml:space="preserve">
+    <value>Sola Hizala</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Right" xml:space="preserve">
+    <value>Sağa Hizala</value>
+  </data>
+  <data name="DiagramControlStringId.Shape_BackgroundColor" xml:space="preserve">
+    <value>Arkaplan</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DiagramControlStringId.PageSize" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarZoomEditor" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_Fill" xml:space="preserve">
+    <value>Doldurun</value>
+  </data>
+  <data name="DiagramControlStringId.FontFamily" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientation_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientation_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarHeight" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Print" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="DiagramControlStringId.PrintMenu" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="DiagramControlStringId.ShowGrid" xml:space="preserve">
+    <value>Kılavuz</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientation" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DiagramControlStringId.FontSize" xml:space="preserve">
+    <value>Yazı Tipi Boyutu</value>
+  </data>
+  <data name="DiagramControlStringId.BackgroundColor" xml:space="preserve">
+    <value>Arkaplan</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_EllipseTool" xml:space="preserve">
+    <value>Elips</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_HexagonTool" xml:space="preserve">
+    <value>Altıgen</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_RectangleTool" xml:space="preserve">
+    <value>Dikdörtgen</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Appearance" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Behavior" xml:space="preserve">
+    <value>Davranış</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_QuickPrint_Description" xml:space="preserve">
+    <value>Belgeyi değişiklik yapmadan doğrudan varsayılan yazıcıya gönderin.</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_Square" xml:space="preserve">
+    <value>Kare</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarAngle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_Wave_Name" xml:space="preserve">
+    <value>Dalga</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_Fill_Description" xml:space="preserve">
+    <value>Tüm görünür alanı doldurur</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Process_Name" xml:space="preserve">
+    <value>İşlem</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_HorizontalScroll_Name" xml:space="preserve">
+    <value>Yatay kaydırma</value>
+  </data>
+  <data name="DiagramControlStringId.ExportAs_Description" xml:space="preserve">
+    <value>PNG veya JPEG gibi çeşitli dosya biçimleri için diyagramı aktar</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramDesigner_SaveChangesConfirmation" xml:space="preserve">
+    <value>Değişiklikleri uygulamak istiyor musunuz?</value>
+  </data>
+  <data name="DiagramControlStringId.HorizontalTextAlignmentButtonGroup" xml:space="preserve">
+    <value>Yatay metin hizalama düğmesi grubu</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Empty" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DiagramControlStringId.Category_SizeAndPosition" xml:space="preserve">
+    <value>Boyut ve konum</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowPrintPreview" xml:space="preserve">
+    <value>Baskı Önizleme</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Export" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Title" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="DiagramControlStringId.Panes" xml:space="preserve">
+    <value>bölmeleri</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Common" xml:space="preserve">
+    <value>Ortak</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsRotate" xml:space="preserve">
+    <value>Döndürme</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Navigation" xml:space="preserve">
+    <value>Gezinti</value>
+  </data>
+  <data name="DiagramControlStringId.ImageStretchMode_Stretch" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_FormatImage" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Print" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_Dot" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ImageTools_Arrange" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Linear_Name" xml:space="preserve">
+    <value>Doğrusal</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_Solid" xml:space="preserve">
+    <value>Katı</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetSelectedImagesStretchMode_Stretch" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_FormatContainer" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RoundedRectangle_Name" xml:space="preserve">
+    <value>Yuvarlatılmış dikdörtgen</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_Insert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Database_Name" xml:space="preserve">
+    <value>Veritabanı</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_Both" xml:space="preserve">
+    <value>Her iki</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_PrintPreview" xml:space="preserve">
+    <value>Baskı Önizleme</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Zoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding" xml:space="preserve">
+    <value>Doldurma</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ContainerSize" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ChangeConnectorType_Straight" xml:space="preserve">
+    <value>Düz</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Database_Name" xml:space="preserve">
+    <value>Veritabanı</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_NotchedArrow_Name" xml:space="preserve">
+    <value>Çentikli OK </value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontStrikethrough" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_BestFit" xml:space="preserve">
+    <value>En uygun</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_BestFit_Description" xml:space="preserve">
+    <value>Üst üste önizleme en iyi Zoom ve sayfaları ayarlama.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Close_Description" xml:space="preserve">
+    <value>Önizleme'yi kapatın.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_PageOfPagesDisplayFormat" xml:space="preserve">
+    <value>Sayfa {0} {1}</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Zoom_Description" xml:space="preserve">
+    <value>Belge Önizleme geçerli büyütme faktörü değiştirin.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_FitToMaxPagesAcrossSelector" xml:space="preserve">
+    <value>Max sayfalar arasında seçici için uygun</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_HorizontalLines" xml:space="preserve">
+    <value>Yatay çizgiler</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_VerticalLines" xml:space="preserve">
+    <value>Dikey çizgiler</value>
+  </data>
+  <data name="DiagramControlStringId.Validation_Size" xml:space="preserve">
+    <value>Değeri {0} değerinden büyük veya eşit {1} olmalıdır.</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutMindMapTreeHeader" xml:space="preserve">
+    <value>US</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutPartsMindMapTreeHeader" xml:space="preserve">
+    <value>US</value>
+  </data>
+  <data name="DiagramControlStringId.ForegroundColor" xml:space="preserve">
+    <value>Yazı tipi rengi</value>
+  </data>
+</root>

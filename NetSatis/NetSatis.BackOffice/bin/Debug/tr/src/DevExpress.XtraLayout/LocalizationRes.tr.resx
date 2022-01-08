@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LayoutStringId.UndoButtonHintText" xml:space="preserve">
+    <value>Son Aksiyonu geri Al</value>
+  </data>
+  <data name="LayoutStringId.TextPositionMenuText" xml:space="preserve">
+    <value>Metin Pozisyonu</value>
+  </data>
+  <data name="LayoutStringId.TextPositionBottomMenuText" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="LayoutStringId.ResetConstraintsToDefaultsMenuItem" xml:space="preserve">
+    <value>Varsayımı yeniden başlat</value>
+  </data>
+  <data name="LayoutStringId.ShowTextMenuItem" xml:space="preserve">
+    <value>Metni Göster</value>
+  </data>
+  <data name="LayoutStringId.CustomizationFormTitle" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="LayoutStringId.RenameMenuText" xml:space="preserve">
+    <value>Yeniden isimlendir</value>
+  </data>
+  <data name="LayoutStringId.UnLockItemSizeMenuText" xml:space="preserve">
+    <value>Öğe ebatı kilidini Aç</value>
+  </data>
+  <data name="LayoutStringId.RenameSelected" xml:space="preserve">
+    <value>Yeniden isimlendir</value>
+  </data>
+  <data name="LayoutStringId.LockMenuGroup" xml:space="preserve">
+    <value>Sınırlamaları İstenilen ebata ayarla</value>
+  </data>
+  <data name="LayoutStringId.TreeViewPageTitle" xml:space="preserve">
+    <value>Ağaç Görüntüsü Düzenle</value>
+  </data>
+  <data name="LayoutStringId.HideCustomizationFormMenuText" xml:space="preserve">
+    <value>Uyarlama Formunu Sakla</value>
+  </data>
+  <data name="LayoutStringId.FreeSizingMenuItem" xml:space="preserve">
+    <value>Serbest Ebatlandırma</value>
+  </data>
+  <data name="LayoutStringId.LockWidthMenuItem" xml:space="preserve">
+    <value>Genişliği Kilitle</value>
+  </data>
+  <data name="LayoutStringId.HiddenItemsPageTitle" xml:space="preserve">
+    <value>Saklı Öğeler</value>
+  </data>
+  <data name="LayoutStringId.GroupItemsMenuText" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="LayoutStringId.CustomizationParentName" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="LayoutStringId.ResetLayoutMenuText" xml:space="preserve">
+    <value>Düzenlemeyi Yeniden başlat</value>
+  </data>
+  <data name="LayoutStringId.TextPositionTopMenuText" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="LayoutStringId.HideTextMenuItem" xml:space="preserve">
+    <value>Metni Sakla</value>
+  </data>
+  <data name="LayoutStringId.UnGroupTabbedGroupMenuText" xml:space="preserve">
+    <value>Sekmeli grubu Çöz</value>
+  </data>
+  <data name="LayoutStringId.LoadButtonHintText" xml:space="preserve">
+    <value>XML dosyasından düzenlemeleri yükle</value>
+  </data>
+  <data name="LayoutStringId.SaveButtonHintText" xml:space="preserve">
+    <value>Düzenlemeleri XML dosyasına kaydet</value>
+  </data>
+  <data name="LayoutStringId.DefaultItemText" xml:space="preserve">
+    <value>Öğe</value>
+  </data>
+  <data name="LayoutStringId.SplitterItemDefaultText" xml:space="preserve">
+    <value>Bölümlendirici</value>
+  </data>
+  <data name="LayoutStringId.DefaultActionText" xml:space="preserve">
+    <value>Varsayım Hareketi</value>
+  </data>
+  <data name="LayoutStringId.RedoButtonHintText" xml:space="preserve">
+    <value>Son aksiyonu Tekrarla</value>
+  </data>
+  <data name="LayoutStringId.LayoutItemDescription" xml:space="preserve">
+    <value>Kontrol öğesi Elemanlarını Düzenle</value>
+  </data>
+  <data name="LayoutStringId.TextPositionRightMenuText" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="LayoutStringId.TabbedGroupDescription" xml:space="preserve">
+    <value>Sekmeli Grup elemanları kontrolünü düzenle</value>
+  </data>
+  <data name="LayoutStringId.LayoutGroupDescription" xml:space="preserve">
+    <value>Kontrol Grup Elemanlarını Düzenle</value>
+  </data>
+  <data name="LayoutStringId.LayoutControlDescription" xml:space="preserve">
+    <value>Kontrolü Düzenle</value>
+  </data>
+  <data name="LayoutStringId.EmptyRootGroupText" xml:space="preserve">
+    <value>Kontrolü Buraya Sürükle</value>
+  </data>
+  <data name="LayoutStringId.LoadHintCaption" xml:space="preserve">
+    <value>Yükle (Ctrl+O)</value>
+  </data>
+  <data name="LayoutStringId.HideItemMenutext" xml:space="preserve">
+    <value>Öğeyi Sakla</value>
+  </data>
+  <data name="LayoutStringId.CreateTabbedGroupMenuText" xml:space="preserve">
+    <value>Sekmeli Grup Yarat</value>
+  </data>
+  <data name="LayoutStringId.AddTabMenuText" xml:space="preserve">
+    <value>Sekme Ekle</value>
+  </data>
+  <data name="LayoutStringId.LockItemSizeMenuText" xml:space="preserve">
+    <value>Öğe Ebatını Kilitle</value>
+  </data>
+  <data name="LayoutStringId.EmptySpaceItemDefaultText" xml:space="preserve">
+    <value>Boş Yer Öğesi</value>
+  </data>
+  <data name="LayoutStringId.EmptyTabbedGroupText" xml:space="preserve">
+    <value>Grupları Sekmeli Grup Alanı içine sürükle ve bırak</value>
+  </data>
+  <data name="LayoutStringId.TreeViewRootNodeName" xml:space="preserve">
+    <value>Kök</value>
+  </data>
+  <data name="LayoutStringId.LockSizeMenuItem" xml:space="preserve">
+    <value>Ebatı Kilitle</value>
+  </data>
+  <data name="LayoutStringId.CreateEmptySpaceItem" xml:space="preserve">
+    <value>Boş Yer Yarat</value>
+  </data>
+  <data name="LayoutStringId.UnGroupItemsMenuText" xml:space="preserve">
+    <value>Grubu Çöz</value>
+  </data>
+  <data name="LayoutStringId.SaveHintCaption" xml:space="preserve">
+    <value>Kaydet (Ctrl+S)</value>
+  </data>
+  <data name="LayoutStringId.UndoHintCaption" xml:space="preserve">
+    <value>Geri Al (Ctrl+Z)</value>
+  </data>
+  <data name="LayoutStringId.LockHeightMenuItem" xml:space="preserve">
+    <value>Yükseltiyi kilitle</value>
+  </data>
+  <data name="LayoutStringId.DefaultEmptyText" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="LayoutStringId.ControlGroupDefaultText" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="LayoutStringId.TextPositionLeftMenuText" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="LayoutStringId.ShowCustomizationFormMenuText" xml:space="preserve">
+    <value>Düzenlemeyi Uyarla</value>
+  </data>
+  <data name="LayoutStringId.RedoHintCaption" xml:space="preserve">
+    <value>Tekrarla(Ctrl+Y)</value>
+  </data>
+  <data name="LayoutStringId.SimpleSeparatorItemDefaultText" xml:space="preserve">
+    <value>Ayırıcı</value>
+  </data>
+  <data name="LayoutStringId.HiddenItemsNodeText" xml:space="preserve">
+    <value>Gizlenmiş Adetler</value>
+  </data>
+  <data name="LayoutStringId.SimpleLabelItemDefaultText" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="LayoutStringId.LayoutResetConfirmationDialogCaption" xml:space="preserve">
+    <value>Düzen sıfırlama onayı</value>
+  </data>
+  <data name="LayoutStringId.ShowSpaceMenuItem" xml:space="preserve">
+    <value>Metin yer tutucusunu göster</value>
+  </data>
+  <data name="LayoutStringId.HideSpaceMenuItem" xml:space="preserve">
+    <value>Collapse metin yer tutucusu</value>
+  </data>
+  <data name="LayoutStringId.LayoutResetConfirmationText" xml:space="preserve">
+    <value>Düzen özelleştirmeleri sıfırlanacaktır. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="LayoutStringId.CreateTemplate" xml:space="preserve">
+    <value>Şablon oluşturma</value>
+  </data>
+  <data name="LayoutStringId.BestFitMenuText" xml:space="preserve">
+    <value>En uygun</value>
+  </data>
+  <data name="LayoutStringId.DeleteTemplateText" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="LayoutStringId.ConvertToText" xml:space="preserve">
+    <value>Dönüştür</value>
+  </data>
+  <data name="LayoutStringId.EditColumns" xml:space="preserve">
+    <value>Sütunları düzenle</value>
+  </data>
+  <data name="LayoutStringId.EditRows" xml:space="preserve">
+    <value>Satırları düzenle</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleLight" xml:space="preserve">
+    <value>ışık</value>
+  </data>
+</root>

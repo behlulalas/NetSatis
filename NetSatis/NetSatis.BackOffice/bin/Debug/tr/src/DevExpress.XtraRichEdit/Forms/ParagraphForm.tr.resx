@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="xtraTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="chkContextualSpacing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 218</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="chkContextualSpacing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="chkContextualSpacing.Properties.AccessibleName" xml:space="preserve">
+    <value>Don't add space between paragraphs of the same style</value>
+  </data>
+  <data name="chkContextualSpacing.Properties.Caption" xml:space="preserve">
+    <value>Aynı stildeki paragrafların arasına boşluk ekleme</value>
+  </data>
+  <data name="chkContextualSpacing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 19</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="chkContextualSpacing.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chkContextualSpacing.Name" xml:space="preserve">
+    <value>chkContextualSpacing</value>
+  </data>
+  <data name="&gt;&gt;chkContextualSpacing.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;chkContextualSpacing.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="edtOutlineLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 48</value>
+  </data>
+  <data name="edtOutlineLevel.Properties.AccessibleName" xml:space="preserve">
+    <value>OutlineLevel</value>
+  </data>
+  <data name="edtOutlineLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="edtOutlineLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;edtOutlineLevel.Name" xml:space="preserve">
+    <value>edtOutlineLevel</value>
+  </data>
+  <data name="&gt;&gt;edtOutlineLevel.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;edtOutlineLevel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOutlineLevel.AccessibleName" xml:space="preserve">
+    <value>OutlineLevel</value>
+  </data>
+  <data name="lblOutlineLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 51</value>
+  </data>
+  <data name="lblOutlineLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="lblOutlineLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblOutlineLevel.Text" xml:space="preserve">
+    <value>&amp;Anahat Düzeyi:</value>
+  </data>
+  <data name="&gt;&gt;lblOutlineLevel.Name" xml:space="preserve">
+    <value>lblOutlineLevel</value>
+  </data>
+  <data name="&gt;&gt;lblOutlineLevel.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;lblOutlineLevel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="edtAlignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 22</value>
+  </data>
+  <data name="edtAlignment.Properties.AccessibleName" xml:space="preserve">
+    <value>Alignment:</value>
+  </data>
+  <data name="edtAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="edtAlignment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;edtAlignment.Name" xml:space="preserve">
+    <value>edtAlignment</value>
+  </data>
+  <data name="&gt;&gt;edtAlignment.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;edtAlignment.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblAlignment.AccessibleName" xml:space="preserve">
+    <value>Alignment:</value>
+  </data>
+  <data name="lblAlignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="lblAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblAlignment.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblAlignment.Text" xml:space="preserve">
+    <value>Hizalama:</value>
+  </data>
+  <data name="&gt;&gt;lblAlignment.Name" xml:space="preserve">
+    <value>lblAlignment</value>
+  </data>
+  <data name="&gt;&gt;lblAlignment.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;lblAlignment.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="paragraphSpacingControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 166</value>
+  </data>
+  <data name="paragraphSpacingControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 48</value>
+  </data>
+  <data name="paragraphSpacingControl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;paragraphSpacingControl.Name" xml:space="preserve">
+    <value>paragraphSpacingControl</value>
+  </data>
+  <data name="&gt;&gt;paragraphSpacingControl.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;paragraphSpacingControl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 147</value>
+  </data>
+  <data name="labelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 13</value>
+  </data>
+  <data name="labelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Name" xml:space="preserve">
+    <value>labelControl3</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 74</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 13</value>
+  </data>
+  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Girinti</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 19</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="paragraphIndentationControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="paragraphIndentationControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="paragraphIndentationControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 50</value>
+  </data>
+  <data name="paragraphIndentationControl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;paragraphIndentationControl.Name" xml:space="preserve">
+    <value>paragraphIndentationControl</value>
+  </data>
+  <data name="&gt;&gt;paragraphIndentationControl.Parent" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;paragraphIndentationControl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="indentsAndSpacing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 253</value>
+  </data>
+  <data name="indentsAndSpacing.Text" xml:space="preserve">
+    <value>&amp;Girintiler ve Aralıklar</value>
+  </data>
+  <data name="&gt;&gt;indentsAndSpacing.Name" xml:space="preserve">
+    <value>indentsAndSpacing</value>
+  </data>
+  <data name="&gt;&gt;indentsAndSpacing.Parent" xml:space="preserve">
+    <value>xtraTabControl</value>
+  </data>
+  <data name="&gt;&gt;indentsAndSpacing.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 281</value>
+  </data>
+  <data name="xtraTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkPageBreakBefore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 50</value>
+  </data>
+  <data name="chkPageBreakBefore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="chkPageBreakBefore.Properties.AccessibleName" xml:space="preserve">
+    <value>Page break before</value>
+  </data>
+  <data name="chkPageBreakBefore.Properties.Caption" xml:space="preserve">
+    <value>Önce sayfa sonu</value>
+  </data>
+  <data name="chkPageBreakBefore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 19</value>
+  </data>
+  <data name="chkPageBreakBefore.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkPageBreakBefore.Name" xml:space="preserve">
+    <value>chkPageBreakBefore</value>
+  </data>
+  <data name="&gt;&gt;chkPageBreakBefore.Parent" xml:space="preserve">
+    <value>lineAndPageBreaks</value>
+  </data>
+  <data name="&gt;&gt;chkPageBreakBefore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkKeepLinesTogether.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="chkKeepLinesTogether.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="chkKeepLinesTogether.Properties.AccessibleName" xml:space="preserve">
+    <value>Keep lines together</value>
+  </data>
+  <data name="chkKeepLinesTogether.Properties.Caption" xml:space="preserve">
+    <value>&amp;Satırları birlikte tut</value>
+  </data>
+  <data name="chkKeepLinesTogether.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 19</value>
+  </data>
+  <data name="chkKeepLinesTogether.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkKeepLinesTogether.Name" xml:space="preserve">
+    <value>chkKeepLinesTogether</value>
+  </data>
+  <data name="&gt;&gt;chkKeepLinesTogether.Parent" xml:space="preserve">
+    <value>lineAndPageBreaks</value>
+  </data>
+  <data name="&gt;&gt;chkKeepLinesTogether.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="labelControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 19</value>
+  </data>
+  <data name="labelControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelControl4.Text" xml:space="preserve">
+    <value>Sayfalama</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Name" xml:space="preserve">
+    <value>labelControl4</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Parent" xml:space="preserve">
+    <value>lineAndPageBreaks</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lineAndPageBreaks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 253</value>
+  </data>
+  <data name="lineAndPageBreaks.Text" xml:space="preserve">
+    <value>Satır ve Sayfa Sonu</value>
+  </data>
+  <data name="&gt;&gt;lineAndPageBreaks.Name" xml:space="preserve">
+    <value>lineAndPageBreaks</value>
+  </data>
+  <data name="&gt;&gt;lineAndPageBreaks.Parent" xml:space="preserve">
+    <value>xtraTabControl</value>
+  </data>
+  <data name="&gt;&gt;lineAndPageBreaks.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl.Name" xml:space="preserve">
+    <value>xtraTabControl</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOk.AccessibleName" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 299</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 299</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnTabs.AccessibleName" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="btnTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 299</value>
+  </data>
+  <data name="btnTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnTabs.Text" xml:space="preserve">
+    <value>&amp;Sekme...</value>
+  </data>
+  <data name="&gt;&gt;btnTabs.Name" xml:space="preserve">
+    <value>btnTabs</value>
+  </data>
+  <data name="&gt;&gt;btnTabs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>494, 334</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ParagraphForm</value>
+  </data>
+</root>

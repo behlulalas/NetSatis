@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocumentManagerStringId.CommandHorizontalOrientation" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCloseAllButThis" xml:space="preserve">
+    <value>Diğer Sekmeleri Kapat</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCloseAll" xml:space="preserve">
+    <value>Tüm Dökümanları Kapat</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCascade" xml:space="preserve">
+    <value>Pencereleri Hizala</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandNewDocumentGroup" xml:space="preserve">
+    <value>Yeni Sekme Grubu</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMoveToNextDocumentGroup" xml:space="preserve">
+    <value>Bir sonraki Tab Grubuna taşı</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandBack" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandArrangeIcons" xml:space="preserve">
+    <value>İkonları Organize Et</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMinimizeAll" xml:space="preserve">
+    <value>Pencereleri Küçült</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandActivate" xml:space="preserve">
+    <value>Aktive Et</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMaximize" xml:space="preserve">
+    <value>Büyüt</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandVerticalOrientation" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandNewVerticalDocumentGroup" xml:space="preserve">
+    <value>Yeni Dikey Sekme Grubu</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMoveToPrevDocumentGroup" xml:space="preserve">
+    <value>Bir önceki Tab Grubuna taşı</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandNewHorizontalDocumentGroup" xml:space="preserve">
+    <value>Yeni Yatay Sekme Grubu</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFlip" xml:space="preserve">
+    <value>Ters çevir</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandEnableFullScreenMode" xml:space="preserve">
+    <value>Tam ekran</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandHome" xml:space="preserve">
+    <value>Ana sayfa</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandResetLayout" xml:space="preserve">
+    <value>Pencere düzenini Sıfırla</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRestore" xml:space="preserve">
+    <value>Geri yükleme</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRotateDescription" xml:space="preserve">
+    <value>Düzen döndürme</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileHorizontal" xml:space="preserve">
+    <value>Pencereleri üst üste göster</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileVertical" xml:space="preserve">
+    <value>Pencereleri yan yana göster</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandToggleTileSize" xml:space="preserve">
+    <value>Geçiş boyut</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMakeTileLarger" xml:space="preserve">
+    <value>Daha büyük</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMakeTileSmaller" xml:space="preserve">
+    <value>Daha küçük</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandOverview" xml:space="preserve">
+    <value>Genel bakış</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFloat" xml:space="preserve">
+    <value>Kayan nokta</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDetail" xml:space="preserve">
+    <value>Detay</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandExit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRotate" xml:space="preserve">
+    <value>Döndürme</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadingIndicatorCaption" xml:space="preserve">
+    <value>Lütfen bekleyin</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadingIndicatorDescription" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="DocumentManagerStringId.OpenedWindowsDialogPathColumnCaption" xml:space="preserve">
+    <value>Yol</value>
+  </data>
+  <data name="DocumentManagerStringId.SplashScreenCaption" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDetailDescription" xml:space="preserve">
+    <value>Bu belgeye gidin</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDisableFullScreenMode" xml:space="preserve">
+    <value>Tam ekran devre dışı bırakma</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDisableFullScreenModeDescription" xml:space="preserve">
+    <value>Normal görünüme</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDock" xml:space="preserve">
+    <value>Sekmeli belge olarak Dock</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandBackDescription" xml:space="preserve">
+    <value>Geriye Git</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandClearSelection" xml:space="preserve">
+    <value>Seçimi Temizle</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandClearSelectionDescription" xml:space="preserve">
+    <value>Açık Döşeme seçimi</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCloseAllButPinned" xml:space="preserve">
+    <value>Yakın tüm ama tutturulmuş</value>
+  </data>
+  <data name="DocumentManagerStringId.NonDocumentModeInitializationExceptionMessage" xml:space="preserve">
+    <value>Sigara-belge modunda başlatma gerçekleştirilmedi. Bu modu etkinleştirmek için DocumentManager'ın ClientControl özelliği belirtin.</value>
+  </data>
+  <data name="DocumentManagerStringId.NoPreviewAvailableText" xml:space="preserve">
+    <value>Önizleme kullanılamaz</value>
+  </data>
+  <data name="DocumentManagerStringId.NullParentContainerExceptionMessage" xml:space="preserve">
+    <value>DocumentManager üst kapsayıcı olmalıdır. Aşağıdaki özelliklerden birini ayarlandığından emin olun: MdiParent, ClientControl veya ContainerControl.</value>
+  </data>
+  <data name="DocumentManagerStringId.OpenedWindowsDialogNameColumnCaption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandToggleTileSizeDescription" xml:space="preserve">
+    <value>Toggle döşeme boyutu</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandUnpinTab" xml:space="preserve">
+    <value>Sekmeyi sabitleme</value>
+  </data>
+  <data name="DocumentManagerStringId.DeferredLoadingExceptionMessage" xml:space="preserve">
+    <value>Ertelenen içerik yükleme gerçekleştirilmedi. İçerik sağlamak için görünümün QueryControl olayına abone.</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandOverviewDescription" xml:space="preserve">
+    <value>Liste olarak belgeleri görüntüleme</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandPinTab" xml:space="preserve">
+    <value>PIN sekmesi</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMakeTileSmallerDescription" xml:space="preserve">
+    <value>Daha küçük döşeme yapmak</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandOpenedWindowsDialog" xml:space="preserve">
+    <value>Pencereler...</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMakeTileLargerDescription" xml:space="preserve">
+    <value>Büyük çini yapmak</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandHomeDescription" xml:space="preserve">
+    <value>Giriş ekranına gidin</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFlipDescription" xml:space="preserve">
+    <value>Belgeleri çevirmek</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandEnableFullScreenModeDescription" xml:space="preserve">
+    <value>Tam ekrana geçiş</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRestoreAll" xml:space="preserve">
+    <value>Windows Geri Yükleme</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandExitDescription" xml:space="preserve">
+    <value>Uygulamadan Çık</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMoveToMainDocumentGroup" xml:space="preserve">
+    <value>Ana belge gruba taşıma</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFloatAll" xml:space="preserve">
+    <value>Tüm float</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDockWidget" xml:space="preserve">
+    <value>Dok</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileMediumSize" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileWideSize" xml:space="preserve">
+    <value>Geniş</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadWorkspaceFormCaption" xml:space="preserve">
+    <value>Çalışma alanı yükle</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadWorkspaceItemCaption" xml:space="preserve">
+    <value>Çalışma alanı yükle...</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspacesDialogNameColumnCaption" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DocumentManagerStringId.OpenedWindowsDialogCaption" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="DocumentManagerStringId.ActivateDocumentButtonText" xml:space="preserve">
+    <value>Etkinleştirme</value>
+  </data>
+  <data name="DocumentManagerStringId.CloseDocumentButtonText" xml:space="preserve">
+    <value>Pencereyi Kapat</value>
+  </data>
+  <data name="DocumentManagerStringId.CloseAllDocumentsButtonText" xml:space="preserve">
+    <value>Tümünü Kapat</value>
+  </data>
+  <data name="DocumentManagerStringId.RemoveAllWorkspacesButtonText" xml:space="preserve">
+    <value>Tüm çalışma alanları kaldır</value>
+  </data>
+  <data name="DocumentManagerStringId.RemoveWorkspaceButtonText" xml:space="preserve">
+    <value>Çalışma alanı Kaldır</value>
+  </data>
+  <data name="DocumentManagerStringId.SaveWorkspaceButtonText" xml:space="preserve">
+    <value>Çalışma alanını Kaydet</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspacesDialogCaption" xml:space="preserve">
+    <value>Çalışma alanları</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspacesDialogPathColumnCaption" xml:space="preserve">
+    <value>Yol</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandWorkspacesDialog" xml:space="preserve">
+    <value>Çalışma alanları...</value>
+  </data>
+  <data name="DocumentManagerStringId.DocumentModeInappropriateViewExceptionMessage" xml:space="preserve">
+    <value>Bu türde görünüm yalnızca sigara-belge modunda kullanılmak üzere tasarlanmıştır.</value>
+  </data>
+  <data name="DocumentManagerStringId.TabbedViewLayoutModeChangingDialogCaption" xml:space="preserve">
+    <value>FreeLayoutMode devre dışı bırak</value>
+  </data>
+  <data name="DocumentManagerStringId.TabbedViewLayoutModeChangingDialogText" xml:space="preserve">
+    <value>Varsayılan doğrusal Düzen modunu uygulamak istediğinizden emin misiniz?</value>
+  </data>
+</root>

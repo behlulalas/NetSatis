@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?><root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxReportsStringId.SearchDialog_Header">
+    <value>Search</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat">
+    <value>Find&amp;nbsp;what</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindNext">
+    <value>Find Next</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Cancel">
+    <value>Cancel</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord">
+    <value>Match whole word only</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case">
+    <value>Match case</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up">
+    <value>Up</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down">
+    <value>Down</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Finished">
+    <value>Finished searching the document.</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Collapse">
+    <value>Collapse</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Open">
+    <value>Open</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Search">
+    <value>Display the search window</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintReport">
+    <value>Print the report</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintPage">
+    <value>Print the current page</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FirstPage">
+    <value>First Page</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PreviousPage">
+    <value>Previous Page</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_NextPage">
+    <value>Next Page</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_LastPage">
+    <value>Last Page</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToWindow">
+    <value>Export a report and show it in a new window</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToDisk">
+    <value>Export a report and save it to the disk</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PageLabel">
+    <value>Page</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_OfLabel">
+    <value>of</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Reset">
+    <value>Reset</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Submit">
+    <value>Submit</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_True">
+    <value>Yes</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_False">
+    <value>No</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_GuidValidationError">
+    <value>Guid should contain 32 digits delimited with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_DateTimeValueValidationError">
+    <value>The value cannot be empty.</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_GenericRegexValidationError">
+    <value>The value is not valid.</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_pdf">
+    <value>PDF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xls">
+    <value>XLS</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xlsx">
+    <value>XLSX</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_rtf">
+    <value>RTF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_docx">
+    <value>DOCX</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_mht">
+    <value>MHT</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_html">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_txt">
+    <value>Text</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_csv">
+    <value>CSV</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_png">
+    <value>Image</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemotePageByPage_Error">
+    <value>To view a remote report, enable the PageByPage property of the SettingsReportViewer.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteRequestCredentials_Error">
+    <value>The RequestCredentials event has not been subscribed to.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceSettings_Error">
+    <value>To view the remote report, specify the ServerUri or EndpointConfigurationName property of the ASPxDocumentViewer.SettingsRemoteSource.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceSettings_CustomTokenStorage_Error">
+    <value>The DocumentViewerRemoteSourceSettings.CustomTokenStorage property is not assigned.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceSettingsAndConfiguration_Error">
+    <value>It is only possible to assign either the SettingsRemoteSource or ConfigurationRemoteSource property of ASPxDocumentViewer at a time.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_LocalAndRemoteSource_Error">
+    <value>It is only possible to assign either the Local Report or Remote Source of ASPxDocumentViewer at a time.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorCredential_Error">
+    <value>The user credentials cannot be empty.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorCredentialHandled_Error">
+    <value>To log in to the Report Server, handle the RequestCredentials event.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorLogin_Error">
+    <value>Failed to log in with the specified user credentials.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_NoRemoteDocumentInformation_Error">
+    <value>This command cannot be executed because a document has not yet been generated.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceConnection_Error">
+    <value>The specified Report Service has not been found.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_ExternalRibbonNotFound_Error">
+    <value>Cannot find a toolbar control with the specified name: '{0}'.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonHomeTabText">
+    <value>Home</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPrintGroupText">
+    <value>Print</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonNavigationGroupText">
+    <value>Navigation</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonExportGroupText">
+    <value>Export</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonReportGroupText">
+    <value>Report</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToWindow">
+    <value>Save To Window</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToFile">
+    <value>Save To File</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FindText">
+    <value>Find Text</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FirstPage">
+    <value>First Page</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PreviousPage">
+    <value>Previous Page</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_NextPage">
+    <value>Next Page</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_LastPage">
+    <value>Last Page</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintReport">
+    <value>Print Report</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintPage">
+    <value>Print Page</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_DocumentMap">
+    <value>Document Map</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_ParametersPanel">
+    <value>Parameters Panel</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_SaveToWindow">
+    <value>Save the document in a specified format and display the result in a new window.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_SaveToFile">
+    <value>Save the document to a file in a specified format.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FindText">
+    <value>Find text in the document.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FirstPage">
+    <value>Display the first document page.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PreviousPage">
+    <value>Display the previous document page.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_NextPage">
+    <value>Display the next document page.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_LastPage">
+    <value>Display the last document page.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintReport">
+    <value>Specify the print settings and print the document.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintPage">
+    <value>Specify the print settings and print the current page.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_DocumentMap">
+    <value>Navigate through the report's hierarchy of bookmarks.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_ParametersPanel">
+    <value>Access and modify the report parameter values.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPageCountText">
+    <value>Page Count:</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageText">
+    <value>Current Page</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageToolTip">
+    <value>Display the specified page.</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_EnterText">
+    <value>Enter the text to find in the document.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SelectAll">
+    <value>(Select All)</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_PlatformNotSupported_Error">
+    <value>To be able to run the Document Viewer, the client web browser must support HTML5.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_OpenReport_Error">
+    <value>To display a report, only one of the following actions can be performed at a time:
+- assigning the ASPxWebDocumentViewer.ReportSourceId property;
+- calling the ASPxWebDocumentViewer.OpenReport method;
+- calling the ASPxWebDocumentViewer.OpenReportXmlLayout method.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_CustomDocumentOperationsDenied_Error">
+    <value>The requested document operation cannot be performed.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AccessDenied_Error">
+    <value>Access is denied. You are not granted permission to perform this operation.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentNotFound_Error">
+    <value>The document is not found. Please try opening the document once again.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ReportNotFound_Error">
+    <value>The report is not found. Please try opening the report once again.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_InitializationError">
+    <value>The report preview initialization has failed</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentCreationError">
+    <value>Cannot create a document for the current report</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetBuildStatusError">
+    <value>Error obtaining a build status</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchError">
+    <value>An error occurred during search</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetDocumentDataError">
+    <value>Cannot obtain additional document data for the current document</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetLookUpValuesError">
+    <value>Cannot supply filtered lookup values to a report parameter editor</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_0Pages">
+    <value>0 pages</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_NoParameters">
+    <value>The report does not contain any parameters.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchResultText">
+    <value>Search result</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchPageNumberText">
+    <value>page</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentBuilding">
+    <value>Document is building...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Loading">
+    <value>Loading...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportToText">
+    <value>Export To</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ToggleMultipageMode">
+    <value>Toggle Multipage Mode</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DataRetrievalException_Message">
+    <value>Error when trying to populate the datasource.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PlatformNotSupported_Error">
+    <value>To be able to run the Report Designer, the client web browser must support HTML5.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Groups">
+    <value>Groups</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Tables">
+    <value>Tables</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertBottomMarginBand">
+    <value>Insert Bottom Margin Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertDetailBand">
+    <value>Insert Detail Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertDetailReportBand">
+    <value>Insert Detail Report Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertGroupFooterBand">
+    <value>Insert Group Footer Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertGroupHeaderBand">
+    <value>Insert Group Header Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertPageFooterBand">
+    <value>Insert Page Footer Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertPageHeaderBand">
+    <value>Insert Page Header Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertReportFooterBand">
+    <value>Insert Report Footer Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertReportHeaderBand">
+    <value>Insert Report Header Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertSubBand">
+    <value>Insert Sub-Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertTopMarginBand">
+    <value>Insert Top Margin Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteCell">
+    <value>Delete Cell</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteColumn">
+    <value>Delete Column</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteRow">
+    <value>Delete Row</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertCell">
+    <value>Insert Cell</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertRowAbove">
+    <value>Insert Row Above</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertRowBelow">
+    <value>Insert Row Below</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToLeft">
+    <value>Insert Column To the Left</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToRight">
+    <value>Insert Column To the Right</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DistributeColumnsEvenly">
+    <value>Distribute Columns Evenly</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DistributeRowsEvenly">
+    <value>Distribute Rows Evenly</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GroupFields_Empty">
+    <value>To create a new item, click Add.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Preview_ParametersTitle">
+    <value>Preview Parameters</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldList_Parameters">
+    <value>There are no parameters available yet.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_StylesEditor_CreateNew">
+    <value>Create a New Style</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Parameters_CreateParameters">
+    <value>The report does not have any parameters yet. To create a new parameter, click Add Parameter.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddFilterFields">
+    <value>Add Filter Fields Here</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddRowFields">
+    <value>Add Row Fields Here</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddColumnFields">
+    <value>Add Column Fields Here</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddDataItems">
+    <value>Add Data Items Here</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheFilterArea">
+    <value>Insert Field in the Filter Area</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheDataArea">
+    <value>Insert Field in the Data Area</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheColumnArea">
+    <value>Insert Field in the Column Area</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheRowArea">
+    <value>Insert Field in the Row Area</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TooltipButtons_Preview">
+    <value>Preview</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_RunWizard">
+    <value>Run Wizard</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_Save">
+    <value>Save</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ElementsAction_SizeToControlWidth">
+    <value>Size to Control Width</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ElementsAction_SizeToControlHeight">
+    <value>Size to Control Height</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ElementsAction_SizeToControl">
+    <value>Size to Control</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_AddParameter">
+    <value>Add parameter</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_AddCalculatedField">
+    <value>Add calculated field</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_RemoveParameter">
+    <value>Remove parameter</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_RemoveCalculatedField">
+    <value>Remove calculated field</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Accordion_Collapsed">
+    <value>Collapsed</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_Title">
+    <value>Choose a Report Type</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_Message">
+    <value>Select the report type you wish to create.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_EmptyReport">
+    <value>Empty Report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_DataBoundReport">
+    <value>Data-bound Report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_LabelReport">
+    <value>Label Report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSource_Title">
+    <value>Choose a Data Source</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSource_Description">
+    <value>Choose a Data Source to use in your report.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_UseExisting_DataSource">
+    <value>Do you want to use an existing data source?</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSourceFromList">
+    <value>Yes, let me choose an existing data source from the list</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateNewDataSource">
+    <value>No, I'd like to create a new SQL data source</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataMember_Title">
+    <value>Choose a Table or View</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataMember_Description">
+    <value>The table or view you choose determines which columns will be available in your report.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseColumns_Title">
+    <value>Choose Columns to Display in Your Report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseColumns_Description">
+    <value>Select the columns you want to display within your report.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AvailableFields">
+    <value>Available fields</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectedFields">
+    <value>Selected fields</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateGroups_Title">
+    <value>Create Groups</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateGroups_Description">
+    <value>Create multiple groups, each with a single field value, or define several fields in the same group.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Title">
+    <value>Choose summary options</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Description">
+    <value>What summary functions would you like to calculate?</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Average">
+    <value>Average</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Count">
+    <value>Count</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Max">
+    <value>Max</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Min">
+    <value>Min</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Sum">
+    <value>Sum</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_IgnoreNullValues">
+    <value>Ignore null values</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Title">
+    <value>Choose a Report Layout</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Description">
+    <value>The report layout specifies the manner in which selected data fields are arranged on individual pages.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Portrait">
+    <value>Portrait</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Landscape">
+    <value>Landscape</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Columnar">
+    <value>Columnar</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Tabular">
+    <value>Tabular</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Justified">
+    <value>Justified</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Stepped">
+    <value>Stepped</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Outline1">
+    <value>Outline 1</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Outline2">
+    <value>Outline 2</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_AlignLeft1">
+    <value>Align Left 1</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_AlignLeft2">
+    <value>Align Left 2</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_AdjustFieldWidth">
+    <value>Adjust the field width so all fields fit onto a page</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Report_Style">
+    <value>Choose a Report Style</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Description">
+    <value>The report style specifies the appearance of your report.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Bold">
+    <value>Bold</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Casual">
+    <value>Casual</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Corporate">
+    <value>Corporate</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Compact">
+    <value>Compact</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Formal">
+    <value>Formal</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Title">
+    <value>Title</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Caption">
+    <value>Caption</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Data">
+    <value>Data</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete_Title">
+    <value>The Report is Complete</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete_Description">
+    <value>We have all the information needed to process the report.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete_SpecifyTitle">
+    <value>Specify the report's title</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Next">
+    <value>Next</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Previous">
+    <value>Previous</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Finish">
+    <value>Finish</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Header">
+    <value>Report Wizard</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_DataSourceHeader">
+    <value>Data Source Wizard</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSize">
+    <value>Page Size:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LabelWidth">
+    <value>Label Width:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LabelHeight">
+    <value>Label Height:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_HorizontalPitch">
+    <value>Horizontal Pitch:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_VerticalPitch">
+    <value>Vertical Pitch:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_TopMargin">
+    <value>Top Margin:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LeftMargin">
+    <value>Left Margin:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_RightMargin">
+    <value>Right Margin:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_BottomMargin">
+    <value>Bottom Margin:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Inch">
+    <value>Inch</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Millimeter">
+    <value>Millimeter</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LabelProduct">
+    <value>Label Product:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ProductNumber">
+    <value>Product Number:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Width">
+    <value>Width:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Height">
+    <value>Height:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PaperType">
+    <value>Paper Type:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PaperSize">
+    <value>Paper Size:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_Description">
+    <value>Select data members to assign to the report and its detail reports and fields to display in these reports.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SelectFieldsAndSummaries">
+    <value>Select fields and assign summary functions to them</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SelectReport">
+    <value>Select the report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataMembers">
+    <value>Select data members</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataFields">
+    <value>Select data fields</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SummaryFunctions">
+    <value>Summary functions</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuItem_AddSqlDataSource">
+    <value>Add SQL Data Source...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_PageConfigureMultiQuery">
+    <value>Columns selected from specific tables and/or views will be automatically included into a separate query.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_Title">
+    <value>SQL Data Source Wizard</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_PageChooseConnection">
+    <value>Choose a data connection.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_CreateNewQuery">
+    <value>Create New Query...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_WriteCustomSQL">
+    <value>Write Custom SQL</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_CustomSqlEditor">
+    <value>Custom SQL Editor</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_PageConfigureParameters">
+    <value>Configure query parameters.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_PageConfigureParametersEmpty">
+    <value>To create an item click the Add button.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_PageConfigureMasterDetailRelations">
+    <value>Configure master-detail relationships.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_AddQuery">
+    <value>Add query</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_EditQuery">
+    <value>Edit query</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SqlDSWizard_RemoveQuery">
+    <value>Remove query</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SelectionProperties">
+    <value>Selection Properties</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_QueryProperties">
+    <value>Query Properties</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_TableProperties">
+    <value>Table Properties</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_ColumnProperties">
+    <value>Column Properties</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_RelationProperties">
+    <value>Relation Properties</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SelectAll">
+    <value>Select All (*)</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SelectDistinct">
+    <value>Select distinct</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_AvailableTables">
+    <value>Available tables and views</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SortType">
+    <value>Sort Type</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_Operator">
+    <value>Operator</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_JoinType">
+    <value>Join Type</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Actions">
+    <value>Actions</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_DataPreview_Title">
+    <value>Data Preview (First 100 Rows Displayed)</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_DataPreview_Empty">
+    <value>No data to display</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SortFields_SortBy">
+    <value>Sort By</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SortFields_ThenBy">
+    <value>Then By</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GaugeViewType_Circular">
+    <value>Circular</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GaugeViewType_Linear">
+    <value>Linear</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_PreviewSelectStatement_Tooltip">
+    <value>Preview Select Statement...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SelectStatementPreview_Title">
+    <value>Select Statement Preview</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_LeftOperand">
+    <value>Left Operand</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_RightOperand">
+    <value>Right Operand</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_PopupMenu_Reset">
+    <value>Reset</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameValidationError">
+    <value>Invalid name</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameUniqueError">
+    <value>Name is not unique</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptEditor_Toolbar_SelectControl">
+    <value>Select control...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptEditor_Toolbar_SelectEvent">
+    <value>Select event...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FormatStringEditor_Title">
+    <value>Format String Editor</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FormatStringEditor_Types">
+    <value>Types</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FormatStringEditor_Suffix">
+    <value>Suffix</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FormatStringEditor_PreviewNotAvailable_Text">
+    <value>Preview is not available</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_World">
+    <value>World</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Pixel">
+    <value>Pixel</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Document">
+    <value>Document</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Point">
+    <value>Point</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_CrossBandControls">
+    <value>Cross-Band Controls</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_Editor_EmptyText">
+    <value>Select...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_RemoveDataSource">
+    <value>Remove Data Source</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_EditMasterDetailRelations">
+    <value>Edit Master-Detail Relations</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_AdvancedMode">
+    <value>Advanced Mode</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Value">
+    <value>Value</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Parameter">
+    <value>Parameter</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Property">
+    <value>Property</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_CreateNewParameter">
+    <value>Create new parameter</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_TreeCreationError">
+    <value>Cannot create a tree for this expression</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_AddArgument">
+    <value>Add Argument</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_AddNewItem">
+    <value>Add New Item</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Mobile_TapHereToSearch">
+    <value>Tap here to Search</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_SearchBox_EmptyText">
+    <value>Enter text to search...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportError">
+    <value>An error occurred during the export</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetExportStatusError">
+    <value>Error obtaining an export status</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportStatusError">
+    <value>Error on retrieving an exporting status: </value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DrillThroughError">
+    <value>Drill through operation failed</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_OpenReportError">
+    <value>Could not open report</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_DataSource_FilterCriteriaTitle">
+    <value>Filter Criteria</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CustomizeLabelPage_LabelCountText">
+    <value>labels on the page</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Message_ContainsErrors">
+    <value>The script contains error(s).</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Message_ValidScript">
+    <value>The script is valid.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Error">
+    <value>Impossible to validate the script.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameIsRequired_Error">
+    <value>Name is required and should be a valid identifier.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GuidIsRequired_Error">
+    <value>Guid is required and should have a valid format.</value>
+  </data>
+</root>

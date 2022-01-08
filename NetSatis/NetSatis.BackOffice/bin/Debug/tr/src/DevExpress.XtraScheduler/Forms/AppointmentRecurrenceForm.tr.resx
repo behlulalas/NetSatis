@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblEnd.Text" xml:space="preserve">
+    <value>Bi&amp;tiş:</value>
+  </data>
+  <data name="chkEndByDate.Properties.Caption" xml:space="preserve">
+    <value>Bitiş Tar&amp;ih:</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="lblDuration.AccessibleName" xml:space="preserve">
+    <value>Süre:</value>
+  </data>
+  <data name="grpRecurrenceRange.Text" xml:space="preserve">
+    <value>Tekrar Aralığı</value>
+  </data>
+  <data name="chkNoEndDate.Properties.Caption" xml:space="preserve">
+    <value>Bitiş Y&amp;ok</value>
+  </data>
+  <data name="chkNoEndDate.Properties.AccessibleName" xml:space="preserve">
+    <value>Bitiş Yok</value>
+  </data>
+  <data name="lblStart.Text" xml:space="preserve">
+    <value>&amp;Başlangıç:</value>
+  </data>
+  <data name="lblRangeStart.Text" xml:space="preserve">
+    <value>&amp;Başlangıç:</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>&amp;Süre:</value>
+  </data>
+  <data name="lblStart.AccessibleName" xml:space="preserve">
+    <value>Başlangıç</value>
+  </data>
+  <data name="grpAptTime.AccessibleName" xml:space="preserve">
+    <value>Görev Zamanı</value>
+  </data>
+  <data name="chkYearly.Properties.AccessibleName" xml:space="preserve">
+    <value>Yıllık</value>
+  </data>
+  <data name="lblRangeOccurrencesCount.AccessibleName" xml:space="preserve">
+    <value>kere</value>
+  </data>
+  <data name="edtStartTime.Properties.AccessibleName" xml:space="preserve">
+    <value>Başlangıç Zamanı:</value>
+  </data>
+  <data name="edtEndTime.Properties.AccessibleName" xml:space="preserve">
+    <value>Bitiş Zamanı:</value>
+  </data>
+  <data name="edtRangeStart.Properties.AccessibleName" xml:space="preserve">
+    <value>Başlangıç Tarihi</value>
+  </data>
+  <data name="chkWeekly.Properties.AccessibleName" xml:space="preserve">
+    <value>Haftalık</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="lblEnd.AccessibleName" xml:space="preserve">
+    <value>Bitiş</value>
+  </data>
+  <data name="grpRecurrencePattern.AccessibleName" xml:space="preserve">
+    <value>Tekrar Şablonu</value>
+  </data>
+  <data name="grpAptTime.Text" xml:space="preserve">
+    <value>Görev Zamanı</value>
+  </data>
+  <data name="chkDaily.Properties.Caption" xml:space="preserve">
+    <value>&amp;Günlük</value>
+  </data>
+  <data name="lblRangeOccurrencesCount.Text" xml:space="preserve">
+    <value>kere</value>
+  </data>
+  <data name="edtRangeEnd.Properties.AccessibleName" xml:space="preserve">
+    <value>Bitiş Tarih:</value>
+  </data>
+  <data name="chkEndAfterNumberOfOccurrences.Properties.Caption" xml:space="preserve">
+    <value>Biti&amp;ş:</value>
+  </data>
+  <data name="btnRemoveRecurrence.Text" xml:space="preserve">
+    <value>Tekrarı Kaldır</value>
+  </data>
+  <data name="chkMonthly.Properties.AccessibleName" xml:space="preserve">
+    <value>Aylık</value>
+  </data>
+  <data name="btnOk.AccessibleName" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="grpRecurrenceRange.AccessibleName" xml:space="preserve">
+    <value>Tekrar Aralığı</value>
+  </data>
+  <data name="btnRemoveRecurrence.AccessibleName" xml:space="preserve">
+    <value>Tekrarı Kaldır</value>
+  </data>
+  <data name="chkDaily.Properties.AccessibleName" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="chkWeekly.Properties.Caption" xml:space="preserve">
+    <value>&amp;Haftalık</value>
+  </data>
+  <data name="chkYearly.Properties.Caption" xml:space="preserve">
+    <value>&amp;Yıllık</value>
+  </data>
+  <data name="cbDuration.Properties.AccessibleName" xml:space="preserve">
+    <value>Süre:</value>
+  </data>
+  <data name="chkEndAfterNumberOfOccurrences.Properties.AccessibleName" xml:space="preserve">
+    <value>Bitiş:</value>
+  </data>
+  <data name="chkMonthly.Properties.Caption" xml:space="preserve">
+    <value>&amp;Aylık</value>
+  </data>
+  <data name="grpRecurrencePattern.Text" xml:space="preserve">
+    <value>Tekrar Şablonu</value>
+  </data>
+  <data name="lblRangeStart.AccessibleName" xml:space="preserve">
+    <value>Başlangıç:</value>
+  </data>
+  <data name="chkEndByDate.Properties.AccessibleName" xml:space="preserve">
+    <value>Bitiş Tarih:</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Randevu Yineleme</value>
+  </data>
+  <data name="spinRangeOccurrencesCount.Properties.AccessibleName" xml:space="preserve">
+    <value>Sona erdikten sonra düzenlenebilir metin oluşum</value>
+  </data>
+</root>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 407</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 407</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
+    <value>buttonOK</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 443</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CalculatedFieldExpressionEditorForm</value>
+  </data>
+  <data name="AggregateFunctions.Text" xml:space="preserve">
+    <value>Aggregate Functions</value>
+  </data>
+  <data name="WindowFunctions.Text" xml:space="preserve">
+    <value>Window Functions</value>
+  </data>
+  <data name="CountDistinctAggregate.Description" xml:space="preserve">
+    <value>CountDistinct(Value)
+Returns the number of unique objects in a collection.</value>
+  </data>
+  <data name="MedianAggregate.Description" xml:space="preserve">
+    <value>Median(Value)
+Returns the median of the values in a collection.</value>
+  </data>
+  <data name="StdDevAggregate.Description" xml:space="preserve">
+    <value>StdDev(Value)
+Returns an estimate of the standard deviation of a population, where the sample is a subset of the entire population.</value>
+  </data>
+  <data name="StdDevpAggregate.Description" xml:space="preserve">
+    <value>StdDevp(Value)
+Returns the standard deviation of a population, where the population is the entire data to be summarized.</value>
+  </data>
+  <data name="VarAggregate.Description" xml:space="preserve">
+    <value>Var(Value)
+Returns an estimate of the variance of a population, where the sample is a subset of the entire population.</value>
+  </data>
+  <data name="VarpAggregate.Description" xml:space="preserve">
+    <value>Varp(Value)
+Returns the variance of a population, where the population is the entire data to be summarized.</value>
+  </data>
+  <data name="AggrFunction.Description" xml:space="preserve">
+    <value>Aggr(SummaryExpression, Dimension1, Dimension2, ...)
+Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function.</value>
+  </data>
+  <data name="LastFunction.Description" xml:space="preserve">
+    <value>Last()
+Returns the number of rows from the current row to the last row in the window.
+  </value>
+  </data>
+  <data name="FirstFunction.Description" xml:space="preserve">
+    <value>First()
+Returns the number of rows from the current row to the first row in the window.
+  </value>
+  </data>
+  <data name="IndexFunction.Description" xml:space="preserve">
+    <value>Index()
+Returns the index of the current row in the window.
+  </value>
+  </data>
+  <data name="SizeFunction.Description" xml:space="preserve">
+    <value>Size()
+Returns the number of rows in the window.
+  </value>
+  </data>
+  <data name="WindowAvgFunction.Description" xml:space="preserve">
+    <value>WindowAvg(SummaryExpression, StartOffset, EndOffset)
+Returns the average of the expression within the window, which is defined using offsets from the current row.
+  </value>
+  </data>
+  <data name="WindowCountFunction.Description" xml:space="preserve">
+    <value>WindowCount(SummaryExpression, StartOffset, EndOffset)
+Returns the count of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowCountDistinctFunction.Description" xml:space="preserve">
+    <value>WindowCountDistinct(SummaryExpression, StartOffset, EndOffset)
+Returns the distinct count of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowMaxFunction.Description" xml:space="preserve">
+    <value>WindowMax(SummaryExpression, StartOffset, EndOffset)
+Returns the maximum of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowMinFunction.Description" xml:space="preserve">
+    <value>WindowMin(SummaryExpression, StartOffset, EndOffset)
+Returns the minimum of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowMedianFunction.Description" xml:space="preserve">
+    <value>WindowMedian(SummaryExpression, StartOffset, EndOffset)
+Returns the median of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowSumFunction.Description" xml:space="preserve">
+    <value>WindowSum(SummaryExpression, StartOffset, EndOffset)
+Returns the sum of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowVarFunction.Description" xml:space="preserve">
+    <value>WindowVar(SummaryExpression, StartOffset, EndOffset)
+Returns the variance of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowVarpFunction.Description" xml:space="preserve">
+    <value>WindowVarp(SummaryExpression, StartOffset, EndOffset)
+Returns the biased variance of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowStdDevFunction.Description" xml:space="preserve">
+    <value>WindowStdDev(SummaryExpression, StartOffset, EndOffset)
+Returns the sample standard deviation of the expression within the window.
+  </value>
+  </data>
+  <data name="WindowStdDevpFunction.Description" xml:space="preserve">
+    <value>WindowStdDevp(SummaryExpression, StartOffset, EndOffset)
+Returns the biased standard deviation of the expression within the window.
+  </value>
+  </data>
+  <data name="RunningAvgFunction.Description" xml:space="preserve">
+    <value>RunningAvg(SummaryExpression)
+Returns the running average of the specified expression from the first row in the window to the current row.
+  </value>
+  </data>
+  <data name="RunningCountFunction.Description" xml:space="preserve">
+    <value>RunningCount(SummaryExpression)
+Returns the running count of the specified expression from the first row in the window to the current row.
+  </value>
+  </data>
+  <data name="RunningMaxFunction.Description" xml:space="preserve">
+    <value>RunningMax(SummaryExpression)
+Returns the running maximum of the specified expression from the first row in the window to the current row.
+  </value>
+  </data>
+  <data name="RunningMinFunction.Description" xml:space="preserve">
+    <value>RunningMin(SummaryExpression)
+Returns the running minimum of the specified expression from the first row in the window to the current row.
+  </value>
+  </data>
+  <data name="RunningSumFunction.Description" xml:space="preserve">
+    <value>RunningSum(SummaryExpression)
+Returns the running sum of the specified expression from the first row in the window to the current row.
+  </value>
+  </data>
+  <data name="RankCompetitionFunction.Description" xml:space="preserve">
+    <value>RankCompetition(SummaryExpression, ['asc', 'desc'])
+Returns the standard competition rank for the current row in the window.
+  </value>
+  </data>
+  <data name="RankDenseFunction.Description" xml:space="preserve">
+    <value>RankDense(SummaryExpression, ['asc', 'desc'])
+Returns the dense rank for the current row in the window.
+  </value>
+  </data>
+  <data name="RankUniqueFunction.Description" xml:space="preserve">
+    <value>RankUnique(SummaryExpression, ['asc', 'desc'])
+Returns the unique rank for the current row in the window.
+  </value>
+  </data>
+  <data name="RankModifiedFunction.Description" xml:space="preserve">
+    <value>RankModified(SummaryExpression, ['asc', 'desc'])
+Returns the modified competition rank for the current row in the window.
+  </value>
+  </data>
+  <data name="RankPercentileFunction.Description" xml:space="preserve">
+    <value>RankPercentile(SummaryExpression, ['asc', 'desc'])
+Returns the percentile rank for the current row in the window.
+  </value>
+  </data>
+  <data name="TotalFunction.Description" xml:space="preserve">
+    <value>Total(SummaryExpression)
+Returns the total for the specified expression in a table calculation window.
+  </value>
+  </data>
+  <data name="LookupFunction.Description" xml:space="preserve">
+    <value>Lookup(SummaryExpression, Position)
+Returns the value of the expression in a target position specified as a relative offset from the current position.
+  </value>
+  </data>
+  <data name="Fields Description Prefix" xml:space="preserve">
+    <value>The type of this field is: </value>
+  </data>
+</root>

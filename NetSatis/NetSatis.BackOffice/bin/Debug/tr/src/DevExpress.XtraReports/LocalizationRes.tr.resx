@@ -1,0 +1,2603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportStringId.UD_Group_VerticalSpacing" xml:space="preserve">
+    <value>&amp;Dikey Boşluk</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignBottoms" xml:space="preserve">
+    <value>Seçili kontrollerin alt sınırlarını hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Paste_Caption" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="ReportStringId.UD_Group_File" xml:space="preserve">
+    <value>&amp;Dosya</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToGrid" xml:space="preserve">
+    <value>Grid'e göre boyutlandır</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_EditCut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Align" xml:space="preserve">
+    <value>&amp;Hizala</value>
+  </data>
+  <data name="ReportStringId.BandDsg_QuantityPerPage" xml:space="preserve">
+    <value>Sayfa başına bir şerit</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceIncrease" xml:space="preserve">
+    <value>Yatay Boşluğu Artır</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignBottoms" xml:space="preserve">
+    <value>&amp;Alt Sınırlar</value>
+  </data>
+  <data name="ReportStringId.CatData" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignToGrid_STipTitle" xml:space="preserve">
+    <value>Grid'e Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignCenters" xml:space="preserve">
+    <value>&amp;Merkezler</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomFactor" xml:space="preserve">
+    <value>Yaklaştırma Oranı: %{0}</value>
+  </data>
+  <data name="ReportStringId.Cmd_PageHeader" xml:space="preserve">
+    <value>SayfaBaşlığı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControl_Caption" xml:space="preserve">
+    <value>Boyutlarını Eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingRemove" xml:space="preserve">
+    <value>Seçili kontroller arasındaki boşluğu kaldır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_Caption" xml:space="preserve">
+    <value>Yeni Rapor</value>
+  </data>
+  <data name="ReportStringId.Verb_EditGroupFields" xml:space="preserve">
+    <value>GrupAlanlarını Düzenle...</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer" xml:space="preserve">
+    <value>Rapor Gezgini</value>
+  </data>
+  <data name="ReportStringId.UD_FormCaption" xml:space="preserve">
+    <value>Rapor Tasarımcısı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceDecrease_STipTitle" xml:space="preserve">
+    <value>Dikey Boşluğu Azalt</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatFontName" xml:space="preserve">
+    <value>Yazı Tipi Adı</value>
+  </data>
+  <data name="ReportStringId.Cmd_Delete" xml:space="preserve">
+    <value>&amp;Sil</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_LoadStyles" xml:space="preserve">
+    <value>Dosyadan stil yükle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceIncrease_Caption" xml:space="preserve">
+    <value>Dikey Boşluğu Arttır</value>
+  </data>
+  <data name="ReportStringId.CatAppearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ReportStringId.Msg_IncorrectArgument" xml:space="preserve">
+    <value>Yanlış argüman değeri</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomOut_STipTitle" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FontItalic" xml:space="preserve">
+    <value>&amp;İtalik</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeSizeToGrid" xml:space="preserve">
+    <value>&amp;Grid</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Undo_Caption" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="ReportStringId.Msg_LargeText" xml:space="preserve">
+    <value>Yazı çok uzun.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlForward_STipTitle" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Undo" xml:space="preserve">
+    <value>&amp;Geri Al</value>
+  </data>
+  <data name="ReportStringId.Cmd_SendToBack" xml:space="preserve">
+    <value>&amp;Arkaya At</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyRight_STipTitle" xml:space="preserve">
+    <value>Yazıyı Sola Yasla</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyRight" xml:space="preserve">
+    <value>Kontrolün metnini sağa hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlFind_STipContent" xml:space="preserve">
+    <value>Bu sayfada ara</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Copy_STipTitle" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="ReportStringId.UD_Group_View" xml:space="preserve">
+    <value>&amp;Görünüm</value>
+  </data>
+  <data name="ReportStringId.STag_Name_FieldArea" xml:space="preserve">
+    <value>Yeni Alan için Alan Bölgesi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_STipContent" xml:space="preserve">
+    <value>Geçerli raporu kaydet.</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatForeColor" xml:space="preserve">
+    <value>Önplan Rengi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControl_STipTitle" xml:space="preserve">
+    <value>Boyutlarını Eşitle</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemAppearances_Caption" xml:space="preserve">
+    <value>Görünümler</value>
+  </data>
+  <data name="ReportStringId.STag_Capt_Tasks" xml:space="preserve">
+    <value>Görevler</value>
+  </data>
+  <data name="ReportStringId.Verb_RTFClear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlBackward_Caption" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="ReportStringId.Cmd_GroupHeader" xml:space="preserve">
+    <value>GrupBaşlığı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlRefresh_STipTitle" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterVertically_Caption" xml:space="preserve">
+    <value>Dikey Ortala</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToControlHeight" xml:space="preserve">
+    <value>Yükseklikleri Eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeHeight" xml:space="preserve">
+    <value>Seçili kontrollerin yüksekliklerini eşitle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ForeColor_STipTitle" xml:space="preserve">
+    <value>Ön Plan Rengi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontBold_Caption" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomOut" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SendToBack_STipContent" xml:space="preserve">
+    <value>Seçili kontrolleri geri at</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignVerticalCenters_Caption" xml:space="preserve">
+    <value>Merkezleri Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SaveFileAs" xml:space="preserve">
+    <value>&amp;Farklı Kaydet...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BackColor_Caption" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontName_STipContent" xml:space="preserve">
+    <value>Yazı tipi yüzünü değiştir</value>
+  </data>
+  <data name="ReportStringId.Cmd_GroupFooter" xml:space="preserve">
+    <value>GrupAltlığı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterVertically_STipTitle" xml:space="preserve">
+    <value>Dikey Ortala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_STipTitle" xml:space="preserve">
+    <value>Raporu Kaydet</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_OpenFile_STipTitle" xml:space="preserve">
+    <value>Rapor Aç</value>
+  </data>
+  <data name="ReportStringId.Cmd_BringToFront" xml:space="preserve">
+    <value>&amp;Öne Getir</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatCenter" xml:space="preserve">
+    <value>Merkez</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingMakeEqual" xml:space="preserve">
+    <value>&amp;Eşitle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyJustify_Caption" xml:space="preserve">
+    <value>İki Yana Yasla</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_OpenFile" xml:space="preserve">
+    <value>A&amp;ç</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignTop_Caption" xml:space="preserve">
+    <value>Üst Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ReportChanged" xml:space="preserve">
+    <value>Rapor değiştirildi. Değişiklikleri kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.UD_ReportDesigner" xml:space="preserve">
+    <value>Rapor Tasarımcısı</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ForegroundColor" xml:space="preserve">
+    <value>&amp;Önplan Rengi</value>
+  </data>
+  <data name="ReportStringId.Msg_ErrorTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_Caption" xml:space="preserve">
+    <value>Sihirbaz kullanarak rapor yarat...</value>
+  </data>
+  <data name="ReportStringId.CatBehavior" xml:space="preserve">
+    <value>Davranış</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsert" xml:space="preserve">
+    <value>Ek&amp;le</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_SelectedStylesText" xml:space="preserve">
+    <value> seçilen stiller...</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_PurgeStyles" xml:space="preserve">
+    <value>Kullanılmayan stilleri sil</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_NullReportSourceInfo" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Windows_Caption" xml:space="preserve">
+    <value>Pencereler</value>
+  </data>
+  <data name="ReportStringId.Cmd_ViewCode" xml:space="preserve">
+    <value>Ko&amp;du Göster</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SendToBack" xml:space="preserve">
+    <value>Arkaya At</value>
+  </data>
+  <data name="ReportStringId.Cmd_ReportHeader" xml:space="preserve">
+    <value>RaporBaşlığı</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnCount" xml:space="preserve">
+    <value>Sütun Sayısı</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyJustify" xml:space="preserve">
+    <value>Kontrolün metnini iki yana yasla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyLeft_STipTitle" xml:space="preserve">
+    <value>Yazıyı Sola Yasla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlHeight_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin boylarını eşitle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Cut_STipTitle" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Windows_STipContent" xml:space="preserve">
+    <value>Araç Kutusu, Rapor Gezgini Alan Listesi ve Özellik Kılavuzu pencerelerini göster/sakla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyCenter_STipContent" xml:space="preserve">
+    <value>Yazıyı ortala.</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_FontUnderline" xml:space="preserve">
+    <value>Yazı tipinin altını çiz</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeBoth" xml:space="preserve">
+    <value>Seçili kontrollerin boyutlarını eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyLeft" xml:space="preserve">
+    <value>Kontrolün metnini sola hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Zoom" xml:space="preserve">
+    <value>Yaklaştır</value>
+  </data>
+  <data name="ReportStringId.CatLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceConcatenate_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki dikey boşluğu kaldır.</value>
+  </data>
+  <data name="ReportStringId.Cmd_AlignToGrid" xml:space="preserve">
+    <value>Grid'e Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Zoom_STipContent" xml:space="preserve">
+    <value>Doküman tasarımcısının yakınlaştırma seviyesini değiştir</value>
+  </data>
+  <data name="ReportStringId.Msg_ReportImporting" xml:space="preserve">
+    <value>Rapor şablonu alınıyor. Lütfen bekleyiniz...</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MainMenuName" xml:space="preserve">
+    <value>Ana Menü</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceConcatenate" xml:space="preserve">
+    <value>Dikey Boşluğu Kaldır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>Yatay Boşluğu Eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Edit" xml:space="preserve">
+    <value>&amp;Düzenle</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_CenterInFormHorizontally" xml:space="preserve">
+    <value>Seçili kontrollerin merkezlerini şerit içerisinde yatay hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_LayoutToolbarName" xml:space="preserve">
+    <value>Yerleşim Araç Çubuğu</value>
+  </data>
+  <data name="ReportStringId.Cmd_ReportFooter" xml:space="preserve">
+    <value>RaporAltlığı</value>
+  </data>
+  <data name="ReportStringId.Verb_FormatString" xml:space="preserve">
+    <value>Biçim Kalıbı...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_HtmlNavigation" xml:space="preserve">
+    <value>Gezinme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BringToFront_Caption" xml:space="preserve">
+    <value>Öne Getir</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_Redo" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignCenters" xml:space="preserve">
+    <value>Seçili kontrollerin merkezlerini dikey hizala</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToControl" xml:space="preserve">
+    <value>Boyutları Eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToControlWidth" xml:space="preserve">
+    <value>Genişlikleri Eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_CenterInFormHorizontally" xml:space="preserve">
+    <value>&amp;Yatay</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Redo_STipContent" xml:space="preserve">
+    <value>Son işlemi yinele</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ForeColor_Caption" xml:space="preserve">
+    <value>Ön Plan Rengi</value>
+  </data>
+  <data name="ReportStringId.Cmd_BandMoveDown" xml:space="preserve">
+    <value>Aşağı Taşı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageText" xml:space="preserve">
+    <value>Rapor Tasarımcısı</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatAlignLeft" xml:space="preserve">
+    <value>Sola Hizala</value>
+  </data>
+  <data name="ReportStringId.CatUserDesigner" xml:space="preserve">
+    <value>Kullanıcı Tasarımcısı</value>
+  </data>
+  <data name="ReportStringId.Verb_EditText" xml:space="preserve">
+    <value>Yazıyı Düzenle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControl_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin boyutlarını eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeHeight" xml:space="preserve">
+    <value>&amp;Yükseklik</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignToGrid" xml:space="preserve">
+    <value>Seçili kontrollerin yerleşimlerini grid'e hizala</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_InvalidFileFormat" xml:space="preserve">
+    <value>Geçersiz dosya formatı</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_FontItalic" xml:space="preserve">
+    <value>Yazı tipini italikleştir</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatBackColor" xml:space="preserve">
+    <value>Arkaplan Rengi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignHorizontalCenters_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin merkezlerini yatay olarak hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Group_HorizontalSpacing" xml:space="preserve">
+    <value>&amp;Yatay Boşluk</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignVerticalCenters" xml:space="preserve">
+    <value>Merkezleri Hizala</value>
+  </data>
+  <data name="ReportStringId.Verb_ReportWizard" xml:space="preserve">
+    <value>Rapor Sihirbazı'nda Tasarla...</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomIn" xml:space="preserve">
+    <value>Yaklaştır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceIncrease_Caption" xml:space="preserve">
+    <value>Yatay Boşluğu Arttır</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ZoomOut" xml:space="preserve">
+    <value>Tasarım yüzünden uzaklaştır</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_EditPaste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="ReportStringId.Cmd_RtfLoad" xml:space="preserve">
+    <value>Dosya Yükle...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_STipTitle" xml:space="preserve">
+    <value>Sihirbaz kullanarak rapor yarat</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_BringToFront" xml:space="preserve">
+    <value>Öne Getir</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignLeft_STipContent" xml:space="preserve">
+    <value>Seçili kontrolleri sola hizala</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceConcatenate" xml:space="preserve">
+    <value>Yatay Boşluğu Kaldır</value>
+  </data>
+  <data name="ReportStringId.Verb_RunDesigner" xml:space="preserve">
+    <value>Tasarımcıyı Çalıştır...</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlHeight_STipTitle" xml:space="preserve">
+    <value>Boylarını Eşitle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_OpenFile_Caption" xml:space="preserve">
+    <value>Aç...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceIncrease_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki yatay boşluğu arttır</value>
+  </data>
+  <data name="ReportStringId.Msg_IncorrectPadding" xml:space="preserve">
+    <value>Dolgu 0'dan küçük olamaz</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_OrderBringToFront" xml:space="preserve">
+    <value>&amp;Öne Getir</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_NameInfo" xml:space="preserve">
+    <value>Adı: {0}
+</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ForegroundColor" xml:space="preserve">
+    <value>Kontrolün önplan rengini ayarla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Cut_Caption" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceMakeEqual_STipTitle" xml:space="preserve">
+    <value>Dikey Boşluğu Eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignLefts" xml:space="preserve">
+    <value>Seçili kontrollerin sol sınırlarını hizala</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemSettings_Caption" xml:space="preserve">
+    <value>Yazdırma Ayarları</value>
+  </data>
+  <data name="ReportStringId.SSForm_Caption" xml:space="preserve">
+    <value>Stil Düzenleyicisi</value>
+  </data>
+  <data name="ReportStringId.Cmd_TopMargin" xml:space="preserve">
+    <value>ÜstKenarBoşluğu</value>
+  </data>
+  <data name="ReportStringId.Verb_Import" xml:space="preserve">
+    <value>Aç/İçeri Aktar...</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingDecrease" xml:space="preserve">
+    <value>Seçili kontroller arasındaki boşluğu azalt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlHeight_Caption" xml:space="preserve">
+    <value>Boylarını Eşitle</value>
+  </data>
+  <data name="ReportStringId.Cmd_DetailReport" xml:space="preserve">
+    <value>DetayRaporu</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptError" xml:space="preserve">
+    <value>Betiklerde belirtilen hatalar bulunuyor:{0}</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Format" xml:space="preserve">
+    <value>&amp;Biçim</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceMakeEqual_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki dikey boşluğu eşitle.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomIn_STipTitle" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ReportStringId.Cmd_RtfClear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ReportStringId.Verb_Save" xml:space="preserve">
+    <value>Kaydet...</value>
+  </data>
+  <data name="ReportStringId.Verb_AddFieldToArea" xml:space="preserve">
+    <value>Bölgeye Alan Ekle</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_CenterInFormVertically" xml:space="preserve">
+    <value>&amp;Dikey</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceDecrease_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki dikey boşluğu azalt.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceDecrease_STipTitle" xml:space="preserve">
+    <value>Yatay Boşluğu Azalt</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Delete" xml:space="preserve">
+    <value>Kontrolü sil</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlRefresh_Caption" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ViewBars" xml:space="preserve">
+    <value>Göster/Sakla: {0}</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatAlignRight" xml:space="preserve">
+    <value>Sağa Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignToGrid" xml:space="preserve">
+    <value>&amp;Grid'e</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignVerticalCenters_STipTitle" xml:space="preserve">
+    <value>Merkezleri Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignTops" xml:space="preserve">
+    <value>Seçili kontrollerin üst sınırlarını hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ZoomIn" xml:space="preserve">
+    <value>Tasarım yüzüne yaklaştır</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_RemoveStyle" xml:space="preserve">
+    <value>Stil kaldır</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDeleteCell" xml:space="preserve">
+    <value>&amp;Hücre</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertColumnToLeft" xml:space="preserve">
+    <value>S&amp;ola Sütun</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Paste" xml:space="preserve">
+    <value>Panodan kontrol ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignHorizontalCenters_STipTitle" xml:space="preserve">
+    <value>Orta Noktaları Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceIncrease_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki dikey boşluğu arttır.</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatFontSize" xml:space="preserve">
+    <value>Yazı Tipi Boyutu</value>
+  </data>
+  <data name="ReportStringId.Cmd_InsertBand" xml:space="preserve">
+    <value>&amp;Şerit Ekle</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Paste" xml:space="preserve">
+    <value>&amp;Yapıştır</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatItalic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="ReportStringId.Verb_Delete" xml:space="preserve">
+    <value>Sil...</value>
+  </data>
+  <data name="ReportStringId.CatNavigation" xml:space="preserve">
+    <value>Gezinme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_STipTitle" xml:space="preserve">
+    <value>Raporu Farklı Kaydet...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Zoom_STipTitle" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_SaveStyles" xml:space="preserve">
+    <value>Stilleri dosyaya kaydet</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Undo" xml:space="preserve">
+    <value>Son işlemi geri al</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontItalic_STipTitle" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeBoth" xml:space="preserve">
+    <value>&amp;Her İkisi</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Redo" xml:space="preserve">
+    <value>&amp;Yinele</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignLeft_Caption" xml:space="preserve">
+    <value>Sol Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlHome_STipTitle" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignHorizontalCenters" xml:space="preserve">
+    <value>Ortaları Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_XtraReportsToolboxCategoryName" xml:space="preserve">
+    <value>Standart Kontroller</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_ReportSourceInfo" xml:space="preserve">
+    <value>Rapor Kaynağı: {0}
+</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BackColor_STipTitle" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Exit" xml:space="preserve">
+    <value>Tasarımcıyı kapat</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDeleteColumn" xml:space="preserve">
+    <value>Sü&amp;tun</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomOut_Caption" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="ReportStringId.UD_Title_PropertyGrid" xml:space="preserve">
+    <value>Özellik Kılavuzu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>Dikey Boşluğu Eşitle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomExact_Caption" xml:space="preserve">
+    <value>Tam:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlWidth_Caption" xml:space="preserve">
+    <value>Enlerini Eşitle</value>
+  </data>
+  <data name="ReportStringId.Msg_SerializationErrorTitle" xml:space="preserve">
+    <value>Serialization Hatası</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlWidth_STipTitle" xml:space="preserve">
+    <value>Enlerini Eşitle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlPageText" xml:space="preserve">
+    <value>HTML Görünüm</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_CenterInFormVertically" xml:space="preserve">
+    <value>Seçili kontrollerin merkezlerini şerit içerisinde dikey hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList" xml:space="preserve">
+    <value>Alan Listesi</value>
+  </data>
+  <data name="ReportStringId.Msg_DontSupportMulticolumn" xml:space="preserve">
+    <value>Detay raporları çoklu sütunu desteklemez.</value>
+  </data>
+  <data name="ReportStringId.Msg_FillDataError" xml:space="preserve">
+    <value>Veri kaynağı doldurulurken hata oluştu. Oluşan hata:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlBackward_STipContent" xml:space="preserve">
+    <value>Bir önceki syfaya dön</value>
+  </data>
+  <data name="ReportStringId.Msg_FileCorrupted" xml:space="preserve">
+    <value>Rapor Şablonu yüklenemedi. Dosya bozuk veya raporun assembly'si eksik olabilir.</value>
+  </data>
+  <data name="ReportStringId.BCForm_Lbl_Property" xml:space="preserve">
+    <value>Özellik</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Redo_STipTitle" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="ReportStringId.UD_XtraReportsPointerItemCaption" xml:space="preserve">
+    <value>İmleç</value>
+  </data>
+  <data name="ReportStringId.SSForm_Btn_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyCenter" xml:space="preserve">
+    <value>&amp;Merkez</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_StatusBarName" xml:space="preserve">
+    <value>Durum Çubuğu</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeWidth" xml:space="preserve">
+    <value>Seçili kontrollerin genişliklerini eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FontBold" xml:space="preserve">
+    <value>Kal&amp;ın</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_OrderSendToBack" xml:space="preserve">
+    <value>&amp;Arkaya At</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlHome_Caption" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SelectAll" xml:space="preserve">
+    <value>&amp;Hepsini Seç</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_Undo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SaveFile" xml:space="preserve">
+    <value>&amp;Kaydet</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceDecrease_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki yatay boşluğu azalt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Redo_Caption" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyJustify_STipTitle" xml:space="preserve">
+    <value>İki Yana Yasla</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Copy" xml:space="preserve">
+    <value>Kontrolü panoya kopyala</value>
+  </data>
+  <data name="ReportStringId.Cmd_Cut" xml:space="preserve">
+    <value>&amp;Yapıştır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontSize_STipContent" xml:space="preserve">
+    <value>Yazı tipi boyutunu değiştir.</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceDecrease" xml:space="preserve">
+    <value>Dikey Boşluğu Azalt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_OpenFile_STipContent" xml:space="preserve">
+    <value>Rapor aç.</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomToolbarName" xml:space="preserve">
+    <value>Yaklaştırma Araç Çubuğu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlForward_STipContent" xml:space="preserve">
+    <value>Bir sonraki sayfaya ilerle</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDelete" xml:space="preserve">
+    <value>&amp;Sil</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_NewReport" xml:space="preserve">
+    <value>Boş rapor yarat</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyJustify" xml:space="preserve">
+    <value>&amp;İki Yana</value>
+  </data>
+  <data name="ReportStringId.Verb_EditBands" xml:space="preserve">
+    <value>Şeritleri Değiştir ve Yeniden Düzenle...</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignMiddles" xml:space="preserve">
+    <value>&amp;Ortalar</value>
+  </data>
+  <data name="ReportStringId.STag_Name_DataBinding" xml:space="preserve">
+    <value>Veri İlişkilendirme</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_OrderSendToBack" xml:space="preserve">
+    <value>Seçili kontrolleri arkaya at</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignRights" xml:space="preserve">
+    <value>Sa&amp;ğ Sınırlar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceIncrease_STipTitle" xml:space="preserve">
+    <value>Dikey Boşluğu Arttır</value>
+  </data>
+  <data name="ReportStringId.STag_Name_PreviewRowCount" xml:space="preserve">
+    <value>Önizleme Satır Sayısı</value>
+  </data>
+  <data name="ReportStringId.Verb_About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="ReportStringId.Verb_SummaryWizard" xml:space="preserve">
+    <value>Özet...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyCenter_STipTitle" xml:space="preserve">
+    <value>Yazıyı Ortala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingIncrease" xml:space="preserve">
+    <value>A&amp;rtır</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_OrderBringToFront" xml:space="preserve">
+    <value>Seçili kontrolleri öne getir</value>
+  </data>
+  <data name="ReportStringId.STag_Name_Bands" xml:space="preserve">
+    <value>Şeritler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignBottom_Caption" xml:space="preserve">
+    <value>Butonları Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceConcatenate_STipTitle" xml:space="preserve">
+    <value>Yatay Boşluğu Kaldır</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Cut" xml:space="preserve">
+    <value>Kontrolü panoya kopyala ve sil</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignToGrid_Caption" xml:space="preserve">
+    <value>Grid'e Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyRight_STipContent" xml:space="preserve">
+    <value>Yazıyı sağa yasla</value>
+  </data>
+  <data name="ReportStringId.Cmd_InsertUnboundDetailReport" xml:space="preserve">
+    <value>İlişkisiz</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceConcatenate_Caption" xml:space="preserve">
+    <value>Dikey Boşluğu Kaldır</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeSizeToGrid" xml:space="preserve">
+    <value>Seçili kontrolleri grid'e göre boyutlandır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignRight_STipContent" xml:space="preserve">
+    <value>Seçili kontrolleri sağa hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyLeft" xml:space="preserve">
+    <value>&amp;Sol</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingDecrease" xml:space="preserve">
+    <value>&amp;Azalt</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_CenterHorizontally" xml:space="preserve">
+    <value>Yatay Ortala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Zoom" xml:space="preserve">
+    <value>Yaklaştırma oranı seçin/girin</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlWidth_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin enlerini eşitle</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnWidth" xml:space="preserve">
+    <value>Sütun Genişliği</value>
+  </data>
+  <data name="ReportStringId.STag_Name_FormatString" xml:space="preserve">
+    <value>Biçimlendirme Kalıbı</value>
+  </data>
+  <data name="ReportStringId.Cmd_InsertDetailReport" xml:space="preserve">
+    <value>Detay Raporu Ekle</value>
+  </data>
+  <data name="ReportStringId.Msg_FileNotFound" xml:space="preserve">
+    <value>Dosya bulunamadı.</value>
+  </data>
+  <data name="ReportStringId.BandDsg_QuantityPerReport" xml:space="preserve">
+    <value>Rapor başına bir şerit</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Undo_STipContent" xml:space="preserve">
+    <value>Son işlemi geri al</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_NoStyleSelected" xml:space="preserve">
+    <value>Stil seçilmedi</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Cut" xml:space="preserve">
+    <value>&amp;Kes</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceMakeEqual" xml:space="preserve">
+    <value>Yatay Boşluğu Eşitle</value>
+  </data>
+  <data name="ReportStringId.CatPageSettings" xml:space="preserve">
+    <value>Sayfa Ayarları</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceConcatenate_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki yatay boşluğu kaldır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Windows_STipTitle" xml:space="preserve">
+    <value>pencereleri Göster/Sakla</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyRight" xml:space="preserve">
+    <value>Sa&amp;ğ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyCenter_Caption" xml:space="preserve">
+    <value>Yazıyı Ortala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignTops" xml:space="preserve">
+    <value>&amp;Üst Sınırlar</value>
+  </data>
+  <data name="ReportStringId.BCForm_Lbl_Binding" xml:space="preserve">
+    <value>İlişkilendirme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlFind_Caption" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceIncrease_STipTitle" xml:space="preserve">
+    <value>Yatay Boşluğu Arttır</value>
+  </data>
+  <data name="ReportStringId.Verb_RTFLoad" xml:space="preserve">
+    <value>Dosya Yükle...</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDeleteRow" xml:space="preserve">
+    <value>Sat&amp;ır</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertRowAbove" xml:space="preserve">
+    <value>&amp;Üste Satır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontSize_STipTitle" xml:space="preserve">
+    <value>Yazı Tipi Boyutu</value>
+  </data>
+  <data name="ReportStringId.Verb_Bind" xml:space="preserve">
+    <value>İlişkilendir</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontItalic_Caption" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_NewWizardReport" xml:space="preserve">
+    <value>Sihirbaz kullanarak boş rapor yarat</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FormattingToolbarName" xml:space="preserve">
+    <value>Biçimlendirme Araç Çubuğu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterHorizontally_STipTitle" xml:space="preserve">
+    <value>Yatay Ortala</value>
+  </data>
+  <data name="ReportStringId.UD_Group_MakeSameSize" xml:space="preserve">
+    <value>&amp;Boyutlarını Eşitle</value>
+  </data>
+  <data name="ReportStringId.STag_Name_Checked" xml:space="preserve">
+    <value>İşaretli</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ToolbarName" xml:space="preserve">
+    <value>Araç Çubuğu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlForward_Caption" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceDecrease" xml:space="preserve">
+    <value>Yatay Boşluğu Azalt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Zoom_Caption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignToGrid" xml:space="preserve">
+    <value>Grid'e Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceConcatenate_STipTitle" xml:space="preserve">
+    <value>Dikey Boşluğu Kaldır</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemLayout_Caption" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertColumnToRight" xml:space="preserve">
+    <value>Sa&amp;ğa Sütun</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontUnderline_Caption" xml:space="preserve">
+    <value>Alt Çizgi</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceMakeEqual" xml:space="preserve">
+    <value>Dikey Boşluğu Eşitle</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceIncrease" xml:space="preserve">
+    <value>Dikey Boşluğu Artır</value>
+  </data>
+  <data name="ReportStringId.UD_Group_ToolbarsList" xml:space="preserve">
+    <value>&amp;Araç Çubukları</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_BackGroundColor" xml:space="preserve">
+    <value>Kontrolün arkaplan rengini ayarla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignTop_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin üst sınırlarını hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Redo" xml:space="preserve">
+    <value>Son işlemi yinele</value>
+  </data>
+  <data name="ReportStringId.Cmd_BottomMargin" xml:space="preserve">
+    <value>AltKenarBoşluğu</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_NewReport" xml:space="preserve">
+    <value>Y&amp;eni</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontUnderline_STipContent" xml:space="preserve">
+    <value>Seçili yazının altını çiz.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontBold_STipTitle" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceMakeEqual_STipTitle" xml:space="preserve">
+    <value>Yatay Boşluğu Eşitle</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemFields_Caption" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_Designer" xml:space="preserve">
+    <value>Tasarımcı</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Delete" xml:space="preserve">
+    <value>S&amp;il</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Copy" xml:space="preserve">
+    <value>Ko&amp;pyala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_STipTitle" xml:space="preserve">
+    <value>Boş Rapor</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SendToBack_STipTitle" xml:space="preserve">
+    <value>Geri At</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatBold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToGrid_Caption" xml:space="preserve">
+    <value>Grid'e göre boyutlandır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Zoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatUnderline" xml:space="preserve">
+    <value>Alt Çigi</value>
+  </data>
+  <data name="ReportStringId.Msg_CreateSomeInstance" xml:space="preserve">
+    <value>Bir formda bir sınıftan 2 nesne yaratamazsınız.</value>
+  </data>
+  <data name="ReportStringId.Cmd_Detail" xml:space="preserve">
+    <value>Detay</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Paste_STipTitle" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_AddStyle" xml:space="preserve">
+    <value>Stil ekle</value>
+  </data>
+  <data name="ReportStringId.UD_Group_CenterInForm" xml:space="preserve">
+    <value>&amp;Form'da Ortala</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ToolBox" xml:space="preserve">
+    <value>Araç Kutusu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignBottom_STipTitle" xml:space="preserve">
+    <value>Alt Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.Cmd_BandMoveUp" xml:space="preserve">
+    <value>Yukarı Taşı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlFind_STipTitle" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SaveFile" xml:space="preserve">
+    <value>Raporu kaydet</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontUnderline_STipTitle" xml:space="preserve">
+    <value>Alt Çizgi</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertRowBelow" xml:space="preserve">
+    <value>&amp;Alta Satır</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatJustify" xml:space="preserve">
+    <value>İki Yana Yasla</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnMode" xml:space="preserve">
+    <value>Çoklu Sütun Modu</value>
+  </data>
+  <data name="ReportStringId.Msg_IncorrectBandType" xml:space="preserve">
+    <value>Yanlış şerit tipi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignHorizontalCenters_Caption" xml:space="preserve">
+    <value>Orta Noktaları Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FontUnderline" xml:space="preserve">
+    <value>Alt çi&amp;zgi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyLeft_Caption" xml:space="preserve">
+    <value>Yazıyı Sola Yasla</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnSpacing" xml:space="preserve">
+    <value>Sütun Aralığı</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemFields_Description" xml:space="preserve">
+    <value>Alanları yönet.</value>
+  </data>
+  <data name="ReportStringId.MultiColumnDesignMsg1" xml:space="preserve">
+    <value>Tekrarlayan sütunlar için boşluk</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FileOpen" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_FontBold" xml:space="preserve">
+    <value>Yazı tipini kalınlaştır</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertCell" xml:space="preserve">
+    <value>Hüc&amp;re</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_CenterVertically" xml:space="preserve">
+    <value>Dikey Ortala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlHome_STipContent" xml:space="preserve">
+    <value>Ana sayfayı göster</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterHorizontally_Caption" xml:space="preserve">
+    <value>Yatay Ortala</value>
+  </data>
+  <data name="ReportStringId.UD_Group_DockPanelsList" xml:space="preserve">
+    <value>&amp;Pencereler</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_BackGroundColor" xml:space="preserve">
+    <value>Arkaplan &amp;Rengi</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_EditCopy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignTop_STipTitle" xml:space="preserve">
+    <value>Üst Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignMiddles" xml:space="preserve">
+    <value>Seçili kontrollerin merkezlerini yatay hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Undo_STipTitle" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Order" xml:space="preserve">
+    <value>&amp;Düzen</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignBottom" xml:space="preserve">
+    <value>Alt Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_Caption" xml:space="preserve">
+    <value>Farklı Kaydet...</value>
+  </data>
+  <data name="ReportStringId.Msg_CyclicBookmarks" xml:space="preserve">
+    <value>Raporda döngüsel yer imleri bulunuyor.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ForeColor_STipContent" xml:space="preserve">
+    <value>Metnin ön plan rengini değiştir</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BringToFront_STipTitle" xml:space="preserve">
+    <value>Öne Getir</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_Caption" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ReportStringId.Msg_CreateReportInstance" xml:space="preserve">
+    <value>Düzenlemeye çalıştığınız rapor ile açmak istediğiniz raporun türleri farklı. Yine de açmak istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToGrid_STipContent" xml:space="preserve">
+    <value>Seçili kontrolleri grid'e göre boyutlandır</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FileSave" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SaveFileAs" xml:space="preserve">
+    <value>Raporu farklı bir isimle kaydet</value>
+  </data>
+  <data name="ReportStringId.Cmd_Paste" xml:space="preserve">
+    <value>Ya&amp;pıştır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_STipContent" xml:space="preserve">
+    <value>Geçerli raporu başka bir isimle kaydet.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceConcatenate_Caption" xml:space="preserve">
+    <value>Yatay Boşluğu Kaldır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignRight_STipTitle" xml:space="preserve">
+    <value>Sağ Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyCenter" xml:space="preserve">
+    <value>Kontrolün metnini merkeze hizala</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignTop" xml:space="preserve">
+    <value>Üst Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignLefts" xml:space="preserve">
+    <value>&amp;Sol Sınırlar</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingIncrease" xml:space="preserve">
+    <value>Seçili kontroller arasındaki boşluğu artır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyRight_Caption" xml:space="preserve">
+    <value>Yazıyı Sağa Yasla</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignLeft" xml:space="preserve">
+    <value>Sol Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignLeft_STipTitle" xml:space="preserve">
+    <value>Sol Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_OpenFile" xml:space="preserve">
+    <value>Rapor Aç</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignBottom_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin alt sınırlarını hizala</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_StyleSheetError" xml:space="preserve">
+    <value>StyleSheet hatası</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeWidth" xml:space="preserve">
+    <value>&amp;Genişlik</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyLeft_STipContent" xml:space="preserve">
+    <value>Yazıyı sola yasla</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ViewTabs" xml:space="preserve">
+    <value>{0} sekmesine geçiş yap</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_NewWizardReport" xml:space="preserve">
+    <value>&amp;Sihirbaz ile Yeni...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignRight_Caption" xml:space="preserve">
+    <value>Sağ Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupMain_Description" xml:space="preserve">
+    <value>Ana Ayarlar(Alanlar, Biçimler).</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ViewDockPanels" xml:space="preserve">
+    <value>{0} penceresini göster / sakla</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_ClearStyles" xml:space="preserve">
+    <value>Stilleri temizle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Copy_Caption" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlBackward_STipTitle" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignRight" xml:space="preserve">
+    <value>Sağ Sınırları Hizala</value>
+  </data>
+  <data name="ReportStringId.Cmd_Properties" xml:space="preserve">
+    <value>Ö&amp;zellikler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceDecrease_Caption" xml:space="preserve">
+    <value>Yatay Boşluğu Azalt</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Exit" xml:space="preserve">
+    <value>&amp;Çıkış</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlRefresh_STipContent" xml:space="preserve">
+    <value>Sayfayı Yenile</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingRemove" xml:space="preserve">
+    <value>&amp;Kaldır</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupPrinting_Caption" xml:space="preserve">
+    <value>Yazdırma</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Justify" xml:space="preserve">
+    <value>&amp;İki Yana Yasla</value>
+  </data>
+  <data name="ReportStringId.Cmd_PageFooter" xml:space="preserve">
+    <value>SayfaAltlığı</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignRights" xml:space="preserve">
+    <value>Seçili kontrollerin sağ sınırlarını hizala</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_StyleNamePreviewPostfix" xml:space="preserve">
+    <value>stil</value>
+  </data>
+  <data name="ReportStringId.Msg_FileContentCorrupted" xml:space="preserve">
+    <value>Rapor Şablonu yüklenemedi. Dosya bozuk veya hatalı bilgi içeriyor olabilir.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_SizeAndLayout" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceMakeEqual_STipContent" xml:space="preserve">
+    <value>Seçili kontroller arasındaki yatay boşluğu eşitle</value>
+  </data>
+  <data name="ReportStringId.Cmd_Copy" xml:space="preserve">
+    <value>&amp;Kopyala</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SelectAll" xml:space="preserve">
+    <value>Dokümandaki bütün kontrolleri seç</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ReportStringId.STag_Name_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ReportStringId.Verb_Insert" xml:space="preserve">
+    <value>Ekle...</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupMain_Caption" xml:space="preserve">
+    <value>Ana</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingMakeEqual" xml:space="preserve">
+    <value>Seçili kontroller arasındaki boşluğu eşitle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Report" xml:space="preserve">
+    <value>Rapor</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToGrid_STipTitle" xml:space="preserve">
+    <value>Grid'e göre boyutlandır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SendToBack_Caption" xml:space="preserve">
+    <value>Geri At</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceDecrease_Caption" xml:space="preserve">
+    <value>Dikey Boşluğu Azalt</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_HtmlView" xml:space="preserve">
+    <value>HTML Görünümü</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomIn_Caption" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontItalic_STipContent" xml:space="preserve">
+    <value>Yazıyı itelikleştir</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Copy_STipContent" xml:space="preserve">
+    <value>Seçili kontrolleri panoya kopyala</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_FileFilter" xml:space="preserve">
+    <value>Rapor StyleSheet dosyaları (*.repss)|*.repss|Tüm dosyalar (*.*)|*.*</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomOut_STipContent" xml:space="preserve">
+    <value>Raporu daha küçük görmek için uzaklaştır</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupPrinting_Description" xml:space="preserve">
+    <value>Geçerli XRPivotGrid için yazdırma seçeneği yönetimi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignToGrid_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin yerleşimini grid' göre hizala</value>
+  </data>
+  <data name="ReportStringId.SR_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ReportStringId.MultiColumnDesignMsg2" xml:space="preserve">
+    <value>Buraya yerleştirilen kontroller bozuk yazdırılır</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveParameters" xml:space="preserve">
+    <value>Bu işlem bütün değişkenleri kaldıracak. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.CatParameters" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="ReportStringId.SR_Side_Margins" xml:space="preserve">
+    <value>Yan Margin'ler</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidExpression" xml:space="preserve">
+    <value>Belirtilen ifade geçersiz semboller içeriyor(satır {0}, karakter {1}).</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Layouts_SelectorCaption1" xml:space="preserve">
+    <value>Alan seçicisini sakla</value>
+  </data>
+  <data name="ReportStringId.SR_Top_Margin" xml:space="preserve">
+    <value>Üst
+margin</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_MoreThanOneStyle" xml:space="preserve">
+    <value>Birden fazla stil seçtiniz</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignVerticalCenters_STipContent" xml:space="preserve">
+    <value>Seçili kontrollerin merkezlerini dikey olarak hizala</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidReportSource" xml:space="preserve">
+    <value>Geçerli rapor soyundan ayarlanmış olamaz</value>
+  </data>
+  <data name="ReportStringId.Msg_WrongReportClassName" xml:space="preserve">
+    <value>Deserialization işlemi sırasında bir hata oluştu - rapor sınıfı adı yanlış olabilir</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_ItemDescription" xml:space="preserve">
+    <value>Bu nesneyle ilişkili bir kontrol yaratmak için nesneyi sürükleyip bırakın;
+- yada -
+Açılır pencere menüsünden ilişkili bir kontrolü seçmek için SHIFT veya fare sağ butonu ile bu nesneyi sürükleyin;
+- yada -
+Hesap alanı yada değişken eklemek için Bağlam Menüsünü kullanın</value>
+  </data>
+  <data name="ReportStringId.SR_Number_Across" xml:space="preserve">
+    <value>Çapraz sayı</value>
+  </data>
+  <data name="ReportStringId.SR_Number_Down" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveCalculatedFields" xml:space="preserve">
+    <value>Bu işlem bütün veri tablolarından bütün hesap alanlarını kaldıracak. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_STipContent" xml:space="preserve">
+    <value>Boş bir rapor yarat</value>
+  </data>
+  <data name="ReportStringId.SR_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontBold_STipContent" xml:space="preserve">
+    <value>Seçili yazıyı kalınlaştır.</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemLayout_Description" xml:space="preserve">
+    <value>Geçerli XRPivotGrid'in biçimini kişiselleştir ve içeriğini önizle.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Cut_STipContent" xml:space="preserve">
+    <value>Seçili kontrolleri kes ve panoya kopyala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_STipContent" xml:space="preserve">
+    <value>Yeni rapor oluşturmak için sihirbazı çalıştır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterHorizontally_STipContent" xml:space="preserve">
+    <value>Seçili alanları şerit içerisinde yatay ortala</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningControlsAreOutOfMargin" xml:space="preserve">
+    <value>Yazdırma Uyarısı: Belirtilen kontroller sayfa margin'i dışarısında, bu yüzden fazladan sayfa(lar) yazdırılacak - {0}.</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemAppearances_Description" xml:space="preserve">
+    <value>Geçerli XRPivotGrid için yazdırma görünümlerini ayarla</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidMethodCall" xml:space="preserve">
+    <value>Nesnenin mevcut durumu için bu metod çağrısı geçersiz</value>
+  </data>
+  <data name="ReportStringId.SR_Horizontal_Pitch" xml:space="preserve">
+    <value>Yatay seviye</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BackColor_STipContent" xml:space="preserve">
+    <value>Yazı arka plan rengini değiştir</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_TableDescription" xml:space="preserve">
+    <value>Bu nesnenin öğeleri ile bir tablo yaratmak için nesneyi sürükleyip bırakın;
+- yada -
+Alan adlarıyla birlikte 'Başlık' tablosu yaratmak için SHIFT veya fare sağ butonu ile bu nesneyi sürükleyin;
+- yada -
+Hesap alanı yada değişken eklemek için Bağlam Menüsünü kullanın</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemSettings_Description" xml:space="preserve">
+    <value>Geçerli XRPivotGrid için yazdırma ayarlarını ayarla</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Fields_ColumnsText" xml:space="preserve">
+    <value>XRPivotGrid Alanları</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptingPermissionErrorMessage" xml:space="preserve">
+    <value>Bu betiği raporunuzda çalıştırmak için gerekli yetkiniz yok.
+
+Detaylar:
+
+{0}</value>
+  </data>
+  <data name="ReportStringId.PanelDesignMsg" xml:space="preserve">
+    <value>Kontrolleri bir arada tutmak için buraya yerleştirin</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningControlsAreOverlapped" xml:space="preserve">
+    <value>Dışarı Aktarma Uyarısı: Belirtilen kontroller çakışıyor ve HTML, RTF, XLS, XLSX, CSV ve Text çıktıları düzgün olmayabilir - {0}.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BringToFront_STipContent" xml:space="preserve">
+    <value>Seçili kontrolleri öne getir</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptExecutionError" xml:space="preserve">
+    <value> {0} Yürütmesindeki betikte belirtilen hata oluştu:
+{1}</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Paste_STipContent" xml:space="preserve">
+    <value>Pano içeriğini yapıştır</value>
+  </data>
+  <data name="ReportStringId.SR_Vertical_Pitch" xml:space="preserve">
+    <value>Dikey
+seviye</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyJustify_STipContent" xml:space="preserve">
+    <value>Yazıyı gerekirse kelimeler arasına boşluk ekleyerek sağa ve sola yasla.</value>
+  </data>
+  <data name="ReportStringId.CatDesign" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="ReportStringId.Msg_ShapeRotationToolTip" xml:space="preserve">
+    <value>Şekli döndürmek için CTRL ile birlikte farenizin sol tuşunu kullanın</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterVertically_STipContent" xml:space="preserve">
+    <value>Seçili alanları şerit içerisinde dikey ortala</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Layouts_SelectorCaption2" xml:space="preserve">
+    <value>Alan seçicisini göster</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ErrorLine" xml:space="preserve">
+    <value>Satır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Close_STipTitle" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MdiCascade" xml:space="preserve">
+    <value>&amp;Basamaklandır</value>
+  </data>
+  <data name="ReportStringId.DesignerStatus_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ReportStringId.GroupSort_AddSort" xml:space="preserve">
+    <value>Sıralama Ekle</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ErrorColumn" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MdiTileVertical" xml:space="preserve">
+    <value>Bütün açık dokümanları soldan sağa düzenle</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Fields_DescriptionText1" xml:space="preserve">
+    <value>XRPivotGrid alanları ekleyebilir, silebilir ve alanların ayarlarını değiştirebilirsiniz.</value>
+  </data>
+  <data name="ReportStringId.Wizard_PageChooseFields_Msg" xml:space="preserve">
+    <value>Devam etmeden önce rapor için alan seçmelisiniz.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningFontNameCantBeEmpty" xml:space="preserve">
+    <value>Yazı Tipi adı boş bırakılamaz.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Exit_Caption" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_Validate" xml:space="preserve">
+    <value>Doğrula</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_AddRule" xml:space="preserve">
+    <value>Biçimlendirme kuralı ekle</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_DataMemberDescription" xml:space="preserve">
+    <value>
+
+Veri Öğesi: {0}</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_ReportSourceUrlInfo" xml:space="preserve">
+    <value>Rapor Kaynak Adresi: {0}
+</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_MdiReportChanged" xml:space="preserve">
+    <value>"{0}" değiştirildi. Değişiklikleri kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Close" xml:space="preserve">
+    <value>Kapa&amp;t</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_TabbedInterface" xml:space="preserve">
+    <value>Sekmeli ve MDI pencere yerleşim modları arasında geçiş yap</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Close" xml:space="preserve">
+    <value>Raporu kapat</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Scripts_STipTitle" xml:space="preserve">
+    <value>Betikleri Göster/Sakla</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Appearances_DescriptionText" xml:space="preserve">
+    <value>İlgili görsel öğelerin yazdırma görünümlerini ayarlamak için en az bir tane Görünüm nesnesi seçin</value>
+  </data>
+  <data name="ReportStringId.FRSForm_Caption" xml:space="preserve">
+    <value>Biçimlendirme Kural Sayfası Düzenleyici</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_PurgeRules" xml:space="preserve">
+    <value>Kullanılmayan biçimlendirme kurallarını sil</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Scripts_STipContent" xml:space="preserve">
+    <value>Betik Düzenleyici'yi Göster/Sakla</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_TabbedInterface" xml:space="preserve">
+    <value>&amp;Sekmeli Arayüz</value>
+  </data>
+  <data name="ReportStringId.UD_Title_GroupAndSort" xml:space="preserve">
+    <value>Grupla ve Sırala</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptCodeIsNotCorrect" xml:space="preserve">
+    <value>Girilen kod doğru değil</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomIn_STipContent" xml:space="preserve">
+    <value>Raporun detaylı görünümü için yakınlaştır</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ErrorList" xml:space="preserve">
+    <value>Betik Hataları</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidCondition" xml:space="preserve">
+    <value>Koşul Boolean tipinde olmalı!</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Scripts_Caption" xml:space="preserve">
+    <value>Betikler</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_ReportStatus" xml:space="preserve">
+    <value>{0} {{ Kağıt Türü: {1} }}</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Close_Caption" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Close_STipContent" xml:space="preserve">
+    <value>Geçerli Raporu Kapat</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_Scripts" xml:space="preserve">
+    <value>Betikler</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_NotSetText" xml:space="preserve">
+    <value>(Yok)</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList_NonePickerNodeText" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ReportStringId.CatStructure" xml:space="preserve">
+    <value>Yapı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Font" xml:space="preserve">
+    <value>Yazı Tipi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_StatusBar_HtmlDone" xml:space="preserve">
+    <value>Bitti</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MdiTileVertical" xml:space="preserve">
+    <value>&amp;Dikey Döşe</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_ClearRules" xml:space="preserve">
+    <value>Biçimlendirme kurallarını temizle</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList_AddNewDataSourceText" xml:space="preserve">
+    <value>Yeni Veri Kaynağı Ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Exit_STipContent" xml:space="preserve">
+    <value>Rapor Tasarımcısı'nı Kapat</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontName_STipTitle" xml:space="preserve">
+    <value>Yazı Tipi</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ErrorDescription" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="ReportStringId.GroupSort_MoveUp" xml:space="preserve">
+    <value>Yukarı Taşı</value>
+  </data>
+  <data name="ReportStringId.GroupSort_AddGroup" xml:space="preserve">
+    <value>Grup Ekle</value>
+  </data>
+  <data name="ReportStringId.CatPrinting" xml:space="preserve">
+    <value>Yazdırma</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ClickValidate" xml:space="preserve">
+    <value>Betikleri kontrol etmek için "Doğrula" butonunu tıklayın</value>
+  </data>
+  <data name="ReportStringId.Msg_NotEnoughMemoryToPaint" xml:space="preserve">
+    <value>Boyama için yeterli hafıza yok. Yakınlaştırma seviyesi sıfırlanacak.</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MdiTileHorizontal" xml:space="preserve">
+    <value>Bütün açık dokümanları yukarıdan aşağıya düzenle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Scripts" xml:space="preserve">
+    <value>Betikler</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningUnsavedReports" xml:space="preserve">
+    <value>Yazdırma Uyarısı: Yapılan son değişikliklerle birlikte alt raporları önizlemek için belirtilen raporları kaydet - {0}.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_StatusBar_HtmlProcessing" xml:space="preserve">
+    <value>İşleniyor...</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ScriptsAreValid" xml:space="preserve">
+    <value>Tüm betikler doğrulandı</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_RemoveRule" xml:space="preserve">
+    <value>Biçimlendirme kuralını kaldır</value>
+  </data>
+  <data name="ReportStringId.GroupSort_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Font" xml:space="preserve">
+    <value>&amp;Yazı Tipi</value>
+  </data>
+  <data name="ReportStringId.FRSForm_Msg_NoRuleSelected" xml:space="preserve">
+    <value>Biçimlendirme kuralı seçmediniz</value>
+  </data>
+  <data name="ReportStringId.Msg_GroupSortNoDataSource" xml:space="preserve">
+    <value>Yeni bir gruplandırma yada sıralama seviyesi eklemek için önce rapora bir veri kaynağı sağlamalısınız.</value>
+  </data>
+  <data name="ReportStringId.Msg_Caption" xml:space="preserve">
+    <value>XtraRaporlar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Exit_STipTitle" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Layouts_DescriptionText" xml:space="preserve">
+    <value>XRPivotGrid'in biçimini(sıralama alanları, alan düzenlemesi) değiştirin ve geçerli değişiklikleri XRPivotGrid'e uygulamak için Uygula butonunu tıklayın. Biçimi XML dosyasına kaydedebilirsiniz(Bu dosya tasarım veya çalışma anında yüklenip kullanılabilir.).</value>
+  </data>
+  <data name="ReportStringId.GroupSort_MoveDown" xml:space="preserve">
+    <value>Aşağı Taşı</value>
+  </data>
+  <data name="ReportStringId.Msg_GroupSortWarning" xml:space="preserve">
+    <value>Silmek istediğiniz grup başlık veya altlığı boş değil. Bu şeridi içerdiği kontrollerle birlikte silmek istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Window" xml:space="preserve">
+    <value>&amp;Pencere</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MdiTileHorizontal" xml:space="preserve">
+    <value>&amp;Yatay Döşe</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnLayout" xml:space="preserve">
+    <value>Çoklu Sütun Biçimi</value>
+  </data>
+  <data name="ReportStringId.FRSForm_Msg_MoreThanOneRule" xml:space="preserve">
+    <value>Birden fazla biçimlendirme kuralı seçtiniz</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList_ProjectObjectsText" xml:space="preserve">
+    <value>Proje Nesneleri</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Fields_DescriptionText2" xml:space="preserve">
+    <value>PivotGrid alanı oluşturmak için alanı sürükleyerek PivotGrid alan paneline bırakınız.</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MdiCascade" xml:space="preserve">
+    <value>Bütün açık dokümanları çakışmalarını sağlayacak şekilde düzenle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_Description" xml:space="preserve">
+    <value>Geçerli raporu kaydet.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_Description" xml:space="preserve">
+    <value>Boş bir rapor yarat</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_Description" xml:space="preserve">
+    <value>Geçerli raporu başka bir isimle kaydet.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_Description" xml:space="preserve">
+    <value>Yeni rapor oluşturmak için sihirbazı çalıştır</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SaveAll" xml:space="preserve">
+    <value>Bütün raporları kaydet</value>
+  </data>
+  <data name="ReportStringId.DesignerStatus_Location" xml:space="preserve">
+    <value>Yer</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ScriptHasBeenChanged" xml:space="preserve">
+    <value>Betik son doğrulamadan sonra değiştirildiği için Hata Günlüğü güncelliğini kaybetti. Güncel hataları görmek için "Doğrula" butonuna tekrar tıklayın.</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DataAdapter" xml:space="preserve">
+    <value>Veri Bağdaştırıcısı:</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SaveAll" xml:space="preserve">
+    <value>&amp;Hepsini Kaydet</value>
+  </data>
+  <data name="ReportStringId.Verb_LoadReportTemplate" xml:space="preserve">
+    <value>Rapor Şablonu Yükle...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveAll_STipContent" xml:space="preserve">
+    <value>Değiştirilen raporları kaydet</value>
+  </data>
+  <data name="ReportStringId.Verb_EditBindings" xml:space="preserve">
+    <value>İlişkilendirmeleri Düzenle...</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DisplayMember" xml:space="preserve">
+    <value>Görüntü Öğesi:</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DataSource" xml:space="preserve">
+    <value>Veri Kaynağı:</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_NewString" xml:space="preserve">
+    <value>(Yeni)</value>
+  </data>
+  <data name="ReportStringId.DesignerStatus_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ReportStringId.Dlg_SaveFile_Title" xml:space="preserve">
+    <value>Kaydet '{0}'</value>
+  </data>
+  <data name="ReportStringId.BindingMapperForm_InvalidBindingWarning" xml:space="preserve">
+    <value>Geçersiz ilişkilendirme</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_ValueMember" xml:space="preserve">
+    <value>Değer Öğesi:</value>
+  </data>
+  <data name="ReportStringId.UD_Group_TabButtonsList" xml:space="preserve">
+    <value>Sekme Butonları</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveAll_STipTitle" xml:space="preserve">
+    <value>Tüm Raporları Kaydet</value>
+  </data>
+  <data name="ReportStringId.BindingMapperForm_ShowOnlyInvalidBindings" xml:space="preserve">
+    <value>Sadece geçersiz ilişkilendirmeleri göster</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveAll_Caption" xml:space="preserve">
+    <value>Hepsini Kaydet</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DataMember" xml:space="preserve">
+    <value>Veri Üyesi:</value>
+  </data>
+  <data name="ReportStringId.UD_SaveFileDialog_DialogFilter" xml:space="preserve">
+    <value>Rapor Dosyaları (*{0})|*{1}|Tüm Dosyalar (*.*)|*.*</value>
+  </data>
+  <data name="ReportStringId.CatOptions" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_NullControl" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ReportStringId.Verb_Export" xml:space="preserve">
+    <value>Kaydet/ihracat...</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableConvertToLabels" xml:space="preserve">
+    <value>&amp; etiketlerine dönüştürmek</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidLeaderSymbolForXrTocLevel" xml:space="preserve">
+    <value>Geçersiz lideri simgesi.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidXrTocInstance" xml:space="preserve">
+    <value>XRTableOfContents daha fazla hiçbir örnek rapora eklenebilir.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoBookmarksWereFoundInReportForXrToc" xml:space="preserve">
+    <value>Raporda yer imi yok bulundu. İçindekiler tablosu oluşturmak için en az bir rapor öğe için yer işareti belirtin.</value>
+  </data>
+  <data name="ReportStringId.Msg_PlacingXrTocIntoIncorrectContainer" xml:space="preserve">
+    <value>XRTableOfContents denetimi yalnızca rapor üstbilgisi ve altbilgisi raporun grup yerleştirilebilir.</value>
+  </data>
+  <data name="ReportStringId.STag_Capt_Format" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="ReportStringId.CatElements" xml:space="preserve">
+    <value>Öğeleri</value>
+  </data>
+  <data name="ReportStringId.Cmd_Commands" xml:space="preserve">
+    <value>Komutlar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ToolboxControlsPage" xml:space="preserve">
+    <value>Araç Kutusu</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_Components" xml:space="preserve">
+    <value>Bileşenler</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidXrTocInstanceInBand" xml:space="preserve">
+    <value>Hayır daha örnek-in XRTableOfContents gruba eklenebilir.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidExpressionEx" xml:space="preserve">
+    <value>Belirtilen ifade geçersiz.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoCustomFunction" xml:space="preserve">
+    <value>Özel işlev '{0}' bulunamadı.</value>
+  </data>
+  <data name="ReportStringId.Cmd_DeleteFormattingRule" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ReportStringId.Cmd_DeleteStyle" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_Styles" xml:space="preserve">
+    <value>Stiller</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_FormattingRules" xml:space="preserve">
+    <value>Biçimlendirme kuralları</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveFormattingRules" xml:space="preserve">
+    <value>Bu işlem tüm biçimlendirme kurallarını kaldırır. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.Cmd_EditStyles" xml:space="preserve">
+    <value>Stilleri Düzenle...</value>
+  </data>
+  <data name="ReportStringId.Cmd_PurgeStyles" xml:space="preserve">
+    <value>Kullanılmayan stilleri sil</value>
+  </data>
+  <data name="ReportStringId.Cmd_AssignEvenStyleToXRControl" xml:space="preserve">
+    <value>XRControl için Çift Stili Ata</value>
+  </data>
+  <data name="ReportStringId.Cmd_AssignOddStyleToXRControl" xml:space="preserve">
+    <value>XRControl için Tek Stili Ata</value>
+  </data>
+  <data name="ReportStringId.Cmd_AssignStyleToXRControl" xml:space="preserve">
+    <value>XRControl için Stil Ata</value>
+  </data>
+  <data name="ReportStringId.SubreportDesigner_EditParameterBindings" xml:space="preserve">
+    <value>Parametre Bağlayıcıları Düzenle...</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidDrillDownControl" xml:space="preserve">
+    <value>DrillDownControl özelliği '{0}' grubu geçerli değil.</value>
+  </data>
+  <data name="ReportStringId.Msg_ParameterBindingValueTypeMismatch" xml:space="preserve">
+    <value>Bir parametre bağlama için alt rapor parametresi "{0}" uyumlu olmayan bir türde bir değer atar.</value>
+  </data>
+  <data name="ReportStringId.Cmd_CloneStyle" xml:space="preserve">
+    <value>Klon Stili</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_FieldDescription" xml:space="preserve">
+    <value>Açıklama:</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_NoReportStatus" xml:space="preserve">
+    <value>Hiçbir şey</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_FieldsPrefix" xml:space="preserve">
+    <value>Bu alanın tipi:</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Variables_CurrentRowIndex_Description" xml:space="preserve">
+    <value>Geçerli veri satırının veri kaynağındaki sırasını döner. Sıra 0'dan başlar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ConditionCaption" xml:space="preserve">
+    <value>Koşul Düzenleyici</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Fields" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Variables_RowCount_Description" xml:space="preserve">
+    <value>Veri kaynağındaki toplam veri satırı sayısını döner.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Variables" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ExpressionCaption" xml:space="preserve">
+    <value>İfade Düzenleyici</value>
+  </data>
+  <data name="ReportStringId.Cmd_DeleteGalleryItem" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ReportStringId.Cmd_RenameGalleryItem" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="ReportStringId.Cmd_CopyGalleryItem" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ExpressionBinding" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="ReportStringId.Cmd_CutGalleryItem" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="ReportStringId.Cmd_PasteGalleryItem" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Values" xml:space="preserve">
+    <value>Değerleri</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_FunctionSummary" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Series" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewBar_STipTitle" xml:space="preserve">
+    <value>Bar serisi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAppearanceName_Caption" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Appearance" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Behavior" xml:space="preserve">
+    <value>Davranış</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Annotations" xml:space="preserve">
+    <value>ek açıklamaları</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Chart" xml:space="preserve">
+    <value>Grafik</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_TextAlignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageSize_Caption" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PaperKind_Caption" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsCopy_Caption" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PivotPrintOptions" xml:space="preserve">
+    <value>Yazdırma Seçenekleri</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteColumn_Caption" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectColumn_Caption" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersNone_Caption" xml:space="preserve">
+    <value>Kenarlık yok</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersNone_STipTitle" xml:space="preserve">
+    <value>Kenarlık yok</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontStrikeout_Caption" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontStrikeout_STipTitle" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPreviewTab_Caption" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartLoad_STipTitle" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartSave_STipTitle" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageMargins_Caption" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Page" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeColumnsEvenly_Caption" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PivotFields" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Home" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Sparkline" xml:space="preserve">
+    <value>Mini grafik</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewBar_Caption" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsCut_Caption" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsPaste_Caption" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewArea_Caption" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewLine_Caption" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Borders" xml:space="preserve">
+    <value>Kenarlıklar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderColor_Caption" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderColor_STipTitle" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteCell_Caption" xml:space="preserve">
+    <value>Hücre</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteTable_Caption" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectTable_Caption" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeRowsEvenly_Caption" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageOrientation_Caption" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Insert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewRange_Caption" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PageSetup" xml:space="preserve">
+    <value>Sayfa yapısı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPreviewTab_STipTitle" xml:space="preserve">
+    <value>Baskı Önizleme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Show" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteRow_Caption" xml:space="preserve">
+    <value>Satır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectRow_Caption" xml:space="preserve">
+    <value>Satır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Select" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Styles" xml:space="preserve">
+    <value>Stiller</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShapeStretch_Caption" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShapeStretch_STipTitle" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridHorizontalLines_Caption" xml:space="preserve">
+    <value>Yatay çizgiler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridVerticalLines_Caption" xml:space="preserve">
+    <value>Dikey çizgiler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Design" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Design" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Arrange" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Clipboard" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteColumn_STipTitle" xml:space="preserve">
+    <value>Sütun Sil</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteRow_STipTitle" xml:space="preserve">
+    <value>Satır Sil</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Merge" xml:space="preserve">
+    <value>Birleştirme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawGridLines_Caption" xml:space="preserve">
+    <value>Kılavuz çizgileri</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartPaletteName_Caption" xml:space="preserve">
+    <value>Palet</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartPaletteName_STipTitle" xml:space="preserve">
+    <value>Palet</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelWordWrap_Caption" xml:space="preserve">
+    <value>Sözcük kaydır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelWordWrap_STipTitle" xml:space="preserve">
+    <value>Sözcük kaydır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawWatermark_Caption" xml:space="preserve">
+    <value>Filigran</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageWatermark_Caption" xml:space="preserve">
+    <value>Filigran</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowDesignerTab_STipTitle" xml:space="preserve">
+    <value>Rapor Tasarımcısı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Scripts" xml:space="preserve">
+    <value>Betikler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowScriptsTab_Caption" xml:space="preserve">
+    <value>Betikler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowScriptsTab_STipTitle" xml:space="preserve">
+    <value>Betikler</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartImageType_Caption" xml:space="preserve">
+    <value>Resim Tipi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeImageType_Caption" xml:space="preserve">
+    <value>Resim Tipi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SparklineImageType_Caption" xml:space="preserve">
+    <value>Resim Tipi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageColor_Caption" xml:space="preserve">
+    <value>Sayfa Rengi</value>
+  </data>
+  <data name="ReportStringId.STag_Name_SummaryFunc" xml:space="preserve">
+    <value>Özet işlev</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeSymbology_Caption" xml:space="preserve">
+    <value>Semboloji</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeSymbology_STipContent" xml:space="preserve">
+    <value>Semboloji</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeSymbology_STipTitle" xml:space="preserve">
+    <value>Semboloji</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderBottom_Caption" xml:space="preserve">
+    <value>Alt Kenarlık</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderBottom_STipTitle" xml:space="preserve">
+    <value>Alt Kenarlık</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderLeft_Caption" xml:space="preserve">
+    <value>Sol Kenarlık</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderLeft_STipTitle" xml:space="preserve">
+    <value>Sol Kenarlık</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersAll_Caption" xml:space="preserve">
+    <value>Tüm Kenarlıklar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersAll_STipTitle" xml:space="preserve">
+    <value>Tüm Kenarlıklar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHeight_STipTitle" xml:space="preserve">
+    <value>Hücre Yüksekliği</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHorizontalSpacing_Caption" xml:space="preserve">
+    <value>Yatay Aralık:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHorizontalSpacing_STipTitle" xml:space="preserve">
+    <value>Hücre Yatay Aralık</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellVerticalSpacing_Caption" xml:space="preserve">
+    <value>Dikey Aralık:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddDataSource_STipContent" xml:space="preserve">
+    <value>Bir grafik için bir veri kaynağı kurmak.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddImageAnnotation_Caption" xml:space="preserve">
+    <value>Resim ek açıklama ekleme</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewArea_STipTitle" xml:space="preserve">
+    <value>Alan dizi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartSave_Caption" xml:space="preserve">
+    <value>Kaydet...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddParameter_Caption" xml:space="preserve">
+    <value>Parametre Ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddParameter_STipTitle" xml:space="preserve">
+    <value>Parametre Ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Symbology" xml:space="preserve">
+    <value>Semboloji</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_NewLine" xml:space="preserve">
+    <value>NewLine()
+
+Bu ortam için tanımlanan yeni satır dize döndürür.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Rgb" xml:space="preserve">
+    <value>Rgb (kırmızı, yeşil, mavi)
+
+Kırmızı, yeşil ve mavi renk kanal değerlerini kullanarak bir renk tanımlayan bir dize döndürür.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Argb" xml:space="preserve">
+    <value>Argb (Alfa, kırmızı, yeşil, mavi)
+
+Alfa, kırmızı, yeşil ve mavi renk kanal değerlerini kullanarak bir renk tanımlayan bir dize döndürür.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryPercentage" xml:space="preserve">
+    <value>sumPercentage(Expression)
+
+Geçerli veri satır'ın değeri için belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerlerin toplamını yüzde oranını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryRecordNumber" xml:space="preserve">
+    <value>sumRecordNumber(Expression)
+
+Bölgede belirtilen Özet (grup, sayfa veya rapor) veri kaynağındaki geçerli kayıt sayısını döndürür. Bu örneğin, bir grup için Özet hesaplanması durumunda, o zaman kayıt sayısı yalnızca bu grup içinde hesaplanır ve yeni bir grup her başlatıldığında sıfırlanır anlamına gelir.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryRunningSum" xml:space="preserve">
+    <value>sumRunningSum(Expression)
+
+Geçerli veri satırı önce basıldı, tüm değerlerini, geçerli veri satır'ın değeri ile özetler.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryStdDev" xml:space="preserve">
+    <value>sumStdDev(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerleri standart sapmasını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindings_RememberMyChoice" xml:space="preserve">
+    <value>Benim tercihim hatırlıyorum ve bana bir daha sorma.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddField_Caption" xml:space="preserve">
+    <value>Alan Ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddField_STipTitle" xml:space="preserve">
+    <value>Alan Ekle</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindingsCaption" xml:space="preserve">
+    <value>Dönüştür</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Arguments_PageCount" xml:space="preserve">
+    <value>Rapor belgede sayfa sayısı verir.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderColor_STipContent" xml:space="preserve">
+    <value>Kenarlık rengini değiştir</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowExportWarnings_STipContent" xml:space="preserve">
+    <value>Belgeyi belirli biçimlere verirken belge düzenini bozma olasılığı konusunda sizi uyarmak için kesişen rapor denetimlerini vurgulayın.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPrintingWarnings_STipContent" xml:space="preserve">
+    <value>Belgeyi yazdırırken ekstra sayfalar hakkında sizi uyarmak için doğru sayfa kenar boşluğunu aşan rapor denetimlerini vurgulayın.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPrintingWarnings_STipTitle" xml:space="preserve">
+    <value>Yazdırma uyarıları göster</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowScriptsTab_STipContent" xml:space="preserve">
+    <value>Komut dosyası olaylarını ele alarak özel hesaplamalar yapın.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapLines_Caption" xml:space="preserve">
+    <value>Satırları Yasla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapLines_STipTitle" xml:space="preserve">
+    <value>Satırları Yasla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapToGrid_Caption" xml:space="preserve">
+    <value>Kılavuza uydur</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeRowsEvenly_STipTitle" xml:space="preserve">
+    <value>Satırları düzgün Dağıt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertColumnToLeft_STipTitle" xml:space="preserve">
+    <value>Sola Sütun Ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertRowBelow_STipTitle" xml:space="preserve">
+    <value>Aşağıya Satır Ekle</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectRow_STipContent" xml:space="preserve">
+    <value>Geçerli satırı seç.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectRow_STipTitle" xml:space="preserve">
+    <value>Satır Seç</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSplitCells_Caption" xml:space="preserve">
+    <value>Hücreleri Böl</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSplitCells_STipTitle" xml:space="preserve">
+    <value>Hücreleri Böl</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ValidateScripts_Caption" xml:space="preserve">
+    <value>Doğrula</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignBottom_Caption" xml:space="preserve">
+    <value>Metni Alta Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignBottom_STipTitle" xml:space="preserve">
+    <value>Metni Alta Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignMiddle_Caption" xml:space="preserve">
+    <value>Metin Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignMiddle_STipTitle" xml:space="preserve">
+    <value>Metin Hizala</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShapeStretch_STipContent" xml:space="preserve">
+    <value>Döndürülürken tüm alanını doldurmak için bir şekil uzatın.</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindings_LinkUrl" xml:space="preserve">
+    <value>https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.html</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelAutoWidth_STipContent" xml:space="preserve">
+    <value>Genişliklerini içeriklerine uyacak şekilde ayarlamak için seçilen kontrolleri etkinleştirin.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanGrow_STipContent" xml:space="preserve">
+    <value>İçeriğini sığdırmak için yüksekliğini artırmak için seçilen kontrolleri etkinleştirin.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanShrink_STipContent" xml:space="preserve">
+    <value>İçeriğini sığdırmak için yüksekliğini azaltmak için seçilen kontrolleri etkinleştirin.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelWordWrap_STipContent" xml:space="preserve">
+    <value>Bir çizgiye uymuyorsa metinlerini kaydırmak için seçilen kontrolleri etkinleştirin.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Theme" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageMargins_STipContent" xml:space="preserve">
+    <value>Bir rapor için kenar boşluğu boyutları ayarlayın. Yaygın olarak kullanılan çeşitli biçimlerden birini seçin veya kendi biçimini tanımlamak için Özel Kenar Boşlukları'nı tıklayın.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageMargins_STipTitle" xml:space="preserve">
+    <value>Kenar Boşluklarını Ayarla</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnHeaders_STipContent" xml:space="preserve">
+    <value>Sütun alan başlıklarını yazdırın.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowAreaOnEveryPage_Caption" xml:space="preserve">
+    <value>Her Sayfada Satır Alanı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowAreaOnEveryPage_STipTitle" xml:space="preserve">
+    <value>Her Sayfada Satır Alanını Yazdır</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitTextToBounds_STipContent" xml:space="preserve">
+    <value>Seçilen alanların yazı tipi boyutunu tüm alanlarına uyacak şekilde ayarlayın.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnAreaOnEveryPage_Caption" xml:space="preserve">
+    <value>Her Sayfada Sütun Alanı</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoWidth_STipContent" xml:space="preserve">
+    <value>Otomatik olarak geçerli yazı tipi boyutuna bağlı olarak hücre genişliğini ayarla.</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindings_LinkText" xml:space="preserve">
+    <value>İfadeler hakkında daha fazla bilgi edinin</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindings" xml:space="preserve">
+    <value>{0} bağlantılarını içerir. İfadeler için onları dönüştürmek istiyor musunuz?</value>
+  </data>
+  <data name="ReportStringId.Verb_ConvertToExpressions" xml:space="preserve">
+    <value>İfadeler için dönüştürme</value>
+  </data>
+  <data name="ReportStringId.BindingsConverter_ComponentHasWrongDataMemberFormat" xml:space="preserve">
+    <value>{0} '{1}' sahip yanlış DataMemer '{2}'.</value>
+  </data>
+  <data name="ReportStringId.BindingsConverter_FormattingRuleHasWrongValueFormat" xml:space="preserve">
+    <value>FormattingRule '{0}' değeri ifade dönüştürülebilir değil ' {1}' vardır.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Avg" xml:space="preserve">
+    <value>[Toplama] [şart]. AVG (ifade)
+
+Tüm ifade değerleri koleksiyonu (isteğe bağlı) belirtilen koşula göre verir.
+
+Örnek:
+
+[Ürünler] [Üretilmiyor == False]. AVG([UnitsInStock])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Count" xml:space="preserve">
+    <value>[toplama] [şart]. Count)
+
+(İsteğe bağlı) belirtilen koşula bağlı koleksiyonundaki giriş sayısını döndürür.
+
+Örnek:
+
+[Ürünler] [Üretilmiyor == False]. Count()</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Exists" xml:space="preserve">
+    <value>[toplama] [şart]. Bulunmaktadır)
+
+Tanımlı koleksiyon için belirtilen koşulu gerçek tutar olup olmadığını belirler.
+
+Örnek:
+
+[] [BirimFiyat &gt; 0]. Exists()</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Max" xml:space="preserve">
+    <value>[toplama] [şart]. Max (ifade)
+
+(İsteğe bağlı) tanımlanmış koşula göre belirtilen koleksiyondaki en yüksek ifade değerini verir.
+
+Örnek:
+
+[] [Üretilmiyor == False]. Max([UnitPrice])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Min" xml:space="preserve">
+    <value>[toplama] [şart]. Min (ifade)
+
+(İsteğe bağlı) tanımlanmış koşula göre belirtilen koleksiyondaki en düşük ifade değerini verir.
+
+Örnek:
+
+[] [Üretilmiyor == False]. Min([UnitPrice])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Sum" xml:space="preserve">
+    <value>[toplama] [şart]. Sum (ifade)
+
+Tüm ifade değerleri koleksiyonu (isteğe bağlı) belirtilen koşula göre toplamını verir.
+
+Örnek:
+
+[Ürünler] [Üretilmiyor]. Sum([UnitsInStock])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryAvg" xml:space="preserve">
+    <value>sumAvg(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerlerin ortalamasını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryCount" xml:space="preserve">
+    <value>sumCount(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki değerlerin sayısını sayar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDAvg" xml:space="preserve">
+    <value>sumDAvg(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm farklı değerlerin ortalamasını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDCount" xml:space="preserve">
+    <value>sumDCount(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içinde farklı değerlerin sayısını sayar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDStdDev" xml:space="preserve">
+    <value>sumDStdDev(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm farklı değerler standart sapmasını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDStdDevP" xml:space="preserve">
+    <value>sumDStdDevP(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm farklı değerler popülasyon standart sapmasını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDSum" xml:space="preserve">
+    <value>sumDSum(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm farklı değerlerin toplamını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDVar" xml:space="preserve">
+    <value>sumDVar(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içinde ayrı değerleri varyansını miktarını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDVarP" xml:space="preserve">
+    <value>sumDVarP(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içinde farklı değerlerin popülasyon varyansını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryMax" xml:space="preserve">
+    <value>sumMax(Expression)
+
+En fazla belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerleri hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryMin" xml:space="preserve">
+    <value>sumMin(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerleri en az hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryStdDevP" xml:space="preserve">
+    <value>sumStdDevP(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerleri popülasyon standart sapmasını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummarySum" xml:space="preserve">
+    <value>sumSum(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerlerin toplamını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryVar" xml:space="preserve">
+    <value>sumVar(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerleri varyansını miktarını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryVarP" xml:space="preserve">
+    <value>sumVarP(Expression)
+
+Belirtilen Özet bölgesi (grup, sayfa veya rapor) içindeki tüm değerlerin popülasyon varyansını hesaplar.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningControlsAreOutOfColumnPrintingArea" xml:space="preserve">
+    <value>Uyarı: aşağıdaki denetimleri rapor yazdırma alanının dışında ve değil düzgün basılı ve/veya ihraç - {0}.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoWidth_Caption" xml:space="preserve">
+    <value>Otomatik genişliği</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRemoveField_Caption" xml:space="preserve">
+    <value>Alan kaldırma</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersAll_STipContent" xml:space="preserve">
+    <value>Tüm kenarlık seçili denetimleri ekleme.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveAnnotation_Caption" xml:space="preserve">
+    <value>Ek açıklama kaldırmak</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveAnnotation_STipContent" xml:space="preserve">
+    <value>Seçilen eklenti kaldırmak.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveAnnotation_STipTitle" xml:space="preserve">
+    <value>Ek açıklama kaldırmak</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveSeries_Caption" xml:space="preserve">
+    <value>Seriyi kaldırmak</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveSeries_STipContent" xml:space="preserve">
+    <value>Seçili seriler kaldırmak.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveSeries_STipTitle" xml:space="preserve">
+    <value>Seriyi kaldırmak</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRunDesigner_Caption" xml:space="preserve">
+    <value>Tasarımcısı çalıştırmak</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRunDesigner_STipTitle" xml:space="preserve">
+    <value>Tasarımcısı çalıştırmak</value>
+  </data>
+</root>

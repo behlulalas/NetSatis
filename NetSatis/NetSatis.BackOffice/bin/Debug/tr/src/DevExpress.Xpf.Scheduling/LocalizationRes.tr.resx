@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SchedulerStringId.ButtonCaption_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CancelDropAppointments" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupAppointmentOptions" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="SchedulerStringId.PageCaption_Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteAppointment" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Redo" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Undo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupLayout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageView" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CopyAppointmentsOnDrop" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageFile" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="SchedulerStringId.DailyRecurrenceControl_Every" xml:space="preserve">
+    <value>Her</value>
+  </data>
+  <data name="SchedulerStringId.MonthlyRecurrenceControl_Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="SchedulerStringId.MonthlyRecurrenceControl_The" xml:space="preserve">
+    <value>The</value>
+  </data>
+  <data name="SchedulerStringId.MonthlyRecurrenceControl_OfEvery" xml:space="preserve">
+    <value>her</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Description" xml:space="preserve">
+    <value>Açıklama:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Description" xml:space="preserve">
+    <value>Açıklama:</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SchedulerStringId.YearlyRecurrenceControl_of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageHome" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Previous" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_Now" xml:space="preserve">
+    <value>Şimdi</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupAppointmentActions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="SchedulerStringId.PageCaption_Actions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenAppointment" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Recurrence" xml:space="preserve">
+    <value>Yineleme</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupAppointment" xml:space="preserve">
+    <value>Randevu</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageAppointment" xml:space="preserve">
+    <value>Randevu</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Label" xml:space="preserve">
+    <value>Etiket:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Reminder" xml:space="preserve">
+    <value>Hatırlatma:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Reminder" xml:space="preserve">
+    <value>Hatırlatma:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_ShowTimeAs" xml:space="preserve">
+    <value>Saat gösterme şekli:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Subject" xml:space="preserve">
+    <value>Konu:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Location" xml:space="preserve">
+    <value>Yeri:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Location" xml:space="preserve">
+    <value>Yeri:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DeleteRecurrentApt" xml:space="preserve">
+    <value>Silmeyi Onayla</value>
+  </data>
+  <data name="SchedulerStringId.DeleteOccurrenceWindow_DeleteRecurrentAppointmentMessage" xml:space="preserve">
+    <value>"{0}" Yinelenen randevusunun tüm oluşumlarını, ya da bu tek silmek istiyor musunuz?</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupGroupBy" xml:space="preserve">
+    <value>Göre Gruplandır</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageGroupBy" xml:space="preserve">
+    <value>Göre Gruplandır</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupCommon" xml:space="preserve">
+    <value>Ortak</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupArrangeView" xml:space="preserve">
+    <value>Yerleştir</value>
+  </data>
+  <data name="SchedulerStringId.Caption_CategoryDefault" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NoneReminder" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="SchedulerStringId.Caption_FirstVisibleResources" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFirst" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="SchedulerStringId.Caption_LastVisibleResources" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthLast" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResources" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrintingSettings" xml:space="preserve">
+    <value>Yazdırma Seçenekleri</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_Title" xml:space="preserve">
+    <value>Yazdırma Seçenekleri</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_Caption_ResourceAll" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_PrintingSettings_Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysEveryDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResources" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResourcesPage" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResourcesPage" xml:space="preserve">
+    <value>Önceki Sayfa</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthSecond" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Reminder" xml:space="preserve">
+    <value>Hatırlatıcı</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeDaily" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMonthly" xml:space="preserve">
+    <value>Aylık</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeWeekly" xml:space="preserve">
+    <value>Haftalık</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeYearly" xml:space="preserve">
+    <value>Yıllık</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_PrintingSettings_Resources" xml:space="preserve">
+    <value>Kaynaklar</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NavigateForward" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="SchedulerStringId.DisplayFormat_TimeScaleQuarter" xml:space="preserve">
+    <value>Q{0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupWindow" xml:space="preserve">
+    <value>Pencere</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_Dismiss" xml:space="preserve">
+    <value>Görevden</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_Rename" xml:space="preserve">
+    <value>Yeniden adlandırma</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_Find" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="SchedulerStringId.SnapToCells_Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="SchedulerStringId.SnapToCells_Never" xml:space="preserve">
+    <value>Asla</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_NewGroup" xml:space="preserve">
+    <value>Yeni Grup</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_NewGroupText" xml:space="preserve">
+    <value>Yeni Grup</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_Snooze" xml:space="preserve">
+    <value>Ertele</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_EditSeries" xml:space="preserve">
+    <value>Seriyi Düzenle</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_DismissAll" xml:space="preserve">
+    <value>Tüm kapatmak</value>
+  </data>
+</root>

@@ -1,0 +1,3795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DevExpress.XtraCharts.Legend.AlignmentHorizontal" xml:space="preserve">
+    <value>Yatay hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.AlignmentVertical" xml:space="preserve">
+    <value>Dikey hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.MarkerSize" xml:space="preserve">
+    <value>İşaretçi boyutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.MarkerVisible" xml:space="preserve">
+    <value>İmleç görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.TextVisible" xml:space="preserve">
+    <value>Metin görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.MaxVerticalPercentage" xml:space="preserve">
+    <value>Max Dikey Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.MaxHorizontalPercentage" xml:space="preserve">
+    <value>Max Yatay Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.EquallySpacedItems" xml:space="preserve">
+    <value>Eşit aralıklı öğeler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.BackImage" xml:space="preserve">
+    <value>Arka plan resmi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Padding" xml:space="preserve">
+    <value>Doldurma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.HorizontalIndent" xml:space="preserve">
+    <value>Yatay girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.VerticalIndent" xml:space="preserve">
+    <value>Dikey girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.TextOffset" xml:space="preserve">
+    <value>Metni kaydır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillOptionsColor2Base.Color2" xml:space="preserve">
+    <value>Rengi 2</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientFillOptions.GradientMode" xml:space="preserve">
+    <value>Eğim modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.HatchFillOptions.HatchStyle" xml:space="preserve">
+    <value>Kapak stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesNameTemplate.BeginText" xml:space="preserve">
+    <value>Başlayan Metin:</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesNameTemplate.EndText" xml:space="preserve">
+    <value>Bitiş Metni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Shadow.Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Shadow.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Shadow.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartImage.Image" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartImage.ImageUrl" xml:space="preserve">
+    <value>Resim URL'si</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BackgroundImage.Stretch" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.BackImage" xml:space="preserve">
+    <value>Arka plan resmi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.BorderVisible" xml:space="preserve">
+    <value>Kenarlığı görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.BorderColor" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.DrawingStyle" xml:space="preserve">
+    <value>Çizim stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.StartAngleInDegrees" xml:space="preserve">
+    <value>Derece cinsinden açı Başlat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.RotationDirection" xml:space="preserve">
+    <value>Döndürme yönü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisY.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisY.Thickness" xml:space="preserve">
+    <value>Kalınlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisY.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisY.Tickmarks" xml:space="preserve">
+    <value>Onay İşaretleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisY.TopLevel" xml:space="preserve">
+    <value>Üst düzey</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisY.Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TickmarksBase.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TickmarksBase.MinorVisible" xml:space="preserve">
+    <value>Görünen küçük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TickmarksBase.CrossAxis" xml:space="preserve">
+    <value>Çapraz Eksen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TickmarksBase.Thickness" xml:space="preserve">
+    <value>Kalınlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TickmarksBase.MinorThickness" xml:space="preserve">
+    <value>Küçük kalınlığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TickmarksBase.Length" xml:space="preserve">
+    <value>Uzunluk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TickmarksBase.MinorLength" xml:space="preserve">
+    <value>Küçük boy</value>
+  </data>
+  <data name="DevExpress.XtraCharts.GridLines.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.GridLines.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.GridLines.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.GridLines.MinorLineStyle" xml:space="preserve">
+    <value>Alt çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.GridLines.MinorColor" xml:space="preserve">
+    <value>İkincil renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineStyle.Thickness" xml:space="preserve">
+    <value>Kalınlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineStyle.DashStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineStyle.LineJoin" xml:space="preserve">
+    <value>Satır birleştirme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Range.MinValue" xml:space="preserve">
+    <value>En küçük değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Range.MaxValue" xml:space="preserve">
+    <value>Max değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Range.MinValueInternal" xml:space="preserve">
+    <value>Min Değer İç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Range.MaxValueInternal" xml:space="preserve">
+    <value>Max Değer İç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Range.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Range.AutoSideMargins" xml:space="preserve">
+    <value>Otomatik Kenar Boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Range.SideMarginsValue" xml:space="preserve">
+    <value>Yan kenar boşlukları değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.VisualRange.AlwaysShowZeroLevel" xml:space="preserve">
+    <value>Her zaman sıfır düzey göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.VisualRange.SynchronizeWithWholeRange" xml:space="preserve">
+    <value>Tüm Aralık ile Senkronize</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.MinValue" xml:space="preserve">
+    <value>En küçük değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.MaxValue" xml:space="preserve">
+    <value>Max değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.MinValueInternal" xml:space="preserve">
+    <value>Min Değer İç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.MaxValueInternal" xml:space="preserve">
+    <value>Max Değer İç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.AlwaysShowZeroLevel" xml:space="preserve">
+    <value>Her zaman sıfır düzey göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.SideMarginsEnabled" xml:space="preserve">
+    <value>Etkin kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeOptions.Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeOptions.FormatString" xml:space="preserve">
+    <value>Biçim dizesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeOptions.AutoFormat" xml:space="preserve">
+    <value>Otomatik Format</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Precision" xml:space="preserve">
+    <value>Hassasiyet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisX.Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisXLabel.TextDirection" xml:space="preserve">
+    <value>Metin yönü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RotationType" xml:space="preserve">
+    <value>Dönüş türü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RotationOrder" xml:space="preserve">
+    <value>Dönme emri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RotationAngleX" xml:space="preserve">
+    <value>Döndürme açısı X</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RotationAngleY" xml:space="preserve">
+    <value>Döndürme açısı Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RotationAngleZ" xml:space="preserve">
+    <value>Döndürme açısı Z</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.PerspectiveEnabled" xml:space="preserve">
+    <value>Perspektif etkin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.PerspectiveAngle" xml:space="preserve">
+    <value>Perspektif açısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.ZoomPercent" xml:space="preserve">
+    <value>Yakınlaştırma Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.HorizontalScrollPercent" xml:space="preserve">
+    <value>Yatay kaydırma yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.VerticalScrollPercent" xml:space="preserve">
+    <value>Dikey kaydırma yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RuntimeRotation" xml:space="preserve">
+    <value>Çalışma zamanı döndürme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RuntimeZooming" xml:space="preserve">
+    <value>Çalışma zamanı yakınlaştırma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RuntimeScrolling" xml:space="preserve">
+    <value>Çalışma zamanı kaydırma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.ScrollingOptions" xml:space="preserve">
+    <value>Kaydırma seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.ZoomingOptions" xml:space="preserve">
+    <value>Yakınlaştırma seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Diagram3D.RotationOptions" xml:space="preserve">
+    <value>Döndürme seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagram.AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagram.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagram.SecondaryAxesX" xml:space="preserve">
+    <value>İkincil eksenler X</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagram.SecondaryAxesY" xml:space="preserve">
+    <value>İkincil eksenleri Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram.AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram.SecondaryAxesX" xml:space="preserve">
+    <value>İkincil eksenler X</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram.SecondaryAxesY" xml:space="preserve">
+    <value>İkincil eksenleri Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram.Rotated" xml:space="preserve">
+    <value>döndürülmüş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.XAxisScrollBarVisible" xml:space="preserve">
+    <value>X ekseni kaydırma çubuğu görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.YAxisScrollBarVisible" xml:space="preserve">
+    <value>Y ekseni kaydırma çubuğu görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.XAxisScrollBarAlignment" xml:space="preserve">
+    <value>X ekseni kaydırma çubuğu hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.YAxisScrollBarAlignment" xml:space="preserve">
+    <value>Y ekseni kaydırma çubuğu hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.BarColor" xml:space="preserve">
+    <value>Çubuk rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.BorderColor" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarOptions.BarThickness" xml:space="preserve">
+    <value>Çubuğu kalınlığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.Angle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.Staggered" xml:space="preserve">
+    <value>Sendeleyerek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.BeginText" xml:space="preserve">
+    <value>Metin başlar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.EndText" xml:space="preserve">
+    <value>Bitiş Metni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.MaxWidth" xml:space="preserve">
+    <value>En fazla genişlik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.MaxLineCount" xml:space="preserve">
+    <value>Maksimum satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.TextAlignment" xml:space="preserve">
+    <value>Metin hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.BackImage" xml:space="preserve">
+    <value>Arka plan resmi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.SeriesDistance" xml:space="preserve">
+    <value>Seri Mesafesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.SeriesDistanceFixed" xml:space="preserve">
+    <value>Sabit seri mesafesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.SeriesIndentFixed" xml:space="preserve">
+    <value>Sabit Seri Girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3D.PlaneDepthFixed" xml:space="preserve">
+    <value>Uçak derinlik sabit</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel3D.Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisTitle.Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram3D.LayoutDirection" xml:space="preserve">
+    <value>Düzen yönü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram3D.Dimension" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram.LayoutDirection" xml:space="preserve">
+    <value>Düzen yönü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram.Dimension" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ArgumentDataMember" xml:space="preserve">
+    <value>Bağımsız veri üyesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ValueDataMembers" xml:space="preserve">
+    <value>Değer veri üyeleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ToolTipHintDataMember" xml:space="preserve">
+    <value>Araç ipucu ipucu veri üyesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.DataFilters" xml:space="preserve">
+    <value>Veri filtreleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ArgumentScaleType" xml:space="preserve">
+    <value>Değişken ölçek türü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ValueScaleType" xml:space="preserve">
+    <value>Değer ölçek türü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.LabelsVisibility" xml:space="preserve">
+    <value>Etiket görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ShowInLegend" xml:space="preserve">
+    <value>Bir göstergede göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.LegendText" xml:space="preserve">
+    <value>Gösterge metni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.PointOptions" xml:space="preserve">
+    <value>Nokta seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.TextPattern" xml:space="preserve">
+    <value>Metin deseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.LegendPointOptions" xml:space="preserve">
+    <value>Gösterge noktası seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.SeriesPointsSorting" xml:space="preserve">
+    <value>Seri Noktaları Sıralama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.SeriesPointsSortingKey" xml:space="preserve">
+    <value>Seri Noktaları Sıralama Anahtarı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointOptions.Pattern" xml:space="preserve">
+    <value>Desen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointOptions.PointView" xml:space="preserve">
+    <value>Bakış noktası</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointOptions.ValueNumericOptions" xml:space="preserve">
+    <value>Sayısal değer seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointOptions.ValueDateTimeOptions" xml:space="preserve">
+    <value>Değeri Tarih/Saat seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointOptions.ArgumentNumericOptions" xml:space="preserve">
+    <value>Bağımsız değişken sayısal seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointOptions.ArgumentDateTimeOptions" xml:space="preserve">
+    <value>Bağımsız değişken tarih ve saat seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangePointOptions.ValueAsDuration" xml:space="preserve">
+    <value>Süre değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangePointOptions.ValueDurationFormat" xml:space="preserve">
+    <value>Değer süre biçimi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FullStackedPointOptions.PercentOptions" xml:space="preserve">
+    <value>Yüzde seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PercentOptions.ValueAsPercent" xml:space="preserve">
+    <value>Değer olarak yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockPointOptions.ValueLevel" xml:space="preserve">
+    <value>Değer Level</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimplePointOptions.PercentOptions" xml:space="preserve">
+    <value>Yüzde seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.LineLength" xml:space="preserve">
+    <value>Hat uzunluğu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.LineVisible" xml:space="preserve">
+    <value>Satır görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.LineVisibility" xml:space="preserve">
+    <value>Satır görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.LineColor" xml:space="preserve">
+    <value>Çizgi rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesLabel.Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesLabel.ColumnIndent" xml:space="preserve">
+    <value>Sütun girintisi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesLabel.Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabel.ShowForZeroValues" xml:space="preserve">
+    <value>Sıfır değerlerini göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabel.Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabel.Indent" xml:space="preserve">
+    <value>Girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarSeriesLabel.Kind" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarSeriesLabel.Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarSeriesLabel.Indent" xml:space="preserve">
+    <value>Girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesLabel.Kind" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesLabel.MinValueAngle" xml:space="preserve">
+    <value>MinDeğerAçı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesLabel.MaxValueAngle" xml:space="preserve">
+    <value>MaxDeğerAçı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointSeriesLabel.Angle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointSeriesLabel.Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointLabelPosition.Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointLabelPosition.Outside" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesViewBase.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialSeriesViewBase.LevelLineLength" xml:space="preserve">
+    <value>Düzey Çizgi Uzunluğu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialSeriesViewBase.LineThickness" xml:space="preserve">
+    <value>Çizgi kalınlığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialSeriesViewBase.ReductionOptions" xml:space="preserve">
+    <value>Azaltma seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ReductionStockOptions.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ReductionStockOptions.Level" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ReductionStockOptions.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockSeriesView.ShowOpenClose" xml:space="preserve">
+    <value>Yakın açık olanı göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesViewColorEachSupportBase.ColorEach" xml:space="preserve">
+    <value>Her renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesView.BarWidth" xml:space="preserve">
+    <value>Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesView.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesView.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesView.Transparency" xml:space="preserve">
+    <value>Şeffaflık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarSeriesView.MinValueMarker" xml:space="preserve">
+    <value>Min Değer İşaretleyici</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarSeriesView.MaxValueMarker" xml:space="preserve">
+    <value>Max Değer İşaretleyici</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesView.Marker1" xml:space="preserve">
+    <value>İşaretleyici 1</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesView.Marker2" xml:space="preserve">
+    <value>İşaretleyici 2</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineSeriesView.MarkerVisibility" xml:space="preserve">
+    <value>İşaretleyici görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarLineSeriesView.MarkerVisibility" xml:space="preserve">
+    <value>İşaretleyici Görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarSeriesView.MinValueMarkerVisibility" xml:space="preserve">
+    <value>Min Değer İşaretleyici Görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarSeriesView.MaxValueMarkerVisibility" xml:space="preserve">
+    <value>Max Değer İşaretleyici Görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesView.Marker1Visibility" xml:space="preserve">
+    <value>İşaretleyici 1 görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesView.Marker2Visibility" xml:space="preserve">
+    <value>İşaretleyici 2 görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Marker.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.GanttSeriesView.LinkOptions" xml:space="preserve">
+    <value>Bağlantı seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkOptions.ArrowWidth" xml:space="preserve">
+    <value>OK genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkOptions.ArrowHeight" xml:space="preserve">
+    <value>OK yüksekliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkOptions.MinIndent" xml:space="preserve">
+    <value>Min Girintile</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkOptions.Thickness" xml:space="preserve">
+    <value>Kalınlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkOptions.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkOptions.ColorSource" xml:space="preserve">
+    <value>Renk kaynak</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkOptions.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointSeriesView.PointMarkerOptions" xml:space="preserve">
+    <value>Nokta İşaretleyici Seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BaseMarker.Kind" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BaseMarker.StarPointCount" xml:space="preserve">
+    <value>Yıldız Nokta Adedi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BaseMarker.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BaseMarker.BorderVisible" xml:space="preserve">
+    <value>Kenarlığı görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BaseMarker.BorderColor" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleMarker.Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineSeriesView.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarLineSeriesView.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotSeriesView.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotSeriesView.Antialiasing" xml:space="preserve">
+    <value>Düzgünleştirme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineSeriesView.LineMarkerOptions" xml:space="preserve">
+    <value>Çizgi işaretçi seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StepLineSeriesView.InvertedStep" xml:space="preserve">
+    <value>Ters adım</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AreaSeriesViewBase.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AreaSeriesViewBase.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AreaSeriesViewBase.MarkerOptions" xml:space="preserve">
+    <value>İşaretçi Seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AreaSeriesViewBase.Transparency" xml:space="preserve">
+    <value>Şeffaflık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StepAreaSeriesView.InvertedStep" xml:space="preserve">
+    <value>Ters adım</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesView.Border1" xml:space="preserve">
+    <value>Sınır 1</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesView.Border2" xml:space="preserve">
+    <value>Sınırı 2</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram3DSeriesViewBase.Transparency" xml:space="preserve">
+    <value>Şeffaflık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesViewBase.SizeAsPercentage" xml:space="preserve">
+    <value>Boyutu yüzdesi olarak</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesViewBase.ExplodedDistancePercentage" xml:space="preserve">
+    <value>Patlama Mesafesi Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesViewBase.ExplodeMode" xml:space="preserve">
+    <value>Patlama Modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesViewBase.ExplodedPoints" xml:space="preserve">
+    <value>Patlama Noktası</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesViewBase.ExplodedPointsFilters" xml:space="preserve">
+    <value>Patlama Noktası Filtesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.Rotation" xml:space="preserve">
+    <value>Döndürme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.HeightToWidthRatio" xml:space="preserve">
+    <value>Yükseklik/Genişlik Oranı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesViewBase.HeightToWidthRatio" xml:space="preserve">
+    <value>Yükseklik ve genişlik oranı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesViewBase.PointDistance" xml:space="preserve">
+    <value>Nokta mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesView.AlignToCenter" xml:space="preserve">
+    <value>Merkeze hizala</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesView.HeightToWidthRatioAuto" xml:space="preserve">
+    <value>Otomatik yükseklik ve genişlik oranı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.RuntimeExploding" xml:space="preserve">
+    <value>Çalışma zamanı patlayan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesView.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesView.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesView.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesView3DColorEachSupportBase.ColorEach" xml:space="preserve">
+    <value>Her renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DSeriesView.BarWidth" xml:space="preserve">
+    <value>Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DSeriesView.BarDepth" xml:space="preserve">
+    <value>Bar derinliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DSeriesView.BarDepthAuto" xml:space="preserve">
+    <value>Bar derinlik otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DSeriesView.ShowFacet" xml:space="preserve">
+    <value>Yüzünü göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DSeriesView.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Pie3DSeriesView.Depth" xml:space="preserve">
+    <value>Derinlik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Pie3DSeriesView.PieFillStyle" xml:space="preserve">
+    <value>Pasta doldurma stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Funnel3DSeriesView.FunnelFillStyle" xml:space="preserve">
+    <value>Huni Dolgu Stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Doughnut3DSeriesView.HoleRadiusPercent" xml:space="preserve">
+    <value>Delik Yarıçapı Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DoughnutSeriesView.HoleRadiusPercent" xml:space="preserve">
+    <value>Delik Yarıçapı Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NestedDoughnutSeriesView.Group" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NestedDoughnutSeriesView.InnerIndent" xml:space="preserve">
+    <value>İç girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NestedDoughnutSeriesView.Weight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Funnel3DSeriesView.HoleRadiusPercent" xml:space="preserve">
+    <value>Delik Yarıçap Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StepLine3DSeriesView.InvertedStep" xml:space="preserve">
+    <value>Ters adım</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.TopToBottom" xml:space="preserve">
+    <value>Yukarıdan aşağıya</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.BottomToTop" xml:space="preserve">
+    <value>Alttan üste</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.LeftToRight" xml:space="preserve">
+    <value>Soldan sağa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.RightToLeft" xml:space="preserve">
+    <value>Sağdan sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.TopLeftToBottomRight" xml:space="preserve">
+    <value>Üst soldan alt sağa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.BottomRightToTopLeft" xml:space="preserve">
+    <value>Alt Sağdan Üst Sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.TopRightToBottomLeft" xml:space="preserve">
+    <value>Üst Sağdan Alt Sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.BottomLeftToTopRight" xml:space="preserve">
+    <value>Alt Soldan Üst Sağa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.FromCenterHorizontal" xml:space="preserve">
+    <value>Merkezi yataydan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.ToCenterHorizontal" xml:space="preserve">
+    <value>Merkez Yataya</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.FromCenterVertical" xml:space="preserve">
+    <value>Merkezi dikeyden</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleGradientMode.ToCenterVertical" xml:space="preserve">
+    <value>Merkezi dikey olarak</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.TopToBottom" xml:space="preserve">
+    <value>Yukarıdan aşağıya</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.BottomToTop" xml:space="preserve">
+    <value>Alttan üste</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.LeftToRight" xml:space="preserve">
+    <value>Soldan sağa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.RightToLeft" xml:space="preserve">
+    <value>Sağdan sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.TopLeftToBottomRight" xml:space="preserve">
+    <value>Üst soldan alt sağa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.BottomRightToTopLeft" xml:space="preserve">
+    <value>Alt Sağdan Üst Sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.TopRightToBottomLeft" xml:space="preserve">
+    <value>Üst Sağdan Alt Sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.BottomLeftToTopRight" xml:space="preserve">
+    <value>Sol alttan sağ üste</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.ToCenter" xml:space="preserve">
+    <value>Merkeze</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolygonGradientMode.FromCenter" xml:space="preserve">
+    <value>Merkezden</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentHorizontal.LeftOutside" xml:space="preserve">
+    <value>Sol dışında</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentHorizontal.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentHorizontal.Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentHorizontal.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentHorizontal.RightOutside" xml:space="preserve">
+    <value>Hemen dışında</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentVertical.TopOutside" xml:space="preserve">
+    <value>Üst Kenar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentVertical.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentVertical.Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentVertical.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendAlignmentVertical.BottomOutside" xml:space="preserve">
+    <value>Alt dışında</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendDirection.TopToBottom" xml:space="preserve">
+    <value>Yukarıdan aşağıya</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendDirection.BottomToTop" xml:space="preserve">
+    <value>Alttan üste</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendDirection.LeftToRight" xml:space="preserve">
+    <value>Soldan sağa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendDirection.RightToLeft" xml:space="preserve">
+    <value>Sağdan sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagramDrawingStyle.Circle" xml:space="preserve">
+    <value>Daire</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagramDrawingStyle.Polygon" xml:space="preserve">
+    <value>Çokgen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagramRotationDirection.Counterclockwise" xml:space="preserve">
+    <value>Saat yönünün tersine</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagramRotationDirection.Clockwise" xml:space="preserve">
+    <value>Saat yönünde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DashStyle.Empty" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DashStyle.Solid" xml:space="preserve">
+    <value>Katı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DashStyle.Dash" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DashStyle.Dot" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DashStyle.DashDot" xml:space="preserve">
+    <value>Çizgi nokta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DashStyle.DashDotDot" xml:space="preserve">
+    <value>Çizgi nokta nokta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.ShortDate" xml:space="preserve">
+    <value>Kısa Tarih</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.LongDate" xml:space="preserve">
+    <value>Uzun tarih</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.ShortTime" xml:space="preserve">
+    <value>Kısa bir süre</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.LongTime" xml:space="preserve">
+    <value>Uzun süre</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.MonthAndDay" xml:space="preserve">
+    <value>Ay ve gün</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.MonthAndYear" xml:space="preserve">
+    <value>Ay ve yıl</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.QuarterAndYear" xml:space="preserve">
+    <value>Üç aylık dönem ve yıl</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeFormat.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericFormat.General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericFormat.Scientific" xml:space="preserve">
+    <value>Bilimsel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericFormat.FixedPoint" xml:space="preserve">
+    <value>Sabit bir nokta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericFormat.Currency" xml:space="preserve">
+    <value>Para birimi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericFormat.Percent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericFormat.Number" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisXLabelTextDirection.LeftToRight" xml:space="preserve">
+    <value>Soldan sağa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisXLabelTextDirection.TopToBottom" xml:space="preserve">
+    <value>Yukarıdan aşağıya</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisXLabelTextDirection.BottomToTop" xml:space="preserve">
+    <value>Alttan üste</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisXLabelTextDirection.Radial" xml:space="preserve">
+    <value>Radyal</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisXLabelTextDirection.Tangent" xml:space="preserve">
+    <value>Tanjant</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RotationType.UseMouseStandard" xml:space="preserve">
+    <value>Standart Mouse Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RotationType.UseMouseAdvanced" xml:space="preserve">
+    <value>Gelişmiş Mouse Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RotationType.UseAngles" xml:space="preserve">
+    <value>Açıları Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarAlignment.Near" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollBarAlignment.Far" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel3DPosition.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel3DPosition.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel3DPosition.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel3DPosition.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel3DPosition.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabelVisibilityMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LayoutDirection.Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LayoutDirection.Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleType.Qualitative" xml:space="preserve">
+    <value>Nitel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleType.Numerical" xml:space="preserve">
+    <value>Sayısal</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleType.DateTime" xml:space="preserve">
+    <value>Tarih Saat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleType.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SortingMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SortingMode.Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SortingMode.Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointView.Argument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointView.Values" xml:space="preserve">
+    <value>Değerleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointView.ArgumentAndValues" xml:space="preserve">
+    <value>Bağımsız değişken ve değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointView.SeriesName" xml:space="preserve">
+    <value>Seri adı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointView.Undefined" xml:space="preserve">
+    <value>Tanımsız</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TimeSpanFormat.Standard" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TimeSpanFormat.TotalDays" xml:space="preserve">
+    <value>Toplam gün</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TimeSpanFormat.TotalHours" xml:space="preserve">
+    <value>Toplam Saat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TimeSpanFormat.TotalMinutes" xml:space="preserve">
+    <value>Toplam dakika</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TimeSpanFormat.TotalSeconds" xml:space="preserve">
+    <value>Toplam saniye</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TimeSpanFormat.TotalMilliseconds" xml:space="preserve">
+    <value>Toplam milisaniye</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockLevel.Low" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockLevel.High" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockLevel.Open" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockLevel.Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesLabelPosition.Inside" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesLabelPosition.Outside" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesLabelPosition.TwoColumns" xml:space="preserve">
+    <value>İki sütun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesLabelPosition.Radial" xml:space="preserve">
+    <value>Radyal</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesLabelPosition.Tangent" xml:space="preserve">
+    <value>Tanjant</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabelPosition.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabelPosition.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabelPosition.Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabelPosition.TopInside" xml:space="preserve">
+    <value>Üst içinden</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesLabelPosition.BottomInside" xml:space="preserve">
+    <value>İç alt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarLabelKind.OneLabel" xml:space="preserve">
+    <value>Bir etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarLabelKind.TwoLabels" xml:space="preserve">
+    <value>İki etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarLabelKind.MaxValueLabel" xml:space="preserve">
+    <value>Max değeri etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarLabelKind.MinValueLabel" xml:space="preserve">
+    <value>Min değer etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarLabelPosition.Outside" xml:space="preserve">
+    <value>Dışarıda</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarLabelPosition.Inside" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeBarLabelPosition.Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockType.Both" xml:space="preserve">
+    <value>Her iki</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockType.Open" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StockType.Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkColorSource.ParentColor" xml:space="preserve">
+    <value>Ana renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkColorSource.ParentBorderColor" xml:space="preserve">
+    <value>Üst kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkColorSource.ChildColor" xml:space="preserve">
+    <value>Alt renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkColorSource.ChildBorderColor" xml:space="preserve">
+    <value>Alt kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkColorSource.OwnColor" xml:space="preserve">
+    <value>Kendi rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Square" xml:space="preserve">
+    <value>Kare</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Diamond" xml:space="preserve">
+    <value>Elmas</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Triangle" xml:space="preserve">
+    <value>Üçgen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.InvertedTriangle" xml:space="preserve">
+    <value>Ters üçgen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Circle" xml:space="preserve">
+    <value>Daire</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Plus" xml:space="preserve">
+    <value>Artı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Cross" xml:space="preserve">
+    <value>Çapraz</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Star" xml:space="preserve">
+    <value>Yıldız</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerKind.Hexagon" xml:space="preserve">
+    <value>Altıgen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieExplodeMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieExplodeMode.All" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieExplodeMode.MinValue" xml:space="preserve">
+    <value>En küçük değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieExplodeMode.MaxValue" xml:space="preserve">
+    <value>Max değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieExplodeMode.UsePoints" xml:space="preserve">
+    <value>Kullanım noktaları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieExplodeMode.UseFilters" xml:space="preserve">
+    <value>Filtreler kullanın</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieExplodeMode.Others" xml:space="preserve">
+    <value>Diğerleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram.Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleIndents.All" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleIndents.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleIndents.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleIndents.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RectangleIndents.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DModel.Box" xml:space="preserve">
+    <value>Kutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DModel.Cylinder" xml:space="preserve">
+    <value>Silindir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DModel.Cone" xml:space="preserve">
+    <value>Koni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Bar3DModel.Pyramid" xml:space="preserve">
+    <value>Piramit</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram2D.Panes" xml:space="preserve">
+    <value>bölmeleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram2D.DefaultPane" xml:space="preserve">
+    <value>Varsayılan bölmesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram2D.PaneLayoutDirection" xml:space="preserve">
+    <value>Bölme Düzen Yönü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram2D.PaneDistance" xml:space="preserve">
+    <value>Bölme uzaklığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram2D.Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram.EqualPieSize" xml:space="preserve">
+    <value>Eşit pasta boyutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram.CustomPanel" xml:space="preserve">
+    <value>Özel Panel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram.Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.SummaryFunction" xml:space="preserve">
+    <value>Özet işlevi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.TopNOptions" xml:space="preserve">
+    <value>Üst N seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ToolTipSeriesPattern" xml:space="preserve">
+    <value>Araç ipucu serisi model</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ToolTipPointPattern" xml:space="preserve">
+    <value>Uç nokta deseni aracı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.CrosshairEnabled" xml:space="preserve">
+    <value>Crosshair etkin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.CrosshairLabelVisibility" xml:space="preserve">
+    <value>Crosshair etiket görünürlüğü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.CrosshairLabelPattern" xml:space="preserve">
+    <value>Crosshair etiket desen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.CrosshairHighlightPoints" xml:space="preserve">
+    <value>Crosshair Noktaları Vurgula</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.LegendTextPattern" xml:space="preserve">
+    <value>Gösterge metin deseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.ToolTipEnabled" xml:space="preserve">
+    <value>Etkin araç ipucu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNOptions.Enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNOptions.Mode" xml:space="preserve">
+    <value>Modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNOptions.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNOptions.ThresholdValue" xml:space="preserve">
+    <value>Eşik değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNOptions.ThresholdPercent" xml:space="preserve">
+    <value>Eşik yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNOptions.ShowOthers" xml:space="preserve">
+    <value>Diğerlerini göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNOptions.OthersArgument" xml:space="preserve">
+    <value>Diğerlerinden bağımsız değişken</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PercentOptions.PercentageAccuracy" xml:space="preserve">
+    <value>Yüzde doğruluğu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagramSeriesViewBase.AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagramSeriesViewBase.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagramSeriesViewBase.Pane" xml:space="preserve">
+    <value>Bölmesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramSeriesViewBase.AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramSeriesViewBase.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramSeriesViewBase.Pane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramSeriesViewBase.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagram2DSeriesViewBase.Indicators" xml:space="preserve">
+    <value>Göstergeler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.Weight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.SizeMode" xml:space="preserve">
+    <value>Boyutu modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.SizeInPixels" xml:space="preserve">
+    <value>Piksel boyutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.BorderColor" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.BorderVisible" xml:space="preserve">
+    <value>Kenarlığı görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.BackImage" xml:space="preserve">
+    <value>Arka resim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.Annotations" xml:space="preserve">
+    <value>ek açıklamaları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SplineSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarSeriesViewBase.ColorEach" xml:space="preserve">
+    <value>Her renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarSeriesViewBase.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarPointSeriesView.PointMarkerOptions" xml:space="preserve">
+    <value>Nokta İşaretleyici Seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarLineSeriesView.Closed" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Line3DSeriesView.LineThickness" xml:space="preserve">
+    <value>Çizgi kalınlığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Line3DSeriesView.LineWidth" xml:space="preserve">
+    <value>Çizgi genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Area3DSeriesView.AreaWidth" xml:space="preserve">
+    <value>Alan genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FullStackedSplineArea3DSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FullStackedSplineAreaSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagramSeriesViewBase.Titles" xml:space="preserve">
+    <value>Başlıklar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedSplineArea3DSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedSplineAreaSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SplineArea3DSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Spline3DSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SplineAreaSeriesView.LineTensionPercent" xml:space="preserve">
+    <value>Hat gerilimi yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaneLayoutDirection.Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaneLayoutDirection.Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointKey.Argument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointKey.Value_1" xml:space="preserve">
+    <value>1 Değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointKey.Value_2" xml:space="preserve">
+    <value>2 Değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointKey.Value_3" xml:space="preserve">
+    <value>3 Değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointKey.Value_4" xml:space="preserve">
+    <value>4 Değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNMode.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNMode.ThresholdValue" xml:space="preserve">
+    <value>Eşik değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TopNMode.ThresholdPercent" xml:space="preserve">
+    <value>Eşik yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaneSizeMode.UseWeight" xml:space="preserve">
+    <value>Kullanım ağırlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaneSizeMode.UseSizeInPixels" xml:space="preserve">
+    <value>Piksel boyutunu kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericOptions.Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericOptions.Precision" xml:space="preserve">
+    <value>Hassasiyet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Series.Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Series.Points" xml:space="preserve">
+    <value>Noktalar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Series.DataSource" xml:space="preserve">
+    <value>Veri kaynağı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Series.ToolTipImage" xml:space="preserve">
+    <value>Araç ipucu görüntü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideGanttSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideGanttSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>Çubuk Mesafe Sabitle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideGanttSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideBar3DSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideBar3DSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>Çubuk Mesafe Sabitle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideBar3DSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideBarSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideBarSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>Çubuk Mesafe Sabitle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideBarSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideRangeBarSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideRangeBarSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>Çubuk Mesafe Sabitle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideRangeBarSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBarSeriesView.StackedGroup" xml:space="preserve">
+    <value>Yığılmış Grup</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBarSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBarSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>sabit çubuk mesafesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBarSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBarSeriesView.StackedGroup" xml:space="preserve">
+    <value>Yığılmış grup</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBarSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBarSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>Çubuk Mesafe Sabitle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBarSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBar3DSeriesView.StackedGroup" xml:space="preserve">
+    <value>Yığılmış Grup</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBar3DSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBar3DSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>Çubuk Mesafe Sabitle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideStackedBar3DSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBar3DSeriesView.StackedGroup" xml:space="preserve">
+    <value>Yığılmış grup</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBar3DSeriesView.BarDistance" xml:space="preserve">
+    <value>Çubuk mesafe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBar3DSeriesView.BarDistanceFixed" xml:space="preserve">
+    <value>Çubuk Mesafe Sabitle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SideBySideFullStackedBar3DSeriesView.EqualBarWidth" xml:space="preserve">
+    <value>Eşittir Bar genişliği</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleSeriesView.BubbleMarkerOptions" xml:space="preserve">
+    <value>Kabarcık işaretçi seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleSeriesView.MaxSize" xml:space="preserve">
+    <value>En büyük boyutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleSeriesView.MinSize" xml:space="preserve">
+    <value>En küçük boyutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleSeriesView.AutoSize" xml:space="preserve">
+    <value>Otomatik boyut</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleSeriesView.Transparency" xml:space="preserve">
+    <value>Şeffaflık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleSeriesLabel.IndentFromMarker" xml:space="preserve">
+    <value>İşaretleyiciden Girintile</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleSeriesLabel.ValueToDisplay" xml:space="preserve">
+    <value>Değerini görüntülemek için</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleLabelValueToDisplay.Weight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleLabelValueToDisplay.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BubbleLabelValueToDisplay.ValueAndWeight" xml:space="preserve">
+    <value>Değer ve ağırlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TrendLine.ExtrapolateToInfinity" xml:space="preserve">
+    <value>Sonsuza kadar tahmin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.ShowLevel0" xml:space="preserve">
+    <value>Düzey %0 göstermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.ShowLevel100" xml:space="preserve">
+    <value>% 100 Düzey göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.ShowLevel23_6" xml:space="preserve">
+    <value>Düzey %23,6 göstermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.ShowLevel76_4" xml:space="preserve">
+    <value>Düzey %76.4 göstermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.ShowAdditionalLevels" xml:space="preserve">
+    <value>Ek düzeyleri göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.Kind" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.BaseLevelColor" xml:space="preserve">
+    <value>Temel düzey renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.BaseLevelLineStyle" xml:space="preserve">
+    <value>Temel düzey çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicator.Label" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicatorLabel.BaseLevelTextColor" xml:space="preserve">
+    <value>Temel Seviye Metin Rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillStyleBase.Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillStyle2D.FillMode" xml:space="preserve">
+    <value>Dolgu modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BorderBase.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BorderBase.Thickness" xml:space="preserve">
+    <value>Kalınlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BorderBase.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BorderBase.Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TitleBase.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TitleBase.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TitleBase.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TitleBase.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Title.Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartElementNamed.Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.NumericOptions" xml:space="preserve">
+    <value>Sayısal seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.DateTimeOptions" xml:space="preserve">
+    <value>Tarih Saat seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.WorkdaysOptions" xml:space="preserve">
+    <value>İş günleri seçeneklerini</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.GridSpacing" xml:space="preserve">
+    <value>Kılavuz aralığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.GridSpacingAuto" xml:space="preserve">
+    <value>Kılavuz aralığı otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.MinorCount" xml:space="preserve">
+    <value>Küçük sayı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.Interlaced" xml:space="preserve">
+    <value>Titreşimli</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.InterlacedColor" xml:space="preserve">
+    <value>Rengi titreşimli</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.DateTimeMeasureUnit" xml:space="preserve">
+    <value>Tarih-Saat ölçü birimi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.DateTimeGridAlignment" xml:space="preserve">
+    <value>Tarih-saat tablo hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.WorkdaysOnly" xml:space="preserve">
+    <value>Yalnızca iş günleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.GridLines" xml:space="preserve">
+    <value>Kılavuz çizgileri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.Range" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.VisualRange" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.WholeRange" xml:space="preserve">
+    <value>Tüm Aralık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.Logarithmic" xml:space="preserve">
+    <value>Logaritmik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.LogarithmicBase" xml:space="preserve">
+    <value>Logaritma tabanını</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Thickness" xml:space="preserve">
+    <value>Kalınlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis.Reverse" xml:space="preserve">
+    <value>Ters çevir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Strips" xml:space="preserve">
+    <value>Şeritler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.InterlacedFillStyle" xml:space="preserve">
+    <value>Dolgu stili titreşimli</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.ConstantLines" xml:space="preserve">
+    <value>Sabit hatları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.CustomLabels" xml:space="preserve">
+    <value>Özel etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.LabelVisibilityMode" xml:space="preserve">
+    <value>Etiket görünürlük modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis.ScaleBreaks" xml:space="preserve">
+    <value>Ölçek sonu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis.ScaleBreakOptions" xml:space="preserve">
+    <value>Ölçek sonu seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis.AutoScaleBreaks" xml:space="preserve">
+    <value>Otomatik ölçek sonu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Tickmarks" xml:space="preserve">
+    <value>Onay İşaretleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.VisibilityInPanes" xml:space="preserve">
+    <value>Görünürlük bölmelerinde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.CrosshairAxisLabelOptions" xml:space="preserve">
+    <value>Crosshair ekseni etiket seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillStyle3D.FillMode" xml:space="preserve">
+    <value>Dolgu modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxis.InterlacedFillStyle" xml:space="preserve">
+    <value>Titreşimli Dolgu Stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis3D.InterlacedFillStyle" xml:space="preserve">
+    <value>Dolgu stili titreşimli</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis3D.Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillMode.Empty" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillMode.Solid" xml:space="preserve">
+    <value>Katı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillMode.Gradient" xml:space="preserve">
+    <value>Gradyan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillMode.Hatch" xml:space="preserve">
+    <value>İnce Çizgi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Millisecond" xml:space="preserve">
+    <value>Milisaniye</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Second" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Minute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Hour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Week" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Month" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Quarter" xml:space="preserve">
+    <value>Üç aylık dönem</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasurementUnit.Year" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisAlignment.Near" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisAlignment.Far" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisAlignment.Zero" xml:space="preserve">
+    <value>Sıfır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillMode3D.Empty" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillMode3D.Solid" xml:space="preserve">
+    <value>Katı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FillMode3D.Gradient" xml:space="preserve">
+    <value>Gradyan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Relations" xml:space="preserve">
+    <value>İlişkiler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Values" xml:space="preserve">
+    <value>Değerleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.DateTimeValues" xml:space="preserve">
+    <value>Tarih saat değerleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Argument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Item" xml:space="preserve">
+    <value>Madde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Length" xml:space="preserve">
+    <value>Uzunluk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Tag" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.ToolTipHint" xml:space="preserve">
+    <value>Araç İpucu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.IsEmpty" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Annotations" xml:space="preserve">
+    <value>ek açıklamaları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointFilter.Key" xml:space="preserve">
+    <value>Anahtar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointFilter.Condition" xml:space="preserve">
+    <value>Koşul</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointFilter.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilter.ColumnName" xml:space="preserve">
+    <value>Sütun adı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilter.DataType" xml:space="preserve">
+    <value>Veri türü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilter.Condition" xml:space="preserve">
+    <value>Koşul</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilter.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilterCondition.Equal" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilterCondition.GreaterThan" xml:space="preserve">
+    <value>Daha büyük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilterCondition.GreaterThanOrEqual" xml:space="preserve">
+    <value>Değerinden büyük veya eşit</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilterCondition.LessThan" xml:space="preserve">
+    <value>Daha az</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilterCondition.LessThanOrEqual" xml:space="preserve">
+    <value>Küçük veya eşittir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DataFilterCondition.NotEqual" xml:space="preserve">
+    <value>Eşit değil</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.MinLimit" xml:space="preserve">
+    <value>Dk sınırı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.MaxLimit" xml:space="preserve">
+    <value>Maksimum Limit</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.LegendText" xml:space="preserve">
+    <value>Gösterge metni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.ShowInLegend" xml:space="preserve">
+    <value>Göstergede göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.AxisLabelText" xml:space="preserve">
+    <value>Ekseni etiket metni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.ShowAxisLabel" xml:space="preserve">
+    <value>Eksen etiketini göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.AxisValue" xml:space="preserve">
+    <value>Eksen değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.ShowInLegend" xml:space="preserve">
+    <value>Göstergede göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.LegendText" xml:space="preserve">
+    <value>Gösterge metni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.ShowBehind" xml:space="preserve">
+    <value>Arkasında Göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomAxisLabel.AxisValue" xml:space="preserve">
+    <value>Eksen değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomAxisLabel.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomAxisLabel.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomAxisLabel.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomAxisLabel.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomAxisLabel.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomAxisLabel.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisRange.ScrollingRange" xml:space="preserve">
+    <value>Aralığı kaydırma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingRange.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingRange.MinValue" xml:space="preserve">
+    <value>En küçük değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingRange.MaxValue" xml:space="preserve">
+    <value>Max değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingRange.MinValueInternal" xml:space="preserve">
+    <value>En küçük değer iç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingRange.MaxValueInternal" xml:space="preserve">
+    <value>Max Değeri İç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingRange.SideMarginsEnabled" xml:space="preserve">
+    <value>Etkin kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicatorKind.FibonacciArcs" xml:space="preserve">
+    <value>Fibonacci kemerler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FibonacciIndicatorKind.FibonacciFans" xml:space="preserve">
+    <value>Fibonacci hayranları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ResolveOverlappingMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ResolveOverlappingMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ResolveOverlappingMode.HideOverlapped" xml:space="preserve">
+    <value>Örtüşeni gizle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabelResolveOverlappingMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabelResolveOverlappingMode.HideOverlapped" xml:space="preserve">
+    <value>Örtüşen gizle</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextOrientation.Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextOrientation.BottomToTop" xml:space="preserve">
+    <value>Alttan üste</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextOrientation.TopToBottom" xml:space="preserve">
+    <value>Yukarıdan aşağıya</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesLabelPosition.LeftColumn" xml:space="preserve">
+    <value>Sol sütun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesLabelPosition.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesLabelPosition.Center" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesLabelPosition.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesLabelPosition.RightColumn" xml:space="preserve">
+    <value>Sağ sütun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.ShowInLegend" xml:space="preserve">
+    <value>Göstergede göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SingleLevelIndicator.ValueLevel" xml:space="preserve">
+    <value>Değer Seviyesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleMode.Manual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleMode.AutomaticAverage" xml:space="preserve">
+    <value>Otomatik: ortalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleMode.AutomaticIntegral" xml:space="preserve">
+    <value>Otomatik: ayrılmaz</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisXBase.DateTimeScaleMode" xml:space="preserve">
+    <value>Tarih-saat ölçek modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SecondaryAxisX.DateTimeScaleMode" xml:space="preserve">
+    <value>Tarih-saat ölçek modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartElement.Tag" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleBreak.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AutoScaleBreaks.Enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AutoScaleBreaks.MaxCount" xml:space="preserve">
+    <value>Max sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.ResolveOverlappingMinIndent" xml:space="preserve">
+    <value>Çakışan Min girinti gidermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.ResolveOverlappingMode" xml:space="preserve">
+    <value>Çakışan modu gidermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.ResolveOverlappingMode" xml:space="preserve">
+    <value>Çakışan modu gidermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.TextOrientation" xml:space="preserve">
+    <value>Metin yönlendirmesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.MaxWidth" xml:space="preserve">
+    <value>En fazla genişlik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.MaxLineCount" xml:space="preserve">
+    <value>Maksimum satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesLabelBase.TextAlignment" xml:space="preserve">
+    <value>Metin hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleBreakOptions.SizeInPixels" xml:space="preserve">
+    <value>Piksel boyutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleBreakOptions.Style" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleBreakOptions.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleBreakStyle.Straight" xml:space="preserve">
+    <value>Düz</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleBreakStyle.Ragged" xml:space="preserve">
+    <value>Düzensiz</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.AnchorPoint" xml:space="preserve">
+    <value>BağlantıNoktası</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.ShapePosition" xml:space="preserve">
+    <value>Şekil konumu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.RuntimeAnchoring" xml:space="preserve">
+    <value>ÇalışmaZamanına Bağlanmış</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.RuntimeMoving" xml:space="preserve">
+    <value>Çalışma zamanı taşıma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.RuntimeResizing" xml:space="preserve">
+    <value>Çalışma zamanı yeniden boyutlandırma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.RuntimeRotation" xml:space="preserve">
+    <value>Çalışma zamanı döndürme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.ZOrder" xml:space="preserve">
+    <value>Z sırası</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.LabelMode" xml:space="preserve">
+    <value>Etiket modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.Antialiasing" xml:space="preserve">
+    <value>Düzgünleştirme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.TextAlignment" xml:space="preserve">
+    <value>Metin hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.Lines" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextAnnotation.AutoSize" xml:space="preserve">
+    <value>Otomatik Boyutlandır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.ShapeKind" xml:space="preserve">
+    <value>Şekil türü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.ShapeFillet" xml:space="preserve">
+    <value>Şekil fileto</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.Angle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.ConnectorStyle" xml:space="preserve">
+    <value>Bağlayıcı stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Annotation.Padding" xml:space="preserve">
+    <value>Doldurma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FreePosition.InnerIndents" xml:space="preserve">
+    <value>İç girintiler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FreePosition.OuterIndents" xml:space="preserve">
+    <value>Dış girintiler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FreePosition.DockCorner" xml:space="preserve">
+    <value>Köşeye Bağla</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FreePosition.DockTarget" xml:space="preserve">
+    <value>Hedefe Bağla</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ToolTipPositionWithOffset.OffsetX" xml:space="preserve">
+    <value>X kenar boşluğu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ToolTipPositionWithOffset.OffsetY" xml:space="preserve">
+    <value>Y uzaklığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ToolTipFreePosition.DockCorner" xml:space="preserve">
+    <value>Köşeye Bağla</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ToolTipFreePosition.DockTarget" xml:space="preserve">
+    <value>Hedefe Bağla</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ShowArgumentLabels" xml:space="preserve">
+    <value>Bağımsız değişken etiketlerini göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ShowValueLabels" xml:space="preserve">
+    <value>Değer etiketleri göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ShowCrosshairLabels" xml:space="preserve">
+    <value>Crosshair etiketlerini göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.SnapMode" xml:space="preserve">
+    <value>Snap modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.CrosshairLabelMode" xml:space="preserve">
+    <value>Crosshair etiket modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ShowArgumentLine" xml:space="preserve">
+    <value>Bağımsız değişken çizgisini göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ShowValueLine" xml:space="preserve">
+    <value>Değer çizgisini göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.CommonLabelPosition" xml:space="preserve">
+    <value>Ortak etiket konumu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ArgumentLineColor" xml:space="preserve">
+    <value>Bağımsız çizgi rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ArgumentLineStyle" xml:space="preserve">
+    <value>Bağımsız çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ValueLineColor" xml:space="preserve">
+    <value>Değer çizgi rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ValueLineStyle" xml:space="preserve">
+    <value>Değer çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.HighlightPoints" xml:space="preserve">
+    <value>Noktaları Vurgula</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.ShowGroupHeaders" xml:space="preserve">
+    <value>Gösteri grup üstbilgileri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.GroupHeaderPattern" xml:space="preserve">
+    <value>Grup üstbilgisi desen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairAxisLabelOptions.Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairAxisLabelOptions.Pattern" xml:space="preserve">
+    <value>Desen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairAxisLabelOptions.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairAxisLabelOptions.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairAxisLabelOptions.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RelativePosition.ConnectorLength" xml:space="preserve">
+    <value>Bağlayıcı uzunluğu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RelativePosition.Angle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaneAnchorPoint.Pane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaneAnchorPoint.AxisXCoordinate" xml:space="preserve">
+    <value>AxisX koordine etmek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaneAnchorPoint.AxisYCoordinate" xml:space="preserve">
+    <value>AxisY koordine etmek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisCoordinate.AxisValue" xml:space="preserve">
+    <value>Eksen değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisXCoordinate.Axis" xml:space="preserve">
+    <value>Eksen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisYCoordinate.Axis" xml:space="preserve">
+    <value>Eksen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointAnchorPoint.SeriesPoint" xml:space="preserve">
+    <value>Seri Noktası</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ShapeKind.Rectangle" xml:space="preserve">
+    <value>Dikdörtgen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ShapeKind.RoundedRectangle" xml:space="preserve">
+    <value>Yuvarlatılmış dikdörtgen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ShapeKind.Ellipse" xml:space="preserve">
+    <value>Elips</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockCorner.LeftBottom" xml:space="preserve">
+    <value>Sol alt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockCorner.LeftTop" xml:space="preserve">
+    <value>Sol üst</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockCorner.RightTop" xml:space="preserve">
+    <value>Sağ üst</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockCorner.RightBottom" xml:space="preserve">
+    <value>Sağ alt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartImageSizeMode.AutoSize" xml:space="preserve">
+    <value>Otomatik Boyutlandır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartImageSizeMode.Stretch" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartImageSizeMode.Zoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MultilineTitle.Lines" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockableTitle.WordWrap" xml:space="preserve">
+    <value>Sözcük kaydır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockableTitle.MaxLineCount" xml:space="preserve">
+    <value>Maksimum satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockableTitle.Dock" xml:space="preserve">
+    <value>Dok</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockableTitle.Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockableTitle.Indent" xml:space="preserve">
+    <value>Girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialIndicator.Point1" xml:space="preserve">
+    <value>Nokta 1</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialIndicator.Point2" xml:space="preserve">
+    <value>Nokta 2</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingOptions.UseKeyboard" xml:space="preserve">
+    <value>Klavye Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingOptions.UseMouse" xml:space="preserve">
+    <value>Fare kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingOptions2D.UseTouchDevice" xml:space="preserve">
+    <value>Dokunmatik aygıt kullanma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScrollingOptions2D.UseScrollBars" xml:space="preserve">
+    <value>Kaydırma çubuklarını kullanma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ZoomingOptions.UseKeyboard" xml:space="preserve">
+    <value>Klavye Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ZoomingOptions.UseKeyboardWithMouse" xml:space="preserve">
+    <value>Klavye Mouse İle Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ZoomingOptions.UseMouseWheel" xml:space="preserve">
+    <value>Fare tekerleğini kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ZoomingOptions.UseTouchDevice" xml:space="preserve">
+    <value>Dokunmatik Aygıt Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RotationOptions.UseMouse" xml:space="preserve">
+    <value>Mouse Kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RotationOptions.UseTouchDevice" xml:space="preserve">
+    <value>Dokunmatik aygıt kullanma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ImageAnnotation.SizeMode" xml:space="preserve">
+    <value>Boyutu modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ImageAnnotation.Image" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnnotationConnectorStyle.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnnotationConnectorStyle.Tail" xml:space="preserve">
+    <value>Kuyruk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnnotationConnectorStyle.Arrow" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnnotationConnectorStyle.NotchedArrow" xml:space="preserve">
+    <value>OK çentikli</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnnotationConnectorStyle.Line" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.Sunday" xml:space="preserve">
+    <value>Pazar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.Monday" xml:space="preserve">
+    <value>Pazartesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.Tuesday" xml:space="preserve">
+    <value>Salı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.Wednesday" xml:space="preserve">
+    <value>Çarşamba</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.Thursday" xml:space="preserve">
+    <value>Perşembe</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.Friday" xml:space="preserve">
+    <value>Cuma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.Saturday" xml:space="preserve">
+    <value>Cumartesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.KnownDate.Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="DevExpress.XtraCharts.WorkdaysOptions.Holidays" xml:space="preserve">
+    <value>Tatil</value>
+  </data>
+  <data name="DevExpress.XtraCharts.WorkdaysOptions.ExactWorkdays" xml:space="preserve">
+    <value>Tam işgünleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.WorkdaysOptions.Workdays" xml:space="preserve">
+    <value>İş günleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.AutoBindingSettingsEnabled" xml:space="preserve">
+    <value>Otomatik bağlama ayarları etkin </value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveDataByColumns" xml:space="preserve">
+    <value>Veri sütunlarını almak</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveEmptyCells" xml:space="preserve">
+    <value>Boş hücreleri almak</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.SelectionOnly" xml:space="preserve">
+    <value>Yalnızca Seçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.SinglePageOnly" xml:space="preserve">
+    <value>Yalnızca tek sayfa</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveColumnTotals" xml:space="preserve">
+    <value>Sütun toplamlarını alma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveColumnGrandTotals" xml:space="preserve">
+    <value>Sütun toplamları alma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveColumnCustomTotals" xml:space="preserve">
+    <value>Özel sütun toplamlarını alma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveRowTotals" xml:space="preserve">
+    <value>Satır Toplamlarını Al</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveRowGrandTotals" xml:space="preserve">
+    <value>Satır Genel Toplamlarını Al</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.RetrieveRowCustomTotals" xml:space="preserve">
+    <value>Satır Özel Toplamlarını Al</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.MaxAllowedSeriesCount" xml:space="preserve">
+    <value>İzin verilen max seri sayısı.</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.MaxAllowedPointCountInSeries" xml:space="preserve">
+    <value>Max serideki nokta sayısı izin verilen.</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PivotGridDataSourceOptions.UpdateDelay" xml:space="preserve">
+    <value>Gecikme Güncelleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartTitleDockStyle.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartTitleDockStyle.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartTitleDockStyle.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartTitleDockStyle.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.Value_1" xml:space="preserve">
+    <value>1 Değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.Value_2" xml:space="preserve">
+    <value>2 Değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.Low" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.High" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.Open" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SubsetBasedIndicator.PointsCount" xml:space="preserve">
+    <value>Puan sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MovingAverageKind.MovingAverage" xml:space="preserve">
+    <value>Hareketli ortalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MovingAverageKind.Envelope" xml:space="preserve">
+    <value>Zarf</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MovingAverageKind.MovingAverageAndEnvelope" xml:space="preserve">
+    <value>Hareketli ortalama ve zarf</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MovingAverage.Kind" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MovingAverage.EnvelopePercent" xml:space="preserve">
+    <value>Zarf yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MovingAverage.EnvelopeColor" xml:space="preserve">
+    <value>Zarf renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MovingAverage.EnvelopeLineStyle" xml:space="preserve">
+    <value>Zarf çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StripLimit.AxisValue" xml:space="preserve">
+    <value>Eksen değeri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StripLimit.Enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLineTitle.Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLineTitle.ShowBelowLine" xml:space="preserve">
+    <value>Çizgi Üstünde Göster</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Relation.ChildPoint" xml:space="preserve">
+    <value>Çocuk noktası</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Relation.ParentPoint" xml:space="preserve">
+    <value>Üst nokta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLink.LinkType" xml:space="preserve">
+    <value>Bağlantı türü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialIndicatorPoint.Argument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialIndicatorPoint.ValueLevel" xml:space="preserve">
+    <value>Değer Seviyesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLineTitleAlignment.Near" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLineTitleAlignment.Far" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkType.FinishToStart" xml:space="preserve">
+    <value>Başlangıç bitiş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkType.StartToStart" xml:space="preserve">
+    <value>Başlangıç-başlangıç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkType.FinishToFinish" xml:space="preserve">
+    <value>Bitiş-bitiş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TaskLinkType.StartToFinish" xml:space="preserve">
+    <value>Baştan sona</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaLabelKind.OneLabel" xml:space="preserve">
+    <value>Bir etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaLabelKind.TwoLabels" xml:space="preserve">
+    <value>İki etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaLabelKind.MaxValueLabel" xml:space="preserve">
+    <value>Maksimum değer etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaLabelKind.MinValueLabel" xml:space="preserve">
+    <value>Minimum değer etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaLabelKind.Value1Label" xml:space="preserve">
+    <value>Değer1 etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaLabelKind.Value2Label" xml:space="preserve">
+    <value>Değer2 etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeControlViewType.Line" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeControlViewType.Area" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeControlViewType.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeControlViewType.ViewType" xml:space="preserve">
+    <value>Görünüm türü</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairLabelPosition.OffsetX" xml:space="preserve">
+    <value>X Ofset</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairLabelPosition.OffsetY" xml:space="preserve">
+    <value>Y Ofset</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairFreePosition.DockTarget" xml:space="preserve">
+    <value>Hedefe Bağla</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairFreePosition.DockCorner" xml:space="preserve">
+    <value>Köşeye Bağla</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabelResolveOverlappingOptions.AllowStagger" xml:space="preserve">
+    <value>Topallama izin ver</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabelResolveOverlappingOptions.AllowRotate" xml:space="preserve">
+    <value>Döndürmek izin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabelResolveOverlappingOptions.AllowHide" xml:space="preserve">
+    <value>Gizlemek izin ver</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabelResolveOverlappingOptions.MinIndent" xml:space="preserve">
+    <value>Min Girintile</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.ResolveOverlappingOptions" xml:space="preserve">
+    <value>Çakışan seçenekler gidermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.MinAllowedSizePercentage" xml:space="preserve">
+    <value>MinİzinBoyutYüzdesi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.DateTimeOptions" xml:space="preserve">
+    <value>TarihSaatSeçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.DateTimeScaleOptions" xml:space="preserve">
+    <value>TarihSaatSeçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.NumericOptions" xml:space="preserve">
+    <value>SayısalSeçenekler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.TextPattern" xml:space="preserve">
+    <value>Metin desen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisLabel.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode" xml:space="preserve">
+    <value>ÖlçekModu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleOptionsBase.AutoGrid" xml:space="preserve">
+    <value>Otomatik Tablo</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleOptionsBase.GridSpacing" xml:space="preserve">
+    <value>Kılavuz aralığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleOptionsBase.GridOffset" xml:space="preserve">
+    <value>Kılavuz ofset</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleOptions.GridAlignment" xml:space="preserve">
+    <value>TabloHizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleOptions.MeasureUnit" xml:space="preserve">
+    <value>ÖlçümBirimi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleOptions.WorkdaysOnly" xml:space="preserve">
+    <value>SadeceÇalışmaGünleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeScaleOptions.WorkdaysOptions" xml:space="preserve">
+    <value>ÇalışmaGünleriSeçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Financial" xml:space="preserve">
+    <value>Finansal</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Average" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Sum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Minimum" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Maximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleMode.Automatic" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleMode.Manual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ScaleMode.Continuous" xml:space="preserve">
+    <value>Sürekli</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Millisecond" xml:space="preserve">
+    <value>Milisaniye</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Second" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Minute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Hour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Week" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Month" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Quarter" xml:space="preserve">
+    <value>Üç aylık dönem</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeMeasureUnit.Year" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Millisecond" xml:space="preserve">
+    <value>Milisaniye</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Second" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Minute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Hour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Week" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Month" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Quarter" xml:space="preserve">
+    <value>Üç aylık dönem</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Year" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DateTimeGridAlignment.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.NumericScaleOptions" xml:space="preserve">
+    <value>Sayısal ölçek seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericScaleOptions.MeasureUnit" xml:space="preserve">
+    <value>Ölçü birimi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericScaleOptions.GridAlignment" xml:space="preserve">
+    <value>Kılavuzu hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericScaleOptions.CustomGridAlignment" xml:space="preserve">
+    <value>Özel Tablo Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericScaleOptions.CustomMeasureUnit" xml:space="preserve">
+    <value>Özel ölçü birimi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Ones" xml:space="preserve">
+    <value>Birkaç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Tens" xml:space="preserve">
+    <value>Onlarca</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Hundreds" xml:space="preserve">
+    <value>Yüzlerce</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Thousands" xml:space="preserve">
+    <value>Binlerce</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Millions" xml:space="preserve">
+    <value>Milyonlarca</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Billions" xml:space="preserve">
+    <value>Milyarlarca</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericGridAlignment.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericMeasureUnit.Ones" xml:space="preserve">
+    <value>Birler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericMeasureUnit.Tens" xml:space="preserve">
+    <value>Onlar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericMeasureUnit.Hundreds" xml:space="preserve">
+    <value>Yüzlerce</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericMeasureUnit.Thousands" xml:space="preserve">
+    <value>Binlerce</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericMeasureUnit.Millions" xml:space="preserve">
+    <value>Milyonlarca</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericMeasureUnit.Billions" xml:space="preserve">
+    <value>Milyarlarca</value>
+  </data>
+  <data name="DevExpress.XtraCharts.NumericMeasureUnit.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Pie3DSeriesView.SizeAsPercentage" xml:space="preserve">
+    <value>Boyut yüzdesi olarak</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSweepDirection.Counterclockwise" xml:space="preserve">
+    <value>Saat yönünün tersine</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSweepDirection.Clockwise" xml:space="preserve">
+    <value>Saat yönünde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartRangeControlClientGridOptions.LabelFormat" xml:space="preserve">
+    <value>Etiket formatı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartRangeControlClientSnapMode.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartRangeControlClientSnapMode.ChartMeasureUnit" xml:space="preserve">
+    <value>Grafiğin ölçü birimi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartRangeControlClientSnapMode.Manual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartRangeControlClientGridMode.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartRangeControlClientGridMode.Manual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.DockableTitle.Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisTitle.Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Axis2D.Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPoint.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.Colorizer" xml:space="preserve">
+    <value>Renklendirici</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaletteColorizerBase.Palette" xml:space="preserve">
+    <value>Palet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaletteEntry.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaletteEntry.Color2" xml:space="preserve">
+    <value>Renk2</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeparatePaneIndicator.Pane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeparatePaneIndicator.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomLegendItem.Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendItemVisibilityMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomLegendItem.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendTitle.Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendTitle.Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartAnchorPoint.X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisTitle.WordWrap" xml:space="preserve">
+    <value>Sözcük kaydır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendTitle.WordWrap" xml:space="preserve">
+    <value>Sözcük kaydır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomLegendItem.MarkerSize" xml:space="preserve">
+    <value>İşaretçi boyutu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisTitle.MaxLineCount" xml:space="preserve">
+    <value>Maksimum satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendTitle.MaxLineCount" xml:space="preserve">
+    <value>Maksimum satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomLegendItem.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.DockTarget" xml:space="preserve">
+    <value>Hedefe Bağla</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAreaSeriesView.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PercentageErrorBars.Percent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisBase.Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ErrorBars.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotSeriesViewBase.AxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotSeriesViewBase.AxisY" xml:space="preserve">
+    <value>Y Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartPaletteColorizerBase.Palette" xml:space="preserve">
+    <value>Palet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotSeriesViewBase.Pane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineSeriesView.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerBase.BorderColor" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerBase.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAreaSeriesView.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAreaSeriesView.Transparency" xml:space="preserve">
+    <value>Şeffaflık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerBase.BorderVisible" xml:space="preserve">
+    <value>Kenarlığı görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MarkerBase.Kind" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FullStackedStepAreaSeriesView.InvertedStep" xml:space="preserve">
+    <value>Ters adım</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedStepAreaSeriesView.InvertedStep" xml:space="preserve">
+    <value>Ters adım</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StepArea3DSeriesView.InvertedStep" xml:space="preserve">
+    <value>Ters adım</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendItemVisibilityMode.AutoGeneratedAndCustom" xml:space="preserve">
+    <value>Otomatik olarak oluşturulan ve özel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.CustomItems" xml:space="preserve">
+    <value>Özel öğeler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RelativePosition" xml:space="preserve">
+    <value>Göreli konum</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSeriesView.Animation" xml:space="preserve">
+    <value>Animasyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointAnimationOrder.Inverted" xml:space="preserve">
+    <value>Ters</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolarAxisX" xml:space="preserve">
+    <value>Kutup ekseni X</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PolarDiagram" xml:space="preserve">
+    <value>Kutup diyagramı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PowerEasingFunction" xml:space="preserve">
+    <value>Güç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisXLabel" xml:space="preserve">
+    <value>Radar eksen X etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarRangeAreaSeriesLabel" xml:space="preserve">
+    <value>Radar Aralık alan serisi etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarAxisY" xml:space="preserve">
+    <value>Radar eksen Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeArea3DSeriesLabel" xml:space="preserve">
+    <value>Aralık alan 3D serisi etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeAreaSeriesLabel" xml:space="preserve">
+    <value>Aralık alan serisi etiketi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYMarkerSlideAnimation" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYMarkerSlideAnimationDirection.FromBottom" xml:space="preserve">
+    <value>Alttan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYMarkerSlideAnimationDirection.FromLeft" xml:space="preserve">
+    <value>Soldan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYMarkerSlideAnimationDirection.FromRight" xml:space="preserve">
+    <value>Sağdan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYSeriesSlideAnimation" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointCollection.Owner" xml:space="preserve">
+    <value>Sahibi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSlideAnimation" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisX3D" xml:space="preserve">
+    <value>Eksen X 3D</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisY3D" xml:space="preserve">
+    <value>Eksen Y 3D</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairOptions.GroupHeaderTextOptions" xml:space="preserve">
+    <value>Grup üstbilgi metin seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularMarkerSlideAnimation" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularSeriesSpinZoomInAnimation" xml:space="preserve">
+    <value>Spin Yakınlaştır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BounceEasingFunction" xml:space="preserve">
+    <value>Sıçrama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSeriesView.Animation" xml:space="preserve">
+    <value>Animasyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnimationDirection.FromBottom" xml:space="preserve">
+    <value>Alttan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnimationDirection.FromRight" xml:space="preserve">
+    <value>Sağdan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnimationDirection.FromTop" xml:space="preserve">
+    <value>Üstten</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.AutoLayout" xml:space="preserve">
+    <value>Otomatik Düzen</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaletteScaleMode.Extrapolate" xml:space="preserve">
+    <value>Tahmin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PaletteScaleMode.Repeat" xml:space="preserve">
+    <value>Tekrar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSlideAnimation" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelWidenAnimation" xml:space="preserve">
+    <value>Genişletmek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend.UseCheckBoxes" xml:space="preserve">
+    <value>Onay kutularını kullan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendTitle" xml:space="preserve">
+    <value>Gösterge Başlığı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LinearEasingFunction" xml:space="preserve">
+    <value>Doğrusal</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CustomLegendItemCollection" xml:space="preserve">
+    <value>Özel gösterge öğesi koleksiyonu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSeriesView.Animation" xml:space="preserve">
+    <value>Animasyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialSeriesViewBase.Animation" xml:space="preserve">
+    <value>Animasyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialSlideAnimation" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Doughnut3DSeriesLabel" xml:space="preserve">
+    <value>Halka 3D serisi etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ElasticEasingFunction" xml:space="preserve">
+    <value>Elastik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ElementSelectionMode.Extended" xml:space="preserve">
+    <value>Genişletilmiş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ErrorBarDirection.Minus" xml:space="preserve">
+    <value>Eksi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ErrorBarDirection.Plus" xml:space="preserve">
+    <value>Artı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ExponentialEasingFunction" xml:space="preserve">
+    <value>Üstel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextOptions.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.Padding" xml:space="preserve">
+    <value>Doldurma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYSeriesAnimationUnwrapDirection.Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.RightToLeft" xml:space="preserve">
+    <value>Sağdan sola</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesSelectionMode.Argument" xml:space="preserve">
+    <value>Sav</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Series" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ZoomRectangle.Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ZoomRectangle.BorderColor" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesSelectionMode.Series" xml:space="preserve">
+    <value>Seriler</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Printing.PrintSizeMode.Zoom" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConjunctionTypes.Or" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Printing.ChartOptionsPrint.SizeMode" xml:space="preserve">
+    <value>Boyutu modu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ToolTipFreePosition" xml:space="preserve">
+    <value>Boş pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ElementSelectionMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LineStyle" xml:space="preserve">
+    <value>Çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircleEasingFunction" xml:space="preserve">
+    <value>Daire</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Printing.PrintImageFormat.Bitmap" xml:space="preserve">
+    <value>Bit eşlem</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularSeriesCircularUnwindAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairValueSelectionMode.Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularMarkerSlideAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ZoomRectangle.BorderVisible" xml:space="preserve">
+    <value>Kenarlığı görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.Appearance" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularSeriesLinearUnwindAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYMarkerSlideAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Printing.PrintSizeMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ChartAnimationMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConjunctionTypes.And" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="DevExpress.XtraCharts.GanttAxisX" xml:space="preserve">
+    <value>X Ekseni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ValueLevel.Weight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesSelectionMode.Point" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.Diagram" xml:space="preserve">
+    <value>Diyagram</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYSeriesAnimationUnwrapDirection.Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularSeriesZoomInAnimation" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextOptions.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BackgroundImage" xml:space="preserve">
+    <value>Arka plan resmi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYSeriesStretchAnimation" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnimationBase.Duration" xml:space="preserve">
+    <value>Süre:</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Marker" xml:space="preserve">
+    <value>işaretçisi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagramAxisY" xml:space="preserve">
+    <value>Birincil eksen Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.BackImage" xml:space="preserve">
+    <value>Arka plan resmi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ElementSelectionMode.Single" xml:space="preserve">
+    <value>Tek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PieSpinAnimationBase.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BackEasingFunction" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FreePosition" xml:space="preserve">
+    <value>Boş pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AnimationBase.Enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairValueSelectionMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYSeriesUnwrapAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPane" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FunnelSlideAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairFreePosition" xml:space="preserve">
+    <value>Boş pozisyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYSeriesDirectedAnimationBase.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Printing.PrintSizeMode.Stretch" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularSeriesSpinZoomInAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialExpandAnimation" xml:space="preserve">
+    <value>Genişlet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Printing.PrintImageFormat.Metafile" xml:space="preserve">
+    <value>Meta dosyası</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.OptionsPrint" xml:space="preserve">
+    <value>Yazdırma Seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PointAnimationOrder.Straight" xml:space="preserve">
+    <value>Düz</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RangeControlOptions.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ErrorBarDirection.Both" xml:space="preserve">
+    <value>Her iki</value>
+  </data>
+  <data name="DevExpress.XtraCharts.FinancialSlideAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisY" xml:space="preserve">
+    <value>Birincil eksen Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TextOptions.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.Palette" xml:space="preserve">
+    <value>Palet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BarSlideAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendMarkerMode.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Weekday.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraCharts.RadarDiagram" xml:space="preserve">
+    <value>Radar diyagramı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorAnimationUnwrapDirection.Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorAnimationUnwrapDirection.Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="DevExpress.XtraCharts.WorkTimeRule.Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Maximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Minimum" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="DevExpress.XtraCharts.EasingMode.In" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.Indent" xml:space="preserve">
+    <value>Girinti</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.TextAlignment" xml:space="preserve">
+    <value>Metin hizalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesPointCollection.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorDirectedAnimationBase.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorUnwrapAnimation.Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Average" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Sum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.BackColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ToolTipRelativePosition" xml:space="preserve">
+    <value>Göreli konumu</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AxisX" xml:space="preserve">
+    <value>Birincil eksen X</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagramAxisX" xml:space="preserve">
+    <value>Birincil eksen X</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorStretchAnimation" xml:space="preserve">
+    <value>Streç</value>
+  </data>
+  <data name="DevExpress.XtraCharts.IndicatorSlideAnimation" xml:space="preserve">
+    <value>Slayt</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Financial" xml:space="preserve">
+    <value>Finansal</value>
+  </data>
+  <data name="DevExpress.XtraCharts.LegendMarkerMode.Marker" xml:space="preserve">
+    <value>işaretçisi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.EnableAntialiasing" xml:space="preserve">
+    <value>Düzgünleştirme etkinleştir</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.FillStyle" xml:space="preserve">
+    <value>Stil doldurun</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.Shadow" xml:space="preserve">
+    <value>Gölge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.MaxLineCount" xml:space="preserve">
+    <value>Maksimum satır sayısı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.MaxWidth" xml:space="preserve">
+    <value>En fazla genişlik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.Animation" xml:space="preserve">
+    <value>Animasyon</value>
+  </data>
+  <data name="DevExpress.XtraCharts.TotalLabel.TextColor" xml:space="preserve">
+    <value>Metin rengi</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairContentShowMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairContentShowMode.Legend" xml:space="preserve">
+    <value>Gösterge</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairContentShowMode.Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraCharts.AggregateFunction.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesAggregateFunction.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer.DataSource" xml:space="preserve">
+    <value>Veri Kaynağı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CrosshairLinesMode.Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.LegendText" xml:space="preserve">
+    <value>Gösterge metni</value>
+  </data>
+  <data name="DevExpress.XtraCharts.XYDiagramPaneBase.StackedBarTotalLabel" xml:space="preserve">
+    <value>Toplam etiket yığılmış</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesBase.CheckedInLegend" xml:space="preserve">
+    <value>Göstergede kontrol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel" xml:space="preserve">
+    <value>Toplam etiket yığılmış</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.ConnectorLineStyle" xml:space="preserve">
+    <value>Bağlayıcı çizgi stili</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.ResolveOverlappingMinIndent" xml:space="preserve">
+    <value>Çakışan Min girinti gidermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.StackedBarTotalLabel.ResolveOverlappingMode" xml:space="preserve">
+    <value>Çakışan modu gidermek</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SimpleDiagram3D" xml:space="preserve">
+    <value>Basit şema 3D</value>
+  </data>
+  <data name="DevExpress.XtraCharts.PiePopUpAnimation" xml:space="preserve">
+    <value>Pop Up</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.CheckableInLegend" xml:space="preserve">
+    <value>Göstergedeki niteliklerinde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ConstantLine.CheckedInLegend" xml:space="preserve">
+    <value>Göstergede kontrol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularSeriesUnwindFromCenterAnimation" xml:space="preserve">
+    <value>Merkezi'nden gevşeyin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.ColorObjectColorizer" xml:space="preserve">
+    <value>Renk nesne renklendirici</value>
+  </data>
+  <data name="DevExpress.XtraCharts.CircularSeriesLinearUnwindAnimation" xml:space="preserve">
+    <value>Doğrusal bırakma</value>
+  </data>
+  <data name="DevExpress.XtraCharts.BackEasingFunction.Amplitude" xml:space="preserve">
+    <value>Genlik</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Native.Chart.CrosshairEnabled" xml:space="preserve">
+    <value>Crosshair etkin</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MaxStripLimit" xml:space="preserve">
+    <value>Max şeridi sınırı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.MinStripLimit" xml:space="preserve">
+    <value>Min şeridi sınırı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.CheckableInLegend" xml:space="preserve">
+    <value>Göstergedeki niteliklerinde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Indicator.CheckedInLegend" xml:space="preserve">
+    <value>Göstergede kontrol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.KeyColorColorizer" xml:space="preserve">
+    <value>Anahtar-renk renklendirici</value>
+  </data>
+  <data name="DevExpress.XtraCharts.Strip.CheckedInLegend" xml:space="preserve">
+    <value>Göstergede kontrol</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SecondaryAxisY" xml:space="preserve">
+    <value>İkincil eksen Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SwiftPlotDiagramSecondaryAxisY" xml:space="preserve">
+    <value>İkincil eksen Y</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SweepDirection.Clockwise" xml:space="preserve">
+    <value>Saat yönünde</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SweepDirection.Counterclockwise" xml:space="preserve">
+    <value>Saat yönünün tersine</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesKeyColorColorizer.Keys" xml:space="preserve">
+    <value>Anahtarlar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer" xml:space="preserve">
+    <value>Renklendirici serisi veri kaynağı</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer.SeriesColorMember" xml:space="preserve">
+    <value>Üye serisi renk</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesDataSourceColorizer.SeriesKeyMember" xml:space="preserve">
+    <value>Dizi üye anahtar</value>
+  </data>
+  <data name="DevExpress.XtraCharts.SeriesTemplate.SeriesColorizer" xml:space="preserve">
+    <value>Serisi renklendirici</value>
+  </data>
+</root>

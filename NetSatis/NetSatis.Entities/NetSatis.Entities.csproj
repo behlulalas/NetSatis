@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52C7128A-D722-4C12-973B-DE8DB57438DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetSatis.Entities</RootNamespace>
+    <AssemblyName>NetSatis.Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.7.5.0\lib\net45\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="INIFileParser, Version=2.5.2.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c, processorArchitecture=MSIL">
+      <HintPath>..\packages\ini-parser.2.5.2\lib\net20\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.4.1\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Primitives.4.3.0\lib\net45\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.8\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context\NetSatisContext.cs" />
+    <Compile Include="DataAccess\HizliSatisGrupDAL.cs" />
+    <Compile Include="DataAccess\HizliSatisDAL.cs" />
+    <Compile Include="DataAccess\IndirimDAL.cs" />
+    <Compile Include="DataAccess\CariDAL.cs" />
+    <Compile Include="DataAccess\DepoDAL.cs" />
+    <Compile Include="DataAccess\FisDAL.cs" />
+    <Compile Include="DataAccess\KasaDAL.cs" />
+    <Compile Include="DataAccess\KasaHareketDAL.cs" />
+    <Compile Include="DataAccess\KodDAL.cs" />
+    <Compile Include="DataAccess\KullaniciDAL.cs" />
+    <Compile Include="DataAccess\KullaniciRolDAL.cs" />
+    <Compile Include="DataAccess\OdemeTuruDAL.cs" />
+    <Compile Include="DataAccess\PersonelDAL.cs" />
+    <Compile Include="DataAccess\PersonelHareketDAL.cs" />
+    <Compile Include="DataAccess\StokDAL.cs" />
+    <Compile Include="DataAccess\StokHareketDAL.cs" />
+    <Compile Include="DataAccess\TanimDAL.cs" />
+    <Compile Include="Extensions\FluentValidation\RuleBuilderExtensions.cs" />
+    <Compile Include="Extensions\FluentValidation\UniqueValidator.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IEntityRepository.cs" />
+    <Compile Include="Mapping\HizliSatisGrupMap.cs" />
+    <Compile Include="Mapping\IndirimMap.cs" />
+    <Compile Include="Mapping\KodMap.cs" />
+    <Compile Include="Mapping\KullaniciMap.cs" />
+    <Compile Include="Mapping\KullaniciRolMap.cs" />
+    <Compile Include="Mapping\PersonelHareketMap.cs" />
+    <Compile Include="Mapping\PersonelMap.cs" />
+    <Compile Include="Mapping\CariMap.cs" />
+    <Compile Include="Mapping\DepoMap.cs" />
+    <Compile Include="Mapping\FisMap.cs" />
+    <Compile Include="Mapping\KasaHareketMap.cs" />
+    <Compile Include="Mapping\KasaMap.cs" />
+    <Compile Include="Mapping\OdemeTuruMap.cs" />
+    <Compile Include="Mapping\StokHareketMap.cs" />
+    <Compile Include="Mapping\StokMap.cs" />
+    <Compile Include="Mapping\HizliSatisMap.cs" />
+    <Compile Include="Mapping\TanimMap.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\EntityRepositoryBase.cs" />
+    <Compile Include="Tables\Cari.cs" />
+    <Compile Include="Tables\EFAppointment.cs" />
+    <Compile Include="Tables\EFResource.cs" />
+    <Compile Include="Tables\HizliSatis.cs" />
+    <Compile Include="Tables\HizliSatisGrup.cs" />
+    <Compile Include="Tables\Indirim.cs" />
+    <Compile Include="Tables\Kod.cs" />
+    <Compile Include="Tables\Kullanici.cs" />
+    <Compile Include="Tables\KullaniciRol.cs" />
+    <Compile Include="Tables\OtherTables\BekleyenSatis.cs" />
+    <Compile Include="Tables\OtherTables\CariBakiye.cs" />
+    <Compile Include="Tables\Depo.cs" />
+    <Compile Include="Tables\Fis.cs" />
+    <Compile Include="Tables\OtherTables\DovizKuru.cs" />
+    <Compile Include="Tables\OtherTables\FisAyarlari.cs" />
+    <Compile Include="Tables\OtherTables\FiyatDegistir.cs" />
+    <Compile Include="Tables\OtherTables\GenelToplam.cs" />
+    <Compile Include="Tables\Kasa.cs" />
+    <Compile Include="Tables\KasaHareket.cs" />
+    <Compile Include="Tables\OdemeTuru.cs" />
+    <Compile Include="Tables\OtherTables\StokBakiye.cs" />
+    <Compile Include="Tables\Personel.cs" />
+    <Compile Include="Tables\PersonelHareket.cs" />
+    <Compile Include="Tables\Stok.cs" />
+    <Compile Include="Tables\StokHareket.cs" />
+    <Compile Include="Tables\Tanim.cs" />
+    <Compile Include="Tools\CodeTool.cs" />
+    <Compile Include="Tools\ConnectionTool.cs" />
+    <Compile Include="Tools\ConverterTool.cs" />
+    <Compile Include="Tools\ExchangeTool.cs" />
+    <Compile Include="Tools\ExportTool.cs" />
+    <Compile Include="Tools\LoadingTool\FrmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\LoadingTool\FrmLoading.Designer.cs">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\LoadingTool\LoadingTool.cs" />
+    <Compile Include="Tools\ReportsPrintTool.cs" />
+    <Compile Include="Tools\RoleTool.cs" />
+    <Compile Include="Tools\SettingsTool.cs" />
+    <Compile Include="Tools\ValidatorTool.cs" />
+    <Compile Include="Validations\HizliSatisValidator.cs" />
+    <Compile Include="Validations\HizliSatisGrupValidator.cs" />
+    <Compile Include="Validations\IndirimValidator.cs" />
+    <Compile Include="Validations\KodValidator.cs" />
+    <Compile Include="Validations\KullaniciRolValidator.cs" />
+    <Compile Include="Validations\KullaniciValidator.cs" />
+    <Compile Include="Validations\PersonelHareketValidator.cs" />
+    <Compile Include="Validations\PersonelValidator.cs" />
+    <Compile Include="Validations\CariValidator.cs" />
+    <Compile Include="Validations\DepoValidator.cs" />
+    <Compile Include="Validations\FisValidator.cs" />
+    <Compile Include="Validations\KasaHareketValidator.cs" />
+    <Compile Include="Validations\KasaValidator.cs" />
+    <Compile Include="Validations\OdemeTuruValidator.cs" />
+    <Compile Include="Validations\StokHareketValidator.cs" />
+    <Compile Include="Validations\StokValidator.cs" />
+    <Compile Include="Validations\TanimValidator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\LoadingTool\FrmLoading.resx">
+      <DependentUpon>FrmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\promo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RTF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TXT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XLS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XLSX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_48x48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

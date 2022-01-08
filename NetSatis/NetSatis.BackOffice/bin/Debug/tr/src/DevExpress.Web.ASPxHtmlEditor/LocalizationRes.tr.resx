@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxHtmlEditorStringId.Alt_ConstrainProportions" xml:space="preserve">
+    <value>Beklemeye oranı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.Alt_ConstrainProportionsOff" xml:space="preserve">
+    <value>Oranı kapalı tutun</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DesignViewTab" xml:space="preserve">
+    <value>Dizayn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.HtmlViewTab" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.PreviewTab" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCopy" xml:space="preserve">
+    <value>Kopyalama</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPaste" xml:space="preserve">
+    <value>Yapıştırmak</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPasteRtf" xml:space="preserve">
+    <value>Word'den Yapıştır</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUndo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandRedo" xml:space="preserve">
+    <value>Yeniden Yap</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPrint" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandRemoveFormat" xml:space="preserve">
+    <value>Temizle </value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandSubscript" xml:space="preserve">
+    <value>Simge</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandSuperscript" xml:space="preserve">
+    <value>Üstsimge</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandOrderedList" xml:space="preserve">
+    <value>Sıralı Liste</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandBulletList" xml:space="preserve">
+    <value>Listeleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandIndent" xml:space="preserve">
+    <value>Girinti</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandOutdent" xml:space="preserve">
+    <value>Girintiyi Azalt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUnlink" xml:space="preserve">
+    <value>Köprü Kaldır</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCheckSpelling" xml:space="preserve">
+    <value>Yazım Denetimi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandBold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandItalic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUnderline" xml:space="preserve">
+    <value>Altını çiz</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandStrikethrough" xml:space="preserve">
+    <value>silme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandLeft" xml:space="preserve">
+    <value>Sola Hizala</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCenter" xml:space="preserve">
+    <value>Merkezi Hizala</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandRight" xml:space="preserve">
+    <value>Sağa Hizala</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandJustify" xml:space="preserve">
+    <value>Kabul et</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandBackColor" xml:space="preserve">
+    <value>Arkaplan sayısı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandForeColor" xml:space="preserve">
+    <value>Yazı Rengi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandApplyCss" xml:space="preserve">
+    <value>CSS Uygulama</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage" xml:space="preserve">
+    <value>Resim Ekleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeImage" xml:space="preserve">
+    <value>Görüntü değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeImage" xml:space="preserve">
+    <value>Görüntü değiştirme ...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink" xml:space="preserve">
+    <value>Köprü Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeLink" xml:space="preserve">
+    <value>Köprü Değiştirilmesi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeLink" xml:space="preserve">
+    <value>Köprü değiştirilmesi ...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.FontSize" xml:space="preserve">
+    <value>Metin Boyutu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.FontName" xml:space="preserve">
+    <value>Yazı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.Paragraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.PasteRtf_Instructions" xml:space="preserve">
+    <value>Aşağıdaki metin kutusuna yapıştırın ve OK tuşuna basın.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.PasteRtf_StripFont" xml:space="preserve">
+    <value>Yazı Tipi Ailesi Band</value>
+    <comment>??? Strip font family</comment>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonOk" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonChange" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonInsert" xml:space="preserve">
+    <value>Yerleştirme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Email" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_DisplayProperties" xml:space="preserve">
+    <value>Görüntü Özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_ToolTip" xml:space="preserve">
+    <value>Araç İpucu</value>
+    <comment>???</comment>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_OpenInNewWindow" xml:space="preserve">
+    <value>Yeni bir pencerede açın</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_EmailTo" xml:space="preserve">
+    <value>Alıcı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Subject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RequiredFieldError" xml:space="preserve">
+    <value>Bu alan gereklidir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_FromWeb" xml:space="preserve">
+    <value>Web adresi (URL)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_FromLocal" xml:space="preserve">
+    <value>Bu Bilgisayardan</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_EnterUrl" xml:space="preserve">
+    <value>Resmin URL'sini girin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_SaveToServer" xml:space="preserve">
+    <value>Sunucuya bu dosyayı kaydedin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_Preview" xml:space="preserve">
+    <value>Resim Önizleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_UploadInstructions" xml:space="preserve">
+    <value>Bilgisayarınızdan kendi resim yükleyin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_MoreOptions" xml:space="preserve">
+    <value>Daha Fazla Seçenek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_UseFloat" xml:space="preserve">
+    <value>Görüntü çevresine metin sarma</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_OriginalSize" xml:space="preserve">
+    <value>Orijinal görüntü boyutu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CustomSize" xml:space="preserve">
+    <value>Özel Boyut</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Pixels" xml:space="preserve">
+    <value>Piksel</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CreateThumbnail" xml:space="preserve">
+    <value>Önizleme görüntüsü oluşturmak</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_NewImageName" xml:space="preserve">
+    <value>Yeni dosya adı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_PositionLeft" xml:space="preserve">
+    <value>Sol Taraf</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_PositionCenter" xml:space="preserve">
+    <value>Ortada</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_PositionRight" xml:space="preserve">
+    <value>Sağ </value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Description" xml:space="preserve">
+    <value>Tanımlama</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable" xml:space="preserve">
+    <value>Tablo Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableProperties" xml:space="preserve">
+    <value>Tablo Özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableProperties" xml:space="preserve">
+    <value>Tablo Özellikleri ...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableCellProperties" xml:space="preserve">
+    <value>Hücre Özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableCellProperties" xml:space="preserve">
+    <value>Hücre Özellikleri ...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeTableColumn_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableColumnProperties" xml:space="preserve">
+    <value>Sütun Özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableRowProperties" xml:space="preserve">
+    <value>Özellikleri Ayarlama</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableColumnProperties" xml:space="preserve">
+    <value>Sütun Özellikleri ...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableRowProperties" xml:space="preserve">
+    <value>Satır Özellikleri...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableRowAbove" xml:space="preserve">
+    <value>Yukarı satır ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableRowBelow" xml:space="preserve">
+    <value>Aşağı satır ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableColumnToLeft" xml:space="preserve">
+    <value>Sola Sütunu Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableColumnToRight" xml:space="preserve">
+    <value>Sağa Sütunu Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteTable" xml:space="preserve">
+    <value>Tablo Sil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteTableRow" xml:space="preserve">
+    <value>Satır Sil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteTableColumn" xml:space="preserve">
+    <value>Sütun Sil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.MergeTableCellDown" xml:space="preserve">
+    <value>Aşağı birleştirme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SplitTableCellVertical" xml:space="preserve">
+    <value>Hücreleri Dikey aralık</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.MergeTableCellHorizontal" xml:space="preserve">
+    <value>Sağ birleştirme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SplitTableCellHorizontal" xml:space="preserve">
+    <value>Hücreleri Yatay böl</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Size" xml:space="preserve">
+    <value>Tablo boyutu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Columns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Rows" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_FullWidth" xml:space="preserve">
+    <value>Tam Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_AutoFitToContent" xml:space="preserve">
+    <value>İçeriğe Otomatik uyum</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Custom" xml:space="preserve">
+    <value>Bireysel</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_EqualColumnWidths" xml:space="preserve">
+    <value>Aynı Sütun Genişlikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_CellPaddings" xml:space="preserve">
+    <value>Hücre Dolgu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VertAlignment" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_HorzAlignment" xml:space="preserve">
+    <value>Yatay Hizala</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment_Left" xml:space="preserve">
+    <value>Sola Hizala</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment_Center" xml:space="preserve">
+    <value>Merkez</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment_Right" xml:space="preserve">
+    <value>Sağa Hizala</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VAlignment_Top" xml:space="preserve">
+    <value>Üst Hiza</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VAlignment_Bottom" xml:space="preserve">
+    <value>Alt Hiza</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VAlignment_Middle" xml:space="preserve">
+    <value>Ortala</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_CellSpacing" xml:space="preserve">
+    <value>Hücre aralığı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Appearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_BorderColor" xml:space="preserve">
+    <value>Kenarlık Rengi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_BorderSize" xml:space="preserve">
+    <value>Çerçeve kalınlığı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_BgColor" xml:space="preserve">
+    <value>Arkaplan Rengi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Accessibility" xml:space="preserve">
+    <value>Durumu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Headers" xml:space="preserve">
+    <value>Başlıkları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_FirstRow" xml:space="preserve">
+    <value>İlk sıra</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_FirstColumn" xml:space="preserve">
+    <value>İlk Sütun</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Both" xml:space="preserve">
+    <value>Mindegyik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Caption" xml:space="preserve">
+    <value>Tablo Başlığı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Summary" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_ApplyToAllCell" xml:space="preserve">
+    <value>Tablonun her hücrene  uygula</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectAll" xml:space="preserve">
+    <value>Tümünü seç</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonSelect" xml:space="preserve">
+    <value>Seçim</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandFullscreen" xml:space="preserve">
+    <value>Tam Ekran</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DefaultErrorText" xml:space="preserve">
+    <value>HTML içeriği geçersiz</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_SelectImage" xml:space="preserve">
+    <value>Görüntü seçim ekranı açın</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_SelectDocument" xml:space="preserve">
+    <value>Seçilen belge penceresi açmak için</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InvalidUrlErrorText" xml:space="preserve">
+    <value>Geçersiz URL biçimi veya dosya URL için kullanılamaz</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RequiredHtmlContentError" xml:space="preserve">
+    <value>Editör içeriği boş olamaz</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsDocx" xml:space="preserve">
+    <value>Word belgesi (. DOCX)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsDocx_ToolTip" xml:space="preserve">
+    <value>DOCX dosya aktar ve yerel diske kaydet</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsMht" xml:space="preserve">
+    <value>Web sitelerinin türleri (. MHT)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsMht_ToolTip" xml:space="preserve">
+    <value>MHT dosya aktar ve yerel diske kaydetmek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsOdt" xml:space="preserve">
+    <value>Açık Belge Metin (. Odt)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsOdt_ToolTip" xml:space="preserve">
+    <value>ODT dosya İhracat ve yerel diske kaydetmek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsPdf" xml:space="preserve">
+    <value>PDF (. Pdf)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsPdf_ToolTip" xml:space="preserve">
+    <value>PDF İhracat ve yerel diske kaydetmek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsRtf" xml:space="preserve">
+    <value>Zengin Metin Biçimi (. RTF)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsRtf_ToolTip" xml:space="preserve">
+    <value>RTF dosyası aktar ve yerel diske kaydetmek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsTxt" xml:space="preserve">
+    <value>Düz Metin (. Txt)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsTxt_ToolTip" xml:space="preserve">
+    <value>TXT dosyasına İhracat ve yerel diske kaydetmek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectDocument" xml:space="preserve">
+    <value>Belge seçimi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectImage" xml:space="preserve">
+    <value>Resim Seç</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_BorderColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_BorderWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CssClass" xml:space="preserve">
+    <value>CSS sınıfı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Margins" xml:space="preserve">
+    <value>Kenar Boşlukları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Undo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Paragraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_DeleteTable" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_TableProperties" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_Home" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_Table" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertImage" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_InsertTable" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_Insert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Clipboard" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Links" xml:space="preserve">
+    <value>Linkler</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_MergeTable" xml:space="preserve">
+    <value>Birleştirme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_CellProperties" xml:space="preserve">
+    <value>Hücre özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_ColumnProperties" xml:space="preserve">
+    <value>Sütun özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertLink" xml:space="preserve">
+    <value>Bağlantı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTable" xml:space="preserve">
+    <value>Tablo ekleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableColumnToLeft" xml:space="preserve">
+    <value>Sola Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableColumnToRight" xml:space="preserve">
+    <value>Sağa Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableRowAbove" xml:space="preserve">
+    <value>Yukarıya Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableRowBelow" xml:space="preserve">
+    <value>Aşağıya Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_RowProperties" xml:space="preserve">
+    <value>Satır özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_TableProperties" xml:space="preserve">
+    <value>Tablo özellikleri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Tables" xml:space="preserve">
+    <value>Tablolar</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Images" xml:space="preserve">
+    <value>Resimler</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Views" xml:space="preserve">
+    <value>Bakıldı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Border" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Position" xml:space="preserve">
+    <value>Pozisyon</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PositionLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PositionLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PositionLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_PositionLeft" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PositionRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PositionRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PositionRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_PositionRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreloadAuto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreloadAuto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PositionCenter" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PositionCenter" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PositionCenter" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_PositionCenter" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_BorderColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_BorderColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_BorderColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_BorderColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreloadNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreloadNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Margins" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_BorderWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_BorderWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_BorderWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_BorderWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityMedium" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityHigh" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityLow" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeVideo" xml:space="preserve">
+    <value>Video değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeYouTubeVideo" xml:space="preserve">
+    <value>YouTube Videosunu Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeAudio" xml:space="preserve">
+    <value>Sesi Değiştir...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeYouTubeVideo" xml:space="preserve">
+    <value>YouTube Videosunu Değiştir...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_EnterUrl" xml:space="preserve">
+    <value>Flash dosyasının web adresini girin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash" xml:space="preserve">
+    <value>Flash ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_CommonSettingsTabName" xml:space="preserve">
+    <value>Genel ayarlar</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_SaveToServer" xml:space="preserve">
+    <value>Dosyayı sunucuya kaydet</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_CommonSettingsTabName" xml:space="preserve">
+    <value>Genel ayarlar</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_AutoPlay" xml:space="preserve">
+    <value>Otomatik Oynat</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_AutoPlay" xml:space="preserve">
+    <value>Otomatik oynat</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_SaveToServer" xml:space="preserve">
+    <value>dosya sunucusuna kaydetmek</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeFlash" xml:space="preserve">
+    <value>Flash değiştir...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeVideo" xml:space="preserve">
+    <value>Video değiştir...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_SecureModeHelpText" xml:space="preserve">
+    <value>Video oynamadan YouTube ziyaretçiler hakkında bilgi, Web sayfasında depolamaz sağlamak için bu seçeneği seçin.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Checked" xml:space="preserve">
+    <value>İşaretli</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_BorderStyle" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_BorderStyle" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_BorderStyle" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_BorderStyle" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_BorderStyle" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_AllowedFileExtensionsText" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_AllowedFileExtensionsText" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_AllowedFileExtensionsText" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_StyleSettingsTabName" xml:space="preserve">
+    <value>Stil ayarları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_EmailErrorText" xml:space="preserve">
+    <value>Geçersiz e-posta</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_AllowedFileExtensionsText" xml:space="preserve">
+    <value>İzin verilen dosya uzantıları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Direction" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_InputType" xml:space="preserve">
+    <value>Giriş türü</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Readonly" xml:space="preserve">
+    <value>Salt okunur</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_StyleSettingsTabName" xml:space="preserve">
+    <value>Stil ayarları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Action" xml:space="preserve">
+    <value>Eylem</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_GalleryTabText" xml:space="preserve">
+    <value>Galeri'den</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>En büyük dosya boyutu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Accept" xml:space="preserve">
+    <value>Kabul</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_For" xml:space="preserve">
+    <value>İçin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_GalleryTabText" xml:space="preserve">
+    <value>Galeri'den</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>En büyük dosya boyutu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_InsertTable" xml:space="preserve">
+    <value>Tablo Ekle...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertPlaceholder" xml:space="preserve">
+    <value>Yer Tutucu Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_GalleryTabText" xml:space="preserve">
+    <value>Galeri'den</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>En büyük dosya boyutu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_GalleryTabText" xml:space="preserve">
+    <value>Galeri'den</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>En büyük dosya boyutu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_CommonSettingsTabName" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteElement" xml:space="preserve">
+    <value>Elemanı Sil</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeElementProperties" xml:space="preserve">
+    <value>Öğe Özelliklerini Değiştir...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Disabled" xml:space="preserve">
+    <value>Engelli</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Src" xml:space="preserve">
+    <value>Src</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_MaxLength" xml:space="preserve">
+    <value>Maksimum uzunluk</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Method" xml:space="preserve">
+    <value>Yöntem</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_CommonSettingsTabName" xml:space="preserve">
+    <value>Genel ayarları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertPlaceholder" xml:space="preserve">
+    <value>Yer Tutucu Ekle</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_TabIndex" xml:space="preserve">
+    <value>Sekme dizini</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertPlaceholder_Placeholders" xml:space="preserve">
+    <value>Yer tutucuları:</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangePlaceholder" xml:space="preserve">
+    <value>Yer Tutucuyu Değiştir...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangePlaceholder" xml:space="preserve">
+    <value>Yer Tutucuyu Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties" xml:space="preserve">
+    <value>Öğe özelliklerini değiştirme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Find" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Previous" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Replace" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_ReplaceAll" xml:space="preserve">
+    <value>Tümünü Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Results" xml:space="preserve">
+    <value>Sonuçlar</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AutomaticColorCaption" xml:space="preserve">
+    <value>Renk yok</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandComment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.FindAndReplace" xml:space="preserve">
+    <value>Bul ve Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTabCategory_Layout" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_Table" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Editing" xml:space="preserve">
+    <value>Düzenleme</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_StyleSettingsTabName" xml:space="preserve">
+    <value>Stil ayarları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_StyleSettingsTabName" xml:space="preserve">
+    <value>Stil ayarları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_StyleSettingsTabName" xml:space="preserve">
+    <value>Stil ayarları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_StyleSettingsTabName" xml:space="preserve">
+    <value>Stil ayarları</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_MatchCase" xml:space="preserve">
+    <value>Harf eşleştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_ReplaceWith" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableElementInconsistentColor" xml:space="preserve">
+    <value>Birden çok renk</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.QuickSearch_SearchFieldNullText" xml:space="preserve">
+    <value>Bul...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Media" xml:space="preserve">
+    <value>Medya</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandExpandTag" xml:space="preserve">
+    <value>Etiketi genişletin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCollapseTag" xml:space="preserve">
+    <value>Etiketi Daralt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUncomment" xml:space="preserve">
+    <value>Yorumu kaldır</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Header" xml:space="preserve">
+    <value>Bul ve Değiştir</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreviewText" xml:space="preserve">
+    <value>Bir dosya açılır veya bir dosya seçmek için tıklatın</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CreateThumbnailTooltip" xml:space="preserve">
+    <value>Küçük resmi-ecek var olmak mahluk ile belirtilen boyut seçili görüntü</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreviewText" xml:space="preserve">
+    <value>Bir dosya açılır veya bir dosya seçmek için tıklatın</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_PreviewText" xml:space="preserve">
+    <value>Bir dosya açılır veya bir dosya seçmek için tıklatın</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_SearchLimit" xml:space="preserve">
+    <value>Yalnızca ilk {0} girişleri gösterilir. Aramanızı daraltmayı deneyin.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PreviewText" xml:space="preserve">
+    <value>Bir dosya açılır veya bir dosya seçmek için tıklatın</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Dosyası gereklidir.
+Lütfen devam etmek için bir dosya seçin.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Dosyası gereklidir.
+Lütfen devam etmek için bir dosya seçin.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Dosyası gereklidir.
+Lütfen devam etmek için bir dosya seçin.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Dosyası gereklidir.
+Lütfen devam etmek için bir dosya seçin.</value>
+  </data>
+</root>

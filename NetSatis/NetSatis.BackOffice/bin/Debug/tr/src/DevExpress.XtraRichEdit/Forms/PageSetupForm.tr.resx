@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 323</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 323</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="cbMarginsApplyTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cbMarginsApplyTo.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbMarginsApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 253</value>
+  </data>
+  <data name="cbMarginsApplyTo.Properties.AccessibleName" xml:space="preserve">
+    <value>Apply to</value>
+  </data>
+  <data name="cbMarginsApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="cbMarginsApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;cbMarginsApplyTo.Name" xml:space="preserve">
+    <value>cbMarginsApplyTo</value>
+  </data>
+  <data name="&gt;&gt;cbMarginsApplyTo.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;cbMarginsApplyTo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMarginsApplyTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblMarginsApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 256</value>
+  </data>
+  <data name="lblMarginsApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblMarginsApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblMarginsApplyTo.Text" xml:space="preserve">
+    <value>Uygula:</value>
+  </data>
+  <data name="&gt;&gt;lblMarginsApplyTo.Name" xml:space="preserve">
+    <value>lblMarginsApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblMarginsApplyTo.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;lblMarginsApplyTo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkLandscape.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 138</value>
+  </data>
+  <data name="chkLandscape.Properties.AccessibleName" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="chkLandscape.Properties.Caption" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="chkLandscape.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="chkLandscape.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkLandscape.Name" xml:space="preserve">
+    <value>chkLandscape</value>
+  </data>
+  <data name="&gt;&gt;chkLandscape.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;chkLandscape.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkPortrait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 113</value>
+  </data>
+  <data name="chkPortrait.Properties.AccessibleName" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="chkPortrait.Properties.Caption" xml:space="preserve">
+    <value>&amp;Dikey</value>
+  </data>
+  <data name="chkPortrait.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="chkPortrait.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkPortrait.Name" xml:space="preserve">
+    <value>chkPortrait</value>
+  </data>
+  <data name="&gt;&gt;chkPortrait.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;chkPortrait.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblOrientation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblOrientation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 94</value>
+  </data>
+  <data name="lblOrientation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 13</value>
+  </data>
+  <data name="lblOrientation.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblOrientation.Text" xml:space="preserve">
+    <value>Yönlendirme</value>
+  </data>
+  <data name="&gt;&gt;lblOrientation.Name" xml:space="preserve">
+    <value>lblOrientation</value>
+  </data>
+  <data name="&gt;&gt;lblOrientation.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;lblOrientation.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="edtMarginRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 59</value>
+  </data>
+  <data name="edtMarginRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="edtMarginRight.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;edtMarginRight.Name" xml:space="preserve">
+    <value>edtMarginRight</value>
+  </data>
+  <data name="&gt;&gt;edtMarginRight.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;edtMarginRight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblMarginRIght.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 62</value>
+  </data>
+  <data name="lblMarginRIght.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="lblMarginRIght.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblMarginRIght.Text" xml:space="preserve">
+    <value>&amp;Sağ:</value>
+  </data>
+  <data name="&gt;&gt;lblMarginRIght.Name" xml:space="preserve">
+    <value>lblMarginRIght</value>
+  </data>
+  <data name="&gt;&gt;lblMarginRIght.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;lblMarginRIght.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="edtMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="edtMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="edtMarginBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;edtMarginBottom.Name" xml:space="preserve">
+    <value>edtMarginBottom</value>
+  </data>
+  <data name="&gt;&gt;edtMarginBottom.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;edtMarginBottom.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblMarginBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 36</value>
+  </data>
+  <data name="lblMarginBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="lblMarginBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblMarginBottom.Text" xml:space="preserve">
+    <value>&amp;Alt:</value>
+  </data>
+  <data name="&gt;&gt;lblMarginBottom.Name" xml:space="preserve">
+    <value>lblMarginBottom</value>
+  </data>
+  <data name="&gt;&gt;lblMarginBottom.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;lblMarginBottom.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="edtMarginLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 59</value>
+  </data>
+  <data name="edtMarginLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="edtMarginLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;edtMarginLeft.Name" xml:space="preserve">
+    <value>edtMarginLeft</value>
+  </data>
+  <data name="&gt;&gt;edtMarginLeft.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;edtMarginLeft.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="edtMarginTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <data name="edtMarginTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="edtMarginTop.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;edtMarginTop.Name" xml:space="preserve">
+    <value>edtMarginTop</value>
+  </data>
+  <data name="&gt;&gt;edtMarginTop.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;edtMarginTop.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblMarginLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 62</value>
+  </data>
+  <data name="lblMarginLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="lblMarginLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblMarginLeft.Text" xml:space="preserve">
+    <value>&amp;Sol:</value>
+  </data>
+  <data name="&gt;&gt;lblMarginLeft.Name" xml:space="preserve">
+    <value>lblMarginLeft</value>
+  </data>
+  <data name="&gt;&gt;lblMarginLeft.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;lblMarginLeft.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblMarginTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 36</value>
+  </data>
+  <data name="lblMarginTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="lblMarginTop.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblMarginTop.Text" xml:space="preserve">
+    <value>&amp;Üst:</value>
+  </data>
+  <data name="&gt;&gt;lblMarginTop.Name" xml:space="preserve">
+    <value>lblMarginTop</value>
+  </data>
+  <data name="&gt;&gt;lblMarginTop.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;lblMarginTop.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblMargins.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblMargins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 14</value>
+  </data>
+  <data name="lblMargins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 13</value>
+  </data>
+  <data name="lblMargins.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblMargins.Text" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="&gt;&gt;lblMargins.Name" xml:space="preserve">
+    <value>lblMargins</value>
+  </data>
+  <data name="&gt;&gt;lblMargins.Parent" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;lblMargins.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tabPageMargins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 279</value>
+  </data>
+  <data name="tabPageMargins.Text" xml:space="preserve">
+    <value>Kenar boşlukları</value>
+  </data>
+  <data name="&gt;&gt;tabPageMargins.Name" xml:space="preserve">
+    <value>tabPageMargins</value>
+  </data>
+  <data name="&gt;&gt;tabPageMargins.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageMargins.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 305</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cbPaperApplyTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cbPaperApplyTo.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbPaperApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 253</value>
+  </data>
+  <data name="cbPaperApplyTo.Properties.AccessibleName" xml:space="preserve">
+    <value>Apply to</value>
+  </data>
+  <data name="cbPaperApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="cbPaperApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;cbPaperApplyTo.Name" xml:space="preserve">
+    <value>cbPaperApplyTo</value>
+  </data>
+  <data name="&gt;&gt;cbPaperApplyTo.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;cbPaperApplyTo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPaperApplyTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblPaperApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 256</value>
+  </data>
+  <data name="lblPaperApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblPaperApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblPaperApplyTo.Text" xml:space="preserve">
+    <value>Uygula:</value>
+  </data>
+  <data name="&gt;&gt;lblPaperApplyTo.Name" xml:space="preserve">
+    <value>lblPaperApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblPaperApplyTo.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;lblPaperApplyTo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbPaperSize.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbPaperSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="cbPaperSize.Properties.AccessibleName" xml:space="preserve">
+    <value>Paper size</value>
+  </data>
+  <data name="cbPaperSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="cbPaperSize.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cbPaperSize.Name" xml:space="preserve">
+    <value>cbPaperSize</value>
+  </data>
+  <data name="&gt;&gt;cbPaperSize.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;cbPaperSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="edtPaperHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 85</value>
+  </data>
+  <data name="edtPaperHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="edtPaperHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;edtPaperHeight.Name" xml:space="preserve">
+    <value>edtPaperHeight</value>
+  </data>
+  <data name="&gt;&gt;edtPaperHeight.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;edtPaperHeight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="edtPaperWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 59</value>
+  </data>
+  <data name="edtPaperWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="edtPaperWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;edtPaperWidth.Name" xml:space="preserve">
+    <value>edtPaperWidth</value>
+  </data>
+  <data name="&gt;&gt;edtPaperWidth.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;edtPaperWidth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblPaperHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 88</value>
+  </data>
+  <data name="lblPaperHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblPaperHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblPaperHeight.Text" xml:space="preserve">
+    <value>&amp;Yükseklik:</value>
+  </data>
+  <data name="&gt;&gt;lblPaperHeight.Name" xml:space="preserve">
+    <value>lblPaperHeight</value>
+  </data>
+  <data name="&gt;&gt;lblPaperHeight.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;lblPaperHeight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblPaperWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 62</value>
+  </data>
+  <data name="lblPaperWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblPaperWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblPaperWidth.Text" xml:space="preserve">
+    <value>&amp;Genişlik:</value>
+  </data>
+  <data name="&gt;&gt;lblPaperWidth.Name" xml:space="preserve">
+    <value>lblPaperWidth</value>
+  </data>
+  <data name="&gt;&gt;lblPaperWidth.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;lblPaperWidth.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblPaperSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblPaperSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 14</value>
+  </data>
+  <data name="lblPaperSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 13</value>
+  </data>
+  <data name="lblPaperSize.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblPaperSize.Text" xml:space="preserve">
+    <value>Kağıt boyutu</value>
+  </data>
+  <data name="&gt;&gt;lblPaperSize.Name" xml:space="preserve">
+    <value>lblPaperSize</value>
+  </data>
+  <data name="&gt;&gt;lblPaperSize.Parent" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;lblPaperSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPagePaper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 279</value>
+  </data>
+  <data name="tabPagePaper.Text" xml:space="preserve">
+    <value>Kağıt</value>
+  </data>
+  <data name="&gt;&gt;tabPagePaper.Name" xml:space="preserve">
+    <value>tabPagePaper</value>
+  </data>
+  <data name="&gt;&gt;tabPagePaper.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPagePaper.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbLayoutApplyTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cbLayoutApplyTo.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbLayoutApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 253</value>
+  </data>
+  <data name="cbLayoutApplyTo.Properties.AccessibleName" xml:space="preserve">
+    <value>Apply to</value>
+  </data>
+  <data name="cbLayoutApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="cbLayoutApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;cbLayoutApplyTo.Name" xml:space="preserve">
+    <value>cbLayoutApplyTo</value>
+  </data>
+  <data name="&gt;&gt;cbLayoutApplyTo.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;cbLayoutApplyTo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLayoutApplyTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblLayoutApplyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 256</value>
+  </data>
+  <data name="lblLayoutApplyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblLayoutApplyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lblLayoutApplyTo.Text" xml:space="preserve">
+    <value>Uygula:</value>
+  </data>
+  <data name="&gt;&gt;lblLayoutApplyTo.Name" xml:space="preserve">
+    <value>lblLayoutApplyTo</value>
+  </data>
+  <data name="&gt;&gt;lblLayoutApplyTo.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;lblLayoutApplyTo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkDifferentFirstPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 110</value>
+  </data>
+  <data name="chkDifferentFirstPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="chkDifferentFirstPage.Properties.AccessibleName" xml:space="preserve">
+    <value>Different first page</value>
+  </data>
+  <data name="chkDifferentFirstPage.Properties.Caption" xml:space="preserve">
+    <value>İlk sayfa farklı</value>
+  </data>
+  <data name="chkDifferentFirstPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="chkDifferentFirstPage.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;chkDifferentFirstPage.Name" xml:space="preserve">
+    <value>chkDifferentFirstPage</value>
+  </data>
+  <data name="&gt;&gt;chkDifferentFirstPage.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;chkDifferentFirstPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 89</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.Properties.AccessibleName" xml:space="preserve">
+    <value>Difference odd and even page</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.Properties.Caption" xml:space="preserve">
+    <value>Tek ve Çift sayfa farklı</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 19</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;chkDifferentOddAndEvenPage.Name" xml:space="preserve">
+    <value>chkDifferentOddAndEvenPage</value>
+  </data>
+  <data name="&gt;&gt;chkDifferentOddAndEvenPage.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;chkDifferentOddAndEvenPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblHeadersAndFooters.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblHeadersAndFooters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 68</value>
+  </data>
+  <data name="lblHeadersAndFooters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 13</value>
+  </data>
+  <data name="lblHeadersAndFooters.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblHeadersAndFooters.Text" xml:space="preserve">
+    <value>Üstbilgi ve Altbilgi</value>
+  </data>
+  <data name="&gt;&gt;lblHeadersAndFooters.Name" xml:space="preserve">
+    <value>lblHeadersAndFooters</value>
+  </data>
+  <data name="&gt;&gt;lblHeadersAndFooters.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;lblHeadersAndFooters.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblSectionStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 36</value>
+  </data>
+  <data name="lblSectionStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblSectionStart.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblSectionStart.Text" xml:space="preserve">
+    <value>Bölüm başlangıç:</value>
+  </data>
+  <data name="&gt;&gt;lblSectionStart.Name" xml:space="preserve">
+    <value>lblSectionStart</value>
+  </data>
+  <data name="&gt;&gt;lblSectionStart.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;lblSectionStart.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbSectionStart.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbSectionStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 33</value>
+  </data>
+  <data name="cbSectionStart.Properties.AccessibleName" xml:space="preserve">
+    <value>Section start</value>
+  </data>
+  <data name="cbSectionStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="cbSectionStart.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;cbSectionStart.Name" xml:space="preserve">
+    <value>cbSectionStart</value>
+  </data>
+  <data name="&gt;&gt;cbSectionStart.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;cbSectionStart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblSection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblSection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 14</value>
+  </data>
+  <data name="lblSection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 13</value>
+  </data>
+  <data name="lblSection.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblSection.Text" xml:space="preserve">
+    <value>Bölüm</value>
+  </data>
+  <data name="&gt;&gt;lblSection.Name" xml:space="preserve">
+    <value>lblSection</value>
+  </data>
+  <data name="&gt;&gt;lblSection.Parent" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;lblSection.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPageLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 279</value>
+  </data>
+  <data name="tabPageLayout.Text" xml:space="preserve">
+    <value>Düzen</value>
+  </data>
+  <data name="&gt;&gt;tabPageLayout.Name" xml:space="preserve">
+    <value>tabPageLayout</value>
+  </data>
+  <data name="&gt;&gt;tabPageLayout.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageLayout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>385, 358</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sayfa Ayarları</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageSetupForm</value>
+  </data>
+</root>

@@ -1,0 +1,1339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="System.Drawing.Size.Width" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Decimal" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Byte" xml:space="preserve">
+    <value>Bayt</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.String" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Double" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.TimeSpan" xml:space="preserve">
+    <value>ZamanSüreci</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.DateTime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Float" xml:space="preserve">
+    <value>Gezici</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.LargeGrid" xml:space="preserve">
+    <value>Büyük Grid</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderSide.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="System.Drawing.Font.Unit" xml:space="preserve">
+    <value>Birim</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.TextExportMode" xml:space="preserve">
+    <value>Metin Aktarım Modu</value>
+  </data>
+  <data name="DevExpress.Utils.HorzAlignment.Near" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderDashStyle.Solid" xml:space="preserve">
+    <value>Düz</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PaddingInfo.All" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DarkHorizontal" xml:space="preserve">
+    <value>Koyu Yatay</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LinearGradientMode.Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.MiddleLeft" xml:space="preserve">
+    <value>Orta Sol</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DarkDownwardDiagonal" xml:space="preserve">
+    <value>Koyu Aşağı Köşegen</value>
+  </data>
+  <data name="DevExpress.Utils.DefaultBoolean.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PrintDirect" xml:space="preserve">
+    <value>Doğrudan Yazdır</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Sphere" xml:space="preserve">
+    <value>Küre</value>
+  </data>
+  <data name="DevExpress.Utils.FormatInfo.FormatString" xml:space="preserve">
+    <value>Biçimlendirme Kalıbı</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.LargeCheckerBoard" xml:space="preserve">
+    <value>Büyük Dama Tahtası</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.SmallConfetti" xml:space="preserve">
+    <value>Küçük Konfeti</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ZoomOut" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.ForwardDiagonal" xml:space="preserve">
+    <value>İleri Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ScrollPageDown" xml:space="preserve">
+    <value>Sayfayı Aşağı Kaydır</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PageMargins" xml:space="preserve">
+    <value>Sayfa Kenar Boşlukları</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportFile" xml:space="preserve">
+    <value>Dosyayı Aktar</value>
+  </data>
+  <data name="DevExpress.Utils.FormatType.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DottedGrid" xml:space="preserve">
+    <value>Noktalı Grid</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.NarrowVertical" xml:space="preserve">
+    <value>Dar Dikey</value>
+  </data>
+  <data name="System.Drawing.Image.VerticalResolution" xml:space="preserve">
+    <value>Dikey Çözünürlük</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderDashStyle.DashDotDot" xml:space="preserve">
+    <value>Tire-Nokta-Nokta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.BottomCenter" xml:space="preserve">
+    <value>Alt Orta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.UseNativeFormat" xml:space="preserve">
+    <value>Native Formatı Kullan</value>
+  </data>
+  <data name="DevExpress.Utils.OptionsColumnLayout.StoreAllOptions" xml:space="preserve">
+    <value>Bütün Seçenekleri Sakla</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendXls" xml:space="preserve">
+    <value>XLS Olarak Gönder</value>
+  </data>
+  <data name="DevExpress.Utils.HorzAlignment.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.Number" xml:space="preserve">
+    <value>Sayfa Numarası</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.BottomRight" xml:space="preserve">
+    <value>Alt Sağ</value>
+  </data>
+  <data name="DevExpress.Utils.FormatType.Numeric" xml:space="preserve">
+    <value>Rakamsal</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.LightUpwardDiagonal" xml:space="preserve">
+    <value>Açık Yukarı Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PaddingInfo.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ZoomToPageWidth" xml:space="preserve">
+    <value>Sayfa Genişliğine Ayarla</value>
+  </data>
+  <data name="System.Drawing.Image.Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DiagonalCross" xml:space="preserve">
+    <value>Köşegen Çapraz</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendRtf" xml:space="preserve">
+    <value>RTF Olarak Gönder</value>
+  </data>
+  <data name="System.Drawing.StringAlignment.Far" xml:space="preserve">
+    <value>Uzak</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.LightDownwardDiagonal" xml:space="preserve">
+    <value>Koyu Aşağı Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendXps" xml:space="preserve">
+    <value>XPS Olarak Gönder</value>
+  </data>
+  <data name="System.Boolean.False" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Cross" xml:space="preserve">
+    <value>Çapraz</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportMht" xml:space="preserve">
+    <value>MHT Olarak Aktar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendGraphic" xml:space="preserve">
+    <value>Resim Olarak Gönder</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PageOrientation" xml:space="preserve">
+    <value>Sayfa Yönü</value>
+  </data>
+  <data name="DevExpress.Utils.FormatType.Custom" xml:space="preserve">
+    <value>Kişisel</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.SmallCheckerBoard" xml:space="preserve">
+    <value>Küçük Dama Tahtası</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.TopLeft" xml:space="preserve">
+    <value>Üst Sol</value>
+  </data>
+  <data name="DevExpress.Data.UnboundColumnType.Integer" xml:space="preserve">
+    <value>Tam Sayı</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.TopLeft" xml:space="preserve">
+    <value>Üst Sol</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ScrollPageUp" xml:space="preserve">
+    <value>Sayfayı Yukarı Kaydır</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderDashStyle.Dot" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.SolidDiamond" xml:space="preserve">
+    <value>Düz Baklava</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.DefaultResourceFile" xml:space="preserve">
+    <value>Varsayılan Kaynak Dosyası</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.UserName" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DarkUpwardDiagonal" xml:space="preserve">
+    <value>Koyu Yukarı Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendPdf" xml:space="preserve">
+    <value>PDF Olarak Gönder</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.VerticalContentSplitting.Exact" xml:space="preserve">
+    <value>Tam</value>
+  </data>
+  <data name="DevExpress.Data.UnboundColumnType.Decimal" xml:space="preserve">
+    <value>Ondalık</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.RomHiNumber" xml:space="preserve">
+    <value>Sayfa Numarası(Roma Rakamı, Büyük Harf)</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent70" xml:space="preserve">
+    <value>Yüzde 70</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Max" xml:space="preserve">
+    <value>En Fazla</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.NumberOfTotal" xml:space="preserve">
+    <value>"Geçerli Sayfa/Hepsi" Sayfa Numarası</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Wave" xml:space="preserve">
+    <value>Dalga</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent80" xml:space="preserve">
+    <value>Yüzde 80</value>
+  </data>
+  <data name="System.Drawing.Font.Strikeout" xml:space="preserve">
+    <value>Üstü Çizili</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ViewWholePage" xml:space="preserve">
+    <value>Tüm Sayfayı Göster</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.TopRight" xml:space="preserve">
+    <value>Üst Sağ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderDashStyle.Dash" xml:space="preserve">
+    <value>Tire</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.OutlinedDiamond" xml:space="preserve">
+    <value>Dış çizgili baklava</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ShowFirstPage" xml:space="preserve">
+    <value>İlk Sayfayı Göster</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal" xml:space="preserve">
+    <value>İleri Köşegen</value>
+  </data>
+  <data name="System.Drawing.Image.RawFormat" xml:space="preserve">
+    <value>Ham Biçim</value>
+  </data>
+  <data name="DevExpress.Utils.HorzAlignment.Center" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Find" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageSizeMode.Squeeze" xml:space="preserve">
+    <value>Sıkıştır</value>
+  </data>
+  <data name="System.Drawing.Size.Height" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportXps" xml:space="preserve">
+    <value>XPS</value>
+  </data>
+  <data name="DevExpress.Utils.DefaultBoolean.False" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.EditPageHF" xml:space="preserve">
+    <value>Sayfayı Düzenle H F</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.MiddleRight" xml:space="preserve">
+    <value>Orta Sağ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.MiddleCenter" xml:space="preserve">
+    <value>Orta Orta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.MiddleLeft" xml:space="preserve">
+    <value>Orta Sol</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.MiddleCenter" xml:space="preserve">
+    <value>Orta Orta</value>
+  </data>
+  <data name="System.Drawing.Font.GdiVerticalFont" xml:space="preserve">
+    <value>GDI Dikey Yazı Tipi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendCsv" xml:space="preserve">
+    <value>CSV Olarak Gönder</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.BottomLeft" xml:space="preserve">
+    <value>Alt Sol</value>
+  </data>
+  <data name="DevExpress.Utils.VertAlignment.Center" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent25" xml:space="preserve">
+    <value>Yüzde 25</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DashedDownwardDiagonal" xml:space="preserve">
+    <value>Kesik Çizgili Aşağı Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ZoomTrackBar" xml:space="preserve">
+    <value>Yakınlaştırma Takip Çubuğu</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PaddingInfo.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DiagonalBrick" xml:space="preserve">
+    <value>Köşegen Tuğla</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Pointer" xml:space="preserve">
+    <value>İmleç</value>
+  </data>
+  <data name="DevExpress.Utils.VertAlignment.Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.NarrowHorizontal" xml:space="preserve">
+    <value>Dar Yatay</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.ZigZag" xml:space="preserve">
+    <value>ZigZag</value>
+  </data>
+  <data name="System.Drawing.Font.Underline" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixCompactionMode.Auto" xml:space="preserve">
+    <value>Oto</value>
+  </data>
+  <data name="DevExpress.Utils.FormatType.DateTime" xml:space="preserve">
+    <value>Tarih Saat</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderSide.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderSide.All" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="DevExpress.Utils.HorzAlignment.Far" xml:space="preserve">
+    <value>Uzak</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent50" xml:space="preserve">
+    <value>Yüzde 50</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Plaid" xml:space="preserve">
+    <value>Kareli</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent40" xml:space="preserve">
+    <value>Yüzde 40</value>
+  </data>
+  <data name="DevExpress.Data.UnboundColumnType.Bound" xml:space="preserve">
+    <value>İlişkili</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ZoomIn" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportPdf" xml:space="preserve">
+    <value>PDF Olarak Aktar</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.SmallGrid" xml:space="preserve">
+    <value>Küçük Grid</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.MultiplePages" xml:space="preserve">
+    <value>Çoklu Sayfa</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DottedDiamond" xml:space="preserve">
+    <value>Noktalı Baklava</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.MiddleRight" xml:space="preserve">
+    <value>Orta Sağ</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent20" xml:space="preserve">
+    <value>Yüzde 20</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Parameters" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderSide.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.BottomCenter" xml:space="preserve">
+    <value>Alt Orta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Print" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.BottomJustify" xml:space="preserve">
+    <value>Alt İki Yana Yasla</value>
+  </data>
+  <data name="System.Drawing.Image.PhysicalDimension" xml:space="preserve">
+    <value>Fiziksel Boyut</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent10" xml:space="preserve">
+    <value>Yüzde 10</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.WideUpwardDiagonal" xml:space="preserve">
+    <value>Büyük Yukarı Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportRtf" xml:space="preserve">
+    <value>RTF Olarak Aktar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.HandTool" xml:space="preserve">
+    <value>El Aracı</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportGraphic" xml:space="preserve">
+    <value> Resim Olarak Aktar</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent60" xml:space="preserve">
+    <value>Yüzde 60</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="DevExpress.Data.UnboundColumnType.DateTime" xml:space="preserve">
+    <value>Tarih Saat</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.BottomRight" xml:space="preserve">
+    <value>Alt Sağ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.FillBackground" xml:space="preserve">
+    <value>Arkaplanı Doldur</value>
+  </data>
+  <data name="DevExpress.Utils.OptionsColumnLayout.AddNewColumns" xml:space="preserve">
+    <value>Yeni Sütunlar Ekle</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DashedVertical" xml:space="preserve">
+    <value>Kesik Çizgili Dikey</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.DocumentMap" xml:space="preserve">
+    <value>Doküman Haritası</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Weave" xml:space="preserve">
+    <value>Örgü</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Watermark" xml:space="preserve">
+    <value>Filigran</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.MiddleJustify" xml:space="preserve">
+    <value>Orta İki Yana Yasla</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ZoomToTwoPages" xml:space="preserve">
+    <value>İki Sayfaya Ayarla</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.LightVertical" xml:space="preserve">
+    <value>Açık Dikey</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderSide.Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.StopPageBuilding" xml:space="preserve">
+    <value>Sayfa Oluşturmayı Durdur</value>
+  </data>
+  <data name="System.Boolean.True" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ClosePreview" xml:space="preserve">
+    <value>Doküman Önizlemeyi Kapat</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ZoomToTextWidth" xml:space="preserve">
+    <value>Metin Genişliğine Ayarla</value>
+  </data>
+  <data name="System.Drawing.Font.Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ShowLastPage" xml:space="preserve">
+    <value>Son Sayfayı Göster</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendMht" xml:space="preserve">
+    <value>MHT Olarak Gönder</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPasswordSecurityOptions.PdfPermissionsOptions" xml:space="preserve">
+    <value>PdfİzinSeçenekleri</value>
+  </data>
+  <data name="System.Drawing.Image.HorizontalResolution" xml:space="preserve">
+    <value>Yatay Çözünürlük</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.TopJustify" xml:space="preserve">
+    <value>Üst İki Yana Yasla</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal" xml:space="preserve">
+    <value>Geri Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PageLayoutFacing" xml:space="preserve">
+    <value>Sayfa Yerleşimi - Karşıdan</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Magnifier" xml:space="preserve">
+    <value>Büyüteç</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Shingle" xml:space="preserve">
+    <value>Çakıl</value>
+  </data>
+  <data name="DevExpress.Utils.DefaultBoolean.True" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PageLayoutContinuous" xml:space="preserve">
+    <value>Sayfa Yerleşimi - Sürekli</value>
+  </data>
+  <data name="System.Drawing.SizeF.Width" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportXls" xml:space="preserve">
+    <value>XLS Olarak Aktar</value>
+  </data>
+  <data name="DevExpress.Utils.FormatInfo.FormatType" xml:space="preserve">
+    <value>Biçimlendirme Tipi</value>
+  </data>
+  <data name="System.Drawing.Font.Italic" xml:space="preserve">
+    <value>Yana Yatık</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PageSetup" xml:space="preserve">
+    <value>Sayfa Düzeni</value>
+  </data>
+  <data name="System.Drawing.Image.PixelFormat" xml:space="preserve">
+    <value>Pixel Biçimi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ShowPrevPage" xml:space="preserve">
+    <value>Önceki Sayfayı Göster</value>
+  </data>
+  <data name="System.Drawing.Font.GdiCharSet" xml:space="preserve">
+    <value>GDI Karakter Seti</value>
+  </data>
+  <data name="DevExpress.Utils.VertAlignment.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageSizeMode.ZoomImage" xml:space="preserve">
+    <value>Resme Yakınlaş</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageSizeMode.CenterImage" xml:space="preserve">
+    <value>Resmi Ortala</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PaddingInfo.Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderDashStyle.DashDot" xml:space="preserve">
+    <value>Tire-Nokta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.TopCenter" xml:space="preserve">
+    <value>Üst Orta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportCsv" xml:space="preserve">
+    <value>CSV Olarak Aktar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportXlsx" xml:space="preserve">
+    <value>XLSX Olarak Aktar</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Min" xml:space="preserve">
+    <value>En Az</value>
+  </data>
+  <data name="System.Drawing.Image.Tag" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageSizeMode.StretchImage" xml:space="preserve">
+    <value>Resmi Uzat</value>
+  </data>
+  <data name="DevExpress.Utils.OptionsColumnLayout.StoreAppearance" xml:space="preserve">
+    <value>Görünümü Sakla</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent75" xml:space="preserve">
+    <value>Yüzde 75</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.Total" xml:space="preserve">
+    <value>Sayfa Sayısı</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.RomLowNumber" xml:space="preserve">
+    <value>Sayfa Numarası(Roma Rakamı, Küçük Harf)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportHtm" xml:space="preserve">
+    <value>HTML Olarak Aktar</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DarkVertical" xml:space="preserve">
+    <value>Koyu Dikey</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderSide.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageInfo.DateTime" xml:space="preserve">
+    <value>Şimdinin Tarih ve Saati</value>
+  </data>
+  <data name="System.Drawing.StringAlignment.Near" xml:space="preserve">
+    <value>Yakın</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendTxt" xml:space="preserve">
+    <value>TXT Olarak Gönder</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PaperSize" xml:space="preserve">
+    <value>Kağıt Boyu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportTxt" xml:space="preserve">
+    <value>TXT Olarak Aktar</value>
+  </data>
+  <data name="System.Drawing.Font.Bold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrinterSettingsUsing.UseMargins" xml:space="preserve">
+    <value>Kenar Boşlukları Kullanımı</value>
+  </data>
+  <data name="DevExpress.Utils.OptionsColumnLayout.RemoveOldColumns" xml:space="preserve">
+    <value>Eksi Sütunları Çıkar</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.HorizontalBrick" xml:space="preserve">
+    <value>Yatay Tuğla</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.TopRight" xml:space="preserve">
+    <value>Üst Sağ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextAlignment.BottomLeft" xml:space="preserve">
+    <value>Alt Sol</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LinearGradientMode.Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="System.Drawing.Font.Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Background" xml:space="preserve">
+    <value>Arkaplan</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Trellis" xml:space="preserve">
+    <value>Kafes</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DashedHorizontal" xml:space="preserve">
+    <value>Kesik Çizgili Yatay</value>
+  </data>
+  <data name="System.Drawing.SizeF.Height" xml:space="preserve">
+    <value>Boy</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ZoomToWholePage" xml:space="preserve">
+    <value>Tüm Sayfaya Ayarla</value>
+  </data>
+  <data name="DevExpress.Utils.OptionsColumnLayout.StoreLayout" xml:space="preserve">
+    <value>Yerleşimi Sakla</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Scale" xml:space="preserve">
+    <value>Ölçeklendir</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent90" xml:space="preserve">
+    <value>Yüzde 90</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.VerticalContentSplitting.Smart" xml:space="preserve">
+    <value>Zeki</value>
+  </data>
+  <data name="System.Drawing.StringAlignment.Center" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PageLayout" xml:space="preserve">
+    <value>Sayfa Yerleşimi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageSizeMode.AutoSize" xml:space="preserve">
+    <value>Oto-Boyutlandırma</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Customize" xml:space="preserve">
+    <value>Kişiselleştir</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PaddingInfo.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="DevExpress.Utils.VertAlignment.Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent05" xml:space="preserve">
+    <value>Yüzde 05</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SubmitParameters" xml:space="preserve">
+    <value>Değişkenleri Gönder</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.Ignore256ColumnsLimit" xml:space="preserve">
+    <value>256 Sütun Limitini Gözardı Et</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ShowNextPage" xml:space="preserve">
+    <value>Sonraki Sayfayı Göster</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BorderDashStyle.Double" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.DashedUpwardDiagonal" xml:space="preserve">
+    <value>Kesik Çizgili Yukarı Köşegen</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Divot" xml:space="preserve">
+    <value>Çimen</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.LightHorizontal" xml:space="preserve">
+    <value>Açık Yatay</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendFile" xml:space="preserve">
+    <value>Dosya Gönder</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.Percent30" xml:space="preserve">
+    <value>Yüzde 30</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.LargeConfetti" xml:space="preserve">
+    <value>Büyük Konfeti</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.BackwardDiagonal" xml:space="preserve">
+    <value>Geri Köşegen</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.HatchStyle.WideDownwardDiagonal" xml:space="preserve">
+    <value>Büyük Aşağı Köşegen</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.SendXlsx" xml:space="preserve">
+    <value>XLSX Olarak Gönder</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.Data.UnboundColumnType.Object" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.Ignore65536RowsLimit" xml:space="preserve">
+    <value>65536 Satır Limitini Gözardı Et</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Zoom" xml:space="preserve">
+    <value>Yakınlaştırma</value>
+  </data>
+  <data name="System.Drawing.ContentAlignment.TopCenter" xml:space="preserve">
+    <value>Üst Center</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A4Rotated" xml:space="preserve">
+    <value>A4 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A4Small" xml:space="preserve">
+    <value>A4 Küçük</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A4Transverse" xml:space="preserve">
+    <value>A4 Enine</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A5Rotated" xml:space="preserve">
+    <value>A5 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A5Transverse" xml:space="preserve">
+    <value>A5 Enine</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B5JisRotated" xml:space="preserve">
+    <value>JIS B5 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B5Transverse" xml:space="preserve">
+    <value>JIS B5 Enine</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.LetterTransverse" xml:space="preserve">
+    <value>Mektup Enine</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.MonarchEnvelope" xml:space="preserve">
+    <value>Monarch Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseDoublePostcard" xml:space="preserve">
+    <value>Japon Çift Kartpostal</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseDoublePostcardRotated" xml:space="preserve">
+    <value>Japon Çift Kartpostal Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A6Rotated" xml:space="preserve">
+    <value>A6 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B4JisRotated" xml:space="preserve">
+    <value>JIS B4 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.LetterExtra" xml:space="preserve">
+    <value>Mektup Ekstra</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.LetterExtraTransverse" xml:space="preserve">
+    <value>Mektup Ekstra Enine</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Prc16K" xml:space="preserve">
+    <value>PRC 16 K</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Prc16KRotated" xml:space="preserve">
+    <value>PRC 16 K döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Prc32K" xml:space="preserve">
+    <value>PRC 32 K</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Prc32KRotated" xml:space="preserve">
+    <value>PRC 32 K döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber1" xml:space="preserve">
+    <value>PRC Zarf Numara 1</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber10" xml:space="preserve">
+    <value>PRC Zarf Numara 10</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber10Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 10 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber1Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 1 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber2" xml:space="preserve">
+    <value>PRC Zarf Numara 2</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber2Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 2 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber3" xml:space="preserve">
+    <value>PRC Zarf Numara 3</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber3Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 3 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber4" xml:space="preserve">
+    <value>PRC Zarf Numara 4</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber4Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 4 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber5" xml:space="preserve">
+    <value>PRC Zarf Numara 5</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber5Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 5 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber6" xml:space="preserve">
+    <value>PRC Zarf Numara 6</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber6Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 6 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber7" xml:space="preserve">
+    <value>PRC Zarf Numara 7</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber7Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 7 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber8" xml:space="preserve">
+    <value>PRC Zarf Numara 8</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber8Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 8 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber9" xml:space="preserve">
+    <value>PRC Zarf Numara 9</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PrcEnvelopeNumber9Rotated" xml:space="preserve">
+    <value>PRC Zarf Numara 9 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Quarto" xml:space="preserve">
+    <value>Quarto</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Standard10x11" xml:space="preserve">
+    <value>Standart 10 x 11</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Standard10x14" xml:space="preserve">
+    <value>Standart 10 x 14</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Standard11x17" xml:space="preserve">
+    <value>Standart 11 x 17</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Standard12x11" xml:space="preserve">
+    <value>Standart 12 x 11</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Standard15x11" xml:space="preserve">
+    <value>Standart 15 x 11</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Standard9x11" xml:space="preserve">
+    <value>Standart 9 x 11</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeChouNumber3" xml:space="preserve">
+    <value>Japon Zarf Chou Numara 3</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeChouNumber3Rotated" xml:space="preserve">
+    <value>Japon Zarf Chou Numara 3 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeChouNumber4" xml:space="preserve">
+    <value>Japon Zarf Chou Numara 4</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeChouNumber4Rotated" xml:space="preserve">
+    <value>Japon Zarf Chou Numara 4 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeKakuNumber2" xml:space="preserve">
+    <value>Japon Zarf Kaku Numara 2</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeKakuNumber2Rotated" xml:space="preserve">
+    <value>Japon Zarf Kaku Numara 2 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeKakuNumber3" xml:space="preserve">
+    <value>Japon Zarf Kaku Numara 3</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeKakuNumber3Rotated" xml:space="preserve">
+    <value>Japon Zarf Kaku Numara 3 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeYouNumber4Rotated" xml:space="preserve">
+    <value>Japon Zarf You Numara 4 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapanesePostcardRotated" xml:space="preserve">
+    <value>Japon Kartpostal Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Ledger" xml:space="preserve">
+    <value>Genel muhasebe</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Legal" xml:space="preserve">
+    <value>Yasal</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.LegalExtra" xml:space="preserve">
+    <value>Yasal ekstra</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B6Envelope" xml:space="preserve">
+    <value>B6 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B6Jis" xml:space="preserve">
+    <value>JIS B6</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B6JisRotated" xml:space="preserve">
+    <value>JIS B6 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.C3Envelope" xml:space="preserve">
+    <value>C3 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.CSheet" xml:space="preserve">
+    <value>C sayfa</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Folio" xml:space="preserve">
+    <value>Folyo</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.IsoB4" xml:space="preserve">
+    <value>Iso B4</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B5Extra" xml:space="preserve">
+    <value>ISO B5 Ekstra</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.APlus" xml:space="preserve">
+    <value>SuperA/SuperA/A4</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B4Envelope" xml:space="preserve">
+    <value>B4 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A6" xml:space="preserve">
+    <value>A6</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A5Extra" xml:space="preserve">
+    <value>A5 Ekstra</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A2" xml:space="preserve">
+    <value>A2</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A3Extra" xml:space="preserve">
+    <value>A3 Ekstra</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A4Extra" xml:space="preserve">
+    <value>A4 Ekstra</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Int16" xml:space="preserve">
+    <value>Int16</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Int32" xml:space="preserve">
+    <value>Int32</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.ContentType.Hyperlink" xml:space="preserve">
+    <value>Köprü</value>
+  </data>
+  <data name="DevExpress.Utils.WordWrap.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.Utils.WordWrap.NoWrap" xml:space="preserve">
+    <value>Kaydırma yok</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.LetterRotated" xml:space="preserve">
+    <value>Mektup Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Note" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.PersonalEnvelope" xml:space="preserve">
+    <value>Kişisel zarf (6 3/4)</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Prc32KBig" xml:space="preserve">
+    <value>Prc 32K büyük</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.USStandardFanfold" xml:space="preserve">
+    <value>ABD standart sürekli form</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapanesePostcard" xml:space="preserve">
+    <value>Japon Kartpostal</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Letter" xml:space="preserve">
+    <value>Mektup</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.C4Envelope" xml:space="preserve">
+    <value>C4 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.C5Envelope" xml:space="preserve">
+    <value>C5 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.C65Envelope" xml:space="preserve">
+    <value>C65 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.C6Envelope" xml:space="preserve">
+    <value>C6 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.DLEnvelope" xml:space="preserve">
+    <value>DL Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.DSheet" xml:space="preserve">
+    <value>D Sayfa</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.ESheet" xml:space="preserve">
+    <value>E Sayfa</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.ItalyEnvelope" xml:space="preserve">
+    <value>İtalya zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.B5Envelope" xml:space="preserve">
+    <value>B5 Zarf</value>
+  </data>
+  <data name="System.Collections.CollectionBase" xml:space="preserve">
+    <value>(Koleksiyon)</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A3ExtraTransverse" xml:space="preserve">
+    <value>A3 Ekstra Enine</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A3Rotated" xml:space="preserve">
+    <value>A3 Döndürülmüş</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A3Transverse" xml:space="preserve">
+    <value>A3 Enine</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.A4Plus" xml:space="preserve">
+    <value>A4 Artı</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageSizeMode.Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DevExpress.Data.UnboundColumnType.String" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.ContentType.BarCode" xml:space="preserve">
+    <value>Barkod</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.ContentType.CheckBox" xml:space="preserve">
+    <value>Onay kutusu</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.ContentType.Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.InviteEnvelope" xml:space="preserve">
+    <value>Davetiye Zarfı</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Tabloid" xml:space="preserve">
+    <value>Tabloid</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.TabloidExtra" xml:space="preserve">
+    <value>Tabloid Ekstra</value>
+  </data>
+  <data name="DevExpress.Data.SummaryItemType.Count" xml:space="preserve">
+    <value>Adet</value>
+  </data>
+  <data name="DevExpress.Data.SummaryItemType.Average" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="DevExpress.Data.SummaryItemType.Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DevExpress.Data.SummaryItemType.Max" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="DevExpress.Data.SummaryItemType.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.Data.SummaryItemType.Sum" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.DOC" xml:space="preserve">
+    <value>DOC</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.GoToPage" xml:space="preserve">
+    <value>Sayfaya Git</value>
+  </data>
+  <data name="DevExpress.Data.SummaryItemType.Min" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="DevExpress.Snap.Core.Fields.UpdateMergeImageFieldMode.KeepScale" xml:space="preserve">
+    <value>Ölçeği Koru</value>
+  </data>
+  <data name="DevExpress.Snap.Core.Fields.UpdateMergeImageFieldMode.KeepSize" xml:space="preserve">
+    <value>Boyutu Koru</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.ContentType.Image" xml:space="preserve">
+    <value>Görüntü</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Statement" xml:space="preserve">
+    <value>Deyim</value>
+  </data>
+  <data name="DevExpress.XtraTreeList.Data.UnboundColumnType.DateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="DevExpress.XtraTreeList.Data.UnboundColumnType.String" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="DevExpress.XtraTreeList.Data.UnboundColumnType.Decimal" xml:space="preserve">
+    <value>Ondalık</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.ContentType.Index" xml:space="preserve">
+    <value>Dizin</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.ContentType.Sparkline" xml:space="preserve">
+    <value>Mini grafik</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.HTML" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.MHT" xml:space="preserve">
+    <value>MHT</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.PlainText" xml:space="preserve">
+    <value>Düz Metin</value>
+  </data>
+  <data name="DevExpress.XtraTreeList.Data.UnboundColumnType.Bound" xml:space="preserve">
+    <value>Bağlı</value>
+  </data>
+  <data name="DevExpress.XtraTreeList.Data.UnboundColumnType.Integer" xml:space="preserve">
+    <value>Tamsayı</value>
+  </data>
+  <data name="DevExpress.XtraTreeList.Data.UnboundColumnType.Object" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.PrintSelection" xml:space="preserve">
+    <value>Seçimi Yazdır</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.OpenDocument" xml:space="preserve">
+    <value>OpenDocument</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.OpenXML" xml:space="preserve">
+    <value>OpenXML</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.RTF" xml:space="preserve">
+    <value>RTF</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.TextFormat.WordML" xml:space="preserve">
+    <value>WordML</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Executive" xml:space="preserve">
+    <value>Yönetici</value>
+  </data>
+  <data name="DevExpress.Data.UnboundColumnType.Boolean" xml:space="preserve">
+    <value>Boole</value>
+  </data>
+  <data name="DevExpress.Utils.WordWrap.Wrap" xml:space="preserve">
+    <value>Şal</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.PdfACompatible" xml:space="preserve">
+    <value>PDF/A-2b</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Boolean" xml:space="preserve">
+    <value>Mantıksal</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Number10Envelope" xml:space="preserve">
+    <value>Numara 10 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Number11Envelope" xml:space="preserve">
+    <value>11 Numaralı zarfı</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Number12Envelope" xml:space="preserve">
+    <value>Numara 12 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Number14Envelope" xml:space="preserve">
+    <value>Numara 14 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Number9Envelope" xml:space="preserve">
+    <value>Numara 9 Zarf</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.Prc32KBigRotated" xml:space="preserve">
+    <value>Büyük döndürülmüş Prc 32 K</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.JapaneseEnvelopeYouNumber4" xml:space="preserve">
+    <value>Japon Zarf sayı 4</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.BPlus" xml:space="preserve">
+    <value>SuperB/SuperB/A3</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.GermanLegalFanfold" xml:space="preserve">
+    <value>Alman yasal Fanfold</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.GermanStandardFanfold" xml:space="preserve">
+    <value>Alman Standart Fanfold</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.LetterPlus" xml:space="preserve">
+    <value>Harf artı</value>
+  </data>
+  <data name="System.Drawing.Printing.PaperKind.LetterSmall" xml:space="preserve">
+    <value>Küçük harf</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HorizontalContentSplitting.Smart" xml:space="preserve">
+    <value>Akıllı</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HorizontalContentSplitting.Exact" xml:space="preserve">
+    <value>Tam</value>
+  </data>
+  <data name="DevExpress.XtraTreeList.Data.UnboundColumnType.Boolean" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.FieldType.Guid" xml:space="preserve">
+    <value>GUID</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageAlignment.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.Thumbnails" xml:space="preserve">
+    <value>Küçük resimler</value>
+  </data>
+  <data name="DevExpress.Snap.Extensions.Native.ActionLists.SnapCheckState.Checked" xml:space="preserve">
+    <value>İşaretli</value>
+  </data>
+  <data name="DevExpress.Snap.Core.Native.SNSortOrder.Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="DevExpress.Snap.Core.Native.SNSortOrder.Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="DevExpress.Sparkline.SparklineViewType.Bar" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="DevExpress.Sparkline.SparklineViewType.Area" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="DevExpress.Sparkline.SparklineViewType.Line" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LineJoin.Bevel" xml:space="preserve">
+    <value>Eğim</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LineJoin.Miter" xml:space="preserve">
+    <value>Gönye</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LineJoin.Round" xml:space="preserve">
+    <value>Yuvarlak</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.LineJoin.MiterClipped" xml:space="preserve">
+    <value>MiterClipped</value>
+  </data>
+  <data name="DevExpress.Sparkline.SparklineViewType.WinLoss" xml:space="preserve">
+    <value>WinLoss</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingSystemCommand.ExportDocx" xml:space="preserve">
+    <value>DOCX verme</value>
+  </data>
+</root>

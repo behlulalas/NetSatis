@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOk.AccessibleName" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 313</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 313</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="rgAlignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 151</value>
+  </data>
+  <data name="rgAlignment.Properties.AccessibleName" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="rgAlignment.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="rgAlignment.Properties.Items" xml:space="preserve">
+    <value>&amp;Soldan</value>
+  </data>
+  <data name="rgAlignment.Properties.Items1" xml:space="preserve">
+    <value>&amp;Ondalık</value>
+  </data>
+  <data name="rgAlignment.Properties.Items2" xml:space="preserve">
+    <value>&amp;Ortadan</value>
+  </data>
+  <data name="rgAlignment.Properties.Items3" xml:space="preserve">
+    <value>&amp;Sağdan</value>
+  </data>
+  <data name="rgAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 38</value>
+  </data>
+  <data name="rgAlignment.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rgAlignment.Name" xml:space="preserve">
+    <value>rgAlignment</value>
+  </data>
+  <data name="&gt;&gt;rgAlignment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rgAlignment.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblAlignment.AccessibleName" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="lblAlignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 131</value>
+  </data>
+  <data name="lblAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 19</value>
+  </data>
+  <data name="lblAlignment.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblAlignment.Text" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="&gt;&gt;lblAlignment.Name" xml:space="preserve">
+    <value>lblAlignment</value>
+  </data>
+  <data name="&gt;&gt;lblAlignment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAlignment.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="rgLeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 205</value>
+  </data>
+  <data name="rgLeader.Properties.AccessibleName" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="rgLeader.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="rgLeader.Properties.Items" xml:space="preserve">
+    <value>&amp;(Yok)</value>
+  </data>
+  <data name="rgLeader.Properties.Items1" xml:space="preserve">
+    <value>&amp;Dots</value>
+  </data>
+  <data name="rgLeader.Properties.Items2" xml:space="preserve">
+    <value>&amp;MiddleDots</value>
+  </data>
+  <data name="rgLeader.Properties.Items3" xml:space="preserve">
+    <value>&amp;Hyphens</value>
+  </data>
+  <data name="rgLeader.Properties.Items4" xml:space="preserve">
+    <value>&amp;Underline</value>
+  </data>
+  <data name="rgLeader.Properties.Items5" xml:space="preserve">
+    <value>&amp;ThickLine</value>
+  </data>
+  <data name="rgLeader.Properties.Items6" xml:space="preserve">
+    <value>&amp;EqualSign</value>
+  </data>
+  <data name="rgLeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 59</value>
+  </data>
+  <data name="rgLeader.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rgLeader.Name" xml:space="preserve">
+    <value>rgLeader</value>
+  </data>
+  <data name="&gt;&gt;rgLeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rgLeader.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblLeader.AccessibleName" xml:space="preserve">
+    <value>Leader</value>
+  </data>
+  <data name="lblLeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 189</value>
+  </data>
+  <data name="lblLeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 16</value>
+  </data>
+  <data name="lblLeader.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblLeader.Text" xml:space="preserve">
+    <value>Öncü</value>
+  </data>
+  <data name="&gt;&gt;lblLeader.Name" xml:space="preserve">
+    <value>lblLeader</value>
+  </data>
+  <data name="&gt;&gt;lblLeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLeader.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnSet.AccessibleName" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 272</value>
+  </data>
+  <data name="btnSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="btnSet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnSet.Text" xml:space="preserve">
+    <value>&amp;Küme</value>
+  </data>
+  <data name="&gt;&gt;btnSet.Name" xml:space="preserve">
+    <value>btnSet</value>
+  </data>
+  <data name="&gt;&gt;btnSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSet.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnClear.AccessibleName" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 272</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnClearAll.AccessibleName" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="btnClearAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 272</value>
+  </data>
+  <data name="btnClearAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="btnClearAll.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnClearAll.Text" xml:space="preserve">
+    <value>Hepsini Temizle</value>
+  </data>
+  <data name="&gt;&gt;btnClearAll.Name" xml:space="preserve">
+    <value>btnClearAll</value>
+  </data>
+  <data name="&gt;&gt;btnClearAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClearAll.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblDefaultTabStops.AccessibleName" xml:space="preserve">
+    <value>Default Tab Stops</value>
+  </data>
+  <data name="lblDefaultTabStops.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 9</value>
+  </data>
+  <data name="lblDefaultTabStops.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblDefaultTabStops.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblDefaultTabStops.Text" xml:space="preserve">
+    <value>Varsayılan Sekme Durakları:</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultTabStops.Name" xml:space="preserve">
+    <value>lblDefaultTabStops</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultTabStops.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultTabStops.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTabStopPosition.AccessibleName" xml:space="preserve">
+    <value>Tab stop position</value>
+  </data>
+  <data name="lblTabStopPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="lblTabStopPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="lblTabStopPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTabStopPosition.Text" xml:space="preserve">
+    <value>Sekme Durak Yeri:</value>
+  </data>
+  <data name="&gt;&gt;lblTabStopPosition.Name" xml:space="preserve">
+    <value>lblTabStopPosition</value>
+  </data>
+  <data name="&gt;&gt;lblTabStopPosition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTabStopPosition.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTabStopsToBeCleared.AccessibleName" xml:space="preserve">
+    <value>Tab stops to be cleared</value>
+  </data>
+  <data name="lblTabStopsToBeCleared.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 54</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="lblTabStopsToBeCleared.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblTabStopsToBeCleared.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="lblTabStopsToBeCleared.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblTabStopsToBeCleared.Text" xml:space="preserve">
+    <value>Temizlenecek durak:</value>
+  </data>
+  <data name="&gt;&gt;lblTabStopsToBeCleared.Name" xml:space="preserve">
+    <value>lblTabStopsToBeCleared</value>
+  </data>
+  <data name="&gt;&gt;lblTabStopsToBeCleared.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTabStopsToBeCleared.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 295</value>
+  </data>
+  <data name="lblSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 18</value>
+  </data>
+  <data name="lblSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Name" xml:space="preserve">
+    <value>lblSeparator</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSeparator.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblRemoveTabStops.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 70</value>
+  </data>
+  <data name="lblRemoveTabStops.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblRemoveTabStops.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblRemoveTabStops.Text" xml:space="preserve">
+    <value>lblRemoveTabStops</value>
+  </data>
+  <data name="&gt;&gt;lblRemoveTabStops.Name" xml:space="preserve">
+    <value>lblRemoveTabStops</value>
+  </data>
+  <data name="&gt;&gt;lblRemoveTabStops.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRemoveTabStops.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="edtDefaultTabWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 28</value>
+  </data>
+  <data name="edtDefaultTabWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="edtDefaultTabWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;edtDefaultTabWidth.Name" xml:space="preserve">
+    <value>edtDefaultTabWidth</value>
+  </data>
+  <data name="&gt;&gt;edtDefaultTabWidth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;edtDefaultTabWidth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabStopPositionEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 27</value>
+  </data>
+  <data name="tabStopPositionEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 104</value>
+  </data>
+  <data name="tabStopPositionEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabStopPositionEdit.Name" xml:space="preserve">
+    <value>tabStopPositionEdit</value>
+  </data>
+  <data name="&gt;&gt;tabStopPositionEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabStopPositionEdit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>354, 344</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sekme</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TabsForm</value>
+  </data>
+</root>

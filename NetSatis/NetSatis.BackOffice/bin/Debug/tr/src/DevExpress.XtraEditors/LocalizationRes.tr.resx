@@ -1,0 +1,1561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringId.Apply" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisYear" xml:space="preserve">
+    <value>Bu yıl daha sonra mı</value>
+  </data>
+  <data name="StringId.NavigatorPreviousPageButtonHint" xml:space="preserve">
+    <value>Önceki Sayfa</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisWeek" xml:space="preserve">
+    <value>Bu hafta daha sonra mı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalBeyondThisYear" xml:space="preserve">
+    <value>Bu yıl daha sonra mı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalNextWeek" xml:space="preserve">
+    <value>Gelecek hafta mı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalPriorThisYear" xml:space="preserve">
+    <value>Bu yıldan önce mi</value>
+  </data>
+  <data name="StringId.OK" xml:space="preserve">
+    <value>TAMAM</value>
+  </data>
+  <data name="StringId.NavigatorCancelEditButtonHint" xml:space="preserve">
+    <value>Düzenlemeyi İptal Et</value>
+  </data>
+  <data name="StringId.FilterOutlookDateText" xml:space="preserve">
+    <value>Hepsini göster|Boş göster|Belirli bir tarihe göre filtrele:|Bu yılın sonrası|Bu yıl daha sonra|Bu ay daha sonra|Gelecek hafta|Bu hafta daha sonra|Yarın|Bugün|Dün|Bu hafta daha önce|Geçen hafta|Bu ay daha önce|Bu yıl daha önce|Bu yıldan önce</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalTomorrow" xml:space="preserve">
+    <value>Yarın mı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalYesterday" xml:space="preserve">
+    <value>Dün mü</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalToday" xml:space="preserve">
+    <value>Bugün mü</value>
+  </data>
+  <data name="StringId.FilterDateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>Tarih ve zaman operatörleri</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisMonth" xml:space="preserve">
+    <value>Bu ay daha sonra mı</value>
+  </data>
+  <data name="StringId.NavigatorPreviousButtonHint" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisWeek" xml:space="preserve">
+    <value>Bu hafta daha önce mi</value>
+  </data>
+  <data name="StringId.PreviewPanelText" xml:space="preserve">
+    <value>Önizle:</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLastWeek" xml:space="preserve">
+    <value>Geçen hafta mı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisMonth" xml:space="preserve">
+    <value>Bu ay daha önce mi</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisYear" xml:space="preserve">
+    <value>Bu yıl daha önce mi</value>
+  </data>
+  <data name="StringId.Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="StringId.CaptionError" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorIsNull" xml:space="preserve">
+    <value>Null mı</value>
+  </data>
+  <data name="StringId.XtraMessageBoxYesButtonText" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileErrorCaption" xml:space="preserve">
+    <value>Açma hatası</value>
+  </data>
+  <data name="StringId.NavigatorTextStringFormat" xml:space="preserve">
+    <value>Kayıt {0} / {1}</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBetween" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="StringId.FilterToolTipElementAdd" xml:space="preserve">
+    <value>Listeye yeni öğe ekle</value>
+  </data>
+  <data name="StringId.CheckChecked" xml:space="preserve">
+    <value>Seçili</value>
+  </data>
+  <data name="StringId.NavigatorRemoveButtonHint" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="StringId.NavigatorLastButtonHint" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="StringId.PictureEditMenuDelete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="StringId.TabHeaderButtonPrev" xml:space="preserve">
+    <value>Sola Kaydır</value>
+  </data>
+  <data name="StringId.PictureEditMenuSave" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="StringId.ImagePopupEmpty" xml:space="preserve">
+    <value>(Boş)</value>
+  </data>
+  <data name="StringId.FilterMenuGroupAdd" xml:space="preserve">
+    <value>Grup Ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionUpper" xml:space="preserve">
+    <value>Büyük</value>
+  </data>
+  <data name="StringId.FilterMenuRowRemove" xml:space="preserve">
+    <value>Grup Çıkar</value>
+  </data>
+  <data name="StringId.TextEditMenuCopy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="StringId.FilterGroupOr" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="StringId.TextEditMenuUndo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="StringId.NavigatorEditButtonHint" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="StringId.FilterClauseIsNull" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="StringId.TransparentBackColorNotSupported" xml:space="preserve">
+    <value>Bu kontrol saydam arkaplan renkelrini desteklemez.</value>
+  </data>
+  <data name="StringId.TextEditMenuPaste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="StringId.XtraMessageBoxRetryButtonText" xml:space="preserve">
+    <value>Yeniden Dene</value>
+  </data>
+  <data name="StringId.FilterShowAll" xml:space="preserve">
+    <value>(Hepsini Seç)</value>
+  </data>
+  <data name="StringId.PictureEditSaveFileTitle" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="StringId.TabHeaderButtonNext" xml:space="preserve">
+    <value>Sağa Kaydır</value>
+  </data>
+  <data name="StringId.XtraMessageBoxAbortButtonText" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="StringId.FilterClauseBeginsWith" xml:space="preserve">
+    <value>İle başlayan</value>
+  </data>
+  <data name="StringId.ColorTabWeb" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="StringId.FilterGroupNotAnd" xml:space="preserve">
+    <value>Ve değil</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLen" xml:space="preserve">
+    <value>Boy</value>
+  </data>
+  <data name="StringId.FilterClauseNotLike" xml:space="preserve">
+    <value>Benzer değil</value>
+  </data>
+  <data name="StringId.FilterToolTipKeysAdd" xml:space="preserve">
+    <value>(Insert veya Add tuşunu kullanın)</value>
+  </data>
+  <data name="StringId.FilterMenuConditionAdd" xml:space="preserve">
+    <value>Koşul Ekle</value>
+  </data>
+  <data name="StringId.FilterClauseIsNotNull" xml:space="preserve">
+    <value>Null değil</value>
+  </data>
+  <data name="StringId.XtraMessageBoxOkButtonText" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLike" xml:space="preserve">
+    <value>Benzer</value>
+  </data>
+  <data name="StringId.InvalidValueText" xml:space="preserve">
+    <value>Geçersiz Değer</value>
+  </data>
+  <data name="StringId.PictureEditSaveFileFilter" xml:space="preserve">
+    <value>Bitmap Dosyaları (*.bmp)|*.bmp|Graphics Interchange Biçimi (*.gif)|*.gif|JPEG File Interchange Biçimi (*.jpg)|*.jpg|Portable Network Graphics Biçimi (*.png)|*.png</value>
+  </data>
+  <data name="StringId.FilterMenuClearAll" xml:space="preserve">
+    <value>Hespini temizle</value>
+  </data>
+  <data name="StringId.FilterClauseEndsWith" xml:space="preserve">
+    <value>İle biten</value>
+  </data>
+  <data name="StringId.FilterClauseLessOrEqual" xml:space="preserve">
+    <value>Küçük eşit</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringNotLike" xml:space="preserve">
+    <value>Benzer değil</value>
+  </data>
+  <data name="StringId.NavigatorAppendButtonHint" xml:space="preserve">
+    <value>Sona Ekle</value>
+  </data>
+  <data name="StringId.XtraMessageBoxCancelButtonText" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="StringId.ColorTabSystem" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="StringId.FilterClauseBetween" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringIn" xml:space="preserve">
+    <value>İçinde</value>
+  </data>
+  <data name="StringId.PictureEditMenuCopy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorNotEqual" xml:space="preserve">
+    <value>&lt;&gt; (Eşit Olmayan)</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringGroupOperatorAnd" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="StringId.DataEmpty" xml:space="preserve">
+    <value>Resim verisi yok</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorMultiply" xml:space="preserve">
+    <value>* (Çarpı)</value>
+  </data>
+  <data name="StringId.XtraMessageBoxNoButtonText" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="StringId.FilterClauseLess" xml:space="preserve">
+    <value>Küçük</value>
+  </data>
+  <data name="StringId.FilterClauseGreaterOrEqual" xml:space="preserve">
+    <value>Büyük eşit</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNull" xml:space="preserve">
+    <value>Null mı</value>
+  </data>
+  <data name="StringId.NotValidArrayLength" xml:space="preserve">
+    <value>Geçersiz dizi uzunluğu.</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTrim" xml:space="preserve">
+    <value>Sıkıştır</value>
+  </data>
+  <data name="StringId.FilterClauseAnyOf" xml:space="preserve">
+    <value>Herhangi biri</value>
+  </data>
+  <data name="StringId.NavigatorEndEditButtonHint" xml:space="preserve">
+    <value>Düzenlemeyi Bitir</value>
+  </data>
+  <data name="StringId.ContainerAccessibleEditName" xml:space="preserve">
+    <value>Kontrol düzenleme</value>
+  </data>
+  <data name="StringId.CheckUnchecked" xml:space="preserve">
+    <value>Seçili değil</value>
+  </data>
+  <data name="StringId.CalcError" xml:space="preserve">
+    <value>Hesaplama Hatası</value>
+  </data>
+  <data name="StringId.XtraMessageBoxIgnoreButtonText" xml:space="preserve">
+    <value>Gözardı et</value>
+  </data>
+  <data name="StringId.FilterClauseGreater" xml:space="preserve">
+    <value>Büyük</value>
+  </data>
+  <data name="StringId.CalcButtonBack" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="StringId.NavigatorNextPageButtonHint" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorDivide" xml:space="preserve">
+    <value>/ (Bölü)</value>
+  </data>
+  <data name="StringId.NavigatorFirstButtonHint" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="StringId.CheckIndeterminate" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeRemove" xml:space="preserve">
+    <value>Bu koşulu kaldırır</value>
+  </data>
+  <data name="StringId.TextEditMenuDelete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringGroupOperatorOr" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="StringId.PictureEditMenuLoad" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="StringId.TextEditMenuSelectAll" xml:space="preserve">
+    <value>Hepsini Seç</value>
+  </data>
+  <data name="StringId.FilterClauseDoesNotContain" xml:space="preserve">
+    <value>İçermeyen</value>
+  </data>
+  <data name="StringId.MaskBoxValidateError" xml:space="preserve">
+    <value>Girilen değer eksik.  Düzeltmek istiyor musunuz?
+	
+	
+	Evet - düzenleyiciye dön ve değeri düzelt.
+	Hayır - değeri olduğu gibi bırak.
+	İptal - değeri önceki değere döndür.
+	</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCustom" xml:space="preserve">
+    <value>Kişisel</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileFilter" xml:space="preserve">
+    <value>Bitmap Dosyaları (*.bmp)|*.bmp|Graphics Interchange Biçimi (*.gif)|*.gif|JPEG File Interchange Biçimi (*.jpg;*.jpeg)|*.jpg;*.jpeg|Simge Dosyaları (*.ico)|*.ico|Portable Network Graphics Biçimi (*.png)|*.png|Tüm Resim Dosyaları |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|All Files |*.*</value>
+  </data>
+  <data name="StringId.FilterToolTipValueType" xml:space="preserve">
+    <value>Bir değerle / başka bir alanın değeriyle karşılaştır</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLower" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="StringId.LookUpEditValueIsNull" xml:space="preserve">
+    <value>[EditValue Null]</value>
+  </data>
+  <data name="StringId.FilterClauseLike" xml:space="preserve">
+    <value>Benzer</value>
+  </data>
+  <data name="StringId.PictureEditCopyImageError" xml:space="preserve">
+    <value>Rsim kopyalanamıyor.</value>
+  </data>
+  <data name="StringId.FilterClauseNoneOf" xml:space="preserve">
+    <value>Hiçbiri değil</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeAdd" xml:space="preserve">
+    <value>Bu gruba yeni bir koşul ekler</value>
+  </data>
+  <data name="StringId.ColorTabCustom" xml:space="preserve">
+    <value>Kişisel</value>
+  </data>
+  <data name="StringId.FilterEmptyEnter" xml:space="preserve">
+    <value>&lt;bir değer girin&gt;</value>
+  </data>
+  <data name="StringId.ImagePopupPicture" xml:space="preserve">
+    <value>(Resim)</value>
+  </data>
+  <data name="StringId.FilterClauseNotBetween" xml:space="preserve">
+    <value>Arasında değil</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringIsNotNull" xml:space="preserve">
+    <value>Null değil mi</value>
+  </data>
+  <data name="StringId.FilterClauseBetweenAnd" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="StringId.LookUpInvalidEditValueType" xml:space="preserve">
+    <value>Geçersiz LookUpEdit EditValue tipi.</value>
+  </data>
+  <data name="StringId.FilterClauseContains" xml:space="preserve">
+    <value>İçeren</value>
+  </data>
+  <data name="StringId.FilterToolTipKeysRemove" xml:space="preserve">
+    <value>(Delete veya Subtract tuşunu kullanın)</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorNot" xml:space="preserve">
+    <value>Değil</value>
+  </data>
+  <data name="StringId.FilterClauseDoesNotEqual" xml:space="preserve">
+    <value>Eşit değil</value>
+  </data>
+  <data name="StringId.FilterGroupNotOr" xml:space="preserve">
+    <value>Veya değil</value>
+  </data>
+  <data name="StringId.PictureEditMenuCut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="StringId.FilterEmptyValue" xml:space="preserve">
+    <value>&lt;boş&gt;</value>
+  </data>
+  <data name="StringId.PictureEditMenuPaste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="StringId.LookUpColumnDefaultName" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="StringId.NavigatorNextButtonHint" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="StringId.UnknownPictureFormat" xml:space="preserve">
+    <value>Tanınmayan resim biçimi</value>
+  </data>
+  <data name="StringId.DateEditToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="StringId.FilterClauseEquals" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeAction" xml:space="preserve">
+    <value>Aksiyonlar</value>
+  </data>
+  <data name="StringId.TabHeaderButtonClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="StringId.TextEditMenuCut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileError" xml:space="preserve">
+    <value>Yanlış resim biçimi</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSubstring" xml:space="preserve">
+    <value>Parçala</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileTitle" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="StringId.FilterGroupAnd" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="StringId.DateEditClear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMilliSeconds" xml:space="preserve">
+    <value>Milisaniy ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionStartsWith" xml:space="preserve">
+    <value>İle başlayan</value>
+  </data>
+  <data name="StringId.SaveLayoutDialogFileFilter" xml:space="preserve">
+    <value>XML dosyaları (*.xml)|*.xml</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMonth" xml:space="preserve">
+    <value>Ay al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetSecond" xml:space="preserve">
+    <value>Saniye al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="StringId.FilterEmptyParameter" xml:space="preserve">
+    <value>&lt;bir değişken girin&gt;</value>
+  </data>
+  <data name="StringId.ProgressPrinting" xml:space="preserve">
+    <value>Yazılıyor</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddSeconds" xml:space="preserve">
+    <value>Saniye ekle</value>
+  </data>
+  <data name="StringId.ProgressCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomOut" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="StringId.PictureEditMenuFitImage" xml:space="preserve">
+    <value>Resmi Sığdır</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetTimeOfDay" xml:space="preserve">
+    <value>Günün zamanını al</value>
+  </data>
+  <data name="StringId.FilterEditorTabVisual" xml:space="preserve">
+    <value>Görsel</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomToolTip" xml:space="preserve">
+    <value>%{0}</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisWeek" xml:space="preserve">
+    <value>Bu hafta</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeDayAfterTomorrow" xml:space="preserve">
+    <value>Yarından sonraki gün</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisYear" xml:space="preserve">
+    <value>Bu yıl mı</value>
+  </data>
+  <data name="StringId.FilterAggregateExists" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="StringId.ProgressCreateDocument" xml:space="preserve">
+    <value>Doküman yaratılıyor</value>
+  </data>
+  <data name="StringId.FilterAggregateMax" xml:space="preserve">
+    <value>En çok</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionConcat" xml:space="preserve">
+    <value>Birleştir</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRound" xml:space="preserve">
+    <value>Yuvarla</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddTicks" xml:space="preserve">
+    <value>An ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMinute" xml:space="preserve">
+    <value>Tarih dakika farkı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToFloat" xml:space="preserve">
+    <value>Float'a</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCeiling" xml:space="preserve">
+    <value>Yukarı yuvarla</value>
+  </data>
+  <data name="StringId.FilterAggregateAvg" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffYear" xml:space="preserve">
+    <value>Tarih yıl farkı</value>
+  </data>
+  <data name="StringId.FilterFunctionsMenuCaption" xml:space="preserve">
+    <value>Fonksiyonlar</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNullOrEmpty" xml:space="preserve">
+    <value>Null yada boş mu</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextWeek" xml:space="preserve">
+    <value>Gelecek hafta</value>
+  </data>
+  <data name="StringId.FilterCriteriaInvalidExpression" xml:space="preserve">
+    <value>Belirtilen ifadede geçersiz semboller var (satır {0}, karakter {1}).</value>
+  </data>
+  <data name="StringId.FilterDateTextAlt" xml:space="preserve">
+    <value>Hepsini göster|Boş göster|Belirli bir tarihe göre süz:|Sonrası|||Gelecek hafta|Bugün|Bu hafta|Bu ay|Öncesi|{0:yyyy}, {0:MMMM}</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffDay" xml:space="preserve">
+    <value>Tarih gün farkı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionEndsWith" xml:space="preserve">
+    <value>İle biten</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarIncrementalSearch" xml:space="preserve">
+    <value>Artırmalı arama</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPadRight" xml:space="preserve">
+    <value>Sağı doldur</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionReverse" xml:space="preserve">
+    <value>Ters çevir</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCharIndex" xml:space="preserve">
+    <value>Char sırası</value>
+  </data>
+  <data name="StringId.FilterClauseIsNotNullOrEmpty" xml:space="preserve">
+    <value>Boş değil</value>
+  </data>
+  <data name="StringId.FilterCriteriaInvalidExpressionEx" xml:space="preserve">
+    <value>Belirtilen ifade geçersiz.</value>
+  </data>
+  <data name="StringId.FilterAggregateSum" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRemove" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddYears" xml:space="preserve">
+    <value>Yıl ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisMonth" xml:space="preserve">
+    <value>Bu ay mı</value>
+  </data>
+  <data name="StringId.DefaultBooleanDefault" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAbs" xml:space="preserve">
+    <value>Mutlak</value>
+  </data>
+  <data name="StringId.ProgressLoadingData" xml:space="preserve">
+    <value>Veri yükleniyor</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionUtcNow" xml:space="preserve">
+    <value>Utc şimdi</value>
+  </data>
+  <data name="StringId.ProgressCancelPending" xml:space="preserve">
+    <value>Bekleyeni iptal et</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextYear" xml:space="preserve">
+    <value>Gelecek Yıl</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDate" xml:space="preserve">
+    <value>Tarih al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffHour" xml:space="preserve">
+    <value>Tarih saat farkı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToStr" xml:space="preserve">
+    <value>str'ye</value>
+  </data>
+  <data name="StringId.FilterAggregateCount" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYesterday" xml:space="preserve">
+    <value>Dün</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetYear" xml:space="preserve">
+    <value>Yıl al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMilliSecond" xml:space="preserve">
+    <value>Tarih milisaniye farkı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToInt" xml:space="preserve">
+    <value>Int'e</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToDouble" xml:space="preserve">
+    <value>Double'a</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarRadioMode" xml:space="preserve">
+    <value>Radyo modu</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarMultiSelection" xml:space="preserve">
+    <value>Çoklu-seçim</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoWeeksAway" xml:space="preserve">
+    <value>İki hafta sonra</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionMax" xml:space="preserve">
+    <value>En fazla</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSign" xml:space="preserve">
+    <value>İşaret</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddHours" xml:space="preserve">
+    <value>Saat ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionContains" xml:space="preserve">
+    <value>İçerir</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPower" xml:space="preserve">
+    <value>Üssü</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffTick" xml:space="preserve">
+    <value>Tarih an farkı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMonths" xml:space="preserve">
+    <value>Ay ekle</value>
+  </data>
+  <data name="StringId.ColorPickPopupAutomaticItemCaption" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPadLeft" xml:space="preserve">
+    <value>Solu doldur</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionInsert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionReplace" xml:space="preserve">
+    <value>Yer değiştir</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCustomNonDeterministic" xml:space="preserve">
+    <value>Kişisel belirleyici olmayan(non deterministic)</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionExp" xml:space="preserve">
+    <value>Exp</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarShowOnlyAvailableItems" xml:space="preserve">
+    <value>Sadece Kullanılabilir Öğeleri Göster</value>
+  </data>
+  <data name="StringId.FilterDateTimeConstantMenuCaption" xml:space="preserve">
+    <value>Tarih ve zaman sabitleri</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToDecimal" xml:space="preserve">
+    <value>Decimal'e</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionNow" xml:space="preserve">
+    <value>Şimdi</value>
+  </data>
+  <data name="StringId.FilterMenuAddNewParameter" xml:space="preserve">
+    <value>Yeni bir parametre ekle...</value>
+  </data>
+  <data name="StringId.FilterAggregateMin" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="StringId.PictureEditMenuFullSize" xml:space="preserve">
+    <value>Tam Boyut</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddDays" xml:space="preserve">
+    <value>Gün ekle</value>
+  </data>
+  <data name="StringId.FilterEditorTabText" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfWeek" xml:space="preserve">
+    <value>Haftanın gününü al</value>
+  </data>
+  <data name="StringId.TabHeaderSelectorButton" xml:space="preserve">
+    <value>Pencere Listesini Göster</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomIn" xml:space="preserve">
+    <value>Yaklaştır</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMinutes" xml:space="preserve">
+    <value>Dakika ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDay" xml:space="preserve">
+    <value>Gün al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNow" xml:space="preserve">
+    <value>Şimdi</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastWeek" xml:space="preserve">
+    <value>Geçen hafta</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTomorrow" xml:space="preserve">
+    <value>Yarın</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarShowNewValues" xml:space="preserve">
+    <value>Yeni Alan Değerlerini Göster</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddTimeSpan" xml:space="preserve">
+    <value>Zaman aralığı ekle</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfYear" xml:space="preserve">
+    <value>Yılın gününü al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisMonth" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="StringId.ProgressExport" xml:space="preserve">
+    <value>Dışarı aktarılıyor</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarInvertFilter" xml:space="preserve">
+    <value>Süzgeci evir</value>
+  </data>
+  <data name="StringId.SaveLayoutDialogTitle" xml:space="preserve">
+    <value>Biçimi Kaydet</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisWeek" xml:space="preserve">
+    <value>Bu hafta mı</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomTo" xml:space="preserve">
+    <value>Yaklaştır:</value>
+  </data>
+  <data name="StringId.RestoreLayoutDialogTitle" xml:space="preserve">
+    <value>Biçimi Geri Yükle</value>
+  </data>
+  <data name="StringId.FilterClauseIsNullOrEmpty" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="StringId.RestoreLayoutDialogFileFilter" xml:space="preserve">
+    <value>XML dosyaları (*.xml)|*.xml|Bütün dosyalar|*.*</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToLong" xml:space="preserve">
+    <value>Long'a</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionMin" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="StringId.FieldListName" xml:space="preserve">
+    <value>Alan Listesi ({0})</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMilliSecond" xml:space="preserve">
+    <value>Milisaniye al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisYear" xml:space="preserve">
+    <value>Bu yıl</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionFloor" xml:space="preserve">
+    <value>Aşağı yuvarla</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMinute" xml:space="preserve">
+    <value>Dakika al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffSecond" xml:space="preserve">
+    <value>Tarih saniye farkı</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextMonth" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetHour" xml:space="preserve">
+    <value>Saat al</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMonth" xml:space="preserve">
+    <value>Tarih ay farkı</value>
+  </data>
+  <data name="StringId.CalcButtonSqrt" xml:space="preserve">
+    <value>karekök</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAtn" xml:space="preserve">
+    <value>ATN</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionBigMul" xml:space="preserve">
+    <value>Büyük mul</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionChar" xml:space="preserve">
+    <value>Char</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLog" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="StringId.CalcButtonMx" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="StringId.DefaultBooleanFalse" xml:space="preserve">
+    <value>Yanlış</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSinh" xml:space="preserve">
+    <value>Sinh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSqr" xml:space="preserve">
+    <value>Sqr</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTan" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTanh" xml:space="preserve">
+    <value>TANH</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCos" xml:space="preserve">
+    <value>Cos</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCosh" xml:space="preserve">
+    <value>Cosh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIif" xml:space="preserve">
+    <value>IIf</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLog10" xml:space="preserve">
+    <value>Log10</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRnd" xml:space="preserve">
+    <value>Rnd</value>
+  </data>
+  <data name="StringId.DefaultBooleanTrue" xml:space="preserve">
+    <value>Gerçek</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd" xml:space="preserve">
+    <value>&amp;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseOr" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseXor" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreater" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLess" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLessOrEqual" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorModulo" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAcos" xml:space="preserve">
+    <value>ACOS</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAscii" xml:space="preserve">
+    <value>ASCII</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAsin" xml:space="preserve">
+    <value>Asın</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAtn2" xml:space="preserve">
+    <value>Atn2</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorBitwiseNot" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="StringId.CalcButtonC" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="StringId.CalcButtonCE" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="StringId.CalcButtonMC" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="StringId.CalcButtonMR" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="StringId.CalcButtonMS" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="StringId.PreviewBusy" xml:space="preserve">
+    <value>Meşgul</value>
+  </data>
+  <data name="StringId.PreviewError" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="StringId.PreviewInitializing" xml:space="preserve">
+    <value>Başlatılıyor</value>
+  </data>
+  <data name="StringId.PreviewOffline" xml:space="preserve">
+    <value>Çevrimdışı</value>
+  </data>
+  <data name="StringId.PreviewOutOfMemory" xml:space="preserve">
+    <value>Bellek Yetersiz</value>
+  </data>
+  <data name="StringId.PreviewPaperJam" xml:space="preserve">
+    <value>Kağıt Sıkışması</value>
+  </data>
+  <data name="StringId.PreviewPaused" xml:space="preserve">
+    <value>Duraklatıldı</value>
+  </data>
+  <data name="StringId.PreviewPowerSave" xml:space="preserve">
+    <value>Güç tasarrufu</value>
+  </data>
+  <data name="StringId.PreviewReady" xml:space="preserve">
+    <value>Hazır</value>
+  </data>
+  <data name="StringId.PreviewServerUnknown" xml:space="preserve">
+    <value>Bilinmeyen Sunucu</value>
+  </data>
+  <data name="StringId.PreviewWarmingUp" xml:space="preserve">
+    <value>Isınıyor</value>
+  </data>
+  <data name="StringId.PreviewManualFeed" xml:space="preserve">
+    <value>El ile Besleme</value>
+  </data>
+  <data name="StringId.PreviewPrinting" xml:space="preserve">
+    <value>Yazdırma</value>
+  </data>
+  <data name="StringId.PreviewUserIntervention" xml:space="preserve">
+    <value>Kullanıcı müdahalesi</value>
+  </data>
+  <data name="StringId.PreviewProcessing" xml:space="preserve">
+    <value>İşleme</value>
+  </data>
+  <data name="StringId.PreviewTonerLow" xml:space="preserve">
+    <value>Toner düşük</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSin" xml:space="preserve">
+    <value>Sin</value>
+  </data>
+  <data name="StringId.PreviewIOActive" xml:space="preserve">
+    <value>GÇ etkin</value>
+  </data>
+  <data name="StringId.ServerOffline" xml:space="preserve">
+    <value>Sunucu çevrimdışı</value>
+  </data>
+  <data name="StringId.PreviewDoorOpen" xml:space="preserve">
+    <value>Kapıyı Aç</value>
+  </data>
+  <data name="StringId.PreviewDriverUpdateNeeded" xml:space="preserve">
+    <value>Sürücü güncelleştirme gerekli</value>
+  </data>
+  <data name="StringId.PreviewPaperOut" xml:space="preserve">
+    <value>Kağıt</value>
+  </data>
+  <data name="StringId.PreviewPendingDeletion" xml:space="preserve">
+    <value>Bekleyen silme</value>
+  </data>
+  <data name="StringId.PreviewPaperProblem" xml:space="preserve">
+    <value>Kağıt Sorunu</value>
+  </data>
+  <data name="StringId.ChartRangeControlClientNoData" xml:space="preserve">
+    <value>Aralık denetimi içinde göstermek için veri yok.</value>
+  </data>
+  <data name="StringId.PreviewNotAvaible" xml:space="preserve">
+    <value>Uygun Değil</value>
+  </data>
+  <data name="StringId.PreviewNoToner" xml:space="preserve">
+    <value>Toner yok önizleme</value>
+  </data>
+  <data name="StringId.PreviewWaiting" xml:space="preserve">
+    <value>Bekleniyor</value>
+  </data>
+  <data name="StringId.ChartRangeControlClientInvalidGrid" xml:space="preserve">
+    <value>Kılavuz çizgileri arasındaki aralığı Denetim temsil edilmesi için çok küçük.</value>
+  </data>
+  <data name="StringId.PreviewOutputBinFull" xml:space="preserve">
+    <value>Çıkış kutusu tam</value>
+  </data>
+  <data name="StringId.PreviewPagePunt" xml:space="preserve">
+    <value>Kağıt Problemi</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBetween" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="StringId.FormatRuleWith" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="StringId.IconSetTitleSigns3" xml:space="preserve">
+    <value>3 İşaret</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTextThatContains" xml:space="preserve">
+    <value>İçeren metin</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearColumnRules" xml:space="preserve">
+    <value>Bu sütundaki kuralları temizle</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearRules" xml:space="preserve">
+    <value>Kuralları temizle</value>
+  </data>
+  <data name="StringId.IconSetTitleTrafficLights3Rimmed" xml:space="preserve">
+    <value>3 Trafik ışığı (çerçeveli)</value>
+  </data>
+  <data name="StringId.FormatRuleLessThanText" xml:space="preserve">
+    <value>Daha az olan hücreleri biçimlendir</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceBoldText" xml:space="preserve">
+    <value>Kalın Metin</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenBoldText" xml:space="preserve">
+    <value>Yeşil Kalın Metin</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenFill" xml:space="preserve">
+    <value>Yeşil Dolgu</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenText" xml:space="preserve">
+    <value>Yeşil metin</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceItalicText" xml:space="preserve">
+    <value>İtalik metin</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedBoldText" xml:space="preserve">
+    <value>Kırmızı kalın metin</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedFill" xml:space="preserve">
+    <value>Kırmızı Dolgu</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedText" xml:space="preserve">
+    <value>Kırmızı Metin</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceStrikeoutText" xml:space="preserve">
+    <value>Üstü çizili metin</value>
+  </data>
+  <data name="StringId.TabHeaderButtonPin" xml:space="preserve">
+    <value>Sabitle</value>
+  </data>
+  <data name="StringId.TabHeaderButtonUnpin" xml:space="preserve">
+    <value>Sabitlemeyi Kaldır</value>
+  </data>
+  <data name="StringId.IconSetTitleFlags3" xml:space="preserve">
+    <value>3 Bayrak</value>
+  </data>
+  <data name="StringId.Days" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="StringId.Secs" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="StringId.Mins" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="StringId.Hours" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="StringId.ManageRuleCommonColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesTop" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="StringId.ManageRuleCommonValue" xml:space="preserve">
+    <value>Değer:</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="StringId.ManageRuleCommonType" xml:space="preserve">
+    <value>Tipi:</value>
+  </data>
+  <data name="StringId.ManageRuleDown" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="StringId.ManageRuleUp" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="StringId.ColorPickHueAxisName" xml:space="preserve">
+    <value>Renk tonu</value>
+  </data>
+  <data name="StringId.ManageRuleCommonNumber" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="StringId.ManageRuleCommonPercent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringTomorrow" xml:space="preserve">
+    <value>Yarın</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringYesterday" xml:space="preserve">
+    <value>Dün</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueBetween" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="StringId.TakePictureDialogSave" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="StringId.ManageRuleCommonPreview" xml:space="preserve">
+    <value>Önizleme:</value>
+  </data>
+  <data name="StringId.ManageRuleCommonMaximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="StringId.ManageRuleCommonMinimum" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="StringId.ColorPickHueAxisName" xml:space="preserve">
+    <value>Renk tonu</value>
+  </data>
+  <data name="StringId.ColorPickPopupMoreColorsItemCaption" xml:space="preserve">
+    <value>Daha fazla renk...</value>
+  </data>
+  <data name="StringId.ColorPickPopupStandardColorsGroupCaption" xml:space="preserve">
+    <value>Standart renkler</value>
+  </data>
+  <data name="StringId.ColorPickPopupThemeColorsGroupCaption" xml:space="preserve">
+    <value>Tema renkleri</value>
+  </data>
+  <data name="StringId.ColorPickBrightnessAxisName" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="StringId.ColorPickLuminanceAxisName" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="StringId.ColorPickOpacityAxisName" xml:space="preserve">
+    <value>Opaklık</value>
+  </data>
+  <data name="StringId.ColorPickSaturationAxisName" xml:space="preserve">
+    <value>Doygunluk</value>
+  </data>
+  <data name="StringId.ColorPickSaturationValidationMsg" xml:space="preserve">
+    <value>Doygunluk bileşeni-meli var olmak içinde aralığı 0..100</value>
+  </data>
+  <data name="StringId.ColorTabWebSafeColors" xml:space="preserve">
+    <value>Web için güvenli</value>
+  </data>
+  <data name="StringId.ColorPickRedValidationMsg" xml:space="preserve">
+    <value>Kırmızı bileşenin aralığı 255-meli var olmak</value>
+  </data>
+  <data name="StringId.ColorPickPopupRecentColorsGroupCaption" xml:space="preserve">
+    <value>Son renkler</value>
+  </data>
+  <data name="StringId.ColorPickOpacityValidationMsg" xml:space="preserve">
+    <value>Opaklık bileşeni-meli var olmak içinde aralığı 255</value>
+  </data>
+  <data name="StringId.ColorPickHueValidationMsg" xml:space="preserve">
+    <value>Renk bileşeni-meli var olmak içinde aralığı 0..359</value>
+  </data>
+  <data name="StringId.ColorPickBrightValidationMsg" xml:space="preserve">
+    <value>Parlaklık bileşeni-meli var olmak içinde aralığı 0..100</value>
+  </data>
+  <data name="StringId.ColorPickColorHexValidationMsg" xml:space="preserve">
+    <value>Onaltılık değeri geçersiz</value>
+  </data>
+  <data name="StringId.ColorPickGreenValidationMsg" xml:space="preserve">
+    <value>Yeşil bileşenin aralığı 255-meli var olmak</value>
+  </data>
+  <data name="StringId.ColorPickBlueValidationMsg" xml:space="preserve">
+    <value>Mavi bileşenin aralığı 255-meli var olmak</value>
+  </data>
+  <data name="StringId.ManageRuleAllColumns" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionColumn" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionFormat" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTop10Items" xml:space="preserve">
+    <value>İlk 10 bileşen</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsBold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsItalic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsUnderline" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsClear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFill" xml:space="preserve">
+    <value>Doldurun</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFont" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyUniqueOrDuplicateValues" xml:space="preserve">
+    <value>Yalnızca benzersiz veya yinelenen değerleri Biçimlendir</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleSelectARuleType" xml:space="preserve">
+    <value>Bir kural türü seçin:</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainCellValue" xml:space="preserve">
+    <value>Hücre değeri</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesOfTheColumnsCellValues" xml:space="preserve">
+    <value>sütun değerleri %</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateDuplicate" xml:space="preserve">
+    <value>Çoğalt</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateUnique" xml:space="preserve">
+    <value>Benzersiz</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateValuesInTheSelectedRange" xml:space="preserve">
+    <value>sütun değerleri</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleEditTheRuleDescription" xml:space="preserve">
+    <value>Kural açıklamasını düzenleyin:</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyCellsThatContain" xml:space="preserve">
+    <value>Sadece içeren hücreleri biçimlendir</value>
+  </data>
+  <data name="StringId.NewFormattingRule" xml:space="preserve">
+    <value>Yeni biçimlendirme kuralı</value>
+  </data>
+  <data name="StringId.EditFormattingRule" xml:space="preserve">
+    <value>Biçimlendirme kuralı Düzenle</value>
+  </data>
+  <data name="StringId.ManageRuleAboveAverage" xml:space="preserve">
+    <value>Ortalamanın üstünde</value>
+  </data>
+  <data name="StringId.ManageRuleAverageAbove" xml:space="preserve">
+    <value>Yukarıda</value>
+  </data>
+  <data name="StringId.ManageRuleAverageBelow" xml:space="preserve">
+    <value>Aşağıda</value>
+  </data>
+  <data name="StringId.ManageRuleAverageEqualOrAbove" xml:space="preserve">
+    <value>Eşit veya daha üst</value>
+  </data>
+  <data name="StringId.ManageRuleAverageEqualOrBelow" xml:space="preserve">
+    <value>Eşit veya daha düşük</value>
+  </data>
+  <data name="StringId.ManageRuleBelowAverage" xml:space="preserve">
+    <value>Ortalamanın altında</value>
+  </data>
+  <data name="StringId.ManageRuleCaption" xml:space="preserve">
+    <value>Koşullu biçimlendirme kuralları Yöneticisi</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueEqualTo" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueGreaterThan" xml:space="preserve">
+    <value>Daha büyük</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueLessThan" xml:space="preserve">
+    <value>Daha az</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueLessThanOrEqualTo" xml:space="preserve">
+    <value>Küçük veya eşit</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueNotBetween" xml:space="preserve">
+    <value>Arasında değil</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarBarAppearance" xml:space="preserve">
+    <value>Çubuk Görünümü:</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale" xml:space="preserve">
+    <value>Dereceli renk ölçeği</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale2" xml:space="preserve">
+    <value>2-renk ölçeği</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale3" xml:space="preserve">
+    <value>3-renk ölçeği</value>
+  </data>
+  <data name="StringId.ManageRuleColorScaleMidpoint" xml:space="preserve">
+    <value>Orta nokta</value>
+  </data>
+  <data name="StringId.ManageRuleComplexRuleBaseFormatStyle" xml:space="preserve">
+    <value>Biçimlendirme stili:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBar" xml:space="preserve">
+    <value>Veri çubuğu</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarGradientFill" xml:space="preserve">
+    <value>Gradyan dolgu</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarLTR" xml:space="preserve">
+    <value>Soldan sağa</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarNoBorder" xml:space="preserve">
+    <value>Kenarlık yok</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarRTL" xml:space="preserve">
+    <value>Sağdan sola</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarSolidBorder" xml:space="preserve">
+    <value>Düz kenarlık</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarSolidFill" xml:space="preserve">
+    <value>Düz dolgu</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLastWeek" xml:space="preserve">
+    <value>Geçen hafta</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarContext" xml:space="preserve">
+    <value>Bağlam</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAfter1" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo1" xml:space="preserve">
+    <value>Geçen ay</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringNextWeek" xml:space="preserve">
+    <value>Gelecek hafta</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringThisMonth" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringThisWeek" xml:space="preserve">
+    <value>Bu hafta</value>
+  </data>
+  <data name="StringId.ManageRuleEditRule" xml:space="preserve">
+    <value>Kural Düzenle</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsBackgroundColor" xml:space="preserve">
+    <value>Arka plan rengi:</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsCaption" xml:space="preserve">
+    <value>Hücreleri Biçimlendir</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFontColor" xml:space="preserve">
+    <value>Yazı tipi rengi</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFontStyle" xml:space="preserve">
+    <value>Yazı tipi stili</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsPredefinedAppearance" xml:space="preserve">
+    <value>Önceden tanımlanmış görünüm</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsStrikethrough" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="StringId.ManageRuleFormula" xml:space="preserve">
+    <value>Formül</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionApplyToTheRow" xml:space="preserve">
+    <value>Satıra Uygula</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionRule" xml:space="preserve">
+    <value>Kural</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsWhen" xml:space="preserve">
+    <value>ne zaman</value>
+  </data>
+  <data name="StringId.ManageRuleNewRule" xml:space="preserve">
+    <value>Yeni kural...</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextBeginningWith" xml:space="preserve">
+    <value>İle başlayan</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextContaining" xml:space="preserve">
+    <value>İçeren</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextEndingWith" xml:space="preserve">
+    <value>İle biten</value>
+  </data>
+  <data name="StringId.ManageRuleIconSet" xml:space="preserve">
+    <value>Simge Seti</value>
+  </data>
+  <data name="StringId.CameraSettingsResolution" xml:space="preserve">
+    <value>Çözünürlük:</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemAboveAverage" xml:space="preserve">
+    <value>Ortalamanın üstünde</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBelowAverage" xml:space="preserve">
+    <value>Ortalamanın altında</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemEqualTo" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemGreaterThan" xml:space="preserve">
+    <value>Daha büyük</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemLessThan" xml:space="preserve">
+    <value>Daha az</value>
+  </data>
+  <data name="StringId.IconSetCategorySymbols" xml:space="preserve">
+    <value>Semboller</value>
+  </data>
+  <data name="StringId.TakePictureDialogCapture" xml:space="preserve">
+    <value>Yakala</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarUseNegativeBar" xml:space="preserve">
+    <value>Negatif bar kullan</value>
+  </data>
+  <data name="StringId.OfficeNavigationOptions" xml:space="preserve">
+    <value>Gezinti Seçenekleri</value>
+  </data>
+  <data name="StringId.SearchControlNullValuePrompt" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoMonthsAway" xml:space="preserve">
+    <value>İki ay sonra</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsApril" xml:space="preserve">
+    <value>Nisan</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsAugust" xml:space="preserve">
+    <value>Ağustos</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsDecember" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsFebruary" xml:space="preserve">
+    <value>Şubat</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsJanuary" xml:space="preserve">
+    <value>Ocak</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsJuly" xml:space="preserve">
+    <value>Temmuz</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsJune" xml:space="preserve">
+    <value>Haziran</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsMarch" xml:space="preserve">
+    <value>Mart</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsMay" xml:space="preserve">
+    <value>Mayıs</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNextMonth" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNextYear" xml:space="preserve">
+    <value>Önümüzdeki yıl</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNovember" xml:space="preserve">
+    <value>Kasım</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYearBeforeToday" xml:space="preserve">
+    <value>Bir yıl önce</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsSameDay" xml:space="preserve">
+    <value>Aynı gün</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsSeptember" xml:space="preserve">
+    <value>Eylül</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoYearsAway" xml:space="preserve">
+    <value>İki yıl önce</value>
+  </data>
+  <data name="StringId.IconSetCategoryIndicators" xml:space="preserve">
+    <value>Göstergeler</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemGradientFill" xml:space="preserve">
+    <value>Gradyan dolgu</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemSolidFill" xml:space="preserve">
+    <value>Düz dolgu</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueNotEqualTo" xml:space="preserve">
+    <value>Eşit değildir</value>
+  </data>
+  <data name="StringId.IconSetTitleStars3" xml:space="preserve">
+    <value>3 Yıldız</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Değerinden büyük veya eşit</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsRegular" xml:space="preserve">
+    <value>Düzenli</value>
+  </data>
+  <data name="StringId.ManageRuleCommonAutomatic" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="StringId.NoneItemText" xml:space="preserve">
+    <value>(yok)</value>
+  </data>
+  <data name="StringId.ProgressPanelDefaultDescription" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+</root>

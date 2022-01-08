@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessStringId.ConnectingToDatabaseCaption" xml:space="preserve">
+    <value>Lütfen bekleyin</value>
+  </data>
+  <data name="DataAccessStringId.DefaultNameDataSource" xml:space="preserve">
+    <value>Veri kaynağı</value>
+  </data>
+  <data name="DataAccessStringId.MessageInvalidItemName" xml:space="preserve">
+    <value>Öğe adı null veya boş dize olamaz.</value>
+  </data>
+  <data name="DataAccessStringId.ConnectingToDatabaseMessage" xml:space="preserve">
+    <value>Veritabanına bağlanma</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataPanelText" xml:space="preserve">
+    <value>... Veri yükleme</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataSourcePanelCounter" xml:space="preserve">
+    <value>{0} of {1}...</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataSourcePanelText" xml:space="preserve">
+    <value>Veri kaynağı yükleme</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateItem" xml:space="preserve">
+    <value>' {0}' Öğe koleksiyonda zaten içeriyor</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateItemName" xml:space="preserve">
+    <value>Bu koleksiyon zaten ' {0}' adlı bir madde içerir.</value>
+  </data>
+  <data name="DataAccessStringId.EmptyColumnAliasPattern" xml:space="preserve">
+    <value>{0} Sütunu</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridBehaviorCategoryName" xml:space="preserve">
+    <value>Davranış</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridDataCategoryName" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridDesignCategoryName" xml:space="preserve">
+    <value>Tasarım</value>
+  </data>
+  <data name="DataAccessStringId.MessageWrongCharacterItemName" xml:space="preserve">
+    <value>Öğe adı ' {0}' yanlış karakterler içeriyor</value>
+  </data>
+  <data name="DataAccessStringId.MessageWrongCharacterParameterName" xml:space="preserve">
+    <value>Parametre adı '{0}' yanlış karakterler içeriyor</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinExpressionElementSeparator" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinExpressionPattern" xml:space="preserve">
+    <value>{1} üzerindeki {0}</value>
+  </data>
+  <data name="DataAccessStringId.MessageNullItem" xml:space="preserve">
+    <value>Koleksiyon null bir değere ekleyemezsiniz</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeInnerJoin" xml:space="preserve">
+    <value>İç birleştirmek</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeLeftOuterJoin" xml:space="preserve">
+    <value>Sol dış birleştirme</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeMasterDetail" xml:space="preserve">
+    <value>Ana ayrıntı ilişkisi</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridCommonCategoryName" xml:space="preserve">
+    <value>Ortak</value>
+  </data>
+  <data name="DataAccessStringId.ColumnNotInSchemaValidationException" xml:space="preserve">
+    <value>Şema aşağıdaki sütunu içermiyor: "{0}". "{1}".</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionStringPostfixAppConfig" xml:space="preserve">
+    <value>(yapılandırma dosyasında)</value>
+  </data>
+  <data name="DataAccessStringId.IncompleteRelationValidationException" xml:space="preserve">
+    <value>Belirtilen ilişki eksik: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.DatabaseConnectionExceptionMessage" xml:space="preserve">
+    <value>Bağlantı adı: {0}
+Hata iletisi: {1}</value>
+  </data>
+  <data name="DataAccessStringId.NoTablesValidationException" xml:space="preserve">
+    <value>Tablolar koleksiyonu boş olamaz.</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorStaticValue" xml:space="preserve">
+    <value>Tipi statik ve IEnumerable dönen herhangi bir üye yok.</value>
+  </data>
+  <data name="DataAccessStringId.ParameterlessConstructor" xml:space="preserve">
+    <value>varsayılan</value>
+  </data>
+  <data name="DataAccessStringId.ProviderNotSupportedException" xml:space="preserve">
+    <value>Aşağıdaki veritabanı sağlayıcısı desteklenmiyor: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridCustomSqlCategoryName" xml:space="preserve">
+    <value>Özel SQL</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridTableSelectionCategoryName" xml:space="preserve">
+    <value>Tablo seçimi</value>
+  </data>
+  <data name="DataAccessStringId.SqlStringEmptyValidationException" xml:space="preserve">
+    <value>SQL dizesi null veya boş.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamCountValidationException" xml:space="preserve">
+    <value>Parametre sayısı uyuşmazlığı: &lt; {0} &gt;, &lt; {1} &gt; bekleniyor.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamNameValidationException" xml:space="preserve">
+    <value>Parametre adı uyuşmazlığı: &lt; {0} &gt;, &lt; {1} &gt; bekleniyor.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamTypeValidationException" xml:space="preserve">
+    <value>Parametre türü uyuşmazlığı: &lt; {0} &gt;, &lt; {1} &gt; bekleniyor.</value>
+  </data>
+  <data name="DataAccessStringId.UnnamedColumnValidationException" xml:space="preserve">
+    <value>Sütun adı belirtilmemiş.</value>
+  </data>
+  <data name="DataAccessStringId.UnnamedTableValidationException" xml:space="preserve">
+    <value>Tablo adı belirtilmemiş.</value>
+  </data>
+  <data name="DataAccessStringId.WizardDataConnectionNameExistsMessage" xml:space="preserve">
+    <value>Belirtilen veri bağlantı adı zaten var. Lütfen farklı bir bağlantı adı belirtin.</value>
+  </data>
+  <data name="DataAccessStringId.ParameterListEmpty" xml:space="preserve">
+    <value>hiçbiri</value>
+  </data>
+  <data name="DataAccessStringId.ParameterListNull" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridConnectionCategoryName" xml:space="preserve">
+    <value>Bağlantı</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNothingSelected" xml:space="preserve">
+    <value>Hiçbir sütun seçilmedi. Lütfen devam etmek için en az bir sütun seçin.</value>
+  </data>
+  <data name="DataAccessStringId.WizardCustomConnectionString" xml:space="preserve">
+    <value>Özel bağlantı dizesi</value>
+  </data>
+  <data name="DataAccessStringId.ExcelDataSource_FileNotFoundMessage" xml:space="preserve">
+    <value>{0}
+Dosya bulunamadı.
+Dosya adını denetleyin ve yeniden deneyin.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_EncryptionTypeNotSupported" xml:space="preserve">
+    <value>Korumalı dosya açılamıyor.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_PasswordRequired" xml:space="preserve">
+    <value>Bu çalışma kitabını açmak için bir parola gerekiyor.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_WrongPassword" xml:space="preserve">
+    <value>Parola doğru değil. Lütfen yeniden deneyin.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_BIFF5Format" xml:space="preserve">
+    <value>BIFF5 (Excel 5.0/95) XLS dosya biçimi desteklenmiyor.</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_AllFormats" xml:space="preserve">
+    <value>Tüm desteklenen formatlar</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_CSV" xml:space="preserve">
+    <value>CSV dosyaları</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamNullValidationException" xml:space="preserve">
+    <value>Parametre null olamaz.</value>
+  </data>
+  <data name="DataAccessStringId.WizardNoEFDataContextsMessage" xml:space="preserve">
+    <value>Seçili derleme Entity Framework veri bağlamı içermiyor.</value>
+  </data>
+  <data name="DataAccessStringId.XmlFileStrategy_FileNameFilter" xml:space="preserve">
+    <value>XML dosyaları</value>
+  </data>
+  <data name="DataAccessStringId.CustomSqlQueryValidationException" xml:space="preserve">
+    <value>Özel bir SQL sorgusu yalnızca SELECT deyimleri içermelidir.</value>
+  </data>
+  <data name="DataAccessStringId.Type_Object" xml:space="preserve">
+    <value>Nesne</value>
+  </data>
+  <data name="DataAccessStringId.MessageNonexistentQuery" xml:space="preserve">
+    <value>'{0}' sorgusu yok.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_CorruptedFile" xml:space="preserve">
+    <value>Dosya bozuk.</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_Excel" xml:space="preserve">
+    <value>Excel çalışma kitapları</value>
+  </data>
+  <data name="DataAccessStringId.FilterByColumnOfMissingTableValidationException" xml:space="preserve">
+    <value>Filtre dizesi içinde kullanılan sütun [{0}] içeren tablo yok.</value>
+  </data>
+  <data name="DataAccessStringId.DefaultNameParameter" xml:space="preserve">
+    <value>Parametre</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithColumnOfMissingTableValidationException" xml:space="preserve">
+    <value>Özel ifade içinde kullanılan sütun [{0}] içeren tablo yok.</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateQueryName" xml:space="preserve">
+    <value>Belirtilen ada sahip bir sorgu zaten var: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.MessageEmptyQueryName" xml:space="preserve">
+    <value>Sorgu adı boş olamaz.</value>
+  </data>
+  <data name="DataAccessStringId.QueriesFailedToValidate_ExceptionMessage" xml:space="preserve">
+    <value>Bir veya daha fazla sorgu doğrulama başarısız oldu.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilder_AllColumns" xml:space="preserve">
+    <value>* (Tüm sütunlar)</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilder_AllTables" xml:space="preserve">
+    <value>(Tüm tablolar)</value>
+  </data>
+  <data name="DataAccessStringId.SqlExecutionException_WithParameters" xml:space="preserve">
+    <value>parametrelerle:</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Functions" xml:space="preserve">
+    <value>Fonksiyonlar</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Operators" xml:space="preserve">
+    <value>Operatörler</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Comma" xml:space="preserve">
+    <value>Virgül</value>
+  </data>
+  <data name="DataAccessStringId.UnknownType" xml:space="preserve">
+    <value>Bilinmeyen</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_QueryCategory" xml:space="preserve">
+    <value>Sorgular</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Space" xml:space="preserve">
+    <value>Boşluk</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Tab" xml:space="preserve">
+    <value>Sekme</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_ColumnDescriptionFormat" xml:space="preserve">
+    <value>Türü: {0}</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Columns_Tooltip" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Operators_Tooltip" xml:space="preserve">
+    <value>operatör</value>
+  </data>
+  <data name="DataAccessStringId.RunExpressionEditor" xml:space="preserve">
+    <value>İfade Düzenleyicisi...</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Math" xml:space="preserve">
+    <value>Matematik</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Columns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Constants" xml:space="preserve">
+    <value>Sabitler</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Text" xml:space="preserve">
+    <value>Dize</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_DateTime" xml:space="preserve">
+    <value>Tarih/Saat</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Logical" xml:space="preserve">
+    <value>Mantıksal</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Parameters" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_TableCategory" xml:space="preserve">
+    <value>Tablolar</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Aggregate" xml:space="preserve">
+    <value>Toplama</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Custom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="DataAccessStringId.EFFilterControl_EmptyFilterString" xml:space="preserve">
+    <value>Filtre dizesi null olamaz.</value>
+  </data>
+</root>

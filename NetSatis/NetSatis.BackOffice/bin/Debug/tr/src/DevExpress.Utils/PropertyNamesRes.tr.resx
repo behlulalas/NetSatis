@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DevExpress.Utils.AppearanceObject.Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObjectEx.Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.DashStyle.Solid" xml:space="preserve">
+    <value>Düz</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceOptions.UseTextOptions" xml:space="preserve">
+    <value>Metin Seçeneklerini Kullan</value>
+  </data>
+  <data name="DevExpress.XtraEditors.StyleFormatConditionBase.Expression" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="DevExpress.Utils.TextOptions.Trimming" xml:space="preserve">
+    <value>Kesme</value>
+  </data>
+  <data name="DevExpress.XtraEditors.StyleFormatConditionBase.Condition" xml:space="preserve">
+    <value>Koşul</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.LessOrEqual" xml:space="preserve">
+    <value>KüçükEşit</value>
+  </data>
+  <data name="DevExpress.Utils.TextOptions.VAlignment" xml:space="preserve">
+    <value>Dikey Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.NotBetween" xml:space="preserve">
+    <value>ArasındaDeğil</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.Equal" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.GradientMode" xml:space="preserve">
+    <value>Gradyan Modu</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.Utils.Trimming.Word" xml:space="preserve">
+    <value>Kelime</value>
+  </data>
+  <data name="DevExpress.XtraEditors.StyleFormatConditionBase.Appearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.DashStyle.Custom" xml:space="preserve">
+    <value>Kişisel</value>
+  </data>
+  <data name="System.Windows.Forms.CheckState.Indeterminate" xml:space="preserve">
+    <value>Belirsiz</value>
+  </data>
+  <data name="DevExpress.Utils.HKeyPrefix.Show" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="DevExpress.Utils.Trimming.Character" xml:space="preserve">
+    <value>Karakter</value>
+  </data>
+  <data name="DevExpress.Utils.HKeyPrefix.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="System.Windows.Forms.CheckState.Unchecked" xml:space="preserve">
+    <value>Seçilmemiş</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.BackColor2" xml:space="preserve">
+    <value>Arka Rengi2</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceOptionsEx.HighPriority" xml:space="preserve">
+    <value>Yüksek Öncelik</value>
+  </data>
+  <data name="DevExpress.Utils.Trimming.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.XtraEditors.Controls.FilterButtonShowMode.SmartTag" xml:space="preserve">
+    <value>Zeki Etiket</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.NotEqual" xml:space="preserve">
+    <value>EşitDeğil</value>
+  </data>
+  <data name="DevExpress.Utils.Trimming.EllipsisCharacter" xml:space="preserve">
+    <value>Ellips Karakteri</value>
+  </data>
+  <data name="System.Windows.Forms.CheckState.Checked" xml:space="preserve">
+    <value>Seçili</value>
+  </data>
+  <data name="DevExpress.Utils.TextOptions.WordWrap" xml:space="preserve">
+    <value>Kelime Kaydır</value>
+  </data>
+  <data name="DevExpress.XtraEditors.Controls.FilterButtonShowMode.Button" xml:space="preserve">
+    <value>Buton</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.DashStyle.Dot" xml:space="preserve">
+    <value>Nokta</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.DashStyle.DashDotDot" xml:space="preserve">
+    <value>Tire-Nokta-Nokta</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.BackColor" xml:space="preserve">
+    <value>Arka Rengi</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceOptions.UseBorderColor" xml:space="preserve">
+    <value>Çerçeve Rengini Kullan</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.GreaterOrEqual" xml:space="preserve">
+    <value>BüyükEşit</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.ForeColor" xml:space="preserve">
+    <value>Ön Rengi</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.DashStyle.Dash" xml:space="preserve">
+    <value>Tire</value>
+  </data>
+  <data name="System.Drawing.Drawing2D.DashStyle.DashDot" xml:space="preserve">
+    <value>Tire-Nokta</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceOptions.UseFont" xml:space="preserve">
+    <value>Yazı Tipini Kullan</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.Image" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="DevExpress.XtraEditors.Controls.FilterButtonShowMode.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.Between" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="DevExpress.Utils.HKeyPrefix.Hide" xml:space="preserve">
+    <value>Gizle</value>
+  </data>
+  <data name="DevExpress.Utils.TextOptions.HotkeyPrefix" xml:space="preserve">
+    <value>Kısayol Tuşu Önek</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.Greater" xml:space="preserve">
+    <value>Büyük</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.BorderColor" xml:space="preserve">
+    <value>Çerçeve Rengi</value>
+  </data>
+  <data name="DevExpress.Utils.Trimming.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.TextOptions" xml:space="preserve">
+    <value>Yazı Seçenekleri</value>
+  </data>
+  <data name="DevExpress.XtraEditors.StyleFormatConditionBase.Value1" xml:space="preserve">
+    <value>Değer1</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceOptions.UseImage" xml:space="preserve">
+    <value>Resim Kullan</value>
+  </data>
+  <data name="DevExpress.Utils.TextOptions.HAlignment" xml:space="preserve">
+    <value>Yatay Hizalama</value>
+  </data>
+  <data name="DevExpress.XtraEditors.StyleFormatConditionBase.Value2" xml:space="preserve">
+    <value>Değer2</value>
+  </data>
+  <data name="DevExpress.Utils.Trimming.EllipsisWord" xml:space="preserve">
+    <value>Ellips Kelimesi</value>
+  </data>
+  <data name="DevExpress.XtraEditors.StyleFormatConditionBase.Tag" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.Expression" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.Font" xml:space="preserve">
+    <value>Yazı Tipi</value>
+  </data>
+  <data name="DevExpress.XtraGrid.FormatConditionEnum.Less" xml:space="preserve">
+    <value>Küçük</value>
+  </data>
+  <data name="DevExpress.Utils.HKeyPrefix.None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceOptions.UseForeColor" xml:space="preserve">
+    <value>Ön Rengini Kullan</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceOptions.UseBackColor" xml:space="preserve">
+    <value>Arka Rengini Kullan</value>
+  </data>
+  <data name="DevExpress.Utils.Trimming.EllipsisPath" xml:space="preserve">
+    <value>Ellips Yörüngesi</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.FontSizeDelta" xml:space="preserve">
+    <value>Yazı tipi boyutu Delta</value>
+  </data>
+  <data name="DevExpress.Utils.AppearanceObject.FontStyleDelta" xml:space="preserve">
+    <value>Yazı tipi stili Delta</value>
+  </data>
+  <data name="DevExpress.Utils.WordWrap.Default" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+</root>

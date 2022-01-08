@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalToday" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_InvalidExpressionMessageTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_Title" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_BlueWhiteRedColorScale" xml:space="preserve">
+    <value>Mavi - beyaz - kırmızı renkli ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenWhiteColorScale" xml:space="preserve">
+    <value>Yeşil - Beyaz Renkli Ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenWhiteRedColorScale" xml:space="preserve">
+    <value>Yeşil - Beyaz - Kırmızı Renkli Ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenYellowColorScale" xml:space="preserve">
+    <value>Yeşil - Sarı renkli ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenYellowRedColorScale" xml:space="preserve">
+    <value>Yeşil - Sarı - Kırmızı Renkli Ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedWhiteBlueColorScale" xml:space="preserve">
+    <value>Kırmızı - beyaz - mavi renkli ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedWhiteGreenColorScale" xml:space="preserve">
+    <value>Kırmızı - Beyaz - Yeşil Renkli Ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedYellowGreenColorScale" xml:space="preserve">
+    <value>Kırmızı - sarı - yeşil renkli ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_WhiteGreenColorScale" xml:space="preserve">
+    <value>Beyaz - Yeşil Renkli Ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_WhiteRedColorScale" xml:space="preserve">
+    <value>Beyaz - Kırmızı Renkli Ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_YellowGreenColorScale" xml:space="preserve">
+    <value>Sarı - yeşil renkli ölçek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_GradientFillGroup" xml:space="preserve">
+    <value>Gradyan dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_GreenSolidDataBar" xml:space="preserve">
+    <value>Yeşil Veri Çubuğu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_OrangeSolidDataBar" xml:space="preserve">
+    <value>Turuncu veri çubuğu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_PurpleSolidDataBar" xml:space="preserve">
+    <value>Mor veri çubuğu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_RedSolidDataBar" xml:space="preserve">
+    <value>Kırmızı Veri Çubuğu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_LightGreenFill" xml:space="preserve">
+    <value>Açık yeşil dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_RedText" xml:space="preserve">
+    <value>Kırmızı Metin</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows4GrayIconSet" xml:space="preserve">
+    <value>4 Ok (Gri)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Boxes5IconSet" xml:space="preserve">
+    <value>5 Kutu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_DirectionalGroup" xml:space="preserve">
+    <value>Yön</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeArrowsGrayIconSet" xml:space="preserve">
+    <value>Oklar (Gri)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Quarters5IconSet" xml:space="preserve">
+    <value>5 Çeyrek</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_RedToBlackIconSet" xml:space="preserve">
+    <value>Kırmızıdan Siyaha</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Symbols3CircledIconSet" xml:space="preserve">
+    <value>3 Simge (Daire içinde)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_TrafficLights3UnrimmedIconSet" xml:space="preserve">
+    <value>3 Trafik ışığı (çerçevesiz)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting" xml:space="preserve">
+    <value>Koşullu Biçimlendirme</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ColorScales" xml:space="preserve">
+    <value>Renk Ölçekleri</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules" xml:space="preserve">
+    <value>Hücre Kurallarını Vurgula</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_EqualTo" xml:space="preserve">
+    <value>Eşit...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_GreaterThan" xml:space="preserve">
+    <value>Büyüktür...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_TextThatContains" xml:space="preserve">
+    <value>Metin içerir...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_IconSets" xml:space="preserve">
+    <value>Simge Setleri</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_DataBars" xml:space="preserve">
+    <value>Veri çubukları</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_ShapesGroup" xml:space="preserve">
+    <value>Şekilleri</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10PercentDialog_Connector" xml:space="preserve">
+    <value>ile %</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_Between" xml:space="preserve">
+    <value>Arasında.....</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_CustomCondition" xml:space="preserve">
+    <value>Özel koşul...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_AboveAverage" xml:space="preserve">
+    <value>Ortalamanın üstünde</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_BelowAverage" xml:space="preserve">
+    <value>Ortalamanın altında</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_StrikethroughText" xml:space="preserve">
+    <value>Üstü çizili metin</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_YellowFillWithDarkYellowText" xml:space="preserve">
+    <value>Koyu sarı metinle sarı dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_OrangeGradientDataBar" xml:space="preserve">
+    <value>Turuncu veri çubuğu gradyan</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_PurpleGradientDataBar" xml:space="preserve">
+    <value>Mor veri çubuğu gradyan</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_SolidFillGroup" xml:space="preserve">
+    <value>Düz dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_BoldText" xml:space="preserve">
+    <value>Kalın metin</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_GreenFillWithDarkGreenText" xml:space="preserve">
+    <value>Yeşil, koyu yeşil metinle doldurun</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_GreenText" xml:space="preserve">
+    <value>Yeşil metin</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_ItalicText" xml:space="preserve">
+    <value>İtalik metin</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeGroup" xml:space="preserve">
+    <value>Pozitif/negatif</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeTrianglesIconSet" xml:space="preserve">
+    <value>Üçgenler</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_RedGradientDataBar" xml:space="preserve">
+    <value>Kırmızı veri çubuğu gradyan</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_LightRedFill" xml:space="preserve">
+    <value>Açık kırmızı dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_LightRedFillWithDarkRedText" xml:space="preserve">
+    <value>Koyu kırmızı metinle açık kırmızı dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Stars3IconSet" xml:space="preserve">
+    <value>3 Yıldız</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_TrafficLights4IconSet" xml:space="preserve">
+    <value>4 Trafik ışıkları</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Triangles3IconSet" xml:space="preserve">
+    <value>3 Üçgen</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_TextThatContainsDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_TextThatContainsDialog_Title" xml:space="preserve">
+    <value>İçeren metin</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10ItemsDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10PercentDialog_Title" xml:space="preserve">
+    <value>İlk % 10 'un</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_AboveAverageDialog_Connector" xml:space="preserve">
+    <value>Bu sütun için</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_AboveAverageDialog_Description" xml:space="preserve">
+    <value>Ortalamanın üstünde olan hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_AboveAverageDialog_Title" xml:space="preserve">
+    <value>Ortalamanın üstünde</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BelowAverageDialog_Connector" xml:space="preserve">
+    <value>Bu sütun için</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BelowAverageDialog_Title" xml:space="preserve">
+    <value>Ortalamanın altında</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_Description" xml:space="preserve">
+    <value>Arasında olan hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_RangeValuesConnector" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10ItemsDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10PercentDialog_Connector" xml:space="preserve">
+    <value>ile %</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_InvalidExpressionMessageEx" xml:space="preserve">
+    <value>Belirtilen ifade geçersizdir.</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_Title" xml:space="preserve">
+    <value>Özel koşul</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionEditor_Title" xml:space="preserve">
+    <value>Özel koşul Düzenleyicisi</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalInTheLast7Days" xml:space="preserve">
+    <value>Son 7 gün içinde</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalLastMonth" xml:space="preserve">
+    <value>Geçen ay</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalLastWeek" xml:space="preserve">
+    <value>Geçen hafta</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalNextMonth" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalNextWeek" xml:space="preserve">
+    <value>Gelecek hafta</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalThisMonth" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalThisWeek" xml:space="preserve">
+    <value>Bu hafta</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalTomorrow" xml:space="preserve">
+    <value>Yarın</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalYesterday" xml:space="preserve">
+    <value>Dün</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_Title" xml:space="preserve">
+    <value>Tarihi meydana gelen</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_EqualToDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_EqualToDialog_Title" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_GreaterThanDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_GreaterThanDialog_Description" xml:space="preserve">
+    <value>Daha büyük olan hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_GreaterThanDialog_Title" xml:space="preserve">
+    <value>Daha büyük</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_LessThanDialog_Connector" xml:space="preserve">
+    <value>ile</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_LessThanDialog_Title" xml:space="preserve">
+    <value>Daha az</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedWhiteColorScale" xml:space="preserve">
+    <value>Kırmızı - beyaz renk ölçeği</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_BlueSolidDataBar" xml:space="preserve">
+    <value>Mavi veri çubuğu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_GreenGradientDataBar" xml:space="preserve">
+    <value>Veri çubuğu yeşil degrade</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_LightBlueGradientDataBar" xml:space="preserve">
+    <value>Işık mavi veri çubuğu gradyan</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_LightBlueSolidDataBar" xml:space="preserve">
+    <value>Işık mavi veri çubuğu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_Description" xml:space="preserve">
+    <value>Aşağıdaki iki koşul eşleşen hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10PercentDialog_Title" xml:space="preserve">
+    <value>% 10 Alt</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10ItemsDialog_Title" xml:space="preserve">
+    <value>Son 10 öğe</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BelowAverageDialog_Description" xml:space="preserve">
+    <value>Aşağıda ortalama olan hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ClearRules" xml:space="preserve">
+    <value>Açık kurallar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ClearRules_FromAllColumns" xml:space="preserve">
+    <value>Tüm sütunlarından açık kurallar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ClearRules_FromCurrentColumns" xml:space="preserve">
+    <value>Bu sütundaki açık kurallar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10ItemsDialog_Description" xml:space="preserve">
+    <value>Biçim hücreleri bu rank Top:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10ItemsDialog_Title" xml:space="preserve">
+    <value>En iyi 10 bileşen</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_TextThatContainsDialog_Description" xml:space="preserve">
+    <value>Metin içeren hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Symbols3UncircledIconSet" xml:space="preserve">
+    <value>3 Simge (Uncircled)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_TrafficLights3RimmedIconSet" xml:space="preserve">
+    <value>3 Trafik ışığı (Rimmed)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Ratings4IconSet" xml:space="preserve">
+    <value>4 Oy verildi</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Ratings5IconSet" xml:space="preserve">
+    <value>5 Oy verildi</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_RatingsGroup" xml:space="preserve">
+    <value>Oy verildi</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows3ColoredIconSet" xml:space="preserve">
+    <value>3 Oklar (bkz. colour)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows3GrayIconSet" xml:space="preserve">
+    <value>3 Oklar (gri)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows4ColoredIconSet" xml:space="preserve">
+    <value>4 OK (bkz. colour)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows5ColoredIconSet" xml:space="preserve">
+    <value>5 Oklar (bkz. colour)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows5GrayIconSet" xml:space="preserve">
+    <value>5 Oklar (gri)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Description" xml:space="preserve">
+    <value>Temsil etmek için simge kümesi Seç
+Bu sütundaki değerlerin.</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Flags3IconSet" xml:space="preserve">
+    <value>3 Bayrakları</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_IndicatorsGroup" xml:space="preserve">
+    <value>Göstergeleri</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeArrowsColoredIconSet" xml:space="preserve">
+    <value>Oklar (bkz. colour)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Bottom10Items" xml:space="preserve">
+    <value>Son 10 öğe...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Bottom10Percent" xml:space="preserve">
+    <value>% 10 alt...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Top10Items" xml:space="preserve">
+    <value>En iyi 10 bileşen</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Top10Percent" xml:space="preserve">
+    <value>En iyi % 10</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_LessThan" xml:space="preserve">
+    <value>Daha Az...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules" xml:space="preserve">
+    <value>İlk/son kuralları</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10PercentDialog_Description" xml:space="preserve">
+    <value>Biçim hücreleri bu rank Top:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Signs3IconSet" xml:space="preserve">
+    <value>3 İşaretleri</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_ADateOccurring" xml:space="preserve">
+    <value>Bir tarih meydana gelen...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_Description" xml:space="preserve">
+    <value>Meydana gelen bir tarih içeren hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Dialog_ApplyFormatToWholeRowText" xml:space="preserve">
+    <value>Tüm satırı biçimi uygula</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_EqualToDialog_Description" xml:space="preserve">
+    <value>Eşit olan hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarBorder" xml:space="preserve">
+    <value>Kenarlık</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Top" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatFontFamily" xml:space="preserve">
+    <value>Yazı tipi:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedExpression" xml:space="preserve">
+    <value>Değer:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarColor" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ShowModeAll" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Apply" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatFontSize" xml:space="preserve">
+    <value>Boyut:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatUnderline" xml:space="preserve">
+    <value>Altı Çizili</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedType" xml:space="preserve">
+    <value>Tipi:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ClearButtonDescription" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NumberMode" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_PercentMode" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Between" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarFill" xml:space="preserve">
+    <value>Doldurun</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Fill" xml:space="preserve">
+    <value>Doldurun</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Preview" xml:space="preserve">
+    <value>Önizleme:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Maximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Minimum" xml:space="preserve">
+    <value>En az</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ExpressionMode" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FieldNameMode" xml:space="preserve">
+    <value>Alan Adı</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Numeric" xml:space="preserve">
+    <value>Sayısal</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Down" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Up" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_CustomIconGroup" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ManageRules" xml:space="preserve">
+    <value>Kuralları Yönet</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconDescriptionCondition" xml:space="preserve">
+    <value>ne zaman</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconDescriptionConnector" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Rule" xml:space="preserve">
+    <value>Kural</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Containing" xml:space="preserve">
+    <value>İçeren</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_EndingWith" xml:space="preserve">
+    <value>İle biten</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_EqualTo" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatCells" xml:space="preserve">
+    <value>Hücreleri Biçimlendir</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AppliesTo" xml:space="preserve">
+    <value>Sütun</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_BeginningWith" xml:space="preserve">
+    <value>İle başlayan</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Icon" xml:space="preserve">
+    <value>Simge</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_CustomFormat" xml:space="preserve">
+    <value>Özel biçim...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NotBetween" xml:space="preserve">
+    <value>Arasında değil</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NotEqualTo" xml:space="preserve">
+    <value>Eşit değildir</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FilterAll" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedDescription" xml:space="preserve">
+    <value>Kendi değerlerine göre tüm hücreleri biçimlendir</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedTitle" xml:space="preserve">
+    <value>Kendi değerlerine göre tüm hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_TopBottomRangeDescription" xml:space="preserve">
+    <value>sütunun hücre değerleri %</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Above" xml:space="preserve">
+    <value>Ortalamanın üstünde</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Below" xml:space="preserve">
+    <value>Ortalamanın altında</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_GreaterThan" xml:space="preserve">
+    <value>Daha büyük</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_LessThan" xml:space="preserve">
+    <value>Daha az</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarNoBorder" xml:space="preserve">
+    <value>Kenarlık yok</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ApplySameAppearance" xml:space="preserve">
+    <value>Pozitif bar olarak aynı görünüme uygula</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_CellsContainDescription" xml:space="preserve">
+    <value>Sadece içeren hücreleri biçimlendir</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AboveMode" xml:space="preserve">
+    <value>Yukarıda</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_BlueGradientDataBar" xml:space="preserve">
+    <value>Degrade mavi veri çubuğu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10ItemsDialog_Description" xml:space="preserve">
+    <value>Biçim hücreleri altındaki bu rank:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10PercentDialog_Description" xml:space="preserve">
+    <value>Biçim hücreleri altındaki bu rank:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ContainTitle" xml:space="preserve">
+    <value>Yalnızca biçim hücreleri ile:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconDescriptionValueCondition" xml:space="preserve">
+    <value>zaman değeri</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconSetRulesTitle" xml:space="preserve">
+    <value>Bu kurallara göre her simge görüntüle:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormulaTitle" xml:space="preserve">
+    <value>Nerede bu formül doğru olduğunda değerleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DatesOccurring" xml:space="preserve">
+    <value>Tarihler meydana gelen</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AboveBelowRangeDescription" xml:space="preserve">
+    <value>sütunun hücre değerlerini</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AboveBelowTitle" xml:space="preserve">
+    <value>Değerler format:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_LessThanDialog_Description" xml:space="preserve">
+    <value>Daha az THAN olan hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_Description" xml:space="preserve">
+    <value>Göstermek için renkli veri çubuğu Ekle
+bir hücredeki değeri. Daha yüksek
+değer, ne kadar uzun barı</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_Description" xml:space="preserve">
+    <value>Uygula bir renk Gradyan Aralığı
+Bu sütundaki hücrelerin. Rengi gösterir
+Nerede bu mesafedeki düşme her hücre.</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_TopBottomTitle" xml:space="preserve">
+    <value>Bu rank değerleri biçimlendirme:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicateDialog_Description" xml:space="preserve">
+    <value>İçeren hücreleri biçimlendir:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IsEnabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicateDialog_Unique" xml:space="preserve">
+    <value>Benzersiz</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicateDialog_Duplicate" xml:space="preserve">
+    <value>Çoğalt</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_LessOrEqual" xml:space="preserve">
+    <value>Küçük veya eşit</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_BelowMode" xml:space="preserve">
+    <value>Aşağıda</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FillModeGradient" xml:space="preserve">
+    <value>Gradyan dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FillModeSolid" xml:space="preserve">
+    <value>Düz dolgu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatStrikethrough" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_GreaterOrEqual" xml:space="preserve">
+    <value>Değerinden büyük veya eşit</value>
+  </data>
+</root>

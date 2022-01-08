@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="xtraTabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"></assembly>
+  <data name="xtraTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="xtraTabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="chbFndRegex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 114</value>
+  </data>
+  <data name="chbFndRegex.Properties.Caption" xml:space="preserve">
+    <value>Düzenli İfadeler</value>
+  </data>
+  <data name="chbFndRegex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"></assembly>
+  <data name="chbFndRegex.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chbFndRegex.Name" xml:space="preserve">
+    <value>chbFndRegex</value>
+  </data>
+  <data name="&gt;&gt;chbFndRegex.Parent" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;chbFndRegex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbFndSearchString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="cbFndSearchString.Properties.Buttons2" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbFndSearchString.Properties.Buttons3" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="cbFndSearchString.Properties.Buttons4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbFndSearchString.Properties.Buttons5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbFndSearchString.Properties.Buttons6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbFndSearchString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 20</value>
+  </data>
+  <data name="cbFndSearchString.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbFndSearchString.Name" xml:space="preserve">
+    <value>cbFndSearchString</value>
+  </data>
+  <data name="&gt;&gt;cbFndSearchString.Parent" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;cbFndSearchString.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbFndFindDirection.EditValue" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="cbFndFindDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 48</value>
+  </data>
+  <data name="cbFndFindDirection.Properties.Items" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="cbFndFindDirection.Properties.Items1" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="cbFndFindDirection.Properties.Items2" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="cbFndFindDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="cbFndFindDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbFndFindDirection.Name" xml:space="preserve">
+    <value>cbFndFindDirection</value>
+  </data>
+  <data name="&gt;&gt;cbFndFindDirection.Parent" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;cbFndFindDirection.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFndSearchString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 19</value>
+  </data>
+  <data name="lblFndSearchString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lblFndSearchString.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFndSearchString.Text" xml:space="preserve">
+    <value>Bul:</value>
+  </data>
+  <data name="&gt;&gt;lblFndSearchString.Name" xml:space="preserve">
+    <value>lblFndSearchString</value>
+  </data>
+  <data name="&gt;&gt;lblFndSearchString.Parent" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;lblFndSearchString.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chbFndMatchCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 74</value>
+  </data>
+  <data name="chbFndMatchCase.Properties.Caption" xml:space="preserve">
+    <value>Büyük küçük harf eşleştir</value>
+  </data>
+  <data name="chbFndMatchCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="chbFndMatchCase.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chbFndMatchCase.Name" xml:space="preserve">
+    <value>chbFndMatchCase</value>
+  </data>
+  <data name="&gt;&gt;chbFndMatchCase.Parent" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;chbFndMatchCase.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chbFndFindWholeWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 94</value>
+  </data>
+  <data name="chbFndFindWholeWord.Properties.Caption" xml:space="preserve">
+    <value>Yalnızca tam sözcükleri eşleştir</value>
+  </data>
+  <data name="chbFndFindWholeWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="chbFndFindWholeWord.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chbFndFindWholeWord.Name" xml:space="preserve">
+    <value>chbFndFindWholeWord</value>
+  </data>
+  <data name="&gt;&gt;chbFndFindWholeWord.Parent" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;chbFndFindWholeWord.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblFndDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 51</value>
+  </data>
+  <data name="lblFndDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblFndDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFndDirection.Text" xml:space="preserve">
+    <value>Bul:</value>
+  </data>
+  <data name="&gt;&gt;lblFndDirection.Name" xml:space="preserve">
+    <value>lblFndDirection</value>
+  </data>
+  <data name="&gt;&gt;lblFndDirection.Parent" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;lblFndDirection.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pgFind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 166</value>
+  </data>
+  <data name="pgFind.Text" xml:space="preserve">
+    <value>Bul:</value>
+  </data>
+  <data name="&gt;&gt;pgFind.Name" xml:space="preserve">
+    <value>pgFind</value>
+  </data>
+  <data name="&gt;&gt;pgFind.Parent" xml:space="preserve">
+    <value>xtraTabControl</value>
+  </data>
+  <data name="&gt;&gt;pgFind.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>512, 194</value>
+  </data>
+  <data name="xtraTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chbRplRegex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 114</value>
+  </data>
+  <data name="chbRplRegex.Properties.Caption" xml:space="preserve">
+    <value>Düzenli İfadeler</value>
+  </data>
+  <data name="chbRplRegex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="chbRplRegex.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chbRplRegex.Name" xml:space="preserve">
+    <value>chbRplRegex</value>
+  </data>
+  <data name="&gt;&gt;chbRplRegex.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;chbRplRegex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbRplReplaceString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 16</value>
+  </data>
+  <data name="cbRplReplaceString.Properties.Buttons2" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbRplReplaceString.Properties.Buttons3" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="cbRplReplaceString.Properties.Buttons4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbRplReplaceString.Properties.Buttons5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbRplReplaceString.Properties.Buttons6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbRplReplaceString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="cbRplReplaceString.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbRplReplaceString.Name" xml:space="preserve">
+    <value>cbRplReplaceString</value>
+  </data>
+  <data name="&gt;&gt;cbRplReplaceString.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;cbRplReplaceString.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbRplSearchString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="cbRplSearchString.Properties.Buttons2" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbRplSearchString.Properties.Buttons3" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="cbRplSearchString.Properties.Buttons4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbRplSearchString.Properties.Buttons5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbRplSearchString.Properties.Buttons6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbRplSearchString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="cbRplSearchString.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbRplSearchString.Name" xml:space="preserve">
+    <value>cbRplSearchString</value>
+  </data>
+  <data name="&gt;&gt;cbRplSearchString.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;cbRplSearchString.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbRplFindDirection.EditValue" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="cbRplFindDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 48</value>
+  </data>
+  <data name="cbRplFindDirection.Properties.Items" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="cbRplFindDirection.Properties.Items1" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="cbRplFindDirection.Properties.Items2" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="cbRplFindDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="cbRplFindDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbRplFindDirection.Name" xml:space="preserve">
+    <value>cbRplFindDirection</value>
+  </data>
+  <data name="&gt;&gt;cbRplFindDirection.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;cbRplFindDirection.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chbRplMatchCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 74</value>
+  </data>
+  <data name="chbRplMatchCase.Properties.Caption" xml:space="preserve">
+    <value>Büyük küçük harf eşleştir</value>
+  </data>
+  <data name="chbRplMatchCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="chbRplMatchCase.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chbRplMatchCase.Name" xml:space="preserve">
+    <value>chbRplMatchCase</value>
+  </data>
+  <data name="&gt;&gt;chbRplMatchCase.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;chbRplMatchCase.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chbRplFindWholeWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 94</value>
+  </data>
+  <data name="chbRplFindWholeWord.Properties.Caption" xml:space="preserve">
+    <value>Yalnızca tam sözcükleri eşleştir</value>
+  </data>
+  <data name="chbRplFindWholeWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="chbRplFindWholeWord.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chbRplFindWholeWord.Name" xml:space="preserve">
+    <value>chbRplFindWholeWord</value>
+  </data>
+  <data name="&gt;&gt;chbRplFindWholeWord.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;chbRplFindWholeWord.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblRplSearchString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 19</value>
+  </data>
+  <data name="lblRplSearchString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lblRplSearchString.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblRplSearchString.Text" xml:space="preserve">
+    <value>Bul:</value>
+  </data>
+  <data name="&gt;&gt;lblRplSearchString.Name" xml:space="preserve">
+    <value>lblRplSearchString</value>
+  </data>
+  <data name="&gt;&gt;lblRplSearchString.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;lblRplSearchString.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblRplReplaceString.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 19</value>
+  </data>
+  <data name="lblRplReplaceString.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lblRplReplaceString.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblRplReplaceString.Text" xml:space="preserve">
+    <value>Değiştir:</value>
+  </data>
+  <data name="&gt;&gt;lblRplReplaceString.Name" xml:space="preserve">
+    <value>lblRplReplaceString</value>
+  </data>
+  <data name="&gt;&gt;lblRplReplaceString.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;lblRplReplaceString.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblRplDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 51</value>
+  </data>
+  <data name="lblRplDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblRplDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblRplDirection.Text" xml:space="preserve">
+    <value>Bul:</value>
+  </data>
+  <data name="&gt;&gt;lblRplDirection.Name" xml:space="preserve">
+    <value>lblRplDirection</value>
+  </data>
+  <data name="&gt;&gt;lblRplDirection.Parent" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;lblRplDirection.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pgReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 166</value>
+  </data>
+  <data name="pgReplace.Text" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="&gt;&gt;pgReplace.Name" xml:space="preserve">
+    <value>pgReplace</value>
+  </data>
+  <data name="&gt;&gt;pgReplace.Parent" xml:space="preserve">
+    <value>xtraTabControl</value>
+  </data>
+  <data name="&gt;&gt;pgReplace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl.Name" xml:space="preserve">
+    <value>xtraTabControl</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnReplaceAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnReplaceAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 211</value>
+  </data>
+  <data name="btnReplaceAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="btnReplaceAll.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnReplaceAll.Text" xml:space="preserve">
+    <value>Hepsini Değiştir</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Name" xml:space="preserve">
+    <value>btnReplaceAll</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnFindNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnFindNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 211</value>
+  </data>
+  <data name="btnFindNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="btnFindNext.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnFindNext.Text" xml:space="preserve">
+    <value>&amp;Sonraki</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.Name" xml:space="preserve">
+    <value>btnFindNext</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnReplaceNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnReplaceNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 211</value>
+  </data>
+  <data name="btnReplaceNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="btnReplaceNext.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnReplaceNext.Text" xml:space="preserve">
+    <value>&amp;Değiştir</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Name" xml:space="preserve">
+    <value>btnReplaceNext</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 211</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>524, 245</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Bul ve Değiştir</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SearchTextForm</value>
+  </data>
+</root>

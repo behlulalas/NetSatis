@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VGridStringId.RowCustomizationText" xml:space="preserve">
+    <value>Özelleştirme</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationNewCategoryFormLabelText" xml:space="preserve">
+    <value>Başlık:</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationTabPageRowsText" xml:space="preserve">
+    <value>Satırlar</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationNewCategoryText" xml:space="preserve">
+    <value>&amp;Yeni...</value>
+  </data>
+  <data name="VGridStringId.InvalidRecordExceptionText" xml:space="preserve">
+    <value>Değeri düzeltmek ister misin?</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationDeleteCategoryText" xml:space="preserve">
+    <value>&amp;Sil</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationTabPageCategoriesText" xml:space="preserve">
+    <value>Kategoriler</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationNewCategoryFormText" xml:space="preserve">
+    <value>Yeni Kategori</value>
+  </data>
+  <data name="VGridStringId.MenuRowPropertiesExpressionEditor" xml:space="preserve">
+    <value>İfade Düzenleyicisi...</value>
+  </data>
+  <data name="VGridStringId.MenuReset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="VGridStringId.StyleCreatorName" xml:space="preserve">
+    <value>customStyleCreator</value>
+  </data>
+  <data name="VGridStringId.FindControlFindButton" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="VGridStringId.FindControlClearButton" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="VGridStringId.FindNullPrompt" xml:space="preserve">
+    <value>aramak için metni girin</value>
+  </data>
+  <data name="VGridStringId.MenuRowCollapse" xml:space="preserve">
+    <value>Daralt</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpand" xml:space="preserve">
+    <value>Genişlet</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCancelButton" xml:space="preserve">
+    <value>&amp;İptal</value>
+  </data>
+  <data name="VGridStringId.FilterEditorOkButton" xml:space="preserve">
+    <value>&amp;Tamam</value>
+  </data>
+  <data name="VGridStringId.WindowErrorCaption" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="VGridStringId.PopupFilterAll" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
+  <data name="VGridStringId.ExpressionEditorFieldsName" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="VGridStringId.FilterEditorApplyButton" xml:space="preserve">
+    <value>&amp;Uygula</value>
+  </data>
+  <data name="VGridStringId.MenuRowClearFilter" xml:space="preserve">
+    <value>Filtreyi Temizle</value>
+  </data>
+  <data name="VGridStringId.FilterPanelCustomizeButton" xml:space="preserve">
+    <value>Filtreyi Düzenle</value>
+  </data>
+  <data name="VGridStringId.PopupFilterBlanks" xml:space="preserve">
+    <value>(Boş olanlar)</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCaption" xml:space="preserve">
+    <value>Filtre Düzenleyicisi</value>
+  </data>
+  <data name="VGridStringId.MenuRowCollapseAll" xml:space="preserve">
+    <value>Tümünü Daralt</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpandAll" xml:space="preserve">
+    <value>Tümünü Genişlet</value>
+  </data>
+  <data name="VGridStringId.MenuRowFilterEditor" xml:space="preserve">
+    <value>Filtre Düzenleyicisi...</value>
+  </data>
+</root>

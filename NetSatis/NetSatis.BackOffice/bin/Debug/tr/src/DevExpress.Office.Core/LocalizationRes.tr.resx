@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OfficeStringId.Msg_IsNotValid" xml:space="preserve">
+    <value>'{1}' için geçersiz bir Değer '{0}'</value>
+  </data>
+  <data name="OfficeStringId.Msg_InternalError" xml:space="preserve">
+    <value>Dahili Hata!</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidBeginUpdate" xml:space="preserve">
+    <value>Hata! Başlangıç güncellemede başlangıç ortamı istendi.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidEndUpdate" xml:space="preserve">
+    <value>Hata! İşlem yapılıyor...</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidBeginInit" xml:space="preserve">
+    <value>Hata! Başlangıç ortamında başlangıç güncellenmek istendi.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidEndInit" xml:space="preserve">
+    <value>Hata! İşlem yapılıyor...</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidCopyFromDocumentModel" xml:space="preserve">
+    <value>Hata! Kaynak ve hedef dosya formatları birbirinden farklı.</value>
+  </data>
+  <data name="OfficeStringId.Msg_MagicNumberNotFound" xml:space="preserve">
+    <value>Açmaya çalıştığınız dosya biçimi geçersiz.</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_AllFiles" xml:space="preserve">
+    <value>Tüm Dosyalar</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_AllSupportedFiles" xml:space="preserve">
+    <value>Tüm Desteklenen Dosyalar</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitCentimeters" xml:space="preserve">
+    <value>Santimetre</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitInches" xml:space="preserve">
+    <value>İnç</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitMillimeters" xml:space="preserve">
+    <value>Milimetre</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitPercent" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentJustifyDescription" xml:space="preserve">
+    <value>Hem sol hem de sağ kenar boşluklarına, gerektiği gibi sözcüklerin arasına fazladan boşluk ekleyerek metni Hizala.
+
+Bu sol ve sağ tarafta sayfa boyunca temiz bir görünüm oluşturur.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentLeft" xml:space="preserve">
+    <value>Metni Sola Hizala</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentRight" xml:space="preserve">
+    <value>Metni Sağa Hizala</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontColor" xml:space="preserve">
+    <value>Yazı tipi rengi</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontColorDescription" xml:space="preserve">
+    <value>Metin rengini değiştirme.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontName" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontNameDescription" xml:space="preserve">
+    <value>Yazı biçimini değiştirmek.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontSize" xml:space="preserve">
+    <value>Yazı tipi boyutu</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CopySelection" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CopySelectionDescription" xml:space="preserve">
+    <value>Seçimi Kopyala ve Pano'ya koy.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CutSelection" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DecreaseFontSize" xml:space="preserve">
+    <value>Yazı tipini Daralt</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DecreaseFontSizeDescription" xml:space="preserve">
+    <value>Yazı tipi boyutunu azalt.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Hyperlink" xml:space="preserve">
+    <value>Köprü</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_HyperlinkDescription" xml:space="preserve">
+    <value>Web sayfası, bir resim, e-posta adresi veya bir program için bir bağlantı oluşturmak.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_IncreaseFontSize" xml:space="preserve">
+    <value>Yazı tipini Büyüt</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertFloatingObjectPicture" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertFloatingObjectPictureDescription" xml:space="preserve">
+    <value>Bir dosyadan resim ekleyin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertHyperlink" xml:space="preserve">
+    <value>Köprü...</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertHyperlinkDescription" xml:space="preserve">
+    <value>Yeni bir köprü ekleyin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_LoadDocument" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_LoadDocumentDescription" xml:space="preserve">
+    <value>Bir belge açın.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_NewEmptyDocumentDescription" xml:space="preserve">
+    <value>Yeni bir belge oluşturun.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_OpenHyperlink" xml:space="preserve">
+    <value>Köprü aç</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_OpenHyperlinkDescription" xml:space="preserve">
+    <value>Köprü aç</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationCommandGroup" xml:space="preserve">
+    <value>Oryantasyon</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationLandscape" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationPortrait" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Paste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Redo" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RedoDescription" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocument" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocumentAs" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocumentAsDescription" xml:space="preserve">
+    <value>Bir dosya biçimi seçin ve belgeyi yeni bir konuma kaydetmek için farklı Kaydet iletişim kutusunu açın.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocumentDescription" xml:space="preserve">
+    <value>Belgeyi kaydedin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ShowPasteSpecialForm" xml:space="preserve">
+    <value>Özel Yapıştır</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ShowPasteSpecialFormDescription" xml:space="preserve">
+    <value>Özel Yapıştır iletişim kutusunu görüntüleyin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontBold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontBoldDescription" xml:space="preserve">
+    <value>Seçili metni kalın yapın.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontItalic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontStrikeout" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontStrikeoutDescription" xml:space="preserve">
+    <value>Seçili metnin ortasından bir çizgi çizin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontUnderline" xml:space="preserve">
+    <value>Altını çiz</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontUnderlineDescription" xml:space="preserve">
+    <value>Seçili metnin altını çizin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Undo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_UndoDescription" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomIn" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomInDescription" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidFontSize" xml:space="preserve">
+    <value>Sayı, {0} ile {1} arasında olmalıdır.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidNumber" xml:space="preserve">
+    <value>Bu geçerli bir sayı değil.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_NewEmptyDocument" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Print" xml:space="preserve">
+    <value>&amp; Yazdır</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PrintDescription" xml:space="preserve">
+    <value>Yazıcıyı, kopya sayısını ve diğer yazdırma seçeneklerini yazdırmadan önce seçin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PrintPreview" xml:space="preserve">
+    <value>Baskı öncesi &amp; Görüntüle</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PrintPreviewDescription" xml:space="preserve">
+    <value>Yazdırmadan önce sayfaların önizlemesini.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_QuickPrint" xml:space="preserve">
+    <value>&amp; Hızlı Yazdır</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_QuickPrintDescription" xml:space="preserve">
+    <value>Belgeyi değişiklik yapmadan doğrudan varsayılan yazıcıya gönderin.</value>
+  </data>
+  <data name="OfficeStringId.Msg_Loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_BitmapFiles" xml:space="preserve">
+    <value>Windows bit eşlem</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_EmfFiles" xml:space="preserve">
+    <value>Microsoft Gelişmiş Meta dosyası</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_GifFiles" xml:space="preserve">
+    <value>Grafik Interchage biçimi</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_JPEGFiles" xml:space="preserve">
+    <value>JPEG Dosya Değişim Biçimi</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_PNGFiles" xml:space="preserve">
+    <value>Taşınabilir ağ grafikleri</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_WmfFiles" xml:space="preserve">
+    <value>Windows Meta dosyası</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Centimeter" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Millimeter" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Percent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Pica" xml:space="preserve">
+    <value>pc</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Point" xml:space="preserve">
+    <value>pt</value>
+  </data>
+  <data name="OfficeStringId.Caption_EditHyperlinkForm" xml:space="preserve">
+    <value>Köprüyü düzenleme</value>
+  </data>
+  <data name="OfficeStringId.Caption_InsertHyperlinkForm" xml:space="preserve">
+    <value>Köprü ekleme</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitPoints" xml:space="preserve">
+    <value>Puan</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_TiffFiles" xml:space="preserve">
+    <value>Etiket görüntü dosya biçimi</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentCenter" xml:space="preserve">
+    <value>Merkezi</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentCenterDescription" xml:space="preserve">
+    <value>Metin ortalayın.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentLeftDescription" xml:space="preserve">
+    <value>Metni sola hizalamak.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentRightDescription" xml:space="preserve">
+    <value>Metni sağa hizalamak.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontSizeDescription" xml:space="preserve">
+    <value>Yazı tipi boyutunu değiştirmek.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ClearUndoDescription" xml:space="preserve">
+    <value>Arabellek silmeyi geri al</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CutSelectionDescription" xml:space="preserve">
+    <value>Belge seçimi kes ve Pano'ya koy.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DeleteComment" xml:space="preserve">
+    <value>Yorum silmek</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DeleteCommentDescription" xml:space="preserve">
+    <value>Yorum silmek.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EditHyperlink" xml:space="preserve">
+    <value>... Köprü Düzenle</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EditHyperlinkDescription" xml:space="preserve">
+    <value>... Köprü Düzenle</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_IncreaseFontSizeDescription" xml:space="preserve">
+    <value>Yazı tipi boyutunu büyütür.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertComment" xml:space="preserve">
+    <value>Yorum ekle</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertCommentDescription" xml:space="preserve">
+    <value>Seçimi hakkında bir açıklama eklemeniz.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsModerate" xml:space="preserve">
+    <value>Orta
+İlk: {1,10} son: {3,10}
+Sol: {0,10} sağ: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsNarrow" xml:space="preserve">
+    <value>dar
+İlk: {1,10} son: {3,10}
+Sol: {0,10} sağ: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsNormal" xml:space="preserve">
+    <value>Normal
+İlk: {1,10} son: {3,10}
+Sol: {0,10} sağ: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsWide" xml:space="preserve">
+    <value>geniş
+İlk: {1,10} son: {3,10}
+Sol: {0,10} sağ: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationCommandGroupDescription" xml:space="preserve">
+    <value>Sayfaları dikey ve yatay düzenler arasında geçiş yapma.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PasteDescription" xml:space="preserve">
+    <value>Pano içeriğini yapıştırın.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlink" xml:space="preserve">
+    <value>Köprüyü kaldırma</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlinkDescription" xml:space="preserve">
+    <value>Köprüyü kaldırma</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlinks" xml:space="preserve">
+    <value>Köprü kaldırma</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlinksDescription" xml:space="preserve">
+    <value>Köprü kaldırma</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontDoubleUnderline" xml:space="preserve">
+    <value>Altı çift çizili</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontDoubleUnderlineDescription" xml:space="preserve">
+    <value>Altı çift çizili</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontItalicDescription" xml:space="preserve">
+    <value>Seçili metni italik yapın.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Zoom100Percent" xml:space="preserve">
+    <value>% 100</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Zoom100PercentDescription" xml:space="preserve">
+    <value>Belgeyi normal boyutun % 100 yakınlaştırın.</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Inch" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentJustify" xml:space="preserve">
+    <value>İki Yana Yasla</value>
+  </data>
+  <data name="OfficeStringId.Caption_EditHyperlinkFormDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.Caption_InsertHyperlinkFormDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsModerateDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsNarrowDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsNormalDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsWideDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationLandscapeDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationPortraitDescription" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringToFront" xml:space="preserve">
+    <value>Öne Getir</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomOut" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomOutDescription" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForward" xml:space="preserve">
+    <value>Öne Getir</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForwardCommandGroup" xml:space="preserve">
+    <value>Öne getir</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendBackward" xml:space="preserve">
+    <value>Alta Gönder</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendBackwardCommandGroup" xml:space="preserve">
+    <value>Alta Gönder</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendToBack" xml:space="preserve">
+    <value>Arkaya Gönder</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendToBackDescription" xml:space="preserve">
+    <value>Seçili nesneyi diğer tüm nesnelerin arkasına gönderin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertSymbol" xml:space="preserve">
+    <value>Sembol</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringToFrontDescription" xml:space="preserve">
+    <value>Hiçbir bölümünün diğer nesnelerin arkasında gizlenmemesi için seçili nesneyi diğer tüm nesnelerin önüne getirin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ClearUndo" xml:space="preserve">
+    <value>Geri almayı temizle</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendBackwardCommandGroupDescription" xml:space="preserve">
+    <value>Seçili nesneyi bir seviye alta gönder veya diğer tüm nesneleri alta gönder.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForwardCommandGroupDescription" xml:space="preserve">
+    <value>Seçili nesneyi bir seviye öne  getirmek veya diğer tüm nesneleri öne getir.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForwardDescription" xml:space="preserve">
+    <value>Önünde bulunan nesneler tarafından gizlenen nesneyi öne getir.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidRemoveDataSource" xml:space="preserve">
+    <value>Bir veri kaynağı adres mektup birleştirme işlemi sırasında silinemez.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EditCommentDescription" xml:space="preserve">
+    <value>Belgenin bir parçası hakkında not ekleme.</value>
+  </data>
+</root>

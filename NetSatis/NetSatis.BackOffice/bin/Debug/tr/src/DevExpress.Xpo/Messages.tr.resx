@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Helpers_SameDictionaryExpected" xml:space="preserve">
+    <value>Sözlük uyuşmazlığı.</value>
+  </data>
+  <data name="InMemory_IsReadOnly" xml:space="preserve">
+    <value>Yazma desteklenmiyor.</value>
+  </data>
+  <data name="InMemoryFull_TableNotFound" xml:space="preserve">
+    <value>Tablo bulunamadı.</value>
+  </data>
+  <data name="InMemorySet_AddRelation" xml:space="preserve">
+    <value>Yinelenen bir ilişki ekleyemezsiniz.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InconsistentForeignKeyCount" xml:space="preserve">
+    <value>XML yükleyici: PKey ve FKey sütun sayısı uyuşmuyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InvalidColumnTypeDeclaration" xml:space="preserve">
+    <value>XML yükleyici: Geçersiz sütun türü adı.</value>
+  </data>
+  <data name="InMemorySet_XMLException_NullPrimaryColumns" xml:space="preserve">
+    <value>XML yükleyici: birincil anahtar '{0}' bulunamadı.</value>
+  </data>
+  <data name="Metadata_DuplicateMappingField" xml:space="preserve">
+    <value>Yinelenen '{1}' sınıfındaki '{0}' sütun eşleme.</value>
+  </data>
+  <data name="Collections_CannotAssignProperty" xml:space="preserve">
+    <value>XPCollection tasarım veya başlatma modunda olduğunda '{0}' özelliği değiştirilemez.</value>
+  </data>
+  <data name="Collections_RecurringObjectAdd" xml:space="preserve">
+    <value>Yinelenen Ekle</value>
+  </data>
+  <data name="Helpers_CloningObjectModified" xml:space="preserve">
+    <value>Nesnesi ile kaydedilmemiş değişiklikler kopyalanamaz.</value>
+  </data>
+  <data name="Helpers_ResolveDataForCollection" xml:space="preserve">
+    <value>Üye bir koleksiyon değil.</value>
+  </data>
+  <data name="InMemory_CannotFindParentRelationForNode" xml:space="preserve">
+    <value>Düğüm '{0}' için bir üst ilişkisi bulunamıyor. Hatalı biçimlendirilmiş bir sorgu veya iç XPO hata.</value>
+  </data>
+  <data name="InMemoryFull_DifferentColumnListLengths" xml:space="preserve">
+    <value>İç hata: PKey ve FKey sütun sayısı uyuşmuyor.</value>
+  </data>
+  <data name="InMemoryFull_UseDataSetDataStoreOrCtor" xml:space="preserve">
+    <value>.Ctor DataSet ile kullanmak yerine, DataSetDataStore sınıf veya veri kümesi olmadan .ctor kullanın.</value>
+  </data>
+  <data name="InMemorySet_AliasNotFound" xml:space="preserve">
+    <value>Tablo ile diğer adı '{0}' bulunamadı.</value>
+  </data>
+  <data name="InMemorySet_CantUpdateRelationColumn" xml:space="preserve">
+    <value>Sütun ilişkileri ile güncelleme olamaz.</value>
+  </data>
+  <data name="InMemorySet_ColumnNotFound" xml:space="preserve">
+    <value>Sütun '{0}' bulunamadı.</value>
+  </data>
+  <data name="InMemorySet_DifferentTypes" xml:space="preserve">
+    <value>Sütun türü uyuşmazlığı PKey ve FKey.</value>
+  </data>
+  <data name="InMemorySet_WrongRollbackInfo" xml:space="preserve">
+    <value>İç Hata: Hatalı biçimlendirilmiş geri alma bilgileri.</value>
+  </data>
+  <data name="InMemorySet_XMLException_CantGetColumnType" xml:space="preserve">
+    <value>XML yükleyici: sütun türü çözümlenemiyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_CantRestoreObjectFromXML" xml:space="preserve">
+    <value>XML yükleyici: nesne kaldırılamıyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ColumnNameIsNotSpecified" xml:space="preserve">
+    <value>XML yükleyici: sütun adı belirtilmemiş.</value>
+  </data>
+  <data name="InMemorySet_XMLException_DataTypeAttributeNotFound" xml:space="preserve">
+    <value>XML yükleyici: 'Veri türü' özniteliği bulunamıyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_TableNameIsNotSpecified" xml:space="preserve">
+    <value>XML yükleyici: tablo adı belirtilmedi.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XpathAttributeExpected" xml:space="preserve">
+    <value>XML yükleyici: 'xpath' özniteliği bekleniyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XpathAttributeWrongFormat" xml:space="preserve">
+    <value>XML yükleyici: 'xpath' özniteliği değeri biçimi doğru değil.</value>
+  </data>
+  <data name="Metadata_NotCollection" xml:space="preserve">
+    <value>'{0}.{1}' bir koleksiyon değil.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotFindClassinfoType" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş XML: sınıf türü bulunamıyor.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotFindConstructor" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş XML: '{0}' türü için kurucu bulamıyor.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotLoadMember" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş XML: üye [{0}] {1} yüklenemiyor.{2}.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotResolveClassinfoInstanceType" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş XML: ClassInfo türü çözümlenemiyor.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorModelTagAbsent" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş XML: &lt; modeli &gt; etiketi bulunamadı veya hatalı ad belirtildi.</value>
+  </data>
+  <data name="ObjectLayer_MemberNotFound" xml:space="preserve">
+    <value>Üye ' {0}.{1}' bulunamadı.</value>
+  </data>
+  <data name="ObjectLayer_XPClassInfoNotFound" xml:space="preserve">
+    <value>ClassInfo '{0}' bulunamadı.</value>
+  </data>
+  <data name="Paging_PageSizeShouldBeGreaterThanZero" xml:space="preserve">
+    <value>Sayfa boyutu sıfırdan büyük olmalıdır.</value>
+  </data>
+  <data name="SerOLHelpers_NestedParentMapIsNull" xml:space="preserve">
+    <value>İç hata: NestedParentMap ve ParentNestedMap boş.</value>
+  </data>
+  <data name="Session_AlreadyConnected" xml:space="preserve">
+    <value>Oturumu zaten bağlı.</value>
+  </data>
+  <data name="Session_CrossThreadFailureDetected" xml:space="preserve">
+    <value>Cross-iş parçacığı işlemi algılandı. '{0}' iş parçacığı açısından güvenli bir nesne değil, lütfen aynı anda farklı iş parçacıkları kullanmaktan kaçının</value>
+  </data>
+  <data name="Session_InternalXPOError" xml:space="preserve">
+    <value>İç XPO hata.</value>
+  </data>
+  <data name="Session_TranSequenceBegin" xml:space="preserve">
+    <value>Bir oturumda birden fazla işlem başlatılamıyor.</value>
+  </data>
+  <data name="Metadata_ConverterOnKeyOrReference" xml:space="preserve">
+    <value>ValueConverter özniteliği için uygulanamaz ' {0}.{1}' özelliği temsil eden nesne anahtarının veya başka bir nesneye başvuru.</value>
+  </data>
+  <data name="Async_CanChangeProperties" xml:space="preserve">
+    <value>Kılavuz tarafından kullanıldığında, InstantFeedback kaynak özelliklerini değiştirmek mümkün değil.</value>
+  </data>
+  <data name="Async_OperationCannotBePerformedBecauseNoSyncContext" xml:space="preserve">
+    <value>Yürütme iş parçacığı hiçbir geçerli eşitleme kapsamının olduğundan bu işlem gerçekleştirilemez.</value>
+  </data>
+  <data name="Collections_CannotResolvePropertyTypeComparer" xml:space="preserve">
+    <value>Özelliği '{0}' türündeki '{1}' için karşılaştırıcıyı çözümlenemiyor.</value>
+  </data>
+  <data name="Collections_CriteriaEvaluationBehaviorIsNotSupported" xml:space="preserve">
+    <value>İç hatası: belirtilen CriteriaEvaluationBehavior.{0} bu aşırı yüklü Oluşturucu tarafından desteklenmiyor.</value>
+  </data>
+  <data name="Collections_WantNotDeleteFilteredAggregateCollection" xml:space="preserve">
+    <value>Atama kriterleri için toplanan bir koleksiyon genellikle veritabanında başı boş kayıtlar yapar. NET ' {1}.Ölçüt ' mülkiyet sahibi silmeden önce nesne '{0}'.</value>
+  </data>
+  <data name="Common_MethodOrOperationNotImplemented" xml:space="preserve">
+    <value>Yöntemi veya işlemi uygulanmadığı.</value>
+  </data>
+  <data name="ConnectionProvider_KeysAutogenerationNonSupportedTypeException" xml:space="preserve">
+    <value>Anahtar otomatik üretimi, sınıf türü için '{0}' desteklenmiyor. Yalnızca Int32, Int64 ve GUID veri türleri için desteklenir.</value>
+  </data>
+  <data name="ConnectionProvider_UnableToFillRefType" xml:space="preserve">
+    <value>Üye '{1}' türündeki '{0}' veritabanı şemasını garanti edemez. Hata: {2}.</value>
+  </data>
+  <data name="CriteriaAnalizer_ClassesAreNotAssignable" xml:space="preserve">
+    <value>'{0}' Sınıflar ve '{1}' değil karşılıklı olarak devredilemez.</value>
+  </data>
+  <data name="CriteriaAnalizer_EmptyJoinOperandId" xml:space="preserve">
+    <value>JoinOperandId boş.</value>
+  </data>
+  <data name="CriteriaAnalizer_NullJoinClassInfo" xml:space="preserve">
+    <value>JoinClassInfo boş.</value>
+  </data>
+  <data name="CriteriaAnalizer_NullTransitionMemberInfo" xml:space="preserve">
+    <value>Geçiş MemberInfo null.</value>
+  </data>
+  <data name="CriteriaAnalizer_PathNotFound" xml:space="preserve">
+    <value>Bulma yolu {0} {1} -&gt; olamaz.</value>
+  </data>
+  <data name="CriteriaAnalizer_TopLevelAggregateNotSupported" xml:space="preserve">
+    <value>Üst düzey toplamları koşullarında kullanılan.</value>
+  </data>
+  <data name="DirectSQL_CollectionMembersAreNotSupported" xml:space="preserve">
+    <value>Koleksiyon üye desteklenmez.</value>
+  </data>
+  <data name="Generator_OneOfBinaryOperatorsOperandsIsNull" xml:space="preserve">
+    <value>Bir işlecin'ın işlenenler null.</value>
+  </data>
+  <data name="Generator_TheUseOfATopLevelSingleAggregateIsProhibit" xml:space="preserve">
+    <value>Üst düzey 'Tek' toplamak yasaktır.</value>
+  </data>
+  <data name="Generator_TheUseOfNestedSingleAggregatesIsProhibited" xml:space="preserve">
+    <value>İç içe toplamalar 'Tek' kullanımı kesinlikle yasaktır.</value>
+  </data>
+  <data name="Helpers_DifferentObjectsKeys" xml:space="preserve">
+    <value>Nesne için değişiklikler değiştirilmiş bir anahtarla birleştiremiyor.</value>
+  </data>
+  <data name="InMemory_NotACollection" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş bir sorgu veya iç XPO hatası: '{0}' bir koleksiyon değil.</value>
+  </data>
+  <data name="InMemory_SingleRowExpected" xml:space="preserve">
+    <value>Tek sıra beklenen '{0} ile', satır bulunamadı: ' {1}.</value>
+  </data>
+  <data name="InMemoryFull_CannotPrepareQueryPlan" xml:space="preserve">
+    <value>Bir sorgu planı oluşturmak olamaz.</value>
+  </data>
+  <data name="InMemoryFull_WrongIndexInfo" xml:space="preserve">
+    <value>İç hatası: hatalı biçimlendirilmiş dizin bilgisini.</value>
+  </data>
+  <data name="InMemorySet_ConstraintConflict" xml:space="preserve">
+    <value>Kısıtlaması ihlal tablosunda '{0}' için FKey sütunlar üzerinde '{1}'.</value>
+  </data>
+  <data name="InMemorySet_DifferentComplexSet" xml:space="preserve">
+    <value>İç hatası: başka bir karmaşık kümesinden bir satır ekleyemezsiniz.</value>
+  </data>
+  <data name="InMemorySet_InEditMode" xml:space="preserve">
+    <value>Satır, zaten düzenleme modunda olur.</value>
+  </data>
+  <data name="InMemorySet_InsertingDataIntoAutoincrementColumn" xml:space="preserve">
+    <value>Bir otomatik artış sütunu için '{0}' değeri atayamazsınız.</value>
+  </data>
+  <data name="InMemorySet_InvalidTypeString" xml:space="preserve">
+    <value>XML yükleyici: geçersiz tür adı.</value>
+  </data>
+  <data name="InMemorySet_NotLoadingMode" xml:space="preserve">
+    <value>Mod yükleme değil iken bir otomatik artış sütunu için '{0}' değeri atayamazsınız.</value>
+  </data>
+  <data name="InMemorySet_NullDefaultValueNotAllowed" xml:space="preserve">
+    <value>Null değerleri sütun için '{0}' varsayılan değerler olarak verilmez.</value>
+  </data>
+  <data name="InMemorySet_OperationNotAllowed" xml:space="preserve">
+    <value>Belirtilen işlem yasak.</value>
+  </data>
+  <data name="InMemorySet_UniqueIndex" xml:space="preserve">
+    <value>Benzersiz dizin '{0}' ihlal etti.</value>
+  </data>
+  <data name="InMemorySet_WrongCommitInfo" xml:space="preserve">
+    <value>İç hatası: hatalı biçimlendirilmiş taahhüt bilgi.</value>
+  </data>
+  <data name="InMemorySet_WrongDictionaryIndex" xml:space="preserve">
+    <value>İç hatası: hatalı sözlük veri dizini '{0}' ın.</value>
+  </data>
+  <data name="InMemorySet_WrongInitData" xml:space="preserve">
+    <value>Ve hedef tablo satır bir kaynak satır sütun sayısı aynı değil.</value>
+  </data>
+  <data name="InTransactionLoader_NotInSelectDataMode" xml:space="preserve">
+    <value>İç hata: SelectData modunda.</value>
+  </data>
+  <data name="InTransactionLoader_ProcessReturnResultError" xml:space="preserve">
+    <value>İç hata: işlem SelectData modunda izin yok.</value>
+  </data>
+  <data name="Loader_InternalErrorOrUnsupportedReferenceStructure" xml:space="preserve">
+    <value>İç XPO hata veya desteklenmeyen referans yapısı: bileşik anahtar değil torunları olan türü başvuru gerekir. Nesne türü çözüldü ' {0}' türü '{1}'.</value>
+  </data>
+  <data name="Loader_ReloadError" xml:space="preserve">
+    <value>İç hatası: belirtilen ' {0}.{1}' desteklenmiyor.</value>
+  </data>
+  <data name="MetaData_AssociationElementTypeMissing" xml:space="preserve">
+    <value>Özelliği '{0}' içinde onun 'Association' özniteliği 'ElementType' özelliğini belirtmez.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_AssociationAttributeOnlyForListOrReference" xml:space="preserve">
+    <value>Derneği öznitelik üye için kullanılan ' {1}.{2}'. Bir başvuru ya da liste bekleniyor.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_MoreThenOneAssociatedMemberFound" xml:space="preserve">
+    <value>'{0}' İlişkilendirme sınıfının üyeleri '{1}' arasında '{2}' ve '{3}' belirsiz.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_NoAssociationListInAssociation" xml:space="preserve">
+    <value>Malformed arasındaki ilişkiyi '{0}' ' {1}.{2}' ve ' {3}.{4}'. Bir liste veya koleksiyon Derneği bir tarafa bekleniyor.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_NonPersistentClassInTheAssociation" xml:space="preserve">
+    <value>Derneği öznitelik üye için kullanılan ' {0}.{1}' sınıf '{2}' kalıcı olmadığı için.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_NotFound" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş Derneği '{0}'. Cant'bulmak için ilişkili üye ' {1}.{2}' sınıfındaki '{3}'.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_PropertyTypeMismatch" xml:space="preserve">
+    <value>Sınıflar '{1}' adlı ve '{3}' arasında ilişki '{0}' geçersiz. Sınıf '{1}' özelliği '{2}' '{3}' sınıfına başvuruda içerir. Sınıf '{3}' özelliği '{4}' derse '{5}'; açamayacağı anlamına gelir içerir o sınıf için '{1}' bakın bekleniyor.</value>
+  </data>
+  <data name="Metadata_AssociationListExpected" xml:space="preserve">
+    <value>Derneği liste veya koleksiyon bekleniyor: ' {0}.{1}'.</value>
+  </data>
+  <data name="MetaData_CannotResolveClassInfo" xml:space="preserve">
+    <value>ClassInfo için ' [{0}] ' {1}' türü çözümlenemiyor.</value>
+  </data>
+  <data name="Metadata_CantPersistGenericType" xml:space="preserve">
+    <value>Genel tür kalıcı olamaz. PersistentAttribute türü '{0}' tanımından kaldırın ve kalıcı bir genel olmayan descendant(s) yerine oluşturun.</value>
+  </data>
+  <data name="Metadata_CustomProperties_PersistentAndNonStorableType" xml:space="preserve">
+    <value>Özel üye ' {0}.{1}' türünde '{2}' kalıcı olamaz</value>
+  </data>
+  <data name="Metadata_DictionaryMixing" xml:space="preserve">
+    <value>ClassInfo '{0}' farklı bir sözlüğe aittir.</value>
+  </data>
+  <data name="MetaData_DuplicateKeyProperty" xml:space="preserve">
+    <value>Yinelenen anahtar türü için '{0}' bulundu.</value>
+  </data>
+  <data name="MetaData_IncorrectPath" xml:space="preserve">
+    <value>Özellik yolu '{1}' türü için '{0}' hatalı.</value>
+  </data>
+  <data name="MetaData_IncorrectPathMemberNotExists" xml:space="preserve">
+    <value>özellik yolu '{1}' '{0}' sütunu kılavuzda yokyanlıştır çünkü üye '{2}.{3}' yok.</value>
+  </data>
+  <data name="MetaData_IncorrectPathNonPersistentMember" xml:space="preserve">
+    <value>Özellik yolu '{1}' türü için '{0}' yanlış çünkü üye ' {2}.{3}' kalıcı üye değil.</value>
+  </data>
+  <data name="MetaData_IncorrectPathNonReferenceMember" xml:space="preserve">
+    <value>Özellik yolu '{1}' türü için '{0}' yanlış çünkü üye ' {2}.{3}' başvuru üye değil.</value>
+  </data>
+  <data name="MetaData_KeyPropertyAbsent" xml:space="preserve">
+    <value>Anahtar türü '{0}' özelliği eksik.</value>
+  </data>
+  <data name="MetaData_NonPersistentReferenceFound" xml:space="preserve">
+    <value>Kalıcı özel işlem kalıcı bir sınıf ile ' {0}' gerçekleştirilir</value>
+  </data>
+  <data name="Metadata_NonpesistentKey" xml:space="preserve">
+    <value>Kalıcı olmayan anahtar ' {0}.{1}' bulundu.</value>
+  </data>
+  <data name="Metadata_NullSessionProvider" xml:space="preserve">
+    <value>İç hatası: oturum erişemiyor.</value>
+  </data>
+  <data name="Metadata_PersistentAliasCircular" xml:space="preserve">
+    <value>Sınıf '{0}' özelliği '{1}' olan bisiklet ifade '{2}' kullanan bir PersistentAlias tarafından işaretlenmiş.</value>
+  </data>
+  <data name="MetaData_PersistentReferenceFound" xml:space="preserve">
+    <value>Kalıcı spesifik olmayan işlem kalıcı bir sınıf ile ' {0}' gerçekleştirilir</value>
+  </data>
+  <data name="MetaData_PropertyIsDuplicatedInIndexDeclaration" xml:space="preserve">
+    <value>'{0}' Özelliği içinde yinelenen ' {1} {2} {3}' {4} dizin bildirimi.</value>
+  </data>
+  <data name="MetaData_PropertyMissing" xml:space="preserve">
+    <value>Tip içinde '{1}' özelliği '{0}' adlı biri yok.</value>
+  </data>
+  <data name="MetaData_PropertyTypeMismatch" xml:space="preserve">
+    <value>'{1}' Sınıflar '{3}' ve '{4}' arasında ilişki geçersiz olur. Sınıf '{3}' özelliği '{2}' '{4}' sınıfına başvuruda içerir. Sınıf '{4}' '{3}' sınıfına başvurmalıdır özelliği '{0}' derse '{5}' uygunsuz bir şekilde ifade eder içerir.</value>
+  </data>
+  <data name="MetaData_ReferenceTooComplex" xml:space="preserve">
+    <value>Referans üye ' {0}.{1}' kadar karmaşık.</value>
+  </data>
+  <data name="MetaData_RequiredAttributeMissing" xml:space="preserve">
+    <value>Özelliği '{0}' özniteliği '{1}' tanımlamak değil.</value>
+  </data>
+  <data name="Metadata_SameTableName" xml:space="preserve">
+    <value>Sınıflar {0} ve {1} aynı tabloya eşlenen.</value>
+  </data>
+  <data name="MetaData_SessionCtorAbsent" xml:space="preserve">
+    <value>{0} Türü bir oturuma özgü Oluşturucu sahip değil.</value>
+  </data>
+  <data name="Metadata_SeveralClassesWithSameName" xml:space="preserve">
+    <value>Sözlük zaten ClassInfo '{1}' içeren. Olası neden: derleme [{0}] iki kez yüklü oldu.</value>
+  </data>
+  <data name="Metadata_SuppressSuspiciousMemberInheritanceCheckError" xml:space="preserve">
+    <value>Üye ' {0}.{1}' ve 'onun {2}' özniteliği dikkate alınmaz. Aynı adda üye base sınıfında '{3}' zaten bildirilmiş. Bu özel bastırmak için DevExpress.Xpo.Metadata.ReflectionClassInfo.SuppressSuspiciousMemberInheritanceCheck olarak ayarlayın.</value>
+  </data>
+  <data name="Metadata_TypeNotFound" xml:space="preserve">
+    <value>'{0}' Bulunamadı yazın.</value>
+  </data>
+  <data name="NestedSession_NotClonable" xml:space="preserve">
+    <value>Nesne hiyerarşisini çünkü klonlanmış cant üye ' {0}.{1}' işlemi sırasında değişti.</value>
+  </data>
+  <data name="Object_CorrectPIinUOW" xml:space="preserve">
+    <value>Kalıcı arayüzleri oturumlarda tam olarak desteklenmez. İş birimlerinin kullanın.</value>
+  </data>
+  <data name="Object_DelayedPropertyContainerCannotBeAssigned" xml:space="preserve">
+    <value>Gecikmiş bir özel özellik kapsayıcı ' {0}.{1}' atama yapılamaz.</value>
+  </data>
+  <data name="Object_DelayedPropertyDoesNotContainProperObject" xml:space="preserve">
+    <value>Özelliği ' {0}.{1}' XPDelayedProperty nesne içermiyor.</value>
+  </data>
+  <data name="Object_NullInstance" xml:space="preserve">
+    <value>Alet için arabirim sanal nesnesi '{0}' bulundu.</value>
+  </data>
+  <data name="Object_PersistentOrThis" xml:space="preserve">
+    <value>Üye ' {0}.{1}' kalıcı veya 'this' dönmek gerekir.</value>
+  </data>
+  <data name="Object_ReferencePropertyViaCollectionAccessor" xml:space="preserve">
+    <value>Başvuru özellik koleksiyonu erişeni ile ayarlama girişimi.</value>
+  </data>
+  <data name="Paging_EnumeratorObjectModifiedOrDeleted" xml:space="preserve">
+    <value>bir veya daha fazla nesneleri değiştirilmiş veya silinmiş. Kimlik değer listesini yenilemeniz gerekiyor.</value>
+  </data>
+  <data name="Paging_EnumeratorPositioning" xml:space="preserve">
+    <value>Numaralayıcı koleksiyonun veya son öğesinden sonra ilk öğesinden önce yerleştirilir.</value>
+  </data>
+  <data name="PersistentAliasExpander_NonPersistentCriteria" xml:space="preserve">
+    <value>Kalıcı bir özelliği '{1}' kullanan ölçüt "{0}" kullanarak bir veri deposu sorgulanamıyor.</value>
+  </data>
+  <data name="PersistentAliasExpander_NonPersistentCriteriaThisValueMember" xml:space="preserve">
+    <value>Kalıcı bir özelliği '{1}' kullanan ölçüt "{0}" kullanarak bir veri deposu sorgulanamıyor. Sen '{0}' bir ValueMember bir arama için kullanıyorsanız, lütfen bunun yerine bir boş ValueMember kullanın.</value>
+  </data>
+  <data name="PersistentAliasExpander_ReferenceOrCollectionExpectedInTheMiddleOfThePath" xml:space="preserve">
+    <value>Yanlış üye '{0}' yolunda. Başvuru özellik veya koleksiyon dernek bekleniyor.</value>
+  </data>
+  <data name="Security_DeletingAnObjectWasProhibitedByTheRules" xml:space="preserve">
+    <value>'{0}' Nesne silme doğrulama kuralları tarafından yasaklanmıştır.</value>
+  </data>
+  <data name="Security_ICommandChannel_TransferringRequestsIsProhibited" xml:space="preserve">
+    <value>İstekleri ICommandChannel aktarma güvenlik altyapısı içinde yasaktır.</value>
+  </data>
+  <data name="Security_SavingAnObjectWasProhibitedByTheRulesOfVal" xml:space="preserve">
+    <value>'{0}' Nesnesi kaydetme doğrulama kuralları tarafından yasaklanmıştır.</value>
+  </data>
+  <data name="Security_SavingAnObjectWasProhibitedByTheRulesWProp" xml:space="preserve">
+    <value>Tasarruf ' {0}.{1}' özelliği doğrulama kuralları tarafından yasak.</value>
+  </data>
+  <data name="Security_TheCommitOperationWasProhibitedByTheRules" xml:space="preserve">
+    <value>Yürütme işlemi doğrulama kuralları tarafından yasak.</value>
+  </data>
+  <data name="ServerModeGridSource_GroupAndAddOrRemoveIsNotAllwed" xml:space="preserve">
+    <value>Aynı anda grup ve Ekle/Kaldır maddelere yasak.</value>
+  </data>
+  <data name="ServerModeGridSource_SummaryItemTypeNotSupported" xml:space="preserve">
+    <value>İç hatası: belirtilen SummaryItemType.{0} desteklenmiyor.</value>
+  </data>
+  <data name="ServerModeGridSource_WrongTopLevelAggregate" xml:space="preserve">
+    <value>Sunucu veya iç XPO hatası: birden fazla grup üst düzey bir toplu.</value>
+  </data>
+  <data name="Session_AssociationCollectionWithDisabledLoading" xml:space="preserve">
+    <value>Derneği collection'ın durumu bozuldu: LoadingEnabled-meli var olmak doğru.</value>
+  </data>
+  <data name="Session_AssociationListExpected" xml:space="preserve">
+    <value>Koleksiyonu veya dernek listesi bekleniyor.</value>
+  </data>
+  <data name="Session_CannotAddObjectToObjectCache" xml:space="preserve">
+    <value>Anahtar = ' {1}' olan ' {0}' nesne ' {2}' aynı anahtara sahip başka bir nesne zaten bunu için eklenmiş nesne kimliği haritanın ekleyemiyor</value>
+  </data>
+  <data name="Session_CannotChangePropertyWhenSessionIsConnected" xml:space="preserve">
+    <value>Değiştiremezsiniz '{0}' oturumu bağlandığında.</value>
+  </data>
+  <data name="Session_CannotLoadInvalidType" xml:space="preserve">
+    <value>Türü geçersiz '{0}' yüklenemiyor.</value>
+  </data>
+  <data name="Session_CannotReloadPurgedObject" xml:space="preserve">
+    <value>İstenen nesneleri cant olmak yüklü, çünkü onlar eksik verileri depolar. Bu nesne zaten silinmiş ve tasfiye olabilir. Bu özel durum listesinde aynı nesnelerle yine görürseniz, Not başvuru bütünlüğü veri deponuzun kırık olabilir. Bu durumda, sistem yöneticinize başvurun. Nesne istenen: {0}.</value>
+  </data>
+  <data name="Session_DifferentObjectsWithSameKey" xml:space="preserve">
+    <value>Bulunan Yinelenen tuşları nesneleriyle.</value>
+  </data>
+  <data name="Session_EnteringTheX0StateFromTheX1StateIsProhibit" xml:space="preserve">
+    <value>Devlet '{0}' devlet '{2}' girme '{1}' için '{3}' durumu nedeniyle yasaklanmıştır.</value>
+  </data>
+  <data name="Session_IncompatibleIdType" xml:space="preserve">
+    <value>Aktarılan kimlik türü '{0}' anahtar türü '{3}' uyumlu ' {1}.{2}'.</value>
+  </data>
+  <data name="Session_LengthsOfTheCollectionsAreDifferentInArgs" xml:space="preserve">
+    <value>Koleksiyonları uzunlukları farklı bağımsız değişkeninde.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XScomplexTypeExpected" xml:space="preserve">
+    <value>XML yükleyici: xs:complexType bekleniyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSlengthExpected" xml:space="preserve">
+    <value>XML yükleyici: xs:length bekleniyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSrestrictionExpected" xml:space="preserve">
+    <value>XML yükleyici: xs:restriction bekleniyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSselectorNodeExpected" xml:space="preserve">
+    <value>XML yükleyici: 'xs:selector' düğümü bekleniyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSsequenceExpected" xml:space="preserve">
+    <value>XML yükleyici: xs:sequence bekleniyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSsimpleTypeExpected" xml:space="preserve">
+    <value>XML yükleyici: xs:simpleType bekleniyor.</value>
+  </data>
+  <data name="ConnectionProvider_TheAutoIncrementedKeyWithX0TypeIsNotSuppor" xml:space="preserve">
+    <value>AutoIncremented tuşu ile ' {0}' türü ' {1}' desteklenmiyor</value>
+  </data>
+  <data name="Filtering_TheTypeNameArgumentOfTheX0FunctionIsNotFound" xml:space="preserve">
+    <value>'TypeName' bağımsız fonksiyonu '{0}' bulunamadı.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ComplexTypeNodeNotFound" xml:space="preserve">
+    <value>XML yükleyici: düğüm bulunamadı'complexType '.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ElementNodeNotFound" xml:space="preserve">
+    <value>XML yükleyici: düğüm 'öğesi bulunamadı'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InvalidBaseAttributeValue" xml:space="preserve">
+    <value>XML yükleyici: yanlış 'base' öznitelik değeri.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InvalidValueAttributeValue" xml:space="preserve">
+    <value>XML yükleyici: yanlış bir 'değer' öznitelik değeri.</value>
+  </data>
+  <data name="InMemorySet_XMLException_NameAttributeExpected" xml:space="preserve">
+    <value>XML yükleyici: 'name' özniteliği bekleniyor.</value>
+  </data>
+  <data name="InMemorySet_XMLException_NotDataSetNode" xml:space="preserve">
+    <value>XML yükleyici: düğüm kümesi işaretli değil.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ReferAttributeExpected" xml:space="preserve">
+    <value>XML yükleyici: 'bakın' beklenen öznitelik.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ReferNotFound" xml:space="preserve">
+    <value>XML yükleyici: cant find başvurulan '{0}'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_SchemaNodeNotFound" xml:space="preserve">
+    <value>XML yükleyici: düğüm 'şema bulunamadı'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_TableNotDeclared" xml:space="preserve">
+    <value>XML yükleyici: tablo '{0}' ilan.</value>
+  </data>
+  <data name="LinqToXpo_DuplicateJoinOperatorFound" xml:space="preserve">
+    <value>Yinelenen birleştirme işleci bulundu.</value>
+  </data>
+  <data name="Metadata_WrongObjectType" xml:space="preserve">
+    <value>ClassInfo (2) kullanılarak oluşturulan {0} nesnesi döndüren bir yanlış ClassInfo {1}.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorUnknownAttribute" xml:space="preserve">
+    <value>Hatalı biçimlendirilmiş XML: bilinmeyen özniteliği '{0}'.</value>
+  </data>
+  <data name="MsSql_RootIsNotInsertStatement" xml:space="preserve">
+    <value>İç hata: kök bir InsertStatement değil.</value>
+  </data>
+  <data name="SerializableObjectLayer_OptimisticLockFieldInDLNotExists" xml:space="preserve">
+    <value>ClassInfo '{0}' olan tanımlı hiçbir OptimisticLockFieldInDataLayer.</value>
+  </data>
+  <data name="SerializableObjectLayer_OptimisticLockFieldNotExists" xml:space="preserve">
+    <value>ClassInfo '{0}' olan tanımlı hiçbir OptimisticLockField.</value>
+  </data>
+  <data name="Session_NotClassMember" xml:space="preserve">
+    <value>'{0}' sınıf '{1}' üyesi değil.</value>
+  </data>
+  <data name="Session_ObjectCannotBePurged" xml:space="preserve">
+    <value>'{0}' Nesne kimliği = '{1}' can't tasfiye - o. için başvuran nesne</value>
+  </data>
+  <data name="Session_ObjectModificationIsNotAllowed" xml:space="preserve">
+    <value>Nesneler oturum CommitChangesToDataLayerInner durumundayken değiştirilemez.</value>
+  </data>
+  <data name="Session_SessionMixing" xml:space="preserve">
+    <value>'{0}' Nesnesi için farklı bir oturum aittir.</value>
+  </data>
+  <data name="Session_TypeFieldIsEmpty" xml:space="preserve">
+    <value>'{0}' Alanı boş (temel sınıf '{1}').</value>
+  </data>
+  <data name="Session_TypeNotFound" xml:space="preserve">
+    <value>Türü bulunamıyor = '{0}' kimliği ile.</value>
+  </data>
+  <data name="Session_WrongConnectionString" xml:space="preserve">
+    <value>Belirtilen geçersiz bağlantı dizesi: '{0}'.</value>
+  </data>
+  <data name="View_AtLeastOneFetchProperptyShouldBeDefined" xml:space="preserve">
+    <value>En az bir özelliği alma için tanımlı.</value>
+  </data>
+  <data name="View_PropertyNotFetched" xml:space="preserve">
+    <value>Özelliği '{0}' getirilen değil.</value>
+  </data>
+  <data name="XPWeakReference_SavedObjectExpected" xml:space="preserve">
+    <value>Saklanan nesneler yalnızca zayıf başvurular kullanabilirsiniz.</value>
+  </data>
+  <data name="Paging_CurrentPageShouldBeGreaterOrEqualZero" xml:space="preserve">
+    <value>CurrentPage-meli var olmak büyük veya sıfıra eşit.</value>
+  </data>
+  <data name="Paging_CurrentPageShouldBeLessThanPageCount" xml:space="preserve">
+    <value>PageCount daha az olması gerektiğini CurrentPage.</value>
+  </data>
+  <data name="InMemorySet_XMLException_choiceNodeNotFound" xml:space="preserve">
+    <value>XML yükleyici: düğüm bulunamadı'seçim '.</value>
+  </data>
+  <data name="MetaData_XMLLoadError" xml:space="preserve">
+    <value>XML sözlük yükleme hatası: {0}.</value>
+  </data>
+  <data name="Session_MostProbablyYouAreTryingToInitiateAnObject" xml:space="preserve">
+    <value>En büyük olasılıkla, bir nesnenin işlemi kaydetmeden önceki nesne henüz tamamlanmamış ise işlem yükleme başlatmak çalışıyoruz. (Session.IsObjectsSaving sürece) Session.ObjectsSaved veya IXPObject.OnSaved olay ateş kadar işleminizi ertele.</value>
+  </data>
+  <data name="Session_MostProbablyYouAreTryingToInitiateAnObjectEx" xml:space="preserve">
+    <value>En büyük olasılıkla bir nesne yükleme işlemi önceki nesne henüz tamamlanmamış ise işlem yükleme başlatmak için çalışıyoruz. (Session.IsObjectsLoading sürece) Session.ObjectsLoaded veya IXPObject.OnLoaded olay ateş kadar işleminizi ertele. Başka bir bu özel durum aynı anda farklı iş parçacıkları aynı oturum ile çalışmak çalışıyoruz nedeni.</value>
+  </data>
+  <data name="View_IsInLoading" xml:space="preserve">
+    <value>Uyumsuz veri yüklenirken görünümü yeniden olamaz.</value>
+  </data>
+  <data name="Collections_NotCollectionProperty" xml:space="preserve">
+    <value>{0}.{1} koleksiyon özelliği değil. AssociationAttribute ile Etiketlenmiş ve XPBaseCollection alt öğe öğe türünde olması. Muhtemelen, GetCollection nereye GetList kullanılması gereken durumda kullanın.</value>
+  </data>
+  <data name="Filtering_TheIifFunctionOperatorRequiresThree" xml:space="preserve">
+    <value>'Iif' işlevi işleç üç veya daha fazla bağımsız değişken gerektirir. Bağımsız değişkenleri garip olmalı.</value>
+  </data>
+  <data name="Session_TranSequenceRollback" xml:space="preserve">
+    <value>Hiçbir işlem etkin olduğundan geri alamazsınız.</value>
+  </data>
+  <data name="ThreadSafeDataLayer_DictionaryModified" xml:space="preserve">
+    <value>Sözlük değiştirilemez. Bu özel durumu önlemek için ThreadSafeDataLayer kullanmadan önce Session.CreateObjectTypeRecords yöntemini çağırın. ClassInfo veya değiştirildiğinde oluşturulur: '{0}'.</value>
+  </data>
+  <data name="Metadata_ClassAttributeExclusive" xml:space="preserve">
+    <value>PersistentAttribute, NonPersistentAttribute ve MapToAttribute özel. Sadece bir tanesi uygulanan sınıfı için '{0}'.</value>
+  </data>
+  <data name="ServiceCollectionExtensions_ConnectionPoolCannotBeUsed" xml:space="preserve">
+    <value>Bağlantı havuzu ile basit veri katmanı kullanılamaz</value>
+  </data>
+  <data name="ServiceCollectionExtensions_ConnectionStringEmpty" xml:space="preserve">
+    <value>Bağlantı dizesi, kullanılmayan veri deposu kullanıldığında ve özel veri deposu kullanılmadığında boş bırakılamaz</value>
+  </data>
+  <data name="ServiceCollectionExtensions_NoConstructor" xml:space="preserve">
+    <value>{0} yazısında {1} parametresine sahip kurucu yok.</value>
+  </data>
+  <data name="Metadata_NullableAttributeNotApplicable" xml:space="preserve">
+    <value>Null özniteliği üye kalıcı değildir, başka ad verilmiş olduğundan, birçok diğer birçok veya yazın nesnesine bir başvuru sınıf {1} {0} üyesi uygulanamaz.</value>
+  </data>
+  <data name="LinqToXpo_QueryWithAppliedTheSkipOrTheTakeOperations" xml:space="preserve">
+    <value>Atlama veya Atma işlemleriyle yapılan sorgulama, katılmak için kullanılamaz.</value>
+  </data>
+  <data name="LinqToXpo_X0OperatorAfterSkipOrTakeIsNotSupported" xml:space="preserve">
+    <value>Atla veya Al sonra desteklenmez.</value>
+  </data>
+  <data name="LinqToXpo_X0OverGroupingIsNotSupported" xml:space="preserve">
+    <value>Gruplama üzerinde {0} desteklenmiyor.</value>
+  </data>
+  <data name="LinqToXpo_X0WithSkipOrTakeOrGroupingIsNotSupported" xml:space="preserve">
+    <value>Atla veya Al veya grupla ile {0} desteklenmiyor.</value>
+  </data>
+</root>

@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SchedulerStringId.MenuCmd_DeleteAppointment" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_DaysShort" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_TravelRequired" xml:space="preserve">
+    <value>Yolculuk</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Free" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelMustAttend" xml:space="preserve">
+    <value>Zorunlu Katılım</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_EditSeries" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString_SubPattern" xml:space="preserve">
+    <value>her {0} {1} {2}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_20Minutes" xml:space="preserve">
+    <value>20 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelTravelRequired" xml:space="preserve">
+    <value>Yolculuk</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceLocation" xml:space="preserve">
+    <value>Yer:</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToDayView" xml:space="preserve">
+    <value>Günlük Görünüm</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_HoursShort" xml:space="preserve">
+    <value>sa</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Hour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CustomizeTimeRuler" xml:space="preserve">
+    <value>Zaman çizelgesini özelleştir</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeHourly" xml:space="preserve">
+    <value>Saatlik</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoDate" xml:space="preserve">
+    <value>Tarihe git</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ResourceAll" xml:space="preserve">
+    <value>(Hepsi)</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearString2" xml:space="preserve">
+    <value>{3}{0} {5}{6}</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Birthday" xml:space="preserve">
+    <value>Doğumgünü</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_10Minutes" xml:space="preserve">
+    <value>10 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.PrintWeeklyOptControlTwoWeekPerPage" xml:space="preserve">
+    <value>2 sayfa/hafta</value>
+  </data>
+  <data name="SchedulerStringId.Caption_EmptyResource" xml:space="preserve">
+    <value>(Herhangi biri)</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringEvent" xml:space="preserve">
+    <value>Yeni tekrarlı olay</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_3Day" xml:space="preserve">
+    <value>{0}, {1} ve {2}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidTimeOfDayInterval" xml:space="preserve">
+    <value>Geçersiz aralık</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToMonthView" xml:space="preserve">
+    <value>Aylık Görünüm</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByDate" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByResources" xml:space="preserve">
+    <value>Kaynaklar</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Busy" xml:space="preserve">
+    <value>Meşgul</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Week" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoThisDay" xml:space="preserve">
+    <value>Belirli bir güne git</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_2Day" xml:space="preserve">
+    <value>{0} ve {1}</value>
+  </data>
+  <data name="SchedulerStringId.PrintMonthlyOptControlTwoPagesPerMonth" xml:space="preserve">
+    <value>2 sayfa/ay</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DailyPrintStyle" xml:space="preserve">
+    <value>Günlük Stil</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ReadOnly" xml:space="preserve">
+    <value> [Salt Okunur]</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeek" xml:space="preserve">
+    <value>Gün seçimi yapılmadı. Lütfen haftada en az bir gün seçiniz.</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Day" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="SchedulerStringId.PrintMonthlyOptControlOnePagePerMonth" xml:space="preserve">
+    <value>1 sayfa/ay</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString1" xml:space="preserve">
+    <value>gün {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Timeline" xml:space="preserve">
+    <value>Zaman Çizelgesi</value>
+  </data>
+  <data name="SchedulerStringId.Msg_OutlookCalendarNotFound" xml:space="preserve">
+    <value>'{0}' takvimi bulunamadı</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_30Minutes" xml:space="preserve">
+    <value>&amp;30  Dakika</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidYearCountValue" xml:space="preserve">
+    <value>Geçersiz yıl sayısı. Lütfen pozitif bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_XtraSchedulerNotAssigned" xml:space="preserve">
+    <value>Veri Deposu bulunamadı</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleHour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidReminderTimeBeforeStart" xml:space="preserve">
+    <value>Geçersiz hatırlatıcı zamanı. Lütfen pozitif bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWorkDays" xml:space="preserve">
+    <value>Çalışma Günü</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidWeekCount" xml:space="preserve">
+    <value>Geçersiz hafta sayısı. Lütfen pozitif bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlMonthPeriod" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToHeaders" xml:space="preserve">
+    <value>Başlıklar</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToTimelineView" xml:space="preserve">
+    <value>Zaman Çizelgesi Görünümü</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidOccurrencesCount" xml:space="preserve">
+    <value>Geçersiz oluş sayısı. Lütfen pozitif bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Busy" xml:space="preserve">
+    <value>Meşgul</value>
+  </data>
+  <data name="SchedulerStringId.PrintNoPrintersInstalled" xml:space="preserve">
+    <value>Yüklü yazıcı bulunamadı.</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_EndContinueText" xml:space="preserve">
+    <value>Bitiş : {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysEveryDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_WorkDays" xml:space="preserve">
+    <value>Çalışma Günü</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Recurrence" xml:space="preserve">
+    <value>Tekrar:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Tentative" xml:space="preserve">
+    <value>Taslak</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryWeekend" xml:space="preserve">
+    <value>her haftasonu {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResourcesPage" xml:space="preserve">
+    <value>Önceki Sayfa</value>
+  </data>
+  <data name="SchedulerStringId.PrintTimeIntervalControlInvalidDuration" xml:space="preserve">
+    <value>Süre günden büyük olmamalı ve 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidAppointmentDuration" xml:space="preserve">
+    <value>Aralık için geçersiz değer belirlendi. Lütfen pozitif bir değer giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryWeekDay" xml:space="preserve">
+    <value>her çalışma günü {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeeklyPrintStyle" xml:space="preserve">
+    <value>Haftalık Stil</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenAppointment" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OutOfOffice" xml:space="preserve">
+    <value>Ofis Dışı</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelImportant" xml:space="preserve">
+    <value>Önemli</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAppointments" xml:space="preserve">
+    <value>Görevler</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OnScreenResources" xml:space="preserve">
+    <value>Ekranda Kaynakları</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidWeekCountValue" xml:space="preserve">
+    <value>Geçersiz hafta sayısı. Lütfen pozitif bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Anniversary" xml:space="preserve">
+    <value>Yıldönümü</value>
+  </data>
+  <data name="SchedulerStringId.Caption_10Minutes" xml:space="preserve">
+    <value>10 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minute" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="SchedulerStringId.Caption_UntitledAppointment" xml:space="preserve">
+    <value>Başlıksız</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAppointmentStatuses" xml:space="preserve">
+    <value>Görev Durumları</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Month" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryDays" xml:space="preserve">
+    <value>her {2} {1} {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResources" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="SchedulerStringId.TextWeeklyPatternString_EveryWeek" xml:space="preserve">
+    <value>her {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_CantFitIntoPage" xml:space="preserve">
+    <value>Geçerli yazıcı ayarları kullanılarak çıktı tek sayfada basılamıyor. Lütfen sayfa yüksekliğini arttırmayı veya yazdırılan aralığı azaltmayı deneyin.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToTimeRulers" xml:space="preserve">
+    <value>Zaman Çizelgeleri</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort2" xml:space="preserve">
+    <value>dk</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDays" xml:space="preserve">
+    <value>Başlangıç: {0} - {1} için</value>
+  </data>
+  <data name="SchedulerStringId.Msg_IsNotValid" xml:space="preserve">
+    <value>'{0}', '{1}' için geçerli bir değer değil</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearsString1" xml:space="preserve">
+    <value>her {1}{2}{0} için {3}{4}</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hour" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="SchedulerStringId.PrintTimeIntervalControlInvalidStartEndTime" xml:space="preserve">
+    <value>Bitiş tarihi başlangıç tarihinden büyük olmalıdır.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWeekendDays" xml:space="preserve">
+    <value>Hafta Sonu</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFirst" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlDayPeriod" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="SchedulerStringId.TextWeeklyPatternString_EveryWeeks" xml:space="preserve">
+    <value>her {1} {2}  {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_0Day" xml:space="preserve">
+    <value>haftanın belirsiz günü</value>
+  </data>
+  <data name="SchedulerStringId.Caption_5Minutes" xml:space="preserve">
+    <value>5 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Week" xml:space="preserve">
+    <value>hafta</value>
+  </data>
+  <data name="SchedulerStringId.Msg_ApplyToAllStyles" xml:space="preserve">
+    <value>Geçerli yazıcı ayarları bütün görünümlere uygulansın mı?</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_WeeksShort" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidMonthCountValue" xml:space="preserve">
+    <value>Geçersiz ay sayısı. Lütfen pozitif bir değer giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleMonth" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_5Day" xml:space="preserve">
+    <value>{0}, {1}, {2}, {3} ve {4}</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Important" xml:space="preserve">
+    <value>Önemli</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAllDayArea" xml:space="preserve">
+    <value>Bütün Gün Alanı</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScalesMenu" xml:space="preserve">
+    <value>Zaman Ölçüleri</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelNeedsPreparation" xml:space="preserve">
+    <value>Hazırlık Gerekiyor</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Day" xml:space="preserve">
+    <value>Gün Takvimi</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Event" xml:space="preserve">
+    <value>{0} - Olay</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextAppointment" xml:space="preserve">
+    <value>Sonraki Görev</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Business" xml:space="preserve">
+    <value>İş</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthThird" xml:space="preserve">
+    <value>Üçüncü</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidSize" xml:space="preserve">
+    <value>Geçersiz büyüklük</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayCount" xml:space="preserve">
+    <value>Geçersiz gün sayısı. Lütfen pozitif bir değer giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleDay" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_PrintAppointment" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Quarter" xml:space="preserve">
+    <value>Çeyrek</value>
+  </data>
+  <data name="SchedulerStringId.Msg_Warning" xml:space="preserve">
+    <value>Uyarı!</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hours" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentCopy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayNumber" xml:space="preserve">
+    <value>Geçersiz gün. Lütfen 1 ile {0} arası bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeDaily" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_20Minutes" xml:space="preserve">
+    <value>&amp;20  Dakika</value>
+  </data>
+  <data name="SchedulerStringId.Caption_60Minutes" xml:space="preserve">
+    <value>60 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_NeedsPreparation" xml:space="preserve">
+    <value>Hazırlık Gerekiyor</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlDailyCalendar" xml:space="preserve">
+    <value>Günlük Takvim</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort1" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMonthly" xml:space="preserve">
+    <value>Aylık</value>
+  </data>
+  <data name="SchedulerStringId.Msg_LoadCollectionFromXml" xml:space="preserve">
+    <value>XML dosyasından yükleme yapmak için ajanda bağlantısı yapılmamış olmalıdır</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidInputFile" xml:space="preserve">
+    <value>Girdi dosyası geçersiz.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidMonthCount" xml:space="preserve">
+    <value>Geçersiz ay sayısı. Lütfen pozitif bir değer giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_WarningDayNumber" xml:space="preserve">
+    <value>Bazı aylar {0} günden daha kısa olabilir. Bu aylar için oluşlar ayın son günü gerçekleşecektir</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMinutely" xml:space="preserve">
+    <value>Dakikalık</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AllResources" xml:space="preserve">
+    <value>Bütün Kaynaklar</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PleaseSeeAbove" xml:space="preserve">
+    <value>Yukarıdaki gibi</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceEndTime" xml:space="preserve">
+    <value>Bitiş:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceShowTimeAs" xml:space="preserve">
+    <value>Zaman Gösterimi:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TrifoldPrintStyle" xml:space="preserve">
+    <value>Üç kat görünüm</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToWorkWeekView" xml:space="preserve">
+    <value>Çalışma Günü Görünümü</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Tentative" xml:space="preserve">
+    <value>Taslak</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeYearly" xml:space="preserve">
+    <value>Yıllık</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeWeekly" xml:space="preserve">
+    <value>Haftalık</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentMove" xml:space="preserve">
+    <value>Taşı</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysMinutes" xml:space="preserve">
+    <value>Başlangıç: {0} - {1} {3} için</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterGrayScale" xml:space="preserve">
+    <value>Gri Ölçüsü</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString2" xml:space="preserve">
+    <value> {1} {2} {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthLast" xml:space="preserve">
+    <value>Sonuncu</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Month" xml:space="preserve">
+    <value>Aylık Takvim</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceStartTime" xml:space="preserve">
+    <value>Başlangıç:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByNone" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Year" xml:space="preserve">
+    <value>yıl</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelVacation" xml:space="preserve">
+    <value>Tatil</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchViewMenu" xml:space="preserve">
+    <value>Görünümü değiştir</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OutOfOffice" xml:space="preserve">
+    <value>Ofis Dışı</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevAppointment" xml:space="preserve">
+    <value>Önceki Görev</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelAnniversary" xml:space="preserve">
+    <value>Yıldönümü</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleYear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Timeline" xml:space="preserve">
+    <value>Zaman Çizelgesi Takvimi</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Week" xml:space="preserve">
+    <value>Haftalık Takvim</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayCountValue" xml:space="preserve">
+    <value>Geçersiz gün sayısı. Lütfen pozitif bir değer giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_VisibleResources" xml:space="preserve">
+    <value>Görünür Kaynaklar</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MonthlyPrintStyle" xml:space="preserve">
+    <value>Aylık Stil</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResources" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleCaptionsMenu" xml:space="preserve">
+    <value>Zaman ölçüsü başlıkları</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToCells" xml:space="preserve">
+    <value>Hücreler</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAppointment" xml:space="preserve">
+    <value>Yeni Görev</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InternalError" xml:space="preserve">
+    <value>İç hata</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Year" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_4Day" xml:space="preserve">
+    <value>{0}, {1}, {2} ve {3}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_OverflowTimeOfDayInterval" xml:space="preserve">
+    <value>Overflow</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoToday" xml:space="preserve">
+    <value>Bugüne git</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_5Minutes" xml:space="preserve">
+    <value>&amp;5  Dakika</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleWeek" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Appointment" xml:space="preserve">
+    <value>{0} - Görev</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidOccurrencesCountValue" xml:space="preserve">
+    <value>Geçersiz oluş sayısı. Lütfen pozitif bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_60Minutes" xml:space="preserve">
+    <value>6&amp;0  Dakika</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_6Day" xml:space="preserve">
+    <value>{0}, {1}, {2}, {3}, {4} ve {5}</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_MustAttend" xml:space="preserve">
+    <value>Zorunlu Katılım</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_LabelAs" xml:space="preserve">
+    <value>Başlık değiştir</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_WorkDays" xml:space="preserve">
+    <value>Çalışma Günü Takvimi</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Month" xml:space="preserve">
+    <value>ay</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MemoPrintNoSelectedItems" xml:space="preserve">
+    <value>Yazdırmak için bir madde seçiniz</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Free" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromTo" xml:space="preserve">
+    <value>Başlangıç: {0} Bitiş: {1}</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OtherSettings" xml:space="preserve">
+    <value>Diğer Ayarlar</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryDay" xml:space="preserve">
+    <value>her {1} {0}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayNumberValue" xml:space="preserve">
+    <value>Geçersiz gün. Lütfen 1 ile {0} arası bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterBlackAndWhite" xml:space="preserve">
+    <value>Siyah ve Beyaz</value>
+  </data>
+  <data name="SchedulerStringId.Msg_NoMappingForObject" xml:space="preserve">
+    <value> {0} gerekli değeri atanmamış</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelNone" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringAppointment" xml:space="preserve">
+    <value>Yeni tekrarlı görev</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Years" xml:space="preserve">
+    <value>yıl</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterFullColor" xml:space="preserve">
+    <value>Tam Renk</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Month" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="SchedulerStringId.Msg_PrintStyleNameExists" xml:space="preserve">
+    <value>{0} Stil ismi daha önce kullanılmış. Başka bir isim kullanın.</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Months" xml:space="preserve">
+    <value>ay</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minutes" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToWeekView" xml:space="preserve">
+    <value>Haftalık Görünüm</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="SchedulerStringId.PrintRangeControlInvalidDate" xml:space="preserve">
+    <value>Bitiş tarihi başlangıç tarihinden büyük veya eşit olmalıdır.</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlWeekPeriod" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DecreaseVisibleResourcesCount" xml:space="preserve">
+    <value>Görünür kaynak sayısını azalt</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelPhoneCall" xml:space="preserve">
+    <value>Telefon görüşmesi</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Vacation" xml:space="preserve">
+    <value>Tatil</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFourth" xml:space="preserve">
+    <value>Dördüncü</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ShowTimeAs" xml:space="preserve">
+    <value>Zaman Gösterimi:</value>
+  </data>
+  <data name="SchedulerStringId.Msg_Conflict" xml:space="preserve">
+    <value>Değiştirilen randevu bir/bir kaç diğer randevu ile çakışıyor</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NAppointmentsAreSelected" xml:space="preserve">
+    <value>{0} görev seçildi</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Days" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAllDayEvent" xml:space="preserve">
+    <value>Yeni bütün gün olayı</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MemoPrintStyle" xml:space="preserve">
+    <value>Not Stili</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysHoursMinutes" xml:space="preserve">
+    <value>Başlangıç: {0} - {1} {2} {3} için</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrencePattern" xml:space="preserve">
+    <value>Tekrar Şablonu:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthSecond" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_6Minutes" xml:space="preserve">
+    <value>&amp;6  Dakika</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlMonthlyCalendar" xml:space="preserve">
+    <value>Aylık Takvim</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidYearCount" xml:space="preserve">
+    <value>Geçersiz yıl sayısı. Lütfen pozitif bir tamsayı giriniz.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_30Minutes" xml:space="preserve">
+    <value>30 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeekForDailyRecurrence" xml:space="preserve">
+    <value>Günlük tekrar için haftanın geçersiz günü. Yalnızca Gün,Hafta sonu ve Çalışma günü bu bağlamda kullanılabilir</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleQuarter" xml:space="preserve">
+    <value>Çeyrek</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AllDay" xml:space="preserve">
+    <value>Bütün Gün</value>
+  </data>
+  <data name="SchedulerStringId.Caption_IncreaseVisibleResourcesCount" xml:space="preserve">
+    <value>Görünür kaynak sayısını artır</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_7Day" xml:space="preserve">
+    <value>{0}, {1}, {2}, {3}, {4}, {5} ve {6}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidEndDate" xml:space="preserve">
+    <value>Girdiğiniz tarih başlangıç tarihinden önce olamaz.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_6Minutes" xml:space="preserve">
+    <value>6 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.PrintMoreItemsMsg" xml:space="preserve">
+    <value>Daha Fazla...</value>
+  </data>
+  <data name="SchedulerStringId.Caption_15Minutes" xml:space="preserve">
+    <value>15 Dakika</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelBirthday" xml:space="preserve">
+    <value>Doğum Günü</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminder" xml:space="preserve">
+    <value>{0} Hatırlatıcı</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResourcesPage" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="SchedulerStringId.Caption_FirstVisibleResources" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelPersonal" xml:space="preserve">
+    <value>Ki&amp;şisel</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_PhoneCall" xml:space="preserve">
+    <value>Telefon Görüşmesi</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_StartContinueText" xml:space="preserve">
+    <value>Başlangıç : {0}</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Week" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Weeks" xml:space="preserve">
+    <value>hafta</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Personal" xml:space="preserve">
+    <value>Kişisel</value>
+  </data>
+  <data name="SchedulerStringId.Caption_CalendarDetailsPrintStyle" xml:space="preserve">
+    <value>Takvim Detay Stili</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormCaption" xml:space="preserve">
+    <value>Yazdırma Seçenekleri: {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminders" xml:space="preserve">
+    <value>{0}  Hatırlatıcılar</value>
+  </data>
+  <data name="SchedulerStringId.PrintWeeklyOptControlOneWeekPerPage" xml:space="preserve">
+    <value>1 sayfa/hafta</value>
+  </data>
+  <data name="SchedulerStringId.Caption_StartTime" xml:space="preserve">
+    <value>Başlangıç: {0}</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="SchedulerStringId.Format_TimeBeforeStart" xml:space="preserve">
+    <value>{0} başlamadan</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearString1" xml:space="preserve">
+    <value>her {3} {4} {0}</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelBusiness" xml:space="preserve">
+    <value>İş</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearsString2" xml:space="preserve">
+    <value>her {1}{2}{0} için {3} ün {5}{6}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysHours" xml:space="preserve">
+    <value>Başlangıç: {0} - {1} {2} için</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlWeeklyCalendar" xml:space="preserve">
+    <value>Haftalık Takvim</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NoneRecurrence" xml:space="preserve">
+    <value>(Boş)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NoneReminder" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_RestoreOccurrence" xml:space="preserve">
+    <value>Varsayılan Duruma Dön</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CustomizeCurrentView" xml:space="preserve">
+    <value>Görünümü Özelleştir</value>
+  </data>
+  <data name="SchedulerStringId.Caption_LastVisibleResources" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_15Minutes" xml:space="preserve">
+    <value>&amp;15  Dakika</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ResourceNone" xml:space="preserve">
+    <value>(Boş)</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormatTabControlCustomizeShading" xml:space="preserve">
+    <value>&lt;Özelleştir...&gt;</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NavigateBackward" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="SchedulerStringId.Msg_WarningAppointmentDeleted" xml:space="preserve">
+    <value>Randevu başka bir kullanıcıdan silinmiştir.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_iCalendar_AppointmentsImportWarning" xml:space="preserve">
+    <value>Bazı görevleri ithal edemiyor</value>
+  </data>
+  <data name="SchedulerStringId.Format_CopyOf" xml:space="preserve">
+    <value>{0}'nın kopyası</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NavigateBackward" xml:space="preserve">
+    <value>Görüntü öne sürdüğü gibi zamanda geriye gider</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NavigateForward" xml:space="preserve">
+    <value>Görüntü öne sürdüğü gibi zamanda ileriye gider</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimelineViewDescription" xml:space="preserve">
+    <value>Zaman Çizelgesi görünüme dönüşür. Zamana göre görevleri işaretler</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_GotoToday" xml:space="preserve">
+    <value>Şu görüntüde gösterilen tarihi bugünkü tarihine değiştirir</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NavigateForward" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="SchedulerStringId.Format_CopyNOf" xml:space="preserve">
+    <value>{1}'den {0} kopya </value>
+  </data>
+  <data name="SchedulerStringId.Msg_iCalendar_NotValidFile" xml:space="preserve">
+    <value>Geçersiz İnternet Takvim file</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ViewZoomIn" xml:space="preserve">
+    <value>Daha fazla detaylarla içeriği göstermek için büyütme uygular</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceSubject" xml:space="preserve">
+    <value>Konu:</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteAppointmentDependency" xml:space="preserve">
+    <value>&amp;Sil</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AppointmentDependencyTypeFinishToFinish" xml:space="preserve">
+    <value>Bitiş-Bitiş (TT)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AppointmentDependencyTypeFinishToStart" xml:space="preserve">
+    <value>Bitiş-başlangıç (FS)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AppointmentDependencyTypeStartToFinish" xml:space="preserve">
+    <value>Başlangıç-Bitiş (BT)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AppointmentDependencyTypeStartToStart" xml:space="preserve">
+    <value>Başlangıç-Başlangıç (SS)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_CheckMappings" xml:space="preserve">
+    <value>Eşlemeleri kontrol</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyResourceMappingsTransactionDescription" xml:space="preserve">
+    <value>Kaynak eşlemeleri Değiştir</value>
+  </data>
+  <data name="SchedulerStringId.DefaultToolTipStringFormat_SplitAppointment" xml:space="preserve">
+    <value>{0}: {1} adım</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SplitAppointment" xml:space="preserve">
+    <value>Bölme</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_DeleteOccurrence" xml:space="preserve">
+    <value>Oluşumu sil.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_OpenOccurrence" xml:space="preserve">
+    <value>Bu toplantı örneğini açın.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ChangeAppointmentReminderUI" xml:space="preserve">
+    <value>Hatırlatıcı</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ChangeTimelineScaleWidth" xml:space="preserve">
+    <value>Ölçek genişliği</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CreateAppointmentDependency" xml:space="preserve">
+    <value>Bağımlılık oluşturma</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteOccurrence" xml:space="preserve">
+    <value>Oluşumu sil</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteSeries" xml:space="preserve">
+    <value>Seriyi Sil</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenSchedule" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Print" xml:space="preserve">
+    <value>Hızlı yazdırma</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SaveSchedule" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ShowWorkTimeOnly" xml:space="preserve">
+    <value>Çalışma saatleri</value>
+  </data>
+  <data name="SchedulerStringId.TextAppointmentSnapToCells_Always" xml:space="preserve">
+    <value>Her zaman</value>
+  </data>
+  <data name="SchedulerStringId.TextAppointmentSnapToCells_Auto" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="SchedulerStringId.TextAppointmentSnapToCells_Never" xml:space="preserve">
+    <value>Asla</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Gantt" xml:space="preserve">
+    <value>Gantt</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Gantt" xml:space="preserve">
+    <value>Gantt görünümü</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_ForPattern" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_1Day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="SchedulerStringId.UD_SchedulerReportsToolboxCategoryName" xml:space="preserve">
+    <value>Zamanlayıcı denetimleri</value>
+  </data>
+  <data name="SchedulerStringId.TextAppointmentSnapToCells_Disabled" xml:space="preserve">
+    <value>Engelli</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ToggleRecurrence" xml:space="preserve">
+    <value>Yineleme</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ViewZoomIn" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="SchedulerStringId.Msg_DuplicateCustomFieldMappings" xml:space="preserve">
+    <value>Yinelenen özel alan adı. Eşleştirmeleri değiştirin: {0}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_DuplicateMappingMember" xml:space="preserve">
+    <value>'{0}' üyesi eşlemesi benzersiz değil:</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MissingMappingMember" xml:space="preserve">
+    <value>Eksik '{1}' '{0}' özellik eşleme üyesi.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MissingRequiredMapping" xml:space="preserve">
+    <value>'{0}' Özelliği eksik olduğu için gerekli eşleme.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenSeries" xml:space="preserve">
+    <value>Açık serisi</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_TimeScalesMenu" xml:space="preserve">
+    <value>Zaman ölçeğini değiştirmek.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ShowWorkTimeOnly" xml:space="preserve">
+    <value>Takvimde yalnızca çalışma saatlerini göster.</value>
+  </data>
+  <data name="SchedulerStringId.DisplayName_Appointment" xml:space="preserve">
+    <value>Randevu</value>
+  </data>
+  <data name="SchedulerStringId.FormatViewInterval_DayView" xml:space="preserve">
+    <value>{0:dd} - {1:D}</value>
+  </data>
+  <data name="SchedulerStringId.FormatViewInterval_DayView_SingleDay" xml:space="preserve">
+    <value>{0:D}</value>
+  </data>
+  <data name="SchedulerStringId.FormatViewInterval_MonthView" xml:space="preserve">
+    <value>{0:} - {1:}</value>
+  </data>
+  <data name="SchedulerStringId.FormatViewInterval_MonthView_EntireMonth" xml:space="preserve">
+    <value>{0:} - {1:}</value>
+  </data>
+  <data name="SchedulerStringId.FormatViewInterval_TimelineView" xml:space="preserve">
+    <value>{0:} - {1:}</value>
+  </data>
+  <data name="SchedulerStringId.FormatViewInterval_WeekView" xml:space="preserve">
+    <value>{0:} - {1:}</value>
+  </data>
+  <data name="SchedulerStringId.FormatViewInterval_WorkWeekView" xml:space="preserve">
+    <value>{0:dd} - {1:D}</value>
+  </data>
+  <data name="SchedulerStringId.MemoPrintDateFormat" xml:space="preserve">
+    <value>{0} {1} (2)</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CellsAutoHeight" xml:space="preserve">
+    <value>Hücre yüksekliğini otomatik</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_DeleteSeries" xml:space="preserve">
+    <value>Serisi silin.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupDependencyMappings" xml:space="preserve">
+    <value>Bağımlılık eşlemeleri kurulum</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupResourceMappings" xml:space="preserve">
+    <value>Kurulum kaynak eşlemeleri</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupResourceStorage" xml:space="preserve">
+    <value>Kaynak depolama kurulum</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NewAppointment" xml:space="preserve">
+    <value>Yeni bir randevu oluşturun.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_DeleteAppointmentDependency" xml:space="preserve">
+    <value>Randevu bağımlılığı silin.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_OpenAppointment" xml:space="preserve">
+    <value>Seçili randevuyu açın.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_OpenSeries" xml:space="preserve">
+    <value>Bu toplantı serisini açın.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_Print" xml:space="preserve">
+    <value>Programı değişiklik yapmadan doğrudan varsayılan yazıcıya gönderin.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_PrintPageSetup" xml:space="preserve">
+    <value>Sayfa görünümünü özelleştirmek ve çeşitli yazdırma seçeneklerini yapılandırabilirsiniz.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyResourceStorageTransactionDescription" xml:space="preserve">
+    <value>Kaynak depolama değiştirme</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyAppointmentStorageTransactionDescription" xml:space="preserve">
+    <value>Randevu depolama değiştirme</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupAppointmentDependencyStorage" xml:space="preserve">
+    <value>Bağımlılık depolama kurulum</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByDateDescription" xml:space="preserve">
+    <value>Randevu tarihine göre gruplandırabilir.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MappingsValidation" xml:space="preserve">
+    <value>Eşlemeleri doğrulama</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DayViewDescription" xml:space="preserve">
+    <value>anahtar. Belirli bir gün için randevular en ayrıntılı bir görünümünü.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GanttViewDescription" xml:space="preserve">
+    <value>anahtar. Randevu ve onların bağımlılıkları ile ilgili olarak zaman yönetimi görünümünü proje.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MappingsWizard" xml:space="preserve">
+    <value>Eşlemeleri Sihirbazı...</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyAppointmentDependencyMappingsTransactionDescription" xml:space="preserve">
+    <value>Randevu bağımlılık eşleştirmeleri değiştirin</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyAppointmentDependencyStorageTransactionDescription" xml:space="preserve">
+    <value>AppointmentDependency depolama değiştirme</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyAppointmentMappingsTransactionDescription" xml:space="preserve">
+    <value>Randevu eşleştirmeleri değiştirin</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByNoneDescription" xml:space="preserve">
+    <value>Çöz randevular.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByResourceDescription" xml:space="preserve">
+    <value>Kaynağa göre gruplandırmak randevular.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupAppointmentMappings" xml:space="preserve">
+    <value>Randevu eşlemeleri kurulum</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupAppointmentStorage" xml:space="preserve">
+    <value>Randevu depolama kurulum</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MonthViewDescription" xml:space="preserve">
+    <value>Anahtar aylık (birden çok haftalık) için görünümü. Takvim görünümü için uzun vadeli planlar yararlı.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekViewDescription" xml:space="preserve">
+    <value>anahtar. Kompakt bir biçimde belirli bir hafta için randevu düzenler.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WorkWeekViewDescription" xml:space="preserve">
+    <value>. Detaylı görünüm için belirli bir hafta içinde iş günü.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_EditAppointmentDependency" xml:space="preserve">
+    <value>Randevu bağımlılık Düzenle.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_LabelAs" xml:space="preserve">
+    <value>Seçili randevuyu etiketini değiştirmek.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_CellsAutoHeight" xml:space="preserve">
+    <value>içerdiği randevuları karşılamak için boyutu otomatik olarak ayarlamak bir kez hücre etkinleştirmek.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ChangeAppointmentReminderUI" xml:space="preserve">
+    <value>Seçili randevu anımsatılmak istediğiniz saati seçin.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ChangeSnapToCellsUI" xml:space="preserve">
+    <value>Randevu zaman hücre içinde görüntülemek için dayama bir modu belirtin.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ChangeTimelineScaleWidth" xml:space="preserve">
+    <value>Sütun genişliğini piksel olarak temel ölçek belirtin.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_CompressWeekend" xml:space="preserve">
+    <value>Show Cumartesi ve Pazar tek bir sütuna sıkıştırılmış.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_CreateAppointmentDependency" xml:space="preserve">
+    <value>Randevular arasındaki CREATE bağımlılığı</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_DeleteAppointment" xml:space="preserve">
+    <value>Seçili randevuları silme.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_PrintPreview" xml:space="preserve">
+    <value>Sayfalarını yazdırmadan önce önizleme ve yapmak değişiklikler.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_SaveSchedule" xml:space="preserve">
+    <value>Bir zamanlama (.ics) bir dosyaya kaydedin.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ShowTimeAs" xml:space="preserve">
+    <value>Seçili randevuyu durum değişikliği.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NewRecurringAppointment" xml:space="preserve">
+    <value>Yeni bir yinelenen randevu oluþturmak.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_SplitAppointment" xml:space="preserve">
+    <value>Seçili randevuyu iki kırık hattı sürükleyerek split.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_OpenSchedule" xml:space="preserve">
+    <value>Bir zamanlama (.ics) dosyadan alma.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ToggleRecurrence" xml:space="preserve">
+    <value>Seçili randevuyu yinelenen yapın veya yinelenme desenini düzenleyin.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ViewZoomOut" xml:space="preserve">
+    <value>Daha geniş bir görünüm görünümün görüntülemek için ölçekleme gerçekleştir.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ChangeSnapToCellsUI" xml:space="preserve">
+    <value>Hücrelere Snap</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_EditAppointmentDependency" xml:space="preserve">
+    <value>&amp;Düzenle</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenOccurrence" xml:space="preserve">
+    <value>Açık oluşumu</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CompressWeekend" xml:space="preserve">
+    <value>Hafta sonu sıkıştırmak</value>
+  </data>
+  <data name="SchedulerStringId.Msg_RecurrenceExceptionsWillBeLost" xml:space="preserve">
+    <value>Bu yinelenen Randevuyla ilişkili özel durumlar kaybolacak. Devam?</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormatTabControlSizeAndFontName" xml:space="preserve">
+    <value>{0} pt. {1}</value>
+  </data>
+  <data name="SchedulerStringId.Reporting_NotAssigned_TimeCells" xml:space="preserve">
+    <value>TimeCells gerekli denetim atanmamış</value>
+  </data>
+  <data name="SchedulerStringId.Reporting_NotAssigned_View" xml:space="preserve">
+    <value>Gerekli bileşen atanmamış görünümü</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InconsistentRecurrenceInfoMapping" xml:space="preserve">
+    <value>yineleme desteklemek için hem RecurrenceInfo hem de tür eşlemeniz gerekir üye.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_IncorrectMappingsQuestion" xml:space="preserve">
+    <value>Hatalı eşlemeleri. Yine de devam edilsin mi?
+Detaylar:</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MappingsCheckPassedOk" xml:space="preserve">
+    <value>Eşlemeleri doğru!</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_PrintPageSetup" xml:space="preserve">
+    <value>Sayfa &amp; kurulum</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_PrintPreview" xml:space="preserve">
+    <value>Baskı &amp; önizleme</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGanttView" xml:space="preserve">
+    <value>&amp; Gantt görünümü</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByDate" xml:space="preserve">
+    <value>ve tarihine göre Gruplandır</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByNone" xml:space="preserve">
+    <value>&amp; Grup yok tarafından</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByResource" xml:space="preserve">
+    <value>&amp;Kaynağa Göre Grupla</value>
+  </data>
+  <data name="SchedulerStringId.VS_SchedulerReportsToolboxCategoryName" xml:space="preserve">
+    <value>DX. {}0}: Raporlaması Zamanlayıcı</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ViewZoomOut" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="SchedulerStringId.DateTimeAutoFormat_WithoutYear" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SchedulerStringId.DateTimeAutoFormat_Week" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SchedulerStringId.Caption_WorkingElsewhere" xml:space="preserve">
+    <value>Başka Bir Yerde Çalışma</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_WorkingElsewhere" xml:space="preserve">
+    <value>&amp; başka bir yerde çalışma</value>
+  </data>
+  <data name="SchedulerStringId.Caption_FullWeekViewDescription" xml:space="preserve">
+    <value>Hafta görünümüne geçin. Kompakt bir biçimde belirli bir hafta için randevu düzenler.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AgendaViewDescription" xml:space="preserve">
+    <value>Ajanda görünümüne geçin. Yaklaşan etkinliklerin bir listesini görüntüler.</value>
+  </data>
+  <data name="SchedulerStringId.FlyoutCaption_Reminder" xml:space="preserve">
+    <value>Hatırlatma:</value>
+  </data>
+  <data name="SchedulerStringId.FlyoutCaption_Location" xml:space="preserve">
+    <value>Yeri:</value>
+  </data>
+</root>
