@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFisIslem));
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions11 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject41 = new DevExpress.Utils.SerializableAppearanceObject();
@@ -85,9 +84,9 @@
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject38 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject39 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject40 = new DevExpress.Utils.SerializableAppearanceObject();
-            this.ımageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.ımageList2 = new System.Windows.Forms.ImageList();
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
-            this.ımageList3 = new System.Windows.Forms.ImageList(this.components);
+            this.ımageList3 = new System.Windows.Forms.ImageList();
             this.grpToplamlar = new DevExpress.XtraEditors.GroupControl();
             this.panelGenelToplam = new DevExpress.XtraEditors.PanelControl();
             this.calcGenelToplam = new DevExpress.XtraEditors.CalcEdit();
@@ -110,7 +109,7 @@
             this.calcOdenmesiGereken = new DevExpress.XtraEditors.CalcEdit();
             this.calcOdenenTutar = new DevExpress.XtraEditors.CalcEdit();
             this.btnKapat = new DevExpress.XtraEditors.SimpleButton();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.ımageList1 = new System.Windows.Forms.ImageList();
             this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
@@ -118,7 +117,7 @@
             this.btnKod = new DevExpress.XtraEditors.DropDownButton();
             this.panelCariDevir = new DevExpress.XtraEditors.PanelControl();
             this.toggleSwitch1 = new DevExpress.XtraEditors.ToggleSwitch();
-            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barManager1 = new DevExpress.XtraBars.BarManager();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -240,7 +239,7 @@
             this.cmbYil = new DevExpress.XtraEditors.ComboBoxEdit();
             this.cmbAy = new DevExpress.XtraScheduler.UI.MonthEdit();
             this.btnPersonelBul = new DevExpress.XtraEditors.SimpleButton();
-            this.radialFiyat = new DevExpress.XtraBars.Ribbon.RadialMenu(this.components);
+            this.radialFiyat = new DevExpress.XtraBars.Ribbon.RadialMenu();
             ((System.ComponentModel.ISupportInitialize)(this.grpToplamlar)).BeginInit();
             this.grpToplamlar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelGenelToplam)).BeginInit();
@@ -1500,7 +1499,7 @@
             // 
             // colStokKodu
             // 
-            this.colStokKodu.FieldName = "StokKodu";
+            this.colStokKodu.FieldName = "Stok.StokKodu";
             this.colStokKodu.Name = "colStokKodu";
             this.colStokKodu.OptionsColumn.AllowEdit = false;
             this.colStokKodu.OptionsColumn.ShowInCustomizationForm = false;

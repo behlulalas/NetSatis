@@ -68,8 +68,8 @@
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             this.txtFisKodu = new DevExpress.XtraEditors.CalcEdit();
             this.navFirma = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.txtFirmaAdi = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.grpMenu)).BeginInit();
             this.grpMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
@@ -504,6 +504,13 @@
             this.navFirma.Name = "navFirma";
             this.navFirma.Size = new System.Drawing.Size(725, 259);
             // 
+            // txtFirmaAdi
+            // 
+            this.txtFirmaAdi.Location = new System.Drawing.Point(136, 12);
+            this.txtFirmaAdi.Name = "txtFirmaAdi";
+            this.txtFirmaAdi.Size = new System.Drawing.Size(324, 20);
+            this.txtFirmaAdi.TabIndex = 7;
+            // 
             // labelControl8
             // 
             this.labelControl8.Appearance.BorderColor = System.Drawing.Color.Gray;
@@ -517,13 +524,6 @@
             this.labelControl8.Size = new System.Drawing.Size(125, 22);
             this.labelControl8.TabIndex = 6;
             this.labelControl8.Text = "Firma Adı :";
-            // 
-            // txtFirmaAdi
-            // 
-            this.txtFirmaAdi.Location = new System.Drawing.Point(136, 12);
-            this.txtFirmaAdi.Name = "txtFirmaAdi";
-            this.txtFirmaAdi.Size = new System.Drawing.Size(324, 20);
-            this.txtFirmaAdi.TabIndex = 7;
             // 
             // FrmAyarlar
             // 

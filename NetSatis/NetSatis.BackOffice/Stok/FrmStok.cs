@@ -46,30 +46,23 @@ namespace NetSatis.BackOffice.Stok
         {
             filterControl1.ApplyFilter();
         }
-
         private void btnFiltreIptal_Click(object sender, EventArgs e)
         {
             filterControl1.FilterString = null;
             filterControl1.ApplyFilter();
-
         }
-
         private void btnFiltreKapat_Click(object sender, EventArgs e)
         {
             splitContainerControl1.PanelVisibility = SplitPanelVisibility.Panel2;
         }
-
         private void btnAra_Click(object sender, EventArgs e)
         {
             splitContainerControl1.PanelVisibility = SplitPanelVisibility.Both;
-
         }
-
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
             GetAll();
         }
-
         private void btnSil_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Seçili olan veriyi silmek istediğinize emin misiniz?", "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -81,7 +74,6 @@ namespace NetSatis.BackOffice.Stok
                 GetAll();
             }
         }
-
         private void btnEkle_Click(object sender, EventArgs e)
         {
             FrmStokIslem frm = new FrmStokIslem(new Entities.Tables.Stok());
@@ -91,7 +83,6 @@ namespace NetSatis.BackOffice.Stok
                 GetAll();
             }
         }
-
         private void btnDuzenle_Click(object sender, EventArgs e)
         {
             secilen = (int)gridStoklar.GetFocusedRowCellValue(colId);
@@ -102,7 +93,6 @@ namespace NetSatis.BackOffice.Stok
                 GetAll();
             }
         }
-
         private void btnKopyala_Click(object sender, EventArgs e)
         {
             secilen = (int)gridStoklar.GetFocusedRowCellValue(colId);
@@ -115,7 +105,6 @@ namespace NetSatis.BackOffice.Stok
                 GetAll();
             }
         }
-
         private void btnStokHareket_Click(object sender, EventArgs e)
         {
             secilen = (int)gridStoklar.GetFocusedRowCellValue(colId);

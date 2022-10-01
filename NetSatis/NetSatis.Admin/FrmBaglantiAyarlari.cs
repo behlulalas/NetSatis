@@ -78,6 +78,7 @@ namespace NetSatis.Admin
             {
 
                 SettingsTool.AyarDegistir(SettingsTool.Ayarlar.DatabaseAyarlari_BaglantiCumlesi, builder.ConnectionString);
+                SettingsTool.AyarDegistir(SettingsTool.Ayarlar.DatabaseAyarlari_ServerName,txtServer.Text);
                 SettingsTool.Save();
 
                 kaydedildi = true;

@@ -35,7 +35,7 @@ namespace NetSatis.Admin
             InitializeComponent();
             yuklemeFormu = new LoadingTool(this);
             kodOlustur = new CodeTool(this, CodeTool.Table.Fis);
-            builderKaynak.DataSource = "(localdb)\v11.0";
+            builderKaynak.DataSource =  SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_ServerName);
             builderKaynak.InitialCatalog = "master";
             builderKaynak.IntegratedSecurity = true;
             kaynakContext = new NetSatisContext(builderKaynak.ConnectionString);
@@ -68,7 +68,7 @@ namespace NetSatis.Admin
         private void KaynakSec(object sender, EventArgs e)
         {
             CheckButton button = (CheckButton)sender;
-            builderKaynak.DataSource = "(localdb)\v11.0";
+            builderKaynak.DataSource =  SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_ServerName);
             builderKaynak.InitialCatalog = "NetSatis" + button.Text;
             builderKaynak.IntegratedSecurity = true;
             seciliKaynak = button.Text;
@@ -134,7 +134,7 @@ namespace NetSatis.Admin
                     button.Click += HedefSec;
                     flowHedef.Controls.Add(button);
 
-                    builderHedef.DataSource = "(localdb)\v11.0";
+                    builderHedef.DataSource =  SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_ServerName);
                     builderHedef.InitialCatalog = "NetSatis" + button.Text;
                     builderHedef.IntegratedSecurity = true;
                     hedefContext = new NetSatisContext(builderHedef.ConnectionString);
@@ -253,7 +253,7 @@ namespace NetSatis.Admin
         private void HedefSec(object sender, EventArgs e)
         {
             CheckButton button = (CheckButton)sender;
-            builderHedef.DataSource = "(localdb)\v11.0";
+            builderHedef.DataSource =  SettingsTool.AyarOku(SettingsTool.Ayarlar.DatabaseAyarlari_ServerName);
             builderHedef.InitialCatalog = "NetSatis" + button.Text;
             builderHedef.IntegratedSecurity = true;
             seciliHedef = button.Text;

@@ -45,6 +45,7 @@ namespace NetSatis.Entities.Tools
             GenelAyarlar_GuncellemeKontrol,
             DatabaseAyarlari_BaglantiCumlesi,
             DatabaseAyarlari_GecerliDB,
+            DatabaseAyarlari_ServerName,
             FirmaAyarlari_FirmaAdi,
         }
         public static void AyarDegistir(Ayarlar ayar, string value)

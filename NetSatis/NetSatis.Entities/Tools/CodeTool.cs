@@ -110,9 +110,18 @@ namespace NetSatis.Entities.Tools
         }
         public void KodForText(string tablo,string onEki)
         {
-            _context = new NetSatisContext();
-            TextEdit text = (TextEdit)_form.Controls.Find("txtKod", true).SingleOrDefault();
-            text.Text =KodOlustur(onEki, _context.Kodlar.SingleOrDefault(c => c.Tablo ==tablo &&c.OnEki==onEki).SonDeger);
+            try
+            {
+                _context = new NetSatisContext();
+                TextEdit text = (TextEdit)_form.Controls.Find("txtKod", true).SingleOrDefault();
+                text.Text = KodOlustur(onEki, _context.Kodlar.SingleOrDefault(c => c.Tablo == tablo && c.OnEki == onEki).SonDeger);
+            }
+            catch (Exception e)
+            {
+
+               XtraMessageBox.Show(e.Message);
+            }
+            
         }
         public string YeniFisOdemeKoduOlustur()
         {

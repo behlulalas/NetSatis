@@ -12,7 +12,7 @@ namespace NetSatis.Reports.FaturaVeFis
 {
     public partial class rptFatura : DevExpress.XtraReports.UI.XtraReport
     {
-        public rptFatura( string fisKodu)
+        public rptFatura(string fisKodu)
         {
             InitializeComponent();
             NetSatisContext context = new NetSatisContext();

@@ -53,6 +53,7 @@
             this.colToplamTutar = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAciklama = new DevExpress.XtraGrid.Columns.GridColumn();
             this.grpMenu = new DevExpress.XtraEditors.GroupControl();
+            this.dropExport = new DevExpress.XtraEditors.DropDownButton();
             this.btnEkle = new DevExpress.XtraEditors.DropDownButton();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barFaturalar = new DevExpress.XtraBars.BarSubItem();
@@ -82,7 +83,6 @@
             this.btnSil = new DevExpress.XtraEditors.SimpleButton();
             this.btnDuzenle = new DevExpress.XtraEditors.SimpleButton();
             this.lblBaslik = new DevExpress.XtraEditors.LabelControl();
-            this.dropExport = new DevExpress.XtraEditors.DropDownButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridcontFisler)).BeginInit();
@@ -365,6 +365,15 @@
             this.grpMenu.Size = new System.Drawing.Size(1142, 76);
             this.grpMenu.TabIndex = 1;
             this.grpMenu.Text = "Menu";
+            // 
+            // dropExport
+            // 
+            this.dropExport.DropDownArrowStyle = DevExpress.XtraEditors.DropDownArrowStyle.Show;
+            this.dropExport.Location = new System.Drawing.Point(896, 21);
+            this.dropExport.Name = "dropExport";
+            this.dropExport.Size = new System.Drawing.Size(135, 40);
+            this.dropExport.TabIndex = 4;
+            this.dropExport.Text = "Dışa Aktar";
             // 
             // btnEkle
             // 
@@ -661,15 +670,6 @@
             this.lblBaslik.Size = new System.Drawing.Size(1142, 52);
             this.lblBaslik.TabIndex = 3;
             this.lblBaslik.Text = "Fiş Ve Faturalar";
-            // 
-            // dropExport
-            // 
-            this.dropExport.DropDownArrowStyle = DevExpress.XtraEditors.DropDownArrowStyle.Show;
-            this.dropExport.Location = new System.Drawing.Point(896, 21);
-            this.dropExport.Name = "dropExport";
-            this.dropExport.Size = new System.Drawing.Size(135, 40);
-            this.dropExport.TabIndex = 4;
-            this.dropExport.Text = "Dışa Aktar";
             // 
             // FrmFis
             // 

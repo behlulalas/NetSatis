@@ -60,21 +60,26 @@ namespace NetSatis.BackOffice
             {
             }
             WebClient indir = new WebClient();
-
-            string programVersion = Assembly.Load("NetSatis.BackOffice").GetName().Version.ToString();
-            string guncelVersion = indir.DownloadString("http://kozaapp.000webhostapp.com/downloads/Version.txt");
-            if (programVersion != guncelVersion)
+            try
             {
-                if (Convert.ToBoolean(SettingsTool.AyarOku(SettingsTool.Ayarlar.GenelAyarlar_GuncellemeKontrol)))
+                string programVersion = Assembly.Load("NetSatis.BackOffice").GetName().Version.ToString();
+                string guncelVersion = indir.DownloadString("http://kozaapp.000webhostapp.com/downloads/Version.txt");
+                if (programVersion != guncelVersion)
                 {
-                    if (MessageBox.Show("Uygulamanın yeni bir versiyonu bulundu güncellemek ister misiniz ? Yeni Versiyon: " + guncelVersion, "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    if (Convert.ToBoolean(SettingsTool.AyarOku(SettingsTool.Ayarlar.GenelAyarlar_GuncellemeKontrol)))
                     {
-                        Process.Start($"{Application.StartupPath}\\NetSatis.Update.exe");
+                        if (MessageBox.Show("Uygulamanın yeni bir versiyonu bulundu güncellemek ister misiniz ? Yeni Versiyon: " + guncelVersion, "Uyarı", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            Process.Start($"{Application.StartupPath}\\NetSatis.Update.exe");
+                        }
                     }
                 }
             }
+            catch (Exception e)
+            {
 
-
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
